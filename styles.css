@@ -237,6 +237,10 @@ table {
   border-collapse: collapse;
 }
 
+table.is-official-table {
+  min-width: 520px;
+}
+
 th,
 td {
   padding: 16px 14px;
@@ -346,6 +350,13 @@ tbody tr.is-selected {
   color: var(--accent);
   font-size: 1.18rem;
   font-weight: 950;
+}
+
+.official-points {
+  color: var(--accent);
+  font-size: 1.05rem;
+  font-weight: 950;
+  white-space: nowrap;
 }
 
 .projected-points {

@@ -4,7 +4,9 @@ const state = {
 };
 
 const els = {
+  rankingTable: document.querySelector("table"),
   rankingBody: document.querySelector("#rankingBody"),
+  rankingHead: document.querySelector("thead"),
   searchInput: document.querySelector("#searchInput"),
   genderFilter: document.querySelector("#genderFilter"),
   sortFilter: document.querySelector("#sortFilter"),
@@ -213,6 +215,10 @@ function pointsBalanceLabel(player) {
   };
 }
 
+function officialPoints(player) {
+  return Number(player.sourceTotalCombinedPoints ?? player.basePoints ?? 0);
+}
+
 function phaseText(liveEvent = {}) {
   const singles = liveEvent.singlesStatus === "Eliminado"
     ? `Eliminado ${liveEvent.singlesRound || ""}`.trim()
@@ -236,17 +242,54 @@ function weeklyStatusMarkup(liveEvent = {}) {
 
 function renderTable() {
   const players = getRankedPlayers();
+  const isOfficialTable = els.sortFilter.value === "officialRank";
   const selectedIsVisible = players.some((player) => player.id === state.selectedId);
   if (state.selectedId && !selectedIsVisible) {
     state.selectedId = null;
     renderEmptyDetails();
   }
 
+  els.rankingTable.classList.toggle("is-official-table", isOfficialTable);
+
+  els.rankingHead.innerHTML = isOfficialTable
+    ? `
+      <tr>
+        <th>Ranking oficial</th>
+        <th>Atleta</th>
+        <th>Pontos base</th>
+      </tr>
+    `
+    : `
+      <tr>
+        <th>Ranking ao vivo</th>
+        <th>Atleta</th>
+        <th>Ranking oficial</th>
+        <th>Pontos ao vivo</th>
+        <th>PontuaÃ§Ã£o mÃ¡xima</th>
+        <th>Jogando esta semana</th>
+      </tr>
+    `;
+
   els.rankingBody.innerHTML = players
     .map((player) => {
       const movement = movementLabel(player);
       const pointsBalance = pointsBalanceLabel(player);
       const selected = state.selectedId === player.id ? " is-selected" : "";
+      if (isOfficialTable) {
+        return `
+          <tr class="${selected}" data-player-id="${player.id}">
+            <td><strong class="rank">${player.currentRank || "-"}</strong></td>
+            <td>
+              <div class="player">
+                <strong>${player.name}</strong>
+                <span>${flagMarkup(player.country)}</span>
+              </div>
+            </td>
+            <td><strong class="official-points">${formatNumber(officialPoints(player))}</strong></td>
+          </tr>
+        `;
+      }
+
       return `
         <tr class="${selected}" data-player-id="${player.id}">
           <td>
