@@ -260,7 +260,7 @@ function renderTable() {
         <th>Atleta</th>
         <th>Ranking oficial</th>
         <th>Pontos ao vivo</th>
-        <th>PontuaÃ§Ã£o mÃ¡xima</th>
+        <th>Pontuação máxima</th>
         <th>Jogando esta semana</th>
       </tr>
     `;
