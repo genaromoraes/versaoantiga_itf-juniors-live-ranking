@@ -1,7 +1,7 @@
 {
   "dataSource": {
     "rankingDate": "18 mai 2026",
-    "updatedAt": "18/05/2026, 13:40",
+    "updatedAt": "18/05/2026, 13:43",
     "note": "Pontos = ∑ 6 melhores resultados de simples + ∑ 25% dos 6 melhores resultados de duplas"
   },
   "players": [
@@ -1161,7 +1161,7 @@
       "gender": "Boys",
       "currentRank": 7,
       "officialPoints": 1966.5,
-      "sourceTotalCombinedPoints": 2142.75,
+      "sourceTotalCombinedPoints": 1966.5,
       "singles": [
         {
           "event": "2025 ITF World Tennis Tour Junior Finals",
@@ -1175,13 +1175,6 @@
           "round": "J500",
           "points": 350,
           "date": "2025-12-08",
-          "sourceCounting": true
-        },
-        {
-          "event": "J300 Santa Croce sull’Arno",
-          "round": "J300",
-          "points": 300,
-          "date": "2025-05-12",
           "sourceCounting": true
         },
         {
@@ -1210,7 +1203,7 @@
           "round": "JGS",
           "points": 180,
           "date": "2025-08-31",
-          "sourceCounting": false
+          "sourceCounting": true
         }
       ],
       "doubles": [
@@ -1233,13 +1226,6 @@
           "round": "J500",
           "points": 262,
           "date": "2025-05-19",
-          "sourceCounting": true
-        },
-        {
-          "event": "J300 Santa Croce sull’Arno",
-          "round": "J300",
-          "points": 225,
-          "date": "2025-05-12",
           "sourceCounting": true
         },
         {
