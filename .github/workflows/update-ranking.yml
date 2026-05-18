@@ -1,0 +1,31 @@
+name: Update ranking data
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 09:00, 13:00, 17:00 e 21:00 no horario de Brasilia (UTC-3).
+    - cron: "0 12,16,20,0 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-ranking:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Generate latest data
+        run: npm run build:data
+
+      - name: Commit latest data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update ranking data"
+          file_pattern: data/latest.json

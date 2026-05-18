@@ -1,0 +1,9 @@
+{
+  "name": "itf-juniors-live-ranking",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:data": "node pipeline/build-latest.mjs"
+  }
+}

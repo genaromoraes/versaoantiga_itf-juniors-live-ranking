@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juvenil Live Ranking</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand-block">
+        <h1 class="brand-title">ITF Juniors Live Ranking</h1>
+        <p class="site-credit">Criado por Info Tênis Brasil</p>
+      </div>
+      <div class="week-card">
+        <span>Ranking base</span>
+        <strong id="weekLabel">17 mai 2026</strong>
+        <small id="updatedAtLabel">Atualizado 17 mai 2026, 19:00</small>
+      </div>
+    </header>
+
+    <main>
+      <section class="controls" aria-label="Filtros do ranking">
+        <label>
+          Buscar atleta
+          <input id="searchInput" type="search" placeholder="Nome, país ou torneio" />
+        </label>
+        <label>
+          Categoria
+          <select id="genderFilter">
+            <option value="Boys">Masculino</option>
+            <option value="Girls">Feminino</option>
+          </select>
+        </label>
+        <label>
+          Ordenar por
+          <select id="sortFilter">
+            <option value="liveRank">Ranking ao vivo</option>
+            <option value="officialRank">Ranking oficial</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="ranking-workspace">
+        <section class="table-shell">
+          <div class="section-heading">
+            <div>
+              <h2>Live ranking</h2>
+              <p id="dataSourceNote">Calculado com os 6 melhores resultados de simples e 25% dos 6 melhores de duplas.</p>
+            </div>
+            <button id="sampleDataButton" type="button">Recarregar exemplo</button>
+          </div>
+
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th>Ranking ao vivo</th>
+                  <th>Atleta</th>
+                  <th>Ranking oficial</th>
+                  <th>Pontos ao vivo</th>
+                  <th>Pontuação máxima</th>
+                  <th>Jogando esta semana</th>
+                </tr>
+              </thead>
+              <tbody id="rankingBody"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <aside class="panel player-panel">
+          <h2>Pontuações do atleta</h2>
+          <div id="playerDetails" class="details-empty">
+            Selecione um atleta para ver os resultados que entram e os que ficam fora do ranking.
+          </div>
+        </aside>
+      </section>
+
+      <section class="import-grid">
+        <article class="panel">
+          <h2>Importar dados</h2>
+          <p class="muted">
+            Cole um JSON de atletas para substituir os dados de exemplo. Isso permite operar manualmente
+            enquanto a integração com a ITF ainda não existe.
+          </p>
+          <textarea id="jsonInput" spellcheck="false" placeholder='[{"name":"...", "country":"BRA", ...}]'></textarea>
+          <div class="button-row">
+            <button id="importButton" type="button">Importar JSON</button>
+            <button id="exportButton" type="button">Copiar JSON atual</button>
+          </div>
+          <p id="importStatus" class="status" role="status"></p>
+        </article>
+      </section>
+    </main>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
