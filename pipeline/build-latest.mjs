@@ -327,11 +327,12 @@ function pointsAndStatusForTournament(tournament, rules, matchType) {
   const normalizedCurrentRound = displayToRound[tournament.currentRound] || tournament.currentRound || "";
   const pointsRound = tournament.status === "Eliminado" ? lastResult?.round || normalizedCurrentRound : normalizedCurrentRound || lastResult?.round || "";
   const currentRound = roundToDisplay[tournament.currentRound] || tournament.currentRound || "Nao joga";
+  const pointsOverride = Number(tournament.pointsOverride);
 
   return {
     status: tournament.status === "Eliminado" ? "Eliminado" : "Ativo",
     round: currentRound,
-    points: pointsForRound(rules, tournament.grade, matchType, pointsRound),
+    points: Number.isFinite(pointsOverride) ? pointsOverride : pointsForRound(rules, tournament.grade, matchType, pointsRound),
     maxPoints: pointsForRound(rules, tournament.grade, matchType, "W")
   };
 }
@@ -405,6 +406,7 @@ function weeklyTournamentFromRow(row) {
     matchType: row.match_type,
     status,
     currentRound: row.current_round,
+    pointsOverride: row.points_override,
     matches: status === "Eliminado"
       ? [{ round: row.current_round, outcome: "L", opponent: "", score: "" }]
       : []

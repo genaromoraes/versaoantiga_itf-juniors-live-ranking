@@ -24,6 +24,7 @@ const headers = [
   "end_date",
   "status",
   "current_round",
+  "points_override",
   "source_url",
   "notes"
 ];
@@ -139,6 +140,7 @@ function confidenceNote(value = "") {
     "nearby-result": "resultado encontrado perto do nome",
     "nearby-win": "vitoria encontrada perto do nome",
     "nearby-round": "rodada encontrada perto do nome",
+    bye: "bye encontrado; atleta avancou de rodada sem pontuar",
     pending: "fase pendente"
   }[value] || value || "fase pendente";
 }
@@ -270,12 +272,14 @@ function lineOutcomeScore(lines, index) {
   const before = lines.slice(Math.max(0, index - 16), index).reverse();
   const round = [...before, ...after].find(isRound);
   const outcome = [...after, ...before].find((line) => line === "W" || line === "L") || "";
+  const bye = [...after, ...before].some((line) => line === "BYE");
 
-  if (!round) return null;
+  if (!round && !bye) return null;
   return {
-    round,
+    round: round || "R64",
     outcome,
-    score: (outcome ? 2 : 1) + (before.find(isRound) ? 1 : 0)
+    bye,
+    score: (outcome ? 3 : 1) + (bye ? 2 : 0) + (before.find(isRound) ? 1 : 0)
   };
 }
 
@@ -302,6 +306,10 @@ function drawStatusForPlayer(text, player) {
 
   const best = candidates.sort((a, b) => b.score - a.score)[0];
   if (!best) return { status: "Ativo", currentRound: pendingRound, confidence: "pending" };
+
+  if (best.bye && !best.outcome) {
+    return { status: "Ativo", currentRound: nextRound(best.round), pointsOverride: 0, confidence: "bye" };
+  }
 
   if (best.outcome === "L") {
     return { status: "Eliminado", currentRound: roundForOutcome(best.round, best.outcome), confidence: "nearby-result" };
@@ -414,6 +422,7 @@ for (const tournament of tournaments) {
       tournament.endDate,
       drawResult.status,
       drawResult.currentRound,
+      drawResult.pointsOverride ?? "",
       tournament.drawsUrl,
       `Encontrado na acceptance list do itf-entries (${player.entryGroup || "sem grupo"}); leitura do draw: ${confidenceNote(drawResult.confidence)}.`
     ]);
