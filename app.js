@@ -74,14 +74,19 @@ function sumCounted(results = [], multiplier = 1) {
 }
 
 const gradePoints = {
-  J500: { QF: 150, SF: 250, Final: 350, Campeao: 500 },
-  J300: { QF: 100, SF: 140, Final: 210, Campeao: 300 },
-  J200: { QF: 60, SF: 100, Final: 140, Campeao: 200 },
-  J100: { QF: 30, SF: 40, Final: 60, Campeao: 100 },
-  J60: { QF: 18, SF: 24, Final: 36, Campeao: 60 }
+  JGS: { R32: 90, R16: 180, QF: 300, SF: 490, Final: 700, Campeao: 1000 },
+  J500: { R32: 45, R16: 90, QF: 150, SF: 250, Final: 350, Campeao: 500 },
+  J300: { R32: 30, R16: 60, QF: 100, SF: 140, Final: 210, Campeao: 300 },
+  J200: { R32: 18, R16: 36, QF: 60, SF: 100, Final: 140, Campeao: 200 },
+  J100: { R32: 5, R16: 10, QF: 20, SF: 36, Final: 60, Campeao: 100 },
+  J60: { R16: 5, QF: 10, SF: 18, Final: 36, Campeao: 60 },
+  J30: { R16: 2, QF: 5, SF: 9, Final: 18, Campeao: 30 }
 };
 
 const nextRound = {
+  R64: "R32",
+  R32: "R16",
+  R16: "QF",
   QF: "SF",
   SF: "Final",
   Final: "Campeao",
@@ -239,6 +244,21 @@ function weeklyStatusMarkup(liveEvent = {}) {
   `;
 }
 
+function projectionMarkup(player) {
+  return `
+    <div class="projection-cell">
+      <div>
+        <span>Próx. vitória</span>
+        <strong>${formatNumber(player.nextWinPoints)}</strong>
+      </div>
+      <div>
+        <span>Campeão</span>
+        <strong>${formatNumber(player.maxPoints)}</strong>
+      </div>
+    </div>
+  `;
+}
+
 function renderTable() {
   const players = getRankedPlayers();
   const isOfficialTable = els.sortFilter.value === "officialRank";
@@ -264,7 +284,7 @@ function renderTable() {
         <th>Atleta</th>
         <th>Ranking oficial</th>
         <th>Pontos ao vivo</th>
-        <th>Pontuação máxima</th>
+        <th>Cenários</th>
         <th>Jogando esta semana</th>
       </tr>
     `;
@@ -310,7 +330,7 @@ function renderTable() {
               <span class="pill ${pointsBalance.type}">${pointsBalance.text}</span>
             </div>
           </td>
-          <td class="projected-points is-max">${formatNumber(player.maxPoints)}</td>
+          <td class="projected-points is-max">${projectionMarkup(player)}</td>
           <td>${weeklyStatusMarkup(player.liveEvent)}</td>
         </tr>
       `;

@@ -369,6 +369,32 @@ tbody tr.is-selected {
   color: var(--accent-2);
 }
 
+.projection-cell {
+  display: grid;
+  gap: 5px;
+  min-width: 118px;
+}
+
+.projection-cell div {
+  display: grid;
+  gap: 1px;
+}
+
+.projection-cell span {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.projection-cell strong {
+  color: var(--accent-2);
+  font-size: 0.98rem;
+  font-weight: 950;
+}
+
 .week-status {
   display: grid;
   gap: 2px;
