@@ -84,6 +84,22 @@ h1 {
   font-weight: 750;
 }
 
+.topbar-actions {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin-left: auto;
+}
+
+.language-control {
+  min-width: 150px;
+}
+
+.language-control select {
+  height: 40px;
+  padding: 0 12px;
+}
+
 h2 {
   margin-bottom: 8px;
   font-size: 1.18rem;
@@ -102,7 +118,6 @@ main {
   border-radius: 8px;
   background: var(--surface);
   box-shadow: var(--shadow);
-  margin-left: clamp(16px, 4vw, 64px);
 }
 
 .week-card span,
@@ -507,6 +522,16 @@ tbody tr.is-selected {
 
   .week-card {
     margin-left: 0;
+  }
+
+  .topbar-actions {
+    align-items: stretch;
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .language-control {
+    width: 100%;
   }
 
   main {

@@ -1,6 +1,8 @@
 const state = {
   players: structuredClone(samplePlayers),
-  selectedId: null
+  selectedId: null,
+  language: localStorage.getItem("itf-juniors-language") || "pt",
+  dataSource: typeof dataSource !== "undefined" ? dataSource : {}
 };
 
 const els = {
@@ -13,13 +15,235 @@ const els = {
   playerDetails: document.querySelector("#playerDetails"),
   weekLabel: document.querySelector("#weekLabel"),
   updatedAtLabel: document.querySelector("#updatedAtLabel"),
-  dataSourceNote: document.querySelector("#dataSourceNote")
+  dataSourceNote: document.querySelector("#dataSourceNote"),
+  languageSelect: document.querySelector("#languageSelect"),
+  languageLabel: document.querySelector("#languageLabel"),
+  siteCredit: document.querySelector("#siteCredit"),
+  rankingBaseLabel: document.querySelector("#rankingBaseLabel"),
+  searchLabel: document.querySelector("#searchLabel"),
+  categoryLabel: document.querySelector("#categoryLabel"),
+  sortLabel: document.querySelector("#sortLabel"),
+  liveRankingTitle: document.querySelector("#liveRankingTitle"),
+  playerPanelTitle: document.querySelector("#playerPanelTitle")
 };
 
-if (typeof dataSource !== "undefined") {
-  els.weekLabel.textContent = dataSource.rankingDate;
-  els.updatedAtLabel.textContent = `Atualizado ${dataSource.updatedAt}`;
-  els.dataSourceNote.textContent = dataSource.note;
+const translations = {
+  pt: {
+    htmlLang: "pt-BR",
+    updated: "Atualizado",
+    siteCredit: "Criado por Info Tênis Brasil",
+    language: "Idioma",
+    rankingBase: "Ranking base",
+    search: "Buscar atleta",
+    searchPlaceholder: "Nome, país ou torneio",
+    category: "Categoria",
+    boys: "Masculino",
+    girls: "Feminino",
+    sortBy: "Ordenar por",
+    liveRank: "Ranking ao vivo",
+    officialRank: "Ranking oficial",
+    liveRanking: "Live ranking",
+    formula: "Pontos = ∑ 6 melhores resultados de simples + ∑ 25% dos 6 melhores resultados de duplas",
+    officialPoints: "Pontos base",
+    athlete: "Atleta",
+    livePoints: "Pontos ao vivo",
+    scenarios: "Cenários",
+    playingThisWeek: "Jogando esta semana",
+    playerPoints: "Pontuações do atleta",
+    emptyDetails: "Selecione um atleta para ver os resultados que entram e os que ficam fora do ranking.",
+    nextWin: "Próx. vitória",
+    champion: "Campeão",
+    singles: "Simples",
+    doubles: "Duplas",
+    notPlaying: "não joga",
+    eliminated: "eliminado",
+    currentTournament: "Torneio atual",
+    counting: "contando",
+    notCounting: "não contando",
+    gross: "bruto",
+    official: "oficial",
+    maximum: "máximo",
+    pointsDefended: "Pontos defendidos nesta semana",
+    pointsEntering: "Pontos entrando no torneio atual"
+  },
+  en: {
+    htmlLang: "en",
+    updated: "Updated",
+    siteCredit: "Created by Info Tênis Brasil",
+    language: "Language",
+    rankingBase: "Base ranking",
+    search: "Search player",
+    searchPlaceholder: "Name, country or tournament",
+    category: "Category",
+    boys: "Boys",
+    girls: "Girls",
+    sortBy: "Sort by",
+    liveRank: "Live ranking",
+    officialRank: "Official ranking",
+    liveRanking: "Live ranking",
+    formula: "Points = ∑ best 6 singles results + ∑ 25% of best 6 doubles results",
+    officialPoints: "Base points",
+    athlete: "Player",
+    livePoints: "Live points",
+    scenarios: "Scenarios",
+    playingThisWeek: "Playing this week",
+    playerPoints: "Player points",
+    emptyDetails: "Select a player to see counting results and results outside the ranking.",
+    nextWin: "Next win",
+    champion: "Champion",
+    singles: "Singles",
+    doubles: "Doubles",
+    notPlaying: "not playing",
+    eliminated: "eliminated",
+    currentTournament: "Current tournament",
+    counting: "counting",
+    notCounting: "not counting",
+    gross: "raw",
+    official: "official",
+    maximum: "maximum",
+    pointsDefended: "Points defended this week",
+    pointsEntering: "Points entering from current tournament"
+  },
+  es: {
+    htmlLang: "es",
+    updated: "Actualizado",
+    siteCredit: "Creado por Info Tênis Brasil",
+    language: "Idioma",
+    rankingBase: "Ranking base",
+    search: "Buscar jugador",
+    searchPlaceholder: "Nombre, país o torneo",
+    category: "Categoría",
+    boys: "Masculino",
+    girls: "Femenino",
+    sortBy: "Ordenar por",
+    liveRank: "Ranking en vivo",
+    officialRank: "Ranking oficial",
+    liveRanking: "Ranking en vivo",
+    formula: "Puntos = ∑ 6 mejores resultados de individuales + ∑ 25% de los 6 mejores resultados de dobles",
+    officialPoints: "Puntos base",
+    athlete: "Jugador",
+    livePoints: "Puntos en vivo",
+    scenarios: "Escenarios",
+    playingThisWeek: "Jugando esta semana",
+    playerPoints: "Puntos del jugador",
+    emptyDetails: "Seleccione un jugador para ver los resultados que cuentan y los que quedan fuera del ranking.",
+    nextWin: "Próx. victoria",
+    champion: "Campeón",
+    singles: "Individuales",
+    doubles: "Dobles",
+    notPlaying: "no juega",
+    eliminated: "eliminado",
+    currentTournament: "Torneo actual",
+    counting: "contando",
+    notCounting: "no contando",
+    gross: "bruto",
+    official: "oficial",
+    maximum: "máximo",
+    pointsDefended: "Puntos defendidos esta semana",
+    pointsEntering: "Puntos que entran del torneo actual"
+  },
+  it: {
+    htmlLang: "it",
+    updated: "Aggiornato",
+    siteCredit: "Creato da Info Tênis Brasil",
+    language: "Lingua",
+    rankingBase: "Ranking base",
+    search: "Cerca giocatore",
+    searchPlaceholder: "Nome, paese o torneo",
+    category: "Categoria",
+    boys: "Maschile",
+    girls: "Femminile",
+    sortBy: "Ordina per",
+    liveRank: "Ranking live",
+    officialRank: "Ranking ufficiale",
+    liveRanking: "Ranking live",
+    formula: "Punti = ∑ 6 migliori risultati di singolare + ∑ 25% dei 6 migliori risultati di doppio",
+    officialPoints: "Punti base",
+    athlete: "Giocatore",
+    livePoints: "Punti live",
+    scenarios: "Scenari",
+    playingThisWeek: "In gioco questa settimana",
+    playerPoints: "Punti del giocatore",
+    emptyDetails: "Seleziona un giocatore per vedere i risultati validi e quelli fuori dal ranking.",
+    nextWin: "Prossima vittoria",
+    champion: "Campione",
+    singles: "Singolare",
+    doubles: "Doppio",
+    notPlaying: "non gioca",
+    eliminated: "eliminato",
+    currentTournament: "Torneo attuale",
+    counting: "valido",
+    notCounting: "non valido",
+    gross: "lordi",
+    official: "ufficiale",
+    maximum: "massimo",
+    pointsDefended: "Punti difesi questa settimana",
+    pointsEntering: "Punti in entrata dal torneo attuale"
+  },
+  fr: {
+    htmlLang: "fr",
+    updated: "Mis à jour",
+    siteCredit: "Créé par Info Tênis Brasil",
+    language: "Langue",
+    rankingBase: "Classement de base",
+    search: "Rechercher joueur",
+    searchPlaceholder: "Nom, pays ou tournoi",
+    category: "Catégorie",
+    boys: "Garçons",
+    girls: "Filles",
+    sortBy: "Trier par",
+    liveRank: "Classement live",
+    officialRank: "Classement officiel",
+    liveRanking: "Classement live",
+    formula: "Points = ∑ 6 meilleurs résultats en simple + ∑ 25% des 6 meilleurs résultats en double",
+    officialPoints: "Points de base",
+    athlete: "Joueur",
+    livePoints: "Points live",
+    scenarios: "Scénarios",
+    playingThisWeek: "Joue cette semaine",
+    playerPoints: "Points du joueur",
+    emptyDetails: "Sélectionnez un joueur pour voir les résultats comptabilisés et ceux hors classement.",
+    nextWin: "Proch. victoire",
+    champion: "Champion",
+    singles: "Simple",
+    doubles: "Double",
+    notPlaying: "ne joue pas",
+    eliminated: "éliminé",
+    currentTournament: "Tournoi actuel",
+    counting: "comptabilisé",
+    notCounting: "non comptabilisé",
+    gross: "brut",
+    official: "officiel",
+    maximum: "maximum",
+    pointsDefended: "Points défendus cette semaine",
+    pointsEntering: "Points entrant du tournoi actuel"
+  }
+};
+
+function t(key) {
+  return (translations[state.language] || translations.pt)[key] || translations.pt[key] || key;
+}
+
+function updateStaticText() {
+  document.documentElement.lang = t("htmlLang");
+  els.languageSelect.value = state.language;
+  els.languageLabel.textContent = t("language");
+  els.siteCredit.textContent = t("siteCredit");
+  els.rankingBaseLabel.textContent = t("rankingBase");
+  els.searchLabel.textContent = t("search");
+  els.searchInput.placeholder = t("searchPlaceholder");
+  els.categoryLabel.textContent = t("category");
+  els.genderFilter.querySelector('option[value="Boys"]').textContent = t("boys");
+  els.genderFilter.querySelector('option[value="Girls"]').textContent = t("girls");
+  els.sortLabel.textContent = t("sortBy");
+  els.sortFilter.querySelector('option[value="liveRank"]').textContent = t("liveRank");
+  els.sortFilter.querySelector('option[value="officialRank"]').textContent = t("officialRank");
+  els.liveRankingTitle.textContent = t("liveRanking");
+  els.playerPanelTitle.textContent = t("playerPoints");
+  els.dataSourceNote.textContent = t("formula");
+
+  if (state.dataSource.rankingDate) els.weekLabel.textContent = state.dataSource.rankingDate;
+  if (state.dataSource.updatedAt) els.updatedAtLabel.textContent = `${t("updated")} ${state.dataSource.updatedAt}`;
 }
 
 function applyDataSet(payload) {
@@ -32,13 +256,13 @@ function applyDataSet(payload) {
   state.selectedId = null;
 
   if (nextSource) {
-    els.weekLabel.textContent = nextSource.rankingDate || els.weekLabel.textContent;
-    els.updatedAtLabel.textContent = nextSource.updatedAt
-      ? `Atualizado ${nextSource.updatedAt}`
-      : els.updatedAtLabel.textContent;
-    els.dataSourceNote.textContent = nextSource.note || els.dataSourceNote.textContent;
+    state.dataSource = {
+      ...state.dataSource,
+      ...nextSource
+    };
   }
 
+  updateStaticText();
   renderEmptyDetails();
   renderTable();
 }
@@ -189,7 +413,8 @@ function getRankedPlayers() {
 function formatNumber(value) {
   const number = Number(value || 0);
   const hasDecimals = Math.abs(number - Math.trunc(number)) > 0.000001;
-  return number.toLocaleString("pt-BR", {
+  const locales = { pt: "pt-BR", en: "en-US", es: "es-ES", it: "it-IT", fr: "fr-FR" };
+  return number.toLocaleString(locales[state.language] || "pt-BR", {
     minimumFractionDigits: hasDecimals ? 2 : 0,
     maximumFractionDigits: hasDecimals ? 2 : 0
   });
@@ -225,11 +450,11 @@ function officialPoints(player) {
 
 function phaseText(liveEvent = {}) {
   const singles = liveEvent.singlesStatus === "Eliminado"
-    ? `Eliminado ${liveEvent.singlesRound || ""}`.trim()
-    : `${liveEvent.singlesRound || "-"} simples`;
+    ? `${t("eliminated")} ${liveEvent.singlesRound || ""}`.trim()
+    : `${liveEvent.singlesRound || "-"} ${t("singles").toLowerCase()}`;
   const doubles = liveEvent.doublesStatus === "Eliminado"
-    ? `Eliminado ${liveEvent.doublesRound || ""}`.trim()
-    : `${liveEvent.doublesRound || "-"} duplas`;
+    ? `${t("eliminated")} ${liveEvent.doublesRound || ""}`.trim()
+    : `${liveEvent.doublesRound || "-"} ${t("doubles").toLowerCase()}`;
   return `${singles} · ${doubles}`;
 }
 
@@ -238,8 +463,8 @@ function weeklyStatusMarkup(liveEvent = {}) {
   return `
     <div class="week-status">
       <strong>${liveEvent.event}</strong>
-      <span>${liveEvent.singlesStatus === "Eliminado" ? `Simples: eliminado ${liveEvent.singlesRound || ""}` : `Simples: ${liveEvent.singlesRound || "-"}`}</span>
-      <span>${liveEvent.doublesStatus === "Nao joga" ? "Duplas: não joga" : liveEvent.doublesStatus === "Eliminado" ? `Duplas: eliminado ${liveEvent.doublesRound || ""}` : `Duplas: ${liveEvent.doublesRound || "-"}`}</span>
+      <span>${liveEvent.singlesStatus === "Eliminado" ? `${t("singles")}: ${t("eliminated")} ${liveEvent.singlesRound || ""}` : `${t("singles")}: ${liveEvent.singlesRound || "-"}`}</span>
+      <span>${liveEvent.doublesStatus === "Nao joga" ? `${t("doubles")}: ${t("notPlaying")}` : liveEvent.doublesStatus === "Eliminado" ? `${t("doubles")}: ${t("eliminated")} ${liveEvent.doublesRound || ""}` : `${t("doubles")}: ${liveEvent.doublesRound || "-"}`}</span>
     </div>
   `;
 }
@@ -248,11 +473,11 @@ function projectionMarkup(player) {
   return `
     <div class="projection-cell">
       <div>
-        <span>Próx. vitória</span>
+        <span>${t("nextWin")}</span>
         <strong>${formatNumber(player.nextWinPoints)}</strong>
       </div>
       <div>
-        <span>Campeão</span>
+        <span>${t("champion")}</span>
         <strong>${formatNumber(player.maxPoints)}</strong>
       </div>
     </div>
@@ -273,21 +498,23 @@ function renderTable() {
   els.rankingHead.innerHTML = isOfficialTable
     ? `
       <tr>
-        <th>Ranking oficial</th>
-        <th>Atleta</th>
-        <th>Pontos base</th>
+        <th>${t("officialRank")}</th>
+        <th>${t("athlete")}</th>
+        <th>${t("officialPoints")}</th>
       </tr>
     `
     : `
       <tr>
-        <th>Ranking ao vivo</th>
-        <th>Atleta</th>
-        <th>Ranking oficial</th>
-        <th>Pontos ao vivo</th>
+        <th>${t("liveRank")}</th>
+        <th>${t("athlete")}</th>
+        <th>${t("officialRank")}</th>
+        <th>${t("livePoints")}</th>
         <th>Cenários</th>
-        <th>Jogando esta semana</th>
+        <th>${t("playingThisWeek")}</th>
       </tr>
     `;
+
+  if (!isOfficialTable) els.rankingHead.querySelectorAll("th")[4].textContent = t("scenarios");
 
   els.rankingBody.innerHTML = players
     .map((player) => {
@@ -342,7 +569,11 @@ function renderTable() {
 
 function renderEmptyDetails() {
   els.playerDetails.className = "details-empty";
-  els.playerDetails.textContent = "Selecione um atleta para ver os resultados que entram e os que ficam fora do ranking.";
+  els.playerDetails.textContent = t("emptyDetails");
+}
+
+function countingLabel(isCounting) {
+  return isCounting === false ? t("notCounting") : t("counting");
 }
 
 function resultMarkup(results, label, modifier = "") {
@@ -359,8 +590,8 @@ function resultMarkup(results, label, modifier = "") {
             </div>
             <div class="result-points">
               <strong>${formatNumber(item.countedPoints ?? item.points)}</strong>
-              ${item.countedPoints !== undefined && item.countedPoints !== item.points ? `<span>${formatNumber(item.points)} bruto</span>` : ""}
-              ${item.isCounting === false ? "<span>não contando</span>" : "<span>contando</span>"}
+              ${item.countedPoints !== undefined && item.countedPoints !== item.points ? `<span>${formatNumber(item.points)} ${t("gross")}</span>` : ""}
+              <span>${countingLabel(item.isCounting)}</span>
             </div>
           </div>
         `
@@ -376,14 +607,14 @@ function renderDetails(playerId) {
 
   const liveResults = [
     {
-      event: `${player.liveEvent.event || "Torneio atual"} · simples`,
+      event: `${player.liveEvent.event || t("currentTournament")} · ${t("singles").toLowerCase()}`,
       round: player.liveEvent.singlesRound || "-",
       points: Number(player.liveEvent.singlesPoints || 0),
       countedPoints: Number(player.liveEvent.singlesPoints || 0),
       isCounting: true
     },
     {
-      event: `${player.liveEvent.event || "Torneio atual"} · duplas`,
+      event: `${player.liveEvent.event || t("currentTournament")} · ${t("doubles").toLowerCase()}`,
       round: player.liveEvent.doublesRound || "-",
       points: Number(player.liveEvent.doublesPoints || 0),
       countedPoints: doublesValue(player.liveEvent.doublesPoints),
@@ -403,13 +634,13 @@ function renderDetails(playerId) {
   els.playerDetails.innerHTML = `
     <div class="player detail-player">
       <strong>${player.name}</strong>
-      <span>${flagMarkup(player.country)} oficial ${player.currentRank} · live ${formatNumber(player.livePoints)} · máximo ${formatNumber(player.maxPoints)}</span>
+      <span>${flagMarkup(player.country)} ${t("official")} ${player.currentRank} · live ${formatNumber(player.livePoints)} · ${t("maximum")} ${formatNumber(player.maxPoints)}</span>
       <span>${player.liveEvent.event || "-"} · ${phaseText(player.liveEvent)}</span>
     </div>
-    ${resultMarkup(singlesResults, "Simples")}
-    ${resultMarkup(doublesResults, "Duplas (25%)")}
-    ${defendingResults.length ? resultMarkup(defendingResults, "Pontos defendidos nesta semana", "is-dropping") : ""}
-    ${liveResults.length ? resultMarkup(liveResults, "Pontos entrando no torneio atual", "is-new") : ""}
+    ${resultMarkup(singlesResults, t("singles"))}
+    ${resultMarkup(doublesResults, `${t("doubles")} (25%)`)}
+    ${defendingResults.length ? resultMarkup(defendingResults, t("pointsDefended"), "is-dropping") : ""}
+    ${liveResults.length ? resultMarkup(liveResults, t("pointsEntering"), "is-new") : ""}
   `;
 }
 
@@ -425,5 +656,15 @@ els.rankingBody.addEventListener("click", (event) => {
   element.addEventListener("input", renderTable);
 });
 
+els.languageSelect.addEventListener("input", () => {
+  state.language = els.languageSelect.value;
+  localStorage.setItem("itf-juniors-language", state.language);
+  updateStaticText();
+  renderTable();
+  if (state.selectedId) renderDetails(state.selectedId);
+});
+
+updateStaticText();
+renderEmptyDetails();
 renderTable();
 loadAutomatedData();

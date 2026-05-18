@@ -10,30 +10,42 @@
     <header class="topbar">
       <div class="brand-block">
         <h1 class="brand-title">ITF Juniors Live Ranking</h1>
-        <p class="site-credit">Criado por Info Tênis Brasil</p>
+        <p id="siteCredit" class="site-credit">Criado por Info T&ecirc;nis Brasil</p>
       </div>
-      <div class="week-card">
-        <span>Ranking base</span>
-        <strong id="weekLabel">17 mai 2026</strong>
-        <small id="updatedAtLabel">Atualizado 17 mai 2026, 19:00</small>
+      <div class="topbar-actions">
+        <label class="language-control">
+          <span id="languageLabel">Idioma</span>
+          <select id="languageSelect" aria-label="Idioma">
+            <option value="pt">Portugu&ecirc;s</option>
+            <option value="en">English</option>
+            <option value="es">Espa&ntilde;ol</option>
+            <option value="it">Italiano</option>
+            <option value="fr">Fran&ccedil;ais</option>
+          </select>
+        </label>
+        <div class="week-card">
+          <span id="rankingBaseLabel">Ranking base</span>
+          <strong id="weekLabel">17 mai 2026</strong>
+          <small id="updatedAtLabel">Atualizado 17 mai 2026, 19:00</small>
+        </div>
       </div>
     </header>
 
     <main>
       <section class="controls" aria-label="Filtros do ranking">
         <label>
-          Buscar atleta
-          <input id="searchInput" type="search" placeholder="Nome, país ou torneio" />
+          <span id="searchLabel">Buscar atleta</span>
+          <input id="searchInput" type="search" placeholder="Nome, pa&iacute;s ou torneio" />
         </label>
         <label>
-          Categoria
+          <span id="categoryLabel">Categoria</span>
           <select id="genderFilter">
             <option value="Boys">Masculino</option>
             <option value="Girls">Feminino</option>
           </select>
         </label>
         <label>
-          Ordenar por
+          <span id="sortLabel">Ordenar por</span>
           <select id="sortFilter">
             <option value="liveRank">Ranking ao vivo</option>
             <option value="officialRank">Ranking oficial</option>
@@ -45,7 +57,7 @@
         <section class="table-shell">
           <div class="section-heading">
             <div>
-              <h2>Live ranking</h2>
+              <h2 id="liveRankingTitle">Live ranking</h2>
               <p id="dataSourceNote">Calculado com os 6 melhores resultados de simples e 25% dos 6 melhores de duplas.</p>
             </div>
           </div>
@@ -58,7 +70,7 @@
                   <th>Atleta</th>
                   <th>Ranking oficial</th>
                   <th>Pontos ao vivo</th>
-                  <th>Cenários</th>
+                  <th>Cen&aacute;rios</th>
                   <th>Jogando esta semana</th>
                 </tr>
               </thead>
@@ -68,13 +80,12 @@
         </section>
 
         <aside class="panel player-panel">
-          <h2>Pontuações do atleta</h2>
+          <h2 id="playerPanelTitle">Pontua&ccedil;&otilde;es do atleta</h2>
           <div id="playerDetails" class="details-empty">
             Selecione um atleta para ver os resultados que entram e os que ficam fora do ranking.
           </div>
         </aside>
       </section>
-
     </main>
 
     <script src="data.js"></script>
