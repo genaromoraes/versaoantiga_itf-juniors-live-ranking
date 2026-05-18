@@ -29,13 +29,6 @@
       "tournaments": []
     },
     {
-      "id": "jack-kennedy",
-      "name": "Jack Kennedy",
-      "activityUrl": "https://www.itftennis.com/en/players/jack-kennedy/800692786/usa/jt/s/activity/",
-      "doublesActivityUrl": "https://www.itftennis.com/en/players/jack-kennedy/800692786/usa/jt/d/activity/",
-      "tournaments": []
-    },
-    {
       "id": "jamie-mackenzie",
       "name": "Jamie Mackenzie",
       "activityUrl": "https://www.itftennis.com/en/players/jamie-mackenzie/800570117/ger/jt/s/activity/",
@@ -47,6 +40,13 @@
       "name": "Keaton Hance",
       "activityUrl": "https://www.itftennis.com/en/players/keaton-hance/800657117/usa/jt/s/activity/",
       "doublesActivityUrl": "https://www.itftennis.com/en/players/keaton-hance/800657117/usa/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "jack-kennedy",
+      "name": "Jack Kennedy",
+      "activityUrl": "https://www.itftennis.com/en/players/jack-kennedy/800692786/usa/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/jack-kennedy/800692786/usa/jt/d/activity/",
       "tournaments": []
     },
     {
@@ -134,87 +134,11 @@
       "tournaments": []
     },
     {
-      "id": "anastasija-cvetkovic",
-      "name": "Anastasija Cvetkovic",
-      "activityUrl": "https://www.itftennis.com/en/players/anastasija-cvetkovic/800598140/srb/jt/s/activity/",
-      "doublesActivityUrl": "https://www.itftennis.com/en/players/anastasija-cvetkovic/800598140/srb/jt/d/activity/",
-      "tournaments": [
-        {
-          "event": "J500 Milan",
-          "startDate": "2026-05-18",
-          "endDate": "2026-05-24",
-          "city": "City/Town: Milan",
-          "country": "Nation:",
-          "grade": "ITA",
-          "surface": "Tournament type: J500",
-          "draw": "Surface: Clay",
-          "matchType": "Draw: Main Draw",
-          "entryType": "Type: Doubles",
-          "status": "Ativo",
-          "currentRound": "",
-          "matches": []
-        },
-        {
-          "event": "J300 Santa Croce Sull’Arno",
-          "startDate": "2026-05-11",
-          "endDate": "2026-05-16",
-          "city": "City/Town: Santa Croce Sull’Arno",
-          "country": "Nation:",
-          "grade": "ITA",
-          "surface": "Tournament type: J300",
-          "draw": "Surface: Clay",
-          "matchType": "Draw: Main Draw",
-          "entryType": "Type: Doubles",
-          "status": "Ativo",
-          "currentRound": "",
-          "matches": []
-        },
-        {
-          "event": "J500 Offenbach",
-          "startDate": "2026-05-04",
-          "endDate": "2026-05-10",
-          "city": "City/Town: Offenbach",
-          "country": "Nation:",
-          "grade": "GER",
-          "surface": "Tournament type: J500",
-          "draw": "Surface: Clay",
-          "matchType": "Draw: Main Draw",
-          "entryType": "Type: Doubles",
-          "status": "Ativo",
-          "currentRound": "",
-          "matches": []
-        },
-        {
-          "event": "J300 Plovdiv",
-          "startDate": "2026-04-28",
-          "endDate": "2026-05-02",
-          "city": "City/Town: Plovdiv",
-          "country": "Nation:",
-          "grade": "BUL",
-          "surface": "Tournament type: J300",
-          "draw": "Surface: Clay",
-          "matchType": "Draw: Main Draw",
-          "entryType": "Type: Doubles",
-          "status": "Ativo",
-          "currentRound": "",
-          "matches": []
-        },
-        {
-          "event": "Australian Open Junior Championships",
-          "startDate": "2026-01-24",
-          "endDate": "2026-02-01",
-          "city": "City/Town: Melbourne",
-          "country": "Nation:",
-          "grade": "AUS",
-          "surface": "Tournament type: JGS",
-          "draw": "Surface: Hard",
-          "matchType": "Draw: Main Draw",
-          "entryType": "Type: Doubles",
-          "status": "Ativo",
-          "currentRound": "",
-          "matches": []
-        }
-      ]
+      "id": "julia-stusek",
+      "name": "Julia Stusek",
+      "activityUrl": "https://www.itftennis.com/en/players/julia-stusek/800579453/ger/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/julia-stusek/800579453/ger/jt/d/activity/",
+      "tournaments": []
     }
   ]
 }

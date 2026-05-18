@@ -2,7 +2,7 @@
   {
     "id": "ivan-ivanov",
     "name": "Ivan Ivanov",
-    "country": "BUL",
+    "country": "Ivan",
     "gender": "Boys",
     "currentRank": 1,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ivan-ivanov/800586822/bul/jt/s/itf-points-breakdown/"
@@ -10,7 +10,7 @@
   {
     "id": "luis-guto-miguel",
     "name": "Luis Guto Miguel",
-    "country": "BRA",
+    "country": "Luis",
     "gender": "Boys",
     "currentRank": 2,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/luis-guto-miguel/800680259/bra/jt/s/itf-points-breakdown/"
@@ -18,7 +18,7 @@
   {
     "id": "yannick-theodor-alexandrescou",
     "name": "Yannick Theodor Alexandrescou",
-    "country": "FRA",
+    "country": "Yannick",
     "gender": "Boys",
     "currentRank": 3,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/yannick-theodor-alexandrescou/800564683/fra/jt/s/itf-points-breakdown/"
@@ -26,39 +26,39 @@
   {
     "id": "ziga-sesko",
     "name": "Ziga Sesko",
-    "country": "SLO",
+    "country": "Ziga",
     "gender": "Boys",
     "currentRank": 4,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ziga-sesko/800579895/slo/jt/s/itf-points-breakdown/"
   },
   {
-    "id": "jack-kennedy",
-    "name": "Jack Kennedy",
-    "country": "USA",
-    "gender": "Boys",
-    "currentRank": 5,
-    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/jack-kennedy/800692786/usa/jt/s/itf-points-breakdown/"
-  },
-  {
     "id": "jamie-mackenzie",
     "name": "Jamie Mackenzie",
-    "country": "GER",
+    "country": "Jamie",
     "gender": "Boys",
-    "currentRank": 6,
+    "currentRank": 5,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/jamie-mackenzie/800570117/ger/jt/s/itf-points-breakdown/"
   },
   {
     "id": "keaton-hance",
     "name": "Keaton Hance",
-    "country": "USA",
+    "country": "Keaton",
+    "gender": "Boys",
+    "currentRank": 6,
+    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/keaton-hance/800657117/usa/jt/s/itf-points-breakdown/"
+  },
+  {
+    "id": "jack-kennedy",
+    "name": "Jack Kennedy",
+    "country": "Jack",
     "gender": "Boys",
     "currentRank": 7,
-    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/keaton-hance/800657117/usa/jt/s/itf-points-breakdown/"
+    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/jack-kennedy/800692786/usa/jt/s/itf-points-breakdown/"
   },
   {
     "id": "zangar-nurlanuly",
     "name": "Zangar Nurlanuly",
-    "country": "KAZ",
+    "country": "Zangar",
     "gender": "Boys",
     "currentRank": 8,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/zangar-nurlanuly/800543488/kaz/jt/s/itf-points-breakdown/"
@@ -66,7 +66,7 @@
   {
     "id": "thilo-behrmann",
     "name": "Thilo Behrmann",
-    "country": "AUT",
+    "country": "Thilo",
     "gender": "Boys",
     "currentRank": 9,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/thilo-behrmann/800589798/aut/jt/s/itf-points-breakdown/"
@@ -74,7 +74,7 @@
   {
     "id": "ryo-tabata",
     "name": "Ryo Tabata",
-    "country": "JPN",
+    "country": "Ryo",
     "gender": "Boys",
     "currentRank": 10,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ryo-tabata/800583844/jpn/jt/s/itf-points-breakdown/"
@@ -82,7 +82,7 @@
   {
     "id": "ksenia-efremova",
     "name": "Ksenia Efremova",
-    "country": "FRA",
+    "country": "Ksenia",
     "gender": "Girls",
     "currentRank": 1,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ksenia-efremova/800591535/fra/jt/s/itf-points-breakdown/"
@@ -90,7 +90,7 @@
   {
     "id": "hannah-klugman",
     "name": "Hannah Klugman",
-    "country": "GBR",
+    "country": "Hannah",
     "gender": "Girls",
     "currentRank": 2,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/hannah-klugman/800631038/gbr/jt/s/itf-points-breakdown/"
@@ -98,7 +98,7 @@
   {
     "id": "mia-pohankova",
     "name": "Mia Pohankova",
-    "country": "SVK",
+    "country": "Mia",
     "gender": "Girls",
     "currentRank": 3,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/mia-pohankova/800627475/svk/jt/s/itf-points-breakdown/"
@@ -106,7 +106,7 @@
   {
     "id": "alena-kovackova",
     "name": "Alena Kovackova",
-    "country": "CZE",
+    "country": "Alena",
     "gender": "Girls",
     "currentRank": 4,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/alena-kovackova/800572951/cze/jt/s/itf-points-breakdown/"
@@ -114,7 +114,7 @@
   {
     "id": "victoria-luiza-barros",
     "name": "Victoria Luiza Barros",
-    "country": "BRA",
+    "country": "Victoria",
     "gender": "Girls",
     "currentRank": 5,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/victoria-luiza-barros/800655335/bra/jt/s/itf-points-breakdown/"
@@ -122,7 +122,7 @@
   {
     "id": "julieta-pareja",
     "name": "Julieta Pareja",
-    "country": "USA",
+    "country": "Julieta",
     "gender": "Girls",
     "currentRank": 6,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/julieta-pareja/800692835/usa/jt/s/itf-points-breakdown/"
@@ -130,7 +130,7 @@
   {
     "id": "jana-kovackova",
     "name": "Jana Kovackova",
-    "country": "CZE",
+    "country": "Jana",
     "gender": "Girls",
     "currentRank": 7,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/jana-kovackova/800661515/cze/jt/s/itf-points-breakdown/"
@@ -138,7 +138,7 @@
   {
     "id": "xinran-sun",
     "name": "Xinran Sun",
-    "country": "CHN",
+    "country": "Xinran",
     "gender": "Girls",
     "currentRank": 8,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/xinran-sun/800677732/chn/jt/s/itf-points-breakdown/"
@@ -146,17 +146,17 @@
   {
     "id": "kristina-penickova",
     "name": "Kristina Penickova",
-    "country": "USA",
+    "country": "Kristina",
     "gender": "Girls",
     "currentRank": 9,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/kristina-penickova/800719373/usa/jt/s/itf-points-breakdown/"
   },
   {
-    "id": "anastasija-cvetkovic",
-    "name": "Anastasija Cvetkovic",
-    "country": "SRB",
+    "id": "julia-stusek",
+    "name": "Julia Stusek",
+    "country": "Julia",
     "gender": "Girls",
     "currentRank": 10,
-    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/anastasija-cvetkovic/800598140/srb/jt/s/itf-points-breakdown/"
+    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/julia-stusek/800579453/ger/jt/s/itf-points-breakdown/"
   }
 ]
