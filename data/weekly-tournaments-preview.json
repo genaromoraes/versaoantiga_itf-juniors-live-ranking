@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "18/05/2026, 17:59",
+  "scrapedAt": "18/05/2026, 18:26",
   "calendarStartDate": "2026-05",
   "tournaments": [
     {
@@ -27,7 +27,12 @@
           "position": 1,
           "sex": "boy",
           "juniorRank": 3,
-          "priority": 1
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Pendente",
+            "confidence": "pending"
+          }
         },
         {
           "id": "jamie-mackenzie",
@@ -41,7 +46,12 @@
           "position": 2,
           "sex": "boy",
           "juniorRank": 8,
-          "priority": 1
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Pendente",
+            "confidence": "pending"
+          }
         },
         {
           "id": "thilo-behrmann",
@@ -55,7 +65,12 @@
           "position": 3,
           "sex": "boy",
           "juniorRank": 10,
-          "priority": 1
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Pendente",
+            "confidence": "pending"
+          }
         },
         {
           "id": "jana-kovackova",
@@ -69,7 +84,12 @@
           "position": 1,
           "sex": "girl",
           "juniorRank": 7,
-          "priority": 1
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Pendente",
+            "confidence": "pending"
+          }
         },
         {
           "id": "victoria-luiza-barros",
@@ -83,7 +103,12 @@
           "position": 2,
           "sex": "girl",
           "juniorRank": 8,
-          "priority": 1
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Pendente",
+            "confidence": "pending"
+          }
         },
         {
           "id": "xinran-sun",
@@ -97,10 +122,58 @@
           "position": 3,
           "sex": "girl",
           "juniorRank": 10,
-          "priority": 2
+          "priority": 2,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Pendente",
+            "confidence": "pending"
+          }
         }
       ],
-      "drawWarning": "Playwright unavailable; Cannot find package 'playwright' imported from C:\\Users\\genar\\Documents\\Codex\\2026-05-17\\cr-bom-dia-codex-eu-quero\\pipeline\\scrape-weekly-results.mjs"
+      "drawDiagnostic": {
+        "textLength": 0,
+        "lineCount": 0,
+        "firstLines": [],
+        "interestingLines": [],
+        "playerHits": [
+          {
+            "id": "luis-guto-miguel",
+            "name": "Luis Guto Miguel",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "jamie-mackenzie",
+            "name": "Jamie Mackenzie",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "thilo-behrmann",
+            "name": "Thilo Behrmann",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "jana-kovackova",
+            "name": "Jana Kovackova",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "victoria-luiza-barros",
+            "name": "Victoria Luiza Barros",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "xinran-sun",
+            "name": "Xinran Sun",
+            "hits": 0,
+            "snippets": []
+          }
+        ]
+      }
     },
     {
       "tournamentName": "J200 Targu Jiu",
