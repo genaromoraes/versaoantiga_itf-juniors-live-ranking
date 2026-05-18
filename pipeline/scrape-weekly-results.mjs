@@ -322,6 +322,35 @@ function drawStatusForPlayer(text, player) {
   };
 }
 
+function drawDiagnostic(text, players) {
+  const lines = text.split(/\r?\n/).map(cleanLine).filter(Boolean);
+  const interestingLines = lines.filter((line) => {
+    if (/^(BOYS|GIRLS|SINGLES|DOUBLES|MAIN DRAW|QUALIFYING DRAW|R1|R2|R3|R4|R16|R32|R64|QF|SF|F|W|L|BYE)$/i.test(line)) return true;
+    return players.some((player) => normalizeName(line).includes(normalizeName(player.name)));
+  });
+
+  return {
+    textLength: text.length,
+    lineCount: lines.length,
+    firstLines: lines.slice(0, 80),
+    interestingLines: [...new Set(interestingLines)].slice(0, 160),
+    playerHits: players.map((player) => {
+      const normalizedPlayerName = normalizeName(player.name);
+      const hitIndexes = lines
+        .map((line, index) => ({ line, index }))
+        .filter(({ line }) => normalizeName(line).includes(normalizedPlayerName))
+        .map(({ index }) => index);
+
+      return {
+        id: player.id,
+        name: player.name,
+        hits: hitIndexes.length,
+        snippets: hitIndexes.slice(0, 3).map((index) => lines.slice(Math.max(0, index - 5), index + 6))
+      };
+    })
+  };
+}
+
 async function clickIfPresent(page, label) {
   const locator = page.getByText(label, { exact: true }).first();
   if ((await locator.count()) === 0) return false;
@@ -370,6 +399,7 @@ async function enrichTournamentWithDrawRounds(tournaments) {
     for (const tournament of tournamentsWithPlayers) {
       try {
         const text = await readDrawPageText(page, tournament);
+        tournament.drawDiagnostic = drawDiagnostic(text, tournament.acceptedPlayers);
 
         tournament.acceptedPlayers = tournament.acceptedPlayers.map((player) => ({
           ...player,
