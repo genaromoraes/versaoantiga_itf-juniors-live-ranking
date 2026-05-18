@@ -61,4 +61,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update ranking data"
-          file_pattern: pipeline/sources/players.json data/latest.json data/itf-ranking-preview.json data/itf-activity-preview.json data/weekly-results.csv data/weekly-tournaments-preview.json data/player-points-status.csv
+          file_pattern: pipeline/sources/players.json data/latest.json data/itf-ranking-preview.json data/itf-activity-preview.json data/weekly-results.csv data/weekly-tournaments-preview.json data/manual-weekly-results.csv data/player-points-status.csv

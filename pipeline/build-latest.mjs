@@ -11,6 +11,7 @@ const pointsCsvFile = path.join(rootDir, "data", "player-points.csv");
 const previewFile = path.join(rootDir, "data", "itf-player-preview.json");
 const activityPreviewFile = path.join(rootDir, "data", "itf-activity-preview.json");
 const weeklyResultsFile = path.join(rootDir, "data", "weekly-results.csv");
+const manualWeeklyResultsFile = path.join(rootDir, "data", "manual-weekly-results.csv");
 const outputDir = path.join(rootDir, "data");
 const outputFile = path.join(outputDir, "latest.json");
 
@@ -131,22 +132,45 @@ async function readActivityPreview() {
   }
 }
 
-async function readWeeklyResultsPreview() {
+async function readCsvRows(file) {
   try {
-    const csv = await fs.readFile(weeklyResultsFile, "utf8");
+    const csv = await fs.readFile(file, "utf8");
     const [headerLine, ...lines] = csv.split(/\r?\n/).filter(Boolean);
     const headers = parseCsvLine(headerLine);
-    const rows = lines
+    return lines
       .map((line) => {
         const columns = parseCsvLine(line);
         return Object.fromEntries(headers.map((header, index) => [header, columns[index] || ""]));
       })
       .filter((row) => row.player_id && row.match_type);
+  } catch {
+    return [];
+  }
+}
 
+async function readWeeklyResultsPreview() {
+  try {
+    const generatedRows = await readCsvRows(weeklyResultsFile);
+    const manualRows = await readCsvRows(manualWeeklyResultsFile);
+    const rowsByKey = new Map(generatedRows.map((row) => [weeklyRowKey(row), row]));
+
+    for (const row of manualRows) {
+      rowsByKey.set(weeklyRowKey(row), {
+        ...rowsByKey.get(weeklyRowKey(row)),
+        ...row,
+        manualOverride: true
+      });
+    }
+
+    const rows = [...rowsByKey.values()];
     return { rows };
   } catch {
     return { rows: [] };
   }
+}
+
+function weeklyRowKey(row) {
+  return [row.player_id, row.match_type, row.event].join("|");
 }
 
 async function readExistingLatest() {
