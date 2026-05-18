@@ -11,11 +11,6 @@ const els = {
   genderFilter: document.querySelector("#genderFilter"),
   sortFilter: document.querySelector("#sortFilter"),
   playerDetails: document.querySelector("#playerDetails"),
-  importButton: document.querySelector("#importButton"),
-  exportButton: document.querySelector("#exportButton"),
-  sampleDataButton: document.querySelector("#sampleDataButton"),
-  jsonInput: document.querySelector("#jsonInput"),
-  importStatus: document.querySelector("#importStatus"),
   weekLabel: document.querySelector("#weekLabel"),
   updatedAtLabel: document.querySelector("#updatedAtLabel"),
   dataSourceNote: document.querySelector("#dataSourceNote")
@@ -394,33 +389,6 @@ function renderDetails(playerId) {
   `;
 }
 
-function importPlayers() {
-  try {
-    const parsed = JSON.parse(els.jsonInput.value);
-    if (!Array.isArray(parsed)) throw new Error("O JSON precisa ser uma lista de atletas.");
-    state.players = parsed.map((player, index) => ({
-      id: player.id || `${String(player.name || "atleta").toLowerCase().replace(/\W+/g, "-")}-${index}`,
-      ...player
-    }));
-    state.selectedId = null;
-    els.importStatus.textContent = "Dados importados com sucesso.";
-    renderTable();
-  } catch (error) {
-    els.importStatus.textContent = error.message;
-  }
-}
-
-async function exportPlayers() {
-  const text = JSON.stringify(state.players, null, 2);
-  els.jsonInput.value = text;
-  try {
-    await navigator.clipboard.writeText(text);
-    els.importStatus.textContent = "JSON copiado para a area de transferencia.";
-  } catch {
-    els.importStatus.textContent = "JSON gerado no campo acima.";
-  }
-}
-
 els.rankingBody.addEventListener("click", (event) => {
   const row = event.target.closest("tr[data-player-id]");
   if (!row) return;
@@ -431,17 +399,6 @@ els.rankingBody.addEventListener("click", (event) => {
 
 [els.searchInput, els.genderFilter, els.sortFilter].forEach((element) => {
   element.addEventListener("input", renderTable);
-});
-
-els.importButton.addEventListener("click", importPlayers);
-els.exportButton.addEventListener("click", exportPlayers);
-els.sampleDataButton.addEventListener("click", () => {
-  state.players = structuredClone(samplePlayers);
-  state.selectedId = null;
-  els.jsonInput.value = "";
-  els.importStatus.textContent = "Dados de exemplo restaurados.";
-  renderEmptyDetails();
-  renderTable();
 });
 
 renderTable();

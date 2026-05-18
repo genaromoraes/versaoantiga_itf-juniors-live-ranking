@@ -48,7 +48,6 @@
               <h2>Live ranking</h2>
               <p id="dataSourceNote">Calculado com os 6 melhores resultados de simples e 25% dos 6 melhores de duplas.</p>
             </div>
-            <button id="sampleDataButton" type="button">Recarregar exemplo</button>
           </div>
 
           <div class="table-scroll">
@@ -76,21 +75,6 @@
         </aside>
       </section>
 
-      <section class="import-grid">
-        <article class="panel">
-          <h2>Importar dados</h2>
-          <p class="muted">
-            Cole um JSON de atletas para substituir os dados de exemplo. Isso permite operar manualmente
-            enquanto a integração com a ITF ainda não existe.
-          </p>
-          <textarea id="jsonInput" spellcheck="false" placeholder='[{"name":"...", "country":"BRA", ...}]'></textarea>
-          <div class="button-row">
-            <button id="importButton" type="button">Importar JSON</button>
-            <button id="exportButton" type="button">Copiar JSON atual</button>
-          </div>
-          <p id="importStatus" class="status" role="status"></p>
-        </article>
-      </section>
     </main>
 
     <script src="data.js"></script>
