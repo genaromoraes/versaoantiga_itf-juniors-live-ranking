@@ -5,6 +5,8 @@ import vm from "node:vm";
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataFile = path.join(rootDir, "data.js");
+const sourcesFile = path.join(rootDir, "pipeline", "sources", "players.json");
+const rankingPreviewFile = path.join(rootDir, "data", "itf-ranking-preview.json");
 const previewFile = path.join(rootDir, "data", "itf-player-preview.json");
 const activityPreviewFile = path.join(rootDir, "data", "itf-activity-preview.json");
 const outputDir = path.join(rootDir, "data");
@@ -31,12 +33,51 @@ async function readRealPlayerPreview() {
   }
 }
 
+async function readRankingPreview() {
+  try {
+    return JSON.parse(await fs.readFile(rankingPreviewFile, "utf8"));
+  } catch {
+    return { players: [] };
+  }
+}
+
+async function readSourcePlayers() {
+  try {
+    return JSON.parse(await fs.readFile(sourcesFile, "utf8"));
+  } catch {
+    return [];
+  }
+}
+
 async function readActivityPreview() {
   try {
     return JSON.parse(await fs.readFile(activityPreviewFile, "utf8"));
   } catch {
     return { players: [] };
   }
+}
+
+function sourcePlayerShell(player) {
+  return {
+    id: player.id,
+    name: player.name,
+    country: player.country,
+    gender: player.gender,
+    currentRank: player.currentRank,
+    singles: [],
+    doubles: [],
+    defending: [],
+    liveEvent: {
+      event: "",
+      grade: "",
+      singlesStatus: "Nao joga",
+      singlesRound: "Nao joga",
+      singlesPoints: 0,
+      doublesStatus: "Nao joga",
+      doublesRound: "Nao joga",
+      doublesPoints: 0
+    }
+  };
 }
 
 const roundToDisplay = {
@@ -215,8 +256,11 @@ function applyActivityPreview(players, activityPlayers, rules) {
 
 const realPreview = await readRealPlayerPreview();
 const activityPreview = await readActivityPreview();
+const rankingPreview = await readRankingPreview();
+const sourcePlayers = await readSourcePlayers();
 const rules = JSON.parse(await fs.readFile(path.join(rootDir, "pipeline", "rules", "itf-juniors-2026.json"), "utf8"));
-const playersWithRealResults = applyRealPlayerPreview(context.payload.players, realPreview.players || []);
+const basePlayers = sourcePlayers.length ? sourcePlayers.map(sourcePlayerShell) : context.payload.players;
+const playersWithRealResults = applyRealPlayerPreview(basePlayers, realPreview.players || []);
 const players = applyActivityPreview(playersWithRealResults, activityPreview.players || [], rules);
 
 const payload = {
@@ -224,6 +268,7 @@ const payload = {
   players,
   dataSource: {
     ...context.payload.dataSource,
+    rankingDate: rankingPreview.rankingDate || context.payload.dataSource.rankingDate,
     updatedAt: new Intl.DateTimeFormat("pt-BR", {
       dateStyle: "short",
       timeStyle: "short",

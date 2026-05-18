@@ -19,6 +19,11 @@ if (coveredPlayers.length !== sources.length) {
   throw new Error(`Expected ${sources.length} source players, found ${coveredPlayers.length} in latest.json.`);
 }
 
+for (const gender of ["Boys", "Girls"]) {
+  const count = sources.filter((player) => player.gender === gender).length;
+  if (count !== 10) throw new Error(`Expected 10 ${gender} source players, found ${count}.`);
+}
+
 if (invalidPlayers.length) {
   throw new Error(`Refusing to publish empty ranking data for: ${invalidPlayers.map((player) => player.id).join(", ")}`);
 }

@@ -15,6 +15,8 @@ Quando existem arquivos reais em `data/itf-player-preview.json` e `data/itf-acti
 - Activity: perfil do atleta na aba de atividade
 - Draws and results: pagina do torneio da semana
 
+O primeiro passo da automacao e `scrape-official-ranking.mjs`. Ele atualiza `pipeline/sources/players.json` com o Top 10 masculino e o Top 10 feminino oficiais antes dos outros leitores rodarem.
+
 ## Como rodar
 
 ```bash
