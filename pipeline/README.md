@@ -34,6 +34,16 @@ npm run scrape:player
 Nesta primeira fase ele esta configurado para Luis Guto Miguel em `pipeline/sources/players.json`.
 Depois que validarmos a leitura com 1 atleta, expandimos para Top 100 masculino e Top 100 feminino.
 
+## Primeiro leitor de torneio
+
+O comando abaixo abre uma pagina de draws and results e gera uma previa em `data/itf-tournament-preview.json`:
+
+```bash
+npm run scrape:tournament
+```
+
+Nesta primeira fase ele extrai metadados do torneio e a lista textual de jogadores no draw. O passo seguinte e usar essa lista para identificar automaticamente se um atleta esta jogando e qual foi sua fase.
+
 ## Frequencia
 
 A automacao esta pensada para rodar 4 vezes por dia. Isso e suficiente para um MVP e ajuda a reduzir acessos desnecessarios as paginas da ITF.
