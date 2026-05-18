@@ -46,3 +46,9 @@ Para rodar localmente no futuro:
 npm install
 npm run scrape:player
 ```
+
+## Regras oficiais
+
+As regras-base do ranking juvenil de 2026 foram resumidas em `pipeline/rules/itf-juniors-2026.json`.
+
+Esse arquivo registra a fonte oficial, a formula do ranking, a tabela de pontos e observacoes importantes como bye, walkover, retirement e formatos de draw.

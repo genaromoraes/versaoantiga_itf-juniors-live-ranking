@@ -1,0 +1,50 @@
+{
+  "source": {
+    "name": "ITF World Tennis Tour Juniors 2026 Regulations",
+    "url": "https://www.itftennis.com/media/15480/2026-itf-world-tennis-tour-juniors-regulations.pdf",
+    "published": "2025-12-05"
+  },
+  "ranking": {
+    "windowWeeks": 52,
+    "singlesResultsCount": 6,
+    "doublesResultsCount": 6,
+    "doublesMultiplier": 0.25,
+    "sameTournamentRule": "For J100 or higher, only the best result from up to two editions of the same tournament may count within the 52-week period. J60 and J30 may count more than once.",
+    "sourceLines": "Regulations 10-14, page 13"
+  },
+  "allocationRules": {
+    "eliminationDraw": [
+      "No ranking points until a player has played and won a round in the Main Draw.",
+      "Advancement through a bye in the first match is not equivalent to winning a round.",
+      "Advancement by walkover, or retirement after a match starts, is equivalent to winning a round.",
+      "If an event is cancelled before conclusion, loser points for the round achieved are awarded.",
+      "If a tournament is terminated and finals are not completed, finalists receive runner-up points."
+    ],
+    "roundRobin": [
+      "No ranking points until a player has played and won a match in the Round Robin Main Draw.",
+      "A bye in a round robin group with fewer than four players is not equivalent to winning a match.",
+      "A walkover win, or retirement after a match starts, is equivalent to winning a match."
+    ],
+    "sourceLines": "Regulation 31, pages 16-18"
+  },
+  "pointsTable": {
+    "singles": {
+      "JGS": { "W": 1000, "F": 700, "SF": 490, "QF": 300, "R16": 180, "R32": 90 },
+      "J500": { "W": 500, "F": 350, "SF": 250, "QF": 150, "R16": 90, "R32": 45 },
+      "J300": { "W": 300, "F": 210, "SF": 140, "QF": 100, "R16": 60, "R32": 30 },
+      "J200": { "W": 200, "F": 140, "SF": 100, "QF": 60, "R16": 36, "R32": 18 },
+      "J100": { "W": 100, "F": 60, "SF": 36, "QF": 20, "R16": 10, "R32": 5 },
+      "J60": { "W": 60, "F": 36, "SF": 18, "QF": 10, "R16": 5 },
+      "J30": { "W": 30, "F": 18, "SF": 9, "QF": 5, "R16": 2 }
+    },
+    "doubles": {
+      "JGS": { "W": 750, "F": 525, "SF": 367, "QF": 225, "R16": 135 },
+      "J500": { "W": 375, "F": 262, "SF": 187, "QF": 112, "R16": 67 },
+      "J300": { "W": 225, "F": 157, "SF": 105, "QF": 75, "R16": 45 },
+      "J200": { "W": 150, "F": 105, "SF": 75, "QF": 45, "R16": 27 },
+      "J100": { "W": 75, "F": 45, "SF": 27, "QF": 15, "R16": 7 },
+      "J60": { "W": 45, "F": 27, "SF": 14, "QF": 7 },
+      "J30": { "W": 25, "F": 13, "SF": 6, "QF": 3 }
+    }
+  }
+}

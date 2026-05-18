@@ -77,9 +77,9 @@ function sumCounted(results = [], multiplier = 1) {
 }
 
 const gradePoints = {
-  J500: { QF: 125, SF: 250, Final: 350, Campeao: 500 },
-  J300: { QF: 75, SF: 140, Final: 210, Campeao: 300 },
-  J200: { QF: 60, SF: 80, Final: 120, Campeao: 200 },
+  J500: { QF: 150, SF: 250, Final: 350, Campeao: 500 },
+  J300: { QF: 100, SF: 140, Final: 210, Campeao: 300 },
+  J200: { QF: 60, SF: 100, Final: 140, Campeao: 200 },
   J100: { QF: 30, SF: 40, Final: 60, Campeao: 100 },
   J60: { QF: 18, SF: 24, Final: 36, Campeao: 60 }
 };
