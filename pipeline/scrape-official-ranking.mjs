@@ -42,6 +42,24 @@ async function scrapeCategory(page, category) {
   );
 
   const rows = await page.evaluate(() => {
+    function parseRankingNumber(value = "") {
+      const cleaned = value.replace(/\s+/g, "").trim();
+      if (!/^\d+(?:[.,]\d+)?$/.test(cleaned) && !/^\d{1,3}(?:[.,]\d{3})+(?:[.,]\d+)?$/.test(cleaned)) return 0;
+
+      const lastComma = cleaned.lastIndexOf(",");
+      const lastDot = cleaned.lastIndexOf(".");
+      let normalized = cleaned;
+
+      if (lastComma > -1 && lastDot > -1) {
+        normalized = lastComma > lastDot ? cleaned.replaceAll(".", "").replace(",", ".") : cleaned.replaceAll(",", "");
+      } else if (lastComma > -1) {
+        const decimals = cleaned.length - lastComma - 1;
+        normalized = decimals === 3 ? cleaned.replaceAll(",", "") : cleaned.replace(",", ".");
+      }
+
+      return Number(normalized);
+    }
+
     return [...document.querySelectorAll("table tbody tr")]
       .map((row) => {
         const link = row.querySelector('a[href*="/en/players/"]');
@@ -49,15 +67,26 @@ async function scrapeCategory(page, category) {
 
         const cells = [...row.querySelectorAll("td")].map((cell) => cell.innerText.trim().replace(/\s+/g, " "));
         const rank = Number((cells[0] || "").match(/\d+/)?.[0]);
-        const country = cells[1]?.split(" ")[0] || "";
         const href = new URL(link.getAttribute("href"), location.origin).href;
         const id = href.match(/\/players\/([^/]+)\//)?.[1] || "";
+        const country = (href.match(/\/players\/[^/]+\/[^/]+\/([^/]+)\//)?.[1] || "").toUpperCase();
+        const pointsCandidates = cells
+          .slice(1)
+          .map((cell) => parseRankingNumber(cell))
+          .filter((value) => Number.isFinite(value) && value > 20);
+        const rowText = row.innerText.trim().replace(/Head\s*2\s*Head/gi, "").replace(/\s+/g, " ");
+        const textPointsCandidates = rowText
+          .split(" ")
+          .map((cell) => parseRankingNumber(cell))
+          .filter((value) => Number.isFinite(value) && value > 20);
+        const officialPoints = pointsCandidates.at(-1) || textPointsCandidates.at(-1) || 0;
 
         return {
           id,
           rank,
           country,
           name: link.innerText.trim().replace(/\s+/g, " "),
+          officialPoints,
           href
         };
       })
@@ -83,6 +112,7 @@ async function scrapeCategory(page, category) {
       country: player.country,
       gender: category.gender,
       currentRank: player.rank,
+      officialPoints: player.officialPoints,
       pointsBreakdownUrl: pointsBreakdownUrl(player.href)
     }))
   };

@@ -139,12 +139,15 @@ async function readExistingLatest() {
 }
 
 function sourcePlayerShell(player) {
+  const officialPoints = Number(player.officialPoints || 0);
   return {
     id: player.id,
     name: player.name,
     country: player.country,
     gender: player.gender,
     currentRank: player.currentRank,
+    officialPoints,
+    sourceTotalCombinedPoints: officialPoints,
     singles: [],
     doubles: [],
     defending: [],
@@ -163,6 +166,26 @@ function sourcePlayerShell(player) {
 
 function hasRankingResults(player) {
   return (player?.singles?.length || 0) + (player?.doubles?.length || 0) > 0;
+}
+
+function officialFallbackResults(player, rankingDate) {
+  if (!Number(player.officialPoints || 0)) return player;
+
+  return {
+    ...player,
+    sourceTotalCombinedPoints: Number(player.officialPoints),
+    singles: [
+      {
+        event: `Ranking oficial ITF (${rankingDate || "data pendente"})`,
+        round: "Oficial",
+        points: Number(player.officialPoints),
+        date: "",
+        sourceCounting: true,
+        officialFallback: true
+      }
+    ],
+    doubles: []
+  };
 }
 
 const roundToDisplay = {
@@ -347,7 +370,8 @@ const sourcePlayers = await readSourcePlayers();
 const rules = JSON.parse(await fs.readFile(path.join(rootDir, "pipeline", "rules", "itf-juniors-2026.json"), "utf8"));
 const basePlayers = sourcePlayers.length ? sourcePlayers.map(sourcePlayerShell) : context.payload.players;
 const pointsPreview = pointsCsvPreview.players?.length ? pointsCsvPreview : realPreview;
-const playersWithRealResults = applyRealPlayerPreview(basePlayers, pointsPreview.players || []);
+const playersWithOfficialFallbacks = basePlayers.map((player) => officialFallbackResults(player, rankingPreview.rankingDate));
+const playersWithRealResults = applyRealPlayerPreview(playersWithOfficialFallbacks, pointsPreview.players || []);
 const players = applyActivityPreview(playersWithRealResults, activityPreview.players || [], rules);
 const existingLatest = await readExistingLatest();
 const invalidPlayers = players.filter((player) => !hasRankingResults(player));
