@@ -76,6 +76,8 @@ function applyRealPlayerPreview(players, previewPlayers) {
   return players.map((player) => {
     const realPlayer = realById.get(player.id);
     if (!realPlayer) return player;
+    if (!realPlayer.singles?.length && !realPlayer.doubles?.length) return player;
+
     const defending = [
       ...defendingFromResults(realPlayer.singles, "singles"),
       ...defendingFromResults(realPlayer.doubles, "doubles")

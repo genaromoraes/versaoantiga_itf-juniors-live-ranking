@@ -2,243 +2,3451 @@
   "players": [
     {
       "id": "ivan-ivanov",
-      "name": "HEAD TO HEAD",
-      "country": "DOUBLES",
+      "name": "BULGARIA",
+      "country": "SINGLES",
       "gender": "Boys",
       "currentRank": 1,
       "sourceUrl": "https://www.itftennis.com/en/players/ivan-ivanov/800586822/bul/jt/s/itf-points-breakdown/",
-      "totalCombinedPoints": null,
-      "singles": [],
-      "doubles": [],
-      "scrapedAt": "18/05/2026, 07:46"
+      "totalCombinedPoints": 3053,
+      "singles": [
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 1000,
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 1000,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 490,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 350,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 140,
+          "sourceCounting": true
+        }
+      ],
+      "doubles": [
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 225,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 67,
+          "sourceCounting": true
+        }
+      ],
+      "scrapedAt": "17/05/2026, 23:50"
     },
     {
       "id": "luis-guto-miguel",
-      "name": "HEAD TO HEAD",
-      "country": "DOUBLES",
+      "name": "BRAZIL",
+      "country": "SINGLES",
       "gender": "Boys",
       "currentRank": 2,
       "sourceUrl": "https://www.itftennis.com/en/players/luis-guto-miguel/800680259/bra/jt/s/itf-points-breakdown/",
-      "totalCombinedPoints": null,
-      "singles": [],
-      "doubles": [],
-      "scrapedAt": "18/05/2026, 07:46"
+      "totalCombinedPoints": 2446.75,
+      "singles": [
+        {
+          "event": "J500 Merida",
+          "date": "2025-11-24",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 500,
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 490,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Charleroi-Marcinelle",
+          "date": "2025-05-26",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Repentigny",
+          "date": "2025-08-24",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Traralgon",
+          "date": "2026-01-16",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 140,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Zapopan",
+          "date": "2025-11-17",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 140,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 90,
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 90,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Santa Croce sull’Arno",
+          "date": "2025-05-12",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 60,
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J300 Repentigny",
+          "date": "2025-08-24",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 225,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Traralgon",
+          "date": "2026-01-16",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 225,
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 225,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 135,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Merida",
+          "date": "2025-11-24",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 112,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Santa Croce sull’Arno",
+          "date": "2025-05-12",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 105,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Charleroi-Marcinelle",
+          "date": "2025-05-26",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "scrapedAt": "17/05/2026, 23:50"
     },
     {
       "id": "yannick-theodor-alexandrescou",
-      "name": "HEAD TO HEAD",
-      "country": "DOUBLES",
+      "name": "FRANCE",
+      "country": "SINGLES",
       "gender": "Boys",
       "currentRank": 3,
       "sourceUrl": "https://www.itftennis.com/en/players/yannick-theodor-alexandrescou/800564683/fra/jt/s/itf-points-breakdown/",
       "totalCombinedPoints": 2379,
-      "singles": [],
-      "doubles": [],
-      "scrapedAt": "18/05/2026, 07:46"
+      "singles": [
+        {
+          "event": "2025 ITF World Tennis Tour Junior Finals",
+          "date": "2025-10-22",
+          "grade": "JM",
+          "surface": "Hard",
+          "points": 700,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bytom",
+          "date": "2025-07-22",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 College Park",
+          "date": "2025-08-18",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Merida",
+          "date": "2025-11-24",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 250,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "date": "2025-12-08",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 250,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Oberpullendorf (Europe Regional Championships)",
+          "date": "2025-09-15",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 210,
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 90,
+          "sourceCounting": false
+        },
+        {
+          "event": "Tennis Europe Summer Cups (B18)",
+          "date": "2025-08-04",
+          "grade": "GC",
+          "surface": "Clay",
+          "points": 75,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "date": "2026-01-16",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 60,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bradenton",
+          "date": "2025-12-01",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J500 Merida",
+          "date": "2025-11-24",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 375,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 225,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 College Park",
+          "date": "2025-08-18",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 157,
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 135,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 112,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "date": "2025-12-08",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 112,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Traralgon",
+          "date": "2026-01-16",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 105,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bytom",
+          "date": "2025-07-22",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 75,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Oberpullendorf (Europe Regional Championships)",
+          "date": "2025-09-15",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 75,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bradenton",
+          "date": "2025-12-01",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "Tennis Europe Summer Cups (B18)",
+          "date": "2025-08-04",
+          "grade": "GC",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "scrapedAt": "17/05/2026, 23:50"
     },
     {
       "id": "ziga-sesko",
-      "name": "HEAD TO HEAD",
-      "country": "DOUBLES",
+      "name": "SLOVENIA",
+      "country": "SINGLES",
       "gender": "Boys",
       "currentRank": 4,
       "sourceUrl": "https://www.itftennis.com/en/players/ziga-sesko/800579895/slo/jt/s/itf-points-breakdown/",
       "totalCombinedPoints": 2149.75,
-      "singles": [],
-      "doubles": [],
-      "scrapedAt": "18/05/2026, 07:46"
+      "singles": [
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 1000,
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bamberg",
+          "date": "2025-06-10",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 140,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Repentigny",
+          "date": "2025-08-24",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 140,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Oberpullendorf (Europe Regional Championships)",
+          "date": "2025-09-15",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 140,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Santa Croce sull’Arno",
+          "date": "2025-05-12",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 100,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Charleroi-Marcinelle",
+          "date": "2025-05-26",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 100,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "date": "2026-01-16",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 60,
+          "sourceCounting": false
+        },
+        {
+          "event": "Tennis Europe Summer Cups (B18)",
+          "date": "2025-08-04",
+          "grade": "GC",
+          "surface": "Clay",
+          "points": 50,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Merida",
+          "date": "2025-11-24",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 45,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "date": "2025-12-08",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 45,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bradenton",
+          "date": "2025-12-01",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 30,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J500 Fort Lauderdale",
+          "date": "2025-12-08",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 375,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Repentigny",
+          "date": "2025-08-24",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 225,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Traralgon",
+          "date": "2026-01-16",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 225,
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 225,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bradenton",
+          "date": "2025-12-01",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 157,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Merida",
+          "date": "2025-11-24",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 112,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Charleroi-Marcinelle",
+          "date": "2025-05-26",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 105,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bamberg",
+          "date": "2025-06-10",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 105,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Oberpullendorf (Europe Regional Championships)",
+          "date": "2025-09-15",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 75,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Santa Croce sull’Arno",
+          "date": "2025-05-12",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "Tennis Europe Summer Cups (B18)",
+          "date": "2025-08-04",
+          "grade": "GC",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "scrapedAt": "17/05/2026, 23:50"
     },
     {
       "id": "jack-kennedy",
-      "name": "HEAD TO HEAD",
-      "country": "DOUBLES",
+      "name": "USA",
+      "country": "SINGLES",
       "gender": "Boys",
       "currentRank": 5,
       "sourceUrl": "https://www.itftennis.com/en/players/jack-kennedy/800692786/usa/jt/s/itf-points-breakdown/",
-      "totalCombinedPoints": null,
-      "singles": [],
-      "doubles": [],
-      "scrapedAt": "18/05/2026, 07:47"
+      "totalCombinedPoints": 2142.75,
+      "singles": [
+        {
+          "event": "2025 ITF World Tennis Tour Junior Finals",
+          "date": "2025-10-22",
+          "grade": "JM",
+          "surface": "Hard",
+          "points": 420,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "date": "2025-12-08",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 350,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Santa Croce sull’Arno",
+          "date": "2025-05-12",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 250,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 180,
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 180,
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 180,
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 750,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 367,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 262,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Santa Croce sull’Arno",
+          "date": "2025-05-12",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 225,
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 135,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "date": "2025-12-08",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 112,
+          "sourceCounting": true
+        }
+      ],
+      "scrapedAt": "17/05/2026, 23:50"
     },
     {
       "id": "jamie-mackenzie",
-      "name": "HEAD TO HEAD",
-      "country": "DOUBLES",
+      "name": "GERMANY",
+      "country": "SINGLES",
       "gender": "Boys",
       "currentRank": 6,
       "sourceUrl": "https://www.itftennis.com/en/players/jamie-mackenzie/800570117/ger/jt/s/itf-points-breakdown/",
-      "totalCombinedPoints": null,
-      "singles": [],
-      "doubles": [],
-      "scrapedAt": "18/05/2026, 07:47"
+      "totalCombinedPoints": 2082,
+      "singles": [
+        {
+          "event": "J500 Offenbach",
+          "date": "2026-05-04",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 500,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bamberg",
+          "date": "2025-06-10",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Beijing",
+          "date": "2025-09-16",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 150,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Merida",
+          "date": "2025-11-24",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 150,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "date": "2025-12-08",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 150,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Santa Croce sull’Arno",
+          "date": "2025-05-12",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 100,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "date": "2026-01-16",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 100,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Osaka",
+          "date": "2025-09-22",
+          "grade": "J500",
+          "surface": "Hard",
+          "points": 90,
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 90,
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 90,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bradenton",
+          "date": "2025-12-01",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 60,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 30,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 College Park",
+          "date": "2025-08-18",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 375,
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 367,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Osaka",
+          "date": "2025-09-22",
+          "grade": "J500",
+          "surface": "Hard",
+          "points": 262,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Beijing",
+          "date": "2025-09-16",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 225,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Merida",
+          "date": "2025-11-24",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 187,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Offenbach",
+          "date": "2026-05-04",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 112,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Santa Croce sull’Arno",
+          "date": "2025-05-12",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 105,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bamberg",
+          "date": "2025-06-10",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 75,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bradenton",
+          "date": "2025-12-01",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 75,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 45,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "date": "2025-12-08",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 College Park",
+          "date": "2025-08-18",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "scrapedAt": "17/05/2026, 23:50"
     },
     {
       "id": "keaton-hance",
-      "name": "HEAD TO HEAD",
-      "country": "DOUBLES",
+      "name": "USA",
+      "country": "SINGLES",
       "gender": "Boys",
       "currentRank": 7,
       "sourceUrl": "https://www.itftennis.com/en/players/keaton-hance/800657117/usa/jt/s/itf-points-breakdown/",
-      "totalCombinedPoints": null,
-      "singles": [],
-      "doubles": [],
-      "scrapedAt": "18/05/2026, 07:47"
+      "totalCombinedPoints": 2061,
+      "singles": [
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 700,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Merida",
+          "date": "2025-11-24",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 350,
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 180,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Traralgon",
+          "date": "2026-01-16",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 140,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Santa Croce sull’Arno",
+          "date": "2025-05-12",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 100,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 College Park",
+          "date": "2025-08-18",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 100,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 90,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "date": "2025-12-08",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 45,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 750,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 367,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 262,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Santa Croce sull’Arno",
+          "date": "2025-05-12",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 225,
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 225,
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 135,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Merida",
+          "date": "2025-11-24",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 112,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "date": "2025-12-08",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 112,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "date": "2026-01-16",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 105,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 75,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 College Park",
+          "date": "2025-08-18",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "scrapedAt": "17/05/2026, 23:50"
     },
     {
       "id": "zangar-nurlanuly",
-      "name": "HEAD TO HEAD",
-      "country": "DOUBLES",
+      "name": "KAZAKHSTAN",
+      "country": "SINGLES",
       "gender": "Boys",
       "currentRank": 8,
       "sourceUrl": "https://www.itftennis.com/en/players/zangar-nurlanuly/800543488/kaz/jt/s/itf-points-breakdown/",
-      "totalCombinedPoints": null,
-      "singles": [],
-      "doubles": [],
-      "scrapedAt": "18/05/2026, 07:47"
+      "totalCombinedPoints": 1842.5,
+      "singles": [
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 490,
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 490,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Wanju (Closed Asia Regional Championship)",
+          "date": "2025-10-06",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Chuncheon",
+          "date": "2025-09-30",
+          "grade": "J200",
+          "surface": "Hard",
+          "points": 200,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Offenbach",
+          "date": "2026-05-04",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 150,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Traralgon",
+          "date": "2026-01-16",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 100,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Osaka",
+          "date": "2025-09-22",
+          "grade": "J500",
+          "surface": "Hard",
+          "points": 45,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 College Park",
+          "date": "2025-08-18",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 135,
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 135,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 105,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Traralgon",
+          "date": "2026-01-16",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 75,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 College Park",
+          "date": "2025-08-18",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 0,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "scrapedAt": "17/05/2026, 23:50"
     },
     {
       "id": "thilo-behrmann",
-      "name": "HEAD TO HEAD",
-      "country": "DOUBLES",
+      "name": "AUSTRIA",
+      "country": "SINGLES",
       "gender": "Boys",
       "currentRank": 9,
       "sourceUrl": "https://www.itftennis.com/en/players/thilo-behrmann/800589798/aut/jt/s/itf-points-breakdown/",
       "totalCombinedPoints": 1764.75,
-      "singles": [],
-      "doubles": [],
-      "scrapedAt": "18/05/2026, 07:47"
+      "singles": [
+        {
+          "event": "J500 Cairo",
+          "date": "2026-04-06",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 500,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Vrsar",
+          "date": "2026-03-23",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Gurugram",
+          "date": "2026-01-12",
+          "grade": "J200",
+          "surface": "Hard",
+          "points": 200,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 180,
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 180,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Offenbach",
+          "date": "2026-05-04",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 150,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 New Delhi",
+          "date": "2026-01-05",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 100,
+          "sourceCounting": false
+        },
+        {
+          "event": "J100 Cairo",
+          "date": "2025-10-27",
+          "grade": "J100",
+          "surface": "Clay",
+          "points": 100,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Repentigny",
+          "date": "2025-08-24",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 60,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Cairo",
+          "date": "2026-03-30",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 60,
+          "sourceCounting": false
+        },
+        {
+          "event": "Tennis Europe Summer Cups (B18)",
+          "date": "2025-08-04",
+          "grade": "GC",
+          "surface": "Clay",
+          "points": 50,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 30,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bytom",
+          "date": "2025-07-22",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Oberpullendorf (Europe Regional Championships)",
+          "date": "2025-09-15",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Cairo",
+          "date": "2025-11-03",
+          "grade": "J200",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J300 New Delhi",
+          "date": "2026-01-05",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 225,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Cairo",
+          "date": "2026-04-06",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 187,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Offenbach",
+          "date": "2026-05-04",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 187,
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Gurugram",
+          "date": "2026-01-12",
+          "grade": "J200",
+          "surface": "Hard",
+          "points": 150,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 135,
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 135,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Repentigny",
+          "date": "2025-08-24",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 105,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Vrsar",
+          "date": "2026-03-23",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 75,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 67,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bytom",
+          "date": "2025-07-22",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Oberpullendorf (Europe Regional Championships)",
+          "date": "2025-09-15",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "Tennis Europe Summer Cups (B18)",
+          "date": "2025-08-04",
+          "grade": "GC",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "scrapedAt": "17/05/2026, 23:50"
     },
     {
       "id": "ryo-tabata",
-      "name": "HEAD TO HEAD",
-      "country": "DOUBLES",
+      "name": "JAPAN",
+      "country": "SINGLES",
       "gender": "Boys",
       "currentRank": 10,
       "sourceUrl": "https://www.itftennis.com/en/players/ryo-tabata/800583844/jpn/jt/s/itf-points-breakdown/",
       "totalCombinedPoints": 1709,
-      "singles": [],
-      "doubles": [],
-      "scrapedAt": "18/05/2026, 07:47"
+      "singles": [
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 490,
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 490,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 College Park",
+          "date": "2025-08-18",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 140,
+          "sourceCounting": true
+        },
+        {
+          "event": "2025 ITF World Tennis Tour Junior Finals",
+          "date": "2025-10-22",
+          "grade": "JM",
+          "surface": "Hard",
+          "points": 130,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Osaka",
+          "date": "2025-09-22",
+          "grade": "J500",
+          "surface": "Hard",
+          "points": 90,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Merida",
+          "date": "2025-11-24",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 90,
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 90,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "date": "2025-12-08",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 45,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 30,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bradenton",
+          "date": "2025-12-01",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 30,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Santa Croce sull’Arno",
+          "date": "2025-05-12",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J500 Merida",
+          "date": "2025-11-24",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 375,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 225,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 College Park",
+          "date": "2025-08-18",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 157,
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 135,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 112,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "date": "2025-12-08",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 112,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Santa Croce sull’Arno",
+          "date": "2025-05-12",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 75,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 45,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Osaka",
+          "date": "2025-09-22",
+          "grade": "J500",
+          "surface": "Hard",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bradenton",
+          "date": "2025-12-01",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "scrapedAt": "17/05/2026, 23:50"
     },
     {
       "id": "ksenia-efremova",
-      "name": "HEAD TO HEAD",
-      "country": "DOUBLES",
+      "name": "FRANCE",
+      "country": "SINGLES",
       "gender": "Girls",
       "currentRank": 1,
       "sourceUrl": "https://www.itftennis.com/en/players/ksenia-efremova/800591535/fra/jt/s/itf-points-breakdown/",
       "totalCombinedPoints": 2818,
-      "singles": [],
-      "doubles": [],
-      "scrapedAt": "18/05/2026, 07:47"
+      "singles": [
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 1000,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Osaka",
+          "date": "2025-09-22",
+          "grade": "J500",
+          "surface": "Hard",
+          "points": 500,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Charleroi-Marcinelle",
+          "date": "2025-05-26",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Repentigny",
+          "date": "2025-08-24",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Traralgon",
+          "date": "2026-01-16",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 210,
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Hong Kong",
+          "date": "2025-09-30",
+          "grade": "J200",
+          "surface": "Hard",
+          "points": 200,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 100,
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 90,
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 90,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 College Park",
+          "date": "2025-08-18",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 60,
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J500 Osaka",
+          "date": "2025-09-22",
+          "grade": "J500",
+          "surface": "Hard",
+          "points": 375,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Repentigny",
+          "date": "2025-08-24",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 157,
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Hong Kong",
+          "date": "2025-09-30",
+          "grade": "J200",
+          "surface": "Hard",
+          "points": 150,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 College Park",
+          "date": "2025-08-18",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 105,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 45,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Charleroi-Marcinelle",
+          "date": "2025-05-26",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Traralgon",
+          "date": "2026-01-16",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "scrapedAt": "17/05/2026, 23:53"
     },
     {
       "id": "hannah-klugman",
-      "name": "HEAD TO HEAD",
-      "country": "DOUBLES",
+      "name": "GREAT BRITAIN",
+      "country": "SINGLES",
       "gender": "Girls",
       "currentRank": 2,
       "sourceUrl": "https://www.itftennis.com/en/players/hannah-klugman/800631038/gbr/jt/s/itf-points-breakdown/",
-      "totalCombinedPoints": null,
-      "singles": [],
-      "doubles": [],
-      "scrapedAt": "18/05/2026, 07:47"
+      "totalCombinedPoints": 2325.5,
+      "singles": [
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 700,
+          "sourceCounting": true
+        },
+        {
+          "event": "2025 ITF World Tennis Tour Junior Finals",
+          "date": "2025-10-22",
+          "grade": "JM",
+          "surface": "Hard",
+          "points": 490,
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 490,
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 250,
+          "sourceCounting": true
+        }
+      ],
+      "doubles": [
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 135,
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 135,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 112,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": true
+        }
+      ],
+      "scrapedAt": "17/05/2026, 23:53"
     },
     {
       "id": "mia-pohankova",
-      "name": "HEAD TO HEAD",
-      "country": "DOUBLES",
+      "name": "SLOVAKIA",
+      "country": "SINGLES",
       "gender": "Girls",
       "currentRank": 3,
       "sourceUrl": "https://www.itftennis.com/en/players/mia-pohankova/800627475/svk/jt/s/itf-points-breakdown/",
-      "totalCombinedPoints": null,
-      "singles": [],
-      "doubles": [],
-      "scrapedAt": "18/05/2026, 07:48"
+      "totalCombinedPoints": 2279.25,
+      "singles": [
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 1000,
+          "sourceCounting": true
+        },
+        {
+          "event": "2025 ITF World Tennis Tour Junior Finals",
+          "date": "2025-10-22",
+          "grade": "JM",
+          "surface": "Hard",
+          "points": 550,
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 180,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 90,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 0,
+          "sourceCounting": true
+        }
+      ],
+      "doubles": [
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 367,
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 135,
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 135,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 0,
+          "sourceCounting": true
+        }
+      ],
+      "scrapedAt": "17/05/2026, 23:53"
     },
     {
       "id": "alena-kovackova",
-      "name": "HEAD TO HEAD",
-      "country": "DOUBLES",
+      "name": "CZECHIA",
+      "country": "SINGLES",
       "gender": "Girls",
       "currentRank": 4,
       "sourceUrl": "https://www.itftennis.com/en/players/alena-kovackova/800572951/cze/jt/s/itf-points-breakdown/",
       "totalCombinedPoints": 2237.25,
-      "singles": [],
-      "doubles": [],
-      "scrapedAt": "18/05/2026, 07:48"
+      "singles": [
+        {
+          "event": "J500 Merida",
+          "date": "2025-11-24",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 500,
+          "sourceCounting": true
+        },
+        {
+          "event": "2025 ITF World Tennis Tour Junior Finals",
+          "date": "2025-10-22",
+          "grade": "JM",
+          "surface": "Hard",
+          "points": 420,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 180,
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 180,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Zapopan",
+          "date": "2025-11-17",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 100,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Traralgon",
+          "date": "2026-01-16",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 100,
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 90,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 45,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 750,
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 750,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 525,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 375,
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 367,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Merida",
+          "date": "2025-11-24",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 262,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 225,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Zapopan",
+          "date": "2025-11-17",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 225,
+          "sourceCounting": false
+        }
+      ],
+      "scrapedAt": "17/05/2026, 23:53"
     },
     {
       "id": "victoria-luiza-barros",
-      "name": "HEAD TO HEAD",
-      "country": "DOUBLES",
+      "name": "BRAZIL",
+      "country": "SINGLES",
       "gender": "Girls",
       "currentRank": 5,
       "sourceUrl": "https://www.itftennis.com/en/players/victoria-luiza-barros/800655335/bra/jt/s/itf-points-breakdown/",
       "totalCombinedPoints": 2194,
-      "singles": [],
-      "doubles": [],
-      "scrapedAt": "18/05/2026, 07:48"
+      "singles": [
+        {
+          "event": "J500 Offenbach",
+          "date": "2026-05-04",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 500,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Merida",
+          "date": "2025-11-24",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 350,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Gaspar",
+          "date": "2026-03-16",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 350,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bamberg",
+          "date": "2025-06-10",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "date": "2025-12-08",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 250,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 180,
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 90,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 60,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 45,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "date": "2026-01-16",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 225,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Merida",
+          "date": "2025-11-24",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 187,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Gaspar",
+          "date": "2026-03-16",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 187,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Offenbach",
+          "date": "2026-05-04",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 187,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 135,
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 135,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Traralgon",
+          "date": "2026-01-16",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 75,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "scrapedAt": "17/05/2026, 23:54"
     },
     {
       "id": "julieta-pareja",
-      "name": "HEAD TO HEAD",
-      "country": "DOUBLES",
+      "name": "USA",
+      "country": "SINGLES",
       "gender": "Girls",
       "currentRank": 6,
       "sourceUrl": "https://www.itftennis.com/en/players/julieta-pareja/800692835/usa/jt/s/itf-points-breakdown/",
       "totalCombinedPoints": 2084.75,
-      "singles": [],
-      "doubles": [],
-      "scrapedAt": "18/05/2026, 07:48"
+      "singles": [
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 700,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 350,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 180,
+          "sourceCounting": true
+        }
+      ],
+      "doubles": [
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 525,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 225,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 157,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 112,
+          "sourceCounting": true
+        }
+      ],
+      "scrapedAt": "17/05/2026, 23:54"
     },
     {
       "id": "jana-kovackova",
-      "name": "HEAD TO HEAD",
-      "country": "DOUBLES",
+      "name": "CZECHIA",
+      "country": "SINGLES",
       "gender": "Girls",
       "currentRank": 7,
       "sourceUrl": "https://www.itftennis.com/en/players/jana-kovackova/800661515/cze/jt/s/itf-points-breakdown/",
       "totalCombinedPoints": 1977.25,
-      "singles": [],
-      "doubles": [],
-      "scrapedAt": "18/05/2026, 07:48"
+      "singles": [
+        {
+          "event": "J300 Zapopan",
+          "date": "2025-11-17",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "2025 ITF World Tennis Tour Junior Finals",
+          "date": "2025-10-22",
+          "grade": "JM",
+          "surface": "Hard",
+          "points": 260,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Merida",
+          "date": "2025-11-24",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 250,
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 180,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 140,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 90,
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 90,
+          "sourceCounting": false
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 90,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 750,
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 750,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 525,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 375,
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 367,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Merida",
+          "date": "2025-11-24",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 262,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 225,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Zapopan",
+          "date": "2025-11-17",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 225,
+          "sourceCounting": false
+        }
+      ],
+      "scrapedAt": "17/05/2026, 23:54"
     },
     {
       "id": "xinran-sun",
-      "name": "HEAD TO HEAD",
-      "country": "DOUBLES",
+      "name": "CHINA, P.R.",
+      "country": "SINGLES",
       "gender": "Girls",
       "currentRank": 8,
       "sourceUrl": "https://www.itftennis.com/en/players/xinran-sun/800677732/chn/jt/s/itf-points-breakdown/",
       "totalCombinedPoints": 1968,
-      "singles": [],
-      "doubles": [],
-      "scrapedAt": "18/05/2026, 07:48"
+      "singles": [
+        {
+          "event": "J500 Fort Lauderdale",
+          "date": "2025-12-08",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 500,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Traralgon",
+          "date": "2026-01-16",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Plovdiv",
+          "date": "2026-04-28",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 180,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Osaka",
+          "date": "2025-09-22",
+          "grade": "J500",
+          "surface": "Hard",
+          "points": 150,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 College Park",
+          "date": "2025-08-18",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 140,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Beijing",
+          "date": "2025-09-16",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 100,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bradenton",
+          "date": "2025-12-01",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 100,
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J300 Beijing",
+          "date": "2025-09-16",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 225,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bradenton",
+          "date": "2025-12-01",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 225,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 College Park",
+          "date": "2025-08-18",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 157,
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 135,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Traralgon",
+          "date": "2026-01-16",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 105,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Plovdiv",
+          "date": "2026-04-28",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 105,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Osaka",
+          "date": "2025-09-22",
+          "grade": "J500",
+          "surface": "Hard",
+          "points": 67,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "date": "2025-12-08",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "scrapedAt": "17/05/2026, 23:54"
     },
     {
       "id": "kristina-penickova",
-      "name": "HEAD TO HEAD",
-      "country": "DOUBLES",
+      "name": "USA",
+      "country": "SINGLES",
       "gender": "Girls",
       "currentRank": 9,
       "sourceUrl": "https://www.itftennis.com/en/players/kristina-penickova/800719373/usa/jt/s/itf-points-breakdown/",
-      "totalCombinedPoints": null,
-      "singles": [],
-      "doubles": [],
-      "scrapedAt": "18/05/2026, 07:48"
+      "totalCombinedPoints": 1905.5,
+      "singles": [
+        {
+          "event": "2025 ITF World Tennis Tour Junior Finals",
+          "date": "2025-10-22",
+          "grade": "JM",
+          "surface": "Hard",
+          "points": 700,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Osaka",
+          "date": "2025-09-22",
+          "grade": "J500",
+          "surface": "Hard",
+          "points": 250,
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Chuncheon",
+          "date": "2025-09-30",
+          "grade": "J200",
+          "surface": "Hard",
+          "points": 200,
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 180,
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 90,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 60,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 750,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Osaka",
+          "date": "2025-09-22",
+          "grade": "J500",
+          "surface": "Hard",
+          "points": 375,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 367,
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 135,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "surface": "Grass",
+          "points": 75,
+          "sourceCounting": true
+        }
+      ],
+      "scrapedAt": "17/05/2026, 23:54"
     },
     {
       "id": "anastasija-cvetkovic",
-      "name": "HEAD TO HEAD",
-      "country": "DOUBLES",
+      "name": "SERBIA",
+      "country": "SINGLES",
       "gender": "Girls",
       "currentRank": 10,
       "sourceUrl": "https://www.itftennis.com/en/players/anastasija-cvetkovic/800598140/srb/jt/s/itf-points-breakdown/",
-      "totalCombinedPoints": 1619,
-      "singles": [],
-      "doubles": [],
-      "scrapedAt": "18/05/2026, 07:48"
+      "totalCombinedPoints": 1796,
+      "singles": [
+        {
+          "event": "J500 Offenbach",
+          "date": "2026-05-04",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 350,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Santa Croce sull’Arno",
+          "date": "2025-05-12",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "date": "2025-12-08",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 250,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bradenton",
+          "date": "2025-12-01",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 210,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Plovdiv",
+          "date": "2026-04-28",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 210,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Merida",
+          "date": "2025-11-24",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 150,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 College Park",
+          "date": "2025-08-18",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 140,
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 90,
+          "sourceCounting": false
+        },
+        {
+          "event": "Tennis Europe Summer Cups (G18)",
+          "date": "2025-08-04",
+          "grade": "GC",
+          "surface": "Clay",
+          "points": 75,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "date": "2026-01-16",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 60,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Oberpullendorf (Europe Regional Championships)",
+          "date": "2025-09-15",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 30,
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 20,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J500 Fort Lauderdale",
+          "date": "2025-12-08",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 375,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Santa Croce sull’Arno",
+          "date": "2025-05-12",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 225,
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 225,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Merida",
+          "date": "2025-11-24",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 187,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bradenton",
+          "date": "2025-12-01",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 157,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "surface": "Clay",
+          "points": 135,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 College Park",
+          "date": "2025-08-18",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 105,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Plovdiv",
+          "date": "2026-04-28",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 105,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "date": "2026-01-16",
+          "grade": "J300",
+          "surface": "Hard",
+          "points": 75,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Offenbach",
+          "date": "2026-05-04",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 67,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Oberpullendorf (Europe Regional Championships)",
+          "date": "2025-09-15",
+          "grade": "J300",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "Tennis Europe Summer Cups (G18)",
+          "date": "2025-08-04",
+          "grade": "GC",
+          "surface": "Clay",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "surface": "Grass",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "surface": "Hard",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "scrapedAt": "17/05/2026, 23:54"
     }
   ]
 }

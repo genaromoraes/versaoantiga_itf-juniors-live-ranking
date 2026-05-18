@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "build:data": "node pipeline/build-latest.mjs",
+    "validate:data": "node pipeline/validate-latest.mjs",
     "scrape:player": "node pipeline/scrape-player-breakdown.mjs",
     "scrape:tournament": "node pipeline/scrape-tournament-draw.mjs",
     "scrape:activity": "node pipeline/scrape-player-activity.mjs"

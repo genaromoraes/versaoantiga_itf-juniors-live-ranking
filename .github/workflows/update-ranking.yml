@@ -41,6 +41,9 @@ jobs:
       - name: Generate latest data
         run: npm run build:data
 
+      - name: Validate latest data
+        run: npm run validate:data
+
       - name: Commit latest data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
