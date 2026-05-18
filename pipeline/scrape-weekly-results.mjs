@@ -113,8 +113,25 @@ function normalizeDrawRound(value = "") {
   const round = value.toUpperCase();
   if (round === "R1") return "R64";
   if (round === "R2") return "R32";
-  if (round === "R3") return "R16";
+  if (round === "R3" || round === "R16") return "R16";
   return round;
+}
+
+function nextRound(round = "") {
+  return {
+    R64: "R32",
+    R32: "R16",
+    R16: "QF",
+    QF: "SF",
+    SF: "F",
+    F: "W"
+  }[normalizeDrawRound(round)] || normalizeDrawRound(round);
+}
+
+function roundForOutcome(round = "", outcome = "") {
+  if (outcome === "L") return normalizeDrawRound(round);
+  if (outcome === "W") return nextRound(round);
+  return normalizeDrawRound(round);
 }
 
 function confidenceNote(value = "") {
@@ -124,6 +141,44 @@ function confidenceNote(value = "") {
     "nearby-round": "rodada encontrada perto do nome",
     pending: "fase pendente"
   }[value] || value || "fase pendente";
+}
+
+function expectedGenderLabel(player) {
+  return player.gender === "Girls" || player.sex === "F" ? "GIRLS" : "BOYS";
+}
+
+function splitDrawSections(lines) {
+  const sections = [];
+  let current = {
+    gender: "",
+    matchType: "",
+    drawType: "",
+    lines: []
+  };
+
+  for (const line of lines) {
+    if (/^(BOYS|GIRLS)$/i.test(line)) current = { ...current, gender: line.toUpperCase(), lines: [] };
+    if (/^(SINGLES|DOUBLES)$/i.test(line)) current = { ...current, matchType: line.toUpperCase(), lines: [] };
+    if (/^(MAIN DRAW|QUALIFYING DRAW)$/i.test(line)) current = { ...current, drawType: line.toUpperCase(), lines: [] };
+
+    current.lines.push(line);
+    if (current.gender && current.matchType) {
+      sections.push({ ...current, lines: [...current.lines] });
+    }
+  }
+
+  return sections;
+}
+
+function candidateDrawSections(lines, player, matchType = "SINGLES") {
+  const expectedGender = expectedGenderLabel(player);
+  const sections = splitDrawSections(lines)
+    .filter((section) => !section.gender || section.gender === expectedGender)
+    .filter((section) => !section.matchType || section.matchType === matchType)
+    .filter((section) => !section.drawType || section.drawType === "MAIN DRAW");
+
+  if (sections.length) return sections.map((section) => section.lines);
+  return [lines];
 }
 
 async function fetchJson(url, retries = 3) {
@@ -210,28 +265,80 @@ async function scrapeTournament(tournament) {
   };
 }
 
+function lineOutcomeScore(lines, index) {
+  const after = lines.slice(index + 1, index + 16);
+  const before = lines.slice(Math.max(0, index - 16), index).reverse();
+  const round = [...before, ...after].find(isRound);
+  const outcome = [...after, ...before].find((line) => line === "W" || line === "L") || "";
+
+  if (!round) return null;
+  return {
+    round,
+    outcome,
+    score: (outcome ? 2 : 1) + (before.find(isRound) ? 1 : 0)
+  };
+}
+
 function drawStatusForPlayer(text, player) {
   const lines = text.split(/\r?\n/).map(cleanLine).filter(Boolean);
   const playerName = normalizeName(player.name);
-  const candidateIndexes = lines
-    .map((line, index) => ({ line, index }))
-    .filter(({ line }) => normalizeName(line) === playerName || normalizeName(line).includes(playerName))
-    .map(({ index }) => index);
+  const candidates = [];
 
-  for (const index of candidateIndexes) {
-    const nearbyBefore = lines.slice(Math.max(0, index - 12), index).reverse();
-    const nearbyAfter = lines.slice(index + 1, index + 12);
-    const round = [...nearbyBefore, ...nearbyAfter].find(isRound);
-    const outcome = [...nearbyAfter, ...nearbyBefore].find((line) => line === "W" || line === "L");
+  for (const sectionLines of candidateDrawSections(lines, player, "SINGLES")) {
+    const candidateIndexes = sectionLines
+      .map((line, index) => ({ line, index }))
+      .filter(({ line }) => {
+        const normalizedLine = normalizeName(line);
+        return normalizedLine === playerName || normalizedLine.includes(playerName);
+      })
+      .map(({ index }) => index);
 
-    if (!round) continue;
-    if (outcome === "L") {
-      return { status: "Eliminado", currentRound: normalizeDrawRound(round), confidence: "nearby-result" };
+    for (const index of candidateIndexes) {
+      const outcomeScore = lineOutcomeScore(sectionLines, index);
+      if (!outcomeScore) continue;
+      candidates.push(outcomeScore);
     }
-    return { status: "Ativo", currentRound: normalizeDrawRound(round), confidence: outcome === "W" ? "nearby-win" : "nearby-round" };
   }
 
-  return { status: "Ativo", currentRound: pendingRound, confidence: "pending" };
+  const best = candidates.sort((a, b) => b.score - a.score)[0];
+  if (!best) return { status: "Ativo", currentRound: pendingRound, confidence: "pending" };
+
+  if (best.outcome === "L") {
+    return { status: "Eliminado", currentRound: roundForOutcome(best.round, best.outcome), confidence: "nearby-result" };
+  }
+
+  return {
+    status: "Ativo",
+    currentRound: roundForOutcome(best.round, best.outcome),
+    confidence: best.outcome === "W" ? "nearby-win" : "nearby-round"
+  };
+}
+
+async function clickIfPresent(page, label) {
+  const locator = page.getByText(label, { exact: true }).first();
+  if ((await locator.count()) === 0) return false;
+  try {
+    await locator.click({ timeout: 5000 });
+    await page.waitForTimeout(1500);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+async function readDrawPageText(page, tournament) {
+  await page.goto(tournament.drawsUrl, { waitUntil: "domcontentloaded", timeout: 90000 });
+  await page.waitForTimeout(6000);
+
+  const texts = [await page.locator("body").innerText({ timeout: 45000 })];
+  for (const gender of ["BOYS", "GIRLS"]) {
+    await clickIfPresent(page, gender);
+    await clickIfPresent(page, "SINGLES");
+    await clickIfPresent(page, "MAIN DRAW");
+    texts.push(await page.locator("body").innerText({ timeout: 45000 }));
+  }
+
+  return [...new Set(texts)].join("\n");
 }
 
 async function enrichTournamentWithDrawRounds(tournaments) {
@@ -254,9 +361,7 @@ async function enrichTournamentWithDrawRounds(tournaments) {
   try {
     for (const tournament of tournamentsWithPlayers) {
       try {
-        await page.goto(tournament.drawsUrl, { waitUntil: "domcontentloaded", timeout: 90000 });
-        await page.waitForTimeout(6000);
-        const text = await page.locator("body").innerText({ timeout: 45000 });
+        const text = await readDrawPageText(page, tournament);
 
         tournament.acceptedPlayers = tournament.acceptedPlayers.map((player) => ({
           ...player,
