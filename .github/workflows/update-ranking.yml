@@ -23,6 +23,11 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Sync latest repository state
+        run: |
+          git fetch origin main
+          git pull --rebase origin main
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -51,13 +56,6 @@ jobs:
 
       - name: Validate latest data
         run: npm run validate:data
-
-      - name: Rebase latest repository state
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git fetch origin main
-          git pull --rebase origin main
 
       - name: Commit latest data
         uses: stefanzweifel/git-auto-commit-action@v5
