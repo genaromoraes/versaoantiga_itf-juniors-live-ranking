@@ -41,6 +41,7 @@ Os leitores reais ficam na pasta `pipeline`:
 - `scrape-official-ranking.mjs`: le o Top 10 masculino e feminino na pagina oficial de ranking da ITF.
 - `data/player-points.csv`: base de pontos historicos dos atletas, uma linha por resultado.
 - `data/player-points-status.csv`: relatorio de manutencao da base historica, mostrando quem esta OK e quem precisa de revisao.
+- `data/weekly-results.csv`: base semanal para informar torneio, fase atual e status quando a pagina de activity da ITF nao trouxer os dados de forma confiavel.
 - `scrape-player-breakdown.mjs`: le os pontos de simples e duplas no perfil do atleta quando for necessario atualizar a base historica.
 - `scrape-player-activity.mjs`: le a atividade recente do atleta para descobrir se esta jogando na semana.
 - `build-latest.mjs`: junta tudo e gera o arquivo usado pelo site.
@@ -80,6 +81,25 @@ Cada linha representa um resultado de simples ou duplas. As colunas mais importa
 - `source_counting`: `true` quando o resultado esta entre os 6 melhores daquele tipo.
 
 Depois de cada atualizacao, o robo gera `data/player-points-status.csv`. Esse arquivo mostra se a planilha mestre bate com os pontos oficiais da ITF. Quando o status aparecer como `Pendente` ou `Revisar`, aquele atleta precisa ter o breakdown conferido ou preenchido.
+
+## Resultados da semana
+
+A planilha `data/weekly-results.csv` e uma ponte simples para o live ranking. Ela permite informar, por atleta, qual torneio esta jogando na semana, se esta ativo ou eliminado, e em qual fase esta em simples e duplas.
+
+Colunas:
+
+- `player_id`: identificador do atleta.
+- `player_name`: nome do atleta, apenas para leitura humana.
+- `match_type`: `Singles` ou `Doubles`.
+- `event`: torneio da semana.
+- `grade`: categoria do torneio, como `J500`, `J300`, `J200`.
+- `start_date` e `end_date`: datas do torneio no formato `aaaa-mm-dd`.
+- `status`: `Ativo`, `Eliminado` ou `Nao joga`.
+- `current_round`: fase atual ou fase em que foi eliminado, como `R32`, `R16`, `QF`, `SF`, `F`, `W`.
+- `source_url`: link da pagina de resultados usada como fonte.
+- `notes`: observacoes livres.
+
+Quando essa planilha tiver uma linha para um atleta, ela tem prioridade sobre a leitura automatica da aba Activity. Isso ajuda quando a ITF carrega parte dos dados por JavaScript e o robo nao consegue ler tudo diretamente.
 
 ## Regras oficiais
 

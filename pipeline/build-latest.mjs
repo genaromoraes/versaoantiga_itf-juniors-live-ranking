@@ -10,6 +10,7 @@ const rankingPreviewFile = path.join(rootDir, "data", "itf-ranking-preview.json"
 const pointsCsvFile = path.join(rootDir, "data", "player-points.csv");
 const previewFile = path.join(rootDir, "data", "itf-player-preview.json");
 const activityPreviewFile = path.join(rootDir, "data", "itf-activity-preview.json");
+const weeklyResultsFile = path.join(rootDir, "data", "weekly-results.csv");
 const outputDir = path.join(rootDir, "data");
 const outputFile = path.join(outputDir, "latest.json");
 
@@ -130,6 +131,24 @@ async function readActivityPreview() {
   }
 }
 
+async function readWeeklyResultsPreview() {
+  try {
+    const csv = await fs.readFile(weeklyResultsFile, "utf8");
+    const [headerLine, ...lines] = csv.split(/\r?\n/).filter(Boolean);
+    const headers = parseCsvLine(headerLine);
+    const rows = lines
+      .map((line) => {
+        const columns = parseCsvLine(line);
+        return Object.fromEntries(headers.map((header, index) => [header, columns[index] || ""]));
+      })
+      .filter((row) => row.player_id && row.match_type);
+
+    return { rows };
+  } catch {
+    return { rows: [] };
+  }
+}
+
 async function readExistingLatest() {
   try {
     return JSON.parse(await fs.readFile(outputFile, "utf8"));
@@ -198,6 +217,8 @@ const roundToDisplay = {
   R2: "R32",
   R1: "R64"
 };
+
+const displayToRound = Object.fromEntries(Object.entries(roundToDisplay).map(([round, display]) => [display, round]));
 
 function pointsForRound(rules, grade, matchType, round) {
   const table = rules.pointsTable?.[matchType]?.[grade] || {};
@@ -297,18 +318,21 @@ function pointsAndStatusForTournament(tournament, rules, matchType) {
     return {
       status: "Nao joga",
       round: "Nao joga",
-      points: 0
+      points: 0,
+      maxPoints: 0
     };
   }
 
   const lastResult = [...(tournament.matches || [])].reverse().find((match) => match.outcome === "W" || match.outcome === "L");
-  const pointsRound = lastResult?.outcome === "L" ? lastResult.round : lastResult?.round || "";
+  const normalizedCurrentRound = displayToRound[tournament.currentRound] || tournament.currentRound || "";
+  const pointsRound = tournament.status === "Eliminado" ? lastResult?.round || normalizedCurrentRound : normalizedCurrentRound || lastResult?.round || "";
   const currentRound = roundToDisplay[tournament.currentRound] || tournament.currentRound || "Nao joga";
 
   return {
     status: tournament.status === "Eliminado" ? "Eliminado" : "Ativo",
     round: currentRound,
-    points: pointsForRound(rules, tournament.grade, matchType, pointsRound)
+    points: pointsForRound(rules, tournament.grade, matchType, pointsRound),
+    maxPoints: pointsForRound(rules, tournament.grade, matchType, "W")
   };
 }
 
@@ -354,9 +378,76 @@ function applyActivityPreview(players, activityPlayers, rules) {
         singlesStatus: singles.status,
         singlesRound: singles.round,
         singlesPoints: singles.points,
+        singlesMaxPoints: singles.maxPoints,
         doublesStatus: doubles.status,
         doublesRound: doubles.round,
-        doublesPoints: doubles.points
+        doublesPoints: doubles.points,
+        doublesMaxPoints: doubles.maxPoints
+      }
+    };
+  });
+}
+
+function normalizeWeeklyStatus(status = "") {
+  const value = status.trim().toLowerCase();
+  if (value.startsWith("elim")) return "Eliminado";
+  if (value.startsWith("nao") || value.startsWith("não")) return "Nao joga";
+  return "Ativo";
+}
+
+function weeklyTournamentFromRow(row) {
+  return {
+    event: row.event,
+    grade: row.grade,
+    startDate: row.start_date,
+    endDate: row.end_date,
+    matchType: row.match_type,
+    status: normalizeWeeklyStatus(row.status),
+    currentRound: row.current_round,
+    matches: row.status?.toLowerCase().startsWith("elim")
+      ? [{ round: row.current_round, outcome: "L", opponent: "", score: "" }]
+      : []
+  };
+}
+
+function applyWeeklyResultsPreview(players, weeklyRows, rules) {
+  if (!weeklyRows.length) return players;
+
+  const rowsByPlayer = new Map();
+  for (const row of weeklyRows) {
+    if (!rowsByPlayer.has(row.player_id)) rowsByPlayer.set(row.player_id, []);
+    rowsByPlayer.get(row.player_id).push(row);
+  }
+
+  return players.map((player) => {
+    const rows = rowsByPlayer.get(player.id) || [];
+    const singlesRow = rows.find((row) => row.match_type === "Singles");
+    const doublesRow = rows.find((row) => row.match_type === "Doubles");
+    if (!singlesRow && !doublesRow) return player;
+
+    const singlesTournament = singlesRow ? weeklyTournamentFromRow(singlesRow) : null;
+    const doublesTournament = doublesRow ? weeklyTournamentFromRow(doublesRow) : null;
+    const singles = pointsAndStatusForTournament(singlesTournament, rules, "singles");
+    const doubles = pointsAndStatusForTournament(doublesTournament, rules, "doubles");
+    const eventNames = [singlesTournament?.event, doublesTournament?.event].filter(Boolean);
+    const event = [...new Set(eventNames)].join(" / ");
+    const grade = singlesTournament?.grade || doublesTournament?.grade || "";
+
+    return {
+      ...player,
+      liveEvent: {
+        ...(player.liveEvent || {}),
+        event,
+        grade,
+        singlesStatus: singles.status,
+        singlesRound: singles.round,
+        singlesPoints: singles.points,
+        singlesMaxPoints: singles.maxPoints,
+        doublesStatus: doubles.status,
+        doublesRound: doubles.round,
+        doublesPoints: doubles.points,
+        doublesMaxPoints: doubles.maxPoints,
+        source: "data/weekly-results.csv"
       }
     };
   });
@@ -365,6 +456,7 @@ function applyActivityPreview(players, activityPlayers, rules) {
 const realPreview = await readRealPlayerPreview();
 const pointsCsvPreview = await readPointsCsvPreview();
 const activityPreview = await readActivityPreview();
+const weeklyResultsPreview = await readWeeklyResultsPreview();
 const rankingPreview = await readRankingPreview();
 const sourcePlayers = await readSourcePlayers();
 const rules = JSON.parse(await fs.readFile(path.join(rootDir, "pipeline", "rules", "itf-juniors-2026.json"), "utf8"));
@@ -372,7 +464,8 @@ const basePlayers = sourcePlayers.length ? sourcePlayers.map(sourcePlayerShell) 
 const pointsPreview = pointsCsvPreview.players?.length ? pointsCsvPreview : realPreview;
 const playersWithOfficialFallbacks = basePlayers.map((player) => officialFallbackResults(player, rankingPreview.rankingDate));
 const playersWithRealResults = applyRealPlayerPreview(playersWithOfficialFallbacks, pointsPreview.players || []);
-const players = applyActivityPreview(playersWithRealResults, activityPreview.players || [], rules);
+const playersWithActivity = applyActivityPreview(playersWithRealResults, activityPreview.players || [], rules);
+const players = applyWeeklyResultsPreview(playersWithActivity, weeklyResultsPreview.rows || [], rules);
 const existingLatest = await readExistingLatest();
 const invalidPlayers = players.filter((player) => !hasRankingResults(player));
 
@@ -391,7 +484,8 @@ let payload = {
   generatedBy: "pipeline/build-latest.mjs",
   realPlayersApplied: pointsPreview.players?.map((player) => player.id) || [],
   pointsSource: pointsCsvPreview.players?.length ? "data/player-points.csv" : "data/itf-player-preview.json",
-  activityPlayersApplied: activityPreview.players?.map((player) => player.id) || []
+  activityPlayersApplied: activityPreview.players?.map((player) => player.id) || [],
+  weeklyResultsApplied: [...new Set((weeklyResultsPreview.rows || []).map((row) => row.player_id))]
 };
 
 if (invalidPlayers.length && existingLatest?.players?.length) {

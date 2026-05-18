@@ -97,6 +97,10 @@ function projectedEventPoints(liveEvent, target) {
   const singlesRound = liveEvent.singlesRound || "";
   const doublesRound = liveEvent.doublesRound || "";
 
+  if (target === "max") {
+    return Number(liveEvent.singlesMaxPoints || 0) + doublesValue(liveEvent.doublesMaxPoints);
+  }
+
   const singlesTarget = target === "next" ? nextRound[singlesRound] || singlesRound : "Campeao";
   const doublesTarget = target === "next" ? nextRound[doublesRound] || doublesRound : "Campeao";
 
