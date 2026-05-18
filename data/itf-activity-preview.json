@@ -282,7 +282,7 @@
           ]
         }
       ],
-      "scrapedAt": "17/05/2026, 23:28"
+      "scrapedAt": "17/05/2026, 23:40"
     },
     {
       "id": "luis-guto-miguel",
@@ -522,7 +522,7 @@
           ]
         }
       ],
-      "scrapedAt": "17/05/2026, 23:28"
+      "scrapedAt": "17/05/2026, 23:40"
     },
     {
       "id": "yannick-theodor-alexandrescou",
@@ -715,14 +715,200 @@
           ]
         }
       ],
-      "scrapedAt": "17/05/2026, 23:29"
+      "scrapedAt": "17/05/2026, 23:40"
     },
     {
       "id": "ziga-sesko",
       "name": "Ziga Sesko",
       "activityUrl": "https://www.itftennis.com/en/players/ziga-sesko/800579895/slo/jt/s/activity/",
-      "tournaments": [],
-      "scrapedAt": "17/05/2026, 23:29"
+      "tournaments": [
+        {
+          "event": "Australian Open Junior Championships",
+          "startDate": "2026-01-24",
+          "endDate": "2026-02-01",
+          "city": "Melbourne",
+          "country": "AUS",
+          "grade": "JGS",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "KeatonHance",
+              "score": "4-6 6-3 6-4"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "JPN",
+              "opponent": "RyoTabata",
+              "score": "6-3 6-3"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "BRA",
+              "opponent": "Luis GutoMiguel",
+              "score": "6-2 7-6 5"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "AUT",
+              "opponent": "ThiloBehrmann",
+              "score": "6-2 6-4"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "ECU",
+              "opponent": "EmilioCamacho",
+              "score": "6-4 6-3"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "",
+              "opponent": "MaratSalbiev",
+              "score": "6-3 6-2"
+            }
+          ]
+        },
+        {
+          "event": "J300 Traralgon",
+          "startDate": "2026-01-16",
+          "endDate": "2026-01-21",
+          "city": "Traralgon",
+          "country": "AUS",
+          "grade": "J300",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "R3",
+              "outcome": "L",
+              "opponentCountry": "ESP",
+              "opponent": "TitoChavez",
+              "score": "5-7 3-6"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "TUR",
+              "opponent": "Kaan IsikKosaner",
+              "score": "3-6 6-3 6-3"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "",
+              "opponent": "KirillFilaretov",
+              "score": "7-6 5 6-0"
+            }
+          ]
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "startDate": "2025-12-08",
+          "endDate": "2025-12-14",
+          "city": "Fort Lauderdale",
+          "country": "USA",
+          "grade": "J500",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "R2",
+              "outcome": "L",
+              "opponentCountry": "PUR",
+              "opponent": "YannikAlvarez",
+              "score": "6-3 2-6 4-6"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "CAN",
+              "opponent": "XavierMassotte",
+              "score": "6-4 6-0"
+            }
+          ]
+        },
+        {
+          "event": "J300 Bradenton",
+          "startDate": "2025-12-01",
+          "endDate": "2025-12-07",
+          "city": "Bradenton",
+          "country": "USA",
+          "grade": "J300",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "R2",
+              "outcome": "L",
+              "opponentCountry": "COL",
+              "opponent": "Juan MiguelBolivar Idarraga",
+              "score": "6-7 4 6-3 3-6"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "AgassiRusher",
+              "score": "6-3 1-6 6-4"
+            }
+          ]
+        },
+        {
+          "event": "J500 Merida",
+          "startDate": "2025-11-24",
+          "endDate": "2025-11-30",
+          "city": "Merida",
+          "country": "MEX",
+          "grade": "J500",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "R2",
+              "outcome": "L",
+              "opponentCountry": "CZE",
+              "opponent": "JakubKusy",
+              "score": "5-7 1-6"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "NoahFolkesson-Doudy",
+              "score": "6-0 6-4 SHOW 5 MORE TOURNAMENTS 5 items per page Latest media Articles Images ARTICLE HISTORY FOR SESKO AS SLOVENIA CELEBRATES FIRST GRAND SLAM BOYS' CHAMP 1 Feb 2026 ITF JuniorsAustralian Open ARTICLE 'I LOVE THE BIG MOMENTS': IMPRESSIVE SESKO INTO AUSSIE OPEN QUARTERS 29 Jan 2026 ITF JuniorsAustralian Open SEE ALL NEWS COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS MEN'S WORLD TENNIS TOUR WOMEN'S WORLD TENNIS TOUR WORLD TENNIS TOUR JUNIORS WORLD TENNIS MASTERS TOUR UNIQLO WHEELCHAIR TENNIS TOUR BEACH TENNIS OLYMPICS, PARALYMPICS OLYMPICS LA 2028 PARALYMPICS LA 2028 ITF COMPETITIONS BILLIE JEAN KING CUP DAVIS CUP HOPMAN CUP ITF SITES & APPS IPIN PLAYER PORTAL ITF ACADEMY WORLD TENNIS NUMBER LIVE SCORES RULES OF TENNIS APP SITE MAP ITF AFFILIATES ATP WTA AUSTRALIAN OPEN ROLAND GARROS WIMBLEDON US OPEN INTERNATIONAL TENNIS INTEGRITY AGENCY INTERNATIONAL TENNIS HALL OF FAME THE ASSOCIATION OF CENTENARY CLUBS THE INTERNATIONAL CLUB TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY FOLLOW US Copyright © 2026 International Tennis Federation Back to top"
+            }
+          ]
+        }
+      ],
+      "scrapedAt": "17/05/2026, 23:40"
     },
     {
       "id": "jack-kennedy",
@@ -929,7 +1115,1115 @@
           ]
         }
       ],
-      "scrapedAt": "17/05/2026, 23:29"
+      "scrapedAt": "17/05/2026, 23:40"
+    },
+    {
+      "id": "jamie-mackenzie",
+      "name": "Jamie Mackenzie",
+      "activityUrl": "https://www.itftennis.com/en/players/jamie-mackenzie/800570117/ger/jt/s/activity/",
+      "tournaments": [
+        {
+          "event": "J500 Milan",
+          "startDate": "2026-05-18",
+          "endDate": "2026-05-24",
+          "city": "Milan",
+          "country": "ITA",
+          "grade": "J500",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R2",
+          "matches": [
+            {
+              "round": "R1",
+              "outcome": "BYE",
+              "opponent": "BYE",
+              "score": ""
+            }
+          ]
+        },
+        {
+          "event": "J500 Offenbach",
+          "startDate": "2026-05-04",
+          "endDate": "2026-05-10",
+          "city": "Offenbach",
+          "country": "GER",
+          "grade": "J500",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "W",
+              "opponentCountry": "BUL",
+              "opponent": "DimitarKisimov",
+              "score": "6-4 6-3"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "ESP",
+              "opponent": "TitoChavez",
+              "score": "6-3 5-7 6-2"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "GBR",
+              "opponent": "MarkCeban",
+              "score": "2-6 7-5 7-5"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "POL",
+              "opponent": "JanSadzik",
+              "score": "6-3 6-2"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "BRA",
+              "opponent": "FranciscoFontes Damorim",
+              "score": "6-7 5 6-1 6-2"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "GER",
+              "opponent": "Leo Mathieuvan Huet",
+              "score": "6-0 6-0"
+            }
+          ]
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "startDate": "2026-01-24",
+          "endDate": "2026-02-01",
+          "city": "Melbourne",
+          "country": "AUS",
+          "grade": "JGS",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "QF",
+              "outcome": "L",
+              "opponentCountry": "JPN",
+              "opponent": "RyoTabata",
+              "score": "7-6 3 4-6 6-7 7"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "SUI",
+              "opponent": "FlynnThomas",
+              "score": "7-5 6-4"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "RSA",
+              "opponent": "JohnBothma",
+              "score": "6-4 7-6 5"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "FRA",
+              "opponent": "MickaelKaouk",
+              "score": "6-3 6-4"
+            }
+          ]
+        },
+        {
+          "event": "J300 Traralgon",
+          "startDate": "2026-01-16",
+          "endDate": "2026-01-21",
+          "city": "Traralgon",
+          "country": "AUS",
+          "grade": "J300",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "QF",
+              "outcome": "L",
+              "opponentCountry": "TPE",
+              "opponent": "Kuan-ShouChen",
+              "score": "2-6 2-6"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "RSA",
+              "opponent": "ConnorDoig",
+              "score": "6-3 6-4"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "TanishkKonduri",
+              "score": "6-3 6-7 4 6-2"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "FRA",
+              "opponent": "MickaelKaouk",
+              "score": "6-4 7-5"
+            }
+          ]
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "startDate": "2025-12-08",
+          "endDate": "2025-12-14",
+          "city": "Fort Lauderdale",
+          "country": "USA",
+          "grade": "J500",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "QF",
+              "outcome": "L",
+              "opponentCountry": "USA",
+              "opponent": "JackKennedy",
+              "score": "6-4 6-7 1 4-6"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "MichaelAntonius",
+              "score": "6-4 6-4"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "KAZ",
+              "opponent": "DanielTazabekov",
+              "score": "6-1 6-0"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "ECU",
+              "opponent": "AngelVeliz",
+              "score": "6-1 6-2 SHOW 5 MORE TOURNAMENTS 5 items per page Latest media Articles ARTICLE 'THIS MEANS THE WORLD': MACKENZIE, BARROS TRIUMPH AT J500 OFFENBACH 11 May 2026 ITF Juniors ARTICLE FLAME-HAIRED MACKENZIE IN RED HOT FORM AS JUNIORS ENTER AUSSIE FRAY 24 Jan 2026 ITF JuniorsAustralian Open SEE ALL NEWS COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS MEN'S WORLD TENNIS TOUR WOMEN'S WORLD TENNIS TOUR WORLD TENNIS TOUR JUNIORS WORLD TENNIS MASTERS TOUR UNIQLO WHEELCHAIR TENNIS TOUR BEACH TENNIS OLYMPICS, PARALYMPICS OLYMPICS LA 2028 PARALYMPICS LA 2028 ITF COMPETITIONS BILLIE JEAN KING CUP DAVIS CUP HOPMAN CUP ITF SITES & APPS IPIN PLAYER PORTAL ITF ACADEMY WORLD TENNIS NUMBER LIVE SCORES RULES OF TENNIS APP SITE MAP ITF AFFILIATES ATP WTA AUSTRALIAN OPEN ROLAND GARROS WIMBLEDON US OPEN INTERNATIONAL TENNIS INTEGRITY AGENCY INTERNATIONAL TENNIS HALL OF FAME THE ASSOCIATION OF CENTENARY CLUBS THE INTERNATIONAL CLUB TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY FOLLOW US Copyright © 2026 International Tennis Federation Back to top"
+            }
+          ]
+        }
+      ],
+      "scrapedAt": "17/05/2026, 23:40"
+    },
+    {
+      "id": "keaton-hance",
+      "name": "Keaton Hance",
+      "activityUrl": "https://www.itftennis.com/en/players/keaton-hance/800657117/usa/jt/s/activity/",
+      "tournaments": [
+        {
+          "event": "Australian Open Junior Championships",
+          "startDate": "2026-01-24",
+          "endDate": "2026-02-01",
+          "city": "Melbourne",
+          "country": "AUS",
+          "grade": "JGS",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "L",
+              "opponentCountry": "SLO",
+              "opponent": "ZigaSesko",
+              "score": "6-4 3-6 4-6"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "KAZ",
+              "opponent": "ZangarNurlanuly",
+              "score": "6-3 6-2"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "TPE",
+              "opponent": "Kuan-ShouChen",
+              "score": "7-6 7 6-4"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "ITA",
+              "opponent": "SimoneMassellani",
+              "score": "6-0 6-4"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "GBR",
+              "opponent": "MarkCeban",
+              "score": "6-4 4-6 6-2"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "AUS",
+              "opponent": "EthanDomingo",
+              "score": "6-0 6-2"
+            }
+          ]
+        },
+        {
+          "event": "J300 Traralgon",
+          "startDate": "2026-01-16",
+          "endDate": "2026-01-21",
+          "city": "Traralgon",
+          "country": "AUS",
+          "grade": "J300",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "SF",
+              "outcome": "L",
+              "opponentCountry": "BRA",
+              "opponent": "Luis GutoMiguel",
+              "score": "3-6 4-6"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "ESP",
+              "opponent": "TitoChavez",
+              "score": "6-3 6-0"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "SVK",
+              "opponent": "LeonSloboda",
+              "score": "6-2 7-5"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "AUS",
+              "opponent": "CooperKose",
+              "score": "4-6 7-6 4 6-4"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "HKG",
+              "opponent": "Siu Chi NicholasCheng",
+              "score": "6-2 6-1"
+            }
+          ]
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "startDate": "2025-12-08",
+          "endDate": "2025-12-14",
+          "city": "Fort Lauderdale",
+          "country": "USA",
+          "grade": "J500",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "R2",
+              "outcome": "L",
+              "opponentCountry": "BUL",
+              "opponent": "DimitarKisimov",
+              "score": "6-2 2-6 3-6"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "HKG",
+              "opponent": "Siu Chi NicholasCheng",
+              "score": "6-4 6-4"
+            }
+          ]
+        },
+        {
+          "event": "J500 Merida",
+          "startDate": "2025-11-24",
+          "endDate": "2025-11-30",
+          "city": "Merida",
+          "country": "MEX",
+          "grade": "J500",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "L",
+              "opponentCountry": "BRA",
+              "opponent": "Luis GutoMiguel",
+              "score": "1-6 1-6"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "FRA",
+              "opponent": "Yannick TheodorAlexandrescou",
+              "score": "6-4 7-6 8"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "POL",
+              "opponent": "AlanWazny",
+              "score": "6-4 6-2"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "SWE",
+              "opponent": "WilliamRejchtman Vinciguerra",
+              "score": "6-4 6-4"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "MEX",
+              "opponent": "MauricioSchtulmann Gasca",
+              "score": "6-3 6-4"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "AUS",
+              "opponent": "Mustafa EgeSik",
+              "score": "6-2 6-7 3 6-2"
+            }
+          ]
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "startDate": "2025-08-31",
+          "endDate": "2025-09-06",
+          "city": "New York",
+          "country": "USA",
+          "grade": "JGS",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Eliminado",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "R1",
+              "outcome": "L",
+              "opponentCountry": "JPN",
+              "opponent": "NaotoTomizawa",
+              "score": "7-6 4 3-6 2-6 SHOW 5 MORE TOURNAMENTS 5 items per page Latest media Articles Images ARTICLE SCRAMBLED EGGS, ICE BATHS, WIKIPEDIA: HANCE AT HOME IN AUSTRALIAN HEAT 27 Jan 2026 ITF JuniorsAustralian Open SEE ALL NEWS COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS MEN'S WORLD TENNIS TOUR WOMEN'S WORLD TENNIS TOUR WORLD TENNIS TOUR JUNIORS WORLD TENNIS MASTERS TOUR UNIQLO WHEELCHAIR TENNIS TOUR BEACH TENNIS OLYMPICS, PARALYMPICS OLYMPICS LA 2028 PARALYMPICS LA 2028 ITF COMPETITIONS BILLIE JEAN KING CUP DAVIS CUP HOPMAN CUP ITF SITES & APPS IPIN PLAYER PORTAL ITF ACADEMY WORLD TENNIS NUMBER LIVE SCORES RULES OF TENNIS APP SITE MAP ITF AFFILIATES ATP WTA AUSTRALIAN OPEN ROLAND GARROS WIMBLEDON US OPEN INTERNATIONAL TENNIS INTEGRITY AGENCY INTERNATIONAL TENNIS HALL OF FAME THE ASSOCIATION OF CENTENARY CLUBS THE INTERNATIONAL CLUB TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY FOLLOW US Copyright © 2026 International Tennis Federation Back to top"
+            }
+          ]
+        }
+      ],
+      "scrapedAt": "17/05/2026, 23:40"
+    },
+    {
+      "id": "zangar-nurlanuly",
+      "name": "Zangar Nurlanuly",
+      "activityUrl": "https://www.itftennis.com/en/players/zangar-nurlanuly/800543488/kaz/jt/s/activity/",
+      "tournaments": [
+        {
+          "event": "J500 Offenbach",
+          "startDate": "2026-05-04",
+          "endDate": "2026-05-10",
+          "city": "Offenbach",
+          "country": "GER",
+          "grade": "J500",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "QF",
+              "outcome": "L",
+              "opponentCountry": "ESP",
+              "opponent": "TitoChavez",
+              "score": "3-6 3-6"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "LAT",
+              "opponent": "RihardsNeimanis",
+              "score": "6-3 7-6 6"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "CZE",
+              "opponent": "JakubSmejcky",
+              "score": "6-2 6-1"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "ARG",
+              "opponent": "TomasRe",
+              "score": "6-4 6-2"
+            }
+          ]
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "startDate": "2026-01-24",
+          "endDate": "2026-02-01",
+          "city": "Melbourne",
+          "country": "AUS",
+          "grade": "JGS",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "SF",
+              "outcome": "L",
+              "opponentCountry": "USA",
+              "opponent": "KeatonHance",
+              "score": "3-6 2-6"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "HKG",
+              "opponent": "KaiThompson",
+              "score": "3-6 7-6 4 6-4"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "",
+              "opponent": "SavvaRybkin",
+              "score": "6-1 6-4"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "AUS",
+              "opponent": "TaikiTakizawa",
+              "score": "7-5 1-6 6-3"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "THA",
+              "opponent": "KunananPantaratorn",
+              "score": "6-2 6-1"
+            }
+          ]
+        },
+        {
+          "event": "J300 Traralgon",
+          "startDate": "2026-01-16",
+          "endDate": "2026-01-21",
+          "city": "Traralgon",
+          "country": "AUS",
+          "grade": "J300",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "QF",
+              "outcome": "L",
+              "opponentCountry": "BRA",
+              "opponent": "Luis GutoMiguel",
+              "score": "2-6 2-6"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "GavinGoode",
+              "score": "7-6 5 6-1"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "GER",
+              "opponent": "OliverMajdandzic",
+              "score": "6-4 6-1"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "",
+              "opponent": "MaratSalbiev",
+              "score": "6-0 6-3"
+            }
+          ]
+        },
+        {
+          "event": "J300 Wanju (Closed Asia Regional Championship)",
+          "startDate": "2025-10-06",
+          "endDate": "2025-10-12",
+          "city": "Wanju",
+          "country": "KOR",
+          "grade": "J300",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "W",
+              "opponentCountry": "TPE",
+              "opponent": "Kuan-ShouChen",
+              "score": "6-2 6-1"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "HKG",
+              "opponent": "Siu Chi NicholasCheng",
+              "score": "6-3 6-1"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "JPN",
+              "opponent": "YoshihiroSakurai",
+              "score": "7-5 6-4"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "TPE",
+              "opponent": "LinHao-Yu",
+              "score": "7-5 7-6 3"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "KOR",
+              "opponent": "Jeong WonKwon",
+              "score": "6-2 6-1"
+            }
+          ]
+        },
+        {
+          "event": "J200 Chuncheon",
+          "startDate": "2025-09-30",
+          "endDate": "2025-10-05",
+          "city": "Chuncheon",
+          "country": "KOR",
+          "grade": "J200",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "W",
+              "opponentCountry": "KOR",
+              "opponent": "Min HyukCho",
+              "score": "6-3 6-4"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "KOR",
+              "opponent": "SionJi",
+              "score": "6-1 7-5"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "JPN",
+              "opponent": "RenMatsumura",
+              "score": "7-5 6-2"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "KOR",
+              "opponent": "Yul HoJung",
+              "score": "6-1 6-2"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "KOR",
+              "opponent": "Jun HyuckLee",
+              "score": "6-1 6-1 SHOW 5 MORE TOURNAMENTS 5 items per page Latest media Articles Images ARTICLE 'CAN WE WAIT, PLEASE?': NURLANULY FOLLOWS RYBAKINA LEAD IN AUSTRALIA 28 Jan 2026 ITF JuniorsAustralian Open ARTICLE NURLANULY BOOSTS KAZAKHSTAN'S RISE AND SEALS BEST GRAND SLAM RESULT 2 Sep 2025 ITF JuniorsUS Open ARTICLE 'LIKE A DREAM': KAZAKHSTAN REACH WORLD JUNIOR TENNIS QUARTER-FINALS 3 Aug 2022 ITF JuniorsITF World Junior Tennis SEE ALL NEWS COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS MEN'S WORLD TENNIS TOUR WOMEN'S WORLD TENNIS TOUR WORLD TENNIS TOUR JUNIORS WORLD TENNIS MASTERS TOUR UNIQLO WHEELCHAIR TENNIS TOUR BEACH TENNIS OLYMPICS, PARALYMPICS OLYMPICS LA 2028 PARALYMPICS LA 2028 ITF COMPETITIONS BILLIE JEAN KING CUP DAVIS CUP HOPMAN CUP ITF SITES & APPS IPIN PLAYER PORTAL ITF ACADEMY WORLD TENNIS NUMBER LIVE SCORES RULES OF TENNIS APP SITE MAP ITF AFFILIATES ATP WTA AUSTRALIAN OPEN ROLAND GARROS WIMBLEDON US OPEN INTERNATIONAL TENNIS INTEGRITY AGENCY INTERNATIONAL TENNIS HALL OF FAME THE ASSOCIATION OF CENTENARY CLUBS THE INTERNATIONAL CLUB TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY FOLLOW US Copyright © 2026 International Tennis Federation Back to top"
+            }
+          ]
+        }
+      ],
+      "scrapedAt": "17/05/2026, 23:40"
+    },
+    {
+      "id": "thilo-behrmann",
+      "name": "Thilo Behrmann",
+      "activityUrl": "https://www.itftennis.com/en/players/thilo-behrmann/800589798/aut/jt/s/activity/",
+      "tournaments": [
+        {
+          "event": "J500 Milan",
+          "startDate": "2026-05-18",
+          "endDate": "2026-05-24",
+          "city": "Milan",
+          "country": "ITA",
+          "grade": "J500",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R2",
+          "matches": [
+            {
+              "round": "R1",
+              "outcome": "BYE",
+              "opponent": "BYE",
+              "score": ""
+            }
+          ]
+        },
+        {
+          "event": "J500 Offenbach",
+          "startDate": "2026-05-04",
+          "endDate": "2026-05-10",
+          "city": "Offenbach",
+          "country": "GER",
+          "grade": "J500",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "QF",
+              "outcome": "L",
+              "opponentCountry": "BUL",
+              "opponent": "DimitarKisimov",
+              "score": "4-6 7-5 5-7"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "GER",
+              "opponent": "Eric DylanMueller",
+              "score": "6-2 6-2"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "KAZ",
+              "opponent": "DanielTazabekov",
+              "score": "6-4 6-3"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "ROU",
+              "opponent": "Matei VictorChelemen",
+              "score": "6-7 6 6-2 6-2"
+            }
+          ]
+        },
+        {
+          "event": "J500 Cairo",
+          "startDate": "2026-04-06",
+          "endDate": "2026-04-11",
+          "city": "Cairo",
+          "country": "EGY",
+          "grade": "J500",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "Q",
+          "status": "Ativo",
+          "currentRound": "R3",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "W",
+              "opponentCountry": "ESP",
+              "opponent": "ValentinGonzalez-Galino",
+              "score": "6-2 6-3"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "CZE",
+              "opponent": "JakubKusy",
+              "score": "6-7 6 7-6 0 6-1"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "CAN",
+              "opponent": "BenjaminAzar",
+              "score": "6-1 6-4"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "ROU",
+              "opponent": "Alejandro MateoBerge Nourescu",
+              "score": "6-3 6-3"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "FRA",
+              "opponent": "GabrielJalouneix",
+              "score": "6-2 6-4"
+            },
+            {
+              "round": "R1",
+              "outcome": "BYE",
+              "opponent": "BYE",
+              "score": ""
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "EGY",
+              "opponent": "YounisMohamed Hussien Moawad",
+              "score": "6-1 6-4"
+            },
+            {
+              "round": "R1",
+              "outcome": "BYE",
+              "opponent": "BYE",
+              "score": ""
+            }
+          ]
+        },
+        {
+          "event": "J300 Cairo",
+          "startDate": "2026-03-30",
+          "endDate": "2026-04-03",
+          "city": "Cairo",
+          "country": "EGY",
+          "grade": "J300",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "R2",
+              "outcome": "L",
+              "opponentCountry": "EGY",
+              "opponent": "MarwanEhab",
+              "score": "6-7 3 2-6"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "MAR",
+              "opponent": "AliMissoum",
+              "score": "6-2 3-6 6-4"
+            }
+          ]
+        },
+        {
+          "event": "J300 Vrsar",
+          "startDate": "2026-03-23",
+          "endDate": "2026-03-29",
+          "city": "Vrsar",
+          "country": "CRO",
+          "grade": "J300",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R2",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "W",
+              "opponentCountry": "ITA",
+              "opponent": "MatteoGribaldo",
+              "score": "6-3 6-3"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "ITA",
+              "opponent": "SimoneMassellani",
+              "score": "6-2 6-2"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "ESP",
+              "opponent": "ValentinGonzalez-Galino",
+              "score": "0-6 6-2 7-5"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "MichaelSavano",
+              "score": "6-2 6-4"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "SUI",
+              "opponent": "ThomasGunzinger",
+              "score": "6-3 6-4"
+            },
+            {
+              "round": "R1",
+              "outcome": "BYE",
+              "opponent": "BYE",
+              "score": ""
+            }
+          ]
+        }
+      ],
+      "scrapedAt": "17/05/2026, 23:40"
+    },
+    {
+      "id": "ryo-tabata",
+      "name": "Ryo Tabata",
+      "activityUrl": "https://www.itftennis.com/en/players/ryo-tabata/800583844/jpn/jt/s/activity/",
+      "tournaments": [
+        {
+          "event": "Australian Open Junior Championships",
+          "startDate": "2026-01-24",
+          "endDate": "2026-02-01",
+          "city": "Melbourne",
+          "country": "AUS",
+          "grade": "JGS",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "SF",
+              "outcome": "L",
+              "opponentCountry": "SLO",
+              "opponent": "ZigaSesko",
+              "score": "3-6 3-6"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "GER",
+              "opponent": "JamieMackenzie",
+              "score": "6-7 3 6-4 7-6 7"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "SVK",
+              "opponent": "LeonSloboda",
+              "score": "7-6 1 6-3"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "ITA",
+              "opponent": "MatteoGribaldo",
+              "score": "6-3 6-2"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "",
+              "opponent": "KirillFilaretov",
+              "score": "5-7 6-4 6-3"
+            }
+          ]
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "startDate": "2025-12-08",
+          "endDate": "2025-12-14",
+          "city": "Fort Lauderdale",
+          "country": "USA",
+          "grade": "J500",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "R2",
+              "outcome": "L",
+              "opponentCountry": "USA",
+              "opponent": "BenjaminSaltman",
+              "score": "6-2 2-6 1-6"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "SklarPhillips",
+              "score": "6-2 6-2"
+            }
+          ]
+        },
+        {
+          "event": "J300 Bradenton",
+          "startDate": "2025-12-01",
+          "endDate": "2025-12-07",
+          "city": "Bradenton",
+          "country": "USA",
+          "grade": "J300",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "R2",
+              "outcome": "L",
+              "opponentCountry": "RSA",
+              "opponent": "ConnorDoig",
+              "score": "4-6 2-6"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "TanishkKonduri",
+              "score": "6-2 3-6 6-0"
+            }
+          ]
+        },
+        {
+          "event": "J500 Merida",
+          "startDate": "2025-11-24",
+          "endDate": "2025-11-30",
+          "city": "Merida",
+          "country": "MEX",
+          "grade": "J500",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "R3",
+              "outcome": "L",
+              "opponentCountry": "FIN",
+              "opponent": "LinusLagerbohm",
+              "score": "1-6 0-6"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "CRO",
+              "opponent": "EmanuelIvanisevic",
+              "score": "7-5 6-2"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "FRA",
+              "opponent": "AmauryAbbas",
+              "score": "4-6 6-3 6-3"
+            }
+          ]
+        },
+        {
+          "event": "2025 ITF World Tennis Tour Junior Finals",
+          "startDate": "2025-10-22",
+          "endDate": "2025-10-26",
+          "city": "Chengdu",
+          "country": "CHN",
+          "grade": "Junior Masters",
+          "surface": "Hard",
+          "draw": "3rd to 4th Play-off",
+          "matchType": "Singles",
+          "entryType": "A",
+          "status": "Eliminado",
+          "currentRound": "F",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "L",
+              "opponentCountry": "ESP",
+              "opponent": "AndresSantamarta Roig",
+              "score": "6-7 5 6-7 4 SHOW 5 MORE TOURNAMENTS 5 items per page Latest media Articles Images ARTICLE AUSSIE OPEN BOYS' SEMIS: TABATA TO FACE SLOVENIAN HISTORY-MAKER SESKO 30 Jan 2026 ITF JuniorsAustralian Open ARTICLE TABATA FEELS HAND OF HISTORY AS JAPAN EYES ROLAND GARROS BOYS' CHAMP 5 Jun 2025 ITF JuniorsRoland Garros SEE ALL NEWS COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS MEN'S WORLD TENNIS TOUR WOMEN'S WORLD TENNIS TOUR WORLD TENNIS TOUR JUNIORS WORLD TENNIS MASTERS TOUR UNIQLO WHEELCHAIR TENNIS TOUR BEACH TENNIS OLYMPICS, PARALYMPICS OLYMPICS LA 2028 PARALYMPICS LA 2028 ITF COMPETITIONS BILLIE JEAN KING CUP DAVIS CUP HOPMAN CUP ITF SITES & APPS IPIN PLAYER PORTAL ITF ACADEMY WORLD TENNIS NUMBER LIVE SCORES RULES OF TENNIS APP SITE MAP ITF AFFILIATES ATP WTA AUSTRALIAN OPEN ROLAND GARROS WIMBLEDON US OPEN INTERNATIONAL TENNIS INTEGRITY AGENCY INTERNATIONAL TENNIS HALL OF FAME THE ASSOCIATION OF CENTENARY CLUBS THE INTERNATIONAL CLUB TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY FOLLOW US Copyright © 2026 International Tennis Federation Back to top"
+            }
+          ]
+        }
+      ],
+      "scrapedAt": "17/05/2026, 23:41"
     }
-  ]
+  ],
+  "errors": []
 }
