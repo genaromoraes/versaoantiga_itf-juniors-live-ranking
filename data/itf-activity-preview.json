@@ -26,7 +26,44 @@
       "name": "Ziga Sesko",
       "activityUrl": "https://www.itftennis.com/en/players/ziga-sesko/800579895/slo/jt/s/activity/",
       "doublesActivityUrl": "https://www.itftennis.com/en/players/ziga-sesko/800579895/slo/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "jamie-mackenzie",
+      "name": "Jamie Mackenzie",
+      "activityUrl": "https://www.itftennis.com/en/players/jamie-mackenzie/800570117/ger/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/jamie-mackenzie/800570117/ger/jt/d/activity/",
       "tournaments": [
+        {
+          "event": "J500 Milan",
+          "startDate": "2026-05-18",
+          "endDate": "2026-05-24",
+          "city": "City/Town: Milan",
+          "country": "Nation:",
+          "grade": "ITA",
+          "surface": "Tournament type: J500",
+          "draw": "Surface: Clay",
+          "matchType": "Draw: Main Draw",
+          "entryType": "Type: Singles",
+          "status": "Ativo",
+          "currentRound": "",
+          "matches": []
+        },
+        {
+          "event": "J500 Offenbach",
+          "startDate": "2026-05-04",
+          "endDate": "2026-05-10",
+          "city": "City/Town: Offenbach",
+          "country": "Nation:",
+          "grade": "GER",
+          "surface": "Tournament type: J500",
+          "draw": "Surface: Clay",
+          "matchType": "Draw: Main Draw",
+          "entryType": "Type: Singles",
+          "status": "Ativo",
+          "currentRound": "",
+          "matches": []
+        },
         {
           "event": "Australian Open Junior Championships",
           "startDate": "2026-01-24",
@@ -71,45 +108,8 @@
           "status": "Ativo",
           "currentRound": "",
           "matches": []
-        },
-        {
-          "event": "J300 Bradenton",
-          "startDate": "2025-12-01",
-          "endDate": "2025-12-07",
-          "city": "City/Town: Bradenton",
-          "country": "Nation:",
-          "grade": "USA",
-          "surface": "Tournament type: J300",
-          "draw": "Surface: Clay",
-          "matchType": "Draw: Main Draw",
-          "entryType": "Type: Singles",
-          "status": "Ativo",
-          "currentRound": "",
-          "matches": []
-        },
-        {
-          "event": "J500 Merida",
-          "startDate": "2025-11-24",
-          "endDate": "2025-11-30",
-          "city": "City/Town: Merida",
-          "country": "Nation:",
-          "grade": "MEX",
-          "surface": "Tournament type: J500",
-          "draw": "Surface: Clay",
-          "matchType": "Draw: Main Draw",
-          "entryType": "Type: Singles",
-          "status": "Ativo",
-          "currentRound": "",
-          "matches": []
         }
       ]
-    },
-    {
-      "id": "jamie-mackenzie",
-      "name": "Jamie Mackenzie",
-      "activityUrl": "https://www.itftennis.com/en/players/jamie-mackenzie/800570117/ger/jt/s/activity/",
-      "doublesActivityUrl": "https://www.itftennis.com/en/players/jamie-mackenzie/800570117/ger/jt/d/activity/",
-      "tournaments": []
     },
     {
       "id": "keaton-hance",
