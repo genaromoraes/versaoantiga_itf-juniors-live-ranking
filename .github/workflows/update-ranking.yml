@@ -41,6 +41,9 @@ jobs:
       - name: Generate latest data
         run: npm run build:data
 
+      - name: Audit player points table
+        run: npm run audit:points
+
       - name: Validate latest data
         run: npm run validate:data
 
@@ -48,4 +51,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update ranking data"
-          file_pattern: pipeline/sources/players.json data/latest.json data/itf-ranking-preview.json data/itf-activity-preview.json
+          file_pattern: pipeline/sources/players.json data/latest.json data/itf-ranking-preview.json data/itf-activity-preview.json data/player-points-status.csv

@@ -40,6 +40,7 @@ Os leitores reais ficam na pasta `pipeline`:
 
 - `scrape-official-ranking.mjs`: le o Top 10 masculino e feminino na pagina oficial de ranking da ITF.
 - `data/player-points.csv`: base de pontos historicos dos atletas, uma linha por resultado.
+- `data/player-points-status.csv`: relatorio de manutencao da base historica, mostrando quem esta OK e quem precisa de revisao.
 - `scrape-player-breakdown.mjs`: le os pontos de simples e duplas no perfil do atleta quando for necessario atualizar a base historica.
 - `scrape-player-activity.mjs`: le a atividade recente do atleta para descobrir se esta jogando na semana.
 - `build-latest.mjs`: junta tudo e gera o arquivo usado pelo site.
@@ -52,6 +53,7 @@ npx playwright install chromium
 npm run scrape:ranking
 npm run scrape:activity
 npm run build:data
+npm run audit:points
 ```
 
 Para reconstruir a planilha CSV a partir do ultimo JSON de breakdown salvo:
@@ -59,6 +61,25 @@ Para reconstruir a planilha CSV a partir do ultimo JSON de breakdown salvo:
 ```bash
 npm run build:points-csv
 ```
+
+## Planilha mestre de pontos
+
+A planilha `data/player-points.csv` evita que o robo precise abrir o breakdown completo de todos os atletas toda vez que atualiza o site.
+
+Cada linha representa um resultado de simples ou duplas. As colunas mais importantes sao:
+
+- `player_id`: identificador do atleta.
+- `result_type`: `singles` ou `doubles`.
+- `event`: torneio.
+- `grade`: categoria do torneio.
+- `date`: data do resultado.
+- `drop_date`: data em que o resultado sai do ranking.
+- `points`: pontos cheios do resultado.
+- `weight`: peso do resultado; simples vale `1`, duplas vale `0.25`.
+- `ranking_points`: pontos efetivos no ranking.
+- `source_counting`: `true` quando o resultado esta entre os 6 melhores daquele tipo.
+
+Depois de cada atualizacao, o robo gera `data/player-points-status.csv`. Esse arquivo mostra se a planilha mestre bate com os pontos oficiais da ITF. Quando o status aparecer como `Pendente` ou `Revisar`, aquele atleta precisa ter o breakdown conferido ou preenchido.
 
 ## Regras oficiais
 
