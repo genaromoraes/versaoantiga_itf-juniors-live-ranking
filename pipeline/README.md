@@ -23,6 +23,17 @@ npm run build:data
 
 Depois disso, o site passa a usar `data/latest.json` quando estiver aberto por um servidor local ou publicado na web.
 
+## Primeiro robô real
+
+O comando abaixo abre a pagina de points breakdown de um atleta da ITF e gera uma previa em `data/itf-player-preview.json`:
+
+```bash
+npm run scrape:player
+```
+
+Nesta primeira fase ele esta configurado para Luis Guto Miguel em `pipeline/sources/players.json`.
+Depois que validarmos a leitura com 1 atleta, expandimos para Top 100 masculino e Top 100 feminino.
+
 ## Frequencia
 
 A automacao esta pensada para rodar 4 vezes por dia. Isso e suficiente para um MVP e ajuda a reduzir acessos desnecessarios as paginas da ITF.

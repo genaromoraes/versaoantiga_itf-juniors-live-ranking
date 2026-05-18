@@ -33,3 +33,16 @@ O arquivo `.github/workflows/update-ranking.yml` esta preparado para rodar 4 vez
 - 21:00
 
 Hoje ele gera `data/latest.json` a partir dos dados simulados. O proximo passo e trocar a origem simulada pelas paginas reais da ITF.
+
+## Robo da ITF
+
+O primeiro leitor real ja esta em `pipeline/scrape-player-breakdown.mjs`.
+
+Ele abre a pagina de points breakdown de um atleta, le os resultados de simples e duplas e gera uma previa em JSON. Esta fase ainda e de validacao com poucos atletas antes de ligar no ranking publicado.
+
+Para rodar localmente no futuro:
+
+```bash
+npm install
+npm run scrape:player
+```
