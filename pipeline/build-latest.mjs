@@ -57,6 +57,14 @@ async function readActivityPreview() {
   }
 }
 
+async function readExistingLatest() {
+  try {
+    return JSON.parse(await fs.readFile(outputFile, "utf8"));
+  } catch {
+    return null;
+  }
+}
+
 function sourcePlayerShell(player) {
   return {
     id: player.id,
@@ -78,6 +86,10 @@ function sourcePlayerShell(player) {
       doublesPoints: 0
     }
   };
+}
+
+function hasRankingResults(player) {
+  return (player?.singles?.length || 0) + (player?.doubles?.length || 0) > 0;
 }
 
 const roundToDisplay = {
@@ -262,8 +274,10 @@ const rules = JSON.parse(await fs.readFile(path.join(rootDir, "pipeline", "rules
 const basePlayers = sourcePlayers.length ? sourcePlayers.map(sourcePlayerShell) : context.payload.players;
 const playersWithRealResults = applyRealPlayerPreview(basePlayers, realPreview.players || []);
 const players = applyActivityPreview(playersWithRealResults, activityPreview.players || [], rules);
+const existingLatest = await readExistingLatest();
+const invalidPlayers = players.filter((player) => !hasRankingResults(player));
 
-const payload = {
+let payload = {
   ...context.payload,
   players,
   dataSource: {
@@ -279,6 +293,19 @@ const payload = {
   realPlayersApplied: realPreview.players?.map((player) => player.id) || [],
   activityPlayersApplied: activityPreview.players?.map((player) => player.id) || []
 };
+
+if (invalidPlayers.length && existingLatest?.players?.every(hasRankingResults)) {
+  console.warn(`Keeping previous latest.json because this run has empty data for: ${invalidPlayers.map((player) => player.id).join(", ")}`);
+  payload = {
+    ...existingLatest,
+    dataSource: {
+      ...existingLatest.dataSource,
+      updatedAt: existingLatest.dataSource?.updatedAt || payload.dataSource.updatedAt
+    },
+    generatedBy: "pipeline/build-latest.mjs",
+    skippedUpdateReason: `Empty data for: ${invalidPlayers.map((player) => player.id).join(", ")}`
+  };
+}
 
 await fs.mkdir(outputDir, { recursive: true });
 await fs.writeFile(outputFile, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
