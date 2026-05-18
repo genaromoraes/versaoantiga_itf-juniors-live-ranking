@@ -294,7 +294,7 @@ let payload = {
   activityPlayersApplied: activityPreview.players?.map((player) => player.id) || []
 };
 
-if (invalidPlayers.length && existingLatest?.players?.every(hasRankingResults)) {
+if (invalidPlayers.length && existingLatest?.players?.length) {
   console.warn(`Keeping previous latest.json because this run has empty data for: ${invalidPlayers.map((player) => player.id).join(", ")}`);
   payload = {
     ...existingLatest,
@@ -303,7 +303,8 @@ if (invalidPlayers.length && existingLatest?.players?.every(hasRankingResults)) 
       updatedAt: existingLatest.dataSource?.updatedAt || payload.dataSource.updatedAt
     },
     generatedBy: "pipeline/build-latest.mjs",
-    skippedUpdateReason: `Empty data for: ${invalidPlayers.map((player) => player.id).join(", ")}`
+    skippedUpdateReason: `Empty data for: ${invalidPlayers.map((player) => player.id).join(", ")}`,
+    skippedUpdateAt: payload.dataSource.updatedAt
   };
 }
 
