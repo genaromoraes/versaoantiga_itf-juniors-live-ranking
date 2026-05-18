@@ -1,7 +1,7 @@
 {
   "dataSource": {
-    "rankingDate": "11 mai 2026",
-    "updatedAt": "18/05/2026, 09:41",
+    "rankingDate": "18 mai 2026",
+    "updatedAt": "18/05/2026, 13:14",
     "note": "Pontos = ∑ 6 melhores resultados de simples + ∑ 25% dos 6 melhores resultados de duplas"
   },
   "players": [
@@ -11,6 +11,8 @@
       "country": "BUL",
       "gender": "Boys",
       "currentRank": 1,
+      "officialPoints": 3053,
+      "sourceTotalCombinedPoints": 3053,
       "singles": [
         {
           "event": "The Junior Championships, Wimbledon",
@@ -88,8 +90,7 @@
         "doublesRound": "Nao joga",
         "doublesPoints": 0
       },
-      "sourceUrl": "https://www.itftennis.com/en/players/ivan-ivanov/800586822/bul/jt/s/itf-points-breakdown/",
-      "sourceTotalCombinedPoints": 3053
+      "sourceUrl": "https://www.itftennis.com/en/players/ivan-ivanov/800586822/bul/jt/s/itf-points-breakdown/"
     },
     {
       "id": "luis-guto-miguel",
@@ -97,6 +98,8 @@
       "country": "BRA",
       "gender": "Boys",
       "currentRank": 2,
+      "officialPoints": 2420.5,
+      "sourceTotalCombinedPoints": 2446.75,
       "singles": [
         {
           "event": "J500 Merida",
@@ -273,8 +276,7 @@
         "doublesRound": "Nao joga",
         "doublesPoints": 0
       },
-      "sourceUrl": "https://www.itftennis.com/en/players/luis-guto-miguel/800680259/bra/jt/s/itf-points-breakdown/",
-      "sourceTotalCombinedPoints": 2446.75
+      "sourceUrl": "https://www.itftennis.com/en/players/luis-guto-miguel/800680259/bra/jt/s/itf-points-breakdown/"
     },
     {
       "id": "yannick-theodor-alexandrescou",
@@ -282,6 +284,8 @@
       "country": "FRA",
       "gender": "Boys",
       "currentRank": 3,
+      "officialPoints": 2379,
+      "sourceTotalCombinedPoints": 2379,
       "singles": [
         {
           "event": "2025 ITF World Tennis Tour Junior Finals",
@@ -507,8 +511,7 @@
         "doublesRound": "Nao joga",
         "doublesPoints": 0
       },
-      "sourceUrl": "https://www.itftennis.com/en/players/yannick-theodor-alexandrescou/800564683/fra/jt/s/itf-points-breakdown/",
-      "sourceTotalCombinedPoints": 2379
+      "sourceUrl": "https://www.itftennis.com/en/players/yannick-theodor-alexandrescou/800564683/fra/jt/s/itf-points-breakdown/"
     },
     {
       "id": "ziga-sesko",
@@ -516,6 +519,8 @@
       "country": "SLO",
       "gender": "Boys",
       "currentRank": 4,
+      "officialPoints": 2149.75,
+      "sourceTotalCombinedPoints": 2149.75,
       "singles": [
         {
           "event": "Australian Open Junior Championships",
@@ -727,143 +732,16 @@
         "doublesRound": "Nao joga",
         "doublesPoints": 0
       },
-      "sourceUrl": "https://www.itftennis.com/en/players/ziga-sesko/800579895/slo/jt/s/itf-points-breakdown/",
-      "sourceTotalCombinedPoints": 2149.75
-    },
-    {
-      "id": "jack-kennedy",
-      "name": "Jack Kennedy",
-      "country": "USA",
-      "gender": "Boys",
-      "currentRank": 5,
-      "singles": [
-        {
-          "event": "2025 ITF World Tennis Tour Junior Finals",
-          "round": "JM",
-          "points": 420,
-          "date": "2025-10-22",
-          "sourceCounting": true
-        },
-        {
-          "event": "J500 Fort Lauderdale",
-          "round": "J500",
-          "points": 350,
-          "date": "2025-12-08",
-          "sourceCounting": true
-        },
-        {
-          "event": "J300 Santa Croce sull’Arno",
-          "round": "J300",
-          "points": 300,
-          "date": "2025-05-12",
-          "sourceCounting": true
-        },
-        {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 250,
-          "date": "2025-05-19",
-          "sourceCounting": true
-        },
-        {
-          "event": "Roland Garros Junior Championships",
-          "round": "JGS",
-          "points": 180,
-          "date": "2025-06-01",
-          "sourceCounting": true
-        },
-        {
-          "event": "The Junior Championships, Wimbledon",
-          "round": "JGS",
-          "points": 180,
-          "date": "2025-07-05",
-          "sourceCounting": true
-        },
-        {
-          "event": "US Open Junior Tennis Championships",
-          "round": "JGS",
-          "points": 180,
-          "date": "2025-08-31",
-          "sourceCounting": false
-        }
-      ],
-      "doubles": [
-        {
-          "event": "US Open Junior Tennis Championships",
-          "round": "JGS",
-          "points": 750,
-          "date": "2025-08-31",
-          "sourceCounting": true
-        },
-        {
-          "event": "Roland Garros Junior Championships",
-          "round": "JGS",
-          "points": 367,
-          "date": "2025-06-01",
-          "sourceCounting": true
-        },
-        {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 262,
-          "date": "2025-05-19",
-          "sourceCounting": true
-        },
-        {
-          "event": "J300 Santa Croce sull’Arno",
-          "round": "J300",
-          "points": 225,
-          "date": "2025-05-12",
-          "sourceCounting": true
-        },
-        {
-          "event": "The Junior Championships, Wimbledon",
-          "round": "JGS",
-          "points": 135,
-          "date": "2025-07-05",
-          "sourceCounting": true
-        },
-        {
-          "event": "J500 Fort Lauderdale",
-          "round": "J500",
-          "points": 112,
-          "date": "2025-12-08",
-          "sourceCounting": true
-        }
-      ],
-      "defending": [
-        {
-          "type": "singles",
-          "event": "J500 Milan",
-          "points": 250,
-          "date": "2025-05-19"
-        },
-        {
-          "type": "doubles",
-          "event": "J500 Milan",
-          "points": 262,
-          "date": "2025-05-19"
-        }
-      ],
-      "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
-        "singlesPoints": 0,
-        "doublesStatus": "Nao joga",
-        "doublesRound": "Nao joga",
-        "doublesPoints": 0
-      },
-      "sourceUrl": "https://www.itftennis.com/en/players/jack-kennedy/800692786/usa/jt/s/itf-points-breakdown/",
-      "sourceTotalCombinedPoints": 2142.75
+      "sourceUrl": "https://www.itftennis.com/en/players/ziga-sesko/800579895/slo/jt/s/itf-points-breakdown/"
     },
     {
       "id": "jamie-mackenzie",
       "name": "Jamie Mackenzie",
       "country": "GER",
       "gender": "Boys",
-      "currentRank": 6,
+      "currentRank": 5,
+      "officialPoints": 2082,
+      "sourceTotalCombinedPoints": 2082,
       "singles": [
         {
           "event": "J500 Offenbach",
@@ -1109,15 +987,16 @@
         "doublesRound": "Nao joga",
         "doublesPoints": 0
       },
-      "sourceUrl": "https://www.itftennis.com/en/players/jamie-mackenzie/800570117/ger/jt/s/itf-points-breakdown/",
-      "sourceTotalCombinedPoints": 2082
+      "sourceUrl": "https://www.itftennis.com/en/players/jamie-mackenzie/800570117/ger/jt/s/itf-points-breakdown/"
     },
     {
       "id": "keaton-hance",
       "name": "Keaton Hance",
       "country": "USA",
       "gender": "Boys",
-      "currentRank": 7,
+      "currentRank": 6,
+      "officialPoints": 2022.75,
+      "sourceTotalCombinedPoints": 2061,
       "singles": [
         {
           "event": "Australian Open Junior Championships",
@@ -1294,8 +1173,136 @@
         "doublesRound": "Nao joga",
         "doublesPoints": 0
       },
-      "sourceUrl": "https://www.itftennis.com/en/players/keaton-hance/800657117/usa/jt/s/itf-points-breakdown/",
-      "sourceTotalCombinedPoints": 2061
+      "sourceUrl": "https://www.itftennis.com/en/players/keaton-hance/800657117/usa/jt/s/itf-points-breakdown/"
+    },
+    {
+      "id": "jack-kennedy",
+      "name": "Jack Kennedy",
+      "country": "USA",
+      "gender": "Boys",
+      "currentRank": 7,
+      "officialPoints": 1966.5,
+      "sourceTotalCombinedPoints": 2142.75,
+      "singles": [
+        {
+          "event": "2025 ITF World Tennis Tour Junior Finals",
+          "round": "JM",
+          "points": 420,
+          "date": "2025-10-22",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "round": "J500",
+          "points": 350,
+          "date": "2025-12-08",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Santa Croce sull’Arno",
+          "round": "J300",
+          "points": 300,
+          "date": "2025-05-12",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 250,
+          "date": "2025-05-19",
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 180,
+          "date": "2025-06-01",
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 180,
+          "date": "2025-07-05",
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 180,
+          "date": "2025-08-31",
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 750,
+          "date": "2025-08-31",
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 367,
+          "date": "2025-06-01",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 262,
+          "date": "2025-05-19",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Santa Croce sull’Arno",
+          "round": "J300",
+          "points": 225,
+          "date": "2025-05-12",
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 135,
+          "date": "2025-07-05",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "round": "J500",
+          "points": 112,
+          "date": "2025-12-08",
+          "sourceCounting": true
+        }
+      ],
+      "defending": [
+        {
+          "type": "singles",
+          "event": "J500 Milan",
+          "points": 250,
+          "date": "2025-05-19"
+        },
+        {
+          "type": "doubles",
+          "event": "J500 Milan",
+          "points": 262,
+          "date": "2025-05-19"
+        }
+      ],
+      "liveEvent": {
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
+        "singlesPoints": 0,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0
+      },
+      "sourceUrl": "https://www.itftennis.com/en/players/jack-kennedy/800692786/usa/jt/s/itf-points-breakdown/"
     },
     {
       "id": "zangar-nurlanuly",
@@ -1303,6 +1310,8 @@
       "country": "KAZ",
       "gender": "Boys",
       "currentRank": 8,
+      "officialPoints": 1842.5,
+      "sourceTotalCombinedPoints": 1842.5,
       "singles": [
         {
           "event": "US Open Junior Tennis Championships",
@@ -1444,8 +1453,7 @@
         "doublesRound": "Nao joga",
         "doublesPoints": 0
       },
-      "sourceUrl": "https://www.itftennis.com/en/players/zangar-nurlanuly/800543488/kaz/jt/s/itf-points-breakdown/",
-      "sourceTotalCombinedPoints": 1842.5
+      "sourceUrl": "https://www.itftennis.com/en/players/zangar-nurlanuly/800543488/kaz/jt/s/itf-points-breakdown/"
     },
     {
       "id": "thilo-behrmann",
@@ -1453,6 +1461,8 @@
       "country": "AUT",
       "gender": "Boys",
       "currentRank": 9,
+      "officialPoints": 1764.75,
+      "sourceTotalCombinedPoints": 1764.75,
       "singles": [
         {
           "event": "J500 Cairo",
@@ -1692,8 +1702,7 @@
         "doublesRound": "Nao joga",
         "doublesPoints": 0
       },
-      "sourceUrl": "https://www.itftennis.com/en/players/thilo-behrmann/800589798/aut/jt/s/itf-points-breakdown/",
-      "sourceTotalCombinedPoints": 1764.75
+      "sourceUrl": "https://www.itftennis.com/en/players/thilo-behrmann/800589798/aut/jt/s/itf-points-breakdown/"
     },
     {
       "id": "ryo-tabata",
@@ -1701,6 +1710,8 @@
       "country": "JPN",
       "gender": "Boys",
       "currentRank": 10,
+      "officialPoints": 1709,
+      "sourceTotalCombinedPoints": 1709,
       "singles": [
         {
           "event": "Roland Garros Junior Championships",
@@ -1891,8 +1902,7 @@
         "doublesRound": "Nao joga",
         "doublesPoints": 0
       },
-      "sourceUrl": "https://www.itftennis.com/en/players/ryo-tabata/800583844/jpn/jt/s/itf-points-breakdown/",
-      "sourceTotalCombinedPoints": 1709
+      "sourceUrl": "https://www.itftennis.com/en/players/ryo-tabata/800583844/jpn/jt/s/itf-points-breakdown/"
     },
     {
       "id": "ksenia-efremova",
@@ -1900,6 +1910,8 @@
       "country": "FRA",
       "gender": "Girls",
       "currentRank": 1,
+      "officialPoints": 2818,
+      "sourceTotalCombinedPoints": 2818,
       "singles": [
         {
           "event": "Australian Open Junior Championships",
@@ -2062,8 +2074,7 @@
         "doublesRound": "Nao joga",
         "doublesPoints": 0
       },
-      "sourceUrl": "https://www.itftennis.com/en/players/ksenia-efremova/800591535/fra/jt/s/itf-points-breakdown/",
-      "sourceTotalCombinedPoints": 2818
+      "sourceUrl": "https://www.itftennis.com/en/players/ksenia-efremova/800591535/fra/jt/s/itf-points-breakdown/"
     },
     {
       "id": "hannah-klugman",
@@ -2071,6 +2082,8 @@
       "country": "GBR",
       "gender": "Girls",
       "currentRank": 2,
+      "officialPoints": 2325.5,
+      "sourceTotalCombinedPoints": 2325.5,
       "singles": [
         {
           "event": "Roland Garros Junior Championships",
@@ -2162,8 +2175,7 @@
         "doublesRound": "Nao joga",
         "doublesPoints": 0
       },
-      "sourceUrl": "https://www.itftennis.com/en/players/hannah-klugman/800631038/gbr/jt/s/itf-points-breakdown/",
-      "sourceTotalCombinedPoints": 2325.5
+      "sourceUrl": "https://www.itftennis.com/en/players/hannah-klugman/800631038/gbr/jt/s/itf-points-breakdown/"
     },
     {
       "id": "mia-pohankova",
@@ -2171,6 +2183,8 @@
       "country": "SVK",
       "gender": "Girls",
       "currentRank": 3,
+      "officialPoints": 2279.25,
+      "sourceTotalCombinedPoints": 2279.25,
       "singles": [
         {
           "event": "The Junior Championships, Wimbledon",
@@ -2276,8 +2290,7 @@
         "doublesRound": "Nao joga",
         "doublesPoints": 0
       },
-      "sourceUrl": "https://www.itftennis.com/en/players/mia-pohankova/800627475/svk/jt/s/itf-points-breakdown/",
-      "sourceTotalCombinedPoints": 2279.25
+      "sourceUrl": "https://www.itftennis.com/en/players/mia-pohankova/800627475/svk/jt/s/itf-points-breakdown/"
     },
     {
       "id": "alena-kovackova",
@@ -2285,6 +2298,8 @@
       "country": "CZE",
       "gender": "Girls",
       "currentRank": 4,
+      "officialPoints": 2237.25,
+      "sourceTotalCombinedPoints": 2237.25,
       "singles": [
         {
           "event": "J500 Merida",
@@ -2433,8 +2448,7 @@
         "doublesRound": "Nao joga",
         "doublesPoints": 0
       },
-      "sourceUrl": "https://www.itftennis.com/en/players/alena-kovackova/800572951/cze/jt/s/itf-points-breakdown/",
-      "sourceTotalCombinedPoints": 2237.25
+      "sourceUrl": "https://www.itftennis.com/en/players/alena-kovackova/800572951/cze/jt/s/itf-points-breakdown/"
     },
     {
       "id": "victoria-luiza-barros",
@@ -2442,6 +2456,8 @@
       "country": "BRA",
       "gender": "Girls",
       "currentRank": 5,
+      "officialPoints": 2194,
+      "sourceTotalCombinedPoints": 2194,
       "singles": [
         {
           "event": "J500 Offenbach",
@@ -2597,8 +2613,7 @@
         "doublesRound": "Nao joga",
         "doublesPoints": 0
       },
-      "sourceUrl": "https://www.itftennis.com/en/players/victoria-luiza-barros/800655335/bra/jt/s/itf-points-breakdown/",
-      "sourceTotalCombinedPoints": 2194
+      "sourceUrl": "https://www.itftennis.com/en/players/victoria-luiza-barros/800655335/bra/jt/s/itf-points-breakdown/"
     },
     {
       "id": "julieta-pareja",
@@ -2606,6 +2621,8 @@
       "country": "USA",
       "gender": "Girls",
       "currentRank": 6,
+      "officialPoints": 2084.75,
+      "sourceTotalCombinedPoints": 2084.75,
       "singles": [
         {
           "event": "The Junior Championships, Wimbledon",
@@ -2697,8 +2714,7 @@
         "doublesRound": "Nao joga",
         "doublesPoints": 0
       },
-      "sourceUrl": "https://www.itftennis.com/en/players/julieta-pareja/800692835/usa/jt/s/itf-points-breakdown/",
-      "sourceTotalCombinedPoints": 2084.75
+      "sourceUrl": "https://www.itftennis.com/en/players/julieta-pareja/800692835/usa/jt/s/itf-points-breakdown/"
     },
     {
       "id": "jana-kovackova",
@@ -2706,6 +2722,8 @@
       "country": "CZE",
       "gender": "Girls",
       "currentRank": 7,
+      "officialPoints": 1977.25,
+      "sourceTotalCombinedPoints": 1977.25,
       "singles": [
         {
           "event": "J300 Zapopan",
@@ -2847,8 +2865,7 @@
         "doublesRound": "Nao joga",
         "doublesPoints": 0
       },
-      "sourceUrl": "https://www.itftennis.com/en/players/jana-kovackova/800661515/cze/jt/s/itf-points-breakdown/",
-      "sourceTotalCombinedPoints": 1977.25
+      "sourceUrl": "https://www.itftennis.com/en/players/jana-kovackova/800661515/cze/jt/s/itf-points-breakdown/"
     },
     {
       "id": "xinran-sun",
@@ -2856,6 +2873,8 @@
       "country": "CHN",
       "gender": "Girls",
       "currentRank": 8,
+      "officialPoints": 1968,
+      "sourceTotalCombinedPoints": 1968,
       "singles": [
         {
           "event": "J500 Fort Lauderdale",
@@ -3025,8 +3044,7 @@
         "doublesRound": "Nao joga",
         "doublesPoints": 0
       },
-      "sourceUrl": "https://www.itftennis.com/en/players/xinran-sun/800677732/chn/jt/s/itf-points-breakdown/",
-      "sourceTotalCombinedPoints": 1968
+      "sourceUrl": "https://www.itftennis.com/en/players/xinran-sun/800677732/chn/jt/s/itf-points-breakdown/"
     },
     {
       "id": "kristina-penickova",
@@ -3034,6 +3052,8 @@
       "country": "USA",
       "gender": "Girls",
       "currentRank": 9,
+      "officialPoints": 1905.5,
+      "sourceTotalCombinedPoints": 1905.5,
       "singles": [
         {
           "event": "2025 ITF World Tennis Tour Junior Finals",
@@ -3133,229 +3153,27 @@
         "doublesRound": "Nao joga",
         "doublesPoints": 0
       },
-      "sourceUrl": "https://www.itftennis.com/en/players/kristina-penickova/800719373/usa/jt/s/itf-points-breakdown/",
-      "sourceTotalCombinedPoints": 1905.5
+      "sourceUrl": "https://www.itftennis.com/en/players/kristina-penickova/800719373/usa/jt/s/itf-points-breakdown/"
     },
     {
-      "id": "anastasija-cvetkovic",
-      "name": "Anastasija Cvetkovic",
-      "country": "SRB",
+      "id": "julia-stusek",
+      "name": "Julia Stusek",
+      "country": "GER",
       "gender": "Girls",
       "currentRank": 10,
+      "officialPoints": 1741,
+      "sourceTotalCombinedPoints": 1741,
       "singles": [
         {
-          "event": "J500 Offenbach",
-          "round": "J500",
-          "points": 350,
-          "date": "2026-05-04",
-          "sourceCounting": true
-        },
-        {
-          "event": "J300 Santa Croce sull’Arno",
-          "round": "J300",
-          "points": 300,
-          "date": "2025-05-12",
-          "sourceCounting": true
-        },
-        {
-          "event": "J500 Fort Lauderdale",
-          "round": "J500",
-          "points": 250,
-          "date": "2025-12-08",
-          "sourceCounting": true
-        },
-        {
-          "event": "J300 Bradenton",
-          "round": "J300",
-          "points": 210,
-          "date": "2025-12-01",
-          "sourceCounting": true
-        },
-        {
-          "event": "J300 Plovdiv",
-          "round": "J300",
-          "points": 210,
-          "date": "2026-04-28",
-          "sourceCounting": true
-        },
-        {
-          "event": "J500 Merida",
-          "round": "J500",
-          "points": 150,
-          "date": "2025-11-24",
-          "sourceCounting": true
-        },
-        {
-          "event": "J300 College Park",
-          "round": "J300",
-          "points": 140,
-          "date": "2025-08-18",
-          "sourceCounting": false
-        },
-        {
-          "event": "The Junior Championships, Wimbledon",
-          "round": "JGS",
-          "points": 90,
-          "date": "2025-07-05",
-          "sourceCounting": false
-        },
-        {
-          "event": "Tennis Europe Summer Cups (G18)",
-          "round": "GC",
-          "points": 75,
-          "date": "2025-08-04",
-          "sourceCounting": false
-        },
-        {
-          "event": "J300 Traralgon",
-          "round": "J300",
-          "points": 60,
-          "date": "2026-01-16",
-          "sourceCounting": false
-        },
-        {
-          "event": "J300 Oberpullendorf (Europe Regional Championships)",
-          "round": "J300",
-          "points": 30,
-          "date": "2025-09-15",
-          "sourceCounting": false
-        },
-        {
-          "event": "Roland Garros Junior Championships",
-          "round": "JGS",
-          "points": 20,
-          "date": "2025-06-01",
-          "sourceCounting": false
-        },
-        {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 0,
-          "date": "2025-05-19",
-          "sourceCounting": false
-        },
-        {
-          "event": "US Open Junior Tennis Championships",
-          "round": "JGS",
-          "points": 0,
-          "date": "2025-08-31",
-          "sourceCounting": false
-        },
-        {
-          "event": "Australian Open Junior Championships",
-          "round": "JGS",
-          "points": 0,
-          "date": "2026-01-24",
-          "sourceCounting": false
+          "event": "Ranking oficial ITF (18 mai 2026)",
+          "round": "Oficial",
+          "points": 1741,
+          "date": "",
+          "sourceCounting": true,
+          "officialFallback": true
         }
       ],
-      "doubles": [
-        {
-          "event": "J500 Fort Lauderdale",
-          "round": "J500",
-          "points": 375,
-          "date": "2025-12-08",
-          "sourceCounting": true
-        },
-        {
-          "event": "J300 Santa Croce sull’Arno",
-          "round": "J300",
-          "points": 225,
-          "date": "2025-05-12",
-          "sourceCounting": true
-        },
-        {
-          "event": "Australian Open Junior Championships",
-          "round": "JGS",
-          "points": 225,
-          "date": "2026-01-24",
-          "sourceCounting": true
-        },
-        {
-          "event": "J500 Merida",
-          "round": "J500",
-          "points": 187,
-          "date": "2025-11-24",
-          "sourceCounting": true
-        },
-        {
-          "event": "J300 Bradenton",
-          "round": "J300",
-          "points": 157,
-          "date": "2025-12-01",
-          "sourceCounting": true
-        },
-        {
-          "event": "Roland Garros Junior Championships",
-          "round": "JGS",
-          "points": 135,
-          "date": "2025-06-01",
-          "sourceCounting": true
-        },
-        {
-          "event": "J300 College Park",
-          "round": "J300",
-          "points": 105,
-          "date": "2025-08-18",
-          "sourceCounting": false
-        },
-        {
-          "event": "J300 Plovdiv",
-          "round": "J300",
-          "points": 105,
-          "date": "2026-04-28",
-          "sourceCounting": false
-        },
-        {
-          "event": "J300 Traralgon",
-          "round": "J300",
-          "points": 75,
-          "date": "2026-01-16",
-          "sourceCounting": false
-        },
-        {
-          "event": "J500 Offenbach",
-          "round": "J500",
-          "points": 67,
-          "date": "2026-05-04",
-          "sourceCounting": false
-        },
-        {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 0,
-          "date": "2025-05-19",
-          "sourceCounting": false
-        },
-        {
-          "event": "J300 Oberpullendorf (Europe Regional Championships)",
-          "round": "J300",
-          "points": 0,
-          "date": "2025-09-15",
-          "sourceCounting": false
-        },
-        {
-          "event": "Tennis Europe Summer Cups (G18)",
-          "round": "GC",
-          "points": 0,
-          "date": "2025-08-04",
-          "sourceCounting": false
-        },
-        {
-          "event": "The Junior Championships, Wimbledon",
-          "round": "JGS",
-          "points": 0,
-          "date": "2025-07-05",
-          "sourceCounting": false
-        },
-        {
-          "event": "US Open Junior Tennis Championships",
-          "round": "JGS",
-          "points": 0,
-          "date": "2025-08-31",
-          "sourceCounting": false
-        }
-      ],
+      "doubles": [],
       "defending": [],
       "liveEvent": {
         "event": "",
@@ -3366,9 +3184,7 @@
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
         "doublesPoints": 0
-      },
-      "sourceUrl": "https://www.itftennis.com/en/players/anastasija-cvetkovic/800598140/srb/jt/s/itf-points-breakdown/",
-      "sourceTotalCombinedPoints": 1796
+      }
     }
   ],
   "generatedBy": "pipeline/build-latest.mjs",
@@ -3400,9 +3216,9 @@
     "luis-guto-miguel",
     "yannick-theodor-alexandrescou",
     "ziga-sesko",
-    "jack-kennedy",
     "jamie-mackenzie",
     "keaton-hance",
+    "jack-kennedy",
     "zangar-nurlanuly",
     "thilo-behrmann",
     "ryo-tabata",
@@ -3415,8 +3231,6 @@
     "jana-kovackova",
     "xinran-sun",
     "kristina-penickova",
-    "anastasija-cvetkovic"
-  ],
-  "skippedUpdateReason": "Empty data for: julia-stusek",
-  "skippedUpdateAt": "18/05/2026, 10:25"
+    "julia-stusek"
+  ]
 }
