@@ -12,6 +12,14 @@ const categories = [
   { gender: "Girls", playerType: "G" }
 ];
 
+async function readJson(file, fallback) {
+  try {
+    return JSON.parse(await fs.readFile(file, "utf8"));
+  } catch {
+    return fallback;
+  }
+}
+
 function titleCaseSlug(slug) {
   return slug
     .split("-")
@@ -120,17 +128,31 @@ async function scrapeCategory(page, category) {
 
 const browser = await chromium.launch({ headless: true });
 const page = await browser.newPage();
+const existingPlayers = await readJson(sourcesFile, []);
+const existingPreview = await readJson(previewFile, { rankingDate: "", players: [] });
 const rankingPlayers = [];
-let rankingDate = "";
+const warnings = [];
+let rankingDate = existingPreview.rankingDate || "";
 
 try {
   for (const category of categories) {
-    const result = await scrapeCategory(page, category);
-    rankingPlayers.push(...result.players);
-    rankingDate ||= rankingDatePtBr(result.lastUpdated);
+    try {
+      const result = await scrapeCategory(page, category);
+      rankingPlayers.push(...result.players);
+      rankingDate = rankingDatePtBr(result.lastUpdated) || rankingDate;
+    } catch (error) {
+      const fallbackPlayers = existingPlayers.filter((player) => player.gender === category.gender);
+      if (!fallbackPlayers.length) throw error;
+      warnings.push(`Keeping previous ${category.gender} ranking because live scrape failed: ${error.message}`);
+      rankingPlayers.push(...fallbackPlayers);
+    }
   }
 } finally {
   await browser.close();
+}
+
+if (rankingPlayers.length !== categories.length * 10) {
+  throw new Error(`Expected ${categories.length * 10} total ranking rows, found ${rankingPlayers.length}.`);
 }
 
 await fs.writeFile(sourcesFile, `${JSON.stringify(rankingPlayers, null, 2)}\n`, "utf8");
@@ -141,6 +163,7 @@ await fs.writeFile(
     {
       rankingDate,
       players: rankingPlayers,
+      warnings,
       scrapedAt: new Intl.DateTimeFormat("pt-BR", {
         dateStyle: "short",
         timeStyle: "short",
@@ -154,3 +177,4 @@ await fs.writeFile(
 );
 
 console.log(`Scraped official ranking sources for ${rankingPlayers.length} players.`);
+for (const warning of warnings) console.warn(warning);
