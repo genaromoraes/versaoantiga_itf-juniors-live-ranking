@@ -39,7 +39,8 @@ Em linguagem simples: o GitHub abre o robo nesses horarios, coleta os dados da I
 Os leitores reais ficam na pasta `pipeline`:
 
 - `scrape-official-ranking.mjs`: le o Top 10 masculino e feminino na pagina oficial de ranking da ITF.
-- `scrape-player-breakdown.mjs`: le os pontos de simples e duplas no perfil do atleta.
+- `data/player-points.csv`: base de pontos historicos dos atletas, uma linha por resultado.
+- `scrape-player-breakdown.mjs`: le os pontos de simples e duplas no perfil do atleta quando for necessario atualizar a base historica.
 - `scrape-player-activity.mjs`: le a atividade recente do atleta para descobrir se esta jogando na semana.
 - `build-latest.mjs`: junta tudo e gera o arquivo usado pelo site.
 
@@ -49,9 +50,14 @@ Para rodar localmente no futuro:
 npm install
 npx playwright install chromium
 npm run scrape:ranking
-npm run scrape:player
 npm run scrape:activity
 npm run build:data
+```
+
+Para reconstruir a planilha CSV a partir do ultimo JSON de breakdown salvo:
+
+```bash
+npm run build:points-csv
 ```
 
 ## Regras oficiais

@@ -35,9 +35,6 @@ jobs:
       - name: Scrape ITF official ranking
         run: npm run scrape:ranking
 
-      - name: Scrape ITF points breakdowns
-        run: npm run scrape:player
-
       - name: Scrape ITF activity
         run: npm run scrape:activity
 
@@ -51,4 +48,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update ranking data"
-          file_pattern: pipeline/sources/players.json data/latest.json data/itf-ranking-preview.json data/itf-player-preview.json data/itf-activity-preview.json
+          file_pattern: pipeline/sources/players.json data/latest.json data/itf-ranking-preview.json data/itf-activity-preview.json

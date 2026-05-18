@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "build:data": "node pipeline/build-latest.mjs",
+    "build:points-csv": "node pipeline/export-points-csv.mjs",
     "validate:data": "node pipeline/validate-latest.mjs",
     "scrape:ranking": "node pipeline/scrape-official-ranking.mjs",
     "scrape:player": "node pipeline/scrape-player-breakdown.mjs",

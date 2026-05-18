@@ -7,6 +7,7 @@ const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 const dataFile = path.join(rootDir, "data.js");
 const sourcesFile = path.join(rootDir, "pipeline", "sources", "players.json");
 const rankingPreviewFile = path.join(rootDir, "data", "itf-ranking-preview.json");
+const pointsCsvFile = path.join(rootDir, "data", "player-points.csv");
 const previewFile = path.join(rootDir, "data", "itf-player-preview.json");
 const activityPreviewFile = path.join(rootDir, "data", "itf-activity-preview.json");
 const outputDir = path.join(rootDir, "data");
@@ -28,6 +29,78 @@ this.payload = {
 async function readRealPlayerPreview() {
   try {
     return JSON.parse(await fs.readFile(previewFile, "utf8"));
+  } catch {
+    return { players: [] };
+  }
+}
+
+function parseCsvLine(line) {
+  const values = [];
+  let current = "";
+  let quoted = false;
+
+  for (let index = 0; index < line.length; index += 1) {
+    const char = line[index];
+    const next = line[index + 1];
+    if (char === '"' && quoted && next === '"') {
+      current += '"';
+      index += 1;
+    } else if (char === '"') {
+      quoted = !quoted;
+    } else if (char === "," && !quoted) {
+      values.push(current);
+      current = "";
+    } else {
+      current += char;
+    }
+  }
+
+  values.push(current);
+  return values;
+}
+
+async function readPointsCsvPreview() {
+  try {
+    const csv = await fs.readFile(pointsCsvFile, "utf8");
+    const [headerLine, ...lines] = csv.split(/\r?\n/).filter(Boolean);
+    const headers = parseCsvLine(headerLine);
+    const playersById = new Map();
+
+    for (const line of lines) {
+      const columns = parseCsvLine(line);
+      const row = Object.fromEntries(headers.map((header, index) => [header, columns[index] || ""]));
+      if (!row.player_id || !row.result_type) continue;
+
+      const player = playersById.get(row.player_id) || {
+        id: row.player_id,
+        name: row.player_name,
+        country: row.country,
+        gender: row.gender,
+        currentRank: Number(row.current_rank || 0),
+        sourceUrl: row.source_url,
+        singles: [],
+        doubles: []
+      };
+
+      player[row.result_type].push({
+        event: row.event,
+        grade: row.grade,
+        date: row.date,
+        points: Number(row.points || 0),
+        sourceCounting: row.source_counting !== "false"
+      });
+      playersById.set(row.player_id, player);
+    }
+
+    const players = [...playersById.values()].map((player) => ({
+      ...player,
+      totalCombinedPoints: [
+        ...player.singles.filter((result) => result.sourceCounting !== false).slice(0, 6).map((result) => Number(result.points || 0)),
+        ...player.doubles.filter((result) => result.sourceCounting !== false).slice(0, 6).map((result) => Number(result.points || 0) * 0.25)
+      ].reduce((total, points) => total + points, 0)
+    }));
+
+    return { players };
   } catch {
     return { players: [] };
   }
@@ -267,12 +340,14 @@ function applyActivityPreview(players, activityPlayers, rules) {
 }
 
 const realPreview = await readRealPlayerPreview();
+const pointsCsvPreview = await readPointsCsvPreview();
 const activityPreview = await readActivityPreview();
 const rankingPreview = await readRankingPreview();
 const sourcePlayers = await readSourcePlayers();
 const rules = JSON.parse(await fs.readFile(path.join(rootDir, "pipeline", "rules", "itf-juniors-2026.json"), "utf8"));
 const basePlayers = sourcePlayers.length ? sourcePlayers.map(sourcePlayerShell) : context.payload.players;
-const playersWithRealResults = applyRealPlayerPreview(basePlayers, realPreview.players || []);
+const pointsPreview = pointsCsvPreview.players?.length ? pointsCsvPreview : realPreview;
+const playersWithRealResults = applyRealPlayerPreview(basePlayers, pointsPreview.players || []);
 const players = applyActivityPreview(playersWithRealResults, activityPreview.players || [], rules);
 const existingLatest = await readExistingLatest();
 const invalidPlayers = players.filter((player) => !hasRankingResults(player));
@@ -290,7 +365,8 @@ let payload = {
     }).format(new Date())
   },
   generatedBy: "pipeline/build-latest.mjs",
-  realPlayersApplied: realPreview.players?.map((player) => player.id) || [],
+  realPlayersApplied: pointsPreview.players?.map((player) => player.id) || [],
+  pointsSource: pointsCsvPreview.players?.length ? "data/player-points.csv" : "data/itf-player-preview.json",
   activityPlayersApplied: activityPreview.players?.map((player) => player.id) || []
 };
 

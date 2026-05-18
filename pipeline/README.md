@@ -17,6 +17,8 @@ Quando existem arquivos reais em `data/itf-player-preview.json` e `data/itf-acti
 
 O primeiro passo da automacao e `scrape-official-ranking.mjs`. Ele atualiza `pipeline/sources/players.json` com o Top 10 masculino e o Top 10 feminino oficiais antes dos outros leitores rodarem.
 
+A base de pontos historicos fica em `data/player-points.csv`. Essa base evita abrir o `points breakdown` de todos os atletas em toda atualizacao. O robô usa essa planilha como fonte principal dos pontos e consulta com frequencia apenas a pagina de ranking oficial e a aba Activity dos atletas.
+
 ## Como rodar
 
 ```bash

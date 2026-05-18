@@ -1,7 +1,7 @@
 {
   "dataSource": {
     "rankingDate": "11 mai 2026",
-    "updatedAt": "18/05/2026, 08:46",
+    "updatedAt": "18/05/2026, 09:41",
     "note": "Pontos = ∑ 6 melhores resultados de simples + ∑ 25% dos 6 melhores resultados de duplas"
   },
   "players": [
@@ -3394,6 +3394,7 @@
     "kristina-penickova",
     "anastasija-cvetkovic"
   ],
+  "pointsSource": "data/player-points.csv",
   "activityPlayersApplied": [
     "ivan-ivanov",
     "luis-guto-miguel",
