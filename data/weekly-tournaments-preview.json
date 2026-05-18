@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "18/05/2026, 14:46",
+  "scrapedAt": "18/05/2026, 15:32",
   "calendarStartDate": "2026-05",
   "tournaments": [
     {
@@ -99,7 +99,8 @@
           "juniorRank": 10,
           "priority": 2
         }
-      ]
+      ],
+      "drawWarning": "Playwright unavailable; Cannot find package 'playwright' imported from C:\\Users\\genar\\Documents\\Codex\\2026-05-17\\cr-bom-dia-codex-eu-quero\\pipeline\\scrape-weekly-results.mjs"
     },
     {
       "tournamentName": "J200 Targu Jiu",

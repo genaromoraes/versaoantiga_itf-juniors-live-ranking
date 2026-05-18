@@ -8,6 +8,7 @@ const outputFile = path.join(rootDir, "data", "weekly-results.csv");
 const previewFile = path.join(rootDir, "data", "weekly-tournaments-preview.json");
 const itfEntriesBaseUrl = "https://itf-entries.netlify.app";
 const itfBaseUrl = "https://www.itftennis.com";
+const pendingRound = "Pendente";
 
 const players = JSON.parse(await fs.readFile(playersFile, "utf8"));
 const playersByNormalizedName = new Map(players.map((player) => [normalizeName(player.name), player]));
@@ -100,6 +101,31 @@ function gradeFromTournamentName(value = "") {
   return value.match(/\b(JGS|JM|J500|J300|J200|J100|J60|J30)\b/i)?.[1]?.toUpperCase() || "";
 }
 
+function cleanLine(line) {
+  return line.replace(/\s+/g, " ").trim();
+}
+
+function isRound(value = "") {
+  return /^(R1|R2|R3|R4|R16|R32|R64|QF|SF|F|W)$/i.test(value);
+}
+
+function normalizeDrawRound(value = "") {
+  const round = value.toUpperCase();
+  if (round === "R1") return "R64";
+  if (round === "R2") return "R32";
+  if (round === "R3") return "R16";
+  return round;
+}
+
+function confidenceNote(value = "") {
+  return {
+    "nearby-result": "resultado encontrado perto do nome",
+    "nearby-win": "vitoria encontrada perto do nome",
+    "nearby-round": "rodada encontrada perto do nome",
+    pending: "fase pendente"
+  }[value] || value || "fase pendente";
+}
+
 async function fetchJson(url, retries = 3) {
   let lastError;
   for (let attempt = 1; attempt <= retries; attempt += 1) {
@@ -184,6 +210,69 @@ async function scrapeTournament(tournament) {
   };
 }
 
+function drawStatusForPlayer(text, player) {
+  const lines = text.split(/\r?\n/).map(cleanLine).filter(Boolean);
+  const playerName = normalizeName(player.name);
+  const candidateIndexes = lines
+    .map((line, index) => ({ line, index }))
+    .filter(({ line }) => normalizeName(line) === playerName || normalizeName(line).includes(playerName))
+    .map(({ index }) => index);
+
+  for (const index of candidateIndexes) {
+    const nearbyBefore = lines.slice(Math.max(0, index - 12), index).reverse();
+    const nearbyAfter = lines.slice(index + 1, index + 12);
+    const round = [...nearbyBefore, ...nearbyAfter].find(isRound);
+    const outcome = [...nearbyAfter, ...nearbyBefore].find((line) => line === "W" || line === "L");
+
+    if (!round) continue;
+    if (outcome === "L") {
+      return { status: "Eliminado", currentRound: normalizeDrawRound(round), confidence: "nearby-result" };
+    }
+    return { status: "Ativo", currentRound: normalizeDrawRound(round), confidence: outcome === "W" ? "nearby-win" : "nearby-round" };
+  }
+
+  return { status: "Ativo", currentRound: pendingRound, confidence: "pending" };
+}
+
+async function enrichTournamentWithDrawRounds(tournaments) {
+  const tournamentsWithPlayers = tournaments.filter((tournament) => tournament.acceptedPlayers.length);
+  if (!tournamentsWithPlayers.length) return tournaments;
+
+  let chromium;
+  try {
+    ({ chromium } = await import("playwright"));
+  } catch (error) {
+    for (const tournament of tournamentsWithPlayers) {
+      tournament.drawWarning = `Playwright unavailable; ${error.message}`;
+    }
+    return tournaments;
+  }
+
+  const browser = await chromium.launch({ headless: true });
+  const page = await browser.newPage();
+
+  try {
+    for (const tournament of tournamentsWithPlayers) {
+      try {
+        await page.goto(tournament.drawsUrl, { waitUntil: "domcontentloaded", timeout: 90000 });
+        await page.waitForTimeout(6000);
+        const text = await page.locator("body").innerText({ timeout: 45000 });
+
+        tournament.acceptedPlayers = tournament.acceptedPlayers.map((player) => ({
+          ...player,
+          drawResult: drawStatusForPlayer(text, player)
+        }));
+      } catch (error) {
+        tournament.drawWarning = `Could not read draw page; ${error.message}`;
+      }
+    }
+  } finally {
+    await browser.close();
+  }
+
+  return tournaments;
+}
+
 const tournaments = [];
 
 try {
@@ -204,9 +293,12 @@ try {
   console.warn(`Could not scrape itf-entries weekly tournaments: ${error.message}`);
 }
 
+await enrichTournamentWithDrawRounds(tournaments);
+
 const rows = [headers];
 for (const tournament of tournaments) {
   for (const player of tournament.acceptedPlayers) {
+    const drawResult = player.drawResult || { status: "Ativo", currentRound: pendingRound, confidence: "pending" };
     rows.push([
       player.id,
       player.name,
@@ -215,10 +307,10 @@ for (const tournament of tournaments) {
       tournament.grade,
       tournament.startDate,
       tournament.endDate,
-      "Ativo",
-      "",
+      drawResult.status,
+      drawResult.currentRound,
       tournament.drawsUrl,
-      `Encontrado na acceptance list do itf-entries (${player.entryGroup || "sem grupo"}); fase pendente de leitura do draw.`
+      `Encontrado na acceptance list do itf-entries (${player.entryGroup || "sem grupo"}); leitura do draw: ${confidenceNote(drawResult.confidence)}.`
     ]);
   }
 }
