@@ -1,7 +1,7 @@
 {
   "dataSource": {
     "rankingDate": "18 mai 2026",
-    "updatedAt": "18/05/2026, 13:14",
+    "updatedAt": "18/05/2026, 13:33",
     "note": "Pontos = ∑ 6 melhores resultados de simples + ∑ 25% dos 6 melhores resultados de duplas"
   },
   "players": [
@@ -3165,16 +3165,120 @@
       "sourceTotalCombinedPoints": 1741,
       "singles": [
         {
-          "event": "Ranking oficial ITF (18 mai 2026)",
-          "round": "Oficial",
-          "points": 1741,
-          "date": "",
-          "sourceCounting": true,
-          "officialFallback": true
+          "event": "2025 ITF World Tennis Tour Junior Finals",
+          "round": "JM",
+          "points": 360,
+          "date": "2025-10-22",
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 300,
+          "date": "2025-06-01",
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 300,
+          "date": "2025-08-31",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bytom",
+          "round": "J300",
+          "points": 210,
+          "date": "2025-07-22",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Rutesheim",
+          "round": "J200",
+          "points": 200,
+          "date": "2025-08-05",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 90,
+          "date": "2025-05-19",
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 90,
+          "date": "2025-07-05",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-06-29",
+          "sourceCounting": false
         }
       ],
-      "doubles": [],
-      "defending": [],
+      "doubles": [
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 367,
+          "date": "2025-07-05",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 262,
+          "date": "2025-05-19",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bytom",
+          "round": "J300",
+          "points": 225,
+          "date": "2025-07-22",
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 225,
+          "date": "2025-08-31",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 45,
+          "date": "2025-06-29",
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-06-01",
+          "sourceCounting": true
+        }
+      ],
+      "defending": [
+        {
+          "type": "singles",
+          "event": "J500 Milan",
+          "points": 90,
+          "date": "2025-05-19"
+        },
+        {
+          "type": "doubles",
+          "event": "J500 Milan",
+          "points": 262,
+          "date": "2025-05-19"
+        }
+      ],
       "liveEvent": {
         "event": "",
         "grade": "",
@@ -3184,7 +3288,8 @@
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
         "doublesPoints": 0
-      }
+      },
+      "sourceUrl": "https://www.itftennis.com/en/players/julia-stusek/800579453/ger/jt/s/itf-points-breakdown/"
     }
   ],
   "generatedBy": "pipeline/build-latest.mjs",
@@ -3208,7 +3313,8 @@
     "jana-kovackova",
     "xinran-sun",
     "kristina-penickova",
-    "anastasija-cvetkovic"
+    "anastasija-cvetkovic",
+    "julia-stusek"
   ],
   "pointsSource": "data/player-points.csv",
   "activityPlayersApplied": [
