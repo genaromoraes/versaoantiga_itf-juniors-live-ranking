@@ -25,26 +25,31 @@ Em linguagem simples:
 
 ## Atualizacao automatica
 
-O arquivo `.github/workflows/update-ranking.yml` esta preparado para rodar 4 vezes por dia no GitHub Actions:
+O arquivo `.github/workflows/update-ranking.yml` roda 4 vezes por dia no GitHub Actions:
 
-- 09:00
-- 13:00
-- 17:00
-- 21:00
+- 08:00
+- 12:00
+- 16:00
+- 20:00
 
-Hoje ele gera `data/latest.json` a partir dos dados simulados. O proximo passo e trocar a origem simulada pelas paginas reais da ITF.
+Em linguagem simples: o GitHub abre o robo nesses horarios, coleta os dados da ITF, recalcula o ranking e salva o arquivo `data/latest.json`. Se os dados mudarem, o proprio GitHub publica a atualizacao no site.
 
 ## Robo da ITF
 
-O primeiro leitor real ja esta em `pipeline/scrape-player-breakdown.mjs`.
+Os leitores reais ficam na pasta `pipeline`:
 
-Ele abre a pagina de points breakdown de um atleta, le os resultados de simples e duplas e gera uma previa em JSON. Esta fase ainda e de validacao com poucos atletas antes de ligar no ranking publicado.
+- `scrape-player-breakdown.mjs`: le os pontos de simples e duplas no perfil do atleta.
+- `scrape-player-activity.mjs`: le a atividade recente do atleta para descobrir se esta jogando na semana.
+- `build-latest.mjs`: junta tudo e gera o arquivo usado pelo site.
 
 Para rodar localmente no futuro:
 
 ```bash
 npm install
+npx playwright install chromium
 npm run scrape:player
+npm run scrape:activity
+npm run build:data
 ```
 
 ## Regras oficiais

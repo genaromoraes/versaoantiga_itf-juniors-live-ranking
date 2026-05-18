@@ -3,15 +3,20 @@ name: Update ranking data
 on:
   workflow_dispatch:
   schedule:
-    # 09:00, 13:00, 17:00 e 21:00 no horario de Brasilia (UTC-3).
-    - cron: "0 12,16,20,0 * * *"
+    # 08:00, 12:00, 16:00 e 20:00 no horario de Brasilia (UTC-3).
+    - cron: "0 11,15,19,23 * * *"
 
 permissions:
   contents: write
 
+concurrency:
+  group: update-ranking-data
+  cancel-in-progress: false
+
 jobs:
   update-ranking:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -21,6 +26,18 @@ jobs:
         with:
           node-version: 22
 
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install browser
+        run: npx playwright install --with-deps chromium
+
+      - name: Scrape ITF points breakdowns
+        run: npm run scrape:player
+
+      - name: Scrape ITF activity
+        run: npm run scrape:activity
+
       - name: Generate latest data
         run: npm run build:data
 
@@ -28,4 +45,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update ranking data"
-          file_pattern: data/latest.json
+          file_pattern: data/latest.json data/itf-player-preview.json data/itf-activity-preview.json

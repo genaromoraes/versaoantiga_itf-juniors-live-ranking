@@ -55,6 +55,21 @@ function pointsForRound(rules, grade, matchType, round) {
   return Number(table[round] || 0);
 }
 
+function saoPauloToday() {
+  const parts = Object.fromEntries(
+    new Intl.DateTimeFormat("en-CA", {
+      timeZone: "America/Sao_Paulo",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit"
+    })
+      .formatToParts(new Date())
+      .map((part) => [part.type, part.value])
+  );
+
+  return new Date(Date.UTC(Number(parts.year), Number(parts.month) - 1, Number(parts.day)));
+}
+
 function applyRealPlayerPreview(players, previewPlayers) {
   const realById = new Map(previewPlayers.map((player) => [player.id, player]));
 
@@ -90,7 +105,7 @@ function applyRealPlayerPreview(players, previewPlayers) {
 }
 
 function currentWeekBounds() {
-  const today = new Date();
+  const today = saoPauloToday();
   const day = today.getUTCDay() || 7;
   const start = new Date(Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate()));
   start.setUTCDate(start.getUTCDate() - day + 1);
@@ -120,7 +135,7 @@ function defendingFromResults(results, type) {
 
 function applyActivityPreview(players, activityPlayers, rules) {
   const activityById = new Map(activityPlayers.map((player) => [player.id, player]));
-  const today = new Date();
+  const today = saoPauloToday();
 
   return players.map((player) => {
     const activityPlayer = activityById.get(player.id);

@@ -8,7 +8,7 @@ Em linguagem simples: o site mostra dados; o pipeline prepara os dados.
 
 `build-latest.mjs` gera `data/latest.json` no formato que o site ja sabe ler.
 
-Hoje ele ainda usa os dados simulados de `data.js`. O proximo passo e substituir essa origem por dados lidos das paginas da ITF:
+Quando existem arquivos reais em `data/itf-player-preview.json` e `data/itf-activity-preview.json`, ele substitui os dados simulados pelos dados lidos nas paginas da ITF:
 
 - Ranking oficial: pagina de ranking juvenil da ITF
 - Points breakdown: perfil do atleta na aba de pontos
@@ -56,7 +56,7 @@ Essa pagina e a ponte mais importante entre atleta e torneio da semana, porque m
 
 ## Frequencia
 
-A automacao esta pensada para rodar 4 vezes por dia. Isso e suficiente para um MVP e ajuda a reduzir acessos desnecessarios as paginas da ITF.
+A automacao roda 4 vezes por dia: 08:00, 12:00, 16:00 e 20:00 no horario de Brasilia. Isso e suficiente para um MVP e ajuda a reduzir acessos desnecessarios as paginas da ITF.
 
 ## Formato esperado
 
