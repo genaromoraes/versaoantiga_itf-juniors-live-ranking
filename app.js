@@ -62,7 +62,7 @@ function rankedResults(results = [], multiplier = 1) {
     .map((item, index) => ({
       ...item,
       isCounting: index < 6,
-      countedPoints: Math.round(Number(item.points || 0) * multiplier)
+      countedPoints: Number(item.points || 0) * multiplier
     }));
 }
 
@@ -92,7 +92,7 @@ const nextRound = {
 };
 
 function doublesValue(points) {
-  return Math.round(Number(points || 0) * 0.25);
+  return Number(points || 0) * 0.25;
 }
 
 function projectedEventPoints(liveEvent, target) {
@@ -181,7 +181,12 @@ function getRankedPlayers() {
 }
 
 function formatNumber(value) {
-  return Number(value || 0).toLocaleString("pt-BR");
+  const number = Number(value || 0);
+  const hasDecimals = Math.abs(number - Math.trunc(number)) > 0.000001;
+  return number.toLocaleString("pt-BR", {
+    minimumFractionDigits: hasDecimals ? 2 : 0,
+    maximumFractionDigits: hasDecimals ? 2 : 0
+  });
 }
 
 function flagMarkup(country = "") {
