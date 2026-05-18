@@ -61,6 +61,10 @@ function applyRealPlayerPreview(players, previewPlayers) {
   return players.map((player) => {
     const realPlayer = realById.get(player.id);
     if (!realPlayer) return player;
+    const defending = [
+      ...defendingFromResults(realPlayer.singles, "singles"),
+      ...defendingFromResults(realPlayer.doubles, "doubles")
+    ];
 
     return {
       ...player,
@@ -73,6 +77,7 @@ function applyRealPlayerPreview(players, previewPlayers) {
         date: result.date,
         sourceCounting: result.sourceCounting
       })),
+      defending,
       doubles: realPlayer.doubles.map((result) => ({
         event: result.event,
         round: result.grade,
@@ -84,12 +89,62 @@ function applyRealPlayerPreview(players, previewPlayers) {
   });
 }
 
+function currentWeekBounds() {
+  const today = new Date();
+  const day = today.getUTCDay() || 7;
+  const start = new Date(Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate()));
+  start.setUTCDate(start.getUTCDate() - day + 1);
+  const end = new Date(start);
+  end.setUTCDate(start.getUTCDate() + 6);
+  end.setUTCHours(23, 59, 59, 999);
+  return { start, end };
+}
+
+function defendingFromResults(results, type) {
+  const { start, end } = currentWeekBounds();
+
+  return results
+    .filter((result) => result.sourceCounting !== false)
+    .filter((result) => {
+      const dropDate = new Date(`${result.date}T00:00:00Z`);
+      dropDate.setUTCDate(dropDate.getUTCDate() + 364);
+      return start <= dropDate && dropDate <= end;
+    })
+    .map((result) => ({
+      type,
+      event: result.event,
+      points: result.points,
+      date: result.date
+    }));
+}
+
 function applyActivityPreview(players, activityPlayers, rules) {
   const activityById = new Map(activityPlayers.map((player) => [player.id, player]));
+  const today = new Date();
 
   return players.map((player) => {
     const activityPlayer = activityById.get(player.id);
-    const latestTournament = activityPlayer?.tournaments?.[0];
+    const latestTournament = activityPlayer?.tournaments?.find((tournament) => {
+      const start = new Date(`${tournament.startDate}T00:00:00Z`);
+      const end = new Date(`${tournament.endDate}T23:59:59Z`);
+      return start <= today && today <= end;
+    });
+    if (activityPlayer && !latestTournament) {
+      return {
+        ...player,
+        liveEvent: {
+          event: "",
+          grade: "",
+          singlesStatus: "Nao joga",
+          singlesRound: "Nao joga",
+          singlesPoints: 0,
+          doublesStatus: "Nao joga",
+          doublesRound: "Nao joga",
+          doublesPoints: 0
+        }
+      };
+    }
+
     if (!latestTournament) return player;
 
     const lastResult = [...(latestTournament.matches || [])].reverse().find((match) => match.outcome === "W" || match.outcome === "L");
