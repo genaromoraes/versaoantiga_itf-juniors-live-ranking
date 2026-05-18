@@ -63,6 +63,10 @@ export function parseItfPointsBreakdown(text) {
   const profileStart = lines.findIndex((line) => line.includes("ITF POINTS BREAKDOWN"));
   const usefulLines = profileStart >= 0 ? lines.slice(profileStart) : lines;
   const playerHeading = usefulLines[0] || "";
+  const nameIndex = lines.findIndex((line, index) => line === "SINGLES" && lines[index - 1]);
+  const playerName = nameIndex > 0 ? lines[nameIndex - 1] : "";
+  const countryIndex = lines.findIndex((line) => line === "Age:");
+  const country = countryIndex > 0 ? lines[countryIndex - 1] : "";
   const totalIndex = usefulLines.findIndex((line) => line.startsWith("Total Combined Ranking Points:"));
   const totalCombinedPoints = totalIndex >= 0 ? Number(usefulLines[totalIndex + 1]) : null;
 
@@ -107,6 +111,8 @@ export function parseItfPointsBreakdown(text) {
 
   return {
     playerHeading,
+    playerName,
+    country,
     totalCombinedPoints,
     singles,
     doubles

@@ -1,7 +1,7 @@
 {
   "dataSource": {
     "rankingDate": "11 mai 2026",
-    "updatedAt": "17/05/2026, 22:09",
+    "updatedAt": "17/05/2026, 22:59",
     "note": "Pontos = ∑ 6 melhores resultados de simples + ∑ 25% dos 6 melhores resultados de duplas"
   },
   "players": [
@@ -144,102 +144,167 @@
       "currentRank": 2,
       "singles": [
         {
-          "event": "J300 Santa Cruz 2026",
-          "round": "Campeao",
-          "points": 577,
-          "date": "2026-01-08"
+          "event": "J500 Merida",
+          "round": "J500",
+          "points": 500,
+          "date": "2025-11-24",
+          "sourceCounting": true
         },
         {
-          "event": "J300 Offenbach 2026",
-          "round": "Final",
-          "points": 453,
-          "date": "2026-02-11"
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 490,
+          "date": "2025-08-31",
+          "sourceCounting": true
         },
         {
-          "event": "J200 Prato 2026",
-          "round": "SF",
-          "points": 350,
-          "date": "2026-03-14"
+          "event": "J300 Charleroi-Marcinelle",
+          "round": "J300",
+          "points": 300,
+          "date": "2025-05-26",
+          "sourceCounting": true
         },
         {
-          "event": "J200 Cap d'Ail 2026",
-          "round": "QF",
-          "points": 268,
-          "date": "2026-04-17"
+          "event": "J300 Repentigny",
+          "round": "J300",
+          "points": 300,
+          "date": "2025-08-24",
+          "sourceCounting": true
         },
         {
-          "event": "J500 Milan 2026",
-          "round": "R16",
-          "points": 226,
-          "date": "2026-05-20"
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 300,
+          "date": "2026-01-16",
+          "sourceCounting": true
         },
         {
-          "event": "J300 Santa Cruz 2026",
-          "round": "R32",
-          "points": 185,
-          "date": "2026-05-23"
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 300,
+          "date": "2026-01-24",
+          "sourceCounting": true
         },
         {
-          "event": "J200 Cap d'Ail 2026",
-          "round": "R32",
-          "points": 51,
-          "date": "2026-05-02"
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 140,
+          "date": "2025-06-29",
+          "sourceCounting": false
         },
         {
-          "event": "J500 Milan 2026",
-          "round": "R64",
-          "points": 31,
-          "date": "2026-05-06"
+          "event": "J300 Zapopan",
+          "round": "J300",
+          "points": 140,
+          "date": "2025-11-17",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 90,
+          "date": "2025-05-19",
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 90,
+          "date": "2025-07-05",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Santa Croce sull’Arno",
+          "round": "J300",
+          "points": 60,
+          "date": "2025-05-12",
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-06-01",
+          "sourceCounting": false
         }
       ],
       "doubles": [
         {
-          "event": "J200 Prato 2026",
-          "round": "Campeao",
-          "points": 224,
-          "date": "2026-01-08"
+          "event": "J300 Repentigny",
+          "round": "J300",
+          "points": 225,
+          "date": "2025-08-24",
+          "sourceCounting": true
         },
         {
-          "event": "J200 Cap d'Ail 2026",
-          "round": "Final",
-          "points": 176,
-          "date": "2026-02-11"
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 225,
+          "date": "2026-01-16",
+          "sourceCounting": true
         },
         {
-          "event": "J500 Milan 2026",
-          "round": "SF",
-          "points": 136,
-          "date": "2026-03-14"
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 225,
+          "date": "2026-01-24",
+          "sourceCounting": true
         },
         {
-          "event": "J300 Santa Cruz 2026",
-          "round": "QF",
-          "points": 104,
-          "date": "2026-04-17"
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 135,
+          "date": "2025-06-01",
+          "sourceCounting": true
         },
         {
-          "event": "J300 Offenbach 2026",
-          "round": "R16",
-          "points": 88,
-          "date": "2026-05-20"
+          "event": "J500 Merida",
+          "round": "J500",
+          "points": 112,
+          "date": "2025-11-24",
+          "sourceCounting": true
         },
         {
-          "event": "J200 Prato 2026",
-          "round": "R32",
-          "points": 73,
-          "date": "2026-05-23"
+          "event": "J300 Santa Croce sull’Arno",
+          "round": "J300",
+          "points": 105,
+          "date": "2025-05-12",
+          "sourceCounting": true
         },
         {
-          "event": "J300 Santa Cruz 2026",
-          "round": "R32",
-          "points": 20,
-          "date": "2026-05-02"
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 0,
+          "date": "2025-05-19",
+          "sourceCounting": false
         },
         {
-          "event": "J300 Offenbach 2026",
-          "round": "R64",
-          "points": 12,
-          "date": "2026-05-06"
+          "event": "J300 Charleroi-Marcinelle",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-05-26",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-06-29",
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-07-05",
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-08-31",
+          "sourceCounting": false
         }
       ],
       "defending": [
@@ -265,7 +330,9 @@
         "doublesStatus": "Eliminado",
         "doublesRound": "QF",
         "doublesPoints": 165
-      }
+      },
+      "sourceUrl": "https://www.itftennis.com/en/players/luis-guto-miguel/800680259/bra/jt/s/itf-points-breakdown/",
+      "sourceTotalCombinedPoints": 2446.75
     },
     {
       "id": "yannick-theodor-alexandrescou",
@@ -2626,5 +2693,8 @@
       }
     }
   ],
-  "generatedBy": "pipeline/build-latest.mjs"
+  "generatedBy": "pipeline/build-latest.mjs",
+  "realPlayersApplied": [
+    "luis-guto-miguel"
+  ]
 }

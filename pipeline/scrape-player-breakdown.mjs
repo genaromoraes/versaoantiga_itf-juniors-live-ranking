@@ -17,11 +17,13 @@ for (const player of players) {
   await page.goto(player.pointsBreakdownUrl, { waitUntil: "load", timeout: 60000 });
   const text = await page.locator("body").innerText({ timeout: 30000 });
   const parsed = parseItfPointsBreakdown(text);
+  const playerName = parsed.playerName || player.name;
+  const country = parsed.country || player.country;
 
   scrapedPlayers.push({
     id: player.id,
-    name: player.name,
-    country: player.country,
+    name: playerName,
+    country,
     gender: player.gender,
     currentRank: player.currentRank,
     sourceUrl: player.pointsBreakdownUrl,
