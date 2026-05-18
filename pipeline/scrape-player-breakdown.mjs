@@ -18,7 +18,7 @@ async function readExistingPreview() {
 }
 
 function hasResults(player) {
-  return (player.singles?.length || 0) + (player.doubles?.length || 0) > 0;
+  return (player?.singles?.length || 0) + (player?.doubles?.length || 0) > 0;
 }
 
 function stamp() {
