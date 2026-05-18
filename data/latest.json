@@ -1,7 +1,7 @@
 {
   "dataSource": {
     "rankingDate": "18 mai 2026",
-    "updatedAt": "18/05/2026, 13:37",
+    "updatedAt": "18/05/2026, 13:40",
     "note": "Pontos = ∑ 6 melhores resultados de simples + ∑ 25% dos 6 melhores resultados de duplas"
   },
   "players": [
@@ -989,7 +989,7 @@
       "gender": "Boys",
       "currentRank": 6,
       "officialPoints": 2022.75,
-      "sourceTotalCombinedPoints": 2061,
+      "sourceTotalCombinedPoints": 2022.75,
       "singles": [
         {
           "event": "Australian Open Junior Championships",
@@ -1020,13 +1020,6 @@
           "sourceCounting": true
         },
         {
-          "event": "J300 Santa Croce sull’Arno",
-          "round": "J300",
-          "points": 100,
-          "date": "2025-05-12",
-          "sourceCounting": true
-        },
-        {
           "event": "J300 College Park",
           "round": "J300",
           "points": 100,
@@ -1038,7 +1031,7 @@
           "round": "JGS",
           "points": 90,
           "date": "2025-06-01",
-          "sourceCounting": false
+          "sourceCounting": true
         },
         {
           "event": "J500 Fort Lauderdale",
@@ -1092,13 +1085,6 @@
           "sourceCounting": true
         },
         {
-          "event": "J300 Santa Croce sull’Arno",
-          "round": "J300",
-          "points": 225,
-          "date": "2025-05-12",
-          "sourceCounting": true
-        },
-        {
           "event": "Australian Open Junior Championships",
           "round": "JGS",
           "points": 225,
@@ -1117,7 +1103,7 @@
           "round": "J500",
           "points": 112,
           "date": "2025-11-24",
-          "sourceCounting": false
+          "sourceCounting": true
         },
         {
           "event": "J500 Fort Lauderdale",
