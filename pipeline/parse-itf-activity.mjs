@@ -82,7 +82,7 @@ function nextRoundAfterBye(lines, startIndex, endIndex) {
 
 export function parseItfActivity(text) {
   const lines = text.split(/\r?\n/).map(cleanLine).filter(Boolean);
-  const activityIndex = lines.findIndex((line) => line.includes("JUNIORS SINGLES ACTIVITY"));
+  const activityIndex = lines.findIndex((line) => /JUNIORS (SINGLES|DOUBLES) ACTIVITY/.test(line));
   const usefulLines = activityIndex >= 0 ? lines.slice(activityIndex) : lines;
   const tournaments = [];
 

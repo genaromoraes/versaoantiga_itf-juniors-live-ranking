@@ -133,18 +133,44 @@ function defendingFromResults(results, type) {
     }));
 }
 
+function currentTournamentForType(tournaments = [], matchType, today) {
+  return tournaments.find((tournament) => {
+    const start = new Date(`${tournament.startDate}T00:00:00Z`);
+    const end = new Date(`${tournament.endDate}T23:59:59Z`);
+    return tournament.matchType === matchType && start <= today && today <= end;
+  });
+}
+
+function pointsAndStatusForTournament(tournament, rules, matchType) {
+  if (!tournament) {
+    return {
+      status: "Nao joga",
+      round: "Nao joga",
+      points: 0
+    };
+  }
+
+  const lastResult = [...(tournament.matches || [])].reverse().find((match) => match.outcome === "W" || match.outcome === "L");
+  const pointsRound = lastResult?.outcome === "L" ? lastResult.round : lastResult?.round || "";
+  const currentRound = roundToDisplay[tournament.currentRound] || tournament.currentRound || "Nao joga";
+
+  return {
+    status: tournament.status === "Eliminado" ? "Eliminado" : "Ativo",
+    round: currentRound,
+    points: pointsForRound(rules, tournament.grade, matchType, pointsRound)
+  };
+}
+
 function applyActivityPreview(players, activityPlayers, rules) {
   const activityById = new Map(activityPlayers.map((player) => [player.id, player]));
   const today = saoPauloToday();
 
   return players.map((player) => {
     const activityPlayer = activityById.get(player.id);
-    const latestTournament = activityPlayer?.tournaments?.find((tournament) => {
-      const start = new Date(`${tournament.startDate}T00:00:00Z`);
-      const end = new Date(`${tournament.endDate}T23:59:59Z`);
-      return start <= today && today <= end;
-    });
-    if (activityPlayer && !latestTournament) {
+    const singlesTournament = currentTournamentForType(activityPlayer?.tournaments, "Singles", today);
+    const doublesTournament = currentTournamentForType(activityPlayer?.tournaments, "Doubles", today);
+
+    if (activityPlayer && !singlesTournament && !doublesTournament) {
       return {
         ...player,
         liveEvent: {
@@ -160,26 +186,26 @@ function applyActivityPreview(players, activityPlayers, rules) {
       };
     }
 
-    if (!latestTournament) return player;
+    if (!singlesTournament && !doublesTournament) return player;
 
-    const lastResult = [...(latestTournament.matches || [])].reverse().find((match) => match.outcome === "W" || match.outcome === "L");
-    const pointsRound = lastResult?.outcome === "L" ? lastResult.round : lastResult?.round || "";
-    const currentRound = roundToDisplay[latestTournament.currentRound] || latestTournament.currentRound || "Nao joga";
-    const status = latestTournament.status === "Eliminado" ? "Eliminado" : "Ativo";
-    const singlesPoints = pointsForRound(rules, latestTournament.grade, "singles", pointsRound);
+    const singles = pointsAndStatusForTournament(singlesTournament, rules, "singles");
+    const doubles = pointsAndStatusForTournament(doublesTournament, rules, "doubles");
+    const eventNames = [singlesTournament?.event, doublesTournament?.event].filter(Boolean);
+    const event = [...new Set(eventNames)].join(" / ");
+    const grade = singlesTournament?.grade || doublesTournament?.grade || "";
 
     return {
       ...player,
       liveEvent: {
         ...(player.liveEvent || {}),
-        event: latestTournament.event,
-        grade: latestTournament.grade,
-        singlesStatus: status,
-        singlesRound: currentRound,
-        singlesPoints,
-        doublesStatus: "Nao joga",
-        doublesRound: "Nao joga",
-        doublesPoints: 0
+        event,
+        grade,
+        singlesStatus: singles.status,
+        singlesRound: singles.round,
+        singlesPoints: singles.points,
+        doublesStatus: doubles.status,
+        doublesRound: doubles.round,
+        doublesPoints: doubles.points
       }
     };
   });

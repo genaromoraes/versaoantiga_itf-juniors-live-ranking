@@ -13,19 +13,32 @@ function activityUrlFromBreakdown(url) {
   return url.replace("/itf-points-breakdown/", "/activity/");
 }
 
+function doublesActivityUrlFromBreakdown(url) {
+  return activityUrlFromBreakdown(url).replace("/jt/s/activity/", "/jt/d/activity/");
+}
+
+async function scrapeActivityPage(page, url) {
+  await page.goto(url, { waitUntil: "load", timeout: 60000 });
+  const text = await page.locator("body").innerText({ timeout: 30000 });
+  return parseItfActivity(text).tournaments;
+}
+
 const browser = await chromium.launch({ headless: true });
 const page = await browser.newPage();
 const activityPlayers = [];
 
 for (const player of players) {
   const activityUrl = player.activityUrl || activityUrlFromBreakdown(player.pointsBreakdownUrl);
-  await page.goto(activityUrl, { waitUntil: "load", timeout: 60000 });
-  const text = await page.locator("body").innerText({ timeout: 30000 });
+  const doublesActivityUrl = player.doublesActivityUrl || doublesActivityUrlFromBreakdown(player.pointsBreakdownUrl);
+  const singlesTournaments = await scrapeActivityPage(page, activityUrl);
+  const doublesTournaments = await scrapeActivityPage(page, doublesActivityUrl);
+
   activityPlayers.push({
     id: player.id,
     name: player.name,
     activityUrl,
-    ...parseItfActivity(text)
+    doublesActivityUrl,
+    tournaments: [...singlesTournaments, ...doublesTournaments]
   });
 }
 
