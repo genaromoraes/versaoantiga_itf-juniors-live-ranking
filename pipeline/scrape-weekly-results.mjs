@@ -363,7 +363,13 @@ async function clickIfPresent(page, label) {
   }
 }
 
-async function readDrawPageText(page, tournament) {
+async function readDrawPageText(page, tournament, networkUrls = []) {
+  const collectUrl = (response) => {
+    const url = response.url();
+    if (/draw|result|match|tournament|api|umbraco|itf/i.test(url)) networkUrls.push(url);
+  };
+
+  page.on("response", collectUrl);
   await page.goto(tournament.drawsUrl, { waitUntil: "domcontentloaded", timeout: 90000 });
   await page.waitForTimeout(6000);
 
@@ -375,6 +381,7 @@ async function readDrawPageText(page, tournament) {
     texts.push(await page.locator("body").innerText({ timeout: 45000 }));
   }
 
+  page.off("response", collectUrl);
   return [...new Set(texts)].join("\n");
 }
 
@@ -398,8 +405,12 @@ async function enrichTournamentWithDrawRounds(tournaments) {
   try {
     for (const tournament of tournamentsWithPlayers) {
       try {
-        const text = await readDrawPageText(page, tournament);
-        tournament.drawDiagnostic = drawDiagnostic(text, tournament.acceptedPlayers);
+        const networkUrls = [];
+        const text = await readDrawPageText(page, tournament, networkUrls);
+        tournament.drawDiagnostic = {
+          ...drawDiagnostic(text, tournament.acceptedPlayers),
+          networkUrls: [...new Set(networkUrls)].slice(0, 120)
+        };
 
         tournament.acceptedPlayers = tournament.acceptedPlayers.map((player) => ({
           ...player,
