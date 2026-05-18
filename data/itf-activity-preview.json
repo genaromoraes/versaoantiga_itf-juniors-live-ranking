@@ -54,20 +54,6 @@
       "name": "Zangar Nurlanuly",
       "activityUrl": "https://www.itftennis.com/en/players/zangar-nurlanuly/800543488/kaz/jt/s/activity/",
       "doublesActivityUrl": "https://www.itftennis.com/en/players/zangar-nurlanuly/800543488/kaz/jt/d/activity/",
-      "tournaments": []
-    },
-    {
-      "id": "thilo-behrmann",
-      "name": "Thilo Behrmann",
-      "activityUrl": "https://www.itftennis.com/en/players/thilo-behrmann/800589798/aut/jt/s/activity/",
-      "doublesActivityUrl": "https://www.itftennis.com/en/players/thilo-behrmann/800589798/aut/jt/d/activity/",
-      "tournaments": []
-    },
-    {
-      "id": "ryo-tabata",
-      "name": "Ryo Tabata",
-      "activityUrl": "https://www.itftennis.com/en/players/ryo-tabata/800583844/jpn/jt/s/activity/",
-      "doublesActivityUrl": "https://www.itftennis.com/en/players/ryo-tabata/800583844/jpn/jt/d/activity/",
       "tournaments": [
         {
           "event": "Australian Open Junior Championships",
@@ -85,14 +71,14 @@
           "matches": []
         },
         {
-          "event": "J500 Fort Lauderdale",
-          "startDate": "2025-12-08",
-          "endDate": "2025-12-14",
-          "city": "City/Town: Fort Lauderdale",
+          "event": "J300 Traralgon",
+          "startDate": "2026-01-16",
+          "endDate": "2026-01-21",
+          "city": "City/Town: Traralgon",
           "country": "Nation:",
-          "grade": "USA",
-          "surface": "Tournament type: J500",
-          "draw": "Surface: Clay",
+          "grade": "AUS",
+          "surface": "Tournament type: J300",
+          "draw": "Surface: Hard",
           "matchType": "Draw: Main Draw",
           "entryType": "Type: Doubles",
           "status": "Ativo",
@@ -100,44 +86,44 @@
           "matches": []
         },
         {
-          "event": "J300 Bradenton",
-          "startDate": "2025-12-01",
-          "endDate": "2025-12-07",
-          "city": "City/Town: Bradenton",
+          "event": "US Open Junior Tennis Championships",
+          "startDate": "2025-08-31",
+          "endDate": "2025-09-06",
+          "city": "City/Town: New York",
+          "country": "Nation:",
+          "grade": "USA",
+          "surface": "Tournament type: JGS",
+          "draw": "Surface: Hard",
+          "matchType": "Draw: Main Draw",
+          "entryType": "Type: Doubles",
+          "status": "Ativo",
+          "currentRound": "",
+          "matches": []
+        },
+        {
+          "event": "J300 College Park",
+          "startDate": "2025-08-18",
+          "endDate": "2025-08-23",
+          "city": "City/Town: College Park",
           "country": "Nation:",
           "grade": "USA",
           "surface": "Tournament type: J300",
-          "draw": "Surface: Clay",
-          "matchType": "Draw: Main Draw",
-          "entryType": "Type: Doubles",
-          "status": "Ativo",
-          "currentRound": "",
-          "matches": []
-        },
-        {
-          "event": "J500 Merida",
-          "startDate": "2025-11-24",
-          "endDate": "2025-11-30",
-          "city": "City/Town: Merida",
-          "country": "Nation:",
-          "grade": "MEX",
-          "surface": "Tournament type: J500",
-          "draw": "Surface: Clay",
-          "matchType": "Draw: Main Draw",
-          "entryType": "Type: Doubles",
-          "status": "Ativo",
-          "currentRound": "",
-          "matches": []
-        },
-        {
-          "event": "J500 Osaka",
-          "startDate": "2025-09-22",
-          "endDate": "2025-09-28",
-          "city": "City/Town: Osaka",
-          "country": "Nation:",
-          "grade": "JPN",
-          "surface": "Tournament type: J500",
           "draw": "Surface: Hard",
+          "matchType": "Draw: Main Draw",
+          "entryType": "Type: Doubles",
+          "status": "Ativo",
+          "currentRound": "",
+          "matches": []
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "startDate": "2025-07-05",
+          "endDate": "2025-07-13",
+          "city": "City/Town: Wimbledon",
+          "country": "Nation:",
+          "grade": "GBR",
+          "surface": "Tournament type: JGS",
+          "draw": "Surface: Grass",
           "matchType": "Draw: Main Draw",
           "entryType": "Type: Doubles",
           "status": "Ativo",
@@ -145,6 +131,20 @@
           "matches": []
         }
       ]
+    },
+    {
+      "id": "thilo-behrmann",
+      "name": "Thilo Behrmann",
+      "activityUrl": "https://www.itftennis.com/en/players/thilo-behrmann/800589798/aut/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/thilo-behrmann/800589798/aut/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "ryo-tabata",
+      "name": "Ryo Tabata",
+      "activityUrl": "https://www.itftennis.com/en/players/ryo-tabata/800583844/jpn/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/ryo-tabata/800583844/jpn/jt/d/activity/",
+      "tournaments": []
     },
     {
       "id": "ksenia-efremova",
@@ -241,7 +241,83 @@
       "name": "Mia Pohankova",
       "activityUrl": "https://www.itftennis.com/en/players/mia-pohankova/800627475/svk/jt/s/activity/",
       "doublesActivityUrl": "https://www.itftennis.com/en/players/mia-pohankova/800627475/svk/jt/d/activity/",
-      "tournaments": []
+      "tournaments": [
+        {
+          "event": "US Open Junior Tennis Championships",
+          "startDate": "2025-08-31",
+          "endDate": "2025-09-06",
+          "city": "City/Town: New York",
+          "country": "Nation:",
+          "grade": "USA",
+          "surface": "Tournament type: JGS",
+          "draw": "Surface: Hard",
+          "matchType": "Draw: Main Draw",
+          "entryType": "Type: Doubles",
+          "status": "Ativo",
+          "currentRound": "",
+          "matches": []
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "startDate": "2025-07-05",
+          "endDate": "2025-07-13",
+          "city": "City/Town: Wimbledon",
+          "country": "Nation:",
+          "grade": "GBR",
+          "surface": "Tournament type: JGS",
+          "draw": "Surface: Grass",
+          "matchType": "Draw: Main Draw",
+          "entryType": "Type: Doubles",
+          "status": "Ativo",
+          "currentRound": "",
+          "matches": []
+        },
+        {
+          "event": "J300 Roehampton",
+          "startDate": "2025-06-29",
+          "endDate": "2025-07-04",
+          "city": "City/Town: Roehampton",
+          "country": "Nation:",
+          "grade": "GBR",
+          "surface": "Tournament type: J300",
+          "draw": "Surface: Grass",
+          "matchType": "Draw: Main Draw",
+          "entryType": "Type: Doubles",
+          "status": "Ativo",
+          "currentRound": "",
+          "matches": []
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "startDate": "2025-06-01",
+          "endDate": "2025-06-07",
+          "city": "City/Town: Paris",
+          "country": "Nation:",
+          "grade": "FRA",
+          "surface": "Tournament type: JGS",
+          "draw": "Surface: Clay",
+          "matchType": "Draw: Main Draw",
+          "entryType": "Type: Doubles",
+          "status": "Ativo",
+          "currentRound": "",
+          "matches": []
+        },
+        {
+          "event": "J500 Milan",
+          "startDate": "2025-05-19",
+          "endDate": "2025-05-25",
+          "city": "City/Town: Milan",
+          "country": "Nation:",
+          "grade": "ITA",
+          "surface": "Tournament type: J500",
+          "draw": "Surface: Clay",
+          "matchType": "Draw: Main Draw",
+          "entryType": "Type: Doubles",
+          "status": "Ativo",
+          "currentRound": "",
+          "matches": []
+        }
+      ]
     },
     {
       "id": "alena-kovackova",
