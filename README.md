@@ -53,6 +53,7 @@ npm install
 npx playwright install chromium
 npm run scrape:ranking
 npm run scrape:activity
+npm run scrape:weekly
 npm run build:data
 npm run audit:points
 ```
@@ -100,6 +101,16 @@ Colunas:
 - `notes`: observacoes livres.
 
 Quando essa planilha tiver uma linha para um atleta, ela tem prioridade sobre a leitura automatica da aba Activity. Isso ajuda quando a ITF carrega parte dos dados por JavaScript e o robo nao consegue ler tudo diretamente.
+
+O comando `npm run scrape:weekly` tenta preencher essa planilha automaticamente:
+
+1. abre o calendario juvenil da ITF no mes da semana atual;
+2. encontra os torneios da semana;
+3. abre a acceptance list de cada torneio;
+4. cruza os nomes aceitos com os atletas do ranking acompanhado;
+5. escreve os atletas encontrados em `data/weekly-results.csv`.
+
+Nesta fase, a acceptance list serve para descobrir quem esta inscrito. A leitura fina da fase atual ainda depende dos draws/results ou de preenchimento manual da coluna `current_round`.
 
 ## Regras oficiais
 

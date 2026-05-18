@@ -396,15 +396,16 @@ function normalizeWeeklyStatus(status = "") {
 }
 
 function weeklyTournamentFromRow(row) {
+  const status = row.current_round ? normalizeWeeklyStatus(row.status) : "Nao joga";
   return {
     event: row.event,
     grade: row.grade,
     startDate: row.start_date,
     endDate: row.end_date,
     matchType: row.match_type,
-    status: normalizeWeeklyStatus(row.status),
+    status,
     currentRound: row.current_round,
-    matches: row.status?.toLowerCase().startsWith("elim")
+    matches: status === "Eliminado"
       ? [{ round: row.current_round, outcome: "L", opponent: "", score: "" }]
       : []
   };
@@ -429,7 +430,7 @@ function applyWeeklyResultsPreview(players, weeklyRows, rules) {
     const doublesTournament = doublesRow ? weeklyTournamentFromRow(doublesRow) : null;
     const singles = pointsAndStatusForTournament(singlesTournament, rules, "singles");
     const doubles = pointsAndStatusForTournament(doublesTournament, rules, "doubles");
-    const eventNames = [singlesTournament?.event, doublesTournament?.event].filter(Boolean);
+    const eventNames = [singlesTournament?.currentRound ? singlesTournament.event : "", doublesTournament?.currentRound ? doublesTournament.event : ""].filter(Boolean);
     const event = [...new Set(eventNames)].join(" / ");
     const grade = singlesTournament?.grade || doublesTournament?.grade || "";
 

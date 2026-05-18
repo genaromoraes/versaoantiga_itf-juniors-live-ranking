@@ -11,6 +11,7 @@
     "scrape:ranking": "node pipeline/scrape-official-ranking.mjs",
     "scrape:player": "node pipeline/scrape-player-breakdown.mjs",
     "scrape:tournament": "node pipeline/scrape-tournament-draw.mjs",
+    "scrape:weekly": "node pipeline/scrape-weekly-results.mjs",
     "scrape:activity": "node pipeline/scrape-player-activity.mjs"
   },
   "devDependencies": {
