@@ -44,6 +44,16 @@ npm run scrape:tournament
 
 Nesta primeira fase ele extrai metadados do torneio e a lista textual de jogadores no draw. O passo seguinte e usar essa lista para identificar automaticamente se um atleta esta jogando e qual foi sua fase.
 
+## Leitor de atividade do atleta
+
+O comando abaixo abre a aba Activity de um atleta e gera `data/itf-activity-preview.json`:
+
+```bash
+npm run scrape:activity
+```
+
+Essa pagina e a ponte mais importante entre atleta e torneio da semana, porque mostra torneio, fase, resultado e BYE.
+
 ## Frequencia
 
 A automacao esta pensada para rodar 4 vezes por dia. Isso e suficiente para um MVP e ajuda a reduzir acessos desnecessarios as paginas da ITF.

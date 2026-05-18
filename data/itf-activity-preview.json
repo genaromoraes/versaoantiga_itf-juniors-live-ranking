@@ -1,0 +1,244 @@
+{
+  "players": [
+    {
+      "id": "luis-guto-miguel",
+      "name": "Luis Guto Miguel",
+      "activityUrl": "https://www.itftennis.com/en/players/luis-guto-miguel/800680259/bra/jt/s/activity/",
+      "tournaments": [
+        {
+          "event": "J500 Milan",
+          "startDate": "2026-05-18",
+          "endDate": "2026-05-24",
+          "city": "Milan",
+          "country": "ITA",
+          "grade": "J500",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R2",
+          "matches": [
+            {
+              "round": "R1",
+              "outcome": "BYE",
+              "opponent": "BYE",
+              "score": ""
+            }
+          ]
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "startDate": "2026-01-24",
+          "endDate": "2026-02-01",
+          "city": "Melbourne",
+          "country": "AUS",
+          "grade": "JGS",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "QF",
+              "outcome": "L",
+              "opponentCountry": "SLO",
+              "opponent": "ZigaSesko",
+              "score": "2-6 6-7 5"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "BOT",
+              "opponent": "NtungamiliRAGUIN",
+              "score": "6-4 6-3"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "AUS",
+              "opponent": "DanielJovanovski",
+              "score": "6-4 7-6 3"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "JPN",
+              "opponent": "KantaWatanabe",
+              "score": "6-4 6-3"
+            }
+          ]
+        },
+        {
+          "event": "J300 Traralgon",
+          "startDate": "2026-01-16",
+          "endDate": "2026-01-21",
+          "city": "Traralgon",
+          "country": "AUS",
+          "grade": "J300",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "W",
+              "opponentCountry": "TPE",
+              "opponent": "Kuan-ShouChen",
+              "score": "6-1 6-2"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "KeatonHance",
+              "score": "6-3 6-4"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "KAZ",
+              "opponent": "ZangarNurlanuly",
+              "score": "6-2 6-2"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "PUR",
+              "opponent": "YannikAlvarez",
+              "score": "7-6 2 4-6 6-4"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "ITA",
+              "opponent": "SimoneMassellani",
+              "score": "6-3 6-3"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "GBR",
+              "opponent": "MarkCeban",
+              "score": "6-0 6-1"
+            }
+          ]
+        },
+        {
+          "event": "J500 Merida",
+          "startDate": "2025-11-24",
+          "endDate": "2025-11-30",
+          "city": "Merida",
+          "country": "MEX",
+          "grade": "J500",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "KeatonHance",
+              "score": "6-1 6-1"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "FIN",
+              "opponent": "LinusLagerbohm",
+              "score": "7-5 4-6 6-4"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "GER",
+              "opponent": "JamieMackenzie",
+              "score": "7-6 6 6-4"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "ROU",
+              "opponent": "Stefan HoriaHaita",
+              "score": "6-0 6-2"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "Carel AubrielNgounoue",
+              "score": "3-6 7-6 4 6-4"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "",
+              "opponent": "IvanIutkin",
+              "score": "6-0 3-6 6-3"
+            }
+          ]
+        },
+        {
+          "event": "J300 Zapopan",
+          "startDate": "2025-11-17",
+          "endDate": "2025-11-23",
+          "city": "Zapopan",
+          "country": "MEX",
+          "grade": "J300",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R2",
+          "matches": [
+            {
+              "round": "SF",
+              "outcome": "L",
+              "opponentCountry": "USA",
+              "opponent": "VihaanReddy",
+              "score": "0-6 7-6 5 5-7"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "COL",
+              "opponent": "Juan MiguelBolivar Idarraga",
+              "score": "4-6 7-6 5 7-5"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "CAN",
+              "opponent": "BenjaminAzar",
+              "score": "7-5 2-6 7-6 5"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "MEX",
+              "opponent": "CarloArena Fava",
+              "score": "6-0 6-3"
+            },
+            {
+              "round": "R1",
+              "outcome": "BYE",
+              "opponent": "BYE",
+              "score": ""
+            }
+          ]
+        }
+      ],
+      "scrapedAt": "17/05/2026, 23:19"
+    }
+  ]
+}

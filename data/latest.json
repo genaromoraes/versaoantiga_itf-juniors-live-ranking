@@ -1,7 +1,7 @@
 {
   "dataSource": {
     "rankingDate": "11 mai 2026",
-    "updatedAt": "17/05/2026, 22:59",
+    "updatedAt": "17/05/2026, 23:20",
     "note": "Pontos = ∑ 6 melhores resultados de simples + ∑ 25% dos 6 melhores resultados de duplas"
   },
   "players": [
@@ -322,14 +322,14 @@
         }
       ],
       "liveEvent": {
-        "event": "J300 Santa Cruz",
-        "grade": "J300",
+        "event": "J500 Milan",
+        "grade": "J500",
         "singlesStatus": "Ativo",
-        "singlesRound": "Final",
-        "singlesPoints": 300,
-        "doublesStatus": "Eliminado",
-        "doublesRound": "QF",
-        "doublesPoints": 165
+        "singlesRound": "R32",
+        "singlesPoints": 0,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/luis-guto-miguel/800680259/bra/jt/s/itf-points-breakdown/",
       "sourceTotalCombinedPoints": 2446.75
@@ -2695,6 +2695,9 @@
   ],
   "generatedBy": "pipeline/build-latest.mjs",
   "realPlayersApplied": [
+    "luis-guto-miguel"
+  ],
+  "activityPlayersApplied": [
     "luis-guto-miguel"
   ]
 }

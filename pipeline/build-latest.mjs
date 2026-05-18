@@ -6,6 +6,7 @@ import vm from "node:vm";
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataFile = path.join(rootDir, "data.js");
 const previewFile = path.join(rootDir, "data", "itf-player-preview.json");
+const activityPreviewFile = path.join(rootDir, "data", "itf-activity-preview.json");
 const outputDir = path.join(rootDir, "data");
 const outputFile = path.join(outputDir, "latest.json");
 
@@ -28,6 +29,30 @@ async function readRealPlayerPreview() {
   } catch {
     return { players: [] };
   }
+}
+
+async function readActivityPreview() {
+  try {
+    return JSON.parse(await fs.readFile(activityPreviewFile, "utf8"));
+  } catch {
+    return { players: [] };
+  }
+}
+
+const roundToDisplay = {
+  W: "Campeao",
+  F: "Final",
+  SF: "SF",
+  QF: "QF",
+  R16: "R16",
+  R3: "R16",
+  R2: "R32",
+  R1: "R64"
+};
+
+function pointsForRound(rules, grade, matchType, round) {
+  const table = rules.pointsTable?.[matchType]?.[grade] || {};
+  return Number(table[round] || 0);
 }
 
 function applyRealPlayerPreview(players, previewPlayers) {
@@ -59,8 +84,42 @@ function applyRealPlayerPreview(players, previewPlayers) {
   });
 }
 
+function applyActivityPreview(players, activityPlayers, rules) {
+  const activityById = new Map(activityPlayers.map((player) => [player.id, player]));
+
+  return players.map((player) => {
+    const activityPlayer = activityById.get(player.id);
+    const latestTournament = activityPlayer?.tournaments?.[0];
+    if (!latestTournament) return player;
+
+    const lastResult = [...(latestTournament.matches || [])].reverse().find((match) => match.outcome === "W" || match.outcome === "L");
+    const pointsRound = lastResult?.outcome === "L" ? lastResult.round : lastResult?.round || "";
+    const currentRound = roundToDisplay[latestTournament.currentRound] || latestTournament.currentRound || "Nao joga";
+    const status = latestTournament.status === "Eliminado" ? "Eliminado" : "Ativo";
+    const singlesPoints = pointsForRound(rules, latestTournament.grade, "singles", pointsRound);
+
+    return {
+      ...player,
+      liveEvent: {
+        ...(player.liveEvent || {}),
+        event: latestTournament.event,
+        grade: latestTournament.grade,
+        singlesStatus: status,
+        singlesRound: currentRound,
+        singlesPoints,
+        doublesStatus: "Nao joga",
+        doublesRound: "Nao joga",
+        doublesPoints: 0
+      }
+    };
+  });
+}
+
 const realPreview = await readRealPlayerPreview();
-const players = applyRealPlayerPreview(context.payload.players, realPreview.players || []);
+const activityPreview = await readActivityPreview();
+const rules = JSON.parse(await fs.readFile(path.join(rootDir, "pipeline", "rules", "itf-juniors-2026.json"), "utf8"));
+const playersWithRealResults = applyRealPlayerPreview(context.payload.players, realPreview.players || []);
+const players = applyActivityPreview(playersWithRealResults, activityPreview.players || [], rules);
 
 const payload = {
   ...context.payload,
@@ -74,7 +133,8 @@ const payload = {
     }).format(new Date())
   },
   generatedBy: "pipeline/build-latest.mjs",
-  realPlayersApplied: realPreview.players?.map((player) => player.id) || []
+  realPlayersApplied: realPreview.players?.map((player) => player.id) || [],
+  activityPlayersApplied: activityPreview.players?.map((player) => player.id) || []
 };
 
 await fs.mkdir(outputDir, { recursive: true });
