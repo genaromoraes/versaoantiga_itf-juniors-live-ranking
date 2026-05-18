@@ -1,7 +1,7 @@
 {
   "dataSource": {
     "rankingDate": "18 mai 2026",
-    "updatedAt": "18/05/2026, 14:26",
+    "updatedAt": "18/05/2026, 14:46",
     "note": "Pontos = ∑ 6 melhores resultados de simples + ∑ 25% dos 6 melhores resultados de duplas"
   },
   "players": [
@@ -261,13 +261,16 @@
       ],
       "liveEvent": {
         "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
+        "grade": "J500",
+        "singlesStatus": "Ativo",
         "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 500,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/luis-guto-miguel/800680259/bra/jt/s/itf-points-breakdown/"
     },
@@ -972,13 +975,16 @@
       ],
       "liveEvent": {
         "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
+        "grade": "J500",
+        "singlesStatus": "Ativo",
         "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 500,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/jamie-mackenzie/800570117/ger/jt/s/itf-points-breakdown/"
     },
@@ -1659,13 +1665,16 @@
       "defending": [],
       "liveEvent": {
         "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
+        "grade": "J500",
+        "singlesStatus": "Ativo",
         "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 500,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/thilo-behrmann/800589798/aut/jt/s/itf-points-breakdown/"
     },
@@ -2570,13 +2579,16 @@
       "defending": [],
       "liveEvent": {
         "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
+        "grade": "J500",
+        "singlesStatus": "Ativo",
         "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 500,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/victoria-luiza-barros/800655335/bra/jt/s/itf-points-breakdown/"
     },
@@ -2822,13 +2834,16 @@
       ],
       "liveEvent": {
         "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
+        "grade": "J500",
+        "singlesStatus": "Ativo",
         "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 500,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/jana-kovackova/800661515/cze/jt/s/itf-points-breakdown/"
     },
@@ -3001,13 +3016,16 @@
       "defending": [],
       "liveEvent": {
         "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
+        "grade": "J500",
+        "singlesStatus": "Ativo",
         "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 500,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/xinran-sun/800677732/chn/jt/s/itf-points-breakdown/"
     },
@@ -3304,5 +3322,12 @@
     "kristina-penickova",
     "julia-stusek"
   ],
-  "weeklyResultsApplied": []
+  "weeklyResultsApplied": [
+    "luis-guto-miguel",
+    "jamie-mackenzie",
+    "thilo-behrmann",
+    "jana-kovackova",
+    "victoria-luiza-barros",
+    "xinran-sun"
+  ]
 }

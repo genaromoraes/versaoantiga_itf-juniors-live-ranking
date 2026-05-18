@@ -1,16 +1,17 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { chromium } from "playwright";
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const playersFile = path.join(rootDir, "pipeline", "sources", "players.json");
 const outputFile = path.join(rootDir, "data", "weekly-results.csv");
 const previewFile = path.join(rootDir, "data", "weekly-tournaments-preview.json");
-const calendarUrl = "https://www.itftennis.com/en/tournament-calendar/world-tennis-tour-juniors-calendar/";
+const itfEntriesBaseUrl = "https://itf-entries.netlify.app";
+const itfBaseUrl = "https://www.itftennis.com";
 
 const players = JSON.parse(await fs.readFile(playersFile, "utf8"));
 const playersByNormalizedName = new Map(players.map((player) => [normalizeName(player.name), player]));
+const playersByItfId = new Map(players.map((player) => [itfPlayerId(player), player]).filter(([id]) => id));
 
 const headers = [
   "player_id",
@@ -40,6 +41,10 @@ function normalizeName(value = "") {
     .replace(/\s+/g, " ")
     .trim()
     .toLowerCase();
+}
+
+function itfPlayerId(player) {
+  return player.pointsBreakdownUrl?.match(/\/players\/[^/]+\/([^/]+)\//)?.[1] || "";
 }
 
 function saoPauloToday() {
@@ -74,7 +79,7 @@ function calendarStartDate() {
 }
 
 function parseDateRange(text = "") {
-  const match = text.match(/Dates:\s*(\d{1,2})\s([A-Za-z]{3})\s-\s(\d{1,2})\s([A-Za-z]{3})\s(\d{4})/i);
+  const match = text.match(/(\d{1,2})\s([A-Za-z]{3})\s(?:-|to)\s(\d{1,2})\s([A-Za-z]{3})\s(\d{4})/i);
   if (!match) return { startDate: "", endDate: "" };
   const [, startDay, startMonth, endDay, endMonth, year] = match;
   return {
@@ -95,91 +100,108 @@ function gradeFromTournamentName(value = "") {
   return value.match(/\b(JGS|JM|J500|J300|J200|J100|J60|J30)\b/i)?.[1]?.toUpperCase() || "";
 }
 
-function tournamentNameFromText(text = "") {
-  const lines = text.split(/\r?\n/).map((line) => line.trim()).filter(Boolean);
-  const headingIndex = lines.findIndex((line) => /^J\d{2,3}\b|Junior Championships|Junior Finals/i.test(line));
-  return headingIndex >= 0 ? lines[headingIndex] : "";
-}
+async function fetchJson(url, retries = 3) {
+  let lastError;
+  for (let attempt = 1; attempt <= retries; attempt += 1) {
+    try {
+      const response = await fetch(url, {
+        headers: {
+          "accept": "application/json",
+          "user-agent": "Info Tenis Brasil live ranking bot"
+        }
+      });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return await response.json();
+    } catch (error) {
+      lastError = error;
+      await new Promise((resolve) => setTimeout(resolve, attempt * 1000));
+    }
+  }
 
-async function calendarTournamentLinks(page) {
-  await page.goto(`${calendarUrl}?categories=All&startdate=${calendarStartDate()}`, {
-    waitUntil: "domcontentloaded",
-    timeout: 90000
-  });
-  await page.waitForTimeout(5000);
-
-  return page.evaluate(() => {
-    const links = [...document.querySelectorAll('a[href*="/en/tournament/"]')].map((link) => {
-      const href = new URL(link.getAttribute("href"), location.origin).href;
-      const text = link.innerText.trim().replace(/\s+/g, " ");
-      return { href, text };
-    });
-
-    return Array.from(new Map(links.map((link) => [link.href.replace(/\/(acceptance-list|draws-and-results)\/?$/, ""), link])).values());
-  });
+  throw new Error(`Could not fetch ${url}: ${lastError?.message || "unknown error"}`);
 }
 
 function normalizeTournamentUrl(url) {
   return url.replace(/\/(acceptance-list|draws-and-results)\/?$/, "").replace(/\/$/, "");
 }
 
-async function scrapeTournament(page, rawUrl) {
-  const baseUrl = normalizeTournamentUrl(rawUrl);
-  const acceptanceListUrl = `${baseUrl}/acceptance-list/`;
-  const drawsUrl = `${baseUrl}/draws-and-results/`;
-  await page.goto(acceptanceListUrl, { waitUntil: "domcontentloaded", timeout: 90000 });
-  await page.waitForTimeout(3000);
+function rowsFromTablePayload(payload, tableName) {
+  const table = payload?.[tableName];
+  if (!table) return [];
+  const { fields, tournaments, entries } = table;
+  const sourceRows = tournaments || entries || [];
+  return sourceRows.map((row) => Object.fromEntries(fields.map((field, index) => [field, row[index]])));
+}
 
-  const text = await page.locator("body").innerText({ timeout: 45000 });
-  const tournamentName = tournamentNameFromText(text);
-  const { startDate, endDate } = parseDateRange(text);
-  const grade = gradeFromTournamentName(tournamentName || rawUrl);
-  const normalizedText = normalizeName(text);
+async function currentWeekTournamentsFromItfEntries() {
+  const payload = await fetchJson(`${itfEntriesBaseUrl}/api/junior-tournaments`);
+  const tournaments = payload.tournaments?.map((row) => Object.fromEntries(payload.fields.map((field, index) => [field, row[index]]))) || [];
+
+  return tournaments
+    .map((tournament) => {
+      const { startDate, endDate } = parseDateRange(tournament.dates || "");
+      return {
+        tournamentName: tournament.name,
+        grade: tournament.cat || gradeFromTournamentName(tournament.name),
+        startDate: tournament.start ? tournament.start.slice(0, 10) : startDate,
+        endDate,
+        status: tournament.status || "",
+        country: tournament.country || "",
+        surface: tournament.surf || "",
+        key: tournament.key,
+        acceptanceListUrl: `${itfBaseUrl}${tournament.link}acceptance-list`,
+        drawsUrl: `${itfBaseUrl}${tournament.link}draws-and-results`,
+        itfEntriesUrl: `${itfEntriesBaseUrl}/tournament/${tournament.key}`
+      };
+    })
+    .filter((tournament) => tournament.status !== "CN" && tournament.status !== "PP")
+    .filter((tournament) => overlapsCurrentWeek(tournament.startDate, tournament.endDate));
+}
+
+async function scrapeTournament(tournament) {
+  const payload = await fetchJson(`${itfEntriesBaseUrl}/api/tournament/${tournament.key}`);
+  const acceptanceRows = rowsFromTablePayload(payload, "acceptanceList");
   const acceptedPlayers = [];
 
-  for (const [normalizedName, player] of playersByNormalizedName) {
-    if (normalizedText.includes(normalizedName)) acceptedPlayers.push(player);
+  for (const entry of acceptanceRows) {
+    if (entry.isAvailable || entry.isExemption || entry.entryGroup === "WD") continue;
+    const player = playersByItfId.get(String(entry.id)) || playersByNormalizedName.get(normalizeName(`${entry.name} ${entry.surname}`));
+    if (!player) continue;
+
+    acceptedPlayers.push({
+      ...player,
+      entryGroup: entry.entryGroup,
+      position: entry.position,
+      sex: entry.sex,
+      juniorRank: entry.jrRank,
+      priority: entry.prio
+    });
   }
 
   return {
-    tournamentName,
-    grade,
-    startDate,
-    endDate,
-    acceptanceListUrl,
-    drawsUrl,
+    ...tournament,
     acceptedPlayers
   };
 }
 
-const browser = await chromium.launch({ headless: true });
-const page = await browser.newPage();
 const tournaments = [];
 
 try {
-  const links = await calendarTournamentLinks(page);
-  const uniqueLinks = [...new Set(links.map((link) => normalizeTournamentUrl(link.href)))];
+  const currentWeekTournaments = await currentWeekTournamentsFromItfEntries();
 
-  for (const url of uniqueLinks) {
+  for (const tournament of currentWeekTournaments) {
     try {
-      const tournament = await scrapeTournament(page, url);
-      if (!overlapsCurrentWeek(tournament.startDate, tournament.endDate)) continue;
-      tournaments.push(tournament);
+      tournaments.push(await scrapeTournament(tournament));
     } catch (error) {
       tournaments.push({
-        tournamentName: "",
-        grade: "",
-        startDate: "",
-        endDate: "",
-        acceptanceListUrl: `${normalizeTournamentUrl(url)}/acceptance-list/`,
-        drawsUrl: `${normalizeTournamentUrl(url)}/draws-and-results/`,
+        ...tournament,
         acceptedPlayers: [],
         warning: error.message
       });
     }
   }
-} finally {
-  await browser.close();
+} catch (error) {
+  console.warn(`Could not scrape itf-entries weekly tournaments: ${error.message}`);
 }
 
 const rows = [headers];
@@ -196,7 +218,7 @@ for (const tournament of tournaments) {
       "Ativo",
       "",
       tournament.drawsUrl,
-      "Encontrado na acceptance list; fase pendente de leitura do draw."
+      `Encontrado na acceptance list do itf-entries (${player.entryGroup || "sem grupo"}); fase pendente de leitura do draw.`
     ]);
   }
 }
