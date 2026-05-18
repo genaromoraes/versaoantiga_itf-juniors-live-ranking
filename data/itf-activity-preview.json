@@ -281,8 +281,7 @@
             }
           ]
         }
-      ],
-      "scrapedAt": "17/05/2026, 23:40"
+      ]
     },
     {
       "id": "luis-guto-miguel",
@@ -521,8 +520,7 @@
             }
           ]
         }
-      ],
-      "scrapedAt": "17/05/2026, 23:40"
+      ]
     },
     {
       "id": "yannick-theodor-alexandrescou",
@@ -714,8 +712,7 @@
             }
           ]
         }
-      ],
-      "scrapedAt": "17/05/2026, 23:40"
+      ]
     },
     {
       "id": "ziga-sesko",
@@ -907,8 +904,7 @@
             }
           ]
         }
-      ],
-      "scrapedAt": "17/05/2026, 23:40"
+      ]
     },
     {
       "id": "jack-kennedy",
@@ -1114,8 +1110,7 @@
             }
           ]
         }
-      ],
-      "scrapedAt": "17/05/2026, 23:40"
+      ]
     },
     {
       "id": "jamie-mackenzie",
@@ -1334,8 +1329,7 @@
             }
           ]
         }
-      ],
-      "scrapedAt": "17/05/2026, 23:40"
+      ]
     },
     {
       "id": "keaton-hance",
@@ -1562,8 +1556,7 @@
             }
           ]
         }
-      ],
-      "scrapedAt": "17/05/2026, 23:40"
+      ]
     },
     {
       "id": "zangar-nurlanuly",
@@ -1811,8 +1804,7 @@
             }
           ]
         }
-      ],
-      "scrapedAt": "17/05/2026, 23:40"
+      ]
     },
     {
       "id": "thilo-behrmann",
@@ -2042,8 +2034,7 @@
             }
           ]
         }
-      ],
-      "scrapedAt": "17/05/2026, 23:40"
+      ]
     },
     {
       "id": "ryo-tabata",
@@ -2221,9 +2212,2133 @@
             }
           ]
         }
-      ],
-      "scrapedAt": "17/05/2026, 23:41"
+      ]
+    },
+    {
+      "id": "ksenia-efremova",
+      "name": "Ksenia Efremova",
+      "activityUrl": "https://www.itftennis.com/en/players/ksenia-efremova/800591535/fra/jt/s/activity/",
+      "tournaments": [
+        {
+          "event": "Australian Open Junior Championships",
+          "startDate": "2026-01-24",
+          "endDate": "2026-02-01",
+          "city": "Melbourne",
+          "country": "AUS",
+          "grade": "JGS",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "W",
+              "opponentCountry": "",
+              "opponent": "EkaterinaTupitsyna",
+              "score": "6-3 7-5"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "",
+              "opponent": "RadaZolotareva",
+              "score": "6-0 4-6 6-4"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "JPN",
+              "opponent": "KanonSawashiro",
+              "score": "6-3 7-5"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "CAN",
+              "opponent": "NadiaLagaev",
+              "score": "6-2 6-1"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "UKR",
+              "opponent": "PolinaSkliar",
+              "score": "6-2 1-6 6-0"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "CHN",
+              "opponent": "XinleGeng",
+              "score": "6-3 6-0"
+            }
+          ]
+        },
+        {
+          "event": "J300 Traralgon",
+          "startDate": "2026-01-16",
+          "endDate": "2026-01-21",
+          "city": "Traralgon",
+          "country": "AUS",
+          "grade": "J300",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "L",
+              "opponentCountry": "CHN",
+              "opponent": "XinranSun",
+              "score": "1-6 3-6"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "JPN",
+              "opponent": "KanonSawashiro",
+              "score": "6-3 6-1"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "NZL",
+              "opponent": "AishiDas",
+              "score": "4-6 6-4 6-2"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "",
+              "opponent": "MariiaMakarova",
+              "score": "7-6 4 6-4"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "UKR",
+              "opponent": "SofiiaBielinska",
+              "score": "6-1 7-5"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "AUS",
+              "opponent": "AvaBeck",
+              "score": "6-2 6-4"
+            }
+          ]
+        },
+        {
+          "event": "2025 Billie Jean King Cup by Gainbridge Junior Finals",
+          "startDate": "2025-11-03",
+          "endDate": "2025-11-09",
+          "city": "Santiago",
+          "country": "CHI",
+          "grade": "Grade C",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Round Robin Group 3",
+          "entryType": "W",
+          "status": "Ativo",
+          "currentRound": "",
+          "matches": []
+        },
+        {
+          "event": "J200 Hong Kong",
+          "startDate": "2025-09-30",
+          "endDate": "2025-10-04",
+          "city": "Hong Kong",
+          "country": "HKG",
+          "grade": "J200",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "W",
+              "opponentCountry": "",
+              "opponent": "AlisaTerentyeva",
+              "score": "6-0 6-0"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "CHN",
+              "opponent": "Zhang-QianWei",
+              "score": "6-4 6-7 4 6-4"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "AUS",
+              "opponent": "SarahMildren",
+              "score": "7-5 6-2"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "CHN",
+              "opponent": "ZiyuZhou",
+              "score": "6-0 6-1"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "",
+              "opponent": "EkaterinaDotsenko",
+              "score": "6-2 6-0"
+            }
+          ]
+        },
+        {
+          "event": "J500 Osaka",
+          "startDate": "2025-09-22",
+          "endDate": "2025-09-28",
+          "city": "Osaka",
+          "country": "JPN",
+          "grade": "J500",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "W",
+              "opponentCountry": "",
+              "opponent": "AnnaPushkareva",
+              "score": "6-1 6-2"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "AUS",
+              "opponent": "ReneeAlame",
+              "score": "6-0 6-1"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "NancyLee",
+              "score": "6-2 6-0"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "UKR",
+              "opponent": "AntoninaSushkova",
+              "score": "7-6 4 6-1"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "KOR",
+              "opponent": "YeriHong",
+              "score": "6-1 6-2"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "JPN",
+              "opponent": "AmaneHattori",
+              "score": "6-1 6-0 SHOW 5 MORE TOURNAMENTS 5 items per page Latest media Articles ARTICLE PARTY LIKE IT'S 1999: EFREMOVA SEALS AUSTRALIAN OPEN GIRLS' TITLE 1 Feb 2026 ITF JuniorsAustralian Open ARTICLE 'THIS MEANS A LOT': EFREMOVA SURGES INTO AUSTRALIAN OPEN GIRLS' FINAL 31 Jan 2026 ITF JuniorsAustralian Open ARTICLE EFREMOVA FOCUSED ON THE BIG PRIZE AS SHE CONTINUES AUSSIE OPEN CHARGE 27 Jan 2026 ITF JuniorsAustralian Open ARTICLE EFREMOVA AND PLESHIVTSEV SEAL CAREER MILESTONES AT OSAKA MAYOR'S CUP 30 Sep 2025 ITF Juniors ARTICLE FRANCE'S EFREMOVA, 14, BECOMES YOUNGEST WOMEN'S WTT CHAMP FOR 20 YEARS 3 Jan 2024 ITF World Tennis Tour SEE ALL NEWS COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS MEN'S WORLD TENNIS TOUR WOMEN'S WORLD TENNIS TOUR WORLD TENNIS TOUR JUNIORS WORLD TENNIS MASTERS TOUR UNIQLO WHEELCHAIR TENNIS TOUR BEACH TENNIS OLYMPICS, PARALYMPICS OLYMPICS LA 2028 PARALYMPICS LA 2028 ITF COMPETITIONS BILLIE JEAN KING CUP DAVIS CUP HOPMAN CUP ITF SITES & APPS IPIN PLAYER PORTAL ITF ACADEMY WORLD TENNIS NUMBER LIVE SCORES RULES OF TENNIS APP SITE MAP ITF AFFILIATES ATP WTA AUSTRALIAN OPEN ROLAND GARROS WIMBLEDON US OPEN INTERNATIONAL TENNIS INTEGRITY AGENCY INTERNATIONAL TENNIS HALL OF FAME THE ASSOCIATION OF CENTENARY CLUBS THE INTERNATIONAL CLUB TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY FOLLOW US Copyright © 2026 International Tennis Federation Back to top"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hannah-klugman",
+      "name": "Hannah Klugman",
+      "activityUrl": "https://www.itftennis.com/en/players/hannah-klugman/800631038/gbr/jt/s/activity/",
+      "tournaments": [
+        {
+          "event": "2025 ITF World Tennis Tour Junior Finals",
+          "startDate": "2025-10-22",
+          "endDate": "2025-10-26",
+          "city": "Chengdu",
+          "country": "CHN",
+          "grade": "Junior Masters",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Eliminado",
+          "currentRound": "SF",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "L",
+              "opponentCountry": "SVK",
+              "opponent": "MiaPohankova",
+              "score": "2-6 3-6 1st to 4th Play-off Singles DA"
+            },
+            {
+              "round": "SF",
+              "outcome": "L",
+              "opponentCountry": "BEL",
+              "opponent": "JelineVandromme",
+              "score": "4-6 2-6"
+            }
+          ]
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "startDate": "2025-08-31",
+          "endDate": "2025-09-06",
+          "city": "New York",
+          "country": "USA",
+          "grade": "JGS",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "SF",
+              "outcome": "L",
+              "opponentCountry": "BEL",
+              "opponent": "JelineVandromme",
+              "score": "3-6 2-6"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "GER",
+              "opponent": "JuliaStusek",
+              "score": "6-3 6-2"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "CZE",
+              "opponent": "JuliePastikova",
+              "score": "1-6 6-3 6-4"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "IND",
+              "opponent": "MaayaRajeshwaran Revathi",
+              "score": "6-7 1 6-4 6-3"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "AspenSchuman",
+              "score": "6-0 6-2"
+            }
+          ]
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "startDate": "2025-07-05",
+          "endDate": "2025-07-13",
+          "city": "Wimbledon",
+          "country": "GBR",
+          "grade": "JGS",
+          "surface": "Grass",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "QF",
+              "outcome": "L",
+              "opponentCountry": "USA",
+              "opponent": "JulietaPareja",
+              "score": "4-6 2-6"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "ESP",
+              "opponent": "CharoEsquiva Banuls",
+              "score": "6-4 6-3"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "SRB",
+              "opponent": "AnastasijaCvetkovic",
+              "score": "5-7 6-2 6-2"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "ARG",
+              "opponent": "Sol AilinLarraya Guidi",
+              "score": "6-4 6-0"
+            }
+          ]
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "startDate": "2025-06-01",
+          "endDate": "2025-06-07",
+          "city": "Paris",
+          "country": "FRA",
+          "grade": "JGS",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "L",
+              "opponentCountry": "AUT",
+              "opponent": "LilliTagger",
+              "score": "2-6 0-6"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "BUL",
+              "opponent": "RositsaDencheva",
+              "score": "1-6 6-3 6-3"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "CZE",
+              "opponent": "Sarah MelanyFajmonova",
+              "score": "3-6 6-3 7-5"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "CZE",
+              "opponent": "AlenaKovackova",
+              "score": "6-0 7-5"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "FRA",
+              "opponent": "KseniaEfremova",
+              "score": "6-1 6-3"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "ESP",
+              "opponent": "LorenaSolar Donoso",
+              "score": "3-6 6-3 6-1"
+            }
+          ]
+        },
+        {
+          "event": "J500 Milan",
+          "startDate": "2025-05-19",
+          "endDate": "2025-05-25",
+          "city": "Milan",
+          "country": "ITA",
+          "grade": "J500",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "SF",
+              "outcome": "L",
+              "opponentCountry": "USA",
+              "opponent": "JulietaPareja",
+              "score": "6-4 3-6 2-6"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "CZE",
+              "opponent": "Sarah MelanyFajmonova",
+              "score": "7-6 2 5-7 6-4"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "SVK",
+              "opponent": "MiaPohankova",
+              "score": "2-6 7-6 2 6-1"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "ROU",
+              "opponent": "Giulia SafinaPopa",
+              "score": "6-2 6-2"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "AdlaLopez",
+              "score": "6-4 6-1 SHOW 5 MORE TOURNAMENTS 5 items per page Latest media Articles Images ARTICLE WHO HAS BENEFITTED FROM THE JUNIOR ACCELERATOR PROGRAMME IN 2026? 17 Apr 2026 ITF JuniorsITF player pathway ARTICLE KLUGMAN SURGES INTO US OPEN SEMIS AS ALL-BRIT FINAL MOVES STEP CLOSER 4 Sep 2025 ITF JuniorsUS Open ARTICLE TAGGER TRIUMPHS IN PARIS TO MAKE JUNIOR GRAND SLAM HISTORY FOR AUSTRIA 7 Jun 2025 ITF JuniorsRoland Garros ARTICLE NADAL-INSPIRED KLUGMAN SURGES INTO ROLAND GARROS SEMI-FINALS 5 Jun 2025 ITF JuniorsRoland Garros ARTICLE MUCH-ADMIRED KLUGMAN MAKES HER PRESENCE FELT AT AUSTRALIAN OPEN 21 Jan 2025 ITF JuniorsAustralian Open ARTICLE KLUGMAN PREVAILS IN MELBOURNE TO ENHANCE BURGEONING REPUTATION 22 Jan 2024 ITF JuniorsAustralian Open SEE ALL NEWS COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS MEN'S WORLD TENNIS TOUR WOMEN'S WORLD TENNIS TOUR WORLD TENNIS TOUR JUNIORS WORLD TENNIS MASTERS TOUR UNIQLO WHEELCHAIR TENNIS TOUR BEACH TENNIS OLYMPICS, PARALYMPICS OLYMPICS LA 2028 PARALYMPICS LA 2028 ITF COMPETITIONS BILLIE JEAN KING CUP DAVIS CUP HOPMAN CUP ITF SITES & APPS IPIN PLAYER PORTAL ITF ACADEMY WORLD TENNIS NUMBER LIVE SCORES RULES OF TENNIS APP SITE MAP ITF AFFILIATES ATP WTA AUSTRALIAN OPEN ROLAND GARROS WIMBLEDON US OPEN INTERNATIONAL TENNIS INTEGRITY AGENCY INTERNATIONAL TENNIS HALL OF FAME THE ASSOCIATION OF CENTENARY CLUBS THE INTERNATIONAL CLUB TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY FOLLOW US Copyright © 2026 International Tennis Federation Back to top"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mia-pohankova",
+      "name": "Mia Pohankova",
+      "activityUrl": "https://www.itftennis.com/en/players/mia-pohankova/800627475/svk/jt/s/activity/",
+      "tournaments": [
+        {
+          "event": "2025 ITF World Tennis Tour Junior Finals",
+          "startDate": "2025-10-22",
+          "endDate": "2025-10-26",
+          "city": "Chengdu",
+          "country": "CHN",
+          "grade": "Junior Masters",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Eliminado",
+          "currentRound": "SF",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "W",
+              "opponentCountry": "GBR",
+              "opponent": "HannahKlugman",
+              "score": "6-2 6-3 1st to 4th Play-off Singles DA"
+            },
+            {
+              "round": "SF",
+              "outcome": "L",
+              "opponentCountry": "USA",
+              "opponent": "KristinaPenickova",
+              "score": "3-6 6-7 8"
+            }
+          ]
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "startDate": "2025-08-31",
+          "endDate": "2025-09-06",
+          "city": "New York",
+          "country": "USA",
+          "grade": "JGS",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "QF",
+              "outcome": "L",
+              "opponentCountry": "GBR",
+              "opponent": "MikaStojsavljevic",
+              "score": "4-6 2-6"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "CHN",
+              "opponent": "YushanShao",
+              "score": "6-3 6-4"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "BellaPayne",
+              "score": "6-1 6-4"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "GBR",
+              "opponent": "AllegraKorpanec Davies",
+              "score": "6-0 6-4"
+            }
+          ]
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "startDate": "2025-07-05",
+          "endDate": "2025-07-13",
+          "city": "Wimbledon",
+          "country": "GBR",
+          "grade": "JGS",
+          "surface": "Grass",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "JulietaPareja",
+              "score": "6-3 6-1"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "CZE",
+              "opponent": "VendulaValdmannova",
+              "score": "6-4 6-0"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "AUS",
+              "opponent": "EmersonJones",
+              "score": "6-2 6-2"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "BRA",
+              "opponent": "Nauhany VitoriaLeme Da Silva",
+              "score": "6-3 5-7 6-3"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "FRA",
+              "opponent": "KseniaEfremova",
+              "score": "6-3 7-6 5"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "GBR",
+              "opponent": "MikaStojsavljevic",
+              "score": "7-6 4 6-1"
+            }
+          ]
+        },
+        {
+          "event": "J300 Roehampton",
+          "startDate": "2025-06-29",
+          "endDate": "2025-07-04",
+          "city": "Roehampton",
+          "country": "GBR",
+          "grade": "J300",
+          "surface": "Grass",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Eliminado",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "R1",
+              "outcome": "L",
+              "opponentCountry": "USA",
+              "opponent": "KristinaPenickova",
+              "score": "2-6 2-6"
+            }
+          ]
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "startDate": "2025-06-01",
+          "endDate": "2025-06-07",
+          "city": "Paris",
+          "country": "FRA",
+          "grade": "JGS",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "R3",
+              "outcome": "L",
+              "opponentCountry": "CZE",
+              "opponent": "Sarah MelanyFajmonova",
+              "score": "1-6 3-6"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "GER",
+              "opponent": "MariellaThamm",
+              "score": "6-0 6-4"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "SRB",
+              "opponent": "TeodoraKostovic",
+              "score": "7-6 3 6-3 SHOW 5 MORE TOURNAMENTS 5 items per page Latest media Articles Images ARTICLE TEENAGE STARS KORNEEVA AND POHANKOVA WIN W75 TITLES 26 Jan 2026 ITF World Tennis Tour ARTICLE POHANKOVA MAKES IT BACK-TO-BACK SW19 SINGLES TITLES FOR SLOVAK GIRLS 12 Jul 2025 ITF JuniorsWimbledon ARTICLE 'IT'S SURREAL': POHANKOVA AND PAREJA SET WIMBLEDON DATE WITH DESTINY 11 Jul 2025 ITF JuniorsWimbledon ARTICLE 'I WATCHED FEDERER AT WIMBLEDON, NOW I'M HERE': POHANKOVA MARCHES ON 7 Jul 2025 ITF JuniorsWimbledon ARTICLE MAMMA MIA! POHANKOVA WINS W75 BRATISLAVA TITLE AGED JUST 15 14 Oct 2024 ITF World Tennis Tour SEE ALL NEWS COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS MEN'S WORLD TENNIS TOUR WOMEN'S WORLD TENNIS TOUR WORLD TENNIS TOUR JUNIORS WORLD TENNIS MASTERS TOUR UNIQLO WHEELCHAIR TENNIS TOUR BEACH TENNIS OLYMPICS, PARALYMPICS OLYMPICS LA 2028 PARALYMPICS LA 2028 ITF COMPETITIONS BILLIE JEAN KING CUP DAVIS CUP HOPMAN CUP ITF SITES & APPS IPIN PLAYER PORTAL ITF ACADEMY WORLD TENNIS NUMBER LIVE SCORES RULES OF TENNIS APP SITE MAP ITF AFFILIATES ATP WTA AUSTRALIAN OPEN ROLAND GARROS WIMBLEDON US OPEN INTERNATIONAL TENNIS INTEGRITY AGENCY INTERNATIONAL TENNIS HALL OF FAME THE ASSOCIATION OF CENTENARY CLUBS THE INTERNATIONAL CLUB TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY FOLLOW US Copyright © 2026 International Tennis Federation Back to top"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alena-kovackova",
+      "name": "Alena Kovackova",
+      "activityUrl": "https://www.itftennis.com/en/players/alena-kovackova/800572951/cze/jt/s/activity/",
+      "tournaments": [
+        {
+          "event": "Australian Open Junior Championships",
+          "startDate": "2026-01-24",
+          "endDate": "2026-02-01",
+          "city": "Melbourne",
+          "country": "AUS",
+          "grade": "JGS",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "R3",
+              "outcome": "L",
+              "opponentCountry": "",
+              "opponent": "MariiaMakarova",
+              "score": "6-7 3 5-7"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "AUS",
+              "opponent": "ToriRussell",
+              "score": "6-3 6-0"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "ChukwumelijeClarke",
+              "score": "6-1 6-4"
+            }
+          ]
+        },
+        {
+          "event": "J300 Traralgon",
+          "startDate": "2026-01-16",
+          "endDate": "2026-01-21",
+          "city": "Traralgon",
+          "country": "AUS",
+          "grade": "J300",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "QF",
+              "outcome": "L",
+              "opponentCountry": "CHN",
+              "opponent": "XinranSun",
+              "score": "2-6 5-7"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "",
+              "opponent": "EkaterinaTupitsyna",
+              "score": "6-3 4-6 7-6 3"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "IND",
+              "opponent": "MaayaRajeshwaran Revathi",
+              "score": "6-2 6-1"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "",
+              "opponent": "AnnaPushkareva",
+              "score": "6-1 6-2"
+            }
+          ]
+        },
+        {
+          "event": "J500 Merida",
+          "startDate": "2025-11-24",
+          "endDate": "2025-11-30",
+          "city": "Merida",
+          "country": "MEX",
+          "grade": "J500",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "WC",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "W",
+              "opponentCountry": "BRA",
+              "opponent": "Victoria LuizaBarros",
+              "score": "6-7 1 7-5 6-2"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "SWE",
+              "opponent": "IvaMarinkovic",
+              "score": "6-1 6-4"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "ARG",
+              "opponent": "Luna MariaCinalli",
+              "score": "6-3 6-1"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "KOR",
+              "opponent": "Ha EumLee",
+              "score": "6-4 6-2"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "AdlaLopez",
+              "score": "6-1 6-1"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "CHN",
+              "opponent": "MailuodiLei",
+              "score": "6-4 6-2"
+            }
+          ]
+        },
+        {
+          "event": "J300 Zapopan",
+          "startDate": "2025-11-17",
+          "endDate": "2025-11-23",
+          "city": "Zapopan",
+          "country": "MEX",
+          "grade": "J300",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R2",
+          "matches": [
+            {
+              "round": "QF",
+              "outcome": "L",
+              "opponentCountry": "ROU",
+              "opponent": "Maia IlincaBurcescu",
+              "score": "6-1 1-6 4-6"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "KoriMontoya",
+              "score": "6-0 6-0"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "LaniChang",
+              "score": "6-4 1-6 6-2"
+            },
+            {
+              "round": "R1",
+              "outcome": "BYE",
+              "opponent": "BYE",
+              "score": ""
+            }
+          ]
+        },
+        {
+          "event": "2025 ITF World Tennis Tour Junior Finals",
+          "startDate": "2025-10-22",
+          "endDate": "2025-10-26",
+          "city": "Chengdu",
+          "country": "CHN",
+          "grade": "Junior Masters",
+          "surface": "Hard",
+          "draw": "5th to 8th Play-off",
+          "matchType": "Singles",
+          "entryType": "A",
+          "status": "Ativo",
+          "currentRound": "SF",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "W",
+              "opponentCountry": "GER",
+              "opponent": "JuliaStusek",
+              "score": "6-1 7-6 7"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "ESP",
+              "opponent": "CharoEsquiva Banuls",
+              "score": "6-0 4-6 6-4 SHOW 5 MORE TOURNAMENTS 5 items per page Latest media Articles Images ARTICLE GUTO MIGUEL BECOMES FIRST BRAZILIAN TO WIN J500 TITLE FOR A DECADE 1 Dec 2025 ITF Juniors ARTICLE CZECH REPUBLIC CROWNED ITF WORLD JUNIOR TENNIS GIRLS' CHAMPIONS 6 Aug 2022 ITF JuniorsITF World Junior Tennis SEE ALL NEWS COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS MEN'S WORLD TENNIS TOUR WOMEN'S WORLD TENNIS TOUR WORLD TENNIS TOUR JUNIORS WORLD TENNIS MASTERS TOUR UNIQLO WHEELCHAIR TENNIS TOUR BEACH TENNIS OLYMPICS, PARALYMPICS OLYMPICS LA 2028 PARALYMPICS LA 2028 ITF COMPETITIONS BILLIE JEAN KING CUP DAVIS CUP HOPMAN CUP ITF SITES & APPS IPIN PLAYER PORTAL ITF ACADEMY WORLD TENNIS NUMBER LIVE SCORES RULES OF TENNIS APP SITE MAP ITF AFFILIATES ATP WTA AUSTRALIAN OPEN ROLAND GARROS WIMBLEDON US OPEN INTERNATIONAL TENNIS INTEGRITY AGENCY INTERNATIONAL TENNIS HALL OF FAME THE ASSOCIATION OF CENTENARY CLUBS THE INTERNATIONAL CLUB TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY FOLLOW US Copyright © 2026 International Tennis Federation Back to top"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "victoria-luiza-barros",
+      "name": "Victoria Luiza Barros",
+      "activityUrl": "https://www.itftennis.com/en/players/victoria-luiza-barros/800655335/bra/jt/s/activity/",
+      "tournaments": [
+        {
+          "event": "J500 Milan",
+          "startDate": "2026-05-18",
+          "endDate": "2026-05-24",
+          "city": "Milan",
+          "country": "ITA",
+          "grade": "J500",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R2",
+          "matches": [
+            {
+              "round": "R1",
+              "outcome": "BYE",
+              "opponent": "BYE",
+              "score": ""
+            }
+          ]
+        },
+        {
+          "event": "J500 Offenbach",
+          "startDate": "2026-05-04",
+          "endDate": "2026-05-10",
+          "city": "Offenbach",
+          "country": "GER",
+          "grade": "J500",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "W",
+              "opponentCountry": "SRB",
+              "opponent": "AnastasijaCvetkovic",
+              "score": "6-2 6-4"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "ESP",
+              "opponent": "PaolaPinera Celorio",
+              "score": "7-6 3 6-2"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "POL",
+              "opponent": "BarbaraKostecka",
+              "score": "3-6 6-2 6-2"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "GER",
+              "opponent": "SophieTriquart",
+              "score": "6-2 6-3"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "ROU",
+              "opponent": "Iulia MariaBuculei",
+              "score": "5-0"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "CZE",
+              "opponent": "VanessaSvobodova",
+              "score": "6-2 7-6 4"
+            }
+          ]
+        },
+        {
+          "event": "J500 Gaspar",
+          "startDate": "2026-03-16",
+          "endDate": "2026-03-22",
+          "city": "Gaspar",
+          "country": "BRA",
+          "grade": "J500",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "WC",
+          "status": "Ativo",
+          "currentRound": "R2",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "L",
+              "opponentCountry": "BRA",
+              "opponent": "Nauhany VitoriaLeme Da Silva",
+              "score": "3-6 6-4 3-6"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "ARG",
+              "opponent": "Luna MariaCinalli",
+              "score": "6-4 4-6 6-3"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "ROU",
+              "opponent": "Maia IlincaBurcescu",
+              "score": "6-2 6-2"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "MEX",
+              "opponent": "MarianneAngel",
+              "score": "6-1 6-4"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "LondynMcCord",
+              "score": "3-6 6-3 6-1"
+            },
+            {
+              "round": "R1",
+              "outcome": "BYE",
+              "opponent": "BYE",
+              "score": ""
+            }
+          ]
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "startDate": "2026-01-24",
+          "endDate": "2026-02-01",
+          "city": "Melbourne",
+          "country": "AUS",
+          "grade": "JGS",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "AUS",
+              "opponent": "JizelleSibai",
+              "score": "6-4 7-6 3"
+            }
+          ]
+        },
+        {
+          "event": "J300 Traralgon",
+          "startDate": "2026-01-16",
+          "endDate": "2026-01-21",
+          "city": "Traralgon",
+          "country": "AUS",
+          "grade": "J300",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Eliminado",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "R1",
+              "outcome": "L",
+              "opponentCountry": "CHN",
+              "opponent": "YihanQu",
+              "score": "6-2 5-7 4-6 SHOW 5 MORE TOURNAMENTS 5 items per page Latest media Articles ARTICLE 'THIS MEANS THE WORLD': MACKENZIE, BARROS TRIUMPH AT J500 OFFENBACH 11 May 2026 ITF Juniors ARTICLE BARROS TELLS OF HIT WITH BRAZIL FOOTBALL ICON RONALDO AND R9'S ADVICE 9 Jul 2025 ITF JuniorsWimbledon SEE ALL NEWS COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS MEN'S WORLD TENNIS TOUR WOMEN'S WORLD TENNIS TOUR WORLD TENNIS TOUR JUNIORS WORLD TENNIS MASTERS TOUR UNIQLO WHEELCHAIR TENNIS TOUR BEACH TENNIS OLYMPICS, PARALYMPICS OLYMPICS LA 2028 PARALYMPICS LA 2028 ITF COMPETITIONS BILLIE JEAN KING CUP DAVIS CUP HOPMAN CUP ITF SITES & APPS IPIN PLAYER PORTAL ITF ACADEMY WORLD TENNIS NUMBER LIVE SCORES RULES OF TENNIS APP SITE MAP ITF AFFILIATES ATP WTA AUSTRALIAN OPEN ROLAND GARROS WIMBLEDON US OPEN INTERNATIONAL TENNIS INTEGRITY AGENCY INTERNATIONAL TENNIS HALL OF FAME THE ASSOCIATION OF CENTENARY CLUBS THE INTERNATIONAL CLUB TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY FOLLOW US Copyright © 2026 International Tennis Federation Back to top"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "julieta-pareja",
+      "name": "Julieta Pareja",
+      "activityUrl": "https://www.itftennis.com/en/players/julieta-pareja/800692835/usa/jt/s/activity/",
+      "tournaments": [
+        {
+          "event": "2025 Billie Jean King Cup by Gainbridge Junior Finals",
+          "startDate": "2025-11-03",
+          "endDate": "2025-11-09",
+          "city": "Santiago",
+          "country": "CHI",
+          "grade": "Grade C",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Round Robin Group 1",
+          "entryType": "W",
+          "status": "Ativo",
+          "currentRound": "",
+          "matches": []
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "startDate": "2025-08-31",
+          "endDate": "2025-09-06",
+          "city": "New York",
+          "country": "USA",
+          "grade": "JGS",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "R3",
+              "outcome": "L",
+              "opponentCountry": "SWE",
+              "opponent": "LeaNilsson",
+              "score": "4-6 6-3 3-6"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "CAN",
+              "opponent": "NadiaLagaev",
+              "score": "6-2 6-2"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "ISR",
+              "opponent": "MikaBuchnik",
+              "score": "6-3 6-1"
+            }
+          ]
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "startDate": "2025-07-05",
+          "endDate": "2025-07-13",
+          "city": "Wimbledon",
+          "country": "GBR",
+          "grade": "JGS",
+          "surface": "Grass",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "L",
+              "opponentCountry": "SVK",
+              "opponent": "MiaPohankova",
+              "score": "3-6 1-6"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "GBR",
+              "opponent": "MimiXu",
+              "score": "6-2 6-7 7 6-4"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "GBR",
+              "opponent": "HannahKlugman",
+              "score": "6-4 6-2"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "BUL",
+              "opponent": "ElizaraYaneva",
+              "score": "6-2 6-2"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "GBR",
+              "opponent": "FloraJohnson",
+              "score": "6-2 6-2"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "ROU",
+              "opponent": "Maia IlincaBurcescu",
+              "score": "6-2 6-3"
+            }
+          ]
+        },
+        {
+          "event": "J300 Roehampton",
+          "startDate": "2025-06-29",
+          "endDate": "2025-07-04",
+          "city": "Roehampton",
+          "country": "GBR",
+          "grade": "J300",
+          "surface": "Grass",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "W",
+              "opponentCountry": "BUL",
+              "opponent": "ElizaraYaneva",
+              "score": "1-6 6-4 6-3"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "CZE",
+              "opponent": "JanaKovackova",
+              "score": "6-4 6-4"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "AUS",
+              "opponent": "TahliaKokkinis",
+              "score": "6-4 6-4"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "TUR",
+              "opponent": "DenizDilek",
+              "score": "5-7 6-0 6-2"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "CZE",
+              "opponent": "AmySucha",
+              "score": "6-2 4-6 6-1"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "GBR",
+              "opponent": "FloraJohnson",
+              "score": "6-4 6-3"
+            }
+          ]
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "startDate": "2025-06-01",
+          "endDate": "2025-06-07",
+          "city": "Paris",
+          "country": "FRA",
+          "grade": "JGS",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "QF",
+              "outcome": "L",
+              "opponentCountry": "AUS",
+              "opponent": "EmersonJones",
+              "score": "5-7 4-6"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "BRA",
+              "opponent": "Victoria LuizaBarros",
+              "score": "6-2 6-2"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "GER",
+              "opponent": "EvaBennemann",
+              "score": "6-2 6-3"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "TUR",
+              "opponent": "DenizDilek",
+              "score": "6-3 6-3 SHOW 5 MORE TOURNAMENTS 5 items per page Latest media Articles Images ARTICLE PAREJA, 17, WINS BIGGEST TITLE YET IN STYLE ON MEXICAN CLAY 23 Mar 2026 ITF World Tennis Tour ARTICLE 'IT'S SURREAL': POHANKOVA AND PAREJA SET WIMBLEDON DATE WITH DESTINY 11 Jul 2025 ITF JuniorsWimbledon ARTICLE SNOOZE, YOU LOSE: PAREJA DEFIES BELIEF TO CONTINUE WINNING STREAK 7 Jul 2025 ITF JuniorsWimbledon SEE ALL NEWS COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS MEN'S WORLD TENNIS TOUR WOMEN'S WORLD TENNIS TOUR WORLD TENNIS TOUR JUNIORS WORLD TENNIS MASTERS TOUR UNIQLO WHEELCHAIR TENNIS TOUR BEACH TENNIS OLYMPICS, PARALYMPICS OLYMPICS LA 2028 PARALYMPICS LA 2028 ITF COMPETITIONS BILLIE JEAN KING CUP DAVIS CUP HOPMAN CUP ITF SITES & APPS IPIN PLAYER PORTAL ITF ACADEMY WORLD TENNIS NUMBER LIVE SCORES RULES OF TENNIS APP SITE MAP ITF AFFILIATES ATP WTA AUSTRALIAN OPEN ROLAND GARROS WIMBLEDON US OPEN INTERNATIONAL TENNIS INTEGRITY AGENCY INTERNATIONAL TENNIS HALL OF FAME THE ASSOCIATION OF CENTENARY CLUBS THE INTERNATIONAL CLUB TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY FOLLOW US Copyright © 2026 International Tennis Federation Back to top"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jana-kovackova",
+      "name": "Jana Kovackova",
+      "activityUrl": "https://www.itftennis.com/en/players/jana-kovackova/800661515/cze/jt/s/activity/",
+      "tournaments": [
+        {
+          "event": "J500 Milan",
+          "startDate": "2026-05-18",
+          "endDate": "2026-05-24",
+          "city": "Milan",
+          "country": "ITA",
+          "grade": "J500",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R2",
+          "matches": [
+            {
+              "round": "R1",
+              "outcome": "BYE",
+              "opponent": "BYE",
+              "score": ""
+            }
+          ]
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "startDate": "2026-01-24",
+          "endDate": "2026-02-01",
+          "city": "Melbourne",
+          "country": "AUS",
+          "grade": "JGS",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "R2",
+              "outcome": "L",
+              "opponentCountry": "",
+              "opponent": "RadaZolotareva",
+              "score": "5-7 4-6"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "JAM",
+              "opponent": "AlyssaJames",
+              "score": "6-3 6-7 6 6-2"
+            }
+          ]
+        },
+        {
+          "event": "J500 Merida",
+          "startDate": "2025-11-24",
+          "endDate": "2025-11-30",
+          "city": "Merida",
+          "country": "MEX",
+          "grade": "J500",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "WC",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "SF",
+              "outcome": "L",
+              "opponentCountry": "BRA",
+              "opponent": "Victoria LuizaBarros",
+              "score": "5-7 6-3 5-7"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "GBR",
+              "opponent": "HollieSmart",
+              "score": "6-2 6-1"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "SUI",
+              "opponent": "NoeliaManta",
+              "score": "6-2 7-6 2"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "ChukwumelijeClarke",
+              "score": "6-3 6-0"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "CHN",
+              "opponent": "Zhang-QianWei",
+              "score": "6-4 6-3"
+            }
+          ]
+        },
+        {
+          "event": "J300 Zapopan",
+          "startDate": "2025-11-17",
+          "endDate": "2025-11-23",
+          "city": "Zapopan",
+          "country": "MEX",
+          "grade": "J300",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R2",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "W",
+              "opponentCountry": "ROU",
+              "opponent": "Maia IlincaBurcescu",
+              "score": "6-4 7-6 6"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "JAM",
+              "opponent": "AlyssaJames",
+              "score": "6-4 6-3"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "IND",
+              "opponent": "MaayaRajeshwaran Revathi",
+              "score": "7-5 6-2"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "JPN",
+              "opponent": "RiyoYoshida",
+              "score": "6-1 6-4"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "YaelSaffar",
+              "score": "6-4 6-0"
+            },
+            {
+              "round": "R1",
+              "outcome": "BYE",
+              "opponent": "BYE",
+              "score": ""
+            }
+          ]
+        },
+        {
+          "event": "2025 Billie Jean King Cup by Gainbridge Junior Finals",
+          "startDate": "2025-11-03",
+          "endDate": "2025-11-09",
+          "city": "Santiago",
+          "country": "CHI",
+          "grade": "Grade C",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Round Robin Group 2",
+          "entryType": "L",
+          "status": "Ativo",
+          "currentRound": "",
+          "matches": []
+        }
+      ]
+    },
+    {
+      "id": "xinran-sun",
+      "name": "Xinran Sun",
+      "activityUrl": "https://www.itftennis.com/en/players/xinran-sun/800677732/chn/jt/s/activity/",
+      "tournaments": [
+        {
+          "event": "J500 Milan",
+          "startDate": "2026-05-18",
+          "endDate": "2026-05-24",
+          "city": "Milan",
+          "country": "ITA",
+          "grade": "J500",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R2",
+          "matches": [
+            {
+              "round": "R1",
+              "outcome": "BYE",
+              "opponent": "BYE",
+              "score": ""
+            }
+          ]
+        },
+        {
+          "event": "J300 Plovdiv",
+          "startDate": "2026-04-28",
+          "endDate": "2026-05-02",
+          "city": "Plovdiv",
+          "country": "BUL",
+          "grade": "J300",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "W",
+              "opponentCountry": "SRB",
+              "opponent": "AnastasijaCvetkovic",
+              "score": "6-4 6-1"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "",
+              "opponent": "PolinaBerezina",
+              "score": "6-4 2-6 6-2"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "AnitaTu",
+              "score": "7-6 4 6-4"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "SRB",
+              "opponent": "DusicaPopovski",
+              "score": "6-1 6-4"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "BUL",
+              "opponent": "SofiPlamenova Fitcheva",
+              "score": "6-1 6-0"
+            }
+          ]
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "startDate": "2026-01-24",
+          "endDate": "2026-02-01",
+          "city": "Melbourne",
+          "country": "AUS",
+          "grade": "JGS",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "QF",
+              "outcome": "L",
+              "opponentCountry": "",
+              "opponent": "EkaterinaTupitsyna",
+              "score": "6-3 5-7 5-7"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "CZE",
+              "opponent": "DenisaZoldakova",
+              "score": "7-6 6 6-3"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "AUS",
+              "opponent": "ReneeAlame",
+              "score": "6-2 5-7 6-1"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "KOR",
+              "opponent": "Ha EumLee",
+              "score": "6-4 6-2"
+            }
+          ]
+        },
+        {
+          "event": "J300 Traralgon",
+          "startDate": "2026-01-16",
+          "endDate": "2026-01-21",
+          "city": "Traralgon",
+          "country": "AUS",
+          "grade": "J300",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "W",
+              "opponentCountry": "FRA",
+              "opponent": "KseniaEfremova",
+              "score": "6-1 6-3"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "",
+              "opponent": "RadaZolotareva",
+              "score": "7-6 3 6-3"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "CZE",
+              "opponent": "AlenaKovackova",
+              "score": "6-2 7-5"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "NED",
+              "opponent": "AntoniaStoyanov",
+              "score": "6-0 6-1"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "UKR",
+              "opponent": "AntoninaSushkova",
+              "score": "6-0 6-0"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "AUS",
+              "opponent": "ReneeAlame",
+              "score": "7-5 6-4"
+            }
+          ]
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "startDate": "2025-12-08",
+          "endDate": "2025-12-14",
+          "city": "Fort Lauderdale",
+          "country": "USA",
+          "grade": "J500",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "W",
+              "opponentCountry": "",
+              "opponent": "KristinaLiutova",
+              "score": "6-4 6-1"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "BRA",
+              "opponent": "Victoria LuizaBarros",
+              "score": "6-2 6-3"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "SWE",
+              "opponent": "IvaMarinkovic",
+              "score": "6-2 7-6 1"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "LaniChang",
+              "score": "6-3 6-1"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "MargaretSohns",
+              "score": "6-2 7-6 3"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "KoriMontoya",
+              "score": "6-1 6-2 SHOW 5 MORE TOURNAMENTS 5 items per page Latest media Articles ARTICLE BOOGAARD WINS ORANGE BOWL AND BECOMES FIRST DUTCH PLAYER TO WIN A J500 15 Dec 2025 SEE ALL NEWS COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS MEN'S WORLD TENNIS TOUR WOMEN'S WORLD TENNIS TOUR WORLD TENNIS TOUR JUNIORS WORLD TENNIS MASTERS TOUR UNIQLO WHEELCHAIR TENNIS TOUR BEACH TENNIS OLYMPICS, PARALYMPICS OLYMPICS LA 2028 PARALYMPICS LA 2028 ITF COMPETITIONS BILLIE JEAN KING CUP DAVIS CUP HOPMAN CUP ITF SITES & APPS IPIN PLAYER PORTAL ITF ACADEMY WORLD TENNIS NUMBER LIVE SCORES RULES OF TENNIS APP SITE MAP ITF AFFILIATES ATP WTA AUSTRALIAN OPEN ROLAND GARROS WIMBLEDON US OPEN INTERNATIONAL TENNIS INTEGRITY AGENCY INTERNATIONAL TENNIS HALL OF FAME THE ASSOCIATION OF CENTENARY CLUBS THE INTERNATIONAL CLUB TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY FOLLOW US Copyright © 2026 International Tennis Federation Back to top"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kristina-penickova",
+      "name": "Kristina Penickova",
+      "activityUrl": "https://www.itftennis.com/en/players/kristina-penickova/800719373/usa/jt/s/activity/",
+      "tournaments": [
+        {
+          "event": "2025 Billie Jean King Cup by Gainbridge Junior Finals",
+          "startDate": "2025-11-03",
+          "endDate": "2025-11-09",
+          "city": "Santiago",
+          "country": "CHI",
+          "grade": "Grade C",
+          "surface": "Clay",
+          "draw": "1st to 8th Play-off",
+          "matchType": "W",
+          "entryType": "v",
+          "status": "Ativo",
+          "currentRound": "",
+          "matches": []
+        },
+        {
+          "event": "2025 ITF World Tennis Tour Junior Finals",
+          "startDate": "2025-10-22",
+          "endDate": "2025-10-26",
+          "city": "Chengdu",
+          "country": "CHN",
+          "grade": "Junior Masters",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "SF",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "L",
+              "opponentCountry": "BEL",
+              "opponent": "JelineVandromme",
+              "score": "6-4 6-7 5 5-7"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "SVK",
+              "opponent": "MiaPohankova",
+              "score": "6-3 7-6 8"
+            }
+          ]
+        },
+        {
+          "event": "J200 Chuncheon",
+          "startDate": "2025-09-30",
+          "endDate": "2025-10-05",
+          "city": "Chuncheon",
+          "country": "KOR",
+          "grade": "J200",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "W",
+              "opponentCountry": "KOR",
+              "opponent": "SuhaLee",
+              "score": "3-6 6-1 6-3"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "KOR",
+              "opponent": "YeriHong",
+              "score": "7-5 6-2"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "KOR",
+              "opponent": "SiyoenSim",
+              "score": "6-0 6-3"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "INA",
+              "opponent": "Mischka SinclaireGoenadi",
+              "score": "6-0 6-3"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "JPN",
+              "opponent": "MikuKitaoka",
+              "score": "6-2 6-4"
+            }
+          ]
+        },
+        {
+          "event": "J500 Osaka",
+          "startDate": "2025-09-22",
+          "endDate": "2025-09-28",
+          "city": "Osaka",
+          "country": "JPN",
+          "grade": "J500",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "SF",
+              "outcome": "L",
+              "opponentCountry": "",
+              "opponent": "AnnaPushkareva",
+              "score": "6-7 2 4-6"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "JPN",
+              "opponent": "KanonSawashiro",
+              "score": "6-2 6-1"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "JPN",
+              "opponent": "RiraKosaka",
+              "score": "6-3 6-4"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "JPN",
+              "opponent": "KokonaIshii",
+              "score": "6-2 7-6 0"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "AUS",
+              "opponent": "GeorgiaCampbell",
+              "score": "6-3 7-6 7"
+            }
+          ]
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "startDate": "2025-08-31",
+          "endDate": "2025-09-06",
+          "city": "New York",
+          "country": "USA",
+          "grade": "JGS",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "R3",
+              "outcome": "L",
+              "opponentCountry": "BEL",
+              "opponent": "JelineVandromme",
+              "score": "2-6 3-6"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "ROU",
+              "opponent": "Maia IlincaBurcescu",
+              "score": "6-1 7-5"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "SWE",
+              "opponent": "NellieTaraba Wallberg",
+              "score": "5-7 7-6 2 6-3 SHOW 5 MORE TOURNAMENTS 5 items per page Latest media Articles Images ARTICLE MEET THE PENICKOVA SISTERS 7 Nov 2025 ITF JuniorsJunior Davis & Billie Jean King Cup ARTICLE PENICKOVA ON CUSP OF AUSTRALIAN OPEN TWIN SUCCESS AFTER DOUBLES TITLE 24 Jan 2025 ITF JuniorsAustralian Open ARTICLE 14-YEAR-OLD PENICKOVA SISTERS HOPE TO FOLLOW WILLIAMS’ FOOTPRINT 3 Sep 2024 US OpenGrand Slams SEE ALL NEWS COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS MEN'S WORLD TENNIS TOUR WOMEN'S WORLD TENNIS TOUR WORLD TENNIS TOUR JUNIORS WORLD TENNIS MASTERS TOUR UNIQLO WHEELCHAIR TENNIS TOUR BEACH TENNIS OLYMPICS, PARALYMPICS OLYMPICS LA 2028 PARALYMPICS LA 2028 ITF COMPETITIONS BILLIE JEAN KING CUP DAVIS CUP HOPMAN CUP ITF SITES & APPS IPIN PLAYER PORTAL ITF ACADEMY WORLD TENNIS NUMBER LIVE SCORES RULES OF TENNIS APP SITE MAP ITF AFFILIATES ATP WTA AUSTRALIAN OPEN ROLAND GARROS WIMBLEDON US OPEN INTERNATIONAL TENNIS INTEGRITY AGENCY INTERNATIONAL TENNIS HALL OF FAME THE ASSOCIATION OF CENTENARY CLUBS THE INTERNATIONAL CLUB TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY FOLLOW US Copyright © 2026 International Tennis Federation Back to top"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anastasija-cvetkovic",
+      "name": "Anastasija Cvetkovic",
+      "activityUrl": "https://www.itftennis.com/en/players/anastasija-cvetkovic/800598140/srb/jt/s/activity/",
+      "tournaments": [
+        {
+          "event": "J500 Milan",
+          "startDate": "2026-05-18",
+          "endDate": "2026-05-24",
+          "city": "Milan",
+          "country": "ITA",
+          "grade": "J500",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R2",
+          "matches": [
+            {
+              "round": "R1",
+              "outcome": "BYE",
+              "opponent": "BYE",
+              "score": ""
+            }
+          ]
+        },
+        {
+          "event": "J300 Santa Croce Sull’Arno",
+          "startDate": "2026-05-11",
+          "endDate": "2026-05-16",
+          "city": "Santa Croce Sull’Arno",
+          "country": "ITA",
+          "grade": "J300",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "QF",
+              "outcome": "L",
+              "opponentCountry": "CHN",
+              "opponent": "Yu JunLin",
+              "score": "0-4"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "ESP",
+              "opponent": "CarlaVazquez Alcudia",
+              "score": "6-3 7-5"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "ITA",
+              "opponent": "IlaryPistola",
+              "score": "7-5 4-6 6-4"
+            }
+          ]
+        },
+        {
+          "event": "J500 Offenbach",
+          "startDate": "2026-05-04",
+          "endDate": "2026-05-10",
+          "city": "Offenbach",
+          "country": "GER",
+          "grade": "J500",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "L",
+              "opponentCountry": "BRA",
+              "opponent": "Victoria LuizaBarros",
+              "score": "2-6 4-6"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "UKR",
+              "opponent": "PolinaSkliar",
+              "score": "3-6 6-2 6-2"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "",
+              "opponent": "AnnaPushkareva",
+              "score": "6-3 7-6 3"
+            },
+            {
+              "round": "R3",
+              "outcome": "W",
+              "opponentCountry": "GER",
+              "opponent": "Emily VictoriaEigelsbach",
+              "score": "6-1 6-0"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "Isabelle Thi DeLucciaDeLuccia",
+              "score": "6-7 3 6-0 6-3"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "ROU",
+              "opponent": "Ana IoanaVarsa",
+              "score": "6-2 6-4"
+            }
+          ]
+        },
+        {
+          "event": "J300 Plovdiv",
+          "startDate": "2026-04-28",
+          "endDate": "2026-05-02",
+          "city": "Plovdiv",
+          "country": "BUL",
+          "grade": "J300",
+          "surface": "Clay",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Ativo",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "F",
+              "outcome": "L",
+              "opponentCountry": "CHN",
+              "opponent": "XinranSun",
+              "score": "4-6 1-6"
+            },
+            {
+              "round": "SF",
+              "outcome": "W",
+              "opponentCountry": "POL",
+              "opponent": "OliwiaSybicka",
+              "score": "7-6 7 3-6 6-2"
+            },
+            {
+              "round": "QF",
+              "outcome": "W",
+              "opponentCountry": "USA",
+              "opponent": "OliviaTraynor",
+              "score": "0-6 6-3 6-0"
+            },
+            {
+              "round": "R2",
+              "outcome": "W",
+              "opponentCountry": "CAN",
+              "opponent": "AndreaCabio",
+              "score": "6-4 6-2"
+            },
+            {
+              "round": "R1",
+              "outcome": "W",
+              "opponentCountry": "GER",
+              "opponent": "GwendolynFedel",
+              "score": "6-1 6-2"
+            }
+          ]
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "startDate": "2026-01-24",
+          "endDate": "2026-02-01",
+          "city": "Melbourne",
+          "country": "AUS",
+          "grade": "JGS",
+          "surface": "Hard",
+          "draw": "Main Draw",
+          "matchType": "Singles",
+          "entryType": "DA",
+          "status": "Eliminado",
+          "currentRound": "R1",
+          "matches": [
+            {
+              "round": "R1",
+              "outcome": "L",
+              "opponentCountry": "NZL",
+              "opponent": "AishiDas",
+              "score": "2-6 6-4 2-6 SHOW 5 MORE TOURNAMENTS 5 items per page Latest media Images COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS MEN'S WORLD TENNIS TOUR WOMEN'S WORLD TENNIS TOUR WORLD TENNIS TOUR JUNIORS WORLD TENNIS MASTERS TOUR UNIQLO WHEELCHAIR TENNIS TOUR BEACH TENNIS OLYMPICS, PARALYMPICS OLYMPICS LA 2028 PARALYMPICS LA 2028 ITF COMPETITIONS BILLIE JEAN KING CUP DAVIS CUP HOPMAN CUP ITF SITES & APPS IPIN PLAYER PORTAL ITF ACADEMY WORLD TENNIS NUMBER LIVE SCORES RULES OF TENNIS APP SITE MAP ITF AFFILIATES ATP WTA AUSTRALIAN OPEN ROLAND GARROS WIMBLEDON US OPEN INTERNATIONAL TENNIS INTEGRITY AGENCY INTERNATIONAL TENNIS HALL OF FAME THE ASSOCIATION OF CENTENARY CLUBS THE INTERNATIONAL CLUB TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY FOLLOW US Copyright © 2026 International Tennis Federation Back to top"
+            }
+          ]
+        }
+      ]
     }
-  ],
-  "errors": []
+  ]
 }
