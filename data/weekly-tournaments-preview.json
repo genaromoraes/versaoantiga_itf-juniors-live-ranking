@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "18/05/2026, 18:40",
+  "scrapedAt": "18/05/2026, 19:06",
   "calendarStartDate": "2026-05",
   "tournaments": [
     {
@@ -30,8 +30,10 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
           }
         },
         {
@@ -49,8 +51,10 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
           }
         },
         {
@@ -68,8 +72,10 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
           }
         },
         {
@@ -87,8 +93,10 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
           }
         },
         {
@@ -106,8 +114,10 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
           }
         },
         {
@@ -125,63 +135,17 @@
           "priority": 2,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
           }
         }
       ],
-      "drawDiagnostic": {
-        "textLength": 0,
-        "lineCount": 0,
-        "firstLines": [],
-        "interestingLines": [],
-        "playerHits": [
-          {
-            "id": "luis-guto-miguel",
-            "name": "Luis Guto Miguel",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "jamie-mackenzie",
-            "name": "Jamie Mackenzie",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "thilo-behrmann",
-            "name": "Thilo Behrmann",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "jana-kovackova",
-            "name": "Jana Kovackova",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "victoria-luiza-barros",
-            "name": "Victoria Luiza Barros",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "xinran-sun",
-            "name": "Xinran Sun",
-            "hits": 0,
-            "snippets": []
-          }
-        ],
-        "networkUrls": [
-          "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
-          "https://www.itftennis.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3",
-          "https://www.itftennis.com/_Incapsula_Resource?SWUDNSAI=31&xinfo=50-37963861-0%202NNN%20RT%281779140449655%2015%29%20q%280%20-1%20-1%200%29%20r%281%20-1%29%20B12%2811%2c14315729%2c0%29%20U18&incident_id=100000210101147466-165525930765452658&edet=12&cinfo=0b000000&rpinfo=0&cts=lUVBJeV7lVi6rq4jxZ%2fUFgEab2R8NwS15Pc%2bmMt8LHk1Wv6y9uKm1Myk7r5tKTgC&cip=20.168.119.246&mth=GET",
-          "https://www.itftennis.com/_Incapsula_Resource?SWKMTFSR=1&e=0.04037650000397963",
-          "https://js.hcaptcha.com/1/api.js",
-          "https://api.hcaptcha.com/checksiteconfig?v=6528675343bbcfa331f287bf983949f75bf1e7bb&host=www.itftennis.com&sitekey=dd6e16a7-972e-47d2-93d0-96642fb6d8de&sc=1&swa=1&spst=1"
-        ]
-      }
+      "coreTennisUrls": [
+        "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html",
+        "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+      ]
     },
     {
       "tournamentName": "J200 Targu Jiu",
