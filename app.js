@@ -372,8 +372,7 @@ function normalizePlayer(player) {
     gainedPoints,
     livePoints,
     nextWinPoints,
-    maxPoints,
-    projectedMovement: estimateMovement(player.currentRank, basePoints, livePoints)
+    maxPoints
   };
 }
 
@@ -387,12 +386,6 @@ function droppingResultSet(defending = [], type) {
       .filter((result) => result.type === type)
       .map(resultKey)
   );
-}
-
-function estimateMovement(currentRank, basePoints, livePoints) {
-  const delta = livePoints - basePoints;
-  if (!currentRank || delta === 0) return 0;
-  return Math.round(delta / 70);
 }
 
 function getRankedPlayers() {
@@ -442,8 +435,9 @@ function flagMarkup(country = "") {
 }
 
 function movementLabel(player) {
-  const projectedRank = Math.max(1, Number(player.currentRank || player.liveRank) - player.projectedMovement);
-  const delta = Number(player.currentRank || 0) - projectedRank;
+  const officialRank = Number(player.currentRank || 0);
+  const liveRank = Number(player.liveRank || officialRank || 0);
+  const delta = officialRank - liveRank;
   if (!delta) return { text: "0", type: "neutral" };
   return {
     text: delta > 0 ? `+${delta}` : `${delta}`,
