@@ -67,13 +67,14 @@ async function readPointsCsvPreview() {
     const [headerLine, ...lines] = csv.split(/\r?\n/).filter(Boolean);
     const headers = parseCsvLine(headerLine);
     const playersById = new Map();
-    const today = saoPauloTodayIso();
+    const { start: currentWeekStart } = currentWeekBounds();
+    const currentWeekStartIso = currentWeekStart.toISOString().slice(0, 10);
 
     for (const line of lines) {
       const columns = parseCsvLine(line);
       const row = Object.fromEntries(headers.map((header, index) => [header, columns[index] || ""]));
       if (!row.player_id || !row.result_type) continue;
-      if (!row.drop_date || row.drop_date < today) continue;
+      if (!row.drop_date || row.drop_date < currentWeekStartIso) continue;
 
       const player = playersById.get(row.player_id) || {
         id: row.player_id,
