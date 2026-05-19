@@ -115,15 +115,23 @@ function isRound(value = "") {
   return /^(R1|R2|R3|R4|R16|R32|R64|QF|SF|F|W)$/i.test(value);
 }
 
-function normalizeDrawRound(value = "") {
+function normalizeDrawRound(value = "", matchType = "SINGLES") {
   const round = value.toUpperCase();
+  if (matchType === "DOUBLES") {
+    if (round === "R1") return "R32";
+    if (round === "R2") return "R16";
+    if (round === "R3") return "QF";
+    if (round === "R4") return "SF";
+    if (round === "F") return "F";
+    return round;
+  }
   if (round === "R1") return "R64";
   if (round === "R2") return "R32";
   if (round === "R3" || round === "R16") return "R16";
   return round;
 }
 
-function nextRound(round = "") {
+function nextRound(round = "", matchType = "SINGLES") {
   return {
     R64: "R32",
     R32: "R16",
@@ -131,13 +139,13 @@ function nextRound(round = "") {
     QF: "SF",
     SF: "F",
     F: "W"
-  }[normalizeDrawRound(round)] || normalizeDrawRound(round);
+  }[normalizeDrawRound(round, matchType)] || normalizeDrawRound(round, matchType);
 }
 
-function roundForOutcome(round = "", outcome = "") {
-  if (outcome === "L") return normalizeDrawRound(round);
-  if (outcome === "W") return nextRound(round);
-  return normalizeDrawRound(round);
+function roundForOutcome(round = "", outcome = "", matchType = "SINGLES") {
+  if (outcome === "L") return normalizeDrawRound(round, matchType);
+  if (outcome === "W") return nextRound(round, matchType);
+  return normalizeDrawRound(round, matchType);
 }
 
 function confidenceNote(value = "") {
@@ -481,12 +489,12 @@ function lineOutcomeScore(lines, index) {
   };
 }
 
-function drawStatusForPlayer(text, player) {
+function drawStatusForPlayer(text, player, matchType = "SINGLES", options = {}) {
   const lines = text.split(/\r?\n/).map(cleanLine).filter(Boolean);
   const playerName = normalizeName(player.name);
   const candidates = [];
 
-  for (const sectionLines of candidateDrawSections(lines, player, "SINGLES")) {
+  for (const sectionLines of candidateDrawSections(lines, player, matchType)) {
     const candidateIndexes = sectionLines
       .map((line, index) => ({ line, index }))
       .filter(({ line }) => {
@@ -503,19 +511,19 @@ function drawStatusForPlayer(text, player) {
   }
 
   const best = candidates.sort((a, b) => b.score - a.score)[0];
-  if (!best) return { status: "Ativo", currentRound: pendingRound, confidence: "pending" };
+  if (!best) return options.missingAsNull ? null : { status: "Ativo", currentRound: pendingRound, confidence: "pending" };
 
   if (best.bye && !best.outcome) {
-    return { status: "Ativo", currentRound: nextRound(best.round), pointsOverride: 0, confidence: "bye" };
+    return { status: "Ativo", currentRound: nextRound(best.round, matchType), pointsOverride: 0, confidence: "bye" };
   }
 
   if (best.outcome === "L") {
-    return { status: "Eliminado", currentRound: roundForOutcome(best.round, best.outcome), confidence: "nearby-result" };
+    return { status: "Eliminado", currentRound: roundForOutcome(best.round, best.outcome, matchType), confidence: "nearby-result" };
   }
 
   return {
     status: "Ativo",
-    currentRound: roundForOutcome(best.round, best.outcome),
+    currentRound: roundForOutcome(best.round, best.outcome, matchType),
     confidence: best.outcome === "W" ? "nearby-win" : "nearby-round"
   };
 }
@@ -614,6 +622,7 @@ async function enrichTournamentWithDrawRounds(tournaments) {
 
         tournament.acceptedPlayers = tournament.acceptedPlayers.map((player) => ({
           ...player,
+          drawResultDoubles: drawStatusForPlayer(text, player, "DOUBLES", { missingAsNull: true }),
           drawResult: player.drawResult && player.drawResult.currentRound !== pendingRound
             ? player.drawResult
             : drawStatusForPlayer(text, player)
@@ -670,6 +679,23 @@ for (const tournament of tournaments) {
       drawResult.sourceUrl || tournament.drawsUrl,
       `Encontrado na acceptance list do itf-entries (${player.entryGroup || "sem grupo"}); leitura do draw: ${confidenceNote(drawResult.confidence)}.`
     ]);
+
+    if (player.drawResultDoubles) {
+      rows.push([
+        player.id,
+        player.name,
+        "Doubles",
+        tournament.tournamentName,
+        tournament.grade,
+        tournament.startDate,
+        tournament.endDate,
+        player.drawResultDoubles.status,
+        player.drawResultDoubles.currentRound,
+        player.drawResultDoubles.pointsOverride ?? "",
+        player.drawResultDoubles.sourceUrl || tournament.drawsUrl,
+        `Encontrado no draw de duplas da ITF; leitura do draw: ${confidenceNote(player.drawResultDoubles.confidence)}.`
+      ]);
+    }
   }
 }
 
