@@ -9,8 +9,8 @@ const previewFile = path.join(rootDir, "data", "itf-ranking-preview.json");
 const rankingUrl = "https://www.itftennis.com/en/rankings/world-tennis-tour-junior-rankings/?matchType=S%2F1000";
 const rankingLimit = Number(process.env.RANKING_LIMIT || 50);
 const categories = [
-  { gender: "Boys", playerType: "B" },
-  { gender: "Girls", playerType: "G" }
+  { gender: "Boys", playerType: "B", auxiliaryUrl: "https://tennisdbjp.com/junior-en/list/wboysrank.html" },
+  { gender: "Girls", playerType: "G", auxiliaryUrl: "https://tennisdbjp.com/junior-en/list/wgirlsrank.html" }
 ];
 
 async function readJson(file, fallback) {
@@ -40,6 +40,73 @@ function rankingDatePtBr(value = "") {
 
 function pointsBreakdownUrl(url) {
   return url.replace(/\/$/, "") + "/itf-points-breakdown/";
+}
+
+function slugifyName(name = "") {
+  return name
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+function playerKey(player) {
+  return `${slugifyName(player.name)}|${player.country || ""}`;
+}
+
+function mergeRankingPlayers(primaryPlayers, auxiliaryPlayers, existingPlayers, gender) {
+  const primaryByKey = new Map(primaryPlayers.map((player) => [playerKey(player), player]));
+  const existingByKey = new Map(existingPlayers.filter((player) => player.gender === gender).map((player) => [playerKey(player), player]));
+
+  return auxiliaryPlayers.map((candidate) => {
+    const primary = primaryByKey.get(playerKey(candidate));
+    const existing = existingByKey.get(playerKey(candidate));
+    const profile = primary || existing;
+
+    return {
+      ...candidate,
+      id: profile?.id || slugifyName(candidate.name),
+      name: profile?.name || candidate.name,
+      country: profile?.country || candidate.country,
+      gender,
+      currentRank: candidate.currentRank,
+      officialPoints: profile?.officialPoints || candidate.officialPoints || 0,
+      pointsBreakdownUrl: profile?.pointsBreakdownUrl || "",
+      needsProfileResolution: !profile?.pointsBreakdownUrl
+    };
+  });
+}
+
+async function scrapeAuxiliaryCategory(page, category) {
+  await page.goto(category.auxiliaryUrl, { waitUntil: "domcontentloaded", timeout: 60000 });
+
+  const result = await page.evaluate((limit) => {
+    const lines = document.body.innerText.split(/\r?\n/).map((line) => line.trim()).filter(Boolean);
+    const rankingDate = lines.find((line) => /^\d{4}\/\d{2}\/\d{2}/.test(line)) || "";
+    const players = [];
+
+    for (const line of lines) {
+      const match = line.match(/^(\d+)(?:\s+\([^)]+\))?\s+(.+?)\s+(20\d{2})\s+([A-Z]{3})$/);
+      if (!match) continue;
+
+      players.push({
+        currentRank: Number(match[1]),
+        name: match[2].trim(),
+        country: match[4].trim()
+      });
+
+      if (players.length >= limit) break;
+    }
+
+    return { rankingDate, players };
+  }, rankingLimit);
+
+  if (result.players.length < rankingLimit) {
+    throw new Error(`Auxiliary ranking returned ${result.players.length} ${category.gender} rows; expected ${rankingLimit}.`);
+  }
+
+  return result;
 }
 
 async function scrapeVisibleRows(page, limit) {
@@ -196,15 +263,38 @@ let rankingDate = existingPreview.rankingDate || "";
 
 try {
   for (const category of categories) {
+    let auxiliaryPlayers = [];
+    try {
+      const auxiliary = await scrapeAuxiliaryCategory(page, category);
+      auxiliaryPlayers = auxiliary.players.map((player) => ({
+        ...player,
+        gender: category.gender,
+        id: slugifyName(player.name),
+        officialPoints: 0,
+        pointsBreakdownUrl: ""
+      }));
+      rankingDate = auxiliary.rankingDate.replaceAll("/", "-") || rankingDate;
+    } catch (error) {
+      warnings.push(`Could not read auxiliary ${category.gender} ranking: ${error.message}`);
+    }
+
     try {
       const result = await scrapeCategory(page, category);
-      rankingPlayers.push(...result.players);
+      rankingPlayers.push(
+        ...(auxiliaryPlayers.length
+          ? mergeRankingPlayers(result.players, auxiliaryPlayers, existingPlayers, category.gender)
+          : result.players)
+      );
       rankingDate = rankingDatePtBr(result.lastUpdated) || rankingDate;
     } catch (error) {
       const fallbackPlayers = existingPlayers.filter((player) => player.gender === category.gender);
-      if (!fallbackPlayers.length) throw error;
+      if (!fallbackPlayers.length && !auxiliaryPlayers.length) throw error;
       warnings.push(`Keeping previous ${category.gender} ranking because live scrape failed: ${error.message}`);
-      rankingPlayers.push(...fallbackPlayers);
+      rankingPlayers.push(
+        ...(auxiliaryPlayers.length
+          ? mergeRankingPlayers([], auxiliaryPlayers, existingPlayers, category.gender)
+          : fallbackPlayers)
+      );
     }
   }
 } finally {

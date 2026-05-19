@@ -135,13 +135,16 @@ for (const player of sourcePlayers) {
   const countingSingles = Math.min(6, singlesRows.length);
   const countingDoubles = Math.min(6, doublesRows.length);
   const sheetBasePoints = roundTwo(topSixTotal(singlesRows) + topSixTotal(doublesRows));
-  const { status, notes } = statusForPlayer({
+  const health = statusForPlayer({
     playerRows,
     missingDropDateRows,
     badRankingPointRows,
     singlesRows,
     doublesRows
   });
+  const profileNote = !player.pointsBreakdownUrl ? "Resolver URL do perfil ITF antes de buscar o breakdown." : "";
+  const status = profileNote ? "Revisar perfil ITF" : health.status;
+  const notes = [profileNote, health.notes].filter(Boolean).join(" ");
 
   rows.push([
     player.gender,

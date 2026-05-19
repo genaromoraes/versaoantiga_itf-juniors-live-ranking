@@ -58,6 +58,11 @@ const scrapedPlayers = [];
 const warnings = [];
 
 for (const player of players) {
+  if (!player.pointsBreakdownUrl) {
+    scrapedPlayers.push(fallbackPlayer(player, "missing ITF points breakdown URL"));
+    continue;
+  }
+
   try {
     await page.goto(player.pointsBreakdownUrl, { waitUntil: "domcontentloaded", timeout: 90000 });
     const text = await page.locator("body").innerText({ timeout: 45000 });
