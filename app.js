@@ -407,49 +407,52 @@ function doublesValue(points) {
   return Number(points || 0) * 0.25;
 }
 
-function projectedEventPoints(liveEvent, target) {
-  const table = gradePoints[liveEvent.grade] || {};
-  const singlesRound = liveEvent.singlesRound || "";
-  const doublesRound = liveEvent.doublesRound || "";
-
-  if (target === "max") {
-    return Number(liveEvent.singlesMaxPoints || 0) + doublesValue(liveEvent.doublesMaxPoints);
-  }
-
-  const singlesTarget = target === "next" ? nextRound[singlesRound] || singlesRound : "Campeao";
-  const doublesTarget = target === "next" ? nextRound[doublesRound] || doublesRound : "Campeao";
-
-  const singlesCurrent = Number(liveEvent.singlesPoints || 0);
-  const doublesCurrent = Number(liveEvent.doublesPoints || 0);
-  const singlesProjected = Number(table[singlesTarget] || singlesCurrent);
-  const doublesProjected = Number(table[doublesTarget] || doublesCurrent);
-  const singlesPoints = singlesRound === "Nao joga" ? 0 : Math.max(singlesCurrent, singlesProjected);
-  const doublesPoints = doublesRound === "Nao joga" ? 0 : doublesValue(Math.max(doublesCurrent, doublesProjected));
-
-  return singlesPoints + doublesPoints;
-}
-
 function hasActiveDraw(liveEvent, type) {
   const status = liveEvent?.[`${type}Status`] || "";
   const round = liveEvent?.[`${type}Round`] || "";
   return status === "Ativo" && round && round !== "Nao joga";
 }
 
-function projectionGainForType(liveEvent, type, target) {
-  if (!hasActiveDraw(liveEvent, type)) return null;
-
+function projectedRawPointsForType(liveEvent, type, target) {
   const isDoubles = type === "doubles";
   const table = isDoubles ? doublesGradePoints[liveEvent.grade] || {} : gradePoints[liveEvent.grade] || {};
   const currentRound = liveEvent[`${type}Round`] || "";
   const currentRawPoints = Number(liveEvent[`${type}Points`] || 0);
   const targetRound = target === "next" ? nextRound[currentRound] || currentRound : "Campeao";
-  const targetRawPoints = target === "max"
-    ? Number(liveEvent[`${type}MaxPoints`] || table.Campeao || currentRawPoints)
-    : Number(table[targetRound] || currentRawPoints);
 
-  const currentPoints = isDoubles ? doublesValue(currentRawPoints) : currentRawPoints;
-  const projectedPoints = isDoubles ? doublesValue(Math.max(currentRawPoints, targetRawPoints)) : Math.max(currentRawPoints, targetRawPoints);
-  const gain = Math.max(0, projectedPoints - currentPoints);
+  if (target === "max") {
+    const maxPoints = Number(liveEvent[`${type}MaxPoints`] || table.Campeao || currentRawPoints);
+    return Math.max(currentRawPoints, maxPoints);
+  }
+
+  return Math.max(currentRawPoints, Number(table[targetRound] || currentRawPoints));
+}
+
+function countedPointsWithProjection(baseResults, currentRawPoints, projectedRawPoints, multiplier = 1) {
+  const baselineResults = isMeaningfulPoints(currentRawPoints)
+    ? [...baseResults, { event: "__current_projection__", round: "", points: currentRawPoints }]
+    : [...baseResults];
+  const projectedResults = isMeaningfulPoints(projectedRawPoints)
+    ? [...baseResults, { event: "__projected_projection__", round: "", points: projectedRawPoints }]
+    : [...baseResults];
+
+  const baseline = sumCounted(baselineResults, multiplier);
+  const projected = sumCounted(projectedResults, multiplier);
+
+  return Math.max(0, projected - baseline);
+}
+
+function projectionGainForType(player, type, target) {
+  const liveEvent = player.liveEvent || {};
+  if (!hasActiveDraw(liveEvent, type)) return null;
+
+  const isDoubles = type === "doubles";
+  const currentRawPoints = Number(liveEvent[`${type}Points`] || 0);
+  const projectedRawPoints = projectedRawPointsForType(liveEvent, type, target);
+  const baseResults = type === "doubles"
+    ? (Array.isArray(player.liveBaseDoubles) ? player.liveBaseDoubles : [])
+    : (Array.isArray(player.liveBaseSingles) ? player.liveBaseSingles : []);
+  const gain = countedPointsWithProjection(baseResults, currentRawPoints, projectedRawPoints, isDoubles ? 0.25 : 1);
 
   if (!isMeaningfulPoints(gain)) return null;
 
@@ -460,10 +463,10 @@ function projectionGainForType(liveEvent, type, target) {
   };
 }
 
-function projectionScenarios(liveEvent, target) {
+function projectionScenarios(player, target) {
   const scenarios = [
-    projectionGainForType(liveEvent, "singles", target),
-    projectionGainForType(liveEvent, "doubles", target)
+    projectionGainForType(player, "singles", target),
+    projectionGainForType(player, "doubles", target)
   ].filter(Boolean);
 
   if (scenarios.length > 1) {
@@ -504,6 +507,8 @@ function normalizePlayer(player) {
     singles,
     doubles,
     defending,
+    liveBaseSingles,
+    liveBaseDoubles,
     replacements: [
       ...replacementSingles.map((item) => ({ ...item, type: "singles" })),
       ...replacementDoubles
@@ -742,7 +747,7 @@ function renderPointsFlow(items, kind) {
 function projectionMarkup(player, target) {
   if (!isActiveThisWeek(player.liveEvent)) return `<span class="empty-mark">-</span>`;
 
-  const scenarios = projectionScenarios(player.liveEvent, target);
+  const scenarios = projectionScenarios(player, target);
   if (!scenarios.length) return `<span class="empty-mark">-</span>`;
 
   return `
