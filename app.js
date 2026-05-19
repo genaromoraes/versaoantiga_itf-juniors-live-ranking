@@ -315,6 +315,16 @@ const gradePoints = {
   J30: { R16: 2, QF: 5, SF: 9, Final: 18, Campeao: 30 }
 };
 
+const doublesGradePoints = {
+  JGS: { R16: 135, QF: 225, SF: 367, Final: 525, Campeao: 750 },
+  J500: { R16: 67, QF: 112, SF: 187, Final: 262, Campeao: 375 },
+  J300: { R16: 45, QF: 75, SF: 105, Final: 157, Campeao: 225 },
+  J200: { R16: 27, QF: 45, SF: 75, Final: 105, Campeao: 150 },
+  J100: { R16: 7, QF: 15, SF: 27, Final: 45, Campeao: 75 },
+  J60: { QF: 7, SF: 14, Final: 27, Campeao: 45 },
+  J30: { QF: 3, SF: 6, Final: 13, Campeao: 25 }
+};
+
 const nextRound = {
   R64: "R32",
   R32: "R16",
@@ -462,10 +472,27 @@ function isMeaningfulPoints(value) {
   return Math.abs(Number(value || 0)) > 0.0001;
 }
 
-function pointsFlowText(eventName, label, value) {
-  if (!eventName || !label || !isMeaningfulPoints(value)) return "";
+function inferResultPhase(item = {}) {
+  const grade = String(item.round || "").toUpperCase();
+  const rawPoints = Number(item.points || 0);
+  const table = item.type === "doubles" ? doublesGradePoints[grade] : gradePoints[grade];
+  if (!table || !isMeaningfulPoints(rawPoints)) return "";
+
+  for (const [phase, phasePoints] of Object.entries(table)) {
+    if (Math.abs(Number(phasePoints) - rawPoints) < 0.001) {
+      return phase;
+    }
+  }
+
+  return "";
+}
+
+function pointsFlowText(eventName, typeLabel, phaseLabel, value) {
+  if (!eventName || !typeLabel || !isMeaningfulPoints(value)) return "";
   const sign = value > 0 ? "+" : "-";
-  return `${eventName} · ${label} · ${sign}${formatNumber(Math.abs(value))} pts`;
+  return [eventName, typeLabel, phaseLabel, `${sign}${formatNumber(Math.abs(value))} pts`]
+    .filter(Boolean)
+    .join(" - ");
 }
 
 function pointsDropItems(player) {
@@ -480,8 +507,9 @@ function pointsDropLines(player) {
   const defending = Array.isArray(player.defending) ? player.defending : [];
   return defending
     .map((item) => {
-      const typeLabel = item.type === "doubles" ? "duplas" : "simples";
-      return pointsFlowText(item.event, typeLabel, -pointsItemValue(item));
+      const typeLabel = item.type === "doubles" ? "(D)" : "(S)";
+      const phaseLabel = inferResultPhase(item);
+      return pointsFlowText(item.event, typeLabel, phaseLabel, -pointsItemValue(item));
     })
     .filter(Boolean);
 }
@@ -491,9 +519,10 @@ function pointsEntryLines(player) {
   const replacements = Array.isArray(player.replacements) ? player.replacements : [];
   const entries = replacements
     .map((item) => {
-      const typeLabel = item.type === "doubles" ? "duplas" : "simples";
+      const typeLabel = item.type === "doubles" ? "(D)" : "(S)";
+      const phaseLabel = inferResultPhase(item);
       const countedValue = item.type === "doubles" ? doublesValue(item.points) : Number(item.points || 0);
-      return pointsFlowText(item.event, typeLabel, countedValue);
+      return pointsFlowText(item.event, typeLabel, phaseLabel, countedValue);
     })
     .filter(Boolean);
 
@@ -501,14 +530,16 @@ function pointsEntryLines(player) {
 
   const singlesEntry = pointsFlowText(
     liveEvent.event,
-    liveEvent.singlesRound ? `${liveEvent.singlesRound} · simples` : "simples",
+    "(S)",
+    liveEvent.singlesRound || "",
     Number(liveEvent.singlesPoints || 0)
   );
   if (singlesEntry) entries.push(singlesEntry);
 
   const doublesEntry = pointsFlowText(
     liveEvent.event,
-    liveEvent.doublesRound ? `${liveEvent.doublesRound} · duplas` : "duplas",
+    "(D)",
+    liveEvent.doublesRound || "",
     doublesValue(liveEvent.doublesPoints)
   );
   if (doublesEntry) entries.push(doublesEntry);
