@@ -458,63 +458,62 @@ function pointsItemValue(item = {}) {
   return item.type === "doubles" ? doublesValue(item.points) : Number(item.points || 0);
 }
 
-function pointsDropSummary(player) {
-  const defending = Array.isArray(player.defending) ? player.defending : [];
-  if (!defending.length) return "";
+function isMeaningfulPoints(value) {
+  return Math.abs(Number(value || 0)) > 0.0001;
+}
 
-  const summary = defending
-    .map((item) => {
-      const typeLabel = item.type === "doubles" ? "duplas" : "simples";
-      return [item.event, item.round || typeLabel, `-${formatNumber(pointsItemValue(item))}`].filter(Boolean).join(" · ");
-    })
-    .filter(Boolean);
+function pointsFlowText(eventName, label, value) {
+  if (!eventName || !label || !isMeaningfulPoints(value)) return "";
+  const sign = value > 0 ? "+" : "-";
+  return `${eventName} · ${label} · ${sign}${formatNumber(Math.abs(value))} pts`;
+}
 
-  if (!summary.length) return "";
-  if (summary.length <= 2) return summary.join(" | ");
-  return `${summary.slice(0, 2).join(" | ")} | +${summary.length - 2}`;
+function pointsDropItems(player) {
+  return pointsDropLines(player);
 }
 
 function pointsEntrySummary(player) {
+  return pointsEntryLines(player).join(" | ");
+}
+
+function pointsDropLines(player) {
+  const defending = Array.isArray(player.defending) ? player.defending : [];
+  return defending
+    .map((item) => {
+      const typeLabel = item.type === "doubles" ? "duplas" : "simples";
+      return pointsFlowText(item.event, typeLabel, -pointsItemValue(item));
+    })
+    .filter(Boolean);
+}
+
+function pointsEntryLines(player) {
   const liveEvent = player.liveEvent || {};
-  const entries = [];
   const replacements = Array.isArray(player.replacements) ? player.replacements : [];
+  const entries = replacements
+    .map((item) => {
+      const typeLabel = item.type === "doubles" ? "duplas" : "simples";
+      const countedValue = item.type === "doubles" ? doublesValue(item.points) : Number(item.points || 0);
+      return pointsFlowText(item.event, typeLabel, countedValue);
+    })
+    .filter(Boolean);
 
-  for (const item of replacements) {
-    const typeLabel = item.type === "doubles" ? "duplas" : "simples";
-    const countedValue = item.type === "doubles" ? doublesValue(item.points) : Number(item.points || 0);
-    entries.push(
-      [item.event, item.round || typeLabel, `+${formatNumber(countedValue)}`]
-        .filter(Boolean)
-        .join(" · ")
-    );
-  }
+  if (!isActiveThisWeek(liveEvent)) return entries;
 
-  if (!isActiveThisWeek(liveEvent)) {
-    if (!entries.length) return "";
-    if (entries.length <= 2) return entries.join(" | ");
-    return `${entries.slice(0, 2).join(" | ")} | +${entries.length - 2}`;
-  }
+  const singlesEntry = pointsFlowText(
+    liveEvent.event,
+    liveEvent.singlesRound ? `${liveEvent.singlesRound} · simples` : "simples",
+    Number(liveEvent.singlesPoints || 0)
+  );
+  if (singlesEntry) entries.push(singlesEntry);
 
-  if (Number(liveEvent.singlesPoints || 0) > 0) {
-    entries.push(
-      [liveEvent.event, liveEvent.singlesRound || "simples", `+${formatNumber(liveEvent.singlesPoints)}`]
-        .filter(Boolean)
-        .join(" · ")
-    );
-  }
+  const doublesEntry = pointsFlowText(
+    liveEvent.event,
+    liveEvent.doublesRound ? `${liveEvent.doublesRound} · duplas` : "duplas",
+    doublesValue(liveEvent.doublesPoints)
+  );
+  if (doublesEntry) entries.push(doublesEntry);
 
-  const doublesRankingPoints = doublesValue(liveEvent.doublesPoints);
-  if (doublesRankingPoints > 0) {
-    entries.push(
-      [liveEvent.event, liveEvent.doublesRound || "duplas", `+${formatNumber(doublesRankingPoints)}`]
-        .filter(Boolean)
-        .join(" · ")
-    );
-  }
-
-  if (!entries.length) return "";
-  if (entries.length <= 2) return entries.join(" | ");
-  return `${entries.slice(0, 2).join(" | ")} | +${entries.length - 2}`;
+  return entries;
 }
 
 function flagMarkup(country = "") {
@@ -535,12 +534,14 @@ function movementLabel(player) {
 
 function pointsBalanceLabel(player) {
   const balance = player.gainedPoints - player.defendingPoints;
-  if (!balance) return { text: "0", type: "neutral", dropDetail: "", entryDetail: pointsEntrySummary(player) };
+  const dropItems = player.defendingPoints > 0 ? pointsDropLines(player) : [];
+  const entryItems = pointsEntryLines(player);
+  if (!balance) return { text: "0", type: "neutral", dropItems, entryItems };
   return {
     text: balance > 0 ? `+${formatNumber(balance)}` : `-${formatNumber(Math.abs(balance))}`,
     type: balance > 0 ? "gain" : "loss",
-    dropDetail: player.defendingPoints > 0 ? pointsDropSummary(player) : "",
-    entryDetail: pointsEntrySummary(player)
+    dropItems,
+    entryItems
   };
 }
 
@@ -574,6 +575,22 @@ function weeklyStatusMarkup(liveEvent = {}) {
       <span>${liveEvent.doublesStatus === "Nao joga" ? `${t("doubles")}: ${t("notPlaying")}` : liveEvent.doublesStatus === "Eliminado" ? `${t("doubles")}: ${t("eliminated")} ${liveEvent.doublesRound || ""}` : `${t("doubles")}: ${liveEvent.doublesRound || "-"}`}</span>
     </div>
   `;
+}
+
+function renderPointsFlow(items, kind) {
+  if (!Array.isArray(items) || !items.length) return "";
+  const label = kind === "drop" ? "Sai" : "Entra";
+  const className = kind === "drop" ? "is-drop" : "is-entry";
+  return items
+    .map(
+      (item) => `
+        <div class="points-flow ${className}">
+          <span class="points-flow-label">${label}</span>
+          <span class="points-flow-text">${escapeHtml(item)}</span>
+        </div>
+      `
+    )
+    .join("");
 }
 
 function projectionMarkup(player) {
@@ -664,8 +681,8 @@ function renderTable() {
                 <strong class="live-points">${formatNumber(player.livePoints)}</strong>
                 <span class="pill ${pointsBalance.type}">${pointsBalance.text}</span>
               </div>
-              ${pointsBalance.dropDetail ? `<div class="points-flow is-drop"><span class="points-flow-label">Sai</span><span class="points-flow-text">${escapeHtml(pointsBalance.dropDetail)}</span></div>` : ""}
-              ${pointsBalance.entryDetail ? `<div class="points-flow is-entry"><span class="points-flow-label">Entra</span><span class="points-flow-text">${escapeHtml(pointsBalance.entryDetail)}</span></div>` : ""}
+              ${renderPointsFlow(pointsBalance.dropItems, "drop")}
+              ${renderPointsFlow(pointsBalance.entryItems, "entry")}
             </div>
           </td>
           <td>${weeklyStatusMarkup(player.liveEvent)}</td>

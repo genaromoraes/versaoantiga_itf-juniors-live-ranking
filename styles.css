@@ -298,7 +298,7 @@ tbody tr.is-selected {
 .points-stack {
   display: grid;
   gap: 4px;
-  min-width: 210px;
+  min-width: 240px;
 }
 
 .points-flow {
@@ -307,7 +307,6 @@ tbody tr.is-selected {
   gap: 6px;
   font-size: 0.72rem;
   line-height: 1.35;
-  max-width: 230px;
 }
 
 .points-flow-label {
@@ -332,6 +331,7 @@ tbody tr.is-selected {
 
 .points-flow-text {
   color: var(--muted);
+  white-space: nowrap;
 }
 
 .rank {
