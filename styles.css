@@ -106,7 +106,7 @@ h2 {
 }
 
 main {
-  width: min(1360px, calc(100% - clamp(28px, 7vw, 96px)));
+  width: min(1420px, calc(100% - clamp(18px, 4vw, 48px)));
   margin: 0 auto;
   padding: 24px 0 64px;
 }
@@ -254,7 +254,7 @@ button:hover {
 
 table {
   width: 100%;
-  min-width: 1120px;
+  min-width: 980px;
   border-collapse: collapse;
 }
 
@@ -264,7 +264,7 @@ table.is-official-table {
 
 th,
 td {
-  padding: 11px 12px;
+  padding: 9px 10px;
   border-bottom: 1px solid var(--line);
   text-align: left;
   vertical-align: middle;
@@ -304,7 +304,7 @@ tbody tr.is-selected {
 .points-stack {
   display: grid;
   gap: 3px;
-  min-width: 228px;
+  min-width: 208px;
 }
 
 .points-flow {
@@ -432,7 +432,7 @@ tbody tr.is-selected {
 .projection-cell {
   display: grid;
   gap: 3px;
-  min-width: 210px;
+  min-width: 176px;
 }
 
 .projection-cell div {
@@ -457,20 +457,20 @@ tbody tr.is-selected {
 
 table:not(.is-official-table) th:nth-child(5),
 table:not(.is-official-table) td:nth-child(5) {
-  min-width: 165px;
-  width: 165px;
+  min-width: 138px;
+  width: 138px;
 }
 
 table:not(.is-official-table) th:nth-child(6),
 table:not(.is-official-table) td:nth-child(6) {
-  min-width: 220px;
-  width: 220px;
+  min-width: 182px;
+  width: 182px;
 }
 
 .week-status {
   display: grid;
   gap: 1px;
-  min-width: 155px;
+  min-width: 128px;
 }
 
 .week-status span,
@@ -568,6 +568,17 @@ table:not(.is-official-table) td:nth-child(6) {
   padding: 18px;
   border: 1px dashed var(--line);
   border-radius: 8px;
+}
+
+@media (max-width: 1240px) {
+  .ranking-workspace {
+    grid-template-columns: 1fr;
+  }
+
+  .player-panel {
+    max-height: none;
+    position: static;
+  }
 }
 
 @media (max-width: 860px) {
