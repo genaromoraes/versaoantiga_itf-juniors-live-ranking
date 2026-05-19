@@ -142,11 +142,17 @@ label,
   font-weight: 700;
 }
 
+.controls-week-card {
+  min-width: 0;
+  box-shadow: none;
+}
+
 .controls {
   display: grid;
-  grid-template-columns: minmax(260px, 1fr) minmax(170px, 230px) minmax(210px, 270px);
+  grid-template-columns: minmax(280px, 1.4fr) minmax(160px, 200px) minmax(170px, 210px) minmax(180px, 220px);
   gap: 16px;
   margin-bottom: 20px;
+  align-items: end;
 }
 
 label {
@@ -248,7 +254,7 @@ button:hover {
 
 table {
   width: 100%;
-  min-width: 860px;
+  min-width: 980px;
   border-collapse: collapse;
 }
 
@@ -426,7 +432,7 @@ tbody tr.is-selected {
 .projection-cell {
   display: grid;
   gap: 5px;
-  min-width: 118px;
+  min-width: 152px;
 }
 
 .projection-cell div {
@@ -447,6 +453,12 @@ tbody tr.is-selected {
   color: var(--accent-2);
   font-size: 0.98rem;
   font-weight: 950;
+}
+
+table:not(.is-official-table) th:nth-child(6),
+table:not(.is-official-table) td:nth-child(6) {
+  min-width: 170px;
+  width: 170px;
 }
 
 .week-status {
@@ -557,10 +569,6 @@ tbody tr.is-selected {
     align-items: stretch;
     flex-direction: column;
     width: min(100% - 28px, 1360px);
-  }
-
-  .week-card {
-    margin-left: 0;
   }
 
   .topbar-actions {
