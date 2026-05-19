@@ -7,6 +7,7 @@ const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 const sourcesFile = path.join(rootDir, "pipeline", "sources", "players.json");
 const previewFile = path.join(rootDir, "data", "itf-ranking-preview.json");
 const rankingUrl = "https://www.itftennis.com/en/rankings/world-tennis-tour-junior-rankings/?juniorRankingType=ITF";
+const rankingLimit = Number(process.env.RANKING_LIMIT || 50);
 const categories = [
   { gender: "Boys", playerType: "B" },
   { gender: "Girls", playerType: "G" }
@@ -49,7 +50,7 @@ async function scrapeCategory(page, category) {
     { timeout: 30000 }
   );
 
-  const rows = await page.evaluate(() => {
+  const rows = await page.evaluate((limit) => {
     function parseRankingNumber(value = "") {
       const cleaned = value.replace(/\s+/g, "").trim();
       if (!/^\d+(?:[.,]\d+)?$/.test(cleaned) && !/^\d{1,3}(?:[.,]\d{3})+(?:[.,]\d+)?$/.test(cleaned)) return 0;
@@ -99,17 +100,17 @@ async function scrapeCategory(page, category) {
         };
       })
       .filter(Boolean)
-      .filter((player) => player.rank >= 1 && player.rank <= 10)
-      .slice(0, 10);
-  });
+      .filter((player) => player.rank >= 1 && player.rank <= limit)
+      .slice(0, limit);
+  }, rankingLimit);
 
   const lastUpdated = await page.evaluate(() => {
     const match = document.body.innerText.match(/Last Updated:\s*\d{1,2}\s[A-Za-z]{3,9}\s\d{4}/);
     return match?.[0] || "";
   });
 
-  if (rows.length !== 10) {
-    throw new Error(`Expected 10 ${category.gender} ranking rows, found ${rows.length}.`);
+  if (rows.length !== rankingLimit) {
+    throw new Error(`Expected ${rankingLimit} ${category.gender} ranking rows, found ${rows.length}.`);
   }
 
   return {
@@ -151,8 +152,8 @@ try {
   await browser.close();
 }
 
-if (rankingPlayers.length !== categories.length * 10) {
-  throw new Error(`Expected ${categories.length * 10} total ranking rows, found ${rankingPlayers.length}.`);
+if (rankingPlayers.length !== categories.length * rankingLimit) {
+  throw new Error(`Expected ${categories.length * rankingLimit} total ranking rows, found ${rankingPlayers.length}.`);
 }
 
 await fs.writeFile(sourcesFile, `${JSON.stringify(rankingPlayers, null, 2)}\n`, "utf8");

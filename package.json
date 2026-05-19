@@ -12,7 +12,8 @@
     "scrape:player": "node pipeline/scrape-player-breakdown.mjs",
     "scrape:tournament": "node pipeline/scrape-tournament-draw.mjs",
     "scrape:weekly": "node pipeline/scrape-weekly-results.mjs",
-    "scrape:activity": "node pipeline/scrape-player-activity.mjs"
+    "scrape:activity": "node pipeline/scrape-player-activity.mjs",
+    "refresh:points": "npm run scrape:ranking && npm run scrape:player && npm run build:points-csv && npm run audit:points && npm run build:data && npm run validate:data"
   },
   "devDependencies": {
     "playwright": "^1.56.1"

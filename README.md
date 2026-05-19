@@ -38,7 +38,7 @@ Em linguagem simples: o GitHub abre o robo nesses horarios, coleta os dados da I
 
 Os leitores reais ficam na pasta `pipeline`:
 
-- `scrape-official-ranking.mjs`: le o Top 10 masculino e feminino na pagina oficial de ranking da ITF.
+- `scrape-official-ranking.mjs`: le o Top 50 masculino e feminino na pagina oficial de ranking da ITF.
 - `data/player-points.csv`: base de pontos historicos dos atletas, uma linha por resultado.
 - `data/player-points-status.csv`: relatorio de manutencao da base historica, mostrando quem esta OK e quem precisa de revisao.
 - `data/weekly-results.csv`: base semanal para informar torneio, fase atual e status quando a pagina de activity da ITF nao trouxer os dados de forma confiavel.
@@ -81,7 +81,9 @@ Cada linha representa um resultado de simples ou duplas. As colunas mais importa
 - `ranking_points`: pontos efetivos no ranking.
 - `source_counting`: `true` quando o resultado esta entre os 6 melhores daquele tipo.
 
-Depois de cada atualizacao, o robo gera `data/player-points-status.csv`. Esse arquivo mostra se a planilha mestre bate com os pontos oficiais da ITF. Quando o status aparecer como `Pendente` ou `Revisar`, aquele atleta precisa ter o breakdown conferido ou preenchido.
+Depois de cada atualizacao, o robo gera `data/player-points-status.csv`. Esse arquivo confere a saude da propria planilha mestre: datas de queda, pontos ponderados, quantidade de linhas ativas e se cada atleta tem resultados suficientes. A planilha e a fonte de verdade dos pontos historicos; a comparacao com o total oficial da ITF nao e usada como erro, porque a ITF pode demorar a atualizar.
+
+Para reconstruir a planilha do Top 50 masculino e feminino no GitHub, rode manualmente o workflow `Refresh points table`.
 
 ## Resultados da semana
 
