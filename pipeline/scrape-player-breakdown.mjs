@@ -42,7 +42,8 @@ function diagnoseEmptyBreakdown(player, reason, text = "") {
     hasPointsBreakdownText: /ITF POINTS BREAKDOWN|Total Combined Ranking Points/i.test(text),
     hasIncapsulaText: /Incapsula|Request unsuccessful|incident_id/i.test(text),
     hasCaptchaText: /captcha|hcaptcha/i.test(text),
-    sample: cleanText.slice(0, 500)
+    sample: cleanText.slice(0, 500),
+    pointsSample: cleanText.slice(Math.max(0, cleanText.search(/ITF POINTS BREAKDOWN|Total Combined Ranking Points/i) - 300), Math.max(0, cleanText.search(/ITF POINTS BREAKDOWN|Total Combined Ranking Points/i) - 300) + 2000)
   });
 }
 
