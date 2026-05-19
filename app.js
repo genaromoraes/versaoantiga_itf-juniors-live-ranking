@@ -49,6 +49,7 @@ const translations = {
     livePoints: "Pontos ao vivo",
     scenarios: "Projeção",
     playingThisWeek: "Jogando esta semana",
+    nextRound: "Próx. rodada",
     playerPoints: "Pontuações do atleta",
     emptyDetails: "Selecione um atleta para ver todos seus resultados",
     nextWin: "Próx. vitória",
@@ -87,6 +88,7 @@ const translations = {
     livePoints: "Live points",
     scenarios: "Projection",
     playingThisWeek: "Playing this week",
+    nextRound: "Next round",
     playerPoints: "Player points",
     emptyDetails: "Select a player to see all results",
     nextWin: "Next win",
@@ -125,6 +127,7 @@ const translations = {
     livePoints: "Puntos en vivo",
     scenarios: "Proyección",
     playingThisWeek: "Jugando esta semana",
+    nextRound: "Próx. ronda",
     playerPoints: "Puntos del jugador",
     emptyDetails: "Seleccione un jugador para ver todos sus resultados",
     nextWin: "Próx. victoria",
@@ -163,6 +166,7 @@ const translations = {
     livePoints: "Punti live",
     scenarios: "Proiezione",
     playingThisWeek: "In gioco questa settimana",
+    nextRound: "Prossimo turno",
     playerPoints: "Punti del giocatore",
     emptyDetails: "Seleziona un giocatore per vedere tutti i suoi risultati",
     nextWin: "Prossima vittoria",
@@ -201,6 +205,7 @@ const translations = {
     livePoints: "Points live",
     scenarios: "Projection",
     playingThisWeek: "Joue cette semaine",
+    nextRound: "Tour suivant",
     playerPoints: "Points du joueur",
     emptyDetails: "Sélectionnez un joueur pour voir tous ses résultats",
     nextWin: "Proch. victoire",
@@ -359,6 +364,54 @@ function projectedEventPoints(liveEvent, target) {
   const doublesPoints = doublesRound === "Nao joga" ? 0 : doublesValue(Math.max(doublesCurrent, doublesProjected));
 
   return singlesPoints + doublesPoints;
+}
+
+function hasActiveDraw(liveEvent, type) {
+  const status = liveEvent?.[`${type}Status`] || "";
+  const round = liveEvent?.[`${type}Round`] || "";
+  return status === "Ativo" && round && round !== "Nao joga";
+}
+
+function projectionGainForType(liveEvent, type, target) {
+  if (!hasActiveDraw(liveEvent, type)) return null;
+
+  const isDoubles = type === "doubles";
+  const table = isDoubles ? doublesGradePoints[liveEvent.grade] || {} : gradePoints[liveEvent.grade] || {};
+  const currentRound = liveEvent[`${type}Round`] || "";
+  const currentRawPoints = Number(liveEvent[`${type}Points`] || 0);
+  const targetRound = target === "next" ? nextRound[currentRound] || currentRound : "Campeao";
+  const targetRawPoints = target === "max"
+    ? Number(liveEvent[`${type}MaxPoints`] || table.Campeao || currentRawPoints)
+    : Number(table[targetRound] || currentRawPoints);
+
+  const currentPoints = isDoubles ? doublesValue(currentRawPoints) : currentRawPoints;
+  const projectedPoints = isDoubles ? doublesValue(Math.max(currentRawPoints, targetRawPoints)) : Math.max(currentRawPoints, targetRawPoints);
+  const gain = Math.max(0, projectedPoints - currentPoints);
+
+  if (!isMeaningfulPoints(gain)) return null;
+
+  return {
+    type,
+    label: isDoubles ? "(D)" : "(S)",
+    gain
+  };
+}
+
+function projectionScenarios(liveEvent, target) {
+  const scenarios = [
+    projectionGainForType(liveEvent, "singles", target),
+    projectionGainForType(liveEvent, "doubles", target)
+  ].filter(Boolean);
+
+  if (scenarios.length > 1) {
+    scenarios.push({
+      type: "combined",
+      label: "(S+D)",
+      gain: scenarios.reduce((total, item) => total + item.gain, 0)
+    });
+  }
+
+  return scenarios;
 }
 
 function normalizePlayer(player) {
@@ -626,16 +679,34 @@ function renderPointsFlow(items, kind) {
 function projectionMarkup(player) {
   if (!isActiveThisWeek(player.liveEvent)) return `<span class="empty-mark">-</span>`;
 
+  const nextScenarios = projectionScenarios(player.liveEvent, "next");
+  const titleScenarios = projectionScenarios(player.liveEvent, "max");
+  if (!nextScenarios.length && !titleScenarios.length) return `<span class="empty-mark">-</span>`;
+
+  const renderScenarioGroup = (label, scenarios) => {
+    if (!scenarios.length) return "";
+
+    return `
+      <div class="projection-group">
+        <span>${label}</span>
+        ${scenarios
+          .map(
+            (scenario) => `
+              <div class="projection-line">
+                <em>${scenario.label}</em>
+                <strong>${formatNumber(scenario.gain)} pts</strong>
+              </div>
+            `
+          )
+          .join("")}
+      </div>
+    `;
+  };
+
   return `
     <div class="projection-cell">
-      <div>
-        <span>${t("nextWin")}</span>
-        <strong>${formatNumber(player.nextWinPoints)}</strong>
-      </div>
-      <div>
-        <span>${t("champion")}</span>
-        <strong>${formatNumber(player.maxPoints)}</strong>
-      </div>
+      ${renderScenarioGroup(t("nextRound"), nextScenarios)}
+      ${renderScenarioGroup(t("champion"), titleScenarios)}
     </div>
   `;
 }

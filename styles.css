@@ -464,13 +464,13 @@ tbody tr.is-selected {
 
 .projection-cell {
   display: grid;
-  gap: 3px;
-  min-width: 176px;
+  gap: 7px;
+  min-width: 196px;
 }
 
-.projection-cell div {
+.projection-group {
   display: grid;
-  gap: 1px;
+  gap: 2px;
 }
 
 .projection-cell span {
@@ -482,10 +482,24 @@ tbody tr.is-selected {
   white-space: nowrap;
 }
 
+.projection-line {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.projection-line em {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-style: normal;
+  font-weight: 800;
+}
+
 .projection-cell strong {
   color: var(--accent-2);
-  font-size: 0.95rem;
-  font-weight: 950;
+  font-size: 0.88rem;
+  font-weight: 900;
 }
 
 table:not(.is-official-table) th:nth-child(5),
@@ -496,8 +510,8 @@ table:not(.is-official-table) td:nth-child(5) {
 
 table:not(.is-official-table) th:nth-child(6),
 table:not(.is-official-table) td:nth-child(6) {
-  min-width: 182px;
-  width: 182px;
+  min-width: 204px;
+  width: 204px;
 }
 
 .week-status {
