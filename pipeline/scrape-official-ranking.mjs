@@ -42,15 +42,8 @@ function pointsBreakdownUrl(url) {
   return url.replace(/\/$/, "") + "/itf-points-breakdown/";
 }
 
-async function scrapeCategory(page, category) {
-  await page.goto(`${rankingUrl}&playerType=${category.playerType}`, { waitUntil: "load", timeout: 60000 });
-  await page.waitForFunction(
-    () => document.body.innerText.includes("Last Updated") && document.querySelectorAll('a[href*="/en/players/"]').length >= 10,
-    null,
-    { timeout: 30000 }
-  );
-
-  const rows = await page.evaluate((limit) => {
+async function scrapeVisibleRows(page, limit) {
+  return page.evaluate((rankingLimit) => {
     function parseRankingNumber(value = "") {
       const cleaned = value.replace(/\s+/g, "").trim();
       if (!/^\d+(?:[.,]\d+)?$/.test(cleaned) && !/^\d{1,3}(?:[.,]\d{3})+(?:[.,]\d+)?$/.test(cleaned)) return 0;
@@ -100,9 +93,75 @@ async function scrapeCategory(page, category) {
         };
       })
       .filter(Boolean)
-      .filter((player) => player.rank >= 1 && player.rank <= limit)
-      .slice(0, limit);
-  }, rankingLimit);
+      .filter((player) => player.rank >= 1 && player.rank <= rankingLimit);
+  }, limit);
+}
+
+async function tableSignature(page) {
+  return page.evaluate(() => [...document.querySelectorAll("table tbody tr")].map((row) => row.innerText.trim()).join("\n"));
+}
+
+async function clickNextRankingPage(page) {
+  return page.evaluate(() => {
+    const candidates = [...document.querySelectorAll("button, a")];
+    const next = candidates.find((element) => {
+      const label = [
+        element.innerText,
+        element.getAttribute("aria-label"),
+        element.getAttribute("title"),
+        element.getAttribute("rel")
+      ]
+        .filter(Boolean)
+        .join(" ")
+        .trim()
+        .toLowerCase();
+      const disabled =
+        element.disabled ||
+        element.getAttribute("aria-disabled") === "true" ||
+        element.className?.toString().toLowerCase().includes("disabled");
+
+      return !disabled && (label === "next" || label === ">" || label === "›" || label === "»" || label.includes("next"));
+    });
+
+    if (!next) return false;
+    next.click();
+    return true;
+  });
+}
+
+async function collectRankingRows(page, limit) {
+  const rowsById = new Map();
+
+  for (let pageIndex = 0; pageIndex < Math.ceil(limit / 10) + 4; pageIndex += 1) {
+    for (const row of await scrapeVisibleRows(page, limit)) {
+      rowsById.set(row.id, row);
+    }
+
+    if (rowsById.size >= limit) break;
+
+    const before = await tableSignature(page);
+    const clicked = await clickNextRankingPage(page);
+    if (!clicked) break;
+
+    await page.waitForFunction(
+      (previous) => [...document.querySelectorAll("table tbody tr")].map((row) => row.innerText.trim()).join("\n") !== previous,
+      before,
+      { timeout: 15000 }
+    ).catch(() => {});
+  }
+
+  return [...rowsById.values()].sort((a, b) => a.rank - b.rank).slice(0, limit);
+}
+
+async function scrapeCategory(page, category) {
+  await page.goto(`${rankingUrl}&playerType=${category.playerType}`, { waitUntil: "load", timeout: 60000 });
+  await page.waitForFunction(
+    () => document.body.innerText.includes("Last Updated") && document.querySelectorAll('a[href*="/en/players/"]').length >= 10,
+    null,
+    { timeout: 30000 }
+  );
+
+  const rows = await collectRankingRows(page, rankingLimit);
 
   const lastUpdated = await page.evaluate(() => {
     const match = document.body.innerText.match(/Last Updated:\s*\d{1,2}\s[A-Za-z]{3,9}\s\d{4}/);
