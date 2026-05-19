@@ -429,6 +429,30 @@ function formatNumber(value) {
   });
 }
 
+function escapeHtml(value = "") {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
+}
+
+function pointsDropSummary(player) {
+  const defending = Array.isArray(player.defending) ? player.defending : [];
+  if (!defending.length) return "";
+
+  const summary = defending
+    .map((item) => {
+      const year = item.date ? String(item.date).slice(0, 4) : "";
+      return [item.event, item.round || item.type || "", year].filter(Boolean).join(" · ");
+    })
+    .filter(Boolean);
+
+  if (!summary.length) return "";
+  if (summary.length <= 2) return summary.join(" | ");
+  return `${summary.slice(0, 2).join(" | ")} | +${summary.length - 2}`;
+}
+
 function flagMarkup(country = "") {
   const code = String(country).toLowerCase();
   return `<span class="country-badge country-${code}" title="${country}" aria-label="${country}">${country}</span>`;
@@ -447,10 +471,11 @@ function movementLabel(player) {
 
 function pointsBalanceLabel(player) {
   const balance = player.gainedPoints - player.defendingPoints;
-  if (!balance) return { text: "0", type: "neutral" };
+  if (!balance) return { text: "0", type: "neutral", detail: "" };
   return {
     text: balance > 0 ? `+${formatNumber(balance)}` : `-${formatNumber(Math.abs(balance))}`,
-    type: balance > 0 ? "gain" : "loss"
+    type: balance > 0 ? "gain" : "loss",
+    detail: balance < 0 ? pointsDropSummary(player) : ""
   };
 }
 
@@ -528,8 +553,8 @@ function renderTable() {
         <th>${t("athlete")}</th>
         <th>${t("officialRank")}</th>
         <th>${t("livePoints")}</th>
-        <th>${t("scenarios")}</th>
         <th>${t("playingThisWeek")}</th>
+        <th>${t("scenarios")}</th>
       </tr>
     `;
 
@@ -537,6 +562,7 @@ function renderTable() {
     .map((player) => {
       const movement = movementLabel(player);
       const pointsBalance = pointsBalanceLabel(player);
+      const pointsBalanceTitle = pointsBalance.detail ? ` title="${escapeHtml(pointsBalance.detail)}" aria-label="${escapeHtml(pointsBalance.detail)}"` : "";
       const selected = state.selectedId === player.id ? " is-selected" : "";
       if (isOfficialTable) {
         return `
@@ -571,11 +597,11 @@ function renderTable() {
           <td>
             <div class="points-cell">
               <strong class="live-points">${formatNumber(player.livePoints)}</strong>
-              <span class="pill ${pointsBalance.type}">${pointsBalance.text}</span>
+              <span class="pill ${pointsBalance.type}"${pointsBalanceTitle}>${pointsBalance.text}</span>
             </div>
           </td>
-          <td class="projected-points is-max">${projectionMarkup(player)}</td>
           <td>${weeklyStatusMarkup(player.liveEvent)}</td>
+          <td class="projected-points is-max">${projectionMarkup(player)}</td>
         </tr>
       `;
     })
