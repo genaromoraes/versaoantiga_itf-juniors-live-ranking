@@ -1568,8 +1568,8 @@
     },
     {
       "id": "zangar-nurlanuly",
-      "name": "KAZAKHSTAN",
-      "country": "SINGLES",
+      "name": "Zangar Nurlanuly",
+      "country": "KAZ",
       "gender": "Boys",
       "currentRank": 8,
       "sourceUrl": "https://www.itftennis.com/en/players/zangar-nurlanuly/800543488/kaz/jt/s/itf-points-breakdown/",
@@ -1579,7 +1579,10 @@
           "event": "US Open Junior Tennis Championships",
           "date": "2025-08-31",
           "grade": "JGS",
+          "country": "USA",
           "surface": "Hard",
+          "round": "SF",
+          "draw": "M",
           "points": 490,
           "sourceCounting": true
         },
@@ -1587,7 +1590,10 @@
           "event": "Australian Open Junior Championships",
           "date": "2026-01-24",
           "grade": "JGS",
+          "country": "Australia",
           "surface": "Hard",
+          "round": "SF",
+          "draw": "M",
           "points": 490,
           "sourceCounting": true
         },
@@ -1595,7 +1601,10 @@
           "event": "J300 Wanju (Closed Asia Regional Championship)",
           "date": "2025-10-06",
           "grade": "J300",
+          "country": "Korea, Rep.",
           "surface": "Hard",
+          "round": "WR",
+          "draw": "M",
           "points": 300,
           "sourceCounting": true
         },
@@ -1603,7 +1612,10 @@
           "event": "J200 Chuncheon",
           "date": "2025-09-30",
           "grade": "J200",
+          "country": "Korea, Rep.",
           "surface": "Hard",
+          "round": "WR",
+          "draw": "M",
           "points": 200,
           "sourceCounting": true
         },
@@ -1611,7 +1623,10 @@
           "event": "J500 Offenbach",
           "date": "2026-05-04",
           "grade": "J500",
+          "country": "Germany",
           "surface": "Clay",
+          "round": "QF",
+          "draw": "M",
           "points": 150,
           "sourceCounting": true
         },
@@ -1619,7 +1634,10 @@
           "event": "J300 Traralgon",
           "date": "2026-01-16",
           "grade": "J300",
+          "country": "Australia",
           "surface": "Hard",
+          "round": "QF",
+          "draw": "M",
           "points": 100,
           "sourceCounting": true
         },
@@ -1627,7 +1645,10 @@
           "event": "J500 Osaka",
           "date": "2025-09-22",
           "grade": "J500",
+          "country": "Japan",
           "surface": "Hard",
+          "round": "R32",
+          "draw": "M",
           "points": 45,
           "sourceCounting": false
         },
@@ -1635,7 +1656,10 @@
           "event": "J300 Roehampton",
           "date": "2025-06-29",
           "grade": "J300",
+          "country": "Great Britain",
           "surface": "Grass",
+          "round": "R64",
+          "draw": "M",
           "points": 0,
           "sourceCounting": false
         },
@@ -1643,7 +1667,10 @@
           "event": "J300 College Park",
           "date": "2025-08-18",
           "grade": "J300",
+          "country": "USA",
           "surface": "Hard",
+          "round": "R32",
+          "draw": "M",
           "points": 0,
           "sourceCounting": false
         },
@@ -1651,7 +1678,10 @@
           "event": "Roland Garros Junior Championships",
           "date": "2025-06-01",
           "grade": "JGS",
+          "country": "France",
           "surface": "Clay",
+          "round": "R64",
+          "draw": "M",
           "points": 0,
           "sourceCounting": false
         },
@@ -1659,7 +1689,10 @@
           "event": "The Junior Championships, Wimbledon",
           "date": "2025-07-05",
           "grade": "JGS",
+          "country": "Great Britain",
           "surface": "Grass",
+          "round": "R64",
+          "draw": "M",
           "points": 0,
           "sourceCounting": false
         }
@@ -1669,7 +1702,10 @@
           "event": "The Junior Championships, Wimbledon",
           "date": "2025-07-05",
           "grade": "JGS",
+          "country": "Great Britain",
           "surface": "Grass",
+          "round": "R16",
+          "draw": "M",
           "points": 135,
           "sourceCounting": true
         },
@@ -1677,7 +1713,10 @@
           "event": "US Open Junior Tennis Championships",
           "date": "2025-08-31",
           "grade": "JGS",
+          "country": "USA",
           "surface": "Hard",
+          "round": "R16",
+          "draw": "M",
           "points": 135,
           "sourceCounting": true
         },
@@ -1685,7 +1724,10 @@
           "event": "J300 Roehampton",
           "date": "2025-06-29",
           "grade": "J300",
+          "country": "Great Britain",
           "surface": "Grass",
+          "round": "SF",
+          "draw": "M",
           "points": 105,
           "sourceCounting": true
         },
@@ -1693,7 +1735,10 @@
           "event": "J300 Traralgon",
           "date": "2026-01-16",
           "grade": "J300",
+          "country": "Australia",
           "surface": "Hard",
+          "round": "QF",
+          "draw": "M",
           "points": 75,
           "sourceCounting": true
         },
@@ -1701,7 +1746,10 @@
           "event": "J300 College Park",
           "date": "2025-08-18",
           "grade": "J300",
+          "country": "USA",
           "surface": "Hard",
+          "round": "R32",
+          "draw": "M",
           "points": 0,
           "sourceCounting": true
         },
@@ -1709,7 +1757,10 @@
           "event": "Roland Garros Junior Championships",
           "date": "2025-06-01",
           "grade": "JGS",
+          "country": "France",
           "surface": "Clay",
+          "round": "R32",
+          "draw": "M",
           "points": 0,
           "sourceCounting": true
         },
@@ -1717,12 +1768,15 @@
           "event": "Australian Open Junior Championships",
           "date": "2026-01-24",
           "grade": "JGS",
+          "country": "Australia",
           "surface": "Hard",
+          "round": "R32",
+          "draw": "M",
           "points": 0,
           "sourceCounting": false
         }
       ],
-      "scrapedAt": "17/05/2026, 23:50"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "thilo-behrmann",
@@ -2732,7 +2786,7 @@
           "sourceCounting": false
         }
       ],
-      "scrapedAt": "19/05/2026, 09:24"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "andrew-johnson",
@@ -2967,7 +3021,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "michael-antonius",
@@ -5155,7 +5209,7 @@
           "sourceCounting": false
         }
       ],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "mathys-domenc",
@@ -5745,7 +5799,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "simone-massellani",
@@ -6068,7 +6122,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "hyu-kawanishi",
@@ -6446,7 +6500,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "kai-thompson",
@@ -6856,7 +6910,7 @@
           "sourceCounting": false
         }
       ],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "matteo-gribaldo",
@@ -7677,7 +7731,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "daniel-jovanovski",
@@ -7689,7 +7743,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "savva-rybkin",
@@ -8067,7 +8121,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "mark-ceban",
@@ -8079,7 +8133,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "emilio-camacho",
@@ -8091,7 +8145,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "valentin-gonzalez-galino",
@@ -8103,7 +8157,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "daniel-jade",
@@ -8115,7 +8169,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "kanta-watanabe",
@@ -8127,7 +8181,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "vincent-reisach",
@@ -8139,7 +8193,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "jakub-kusy",
@@ -8151,7 +8205,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "pedro-henrique-chabalgoity",
@@ -8160,10 +8214,342 @@
       "gender": "Boys",
       "currentRank": 42,
       "sourceUrl": "https://www.itftennis.com/en/players/pedro-henrique-chabalgoity/800650301/bra/jt/s/itf-points-breakdown/",
-      "totalCombinedPoints": 0,
-      "singles": [],
-      "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "totalCombinedPoints": 1090.5,
+      "singles": [
+        {
+          "event": "J300 Porto Alegre",
+          "date": "2026-03-09",
+          "grade": "J300",
+          "country": "Brazil",
+          "surface": "Clay",
+          "round": "WR",
+          "draw": "M",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Santa Cruz (South America Regional Championships)",
+          "date": "2026-02-23",
+          "grade": "J300",
+          "country": "Bolivia",
+          "surface": "Clay",
+          "round": "RU",
+          "draw": "M",
+          "points": 210,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Santa Croce Sull’Arno",
+          "date": "2026-05-11",
+          "grade": "J300",
+          "country": "Italy",
+          "surface": "Clay",
+          "round": "SF",
+          "draw": "M",
+          "points": 140,
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Gladbeck",
+          "date": "2025-06-17",
+          "grade": "J200",
+          "country": "Germany",
+          "surface": "Clay",
+          "round": "RU",
+          "draw": "M",
+          "points": 140,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Asuncion",
+          "date": "2026-03-02",
+          "grade": "J300",
+          "country": "Paraguay",
+          "surface": "Clay",
+          "round": "QF",
+          "draw": "M",
+          "points": 100,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bamberg",
+          "date": "2025-06-10",
+          "grade": "J300",
+          "country": "Germany",
+          "surface": "Clay",
+          "round": "R16",
+          "draw": "M",
+          "points": 60,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bradenton",
+          "date": "2025-12-01",
+          "grade": "J300",
+          "country": "USA",
+          "surface": "Clay",
+          "round": "R16",
+          "draw": "M",
+          "points": 60,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 College Park",
+          "date": "2025-08-18",
+          "grade": "J300",
+          "country": "USA",
+          "surface": "Hard",
+          "round": "R32",
+          "draw": "M",
+          "points": 30,
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "country": "USA",
+          "surface": "Hard",
+          "round": "R64",
+          "draw": "M",
+          "points": 30,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "country": "Italy",
+          "surface": "Clay",
+          "round": "R32",
+          "draw": "Q",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Merida",
+          "date": "2025-11-24",
+          "grade": "J500",
+          "country": "Mexico",
+          "surface": "Clay",
+          "round": "R64",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "date": "2025-12-08",
+          "grade": "J500",
+          "country": "USA",
+          "surface": "Clay",
+          "round": "R64",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Gaspar",
+          "date": "2026-03-16",
+          "grade": "J500",
+          "country": "Brazil",
+          "surface": "Clay",
+          "round": "R32",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Charleroi-Marcinelle",
+          "date": "2025-05-26",
+          "grade": "J300",
+          "country": "Belgium",
+          "surface": "Clay",
+          "round": "R32",
+          "draw": "Q",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Barranquilla",
+          "date": "2026-01-26",
+          "grade": "J300",
+          "country": "Colombia",
+          "surface": "Hard",
+          "round": "R32",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "country": "France",
+          "surface": "Clay",
+          "round": "R64",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J500 Gaspar",
+          "date": "2026-03-16",
+          "grade": "J500",
+          "country": "Brazil",
+          "surface": "Clay",
+          "round": "SF",
+          "draw": "M",
+          "points": 187,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bradenton",
+          "date": "2025-12-01",
+          "grade": "J300",
+          "country": "USA",
+          "surface": "Clay",
+          "round": "QF",
+          "draw": "M",
+          "points": 75,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Barranquilla",
+          "date": "2026-01-26",
+          "grade": "J300",
+          "country": "Colombia",
+          "surface": "Hard",
+          "round": "QF",
+          "draw": "M",
+          "points": 75,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Santa Cruz (South America Regional Championships)",
+          "date": "2026-02-23",
+          "grade": "J300",
+          "country": "Bolivia",
+          "surface": "Clay",
+          "round": "QF",
+          "draw": "M",
+          "points": 75,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Porto Alegre",
+          "date": "2026-03-09",
+          "grade": "J300",
+          "country": "Brazil",
+          "surface": "Clay",
+          "round": "QF",
+          "draw": "M",
+          "points": 75,
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Gladbeck",
+          "date": "2025-06-17",
+          "grade": "J200",
+          "country": "Germany",
+          "surface": "Clay",
+          "round": "SF",
+          "draw": "M",
+          "points": 75,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Merida",
+          "date": "2025-11-24",
+          "grade": "J500",
+          "country": "Mexico",
+          "surface": "Clay",
+          "round": "R16",
+          "draw": "M",
+          "points": 67,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 College Park",
+          "date": "2025-08-18",
+          "grade": "J300",
+          "country": "USA",
+          "surface": "Hard",
+          "round": "R16",
+          "draw": "M",
+          "points": 45,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "country": "Italy",
+          "surface": "Clay",
+          "round": "R32",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "date": "2025-12-08",
+          "grade": "J500",
+          "country": "USA",
+          "surface": "Clay",
+          "round": "R32",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bamberg",
+          "date": "2025-06-10",
+          "grade": "J300",
+          "country": "Germany",
+          "surface": "Clay",
+          "round": "R16",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Santa Croce Sull’Arno",
+          "date": "2026-05-11",
+          "grade": "J300",
+          "country": "Italy",
+          "surface": "Clay",
+          "round": "R16",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "country": "France",
+          "surface": "Clay",
+          "round": "R32",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "country": "USA",
+          "surface": "Hard",
+          "round": "R32",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "kirill-filaretov",
@@ -8175,7 +8561,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "leon-sloboda",
@@ -8187,7 +8573,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "gavin-goode",
@@ -8199,7 +8585,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "jack-secord",
@@ -8208,10 +8594,298 @@
       "gender": "Boys",
       "currentRank": 46,
       "sourceUrl": "https://www.itftennis.com/en/players/jack-secord/800720203/usa/jt/s/itf-points-breakdown/",
-      "totalCombinedPoints": 0,
-      "singles": [],
-      "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "totalCombinedPoints": 1053.5,
+      "singles": [
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "country": "Great Britain",
+          "surface": "Grass",
+          "round": "R16",
+          "draw": "M",
+          "points": 180,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Gaspar",
+          "date": "2026-03-16",
+          "grade": "J500",
+          "country": "Brazil",
+          "surface": "Clay",
+          "round": "QF",
+          "draw": "M",
+          "points": 150,
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Aldershot",
+          "date": "2026-04-20",
+          "grade": "J200",
+          "country": "Great Britain",
+          "surface": "Hard",
+          "round": "RU",
+          "draw": "M",
+          "points": 140,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Asuncion",
+          "date": "2026-03-02",
+          "grade": "J300",
+          "country": "Paraguay",
+          "surface": "Clay",
+          "round": "QF",
+          "draw": "M",
+          "points": 100,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "country": "France",
+          "surface": "Clay",
+          "round": "R32",
+          "draw": "M",
+          "points": 90,
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "country": "Australia",
+          "surface": "Hard",
+          "round": "R32",
+          "draw": "M",
+          "points": 90,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 College Park",
+          "date": "2025-08-18",
+          "grade": "J300",
+          "country": "USA",
+          "surface": "Hard",
+          "round": "R16",
+          "draw": "M",
+          "points": 60,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Santa Croce Sull’Arno",
+          "date": "2026-05-11",
+          "grade": "J300",
+          "country": "Italy",
+          "surface": "Clay",
+          "round": "R16",
+          "draw": "M",
+          "points": 60,
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Woodbridge",
+          "date": "2026-04-07",
+          "grade": "J200",
+          "country": "Canada",
+          "surface": "Hard",
+          "round": "QF",
+          "draw": "M",
+          "points": 60,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "country": "Italy",
+          "surface": "Clay",
+          "round": "R32",
+          "draw": "M",
+          "points": 45,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "date": "2026-01-16",
+          "grade": "J300",
+          "country": "Australia",
+          "surface": "Hard",
+          "round": "R32",
+          "draw": "M",
+          "points": 30,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "country": "Great Britain",
+          "surface": "Grass",
+          "round": "R64",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "country": "USA",
+          "surface": "Hard",
+          "round": "R64",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "country": "USA",
+          "surface": "Hard",
+          "round": "SF",
+          "draw": "M",
+          "points": 367,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Gaspar",
+          "date": "2026-03-16",
+          "grade": "J500",
+          "country": "Brazil",
+          "surface": "Clay",
+          "round": "RU",
+          "draw": "M",
+          "points": 262,
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "country": "Great Britain",
+          "surface": "Grass",
+          "round": "QF",
+          "draw": "M",
+          "points": 225,
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Woodbridge",
+          "date": "2026-04-07",
+          "grade": "J200",
+          "country": "Canada",
+          "surface": "Hard",
+          "round": "WR",
+          "draw": "M",
+          "points": 150,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "country": "France",
+          "surface": "Clay",
+          "round": "R16",
+          "draw": "M",
+          "points": 135,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "country": "Great Britain",
+          "surface": "Grass",
+          "round": "QF",
+          "draw": "M",
+          "points": 75,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Asuncion",
+          "date": "2026-03-02",
+          "grade": "J300",
+          "country": "Paraguay",
+          "surface": "Clay",
+          "round": "QF",
+          "draw": "M",
+          "points": 75,
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Aldershot",
+          "date": "2026-04-20",
+          "grade": "J200",
+          "country": "Great Britain",
+          "surface": "Hard",
+          "round": "QF",
+          "draw": "M",
+          "points": 45,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "country": "Italy",
+          "surface": "Clay",
+          "round": "R32",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 College Park",
+          "date": "2025-08-18",
+          "grade": "J300",
+          "country": "USA",
+          "surface": "Hard",
+          "round": "R32",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "date": "2026-01-16",
+          "grade": "J300",
+          "country": "Australia",
+          "surface": "Hard",
+          "round": "R32",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Santa Croce Sull’Arno",
+          "date": "2026-05-11",
+          "grade": "J300",
+          "country": "Italy",
+          "surface": "Clay",
+          "round": "R16",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "country": "Australia",
+          "surface": "Hard",
+          "round": "R32",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "tanishk-konduri",
@@ -8223,7 +8897,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "juan-miguel-bolivar-idarraga",
@@ -8235,7 +8909,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "rihards-neimanis",
@@ -8244,10 +8918,408 @@
       "gender": "Boys",
       "currentRank": 49,
       "sourceUrl": "https://www.itftennis.com/en/players/rihards-neimanis/800589275/lat/jt/s/itf-points-breakdown/",
-      "totalCombinedPoints": 0,
-      "singles": [],
-      "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "totalCombinedPoints": 983.5,
+      "singles": [
+        {
+          "event": "J500 Osaka",
+          "date": "2025-09-22",
+          "grade": "J500",
+          "country": "Japan",
+          "surface": "Hard",
+          "round": "QF",
+          "draw": "M",
+          "points": 150,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Gaspar",
+          "date": "2026-03-16",
+          "grade": "J500",
+          "country": "Brazil",
+          "surface": "Clay",
+          "round": "QF",
+          "draw": "M",
+          "points": 150,
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Castricum",
+          "date": "2025-07-01",
+          "grade": "J200",
+          "country": "Netherlands",
+          "surface": "Clay",
+          "round": "RU",
+          "draw": "M",
+          "points": 140,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Porto Alegre",
+          "date": "2026-03-09",
+          "grade": "J300",
+          "country": "Brazil",
+          "surface": "Clay",
+          "round": "QF",
+          "draw": "M",
+          "points": 100,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Beaulieu-sur-Mer",
+          "date": "2026-04-13",
+          "grade": "J300",
+          "country": "France",
+          "surface": "Clay",
+          "round": "QF",
+          "draw": "M",
+          "points": 100,
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Miki",
+          "date": "2025-09-16",
+          "grade": "J200",
+          "country": "Japan",
+          "surface": "Hard",
+          "round": "SF",
+          "draw": "M",
+          "points": 100,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Merida",
+          "date": "2025-11-24",
+          "grade": "J500",
+          "country": "Mexico",
+          "surface": "Clay",
+          "round": "R16",
+          "draw": "M",
+          "points": 90,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Offenbach",
+          "date": "2026-05-04",
+          "grade": "J500",
+          "country": "Germany",
+          "surface": "Clay",
+          "round": "R16",
+          "draw": "M",
+          "points": 90,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Pancevo",
+          "date": "2025-08-18",
+          "grade": "J300",
+          "country": "Serbia",
+          "surface": "Clay",
+          "round": "R16",
+          "draw": "M",
+          "points": 60,
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Pilsen",
+          "date": "2025-06-23",
+          "grade": "J200",
+          "country": "Czechia",
+          "surface": "Clay",
+          "round": "R16",
+          "draw": "M",
+          "points": 36,
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Rutesheim",
+          "date": "2025-08-05",
+          "grade": "J200",
+          "country": "Germany",
+          "surface": "Clay",
+          "round": "R16",
+          "draw": "M",
+          "points": 36,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "date": "2026-01-16",
+          "grade": "J300",
+          "country": "Australia",
+          "surface": "Hard",
+          "round": "R32",
+          "draw": "M",
+          "points": 30,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "country": "Italy",
+          "surface": "Clay",
+          "round": "R64",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Charleroi-Marcinelle",
+          "date": "2025-05-26",
+          "grade": "J300",
+          "country": "Belgium",
+          "surface": "Clay",
+          "round": "R32",
+          "draw": "Q",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bytom",
+          "date": "2025-07-22",
+          "grade": "J300",
+          "country": "Poland",
+          "surface": "Clay",
+          "round": "R64",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Zapopan",
+          "date": "2025-11-17",
+          "grade": "J300",
+          "country": "Mexico",
+          "surface": "Clay",
+          "round": "R32",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Santa Croce Sull’Arno",
+          "date": "2026-05-11",
+          "grade": "J300",
+          "country": "Italy",
+          "surface": "Clay",
+          "round": "R32",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "country": "USA",
+          "surface": "Hard",
+          "round": "R32",
+          "draw": "Q",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "country": "Australia",
+          "surface": "Hard",
+          "round": "R64",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J300 Bytom",
+          "date": "2025-07-22",
+          "grade": "J300",
+          "country": "Poland",
+          "surface": "Clay",
+          "round": "WR",
+          "draw": "M",
+          "points": 225,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Porto Alegre",
+          "date": "2026-03-09",
+          "grade": "J300",
+          "country": "Brazil",
+          "surface": "Clay",
+          "round": "WR",
+          "draw": "M",
+          "points": 225,
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Rutesheim",
+          "date": "2025-08-05",
+          "grade": "J200",
+          "country": "Germany",
+          "surface": "Clay",
+          "round": "WR",
+          "draw": "M",
+          "points": 150,
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Miki",
+          "date": "2025-09-16",
+          "grade": "J200",
+          "country": "Japan",
+          "surface": "Hard",
+          "round": "WR",
+          "draw": "M",
+          "points": 150,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Osaka",
+          "date": "2025-09-22",
+          "grade": "J500",
+          "country": "Japan",
+          "surface": "Hard",
+          "round": "QF",
+          "draw": "M",
+          "points": 112,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Gaspar",
+          "date": "2026-03-16",
+          "grade": "J500",
+          "country": "Brazil",
+          "surface": "Clay",
+          "round": "QF",
+          "draw": "M",
+          "points": 112,
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Castricum",
+          "date": "2025-07-01",
+          "grade": "J200",
+          "country": "Netherlands",
+          "surface": "Clay",
+          "round": "RU",
+          "draw": "M",
+          "points": 105,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Pancevo",
+          "date": "2025-08-18",
+          "grade": "J300",
+          "country": "Serbia",
+          "surface": "Clay",
+          "round": "QF",
+          "draw": "M",
+          "points": 75,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "date": "2026-01-16",
+          "grade": "J300",
+          "country": "Australia",
+          "surface": "Hard",
+          "round": "QF",
+          "draw": "M",
+          "points": 75,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Beaulieu-sur-Mer",
+          "date": "2026-04-13",
+          "grade": "J300",
+          "country": "France",
+          "surface": "Clay",
+          "round": "QF",
+          "draw": "M",
+          "points": 75,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Offenbach",
+          "date": "2026-05-04",
+          "grade": "J500",
+          "country": "Germany",
+          "surface": "Clay",
+          "round": "R16",
+          "draw": "M",
+          "points": 67,
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Pilsen",
+          "date": "2025-06-23",
+          "grade": "J200",
+          "country": "Czechia",
+          "surface": "Clay",
+          "round": "QF",
+          "draw": "M",
+          "points": 45,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "country": "Italy",
+          "surface": "Clay",
+          "round": "R32",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Merida",
+          "date": "2025-11-24",
+          "grade": "J500",
+          "country": "Mexico",
+          "surface": "Clay",
+          "round": "R32",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Zapopan",
+          "date": "2025-11-17",
+          "grade": "J300",
+          "country": "Mexico",
+          "surface": "Clay",
+          "round": "R16",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Santa Croce Sull’Arno",
+          "date": "2026-05-11",
+          "grade": "J300",
+          "country": "Italy",
+          "surface": "Clay",
+          "round": "R16",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "country": "Australia",
+          "surface": "Hard",
+          "round": "R32",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "benjamin-azar",
@@ -8259,7 +9331,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "ksenia-efremova",
@@ -9051,8 +10123,8 @@
     },
     {
       "id": "jana-kovackova",
-      "name": "CZECHIA",
-      "country": "SINGLES",
+      "name": "Jana Kovackova",
+      "country": "CZE",
       "gender": "Girls",
       "currentRank": 7,
       "sourceUrl": "https://www.itftennis.com/en/players/jana-kovackova/800661515/cze/jt/s/itf-points-breakdown/",
@@ -9062,23 +10134,21 @@
           "event": "J300 Zapopan",
           "date": "2025-11-17",
           "grade": "J300",
+          "country": "Mexico",
           "surface": "Clay",
+          "round": "WR",
+          "draw": "M",
           "points": 300,
           "sourceCounting": true
         },
         {
           "event": "2025 ITF World Tennis Tour Junior Finals",
-          "date": "2025-10-22",
-          "grade": "JM",
-          "surface": "Hard",
-          "points": 260,
-          "sourceCounting": true
-        },
-        {
-          "event": "J500 Merida",
           "date": "2025-11-24",
-          "grade": "J500",
+          "grade": "JM",
+          "country": "China, P.R. 22 Oct 2025 Hard 3 M 260 J500 Merida J500 Mexico",
           "surface": "Clay",
+          "round": "SF",
+          "draw": "M",
           "points": 250,
           "sourceCounting": true
         },
@@ -9086,7 +10156,10 @@
           "event": "US Open Junior Tennis Championships",
           "date": "2025-08-31",
           "grade": "JGS",
+          "country": "USA",
           "surface": "Hard",
+          "round": "R16",
+          "draw": "M",
           "points": 180,
           "sourceCounting": true
         },
@@ -9094,7 +10167,10 @@
           "event": "J300 Roehampton",
           "date": "2025-06-29",
           "grade": "J300",
+          "country": "Great Britain",
           "surface": "Grass",
+          "round": "SF",
+          "draw": "M",
           "points": 140,
           "sourceCounting": true
         },
@@ -9102,7 +10178,10 @@
           "event": "Roland Garros Junior Championships",
           "date": "2025-06-01",
           "grade": "JGS",
+          "country": "France",
           "surface": "Clay",
+          "round": "R32",
+          "draw": "M",
           "points": 90,
           "sourceCounting": true
         },
@@ -9110,7 +10189,10 @@
           "event": "The Junior Championships, Wimbledon",
           "date": "2025-07-05",
           "grade": "JGS",
+          "country": "Great Britain",
           "surface": "Grass",
+          "round": "R32",
+          "draw": "M",
           "points": 90,
           "sourceCounting": false
         },
@@ -9118,7 +10200,10 @@
           "event": "Australian Open Junior Championships",
           "date": "2026-01-24",
           "grade": "JGS",
+          "country": "Australia",
           "surface": "Hard",
+          "round": "R32",
+          "draw": "M",
           "points": 90,
           "sourceCounting": false
         },
@@ -9126,7 +10211,10 @@
           "event": "J500 Milan",
           "date": "2025-05-19",
           "grade": "J500",
+          "country": "Italy",
           "surface": "Clay",
+          "round": "R64",
+          "draw": "M",
           "points": 0,
           "sourceCounting": false
         }
@@ -9136,7 +10224,10 @@
           "event": "US Open Junior Tennis Championships",
           "date": "2025-08-31",
           "grade": "JGS",
+          "country": "USA",
           "surface": "Hard",
+          "round": "WR",
+          "draw": "M",
           "points": 750,
           "sourceCounting": true
         },
@@ -9144,7 +10235,10 @@
           "event": "Australian Open Junior Championships",
           "date": "2026-01-24",
           "grade": "JGS",
+          "country": "Australia",
           "surface": "Hard",
+          "round": "WR",
+          "draw": "M",
           "points": 750,
           "sourceCounting": true
         },
@@ -9152,7 +10246,10 @@
           "event": "Roland Garros Junior Championships",
           "date": "2025-06-01",
           "grade": "JGS",
+          "country": "France",
           "surface": "Clay",
+          "round": "RU",
+          "draw": "M",
           "points": 525,
           "sourceCounting": true
         },
@@ -9160,7 +10257,10 @@
           "event": "J500 Milan",
           "date": "2025-05-19",
           "grade": "J500",
+          "country": "Italy",
           "surface": "Clay",
+          "round": "WR",
+          "draw": "M",
           "points": 375,
           "sourceCounting": true
         },
@@ -9168,7 +10268,10 @@
           "event": "The Junior Championships, Wimbledon",
           "date": "2025-07-05",
           "grade": "JGS",
+          "country": "Great Britain",
           "surface": "Grass",
+          "round": "SF",
+          "draw": "M",
           "points": 367,
           "sourceCounting": true
         },
@@ -9176,7 +10279,10 @@
           "event": "J500 Merida",
           "date": "2025-11-24",
           "grade": "J500",
+          "country": "Mexico",
           "surface": "Clay",
+          "round": "RU",
+          "draw": "M",
           "points": 262,
           "sourceCounting": true
         },
@@ -9184,7 +10290,10 @@
           "event": "J300 Roehampton",
           "date": "2025-06-29",
           "grade": "J300",
+          "country": "Great Britain",
           "surface": "Grass",
+          "round": "WR",
+          "draw": "M",
           "points": 225,
           "sourceCounting": false
         },
@@ -9192,12 +10301,15 @@
           "event": "J300 Zapopan",
           "date": "2025-11-17",
           "grade": "J300",
+          "country": "Mexico",
           "surface": "Clay",
+          "round": "WR",
+          "draw": "M",
           "points": 225,
           "sourceCounting": false
         }
       ],
-      "scrapedAt": "17/05/2026, 23:54"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "xinran-sun",
@@ -9509,7 +10621,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "nauhany-vitoria-leme-da-silva",
@@ -9518,10 +10630,199 @@
       "gender": "Girls",
       "currentRank": 11,
       "sourceUrl": "https://www.itftennis.com/en/players/nauhany-vitoria-leme-da-silva/800695060/bra/jt/s/itf-points-breakdown/",
-      "totalCombinedPoints": 0,
-      "singles": [],
-      "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "totalCombinedPoints": 1677.25,
+      "singles": [
+        {
+          "event": "J500 Gaspar",
+          "date": "2026-03-16",
+          "grade": "J500",
+          "country": "Brazil",
+          "surface": "Clay",
+          "round": "WR",
+          "draw": "M",
+          "points": 500,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Santa Cruz (South America Regional Championships)",
+          "date": "2026-02-23",
+          "grade": "J300",
+          "country": "Bolivia",
+          "surface": "Clay",
+          "round": "WR",
+          "draw": "M",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Porto Alegre",
+          "date": "2026-03-09",
+          "grade": "J300",
+          "country": "Brazil",
+          "surface": "Clay",
+          "round": "WR",
+          "draw": "M",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "country": "Great Britain",
+          "surface": "Grass",
+          "round": "R16",
+          "draw": "M",
+          "points": 180,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "country": "Italy",
+          "surface": "Clay",
+          "round": "R16",
+          "draw": "M",
+          "points": 90,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "country": "France",
+          "surface": "Clay",
+          "round": "R32",
+          "draw": "M",
+          "points": 90,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Repentigny",
+          "date": "2025-08-24",
+          "grade": "J300",
+          "country": "Canada",
+          "surface": "Hard",
+          "round": "R16",
+          "draw": "M",
+          "points": 60,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "country": "Great Britain",
+          "surface": "Grass",
+          "round": "R32",
+          "draw": "M",
+          "points": 30,
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "country": "USA",
+          "surface": "Hard",
+          "round": "R64",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J500 Gaspar",
+          "date": "2026-03-16",
+          "grade": "J500",
+          "country": "Brazil",
+          "surface": "Clay",
+          "round": "RU",
+          "draw": "M",
+          "points": 262,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Santa Cruz (South America Regional Championships)",
+          "date": "2026-02-23",
+          "grade": "J300",
+          "country": "Bolivia",
+          "surface": "Clay",
+          "round": "WR",
+          "draw": "M",
+          "points": 225,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Porto Alegre",
+          "date": "2026-03-09",
+          "grade": "J300",
+          "country": "Brazil",
+          "surface": "Clay",
+          "round": "WR",
+          "draw": "M",
+          "points": 225,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "date": "2025-05-19",
+          "grade": "J500",
+          "country": "Italy",
+          "surface": "Clay",
+          "round": "QF",
+          "draw": "M",
+          "points": 112,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "country": "Great Britain",
+          "surface": "Grass",
+          "round": "R16",
+          "draw": "M",
+          "points": 45,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Repentigny",
+          "date": "2025-08-24",
+          "grade": "J300",
+          "country": "Canada",
+          "surface": "Hard",
+          "round": "R16",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "country": "France",
+          "surface": "Clay",
+          "round": "R32",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "country": "Great Britain",
+          "surface": "Grass",
+          "round": "R32",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "lilli-tagger",
@@ -9533,7 +10834,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "sol-ailin-larraya-guidi",
@@ -9545,7 +10846,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "anastasija-cvetkovic",
@@ -9557,7 +10858,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "kanon-sawashiro",
@@ -9569,7 +10870,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "charo-esquiva-banuls",
@@ -9581,7 +10882,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "ida-wobker",
@@ -9593,7 +10894,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "paola-pinera-celorio",
@@ -9605,7 +10906,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "mariella-thamm",
@@ -9617,7 +10918,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "mariia-makarova",
@@ -9629,7 +10930,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "janae-preston",
@@ -9638,10 +10939,221 @@
       "gender": "Girls",
       "currentRank": 21,
       "sourceUrl": "https://www.itftennis.com/en/players/janae-preston/800758791/usa/jt/s/itf-points-breakdown/",
-      "totalCombinedPoints": 0,
-      "singles": [],
-      "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "totalCombinedPoints": 1321,
+      "singles": [
+        {
+          "event": "J300 San Jose",
+          "date": "2026-01-19",
+          "grade": "J300",
+          "country": "Costa Rica",
+          "surface": "Hard",
+          "round": "WR",
+          "draw": "M",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Salinas",
+          "date": "2026-02-02",
+          "grade": "J300",
+          "country": "Ecuador",
+          "surface": "Hard",
+          "round": "WR",
+          "draw": "M",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Lima",
+          "date": "2026-02-09",
+          "grade": "J300",
+          "country": "Peru",
+          "surface": "Clay",
+          "round": "WR",
+          "draw": "M",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Spring - Pan American ITF",
+          "date": "2025-10-06",
+          "grade": "J300",
+          "country": "USA",
+          "surface": "Hard",
+          "round": "QF",
+          "draw": "M",
+          "points": 100,
+          "sourceCounting": true
+        },
+        {
+          "event": "J100 Guatemala",
+          "date": "2025-06-02",
+          "grade": "J100",
+          "country": "Guatemala",
+          "surface": "Hard",
+          "round": "WR",
+          "draw": "M",
+          "points": 100,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Merida",
+          "date": "2025-11-24",
+          "grade": "J500",
+          "country": "Mexico",
+          "surface": "Clay",
+          "round": "R16",
+          "draw": "M",
+          "points": 90,
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "country": "USA",
+          "surface": "Hard",
+          "round": "R32",
+          "draw": "M",
+          "points": 90,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 College Park",
+          "date": "2025-08-18",
+          "grade": "J300",
+          "country": "USA",
+          "surface": "Hard",
+          "round": "R16",
+          "draw": "M",
+          "points": 60,
+          "sourceCounting": false
+        },
+        {
+          "event": "J100 Guatemala",
+          "date": "2025-06-09",
+          "grade": "J100",
+          "country": "Guatemala",
+          "surface": "Hard",
+          "round": "RU",
+          "draw": "M",
+          "points": 60,
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "date": "2025-12-08",
+          "grade": "J500",
+          "country": "USA",
+          "surface": "Clay",
+          "round": "R32",
+          "draw": "M",
+          "points": 45,
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J300 Lima",
+          "date": "2026-02-09",
+          "grade": "J300",
+          "country": "Peru",
+          "surface": "Clay",
+          "round": "RU",
+          "draw": "M",
+          "points": 157,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Spring - Pan American ITF",
+          "date": "2025-10-06",
+          "grade": "J300",
+          "country": "USA",
+          "surface": "Hard",
+          "round": "SF",
+          "draw": "M",
+          "points": 105,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Salinas",
+          "date": "2026-02-02",
+          "grade": "J300",
+          "country": "Ecuador",
+          "surface": "Hard",
+          "round": "SF",
+          "draw": "M",
+          "points": 105,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Merida",
+          "date": "2025-11-24",
+          "grade": "J500",
+          "country": "Mexico",
+          "surface": "Clay",
+          "round": "R16",
+          "draw": "M",
+          "points": 67,
+          "sourceCounting": true
+        },
+        {
+          "event": "J100 Guatemala",
+          "date": "2025-06-02",
+          "grade": "J100",
+          "country": "Guatemala",
+          "surface": "Hard",
+          "round": "RU",
+          "draw": "M",
+          "points": 45,
+          "sourceCounting": true
+        },
+        {
+          "event": "J100 Guatemala",
+          "date": "2025-06-09",
+          "grade": "J100",
+          "country": "Guatemala",
+          "surface": "Hard",
+          "round": "RU",
+          "draw": "M",
+          "points": 45,
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "date": "2025-12-08",
+          "grade": "J500",
+          "country": "USA",
+          "surface": "Clay",
+          "round": "R32",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 College Park",
+          "date": "2025-08-18",
+          "grade": "J300",
+          "country": "USA",
+          "surface": "Hard",
+          "round": "R32",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 San Jose",
+          "date": "2026-01-19",
+          "grade": "J300",
+          "country": "Costa Rica",
+          "surface": "Hard",
+          "round": "R16",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "giulia-safina-popa",
@@ -9653,7 +11165,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "anna-pushkareva",
@@ -9665,7 +11177,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "thea-frodin",
@@ -9677,7 +11189,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "yushan-shao",
@@ -9686,10 +11198,254 @@
       "gender": "Girls",
       "currentRank": 25,
       "sourceUrl": "https://www.itftennis.com/en/players/yushan-shao/800731351/chn/jt/s/itf-points-breakdown/",
-      "totalCombinedPoints": 0,
-      "singles": [],
-      "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "totalCombinedPoints": 1244.25,
+      "singles": [
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "country": "Australia",
+          "surface": "Hard",
+          "round": "QF",
+          "draw": "M",
+          "points": 300,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Beijing",
+          "date": "2025-09-16",
+          "grade": "J300",
+          "country": "China, P.R.",
+          "surface": "Hard",
+          "round": "RU",
+          "draw": "M",
+          "points": 210,
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "country": "USA",
+          "surface": "Hard",
+          "round": "R16",
+          "draw": "M",
+          "points": 180,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Repentigny",
+          "date": "2025-08-24",
+          "grade": "J300",
+          "country": "Canada",
+          "surface": "Hard",
+          "round": "SF",
+          "draw": "M",
+          "points": 140,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Nonthaburi",
+          "date": "2026-03-02",
+          "grade": "J300",
+          "country": "Thailand",
+          "surface": "Hard",
+          "round": "SF",
+          "draw": "M",
+          "points": 140,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bamberg",
+          "date": "2025-06-10",
+          "grade": "J300",
+          "country": "Germany",
+          "surface": "Clay",
+          "round": "QF",
+          "draw": "M",
+          "points": 100,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 College Park",
+          "date": "2025-08-18",
+          "grade": "J300",
+          "country": "USA",
+          "surface": "Hard",
+          "round": "QF",
+          "draw": "M",
+          "points": 100,
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "country": "Great Britain",
+          "surface": "Grass",
+          "round": "R32",
+          "draw": "M",
+          "points": 90,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "date": "2026-01-16",
+          "grade": "J300",
+          "country": "Australia",
+          "surface": "Hard",
+          "round": "R16",
+          "draw": "M",
+          "points": 60,
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "date": "2025-06-01",
+          "grade": "JGS",
+          "country": "France",
+          "surface": "Clay",
+          "round": "R16",
+          "draw": "Q",
+          "points": 20,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Charleroi-Marcinelle",
+          "date": "2025-05-26",
+          "grade": "J300",
+          "country": "Belgium",
+          "surface": "Clay",
+          "round": "R32",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "country": "Great Britain",
+          "surface": "Grass",
+          "round": "R64",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J300 Beijing",
+          "date": "2025-09-16",
+          "grade": "J300",
+          "country": "China, P.R.",
+          "surface": "Hard",
+          "round": "WR",
+          "draw": "M",
+          "points": 225,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 College Park",
+          "date": "2025-08-18",
+          "grade": "J300",
+          "country": "USA",
+          "surface": "Hard",
+          "round": "RU",
+          "draw": "M",
+          "points": 157,
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "date": "2025-07-05",
+          "grade": "JGS",
+          "country": "Great Britain",
+          "surface": "Grass",
+          "round": "R16",
+          "draw": "M",
+          "points": 135,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Traralgon",
+          "date": "2026-01-16",
+          "grade": "J300",
+          "country": "Australia",
+          "surface": "Hard",
+          "round": "SF",
+          "draw": "M",
+          "points": 105,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bamberg",
+          "date": "2025-06-10",
+          "grade": "J300",
+          "country": "Germany",
+          "surface": "Clay",
+          "round": "QF",
+          "draw": "M",
+          "points": 75,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Charleroi-Marcinelle",
+          "date": "2025-05-26",
+          "grade": "J300",
+          "country": "Belgium",
+          "surface": "Clay",
+          "round": "QF",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Roehampton",
+          "date": "2025-06-29",
+          "grade": "J300",
+          "country": "Great Britain",
+          "surface": "Grass",
+          "round": "R32",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Nonthaburi",
+          "date": "2026-03-02",
+          "grade": "J300",
+          "country": "Thailand",
+          "surface": "Hard",
+          "round": "R16",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "date": "2025-08-31",
+          "grade": "JGS",
+          "country": "USA",
+          "surface": "Hard",
+          "round": "R32",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "date": "2026-01-24",
+          "grade": "JGS",
+          "country": "Australia",
+          "surface": "Hard",
+          "round": "R32",
+          "draw": "M",
+          "points": 0,
+          "sourceCounting": false
+        }
+      ],
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "alexandra-malova",
@@ -9701,7 +11457,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "maaya-rajeshwaran-revathi",
@@ -9713,7 +11469,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "felitsata-dorofeeva-rybas",
@@ -9725,7 +11481,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "jordyn-hazelitt",
@@ -9737,7 +11493,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "polina-skliar",
@@ -9749,7 +11505,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "welles-newman",
@@ -9761,7 +11517,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "rada-zolotareva",
@@ -9773,7 +11529,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "anastasia-lizunova",
@@ -9785,7 +11541,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "ruien-zhang",
@@ -9797,7 +11553,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "renee-alame",
@@ -9809,7 +11565,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "sofie-hettlerova",
@@ -9821,7 +11577,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "denisa-zoldakova",
@@ -9833,7 +11589,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "maia-ilinca-burcescu",
@@ -9845,7 +11601,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "yihan-qu",
@@ -9857,7 +11613,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "yu-jun-lin",
@@ -9869,7 +11625,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "nadia-lagaev",
@@ -9881,7 +11637,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "antonina-sushkova",
@@ -9893,7 +11649,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "adelina-lacinova",
@@ -9905,7 +11661,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "ha-eum-lee",
@@ -9917,7 +11673,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "maria-valentina-pop",
@@ -9929,7 +11685,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "alyssa-james",
@@ -9941,7 +11697,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "sonja-zhenikhova",
@@ -9953,7 +11709,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "luna-maria-cinalli",
@@ -9965,7 +11721,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "chukwumelije-clarke",
@@ -9977,7 +11733,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     },
     {
       "id": "yu-chen-lin",
@@ -9989,7 +11745,7 @@
       "totalCombinedPoints": 0,
       "singles": [],
       "doubles": [],
-      "scrapedAt": "19/05/2026, 09:47"
+      "scrapedAt": "19/05/2026, 14:15"
     }
   ],
   "diagnostics": [
@@ -9998,12 +11754,36 @@
       "name": "Ivan Ivanov",
       "sourceUrl": "https://www.itftennis.com/en/players/ivan-ivanov/800586822/bul/jt/s/itf-points-breakdown/",
       "reason": "new scrape returned no results",
-      "textLength": 3940,
+      "textLength": 4360,
       "hasPointsBreakdownText": true,
       "hasIncapsulaText": false,
       "hasCaptchaText": false,
-      "sample": "Sign Up Register to receive unrivalled access to the world of tennis EN SIGN UP IPIN TOURNAMENTS ITF WORLD TENNIS TOUR CALENDARS Women's Calendar Men's Calendar Juniors Calendar ITF TOURNAMENT CALENDARS Masters Tour Calendar Wheelchair Tennis Calendar Beach Tennis Calendar ITF COMPETITION CALENDARS Billie Jean King Cup Calendar Davis Cup Calendar ITF TOURS TOURS Women's World Tennis Tour Men's World Tennis Tour World Tennis Tour Juniors Live match centre World Tennis Masters Tour UNIQLO Wheelcha",
+      "sample": "Sign Up Register to receive unrivalled access to the world of tennis Get all the latest news, information plus access to exclusive content and offers from across the world of tennis, including the Billie Jean King Cup, Davis Cup and ITF World Tennis Number. Yes I would like to receive news, information and special offers via email, from the ITF For details on how we use your data, please visit our Marketing Privacy Notice on the ITF website. You can unsubscribe any time. SUBMIT EN SIGN UP IPIN T",
       "pointsSample": "ow tennis works ITF history Commercial partnerships Publications and resources FAQs Jobs Contact us GROWING THE GAME GROWING THE GAME Strategy Supporting nations Participation Tennis Play and Stay Performance Coaching Officiating Grand Slam Player Development Programme SHOP HOME PLAYERS IVAN IVANOV ITF POINTS BREAKDOWN Share: Tweet Mail IVAN Ivanov BULGARIA HEAD TO HEAD SINGLES DOUBLES Age: 17 Plays: Right Handed Preferred surface: Clay Age started: 5 JUNIORS SINGLES DOUBLES OVERVIEW ACTIVITY ITF POINTS BREAKDOWN TITLES GRAND SLAMS IVAN IVANOV JUNIORS SINGLES ITF POINTS BREAKDOWN Latest media Articles Images ARTICLE 30 Mar 2026 IVANOV ADVANCES ALONG PLAYER PATHWAY WITH BIGGEST PRO TITLE OF CAREER ITF World Tennis TourITF Juniors ARTICLE 6 Sep 2025 IVANOV FOLLOWS IN DIMITROV'S FOOTSTEPS AND CLAIMS WIMBY-US OPEN DOUBLE ITF JuniorsUS Open ARTICLE 5 Sep 2025 POPCORN READY: IVANOV AND VASILEV SET FOR ALL-BULGARIAN US OPEN FINAL ITF JuniorsUS Open ARTICLE 4 Sep 2025 BULGARIA'S IVANOV EYES FIRST WIMBLEDON-US OPEN DOUBLE SINCE 2012 ITF JuniorsUS Open ARTICLE 13 Jul 2025 TUXEDO-HUNTING IVANOV SET FOR NO. 1 SPOT AFTER WIMBLEDON TITLE SUCCESS ITF JuniorsWimbledon ARTICLE 11 Jul 2025 CHOREOGRAPHER IVANOV SETS UP SW19 FINAL CLASH WITH QUALIFIER KARKI ITF JuniorsWimbledon SEE ALL NEWS COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS Men's World Tennis Tour Women's World Tennis Tour World Tennis Tour Juniors World Tennis Masters Tour UNIQLO Wheelchair Tennis Tour Beach Tennis OLYMPICS, PARALYMPICS Olympics LA 2028 Paralympics LA 2028 ITF COMPETITIONS Billie Jean King Cup Davis Cup Hopman Cup ITF SITES & APPS IPIN Player Portal ITF Academy World Tennis Number Live Scores Rules of Tennis App Site map ITF AFFILIATES ATP WTA Australian Open Roland Garros Wimbledon US Open International Tennis Integrity Agency International Tennis Hall of Fame The Association of Centenary Clubs The International Club TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTI"
+    },
+    {
+      "id": "luis-guto-miguel",
+      "name": "Luis Guto Miguel",
+      "sourceUrl": "https://www.itftennis.com/en/players/luis-guto-miguel/800680259/bra/jt/s/itf-points-breakdown/",
+      "reason": "new scrape returned no results",
+      "textLength": 3747,
+      "hasPointsBreakdownText": true,
+      "hasIncapsulaText": false,
+      "hasCaptchaText": false,
+      "sample": "Sign Up Register to receive unrivalled access to the world of tennis Get all the latest news, information plus access to exclusive content and offers from across the world of tennis, including the Billie Jean King Cup, Davis Cup and ITF World Tennis Number. Yes I would like to receive news, information and special offers via email, from the ITF For details on how we use your data, please visit our Marketing Privacy Notice on the ITF website. You can unsubscribe any time. SUBMIT EN SIGN UP IPIN T",
+      "pointsSample": "nnis works ITF history Commercial partnerships Publications and resources FAQs Jobs Contact us GROWING THE GAME GROWING THE GAME Strategy Supporting nations Participation Tennis Play and Stay Performance Coaching Officiating Grand Slam Player Development Programme SHOP HOME PLAYERS LUIS GUTO MIGUEL ITF POINTS BREAKDOWN Share: Tweet Mail LUIS GUTO Miguel BRAZIL HEAD TO HEAD SINGLES DOUBLES Age: 17 Plays: Unknown JUNIORS SINGLES DOUBLES OVERVIEW ACTIVITY ITF POINTS BREAKDOWN TITLES GRAND SLAMS LUIS GUTO MIGUEL JUNIORS SINGLES ITF POINTS BREAKDOWN Latest media Articles ARTICLE 1 Dec 2025 GUTO MIGUEL BECOMES FIRST BRAZILIAN TO WIN J500 TITLE FOR A DECADE ITF Juniors SEE ALL NEWS COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS Men's World Tennis Tour Women's World Tennis Tour World Tennis Tour Juniors World Tennis Masters Tour UNIQLO Wheelchair Tennis Tour Beach Tennis OLYMPICS, PARALYMPICS Olympics LA 2028 Paralympics LA 2028 ITF COMPETITIONS Billie Jean King Cup Davis Cup Hopman Cup ITF SITES & APPS IPIN Player Portal ITF Academy World Tennis Number Live Scores Rules of Tennis App Site map ITF AFFILIATES ATP WTA Australian Open Roland Garros Wimbledon US Open International Tennis Integrity Agency International Tennis Hall of Fame The Association of Centenary Clubs The International Club TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY Copyright © 2026 International Tennis Federation Back to top"
+    },
+    {
+      "id": "yannick-theodor-alexandrescou",
+      "name": "Yannick Theodor Alexandrescou",
+      "sourceUrl": "https://www.itftennis.com/en/players/yannick-theodor-alexandrescou/800564683/fra/jt/s/itf-points-breakdown/",
+      "reason": "new scrape returned no results",
+      "textLength": 3651,
+      "hasPointsBreakdownText": true,
+      "hasIncapsulaText": false,
+      "hasCaptchaText": false,
+      "sample": "Sign Up Register to receive unrivalled access to the world of tennis Get all the latest news, information plus access to exclusive content and offers from across the world of tennis, including the Billie Jean King Cup, Davis Cup and ITF World Tennis Number. Yes I would like to receive news, information and special offers via email, from the ITF For details on how we use your data, please visit our Marketing Privacy Notice on the ITF website. You can unsubscribe any time. SUBMIT EN SIGN UP IPIN T",
+      "pointsSample": "F history Commercial partnerships Publications and resources FAQs Jobs Contact us GROWING THE GAME GROWING THE GAME Strategy Supporting nations Participation Tennis Play and Stay Performance Coaching Officiating Grand Slam Player Development Programme SHOP HOME PLAYERS YANNICK THEODOR ALEXANDRESCOU ITF POINTS BREAKDOWN Share: Tweet Mail YANNICK THEODOR Alexandrescou FRANCE HEAD TO HEAD SINGLES DOUBLES Age: 18 Plays: Unknown JUNIORS SINGLES DOUBLES OVERVIEW ACTIVITY ITF POINTS BREAKDOWN TITLES GRAND SLAMS YANNICK THEODOR ALEXANDRESCOU JUNIORS SINGLES ITF POINTS BREAKDOWN COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS Men's World Tennis Tour Women's World Tennis Tour World Tennis Tour Juniors World Tennis Masters Tour UNIQLO Wheelchair Tennis Tour Beach Tennis OLYMPICS, PARALYMPICS Olympics LA 2028 Paralympics LA 2028 ITF COMPETITIONS Billie Jean King Cup Davis Cup Hopman Cup ITF SITES & APPS IPIN Player Portal ITF Academy World Tennis Number Live Scores Rules of Tennis App Site map ITF AFFILIATES ATP WTA Australian Open Roland Garros Wimbledon US Open International Tennis Integrity Agency International Tennis Hall of Fame The Association of Centenary Clubs The International Club TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY Copyright © 2026 International Tennis Federation Back to top"
     },
     {
       "id": "ziga-sesko",
@@ -10018,6 +11798,18 @@
       "pointsSample": "How tennis works ITF history Commercial partnerships Publications and resources FAQs Jobs Contact us GROWING THE GAME GROWING THE GAME Strategy Supporting nations Participation Tennis Play and Stay Performance Coaching Officiating Grand Slam Player Development Programme SHOP HOME PLAYERS ZIGA SESKO ITF POINTS BREAKDOWN Share: Tweet Mail ZIGA Sesko SLOVENIA HEAD TO HEAD SINGLES DOUBLES Age: 17 Plays: Unknown JUNIORS SINGLES DOUBLES OVERVIEW ACTIVITY ITF POINTS BREAKDOWN TITLES GRAND SLAMS ZIGA SESKO JUNIORS SINGLES ITF POINTS BREAKDOWN Latest media Articles Images ARTICLE 1 Feb 2026 HISTORY FOR SESKO AS SLOVENIA CELEBRATES FIRST GRAND SLAM BOYS' CHAMP ITF JuniorsAustralian Open ARTICLE 29 Jan 2026 'I LOVE THE BIG MOMENTS': IMPRESSIVE SESKO INTO AUSSIE OPEN QUARTERS ITF JuniorsAustralian Open SEE ALL NEWS COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS Men's World Tennis Tour Women's World Tennis Tour World Tennis Tour Juniors World Tennis Masters Tour UNIQLO Wheelchair Tennis Tour Beach Tennis OLYMPICS, PARALYMPICS Olympics LA 2028 Paralympics LA 2028 ITF COMPETITIONS Billie Jean King Cup Davis Cup Hopman Cup ITF SITES & APPS IPIN Player Portal ITF Academy World Tennis Number Live Scores Rules of Tennis App Site map ITF AFFILIATES ATP WTA Australian Open Roland Garros Wimbledon US Open International Tennis Integrity Agency International Tennis Hall of Fame The Association of Centenary Clubs The International Club TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY Copyright © 2026 International Tennis Federation Back to top"
     },
     {
+      "id": "jamie-mackenzie",
+      "name": "Jamie Mackenzie",
+      "sourceUrl": "https://www.itftennis.com/en/players/jamie-mackenzie/800570117/ger/jt/s/itf-points-breakdown/",
+      "reason": "new scrape returned no results",
+      "textLength": 3908,
+      "hasPointsBreakdownText": true,
+      "hasIncapsulaText": false,
+      "hasCaptchaText": false,
+      "sample": "Sign Up Register to receive unrivalled access to the world of tennis Get all the latest news, information plus access to exclusive content and offers from across the world of tennis, including the Billie Jean King Cup, Davis Cup and ITF World Tennis Number. Yes I would like to receive news, information and special offers via email, from the ITF For details on how we use your data, please visit our Marketing Privacy Notice on the ITF website. You can unsubscribe any time. SUBMIT EN SIGN UP IPIN T",
+      "pointsSample": "ennis works ITF history Commercial partnerships Publications and resources FAQs Jobs Contact us GROWING THE GAME GROWING THE GAME Strategy Supporting nations Participation Tennis Play and Stay Performance Coaching Officiating Grand Slam Player Development Programme SHOP HOME PLAYERS JAMIE MACKENZIE ITF POINTS BREAKDOWN Share: Tweet Mail JAMIE Mackenzie GERMANY HEAD TO HEAD SINGLES DOUBLES Age: 18 Plays: Right Handed Preferred surface: Clay Age started: 6 JUNIORS SINGLES DOUBLES OVERVIEW ACTIVITY ITF POINTS BREAKDOWN TITLES GRAND SLAMS JAMIE MACKENZIE JUNIORS SINGLES ITF POINTS BREAKDOWN Latest media Articles ARTICLE 11 May 2026 'THIS MEANS THE WORLD': MACKENZIE, BARROS TRIUMPH AT J500 OFFENBACH ITF Juniors ARTICLE 24 Jan 2026 FLAME-HAIRED MACKENZIE IN RED HOT FORM AS JUNIORS ENTER AUSSIE FRAY ITF JuniorsAustralian Open SEE ALL NEWS COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS Men's World Tennis Tour Women's World Tennis Tour World Tennis Tour Juniors World Tennis Masters Tour UNIQLO Wheelchair Tennis Tour Beach Tennis OLYMPICS, PARALYMPICS Olympics LA 2028 Paralympics LA 2028 ITF COMPETITIONS Billie Jean King Cup Davis Cup Hopman Cup ITF SITES & APPS IPIN Player Portal ITF Academy World Tennis Number Live Scores Rules of Tennis App Site map ITF AFFILIATES ATP WTA Australian Open Roland Garros Wimbledon US Open International Tennis Integrity Agency International Tennis Hall of Fame The Association of Centenary Clubs The International Club TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY Copyright © 2026 International Tennis Federation Back to top"
+    },
+    {
       "id": "keaton-hance",
       "name": "Keaton Hance",
       "sourceUrl": "https://www.itftennis.com/en/players/keaton-hance/800657117/usa/jt/s/itf-points-breakdown/",
@@ -10030,16 +11822,16 @@
       "pointsSample": "w tennis works ITF history Commercial partnerships Publications and resources FAQs Jobs Contact us GROWING THE GAME GROWING THE GAME Strategy Supporting nations Participation Tennis Play and Stay Performance Coaching Officiating Grand Slam Player Development Programme SHOP HOME PLAYERS KEATON HANCE ITF POINTS BREAKDOWN Share: Tweet Mail KEATON Hance USA HEAD TO HEAD SINGLES DOUBLES Age: 18 Plays: Right Handed Age started: 1 JUNIORS SINGLES DOUBLES OVERVIEW ACTIVITY ITF POINTS BREAKDOWN TITLES GRAND SLAMS KEATON HANCE JUNIORS SINGLES ITF POINTS BREAKDOWN Latest media Articles Images ARTICLE 27 Jan 2026 SCRAMBLED EGGS, ICE BATHS, WIKIPEDIA: HANCE AT HOME IN AUSTRALIAN HEAT ITF JuniorsAustralian Open SEE ALL NEWS COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS Men's World Tennis Tour Women's World Tennis Tour World Tennis Tour Juniors World Tennis Masters Tour UNIQLO Wheelchair Tennis Tour Beach Tennis OLYMPICS, PARALYMPICS Olympics LA 2028 Paralympics LA 2028 ITF COMPETITIONS Billie Jean King Cup Davis Cup Hopman Cup ITF SITES & APPS IPIN Player Portal ITF Academy World Tennis Number Live Scores Rules of Tennis App Site map ITF AFFILIATES ATP WTA Australian Open Roland Garros Wimbledon US Open International Tennis Integrity Agency International Tennis Hall of Fame The Association of Centenary Clubs The International Club TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY Copyright © 2026 International Tennis Federation Back to top"
     },
     {
-      "id": "zangar-nurlanuly",
-      "name": "Zangar Nurlanuly",
-      "sourceUrl": "https://www.itftennis.com/en/players/zangar-nurlanuly/800543488/kaz/jt/s/itf-points-breakdown/",
+      "id": "jack-kennedy",
+      "name": "Jack Kennedy",
+      "sourceUrl": "https://www.itftennis.com/en/players/jack-kennedy/800692786/usa/jt/s/itf-points-breakdown/",
       "reason": "new scrape returned no results",
-      "textLength": 4032,
+      "textLength": 3734,
       "hasPointsBreakdownText": true,
       "hasIncapsulaText": false,
       "hasCaptchaText": false,
       "sample": "Sign Up Register to receive unrivalled access to the world of tennis Get all the latest news, information plus access to exclusive content and offers from across the world of tennis, including the Billie Jean King Cup, Davis Cup and ITF World Tennis Number. Yes I would like to receive news, information and special offers via email, from the ITF For details on how we use your data, please visit our Marketing Privacy Notice on the ITF website. You can unsubscribe any time. SUBMIT EN SIGN UP IPIN T",
-      "pointsSample": "nnis works ITF history Commercial partnerships Publications and resources FAQs Jobs Contact us GROWING THE GAME GROWING THE GAME Strategy Supporting nations Participation Tennis Play and Stay Performance Coaching Officiating Grand Slam Player Development Programme SHOP HOME PLAYERS ZANGAR NURLANULY ITF POINTS BREAKDOWN Share: Tweet Mail ZANGAR Nurlanuly KAZAKHSTAN HEAD TO HEAD SINGLES DOUBLES Age: 17 Plays: Unknown Preferred surface: Hard JUNIORS SINGLES DOUBLES OVERVIEW ACTIVITY ITF POINTS BREAKDOWN TITLES GRAND SLAMS ZANGAR NURLANULY JUNIORS SINGLES ITF POINTS BREAKDOWN Latest media Articles Images ARTICLE 28 Jan 2026 'CAN WE WAIT, PLEASE?': NURLANULY FOLLOWS RYBAKINA LEAD IN AUSTRALIA ITF JuniorsAustralian Open ARTICLE 2 Sep 2025 NURLANULY BOOSTS KAZAKHSTAN'S RISE AND SEALS BEST GRAND SLAM RESULT ITF JuniorsUS Open ARTICLE 3 Aug 2022 'LIKE A DREAM': KAZAKHSTAN REACH WORLD JUNIOR TENNIS QUARTER-FINALS ITF JuniorsITF World Junior Tennis SEE ALL NEWS COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS Men's World Tennis Tour Women's World Tennis Tour World Tennis Tour Juniors World Tennis Masters Tour UNIQLO Wheelchair Tennis Tour Beach Tennis OLYMPICS, PARALYMPICS Olympics LA 2028 Paralympics LA 2028 ITF COMPETITIONS Billie Jean King Cup Davis Cup Hopman Cup ITF SITES & APPS IPIN Player Portal ITF Academy World Tennis Number Live Scores Rules of Tennis App Site map ITF AFFILIATES ATP WTA Australian Open Roland Garros Wimbledon US Open International Tennis Integrity Agency International Tennis Hall of Fame The Association of Centenary Clubs The International Club TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY Copyright © 2026 International Tennis Federation Back to top"
+      "pointsSample": "w tennis works ITF history Commercial partnerships Publications and resources FAQs Jobs Contact us GROWING THE GAME GROWING THE GAME Strategy Supporting nations Participation Tennis Play and Stay Performance Coaching Officiating Grand Slam Player Development Programme SHOP HOME PLAYERS JACK KENNEDY ITF POINTS BREAKDOWN Share: Tweet Mail JACK Kennedy USA HEAD TO HEAD SINGLES DOUBLES Age: 17 Plays: Unknown JUNIORS SINGLES DOUBLES OVERVIEW ACTIVITY ITF POINTS BREAKDOWN TITLES GRAND SLAMS JACK KENNEDY JUNIORS SINGLES ITF POINTS BREAKDOWN Latest media Articles Images ARTICLE 3 Jun 2025 KENNEDY LEARNING LESSONS FROM THE LIKES OF SHELTON AND TIAFOE ITF Juniors SEE ALL NEWS COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS Men's World Tennis Tour Women's World Tennis Tour World Tennis Tour Juniors World Tennis Masters Tour UNIQLO Wheelchair Tennis Tour Beach Tennis OLYMPICS, PARALYMPICS Olympics LA 2028 Paralympics LA 2028 ITF COMPETITIONS Billie Jean King Cup Davis Cup Hopman Cup ITF SITES & APPS IPIN Player Portal ITF Academy World Tennis Number Live Scores Rules of Tennis App Site map ITF AFFILIATES ATP WTA Australian Open Roland Garros Wimbledon US Open International Tennis Integrity Agency International Tennis Hall of Fame The Association of Centenary Clubs The International Club TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY Copyright © 2026 International Tennis Federation Back to top"
     },
     {
       "id": "thilo-behrmann",
@@ -10066,28 +11858,52 @@
       "pointsSample": "How tennis works ITF history Commercial partnerships Publications and resources FAQs Jobs Contact us GROWING THE GAME GROWING THE GAME Strategy Supporting nations Participation Tennis Play and Stay Performance Coaching Officiating Grand Slam Player Development Programme SHOP HOME PLAYERS RYO TABATA ITF POINTS BREAKDOWN Share: Tweet Mail RYO Tabata JAPAN HEAD TO HEAD SINGLES DOUBLES Age: 18 Plays: Right Handed Preferred surface: Clay JUNIORS SINGLES DOUBLES OVERVIEW ACTIVITY ITF POINTS BREAKDOWN TITLES GRAND SLAMS RYO TABATA JUNIORS SINGLES ITF POINTS BREAKDOWN Latest media Articles Images ARTICLE 30 Jan 2026 AUSSIE OPEN BOYS' SEMIS: TABATA TO FACE SLOVENIAN HISTORY-MAKER SESKO ITF JuniorsAustralian Open ARTICLE 5 Jun 2025 TABATA FEELS HAND OF HISTORY AS JAPAN EYES ROLAND GARROS BOYS' CHAMP ITF JuniorsRoland Garros SEE ALL NEWS COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS Men's World Tennis Tour Women's World Tennis Tour World Tennis Tour Juniors World Tennis Masters Tour UNIQLO Wheelchair Tennis Tour Beach Tennis OLYMPICS, PARALYMPICS Olympics LA 2028 Paralympics LA 2028 ITF COMPETITIONS Billie Jean King Cup Davis Cup Hopman Cup ITF SITES & APPS IPIN Player Portal ITF Academy World Tennis Number Live Scores Rules of Tennis App Site map ITF AFFILIATES ATP WTA Australian Open Roland Garros Wimbledon US Open International Tennis Integrity Agency International Tennis Hall of Fame The Association of Centenary Clubs The International Club TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY Copyright © 2026 International Tennis Federation Back to top"
     },
     {
-      "id": "dimitar-kisimov",
-      "name": "Dimitar Kisimov",
-      "sourceUrl": "https://www.itftennis.com/en/players/dimitar-kisimov/800571859/bul/jt/s/itf-points-breakdown/",
+      "id": "andrew-johnson",
+      "name": "Andrew Johnson",
+      "sourceUrl": "https://www.itftennis.com/en/players/andrew-johnson/800717286/usa/jt/s/itf-points-breakdown/",
       "reason": "new scrape returned no results",
-      "textLength": 3611,
+      "textLength": 3787,
       "hasPointsBreakdownText": true,
       "hasIncapsulaText": false,
       "hasCaptchaText": false,
       "sample": "Sign Up Register to receive unrivalled access to the world of tennis Get all the latest news, information plus access to exclusive content and offers from across the world of tennis, including the Billie Jean King Cup, Davis Cup and ITF World Tennis Number. Yes I would like to receive news, information and special offers via email, from the ITF For details on how we use your data, please visit our Marketing Privacy Notice on the ITF website. You can unsubscribe any time. SUBMIT EN SIGN UP IPIN T",
-      "pointsSample": "ennis works ITF history Commercial partnerships Publications and resources FAQs Jobs Contact us GROWING THE GAME GROWING THE GAME Strategy Supporting nations Participation Tennis Play and Stay Performance Coaching Officiating Grand Slam Player Development Programme SHOP HOME PLAYERS DIMITAR KISIMOV ITF POINTS BREAKDOWN Share: Tweet Mail DIMITAR Kisimov BULGARIA HEAD TO HEAD SINGLES DOUBLES Age: 18 Plays: Unknown JUNIORS SINGLES DOUBLES OVERVIEW ACTIVITY ITF POINTS BREAKDOWN TITLES GRAND SLAMS DIMITAR KISIMOV JUNIORS SINGLES ITF POINTS BREAKDOWN COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS Men's World Tennis Tour Women's World Tennis Tour World Tennis Tour Juniors World Tennis Masters Tour UNIQLO Wheelchair Tennis Tour Beach Tennis OLYMPICS, PARALYMPICS Olympics LA 2028 Paralympics LA 2028 ITF COMPETITIONS Billie Jean King Cup Davis Cup Hopman Cup ITF SITES & APPS IPIN Player Portal ITF Academy World Tennis Number Live Scores Rules of Tennis App Site map ITF AFFILIATES ATP WTA Australian Open Roland Garros Wimbledon US Open International Tennis Integrity Agency International Tennis Hall of Fame The Association of Centenary Clubs The International Club TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY Copyright © 2026 International Tennis Federation Back to top"
+      "pointsSample": "tennis works ITF history Commercial partnerships Publications and resources FAQs Jobs Contact us GROWING THE GAME GROWING THE GAME Strategy Supporting nations Participation Tennis Play and Stay Performance Coaching Officiating Grand Slam Player Development Programme SHOP HOME PLAYERS ANDREW JOHNSON ITF POINTS BREAKDOWN Share: Tweet Mail ANDREW Johnson USA HEAD TO HEAD SINGLES DOUBLES Age: 16 Plays: Unknown Preferred surface: Hard JUNIORS SINGLES DOUBLES OVERVIEW ACTIVITY ITF POINTS BREAKDOWN TITLES GRAND SLAMS ANDREW JOHNSON JUNIORS SINGLES ITF POINTS BREAKDOWN Latest media Articles ARTICLE 17 Feb 2026 JOHNSON THE YOUNGEST SINCE ALCARAZ TO WIN ITF WORLD TENNIS TOUR TITLE ITF World Tennis TourITF Juniors SEE ALL NEWS COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS Men's World Tennis Tour Women's World Tennis Tour World Tennis Tour Juniors World Tennis Masters Tour UNIQLO Wheelchair Tennis Tour Beach Tennis OLYMPICS, PARALYMPICS Olympics LA 2028 Paralympics LA 2028 ITF COMPETITIONS Billie Jean King Cup Davis Cup Hopman Cup ITF SITES & APPS IPIN Player Portal ITF Academy World Tennis Number Live Scores Rules of Tennis App Site map ITF AFFILIATES ATP WTA Australian Open Roland Garros Wimbledon US Open International Tennis Integrity Agency International Tennis Hall of Fame The Association of Centenary Clubs The International Club TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY Copyright © 2026 International Tennis Federation Back to top"
     },
     {
       "id": "michael-antonius",
       "name": "Michael Antonius",
       "sourceUrl": "https://www.itftennis.com/en/players/michael-antonius/800732018/usa/jt/s/itf-points-breakdown/",
       "reason": "new scrape returned no results",
-      "textLength": 3868,
+      "textLength": 3908,
       "hasPointsBreakdownText": true,
       "hasIncapsulaText": false,
       "hasCaptchaText": false,
       "sample": "Sign Up Register to receive unrivalled access to the world of tennis Get all the latest news, information plus access to exclusive content and offers from across the world of tennis, including the Billie Jean King Cup, Davis Cup and ITF World Tennis Number. Yes I would like to receive news, information and special offers via email, from the ITF For details on how we use your data, please visit our Marketing Privacy Notice on the ITF website. You can unsubscribe any time. SUBMIT EN SIGN UP IPIN T",
-      "pointsSample": "nnis works ITF history Commercial partnerships Publications and resources FAQs Jobs Contact us GROWING THE GAME GROWING THE GAME Strategy Supporting nations Participation Tennis Play and Stay Performance Coaching Officiating Grand Slam Player Development Programme SHOP HOME PLAYERS MICHAEL ANTONIUS ITF POINTS BREAKDOWN Share: Tweet Mail MICHAEL Antonius USA HEAD TO HEAD SINGLES DOUBLES Age: 16 Plays: Unknown JUNIORS SINGLES DOUBLES OVERVIEW ACTIVITY ITF POINTS BREAKDOWN TITLES GRAND SLAMS MICHAEL ANTONIUS JUNIORS SINGLES ITF POINTS BREAKDOWN Latest media Articles Images ARTICLE 25 Mar 2026 ANTONIUS BECOMES YOUNGEST AMERICAN MALE TO WIN AN ITF TITLE ITF World Tennis Tour ARTICLE 12 Aug 2024 CZECHIA GIRLS, USA BOYS CROWNED 2024 WORLD JUNIOR TENNIS CHAMPIONS ITF World Junior Tennis SEE ALL NEWS COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS Men's World Tennis Tour Women's World Tennis Tour World Tennis Tour Juniors World Tennis Masters Tour UNIQLO Wheelchair Tennis Tour Beach Tennis OLYMPICS, PARALYMPICS Olympics LA 2028 Paralympics LA 2028 ITF COMPETITIONS Billie Jean King Cup Davis Cup Hopman Cup ITF SITES & APPS IPIN Player Portal ITF Academy World Tennis Number Live Scores Rules of Tennis App Site map ITF AFFILIATES ATP WTA Australian Open Roland Garros Wimbledon US Open International Tennis Integrity Agency International Tennis Hall of Fame The Association of Centenary Clubs The International Club TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY Copyright © 2026 International Tennis Federation Back to top"
+      "pointsSample": "nnis works ITF history Commercial partnerships Publications and resources FAQs Jobs Contact us GROWING THE GAME GROWING THE GAME Strategy Supporting nations Participation Tennis Play and Stay Performance Coaching Officiating Grand Slam Player Development Programme SHOP HOME PLAYERS MICHAEL ANTONIUS ITF POINTS BREAKDOWN Share: Mail MICHAEL Antonius USA HEAD TO HEAD SINGLES DOUBLES Age: 16 Plays: Unknown JUNIORS SINGLES DOUBLES OVERVIEW ACTIVITY ITF POINTS BREAKDOWN TITLES GRAND SLAMS MICHAEL ANTONIUS JUNIORS SINGLES ITF POINTS BREAKDOWN No information is available for this player Latest media Articles Images ARTICLE 25 Mar 2026 ANTONIUS BECOMES YOUNGEST AMERICAN MALE TO WIN AN ITF TITLE ITF World Tennis Tour ARTICLE 12 Aug 2024 CZECHIA GIRLS, USA BOYS CROWNED 2024 WORLD JUNIOR TENNIS CHAMPIONS ITF World Junior Tennis SEE ALL NEWS COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS Men's World Tennis Tour Women's World Tennis Tour World Tennis Tour Juniors World Tennis Masters Tour UNIQLO Wheelchair Tennis Tour Beach Tennis OLYMPICS, PARALYMPICS Olympics LA 2028 Paralympics LA 2028 ITF COMPETITIONS Billie Jean King Cup Davis Cup Hopman Cup ITF SITES & APPS IPIN Player Portal ITF Academy World Tennis Number Live Scores Rules of Tennis App Site map ITF AFFILIATES ATP WTA Australian Open Roland Garros Wimbledon US Open International Tennis Integrity Agency International Tennis Hall of Fame The Association of Centenary Clubs The International Club TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY Copyright © 2026 International Tennis Federation Back to top"
+    },
+    {
+      "id": "yannik-alvarez",
+      "name": "Yannik Alvarez",
+      "sourceUrl": "https://www.itftennis.com/en/players/yannik-alvarez/800696168/pur/jt/s/itf-points-breakdown/",
+      "reason": "new scrape returned no results",
+      "textLength": 3611,
+      "hasPointsBreakdownText": true,
+      "hasIncapsulaText": false,
+      "hasCaptchaText": false,
+      "sample": "Sign Up Register to receive unrivalled access to the world of tennis Get all the latest news, information plus access to exclusive content and offers from across the world of tennis, including the Billie Jean King Cup, Davis Cup and ITF World Tennis Number. Yes I would like to receive news, information and special offers via email, from the ITF For details on how we use your data, please visit our Marketing Privacy Notice on the ITF website. You can unsubscribe any time. SUBMIT EN SIGN UP IPIN T",
+      "pointsSample": "tennis works ITF history Commercial partnerships Publications and resources FAQs Jobs Contact us GROWING THE GAME GROWING THE GAME Strategy Supporting nations Participation Tennis Play and Stay Performance Coaching Officiating Grand Slam Player Development Programme SHOP HOME PLAYERS YANNIK ALVAREZ ITF POINTS BREAKDOWN Share: Tweet Mail YANNIK Alvarez PUERTO RICO HEAD TO HEAD SINGLES DOUBLES Age: 17 Plays: Unknown JUNIORS SINGLES DOUBLES OVERVIEW ACTIVITY ITF POINTS BREAKDOWN TITLES GRAND SLAMS YANNIK ALVAREZ JUNIORS SINGLES ITF POINTS BREAKDOWN COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS Men's World Tennis Tour Women's World Tennis Tour World Tennis Tour Juniors World Tennis Masters Tour UNIQLO Wheelchair Tennis Tour Beach Tennis OLYMPICS, PARALYMPICS Olympics LA 2028 Paralympics LA 2028 ITF COMPETITIONS Billie Jean King Cup Davis Cup Hopman Cup ITF SITES & APPS IPIN Player Portal ITF Academy World Tennis Number Live Scores Rules of Tennis App Site map ITF AFFILIATES ATP WTA Australian Open Roland Garros Wimbledon US Open International Tennis Integrity Agency International Tennis Hall of Fame The Association of Centenary Clubs The International Club TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY Copyright © 2026 International Tennis Federation Back to top"
+    },
+    {
+      "id": "dante-pagani",
+      "name": "Dante Pagani",
+      "sourceUrl": "https://www.itftennis.com/en/players/dante-pagani/800658369/arg/jt/s/itf-points-breakdown/",
+      "reason": "new scrape returned no results",
+      "textLength": 3794,
+      "hasPointsBreakdownText": true,
+      "hasIncapsulaText": false,
+      "hasCaptchaText": false,
+      "sample": "Sign Up Register to receive unrivalled access to the world of tennis Get all the latest news, information plus access to exclusive content and offers from across the world of tennis, including the Billie Jean King Cup, Davis Cup and ITF World Tennis Number. Yes I would like to receive news, information and special offers via email, from the ITF For details on how we use your data, please visit our Marketing Privacy Notice on the ITF website. You can unsubscribe any time. SUBMIT EN SIGN UP IPIN T",
+      "pointsSample": "w tennis works ITF history Commercial partnerships Publications and resources FAQs Jobs Contact us GROWING THE GAME GROWING THE GAME Strategy Supporting nations Participation Tennis Play and Stay Performance Coaching Officiating Grand Slam Player Development Programme SHOP HOME PLAYERS DANTE PAGANI ITF POINTS BREAKDOWN Share: Tweet Mail DANTE Pagani ARGENTINA HEAD TO HEAD SINGLES DOUBLES Age: 17 Plays: Right Handed Preferred surface: Clay Age started: 5 JUNIORS SINGLES DOUBLES OVERVIEW ACTIVITY ITF POINTS BREAKDOWN TITLES GRAND SLAMS DANTE PAGANI JUNIORS SINGLES ITF POINTS BREAKDOWN Latest media Articles Images ARTICLE 23 Mar 2026 PAGANI TRIUMPHS; BRAZIL HAS FIRST J500 GIRLS' SINGLES CHAMP SINCE 1990 ITF Juniors SEE ALL NEWS COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS Men's World Tennis Tour Women's World Tennis Tour World Tennis Tour Juniors World Tennis Masters Tour UNIQLO Wheelchair Tennis Tour Beach Tennis OLYMPICS, PARALYMPICS Olympics LA 2028 Paralympics LA 2028 ITF COMPETITIONS Billie Jean King Cup Davis Cup Hopman Cup ITF SITES & APPS IPIN Player Portal ITF Academy World Tennis Number Live Scores Rules of Tennis App Site map ITF AFFILIATES ATP WTA Australian Open Roland Garros Wimbledon US Open International Tennis Integrity Agency International Tennis Hall of Fame The Association of Centenary Clubs The International Club TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY Copyright © 2026 International Tennis Federation Back to top"
     },
     {
       "id": "kuan-shou-chen",
@@ -10138,6 +11954,30 @@
       "pointsSample": " tennis works ITF history Commercial partnerships Publications and resources FAQs Jobs Contact us GROWING THE GAME GROWING THE GAME Strategy Supporting nations Participation Tennis Play and Stay Performance Coaching Officiating Grand Slam Player Development Programme SHOP HOME PLAYERS MATHYS DOMENC ITF POINTS BREAKDOWN Share: Tweet Mail MATHYS Domenc FRANCE HEAD TO HEAD SINGLES DOUBLES Age: 16 Plays: Unknown JUNIORS SINGLES DOUBLES OVERVIEW ACTIVITY ITF POINTS BREAKDOWN TITLES GRAND SLAMS MATHYS DOMENC JUNIORS SINGLES ITF POINTS BREAKDOWN COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS Men's World Tennis Tour Women's World Tennis Tour World Tennis Tour Juniors World Tennis Masters Tour UNIQLO Wheelchair Tennis Tour Beach Tennis OLYMPICS, PARALYMPICS Olympics LA 2028 Paralympics LA 2028 ITF COMPETITIONS Billie Jean King Cup Davis Cup Hopman Cup ITF SITES & APPS IPIN Player Portal ITF Academy World Tennis Number Live Scores Rules of Tennis App Site map ITF AFFILIATES ATP WTA Australian Open Roland Garros Wimbledon US Open International Tennis Integrity Agency International Tennis Hall of Fame The Association of Centenary Clubs The International Club TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY Copyright © 2026 International Tennis Federation Back to top"
     },
     {
+      "id": "flynn-thomas",
+      "name": "Flynn Thomas",
+      "sourceUrl": "https://www.itftennis.com/en/players/flynn-thomas/800571129/sui/jt/s/itf-points-breakdown/",
+      "reason": "new scrape returned no results",
+      "textLength": 3780,
+      "hasPointsBreakdownText": true,
+      "hasIncapsulaText": false,
+      "hasCaptchaText": false,
+      "sample": "Sign Up Register to receive unrivalled access to the world of tennis Get all the latest news, information plus access to exclusive content and offers from across the world of tennis, including the Billie Jean King Cup, Davis Cup and ITF World Tennis Number. Yes I would like to receive news, information and special offers via email, from the ITF For details on how we use your data, please visit our Marketing Privacy Notice on the ITF website. You can unsubscribe any time. SUBMIT EN SIGN UP IPIN T",
+      "pointsSample": "w tennis works ITF history Commercial partnerships Publications and resources FAQs Jobs Contact us GROWING THE GAME GROWING THE GAME Strategy Supporting nations Participation Tennis Play and Stay Performance Coaching Officiating Grand Slam Player Development Programme SHOP HOME PLAYERS FLYNN THOMAS ITF POINTS BREAKDOWN Share: Tweet Mail FLYNN Thomas SWITZERLAND HEAD TO HEAD SINGLES DOUBLES Age: 17 Plays: Unknown Age started: 6 JUNIORS SINGLES DOUBLES OVERVIEW ACTIVITY ITF POINTS BREAKDOWN TITLES GRAND SLAMS FLYNN THOMAS JUNIORS SINGLES ITF POINTS BREAKDOWN Latest media Articles Images ARTICLE 22 Jan 2025 THOMAS BOWS OUT OF AUSTRALIAN OPEN BUT CHARMS WITH THE HELP OF CHIPS ITF JuniorsAustralian Open SEE ALL NEWS COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS Men's World Tennis Tour Women's World Tennis Tour World Tennis Tour Juniors World Tennis Masters Tour UNIQLO Wheelchair Tennis Tour Beach Tennis OLYMPICS, PARALYMPICS Olympics LA 2028 Paralympics LA 2028 ITF COMPETITIONS Billie Jean King Cup Davis Cup Hopman Cup ITF SITES & APPS IPIN Player Portal ITF Academy World Tennis Number Live Scores Rules of Tennis App Site map ITF AFFILIATES ATP WTA Australian Open Roland Garros Wimbledon US Open International Tennis Integrity Agency International Tennis Hall of Fame The Association of Centenary Clubs The International Club TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY Copyright © 2026 International Tennis Federation Back to top"
+    },
+    {
+      "id": "simone-massellani",
+      "name": "Simone Massellani",
+      "sourceUrl": "https://www.itftennis.com/en/players/simone-massellani/800668600/ita/jt/s/itf-points-breakdown/",
+      "reason": "new scrape returned no results",
+      "textLength": 3614,
+      "hasPointsBreakdownText": true,
+      "hasIncapsulaText": false,
+      "hasCaptchaText": false,
+      "sample": "Sign Up Register to receive unrivalled access to the world of tennis Get all the latest news, information plus access to exclusive content and offers from across the world of tennis, including the Billie Jean King Cup, Davis Cup and ITF World Tennis Number. Yes I would like to receive news, information and special offers via email, from the ITF For details on how we use your data, please visit our Marketing Privacy Notice on the ITF website. You can unsubscribe any time. SUBMIT EN SIGN UP IPIN T",
+      "pointsSample": "nis works ITF history Commercial partnerships Publications and resources FAQs Jobs Contact us GROWING THE GAME GROWING THE GAME Strategy Supporting nations Participation Tennis Play and Stay Performance Coaching Officiating Grand Slam Player Development Programme SHOP HOME PLAYERS SIMONE MASSELLANI ITF POINTS BREAKDOWN Share: Tweet Mail SIMONE Massellani ITALY HEAD TO HEAD SINGLES DOUBLES Age: 18 Plays: Unknown JUNIORS SINGLES DOUBLES OVERVIEW ACTIVITY ITF POINTS BREAKDOWN TITLES GRAND SLAMS SIMONE MASSELLANI JUNIORS SINGLES ITF POINTS BREAKDOWN COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS Men's World Tennis Tour Women's World Tennis Tour World Tennis Tour Juniors World Tennis Masters Tour UNIQLO Wheelchair Tennis Tour Beach Tennis OLYMPICS, PARALYMPICS Olympics LA 2028 Paralympics LA 2028 ITF COMPETITIONS Billie Jean King Cup Davis Cup Hopman Cup ITF SITES & APPS IPIN Player Portal ITF Academy World Tennis Number Live Scores Rules of Tennis App Site map ITF AFFILIATES ATP WTA Australian Open Roland Garros Wimbledon US Open International Tennis Integrity Agency International Tennis Hall of Fame The Association of Centenary Clubs The International Club TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY Copyright © 2026 International Tennis Federation Back to top"
+    },
+    {
       "id": "arnav-paparkar",
       "name": "Arnav Paparkar",
       "sourceUrl": "https://www.itftennis.com/en/players/arnav-paparkar/800573038/ind/jt/s/itf-points-breakdown/",
@@ -10150,16 +11990,52 @@
       "pointsSample": "tennis works ITF history Commercial partnerships Publications and resources FAQs Jobs Contact us GROWING THE GAME GROWING THE GAME Strategy Supporting nations Participation Tennis Play and Stay Performance Coaching Officiating Grand Slam Player Development Programme SHOP HOME PLAYERS ARNAV PAPARKAR ITF POINTS BREAKDOWN Share: Tweet Mail ARNAV Paparkar INDIA HEAD TO HEAD SINGLES DOUBLES Age: 18 Plays: Right Handed Preferred surface: Hard Age started: 6 JUNIORS SINGLES DOUBLES OVERVIEW ACTIVITY ITF POINTS BREAKDOWN TITLES GRAND SLAMS ARNAV PAPARKAR JUNIORS SINGLES ITF POINTS BREAKDOWN COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS Men's World Tennis Tour Women's World Tennis Tour World Tennis Tour Juniors World Tennis Masters Tour UNIQLO Wheelchair Tennis Tour Beach Tennis OLYMPICS, PARALYMPICS Olympics LA 2028 Paralympics LA 2028 ITF COMPETITIONS Billie Jean King Cup Davis Cup Hopman Cup ITF SITES & APPS IPIN Player Portal ITF Academy World Tennis Number Live Scores Rules of Tennis App Site map ITF AFFILIATES ATP WTA Australian Open Roland Garros Wimbledon US Open International Tennis Integrity Agency International Tennis Hall of Fame The Association of Centenary Clubs The International Club TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY Copyright © 2026 International Tennis Federation Back to top"
     },
     {
+      "id": "hyu-kawanishi",
+      "name": "Hyu Kawanishi",
+      "sourceUrl": "https://www.itftennis.com/en/players/hyu-kawanishi/800700658/jpn/jt/s/itf-points-breakdown/",
+      "reason": "new scrape returned no results",
+      "textLength": 4004,
+      "hasPointsBreakdownText": true,
+      "hasIncapsulaText": false,
+      "hasCaptchaText": false,
+      "sample": "We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience and analyze website traffic. By clicking “Accept,” you agree to our website's cookie use as described in our Cookie Policy. You can change your cookie settings at any time by clicking “Preferences.” Preferences Decline Accept Sign Up Register to receive unrivalled access to the world of tennis Get all the latest news, information plus access to exclusive content and",
+      "pointsSample": " tennis works ITF history Commercial partnerships Publications and resources FAQs Jobs Contact us GROWING THE GAME GROWING THE GAME Strategy Supporting nations Participation Tennis Play and Stay Performance Coaching Officiating Grand Slam Player Development Programme SHOP HOME PLAYERS HYU KAWANISHI ITF POINTS BREAKDOWN Share: Mail HYU Kawanishi JAPAN HEAD TO HEAD SINGLES DOUBLES Age: 17 Plays: Right Handed JUNIORS SINGLES DOUBLES OVERVIEW ACTIVITY ITF POINTS BREAKDOWN TITLES GRAND SLAMS HYU KAWANISHI JUNIORS SINGLES ITF POINTS BREAKDOWN No information is available for this player COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS Men's World Tennis Tour Women's World Tennis Tour World Tennis Tour Juniors World Tennis Masters Tour UNIQLO Wheelchair Tennis Tour Beach Tennis OLYMPICS, PARALYMPICS Olympics LA 2028 Paralympics LA 2028 ITF COMPETITIONS Billie Jean King Cup Davis Cup Hopman Cup ITF SITES & APPS IPIN Player Portal ITF Academy World Tennis Number Live Scores Rules of Tennis App Site map ITF AFFILIATES ATP WTA Australian Open Roland Garros Wimbledon US Open International Tennis Integrity Agency International Tennis Hall of Fame The Association of Centenary Clubs The International Club TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY Copyright © 2026 International Tennis Federation Back to top"
+    },
+    {
       "id": "raffaele-ciurnelli",
       "name": "Raffaele Ciurnelli",
       "sourceUrl": "https://www.itftennis.com/en/players/raffaele-ciurnelli/800589799/ita/jt/s/itf-points-breakdown/",
       "reason": "new scrape returned no results",
-      "textLength": 3662,
+      "textLength": 3617,
       "hasPointsBreakdownText": true,
       "hasIncapsulaText": false,
       "hasCaptchaText": false,
       "sample": "Sign Up Register to receive unrivalled access to the world of tennis Get all the latest news, information plus access to exclusive content and offers from across the world of tennis, including the Billie Jean King Cup, Davis Cup and ITF World Tennis Number. Yes I would like to receive news, information and special offers via email, from the ITF For details on how we use your data, please visit our Marketing Privacy Notice on the ITF website. You can unsubscribe any time. SUBMIT EN SIGN UP IPIN T",
-      "pointsSample": "is works ITF history Commercial partnerships Publications and resources FAQs Jobs Contact us GROWING THE GAME GROWING THE GAME Strategy Supporting nations Participation Tennis Play and Stay Performance Coaching Officiating Grand Slam Player Development Programme SHOP HOME PLAYERS RAFFAELE CIURNELLI ITF POINTS BREAKDOWN Share: Tweet Mail RAFFAELE Ciurnelli ITALY HEAD TO HEAD SINGLES DOUBLES Age: 18 Plays: Unknown JUNIORS SINGLES DOUBLES OVERVIEW ACTIVITY ITF POINTS BREAKDOWN TITLES GRAND SLAMS RAFFAELE CIURNELLI JUNIORS SINGLES ITF POINTS BREAKDOWN No information is available for this player COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS Men's World Tennis Tour Women's World Tennis Tour World Tennis Tour Juniors World Tennis Masters Tour UNIQLO Wheelchair Tennis Tour Beach Tennis OLYMPICS, PARALYMPICS Olympics LA 2028 Paralympics LA 2028 ITF COMPETITIONS Billie Jean King Cup Davis Cup Hopman Cup ITF SITES & APPS IPIN Player Portal ITF Academy World Tennis Number Live Scores Rules of Tennis App Site map ITF AFFILIATES ATP WTA Australian Open Roland Garros Wimbledon US Open International Tennis Integrity Agency International Tennis Hall of Fame The Association of Centenary Clubs The International Club TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY Copyright © 2026 International Tennis Federation Back to top"
+      "pointsSample": "is works ITF history Commercial partnerships Publications and resources FAQs Jobs Contact us GROWING THE GAME GROWING THE GAME Strategy Supporting nations Participation Tennis Play and Stay Performance Coaching Officiating Grand Slam Player Development Programme SHOP HOME PLAYERS RAFFAELE CIURNELLI ITF POINTS BREAKDOWN Share: Tweet Mail RAFFAELE Ciurnelli ITALY HEAD TO HEAD SINGLES DOUBLES Age: 18 Plays: Unknown JUNIORS SINGLES DOUBLES OVERVIEW ACTIVITY ITF POINTS BREAKDOWN TITLES GRAND SLAMS RAFFAELE CIURNELLI JUNIORS SINGLES ITF POINTS BREAKDOWN COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS Men's World Tennis Tour Women's World Tennis Tour World Tennis Tour Juniors World Tennis Masters Tour UNIQLO Wheelchair Tennis Tour Beach Tennis OLYMPICS, PARALYMPICS Olympics LA 2028 Paralympics LA 2028 ITF COMPETITIONS Billie Jean King Cup Davis Cup Hopman Cup ITF SITES & APPS IPIN Player Portal ITF Academy World Tennis Number Live Scores Rules of Tennis App Site map ITF AFFILIATES ATP WTA Australian Open Roland Garros Wimbledon US Open International Tennis Integrity Agency International Tennis Hall of Fame The Association of Centenary Clubs The International Club TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY Copyright © 2026 International Tennis Federation Back to top"
+    },
+    {
+      "id": "matteo-gribaldo",
+      "name": "Matteo Gribaldo",
+      "sourceUrl": "https://www.itftennis.com/en/players/matteo-gribaldo/800705107/ita/jt/s/itf-points-breakdown/",
+      "reason": "new scrape returned no results",
+      "textLength": 3652,
+      "hasPointsBreakdownText": true,
+      "hasIncapsulaText": false,
+      "hasCaptchaText": false,
+      "sample": "Sign Up Register to receive unrivalled access to the world of tennis Get all the latest news, information plus access to exclusive content and offers from across the world of tennis, including the Billie Jean King Cup, Davis Cup and ITF World Tennis Number. Yes I would like to receive news, information and special offers via email, from the ITF For details on how we use your data, please visit our Marketing Privacy Notice on the ITF website. You can unsubscribe any time. SUBMIT EN SIGN UP IPIN T",
+      "pointsSample": "ennis works ITF history Commercial partnerships Publications and resources FAQs Jobs Contact us GROWING THE GAME GROWING THE GAME Strategy Supporting nations Participation Tennis Play and Stay Performance Coaching Officiating Grand Slam Player Development Programme SHOP HOME PLAYERS MATTEO GRIBALDO ITF POINTS BREAKDOWN Share: Tweet Mail MATTEO Gribaldo ITALY HEAD TO HEAD SINGLES DOUBLES Age: 17 Plays: Right Handed Preferred surface: Clay Age started: 5 JUNIORS SINGLES DOUBLES OVERVIEW ACTIVITY ITF POINTS BREAKDOWN TITLES GRAND SLAMS MATTEO GRIBALDO JUNIORS SINGLES ITF POINTS BREAKDOWN COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS Men's World Tennis Tour Women's World Tennis Tour World Tennis Tour Juniors World Tennis Masters Tour UNIQLO Wheelchair Tennis Tour Beach Tennis OLYMPICS, PARALYMPICS Olympics LA 2028 Paralympics LA 2028 ITF COMPETITIONS Billie Jean King Cup Davis Cup Hopman Cup ITF SITES & APPS IPIN Player Portal ITF Academy World Tennis Number Live Scores Rules of Tennis App Site map ITF AFFILIATES ATP WTA Australian Open Roland Garros Wimbledon US Open International Tennis Integrity Agency International Tennis Hall of Fame The Association of Centenary Clubs The International Club TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY Copyright © 2026 International Tennis Federation Back to top"
+    },
+    {
+      "id": "damir-zhalgasbay",
+      "name": "Damir Zhalgasbay",
+      "sourceUrl": "https://www.itftennis.com/en/players/damir-zhalgasbay/800559166/kaz/jt/s/itf-points-breakdown/",
+      "reason": "new scrape returned no results",
+      "textLength": 3616,
+      "hasPointsBreakdownText": true,
+      "hasIncapsulaText": false,
+      "hasCaptchaText": false,
+      "sample": "Sign Up Register to receive unrivalled access to the world of tennis Get all the latest news, information plus access to exclusive content and offers from across the world of tennis, including the Billie Jean King Cup, Davis Cup and ITF World Tennis Number. Yes I would like to receive news, information and special offers via email, from the ITF For details on how we use your data, please visit our Marketing Privacy Notice on the ITF website. You can unsubscribe any time. SUBMIT EN SIGN UP IPIN T",
+      "pointsSample": "nnis works ITF history Commercial partnerships Publications and resources FAQs Jobs Contact us GROWING THE GAME GROWING THE GAME Strategy Supporting nations Participation Tennis Play and Stay Performance Coaching Officiating Grand Slam Player Development Programme SHOP HOME PLAYERS DAMIR ZHALGASBAY ITF POINTS BREAKDOWN Share: Tweet Mail DAMIR Zhalgasbay KAZAKHSTAN HEAD TO HEAD SINGLES DOUBLES Age: 18 Plays: Unknown JUNIORS SINGLES DOUBLES OVERVIEW ACTIVITY ITF POINTS BREAKDOWN TITLES GRAND SLAMS DAMIR ZHALGASBAY JUNIORS SINGLES ITF POINTS BREAKDOWN COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS Men's World Tennis Tour Women's World Tennis Tour World Tennis Tour Juniors World Tennis Masters Tour UNIQLO Wheelchair Tennis Tour Beach Tennis OLYMPICS, PARALYMPICS Olympics LA 2028 Paralympics LA 2028 ITF COMPETITIONS Billie Jean King Cup Davis Cup Hopman Cup ITF SITES & APPS IPIN Player Portal ITF Academy World Tennis Number Live Scores Rules of Tennis App Site map ITF AFFILIATES ATP WTA Australian Open Roland Garros Wimbledon US Open International Tennis Integrity Agency International Tennis Hall of Fame The Association of Centenary Clubs The International Club TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY Copyright © 2026 International Tennis Federation Back to top"
     },
     {
       "id": "ryan-cozad",
@@ -10172,18 +12048,6 @@
       "hasCaptchaText": false,
       "sample": "Sign Up Register to receive unrivalled access to the world of tennis Get all the latest news, information plus access to exclusive content and offers from across the world of tennis, including the Billie Jean King Cup, Davis Cup and ITF World Tennis Number. Yes I would like to receive news, information and special offers via email, from the ITF For details on how we use your data, please visit our Marketing Privacy Notice on the ITF website. You can unsubscribe any time. SUBMIT EN SIGN UP IPIN T",
       "pointsSample": "How tennis works ITF history Commercial partnerships Publications and resources FAQs Jobs Contact us GROWING THE GAME GROWING THE GAME Strategy Supporting nations Participation Tennis Play and Stay Performance Coaching Officiating Grand Slam Player Development Programme SHOP HOME PLAYERS RYAN COZAD ITF POINTS BREAKDOWN Share: Tweet Mail RYAN Cozad USA HEAD TO HEAD SINGLES DOUBLES Age: 17 Plays: Right Handed Preferred surface: Clay Age started: 3 JUNIORS SINGLES DOUBLES OVERVIEW ACTIVITY ITF POINTS BREAKDOWN TITLES GRAND SLAMS RYAN COZAD JUNIORS SINGLES ITF POINTS BREAKDOWN COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS Men's World Tennis Tour Women's World Tennis Tour World Tennis Tour Juniors World Tennis Masters Tour UNIQLO Wheelchair Tennis Tour Beach Tennis OLYMPICS, PARALYMPICS Olympics LA 2028 Paralympics LA 2028 ITF COMPETITIONS Billie Jean King Cup Davis Cup Hopman Cup ITF SITES & APPS IPIN Player Portal ITF Academy World Tennis Number Live Scores Rules of Tennis App Site map ITF AFFILIATES ATP WTA Australian Open Roland Garros Wimbledon US Open International Tennis Integrity Agency International Tennis Hall of Fame The Association of Centenary Clubs The International Club TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY Copyright © 2026 International Tennis Federation Back to top"
-    },
-    {
-      "id": "daniel-jovanovski",
-      "name": "Daniel Jovanovski",
-      "sourceUrl": "https://www.itftennis.com/en/players/daniel-jovanovski/800712851/aus/jt/s/itf-points-breakdown/",
-      "reason": "new scrape returned no results",
-      "textLength": 3663,
-      "hasPointsBreakdownText": true,
-      "hasIncapsulaText": false,
-      "hasCaptchaText": false,
-      "sample": "Sign Up Register to receive unrivalled access to the world of tennis Get all the latest news, information plus access to exclusive content and offers from across the world of tennis, including the Billie Jean King Cup, Davis Cup and ITF World Tennis Number. Yes I would like to receive news, information and special offers via email, from the ITF For details on how we use your data, please visit our Marketing Privacy Notice on the ITF website. You can unsubscribe any time. SUBMIT EN SIGN UP IPIN T",
-      "pointsSample": "nis works ITF history Commercial partnerships Publications and resources FAQs Jobs Contact us GROWING THE GAME GROWING THE GAME Strategy Supporting nations Participation Tennis Play and Stay Performance Coaching Officiating Grand Slam Player Development Programme SHOP HOME PLAYERS DANIEL JOVANOVSKI ITF POINTS BREAKDOWN Share: Tweet Mail DANIEL Jovanovski AUSTRALIA HEAD TO HEAD SINGLES DOUBLES Age: 18 Plays: Unknown JUNIORS SINGLES DOUBLES OVERVIEW ACTIVITY ITF POINTS BREAKDOWN TITLES GRAND SLAMS DANIEL JOVANOVSKI JUNIORS SINGLES ITF POINTS BREAKDOWN No information is available for this player COMMERCIAL PARTNERS DISCOVER MORE ITF TOURS Men's World Tennis Tour Women's World Tennis Tour World Tennis Tour Juniors World Tennis Masters Tour UNIQLO Wheelchair Tennis Tour Beach Tennis OLYMPICS, PARALYMPICS Olympics LA 2028 Paralympics LA 2028 ITF COMPETITIONS Billie Jean King Cup Davis Cup Hopman Cup ITF SITES & APPS IPIN Player Portal ITF Academy World Tennis Number Live Scores Rules of Tennis App Site map ITF AFFILIATES ATP WTA Australian Open Roland Garros Wimbledon US Open International Tennis Integrity Agency International Tennis Hall of Fame The Association of Centenary Clubs The International Club TERMS & CONDITIONS DATA PRIVACY COOKIES WHISTLE-BLOWING MODERN SLAVERY BRIBERY PRIVACY NOTICES ACCESSIBILITY COMPATIBILITY Copyright © 2026 International Tennis Federation Back to top"
     }
   ]
 }
