@@ -33,7 +33,7 @@ const translations = {
     updated: "Atualizado",
     siteCredit: "Criado por Info Tênis Brasil",
     language: "Idioma",
-    rankingBase: "Ranking base",
+    rankingBase: "Semana base",
     search: "Buscar atleta",
     searchPlaceholder: "Nome, país ou torneio",
     category: "Categoria",
@@ -72,7 +72,7 @@ const translations = {
     updated: "Updated",
     siteCredit: "Created by Info Tênis Brasil",
     language: "Language",
-    rankingBase: "Base ranking",
+    rankingBase: "Base week",
     search: "Search player",
     searchPlaceholder: "Name, country or tournament",
     category: "Category",
@@ -111,7 +111,7 @@ const translations = {
     updated: "Actualizado",
     siteCredit: "Creado por Info Tênis Brasil",
     language: "Idioma",
-    rankingBase: "Ranking base",
+    rankingBase: "Semana base",
     search: "Buscar jugador",
     searchPlaceholder: "Nombre, país o torneo",
     category: "Categoría",
@@ -150,7 +150,7 @@ const translations = {
     updated: "Aggiornato",
     siteCredit: "Creato da Info Tênis Brasil",
     language: "Lingua",
-    rankingBase: "Ranking base",
+    rankingBase: "Settimana base",
     search: "Cerca giocatore",
     searchPlaceholder: "Nome, paese o torneo",
     category: "Categoria",
@@ -189,7 +189,7 @@ const translations = {
     updated: "Mis à jour",
     siteCredit: "Créé par Info Tênis Brasil",
     language: "Langue",
-    rankingBase: "Classement de base",
+    rankingBase: "Semaine de base",
     search: "Rechercher joueur",
     searchPlaceholder: "Nom, pays ou tournoi",
     category: "Catégorie",
@@ -229,6 +229,69 @@ function t(key) {
   return (translations[state.language] || translations.pt)[key] || translations.pt[key] || key;
 }
 
+function parseSourceDate(value = "") {
+  if (!value) return null;
+
+  const trimmed = String(value).trim();
+  const isoMatch = trimmed.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (isoMatch) {
+    return new Date(Date.UTC(Number(isoMatch[1]), Number(isoMatch[2]) - 1, Number(isoMatch[3])));
+  }
+
+  const brMatch = trimmed.match(/^(\d{2})\/(\d{2})\/(\d{4})/);
+  if (brMatch) {
+    return new Date(Date.UTC(Number(brMatch[3]), Number(brMatch[2]) - 1, Number(brMatch[1])));
+  }
+
+  const parts = trimmed.split(/\s+/);
+  if (parts.length >= 3) {
+    const day = Number(parts[0]);
+    const monthToken = parts[1].toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    const year = Number(parts[2]);
+    const monthIndex = {
+      jan: 0,
+      fev: 1,
+      feb: 1,
+      mar: 2,
+      abr: 3,
+      apr: 3,
+      mai: 4,
+      may: 4,
+      jun: 5,
+      jul: 6,
+      ago: 7,
+      aug: 7,
+      set: 8,
+      sep: 8,
+      out: 9,
+      oct: 9,
+      nov: 10,
+      dez: 11,
+      dec: 11
+    }[monthToken];
+
+    if (Number.isInteger(day) && Number.isInteger(year) && Number.isInteger(monthIndex)) {
+      return new Date(Date.UTC(year, monthIndex, day));
+    }
+  }
+
+  return null;
+}
+
+function isoWeekNumber(date) {
+  const utc = new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate()));
+  const day = utc.getUTCDay() || 7;
+  utc.setUTCDate(utc.getUTCDate() + 4 - day);
+  const yearStart = new Date(Date.UTC(utc.getUTCFullYear(), 0, 1));
+  return Math.ceil((((utc - yearStart) / 86400000) + 1) / 7);
+}
+
+function weekLabelText(rankingDate = "") {
+  const date = parseSourceDate(rankingDate);
+  if (!date) return rankingDate;
+  return `Semana ${isoWeekNumber(date)} · ${rankingDate}`;
+}
+
 function updateStaticText() {
   document.documentElement.lang = t("htmlLang");
   els.languageSelect.value = state.language;
@@ -247,7 +310,7 @@ function updateStaticText() {
   els.playerPanelTitle.textContent = t("playerPoints");
   els.dataSourceNote.textContent = t("formula");
 
-  if (state.dataSource.rankingDate) els.weekLabel.textContent = state.dataSource.rankingDate;
+  if (state.dataSource.rankingDate) els.weekLabel.textContent = weekLabelText(state.dataSource.rankingDate);
   if (state.dataSource.updatedAt) els.updatedAtLabel.textContent = `${t("updated")} ${state.dataSource.updatedAt}`;
 }
 
