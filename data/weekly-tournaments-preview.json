@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "18/05/2026, 23:39",
+  "scrapedAt": "18/05/2026, 23:57",
   "calendarStartDate": "2026-05",
   "tournaments": [
     {
@@ -16,13 +16,14 @@
       "itfEntriesUrl": "https://itf-entries.netlify.app/tournament/J-J500-ITA-2026-001",
       "acceptedPlayers": [
         {
-          "id": "luis-guto-miguel",
+          "currentRank": 2,
           "name": "Luis Guto Miguel",
           "country": "BRA",
           "gender": "Boys",
-          "currentRank": 2,
+          "id": "luis-guto-miguel",
           "officialPoints": 2420.5,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/luis-guto-miguel/800680259/bra/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
           "entryGroup": "MD",
           "position": 1,
           "sex": "boy",
@@ -37,13 +38,14 @@
           }
         },
         {
-          "id": "jamie-mackenzie",
+          "currentRank": 5,
           "name": "Jamie Mackenzie",
           "country": "GER",
           "gender": "Boys",
-          "currentRank": 5,
+          "id": "jamie-mackenzie",
           "officialPoints": 2082,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/jamie-mackenzie/800570117/ger/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
           "entryGroup": "MD",
           "position": 2,
           "sex": "boy",
@@ -58,13 +60,14 @@
           }
         },
         {
-          "id": "thilo-behrmann",
+          "currentRank": 9,
           "name": "Thilo Behrmann",
           "country": "AUT",
           "gender": "Boys",
-          "currentRank": 9,
+          "id": "thilo-behrmann",
           "officialPoints": 1764.75,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/thilo-behrmann/800589798/aut/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
           "entryGroup": "MD",
           "position": 3,
           "sex": "boy",
@@ -79,13 +82,707 @@
           }
         },
         {
-          "id": "jana-kovackova",
+          "currentRank": 14,
+          "name": "Michael Antonius",
+          "country": "USA",
+          "gender": "Boys",
+          "id": "michael-antonius",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 4,
+          "sex": "boy",
+          "juniorRank": 12,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 12,
+          "name": "Andrew Johnson",
+          "country": "USA",
+          "gender": "Boys",
+          "id": "andrew-johnson",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 5,
+          "sex": "boy",
+          "juniorRank": 13,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 18,
+          "name": "Nikita Belozertsev",
+          "country": "UZB",
+          "gender": "Boys",
+          "id": "nikita-belozertsev",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 6,
+          "sex": "boy",
+          "juniorRank": 14,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 16,
+          "name": "Dante Pagani",
+          "country": "ARG",
+          "gender": "Boys",
+          "id": "dante-pagani",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 7,
+          "sex": "boy",
+          "juniorRank": 15,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 17,
+          "name": "Kuan-Shou Chen",
+          "country": "TPE",
+          "gender": "Boys",
+          "id": "kuan-shou-chen",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 8,
+          "sex": "boy",
+          "juniorRank": 17,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 15,
+          "name": "Yannik Alvarez",
+          "country": "PUR",
+          "gender": "Boys",
+          "id": "yannik-alvarez",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 9,
+          "sex": "boy",
+          "juniorRank": 18,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 19,
+          "name": "Nicolas Baena",
+          "country": "PER",
+          "gender": "Boys",
+          "id": "nicolas-baena",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 10,
+          "sex": "boy",
+          "juniorRank": 19,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 22,
+          "name": "Flynn Thomas",
+          "country": "SUI",
+          "gender": "Boys",
+          "id": "flynn-thomas",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 11,
+          "sex": "boy",
+          "juniorRank": 22,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 20,
+          "name": "Tito Chavez",
+          "country": "ESP",
+          "gender": "Boys",
+          "id": "tito-chavez",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 12,
+          "sex": "boy",
+          "juniorRank": 23,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 27,
+          "name": "Raffaele Ciurnelli",
+          "country": "ITA",
+          "gender": "Boys",
+          "id": "raffaele-ciurnelli",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 13,
+          "sex": "boy",
+          "juniorRank": 24,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 32,
+          "name": "Daniel Jovanovski",
+          "country": "AUS",
+          "gender": "Boys",
+          "id": "daniel-jovanovski",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 14,
+          "sex": "boy",
+          "juniorRank": 25,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R64",
+            "pointsOverride": 0,
+            "confidence": "core-pending-match",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 30,
+          "name": "Damir Zhalgasbay",
+          "country": "KAZ",
+          "gender": "Boys",
+          "id": "damir-zhalgasbay",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 15,
+          "sex": "boy",
+          "juniorRank": 26,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R64",
+            "pointsOverride": 0,
+            "confidence": "core-pending-match",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 31,
+          "name": "Ryan Cozad",
+          "country": "USA",
+          "gender": "Boys",
+          "id": "ryan-cozad",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 16,
+          "sex": "boy",
+          "juniorRank": 27,
+          "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "R64",
+            "confidence": "core-loss",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 29,
+          "name": "Matteo Gribaldo",
+          "country": "ITA",
+          "gender": "Boys",
+          "id": "matteo-gribaldo",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 17,
+          "sex": "boy",
+          "juniorRank": 28,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R64",
+            "pointsOverride": 0,
+            "confidence": "core-pending-match",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 45,
+          "name": "Gavin Goode",
+          "country": "USA",
+          "gender": "Boys",
+          "id": "gavin-goode",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 18,
+          "sex": "boy",
+          "juniorRank": 29,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "core-win",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 28,
+          "name": "Kai Thompson",
+          "country": "HKG",
+          "gender": "Boys",
+          "id": "kai-thompson",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 19,
+          "sex": "boy",
+          "juniorRank": 30,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 36,
+          "name": "Emilio Camacho",
+          "country": "ECU",
+          "gender": "Boys",
+          "id": "emilio-camacho",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 20,
+          "sex": "boy",
+          "juniorRank": 31,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R64",
+            "pointsOverride": 0,
+            "confidence": "core-pending-match",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 34,
+          "name": "Matei Todoran",
+          "country": "ROU",
+          "gender": "Boys",
+          "id": "matei-todoran",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 21,
+          "sex": "boy",
+          "juniorRank": 32,
+          "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "R64",
+            "confidence": "core-loss",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 33,
+          "name": "Savva Rybkin",
+          "country": "RUS",
+          "gender": "Boys",
+          "id": "savva-rybkin",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 22,
+          "sex": "boy",
+          "juniorRank": 34,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "core-win",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 39,
+          "name": "Kanta Watanabe",
+          "country": "JPN",
+          "gender": "Boys",
+          "id": "kanta-watanabe",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 23,
+          "sex": "boy",
+          "juniorRank": 36,
+          "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "R64",
+            "confidence": "core-loss",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 24,
+          "name": "Simone Massellani",
+          "country": "ITA",
+          "gender": "Boys",
+          "id": "simone-massellani",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 24,
+          "sex": "boy",
+          "juniorRank": 38,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R64",
+            "pointsOverride": 0,
+            "confidence": "core-pending-match",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 44,
+          "name": "Leon Sloboda",
+          "country": "SVK",
+          "gender": "Boys",
+          "id": "leon-sloboda",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 25,
+          "sex": "boy",
+          "juniorRank": 39,
+          "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "R64",
+            "confidence": "core-loss",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 25,
+          "name": "Arnav Paparkar",
+          "country": "IND",
+          "gender": "Boys",
+          "id": "arnav-paparkar",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 26,
+          "sex": "boy",
+          "juniorRank": 40,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Pendente",
+            "confidence": "pending"
+          }
+        },
+        {
+          "currentRank": 46,
+          "name": "Jack Secord",
+          "country": "USA",
+          "gender": "Boys",
+          "id": "jack-secord",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 27,
+          "sex": "boy",
+          "juniorRank": 41,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "core-win",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 47,
+          "name": "Tanishk Konduri",
+          "country": "USA",
+          "gender": "Boys",
+          "id": "tanishk-konduri",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 28,
+          "sex": "boy",
+          "juniorRank": 42,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R64",
+            "pointsOverride": 0,
+            "confidence": "core-pending-match",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 43,
+          "name": "Kirill Filaretov",
+          "country": "RUS",
+          "gender": "Boys",
+          "id": "kirill-filaretov",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 29,
+          "sex": "boy",
+          "juniorRank": 44,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R64",
+            "pointsOverride": 0,
+            "confidence": "core-pending-match",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 42,
+          "name": "Pedro Henrique Chabalgoity",
+          "country": "BRA",
+          "gender": "Boys",
+          "id": "pedro-henrique-chabalgoity",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 30,
+          "sex": "boy",
+          "juniorRank": 45,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "core-win",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 48,
+          "name": "Juan Miguel Bolivar Idarraga",
+          "country": "COL",
+          "gender": "Boys",
+          "id": "juan-miguel-bolivar-idarraga",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 31,
+          "sex": "boy",
+          "juniorRank": 46,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R64",
+            "pointsOverride": 0,
+            "confidence": "core-pending-match",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 26,
+          "name": "Hyu Kawanishi",
+          "country": "JPN",
+          "gender": "Boys",
+          "id": "hyu-kawanishi",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 32,
+          "sex": "boy",
+          "juniorRank": 47,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 35,
+          "name": "Mark Ceban",
+          "country": "GBR",
+          "gender": "Boys",
+          "id": "mark-ceban",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "Q",
+          "position": 1,
+          "sex": "boy",
+          "juniorRank": 48,
+          "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "R64",
+            "confidence": "core-loss",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 49,
+          "name": "Rihards Neimanis",
+          "country": "LAT",
+          "gender": "Boys",
+          "id": "rihards-neimanis",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "Q",
+          "position": 2,
+          "sex": "boy",
+          "juniorRank": 49,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R64",
+            "pointsOverride": 0,
+            "confidence": "core-pending-match",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 50,
+          "name": "Benjamin Azar",
+          "country": "CAN",
+          "gender": "Boys",
+          "id": "benjamin-azar",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "Q",
+          "position": 3,
+          "sex": "boy",
+          "juniorRank": 51,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R64",
+            "pointsOverride": 0,
+            "confidence": "core-pending-match",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 7,
           "name": "Jana Kovackova",
           "country": "CZE",
           "gender": "Girls",
-          "currentRank": 7,
+          "id": "jana-kovackova",
           "officialPoints": 1977.25,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/jana-kovackova/800661515/cze/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
           "entryGroup": "MD",
           "position": 1,
           "sex": "girl",
@@ -100,13 +797,14 @@
           }
         },
         {
-          "id": "victoria-luiza-barros",
+          "currentRank": 5,
           "name": "Victoria Luiza Barros",
           "country": "BRA",
           "gender": "Girls",
-          "currentRank": 5,
+          "id": "victoria-luiza-barros",
           "officialPoints": 2194,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/victoria-luiza-barros/800655335/bra/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
           "entryGroup": "MD",
           "position": 2,
           "sex": "girl",
@@ -121,13 +819,14 @@
           }
         },
         {
-          "id": "xinran-sun",
+          "currentRank": 8,
           "name": "Xinran Sun",
           "country": "CHN",
           "gender": "Girls",
-          "currentRank": 8,
+          "id": "xinran-sun",
           "officialPoints": 1968,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/xinran-sun/800677732/chn/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
           "entryGroup": "MD",
           "position": 3,
           "sex": "girl",
@@ -140,12 +839,1033 @@
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
           }
+        },
+        {
+          "currentRank": 11,
+          "name": "Nauhany Vitoria Leme Da Silva",
+          "country": "BRA",
+          "gender": "Girls",
+          "id": "nauhany-vitoria-leme-da-silva",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 4,
+          "sex": "girl",
+          "juniorRank": 11,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 13,
+          "name": "Sol Ailin Larraya Guidi",
+          "country": "ARG",
+          "gender": "Girls",
+          "id": "sol-ailin-larraya-guidi",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 5,
+          "sex": "girl",
+          "juniorRank": 13,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 14,
+          "name": "Anastasija Cvetkovic",
+          "country": "SRB",
+          "gender": "Girls",
+          "id": "anastasija-cvetkovic",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 6,
+          "sex": "girl",
+          "juniorRank": 14,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 20,
+          "name": "Mariia Makarova",
+          "country": "RUS",
+          "gender": "Girls",
+          "id": "mariia-makarova",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 7,
+          "sex": "girl",
+          "juniorRank": 15,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 16,
+          "name": "Charo Esquiva Banuls",
+          "country": "ESP",
+          "gender": "Girls",
+          "id": "charo-esquiva-banuls",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 8,
+          "sex": "girl",
+          "juniorRank": 16,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 17,
+          "name": "Ida Wobker",
+          "country": "GER",
+          "gender": "Girls",
+          "id": "ida-wobker",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 9,
+          "sex": "girl",
+          "juniorRank": 17,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 25,
+          "name": "Yushan Shao",
+          "country": "CHN",
+          "gender": "Girls",
+          "id": "yushan-shao",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 10,
+          "sex": "girl",
+          "juniorRank": 19,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 21,
+          "name": "Janae Preston",
+          "country": "USA",
+          "gender": "Girls",
+          "id": "janae-preston",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 11,
+          "sex": "girl",
+          "juniorRank": 23,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 22,
+          "name": "Giulia Safina Popa",
+          "country": "ROU",
+          "gender": "Girls",
+          "id": "giulia-safina-popa",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 12,
+          "sex": "girl",
+          "juniorRank": 24,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 24,
+          "name": "Thea Frodin",
+          "country": "USA",
+          "gender": "Girls",
+          "id": "thea-frodin",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 13,
+          "sex": "girl",
+          "juniorRank": 25,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 18,
+          "name": "Paola Pinera Celorio",
+          "country": "ESP",
+          "gender": "Girls",
+          "id": "paola-pinera-celorio",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 14,
+          "sex": "girl",
+          "juniorRank": 26,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 28,
+          "name": "Felitsata Dorofeeva-Rybas",
+          "country": "RUS",
+          "gender": "Girls",
+          "id": "felitsata-dorofeeva-rybas",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 15,
+          "sex": "girl",
+          "juniorRank": 27,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R64",
+            "pointsOverride": 0,
+            "confidence": "core-pending-match",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 26,
+          "name": "Alexandra Malova",
+          "country": "RUS",
+          "gender": "Girls",
+          "id": "alexandra-malova",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 16,
+          "sex": "girl",
+          "juniorRank": 28,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 27,
+          "name": "Maaya Rajeshwaran Revathi",
+          "country": "IND",
+          "gender": "Girls",
+          "id": "maaya-rajeshwaran-revathi",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 17,
+          "sex": "girl",
+          "juniorRank": 29,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R64",
+            "pointsOverride": 0,
+            "confidence": "core-pending-match",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 29,
+          "name": "Jordyn Hazelitt",
+          "country": "USA",
+          "gender": "Girls",
+          "id": "jordyn-hazelitt",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 18,
+          "sex": "girl",
+          "juniorRank": 30,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R64",
+            "pointsOverride": 0,
+            "confidence": "core-pending-match",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 23,
+          "name": "Anna Pushkareva",
+          "country": "RUS",
+          "gender": "Girls",
+          "id": "anna-pushkareva",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 19,
+          "sex": "girl",
+          "juniorRank": 31,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "core-bye",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 39,
+          "name": "Yihan Qu",
+          "country": "CHN",
+          "gender": "Girls",
+          "id": "yihan-qu",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 20,
+          "sex": "girl",
+          "juniorRank": 32,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "core-win",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 31,
+          "name": "Welles Newman",
+          "country": "USA",
+          "gender": "Girls",
+          "id": "welles-newman",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 21,
+          "sex": "girl",
+          "juniorRank": 33,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "core-win",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 35,
+          "name": "Renee Alame",
+          "country": "AUS",
+          "gender": "Girls",
+          "id": "renee-alame",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 22,
+          "sex": "girl",
+          "juniorRank": 37,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "core-win",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 38,
+          "name": "Maia Ilinca Burcescu",
+          "country": "ROU",
+          "gender": "Girls",
+          "id": "maia-ilinca-burcescu",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 23,
+          "sex": "girl",
+          "juniorRank": 39,
+          "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "R64",
+            "confidence": "core-loss",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 41,
+          "name": "Nadia Lagaev",
+          "country": "CAN",
+          "gender": "Girls",
+          "id": "nadia-lagaev",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 24,
+          "sex": "girl",
+          "juniorRank": 40,
+          "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "R64",
+            "confidence": "core-loss",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 43,
+          "name": "Adelina Lacinova",
+          "country": "LAT",
+          "gender": "Girls",
+          "id": "adelina-lacinova",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 25,
+          "sex": "girl",
+          "juniorRank": 42,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "core-win",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 48,
+          "name": "Luna Maria Cinalli",
+          "country": "ARG",
+          "gender": "Girls",
+          "id": "luna-maria-cinalli",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 26,
+          "sex": "girl",
+          "juniorRank": 43,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R64",
+            "pointsOverride": 0,
+            "confidence": "core-pending-match",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 50,
+          "name": "Yu-Chen Lin",
+          "country": "TPE",
+          "gender": "Girls",
+          "id": "yu-chen-lin",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 27,
+          "sex": "girl",
+          "juniorRank": 45,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R64",
+            "pointsOverride": 0,
+            "confidence": "core-pending-match",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 46,
+          "name": "Alyssa James",
+          "country": "JAM",
+          "gender": "Girls",
+          "id": "alyssa-james",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 28,
+          "sex": "girl",
+          "juniorRank": 46,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "core-win",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 49,
+          "name": "Chukwumelije Clarke",
+          "country": "USA",
+          "gender": "Girls",
+          "id": "chukwumelije-clarke",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 29,
+          "sex": "girl",
+          "juniorRank": 48,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R64",
+            "pointsOverride": 0,
+            "confidence": "core-pending-match",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 40,
+          "name": "Yu Jun Lin",
+          "country": "CHN",
+          "gender": "Girls",
+          "id": "yu-jun-lin",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 33,
+          "sex": "girl",
+          "juniorRank": 57,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R64",
+            "pointsOverride": 0,
+            "confidence": "core-pending-match",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
+        },
+        {
+          "currentRank": 45,
+          "name": "Maria Valentina Pop",
+          "country": "ROU",
+          "gender": "Girls",
+          "id": "maria-valentina-pop",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "Q",
+          "position": 11,
+          "sex": "girl",
+          "juniorRank": 79,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R64",
+            "pointsOverride": 0,
+            "confidence": "core-pending-match",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          }
         }
       ],
       "coreTennisUrls": [
         "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html",
         "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-      ]
+      ],
+      "drawDiagnostic": {
+        "textLength": 0,
+        "lineCount": 0,
+        "firstLines": [],
+        "interestingLines": [],
+        "playerHits": [
+          {
+            "id": "luis-guto-miguel",
+            "name": "Luis Guto Miguel",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "jamie-mackenzie",
+            "name": "Jamie Mackenzie",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "thilo-behrmann",
+            "name": "Thilo Behrmann",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "michael-antonius",
+            "name": "Michael Antonius",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "andrew-johnson",
+            "name": "Andrew Johnson",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "nikita-belozertsev",
+            "name": "Nikita Belozertsev",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "dante-pagani",
+            "name": "Dante Pagani",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "kuan-shou-chen",
+            "name": "Kuan-Shou Chen",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "yannik-alvarez",
+            "name": "Yannik Alvarez",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "nicolas-baena",
+            "name": "Nicolas Baena",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "flynn-thomas",
+            "name": "Flynn Thomas",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "tito-chavez",
+            "name": "Tito Chavez",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "raffaele-ciurnelli",
+            "name": "Raffaele Ciurnelli",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "daniel-jovanovski",
+            "name": "Daniel Jovanovski",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "damir-zhalgasbay",
+            "name": "Damir Zhalgasbay",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "ryan-cozad",
+            "name": "Ryan Cozad",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "matteo-gribaldo",
+            "name": "Matteo Gribaldo",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "gavin-goode",
+            "name": "Gavin Goode",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "kai-thompson",
+            "name": "Kai Thompson",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "emilio-camacho",
+            "name": "Emilio Camacho",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "matei-todoran",
+            "name": "Matei Todoran",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "savva-rybkin",
+            "name": "Savva Rybkin",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "kanta-watanabe",
+            "name": "Kanta Watanabe",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "simone-massellani",
+            "name": "Simone Massellani",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "leon-sloboda",
+            "name": "Leon Sloboda",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "arnav-paparkar",
+            "name": "Arnav Paparkar",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "jack-secord",
+            "name": "Jack Secord",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "tanishk-konduri",
+            "name": "Tanishk Konduri",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "kirill-filaretov",
+            "name": "Kirill Filaretov",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "pedro-henrique-chabalgoity",
+            "name": "Pedro Henrique Chabalgoity",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "juan-miguel-bolivar-idarraga",
+            "name": "Juan Miguel Bolivar Idarraga",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "hyu-kawanishi",
+            "name": "Hyu Kawanishi",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "mark-ceban",
+            "name": "Mark Ceban",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "rihards-neimanis",
+            "name": "Rihards Neimanis",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "benjamin-azar",
+            "name": "Benjamin Azar",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "jana-kovackova",
+            "name": "Jana Kovackova",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "victoria-luiza-barros",
+            "name": "Victoria Luiza Barros",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "xinran-sun",
+            "name": "Xinran Sun",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "nauhany-vitoria-leme-da-silva",
+            "name": "Nauhany Vitoria Leme Da Silva",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "sol-ailin-larraya-guidi",
+            "name": "Sol Ailin Larraya Guidi",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "anastasija-cvetkovic",
+            "name": "Anastasija Cvetkovic",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "mariia-makarova",
+            "name": "Mariia Makarova",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "charo-esquiva-banuls",
+            "name": "Charo Esquiva Banuls",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "ida-wobker",
+            "name": "Ida Wobker",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "yushan-shao",
+            "name": "Yushan Shao",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "janae-preston",
+            "name": "Janae Preston",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "giulia-safina-popa",
+            "name": "Giulia Safina Popa",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "thea-frodin",
+            "name": "Thea Frodin",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "paola-pinera-celorio",
+            "name": "Paola Pinera Celorio",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "felitsata-dorofeeva-rybas",
+            "name": "Felitsata Dorofeeva-Rybas",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "alexandra-malova",
+            "name": "Alexandra Malova",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "maaya-rajeshwaran-revathi",
+            "name": "Maaya Rajeshwaran Revathi",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "jordyn-hazelitt",
+            "name": "Jordyn Hazelitt",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "anna-pushkareva",
+            "name": "Anna Pushkareva",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "yihan-qu",
+            "name": "Yihan Qu",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "welles-newman",
+            "name": "Welles Newman",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "renee-alame",
+            "name": "Renee Alame",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "maia-ilinca-burcescu",
+            "name": "Maia Ilinca Burcescu",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "nadia-lagaev",
+            "name": "Nadia Lagaev",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "adelina-lacinova",
+            "name": "Adelina Lacinova",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "luna-maria-cinalli",
+            "name": "Luna Maria Cinalli",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "yu-chen-lin",
+            "name": "Yu-Chen Lin",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "alyssa-james",
+            "name": "Alyssa James",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "chukwumelije-clarke",
+            "name": "Chukwumelije Clarke",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "yu-jun-lin",
+            "name": "Yu Jun Lin",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "maria-valentina-pop",
+            "name": "Maria Valentina Pop",
+            "hits": 0,
+            "snippets": []
+          }
+        ],
+        "networkUrls": [
+          "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+          "https://www.itftennis.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3",
+          "https://www.itftennis.com/_Incapsula_Resource?SWKMTFSR=1&e=0.3509697625850413",
+          "https://www.itftennis.com/_Incapsula_Resource?SWUDNSAI=31&xinfo=16-117716247-0%202NNN%20RT%281779159464721%2010%29%20q%280%20-1%20-1%200%29%20r%280%20-1%29%20B12%2811%2c14315807%2c0%29%20U18&incident_id=328000670237488995-647066398308700368&edet=12&cinfo=0b000000&rpinfo=0&cts=7SHZUc42gTgC3OleQAVYDphM6R8v8k3LQ6%2f30rreTiYgWxK43%2bJQMPq2II2AL8Xl&cip=135.232.177.194&mth=GET",
+          "https://js.hcaptcha.com/1/api.js",
+          "https://api.hcaptcha.com/checksiteconfig?v=6528675343bbcfa331f287bf983949f75bf1e7bb&host=www.itftennis.com&sitekey=dd6e16a7-972e-47d2-93d0-96642fb6d8de&sc=1&swa=1&spst=1"
+        ]
+      }
     },
     {
       "tournamentName": "J200 Targu Jiu",
@@ -159,7 +1879,32 @@
       "acceptanceListUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/acceptance-list",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
       "itfEntriesUrl": "https://itf-entries.netlify.app/tournament/J-J200-ROU-2026-001",
-      "acceptedPlayers": []
+      "acceptedPlayers": [
+        {
+          "currentRank": 36,
+          "name": "Sofie Hettlerova",
+          "country": "CZE",
+          "gender": "Girls",
+          "id": "sofie-hettlerova",
+          "officialPoints": 0,
+          "pointsBreakdownUrl": "",
+          "needsProfileResolution": true,
+          "entryGroup": "MD",
+          "position": 1,
+          "sex": "girl",
+          "juniorRank": 37,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "core-win",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/132305/Tournament-Rounds.html"
+          }
+        }
+      ],
+      "coreTennisUrls": [
+        "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/132305/Tournament-Rounds.html"
+      ]
     },
     {
       "tournamentName": "J100 Huzhou",
