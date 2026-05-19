@@ -499,10 +499,7 @@ function normalizePlayer(player) {
   const defendingPoints = Math.max(0, basePoints - liveBasePoints);
   const gainedPoints = Number(liveEvent.singlesPoints || 0) + doublesValue(liveEvent.doublesPoints);
   const livePoints = Math.max(0, liveBasePoints + gainedPoints);
-  const nextWinPoints = Math.max(0, liveBasePoints + projectedEventPoints(liveEvent, "next"));
-  const maxPoints = Math.max(0, liveBasePoints + projectedEventPoints(liveEvent, "max"));
-
-  return {
+  const normalizedPlayer = {
     ...player,
     singles,
     doubles,
@@ -518,9 +515,18 @@ function normalizePlayer(player) {
     liveBasePoints,
     defendingPoints,
     gainedPoints,
-    livePoints,
-    nextWinPoints,
-    maxPoints
+    livePoints
+  };
+
+  const scenarioGainTotal = (target) =>
+    projectionScenarios(normalizedPlayer, target)
+      .filter((item) => item.type !== "combined")
+      .reduce((total, item) => total + item.gain, 0);
+
+  return {
+    ...normalizedPlayer,
+    nextWinPoints: Math.max(0, livePoints + scenarioGainTotal("next")),
+    maxPoints: Math.max(0, livePoints + scenarioGainTotal("max"))
   };
 }
 
