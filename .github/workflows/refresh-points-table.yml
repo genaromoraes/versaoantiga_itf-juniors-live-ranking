@@ -60,7 +60,11 @@ jobs:
         run: npm run validate:data
 
       - name: Commit refreshed points table
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Refresh Top 50 junior points table"
-          file_pattern: pipeline/sources/players.json data/itf-ranking-preview.json data/itf-player-preview.json data/player-points.csv data/player-points-status.csv data/weekly-results.csv data/weekly-tournaments-preview.json data/latest.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pipeline/sources/players.json data/itf-ranking-preview.json data/itf-player-preview.json data/player-points.csv data/player-points-status.csv data/weekly-results.csv data/weekly-tournaments-preview.json data/latest.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Refresh Top 50 junior points table"
+          git pull --rebase origin main
+          git push
