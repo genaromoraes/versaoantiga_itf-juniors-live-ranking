@@ -7,6 +7,7 @@ const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 const sourcesFile = path.join(rootDir, "pipeline", "sources", "players.json");
 const previewFile = path.join(rootDir, "data", "itf-ranking-preview.json");
 const rankingUrl = "https://www.itftennis.com/en/rankings/world-tennis-tour-junior-rankings/?matchType=S%2F1000";
+const itfEntriesPlayersUrl = "https://itf-entries.netlify.app/api/junior-players";
 const rankingLimit = Number(process.env.RANKING_LIMIT || 50);
 const categories = [
   { gender: "Boys", playerType: "B", auxiliaryUrl: "https://tennisdbjp.com/junior-en/list/wboysrank.html" },
@@ -77,6 +78,57 @@ function slugifyName(name = "") {
 
 function playerKey(player) {
   return `${slugifyName(player.name)}|${player.country || ""}`;
+}
+
+function genderKey(gender = "") {
+  return gender === "Boys" ? "boy" : "girl";
+}
+
+function itfEntriesPlayerKey(player) {
+  return `${slugifyName(player.name)}|${player.country || ""}|${genderKey(player.gender)}`;
+}
+
+async function loadItfEntriesPlayerIndex(warnings) {
+  try {
+    const response = await fetch(itfEntriesPlayersUrl);
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+    const payload = await response.json();
+    const fields = payload?.listPlayers?.fields || [];
+    const players = payload?.listPlayers?.players || [];
+    const indexOf = (field) => fields.indexOf(field);
+    const idIndex = indexOf("id");
+    const nameIndex = indexOf("name");
+    const surnameIndex = indexOf("surname");
+    const countryIndex = indexOf("country");
+    const sexIndex = indexOf("sex");
+    const playersByKey = new Map();
+
+    for (const row of players) {
+      const id = row[idIndex];
+      const firstName = row[nameIndex];
+      const surname = row[surnameIndex];
+      const country = row[countryIndex];
+      const sex = row[sexIndex];
+      if (!id || !firstName || !surname || !country || !sex) continue;
+
+      const fullName = `${firstName} ${surname}`.replace(/\s+/g, " ").trim();
+      const player = {
+        id,
+        fullName,
+        country,
+        sex,
+        pointsBreakdownUrl: `https://www.itftennis.com/en/players/${slugifyName(fullName)}/${id}/${country.toLowerCase()}/jt/s/itf-points-breakdown/`
+      };
+
+      playersByKey.set(`${slugifyName(fullName)}|${country}|${sex}`, player);
+    }
+
+    return playersByKey;
+  } catch (error) {
+    warnings.push(`Could not load ITF entries junior players: ${error.message}`);
+    return new Map();
+  }
 }
 
 function mergeRankingPlayers(primaryPlayers, auxiliaryPlayers, existingPlayers, gender) {
@@ -227,8 +279,17 @@ async function resolveItfProfileUrl(page, player) {
 }
 
 async function resolveMissingItfProfiles(page, players, warnings) {
+  const itfEntriesPlayers = await loadItfEntriesPlayerIndex(warnings);
+
   for (const player of players) {
     if (player.pointsBreakdownUrl) continue;
+
+    const entryPlayer = itfEntriesPlayers.get(itfEntriesPlayerKey(player));
+    if (entryPlayer) {
+      player.pointsBreakdownUrl = entryPlayer.pointsBreakdownUrl;
+      player.needsProfileResolution = false;
+      continue;
+    }
 
     try {
       const resolvedUrl = await resolveItfProfileUrl(page, player);
