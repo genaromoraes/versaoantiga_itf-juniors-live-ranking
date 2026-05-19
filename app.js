@@ -474,10 +474,14 @@ function phaseText(liveEvent = {}) {
   return `${singles} · ${doubles}`;
 }
 
-function weeklyStatusMarkup(liveEvent = {}) {
+function isActiveThisWeek(liveEvent = {}) {
   const singlesNotPlaying = !liveEvent.singlesRound && liveEvent.singlesStatus === "Nao joga";
   const doublesNotPlaying = !liveEvent.doublesRound && liveEvent.doublesStatus === "Nao joga";
-  if (!liveEvent.event || (singlesNotPlaying && doublesNotPlaying)) return `<span class="empty-mark">-</span>`;
+  return Boolean(liveEvent.event) && !(singlesNotPlaying && doublesNotPlaying);
+}
+
+function weeklyStatusMarkup(liveEvent = {}) {
+  if (!isActiveThisWeek(liveEvent)) return `<span class="empty-mark">-</span>`;
 
   return `
     <div class="week-status">
@@ -489,6 +493,8 @@ function weeklyStatusMarkup(liveEvent = {}) {
 }
 
 function projectionMarkup(player) {
+  if (!isActiveThisWeek(player.liveEvent)) return `<span class="empty-mark">-</span>`;
+
   return `
     <div class="projection-cell">
       <div>
