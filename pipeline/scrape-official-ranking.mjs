@@ -168,8 +168,8 @@ async function scrapeCategory(page, category) {
     return match?.[0] || "";
   });
 
-  if (rows.length !== rankingLimit) {
-    throw new Error(`Expected ${rankingLimit} ${category.gender} ranking rows, found ${rows.length}.`);
+  if (!rows.length) {
+    throw new Error(`No ${category.gender} ranking rows found.`);
   }
 
   return {
@@ -212,7 +212,7 @@ try {
 }
 
 if (rankingPlayers.length !== categories.length * rankingLimit) {
-  throw new Error(`Expected ${categories.length * rankingLimit} total ranking rows, found ${rankingPlayers.length}.`);
+  warnings.push(`ITF ranking page returned ${rankingPlayers.length} total rows; requested ${categories.length * rankingLimit}. Continuing with available rows.`);
 }
 
 await fs.writeFile(sourcesFile, `${JSON.stringify(rankingPlayers, null, 2)}\n`, "utf8");

@@ -36,7 +36,7 @@ jobs:
       - name: Install browser
         run: npx playwright install --with-deps chromium
 
-      - name: Scrape ITF Top 50 official ranking
+      - name: Scrape ITF ranking sources
         run: npm run scrape:ranking
         env:
           RANKING_LIMIT: "50"
