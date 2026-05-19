@@ -562,7 +562,6 @@ function renderTable() {
     .map((player) => {
       const movement = movementLabel(player);
       const pointsBalance = pointsBalanceLabel(player);
-      const pointsBalanceTitle = pointsBalance.detail ? ` title="${escapeHtml(pointsBalance.detail)}" aria-label="${escapeHtml(pointsBalance.detail)}"` : "";
       const selected = state.selectedId === player.id ? " is-selected" : "";
       if (isOfficialTable) {
         return `
@@ -597,8 +596,9 @@ function renderTable() {
           <td>
             <div class="points-cell">
               <strong class="live-points">${formatNumber(player.livePoints)}</strong>
-              <span class="pill ${pointsBalance.type}"${pointsBalanceTitle}>${pointsBalance.text}</span>
+              <span class="pill ${pointsBalance.type}">${pointsBalance.text}</span>
             </div>
+            ${pointsBalance.detail ? `<div class="points-drop-detail">${escapeHtml(pointsBalance.detail)}</div>` : ""}
           </td>
           <td>${weeklyStatusMarkup(player.liveEvent)}</td>
           <td class="projected-points is-max">${projectionMarkup(player)}</td>

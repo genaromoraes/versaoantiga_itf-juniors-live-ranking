@@ -34,6 +34,28 @@ O arquivo `.github/workflows/update-ranking.yml` roda 4 vezes por dia no GitHub 
 
 Em linguagem simples: o GitHub abre o robo nesses horarios, coleta os dados da ITF, recalcula o ranking e salva o arquivo `data/latest.json`. Se os dados mudarem, o proprio GitHub publica a atualizacao no site.
 
+## Cola rapida
+
+Use esta regra simples:
+
+- Se mudamos `app.js`, `index.html` ou `styles.css`: o site atualiza sozinho depois do push no GitHub.
+- Se mudamos algo em `pipeline/`, `data/` ou `.github/workflows/`: normalmente precisa rodar workflow.
+
+Quando voce precisa rodar workflow:
+
+- `Refresh points table`
+  Use quando mexermos no cartel de pontos, no parser da ITF, na planilha mestre, no robo que reconstrói os pontos dos atletas ou quando quisermos refazer a base do Top 50.
+
+- `Update ranking`
+  Use quando a base de pontos ja esta pronta e queremos atualizar os dados correntes do site: ranking ao vivo, torneios da semana, fases, pontos entrando e pontos caindo.
+
+Resumo bem direto:
+
+- Mudou visual do site: nao roda nada.
+- Mudou robo ou dados: roda workflow.
+- Problema no cartel de pontos: rode `Refresh points table`.
+- Problema so na atualizacao do live ranking semanal: rode `Update ranking`.
+
 ## Robo da ITF
 
 Os leitores reais ficam na pasta `pipeline`:
