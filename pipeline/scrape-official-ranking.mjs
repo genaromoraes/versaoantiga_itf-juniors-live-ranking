@@ -6,7 +6,7 @@ import { chromium } from "playwright";
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const sourcesFile = path.join(rootDir, "pipeline", "sources", "players.json");
 const previewFile = path.join(rootDir, "data", "itf-ranking-preview.json");
-const rankingUrl = "https://www.itftennis.com/en/rankings/world-tennis-tour-junior-rankings/?juniorRankingType=ITF";
+const rankingUrl = "https://www.itftennis.com/en/rankings/world-tennis-tour-junior-rankings/?matchType=S%2F1000";
 const rankingLimit = Number(process.env.RANKING_LIMIT || 50);
 const categories = [
   { gender: "Boys", playerType: "B" },
