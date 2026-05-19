@@ -9,6 +9,7 @@ const previewFile = path.join(rootDir, "data", "weekly-tournaments-preview.json"
 const itfEntriesBaseUrl = "https://itf-entries.netlify.app";
 const itfBaseUrl = "https://www.itftennis.com";
 const coreTennisBaseUrl = "https://www.coretennis.net";
+const liveTennisBaseUrl = "https://www.live-tennis.cn";
 const coreTennisCalendars = {
   Boys: `${coreTennisBaseUrl}/majic/pageServer/1r0100000u/en/Junior-Boys.html`,
   Girls: `${coreTennisBaseUrl}/majic/pageServer/1z0100000y/en/Junior-Girls.html`
@@ -150,6 +151,10 @@ function roundForOutcome(round = "", outcome = "", matchType = "SINGLES") {
 
 function confidenceNote(value = "") {
   return {
+    "live-bye": "Live Tennis: bye encontrado; atleta avancou de rodada sem pontuar",
+    "live-win": "Live Tennis: vitoria encontrada",
+    "live-loss": "Live Tennis: derrota encontrada",
+    "live-pending-match": "Live Tennis: partida pendente",
     "nearby-result": "resultado encontrado perto do nome",
     "nearby-win": "vitoria encontrada perto do nome",
     "nearby-round": "rodada encontrada perto do nome",
@@ -279,6 +284,12 @@ function coreGender(player) {
   return player.gender === "Girls" || player.sex === "F" ? "Girls" : "Boys";
 }
 
+function liveTennisPartId(player, matchType = "Singles") {
+  const genderPrefix = coreGender(player) === "Girls" ? "G" : "B";
+  const typeSuffix = matchType === "Doubles" ? "D" : "S";
+  return `${genderPrefix}${typeSuffix}`;
+}
+
 function coreRoundForTab(index) {
   return ["R64", "R32", "R16", "QF", "SF", "F"][index - 1] || "";
 }
@@ -298,6 +309,126 @@ function playerNameFromCoreCell(cellHtml = "") {
 function coreCellIsEmptyPlayer(cellHtml = "") {
   const text = stripTags(cellHtml);
   return !text || text === "-";
+}
+
+function liveTennisRoundForSize(size, matchType = "Singles") {
+  if (matchType === "Doubles") {
+    if (size >= 16) return "R16";
+    if (size >= 8) return "QF";
+    if (size >= 4) return "SF";
+    if (size >= 2) return "F";
+    return "QF";
+  }
+
+  if (size >= 64) return "R64";
+  if (size >= 32) return "R32";
+  if (size >= 16) return "R16";
+  if (size >= 8) return "QF";
+  if (size >= 4) return "SF";
+  if (size >= 2) return "F";
+  return "R32";
+}
+
+function advanceRound(round = "", shift = 0, matchType = "Singles") {
+  let current = normalizeDrawRound(round, matchType.toUpperCase());
+  for (let index = 0; index < shift; index += 1) current = nextRound(current, matchType.toUpperCase());
+  return current;
+}
+
+function liveTennisRoundDepth(round = "", matchType = "Singles") {
+  const singlesOrder = ["R64", "R32", "R16", "QF", "SF", "F", "W"];
+  const doublesOrder = ["R16", "QF", "SF", "F", "W"];
+  const order = matchType === "Doubles" ? doublesOrder : singlesOrder;
+  return order.indexOf(normalizeDrawRound(round, matchType.toUpperCase()));
+}
+
+function parseLiveTennisRows(blockHtml = "") {
+  return [...blockHtml.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/gi)].map((match) => {
+    const rowHtml = match[1];
+    const cells = [...rowHtml.matchAll(/<td\b([^>]*)>([\s\S]*?)<\/td>/gi)];
+    const seq = Number(stripTags(cells[0]?.[2] || "")) || 0;
+    const gridColumns = [];
+    const scoreColumns = [];
+
+    for (const [, attrs, html] of cells.slice(1)) {
+      const className = attrs.match(/class=["']([^"']*)["']/i)?.[1] || "";
+      if (/\bcDrawGridScore\b/i.test(className)) {
+        scoreColumns.push(stripTags(html));
+        continue;
+      }
+      if (!/\bcDrawGrid\b/i.test(className)) continue;
+
+      const names = [...html.matchAll(/<pname\b[^>]*alt="([^"]+)"[^>]*>/gi)].map((nameMatch) => decodeHtml(nameMatch[1]));
+      if (!names.length && /Bye/i.test(stripTags(html))) names.push("Bye");
+      gridColumns.push(names);
+    }
+
+    return { seq, gridColumns, scoreColumns };
+  }).filter((row) => row.seq > 0);
+}
+
+function chooseLiveTennisBlock(fragmentHtml = "", partId) {
+  const blocks = [...fragmentHtml.matchAll(new RegExp(`<div class="cDrawPart[^"]*" data-id="${partId}"[^>]*>([\\s\\S]*?)(?=<div class="cDrawPart|$)`, "gi"))]
+    .map((match) => match[1]);
+  if (!blocks.length) return "";
+  return blocks.find((block) => /cDrawPartTitle>\s*Sections\s*</i.test(block)) || blocks[blocks.length - 1];
+}
+
+function parseLiveTennisDraw(fragmentHtml, player, matchType = "Singles") {
+  const partId = liveTennisPartId(player, matchType);
+  const blockHtml = chooseLiveTennisBlock(fragmentHtml, partId);
+  if (!blockHtml) return null;
+
+  const rows = parseLiveTennisRows(blockHtml);
+  if (!rows.length) return null;
+
+  const baseRound = liveTennisRoundForSize(Math.max(...rows.map((row) => row.seq)), matchType);
+  let bestResult = null;
+
+  for (let index = 0; index < rows.length; index += 2) {
+    const pair = rows.slice(index, index + 2);
+    const playerIndexes = [];
+    let hasBye = false;
+
+    pair.forEach((row) => {
+      row.gridColumns.forEach((names, columnIndex) => {
+        if (names.some((name) => /bye/i.test(name))) hasBye = true;
+        if (names.some((name) => playerNameMatchesCoreName(player, name))) playerIndexes.push(columnIndex);
+      });
+    });
+
+    if (!playerIndexes.length) continue;
+
+    const earliestIndex = Math.min(...playerIndexes);
+    const latestIndex = Math.max(...playerIndexes);
+    const hasScore = pair.some((row) => row.scoreColumns.some((score) => cleanLine(score)));
+    const currentRound = advanceRound(baseRound, latestIndex, matchType);
+    const result = latestIndex > earliestIndex
+      ? {
+          status: "Ativo",
+          currentRound,
+          pointsOverride: hasBye && !hasScore ? 0 : undefined,
+          confidence: hasBye && !hasScore ? "live-bye" : "live-win"
+        }
+      : hasScore
+        ? {
+            status: "Eliminado",
+            currentRound: advanceRound(baseRound, earliestIndex, matchType),
+            confidence: "live-loss"
+          }
+        : {
+            status: "Ativo",
+            currentRound,
+            pointsOverride: hasBye ? 0 : undefined,
+            confidence: "live-pending-match"
+          };
+
+    if (!bestResult || liveTennisRoundDepth(result.currentRound, matchType) > liveTennisRoundDepth(bestResult.currentRound, matchType)) {
+      bestResult = result;
+    }
+  }
+
+  return bestResult;
 }
 
 function parseCoreRoundGroups(roundHtml = "") {
@@ -399,6 +530,7 @@ async function enrichTournamentWithCoreTennisRounds(tournaments) {
 
   for (const tournament of tournaments.filter((item) => item.acceptedPlayers.length)) {
     for (const player of tournament.acceptedPlayers) {
+      if (player.drawResult && player.drawResult.currentRound && player.drawResult.currentRound !== pendingRound) continue;
       try {
         const gender = coreGender(player);
         const roundsUrl = await findCoreTennisRoundsUrl(tournament, gender, cache);
@@ -416,6 +548,71 @@ async function enrichTournamentWithCoreTennisRounds(tournaments) {
       } catch (error) {
         tournament.coreTennisWarning = error.message;
       }
+    }
+  }
+
+  return tournaments;
+}
+
+function liveTennisDrawUrl(tournament) {
+  const year = tournament.startDate?.slice(0, 4) || "2026";
+  return `${liveTennisBaseUrl}/en/draw/${tournament.key}/${year}`;
+}
+
+function liveTennisDrawFragmentUrl(tournament) {
+  const year = tournament.startDate?.slice(0, 4) || "2026";
+  return `${liveTennisBaseUrl}/en/draw/ajax/${tournament.key}/${year}/device/0/horizontal/false`;
+}
+
+async function fetchLiveTennisFragment(tournament, retries = 3) {
+  const url = liveTennisDrawFragmentUrl(tournament);
+  let lastError;
+
+  for (let attempt = 1; attempt <= retries; attempt += 1) {
+    try {
+      const response = await fetch(url, {
+        headers: {
+          accept: "text/html, */*; q=0.01",
+          referer: liveTennisDrawUrl(tournament),
+          "user-agent": "Mozilla/5.0",
+          "x-requested-with": "XMLHttpRequest"
+        }
+      });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const text = await response.text();
+      if (!/iDrawPartSelector|cDrawPart/i.test(text)) throw new Error("fragmento do draw nao encontrado");
+      return text;
+    } catch (error) {
+      lastError = error;
+      await new Promise((resolve) => setTimeout(resolve, attempt * 1000));
+    }
+  }
+
+  throw new Error(`Could not fetch ${url}: ${lastError?.message || "unknown error"}`);
+}
+
+async function enrichTournamentWithLiveTennisDraws(tournaments) {
+  for (const tournament of tournaments.filter((item) => item.acceptedPlayers.length)) {
+    try {
+      const fragmentHtml = await fetchLiveTennisFragment(tournament);
+      tournament.liveTennisUrl = liveTennisDrawUrl(tournament);
+
+      tournament.acceptedPlayers = tournament.acceptedPlayers.map((player) => {
+        const singlesResult = parseLiveTennisDraw(fragmentHtml, player, "Singles");
+        const doublesResult = parseLiveTennisDraw(fragmentHtml, player, "Doubles");
+
+        return {
+          ...player,
+          drawResult: singlesResult
+            ? { ...singlesResult, sourceUrl: tournament.liveTennisUrl }
+            : player.drawResult,
+          drawResultDoubles: doublesResult
+            ? { ...doublesResult, sourceUrl: tournament.liveTennisUrl }
+            : player.drawResultDoubles || null
+        };
+      });
+    } catch (error) {
+      tournament.liveTennisWarning = error.message;
     }
   }
 
@@ -658,6 +855,7 @@ try {
   console.warn(`Could not scrape itf-entries weekly tournaments: ${error.message}`);
 }
 
+await enrichTournamentWithLiveTennisDraws(tournaments);
 await enrichTournamentWithCoreTennisRounds(tournaments);
 await enrichTournamentWithDrawRounds(tournaments);
 
@@ -693,7 +891,7 @@ for (const tournament of tournaments) {
         player.drawResultDoubles.currentRound,
         player.drawResultDoubles.pointsOverride ?? "",
         player.drawResultDoubles.sourceUrl || tournament.drawsUrl,
-        `Encontrado no draw de duplas da ITF; leitura do draw: ${confidenceNote(player.drawResultDoubles.confidence)}.`
+        `Encontrado no draw de duplas; leitura do draw: ${confidenceNote(player.drawResultDoubles.confidence)}.`
       ]);
     }
   }

@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "19/05/2026, 15:21",
+  "scrapedAt": "19/05/2026, 16:42",
   "calendarStartDate": "2026-05",
   "tournaments": [
     {
@@ -33,10 +33,15 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 5,
@@ -56,10 +61,16 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 9,
@@ -79,10 +90,15 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "QF",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 14,
@@ -102,10 +118,16 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 12,
@@ -125,10 +147,16 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 18,
@@ -148,10 +176,16 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 16,
@@ -171,10 +205,15 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 17,
@@ -194,10 +233,15 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "QF",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 15,
@@ -217,10 +261,16 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 19,
@@ -240,10 +290,15 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 22,
@@ -263,8 +318,8 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
           "drawResultDoubles": null
         },
@@ -286,10 +341,15 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 27,
@@ -309,10 +369,15 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 32,
@@ -329,13 +394,17 @@
           "juniorRank": 25,
           "priority": 1,
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R64",
-            "pointsOverride": 0,
-            "confidence": "core-pending-match",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R16",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 30,
@@ -353,12 +422,16 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R64",
-            "pointsOverride": 0,
-            "confidence": "core-pending-match",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "currentRound": "R32",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 31,
@@ -377,10 +450,16 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "core-loss",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-pending-match",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 29,
@@ -398,12 +477,16 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R64",
-            "pointsOverride": 0,
-            "confidence": "core-pending-match",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "currentRound": "R32",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 45,
@@ -422,10 +505,16 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "core-win",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-pending-match",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 28,
@@ -445,10 +534,16 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 36,
@@ -466,12 +561,16 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R64",
-            "pointsOverride": 0,
-            "confidence": "core-pending-match",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "currentRound": "R32",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 34,
@@ -490,10 +589,15 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "core-loss",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 33,
@@ -512,10 +616,15 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "core-win",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R16",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 39,
@@ -534,10 +643,15 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "core-loss",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 24,
@@ -555,12 +669,16 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R64",
-            "pointsOverride": 0,
-            "confidence": "core-pending-match",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "currentRound": "R32",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 44,
@@ -579,10 +697,15 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "core-loss",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 25,
@@ -598,12 +721,7 @@
           "sex": "boy",
           "juniorRank": 40,
           "priority": 1,
-          "drawResultDoubles": null,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          }
+          "drawResultDoubles": null
         },
         {
           "currentRank": 46,
@@ -622,10 +740,16 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "core-win",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 47,
@@ -642,13 +766,18 @@
           "juniorRank": 42,
           "priority": 1,
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R64",
-            "pointsOverride": 0,
-            "confidence": "core-pending-match",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 43,
@@ -666,12 +795,16 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R64",
-            "pointsOverride": 0,
-            "confidence": "core-pending-match",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "currentRound": "R32",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R16",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 42,
@@ -690,10 +823,15 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "core-win",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 48,
@@ -711,12 +849,16 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R64",
-            "pointsOverride": 0,
-            "confidence": "core-pending-match",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "currentRound": "R32",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R16",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 26,
@@ -736,10 +878,15 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 35,
@@ -758,10 +905,15 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "core-loss",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R16",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 49,
@@ -779,12 +931,16 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R64",
-            "pointsOverride": 0,
-            "confidence": "core-pending-match",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "currentRound": "R32",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 50,
@@ -801,13 +957,17 @@
           "juniorRank": 51,
           "priority": 1,
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R64",
-            "pointsOverride": 0,
-            "confidence": "core-pending-match",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R16",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 7,
@@ -827,10 +987,15 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 5,
@@ -850,10 +1015,16 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 8,
@@ -873,8 +1044,8 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
           "drawResultDoubles": null
         },
@@ -896,10 +1067,15 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "QF",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 13,
@@ -919,10 +1095,16 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 14,
@@ -942,10 +1124,16 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 20,
@@ -965,10 +1153,16 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 16,
@@ -988,10 +1182,15 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "QF",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 17,
@@ -1011,10 +1210,16 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 25,
@@ -1034,10 +1239,15 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 21,
@@ -1057,10 +1267,16 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 22,
@@ -1080,10 +1296,15 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 24,
@@ -1103,10 +1324,16 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 18,
@@ -1126,10 +1353,16 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 28,
@@ -1147,12 +1380,17 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R64",
-            "pointsOverride": 0,
-            "confidence": "core-pending-match",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "currentRound": "R32",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 26,
@@ -1172,10 +1410,15 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R16",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 27,
@@ -1193,12 +1436,16 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R64",
-            "pointsOverride": 0,
-            "confidence": "core-pending-match",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "currentRound": "R32",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "QF",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 29,
@@ -1215,13 +1462,18 @@
           "juniorRank": 30,
           "priority": 1,
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R64",
-            "pointsOverride": 0,
-            "confidence": "core-pending-match",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 23,
@@ -1241,8 +1493,8 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "core-bye",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
           "drawResultDoubles": null
         },
@@ -1263,10 +1515,15 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "core-win",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R16",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 31,
@@ -1285,10 +1542,16 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "core-win",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 35,
@@ -1307,10 +1570,15 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "core-win",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "QF",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 38,
@@ -1329,10 +1597,15 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "core-loss",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 41,
@@ -1351,10 +1624,15 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "core-loss",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 43,
@@ -1394,12 +1672,17 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R64",
-            "pointsOverride": 0,
-            "confidence": "core-pending-match",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "currentRound": "R32",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 50,
@@ -1416,13 +1699,17 @@
           "juniorRank": 45,
           "priority": 1,
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R64",
-            "pointsOverride": 0,
-            "confidence": "core-pending-match",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R16",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 46,
@@ -1441,10 +1728,15 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "core-win",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 49,
@@ -1462,12 +1754,16 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R64",
-            "pointsOverride": 0,
-            "confidence": "core-pending-match",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "currentRound": "R32",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 40,
@@ -1507,599 +1803,24 @@
           "juniorRank": 79,
           "priority": 1,
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R64",
-            "pointsOverride": 0,
-            "confidence": "core-pending-match",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         }
       ],
+      "liveTennisUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026",
       "coreTennisUrls": [
-        "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html",
         "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
       ],
-      "drawDiagnostic": {
-        "textLength": 8067,
-        "lineCount": 624,
-        "firstLines": [
-          "We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience and analyze website traffic. By clicking “Accept,” you agree to our website's cookie use as described in our Cookie Policy. You can change your cookie settings at any time by clicking “Preferences.”",
-          "Accept",
-          "Sign Up",
-          "Register to receive unrivalled access to the world of tennis",
-          "Get all the latest news, information plus access to exclusive content and offers from across the world of tennis, including the Billie Jean King Cup, Davis Cup and ITF World Tennis Number.",
-          "Yes I would like to receive news, information and special offers via email, from the ITF",
-          "For details on how we use your data, please visit our Marketing Privacy Notice on the ITF website. You can unsubscribe any time.",
-          "New | Audio",
-          "SUBMIT",
-          "EN",
-          "SIGN UP",
-          "IPIN",
-          "TOURNAMENTS",
-          "ITF WORLD TENNIS TOUR CALENDARS",
-          "Women's Calendar",
-          "Men's Calendar",
-          "Juniors Calendar",
-          "ITF TOURNAMENT CALENDARS",
-          "Masters Tour Calendar",
-          "Wheelchair Tennis Calendar",
-          "Beach Tennis Calendar",
-          "ITF COMPETITION CALENDARS",
-          "Billie Jean King Cup Calendar",
-          "Davis Cup Calendar",
-          "ITF TOURS",
-          "TOURS",
-          "Women's World Tennis Tour",
-          "Men's World Tennis Tour",
-          "World Tennis Tour Juniors",
-          "Live match centre",
-          "World Tennis Masters Tour",
-          "UNIQLO Wheelchair Tennis Tour",
-          "Beach Tennis World Tour",
-          "WORLD CUP OF TENNIS",
-          "Davis Cup",
-          "Billie Jean King Cup",
-          "COMPETITIONS",
-          "Junior Team Competitions",
-          "World Tennis Tour Junior Finals",
-          "Wheelchair World Team Cup",
-          "Wheelchair Singles and Doubles Masters",
-          "Masters World Championships",
-          "Tie Break Tens",
-          "LA 2028",
-          "Olympic Tennis Event",
-          "Paralympic Wheelchair Tennis Event",
-          "MORE",
-          "Grand Slam tournaments",
-          "Wheelchair Tennis Hall of Champions",
-          "eSports",
-          "PLAYERS",
-          "RESULTS",
-          "RANKINGS",
-          "WORLD TENNIS TOUR RANKINGS",
-          "Women's",
-          "Men's",
-          "Juniors",
-          "RANKINGS",
-          "Masters Tour",
-          "Wheelchair Tennis",
-          "Beach Tennis",
-          "TEAM COMPETITION RANKINGS",
-          "Billie Jean King Cup",
-          "Davis Cup",
-          "NEWS",
-          "ALL NEWS",
-          "Latest News",
-          "Latest photos",
-          "TOURS",
-          "Women's World Tennis Tour",
-          "Men's World Tennis Tour",
-          "World Tennis Tour Juniors",
-          "World Tennis Masters Tour",
-          "UNIQLO Wheelchair Tennis Tour",
-          "Beach Tennis World Tour",
-          "OLYMPICS",
-          "Olympics",
-          "Paralympics",
-          "WORLD CUP OF TENNIS",
-          "Billie Jean King Cup"
-        ],
-        "interestingLines": [
-          "BOYS",
-          "SINGLES",
-          "MAIN DRAW",
-          "BYE"
-        ],
-        "playerHits": [
-          {
-            "id": "luis-guto-miguel",
-            "name": "Luis Guto Miguel",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "jamie-mackenzie",
-            "name": "Jamie Mackenzie",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "thilo-behrmann",
-            "name": "Thilo Behrmann",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "michael-antonius",
-            "name": "Michael Antonius",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "andrew-johnson",
-            "name": "Andrew Johnson",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "nikita-belozertsev",
-            "name": "Nikita Belozertsev",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "dante-pagani",
-            "name": "Dante Pagani",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "kuan-shou-chen",
-            "name": "Kuan-Shou Chen",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "yannik-alvarez",
-            "name": "Yannik Alvarez",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "nicolas-baena",
-            "name": "Nicolas Baena",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "flynn-thomas",
-            "name": "Flynn Thomas",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "tito-chavez",
-            "name": "Tito Chavez",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "raffaele-ciurnelli",
-            "name": "Raffaele Ciurnelli",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "daniel-jovanovski",
-            "name": "Daniel Jovanovski",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "damir-zhalgasbay",
-            "name": "Damir Zhalgasbay",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "ryan-cozad",
-            "name": "Ryan Cozad",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "matteo-gribaldo",
-            "name": "Matteo Gribaldo",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "gavin-goode",
-            "name": "Gavin Goode",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "kai-thompson",
-            "name": "Kai Thompson",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "emilio-camacho",
-            "name": "Emilio Camacho",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "matei-todoran",
-            "name": "Matei Todoran",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "savva-rybkin",
-            "name": "Savva Rybkin",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "kanta-watanabe",
-            "name": "Kanta Watanabe",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "simone-massellani",
-            "name": "Simone Massellani",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "leon-sloboda",
-            "name": "Leon Sloboda",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "arnav-paparkar",
-            "name": "Arnav Paparkar",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "jack-secord",
-            "name": "Jack Secord",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "tanishk-konduri",
-            "name": "Tanishk Konduri",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "kirill-filaretov",
-            "name": "Kirill Filaretov",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "pedro-henrique-chabalgoity",
-            "name": "Pedro Henrique Chabalgoity",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "juan-miguel-bolivar-idarraga",
-            "name": "Juan Miguel Bolivar Idarraga",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "hyu-kawanishi",
-            "name": "Hyu Kawanishi",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "mark-ceban",
-            "name": "Mark Ceban",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "rihards-neimanis",
-            "name": "Rihards Neimanis",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "benjamin-azar",
-            "name": "Benjamin Azar",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "jana-kovackova",
-            "name": "Jana Kovackova",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "victoria-luiza-barros",
-            "name": "Victoria Luiza Barros",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "xinran-sun",
-            "name": "Xinran Sun",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "nauhany-vitoria-leme-da-silva",
-            "name": "Nauhany Vitoria Leme Da Silva",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "sol-ailin-larraya-guidi",
-            "name": "Sol Ailin Larraya Guidi",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "anastasija-cvetkovic",
-            "name": "Anastasija Cvetkovic",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "mariia-makarova",
-            "name": "Mariia Makarova",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "charo-esquiva-banuls",
-            "name": "Charo Esquiva Banuls",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "ida-wobker",
-            "name": "Ida Wobker",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "yushan-shao",
-            "name": "Yushan Shao",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "janae-preston",
-            "name": "Janae Preston",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "giulia-safina-popa",
-            "name": "Giulia Safina Popa",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "thea-frodin",
-            "name": "Thea Frodin",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "paola-pinera-celorio",
-            "name": "Paola Pinera Celorio",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "felitsata-dorofeeva-rybas",
-            "name": "Felitsata Dorofeeva-Rybas",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "alexandra-malova",
-            "name": "Alexandra Malova",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "maaya-rajeshwaran-revathi",
-            "name": "Maaya Rajeshwaran Revathi",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "jordyn-hazelitt",
-            "name": "Jordyn Hazelitt",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "anna-pushkareva",
-            "name": "Anna Pushkareva",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "yihan-qu",
-            "name": "Yihan Qu",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "welles-newman",
-            "name": "Welles Newman",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "renee-alame",
-            "name": "Renee Alame",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "maia-ilinca-burcescu",
-            "name": "Maia Ilinca Burcescu",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "nadia-lagaev",
-            "name": "Nadia Lagaev",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "adelina-lacinova",
-            "name": "Adelina Lacinova",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "luna-maria-cinalli",
-            "name": "Luna Maria Cinalli",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "yu-chen-lin",
-            "name": "Yu-Chen Lin",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "alyssa-james",
-            "name": "Alyssa James",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "chukwumelije-clarke",
-            "name": "Chukwumelije Clarke",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "yu-jun-lin",
-            "name": "Yu Jun Lin",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "maria-valentina-pop",
-            "name": "Maria Valentina Pop",
-            "hits": 0,
-            "snippets": []
-          }
-        ],
-        "networkUrls": [
-          "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
-          "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results/",
-          "https://www.itftennis.com/media/8566/wtt-asset-amended.jpg",
-          "https://itftennis-ep.azureedge.net/media/assets/bundle.css?key=@assemblyVersion",
-          "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap",
-          "https://itftennis-ep.azureedge.net/media/assets/bundle.js?key=@assemblyVersion",
-          "https://www.itftennis.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=1620734525",
-          "https://itftennis-ep.azureedge.net/media/assets/images/stripes.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_LATEST%20NEWS.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_PLAYER%20FEATURES.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_DRAWS,%20FIXTURES.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_TIE%20HIGHLIGHTS.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_FIRST%20TO%20HEAR.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_EXCLUSIVE%20C&P.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/fb-dark.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/youtube-dark.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/insta-dark.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/envelope.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/unlock.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/search-dark.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/close-outlined--dark.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/site-logo.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/external-link-light.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/shop_icon.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/twitter-light.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/arrow-right.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/surface-clay.svg",
-          "https://www.itftennis.com/media/16544/club-view-2.jpg?anchor=center&amp;mode=crop&amp;width=1440&amp;height=415&amp;rnd=134232474470000000",
-          "https://itftennis-ep.azureedge.net/media/assets/10.css",
-          "https://itftennis-ep.azureedge.net/media/assets/images/info-inactive.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/acceptance-list.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/op-light-inactive.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/media-icon.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/draw-light-active.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/champions_icon--grey.svg",
-          "https://www.itftennis.com/media/14909/tennis-point-logo-colour-1.png",
-          "https://itftennis-ep.azureedge.net/media/assets/10.bundle.js",
-          "https://widgets.itf-production.sports-data.stadion.io/itf-widget-sdk.umd.js",
-          "https://www.itftennis.com/_Incapsula_Resource?SWKMTFSR=1&e=0.7063243052948084",
-          "https://itftennis-ep.azureedge.net/media/assets/images/tennis_id_logo.svg",
-          "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap",
-          "https://itftennis-ep.azureedge.net/media/assets/images/chevron-right-grey.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/sign-up__mobile-app.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/sign-up__splash-background.jpg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/calendar.svg",
-          "https://connect.facebook.net/signals/config/1025417051169198?v=2.9.323&r=stable&domain=www.itftennis.com&hme=af8aa31887db259becaf70277daef60bd8bc35c2df82c2acd4258de27ecac4b5&ex_m=104%2C207%2C155%2C22%2C72%2C73%2C146%2C68%2C67%2C11%2C164%2C90%2C16%2C138%2C127%2C39%2C75%2C78%2C134%2C160%2C166%2C8%2C4%2C5%2C7%2C6%2C3%2C91%2C101%2C167%2C172%2C221%2C62%2C188%2C189%2C55%2C279%2C30%2C74%2C233%2C232%2C231%2C23%2C33%2C103%2C61%2C10%2C63%2C97%2C98%2C99%2C105%2C130%2C31%2C29%2C132%2C133%2C129%2C128%2C156%2C76%2C159%2C157%2C158%2C50%2C60%2C123%2C15%2C163%2C45%2C266%2C267%2C265%2C26%2C27%2C28%2C48%2C147%2C77%2C112%2C18%2C20%2C44%2C40%2C42%2C41%2C83%2C92%2C96%2C110%2C145%2C148%2C46%2C111%2C24%2C21%2C119%2C69%2C36%2C150%2C149%2C151%2C142%2C140%2C25%2C35%2C59%2C109%2C162%2C70%2C17%2C153%2C114%2C81%2C66%2C19%2C85%2C86%2C116%2C84%2C136%2C135%2C139%2C161%2C34%2C281%2C297%2C214%2C203%2C204%2C202%2C300%2C291%2C52%2C215%2C107%2C131%2C80%2C121%2C54%2C47%2C49%2C113%2C120%2C126%2C125%2C58%2C64%2C152%2C115%2C37%2C32%2C53%2C56%2C100%2C165%2C1%2C124%2C14%2C122%2C12%2C2%2C57%2C93%2C65%2C118%2C89%2C88%2C168%2C169%2C94%2C95%2C9%2C102%2C51%2C143%2C87%2C79%2C71%2C117%2C106%2C43%2C144%2C0%2C82%2C137%2C141%2C154%2C38%2C108%2C13%2C170",
-          "https://www.itftennis.com/tennis/api/TournamentApi/GetEventFilters?tournamentKey=j-j500-ita-2026-001",
-          "https://itftennis-ep.azureedge.net/media/assets/images/loading.gif",
-          "https://app.termly.io/api/v1/snippets/websites/736a1a74-e471-43b1-9611-36ab129ebc69/cookies?lang=en",
-          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/script?fid=64c906d2-f194-4ebd-868e-b90f0487029e&type=visual&rnd=4d29e223-f1cc-4fd4-bce7-6b920a4bf6d2&mkt=en",
-          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/forms/221840a7-9abb-ee11-9078-6045bd127be4/visits",
-          "https://analytics.tiktok.com/api/v2/pixel",
-          "https://app.termly.io/api/v1/snippets/websites/736a1a74-e471-43b1-9611-36ab129ebc69/statistics",
-          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/challenge/visual?flowId=64c906d2-f194-4ebd-868e-b90f0487029e&rnd=ac5280520df8435ab10ebff1438ce73b&market=en",
-          "https://analytics.tiktok.com/api/v2/pixel/act",
-          "https://cm.g.doubleclick.net/partnerpixels?url=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj500-milan%2Fita%2F2026%2Fj-j500-ita-2026-001%2Fdraws-and-results%2F",
-          "https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet",
-          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65i0v9100208071z8898764819za20gzb898764819zd898764819&_p=1779214898369&_gaz=1&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AAAAAGA&are=1&cid=2139542095.1779214902&frm=0&pscdl=noapi&rcb=6&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938465~115938469&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj500-milan%2Fita%2F2026%2Fj-j500-ita-2026-001%2Fdraws-and-results%2F&sid=1779214902&sct=1&seg=0&dt=J500%20Milan%3A%20Watch%20and%20follow%20the%20ITF%20World%20Tennis%20Tour%20Junior%20event&_tu=CA&en=scroll_percent_25&_fv=1&_nsi=1&_ss=1&ep.tournamentName=&ep.playersName=&tfd=3922",
-          "https://itftennis-ep.azureedge.net/media/assets/images/tick-green.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/IT.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/US.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/BR.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/CH.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/JP.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/GB.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/IN.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/CO.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/RO.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ES.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/FR.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/tpe.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/AT.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ZA.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/PR.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/CA.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/LV.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/AR.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/SK.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/KZ.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/AU.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/DE.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/IL.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/UZ.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/PE.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/EC.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/HK.png",
-          "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=819405840071084&correlator=2156934979962692&eid=31097657%2C31098622%2C83322746&output=ldjh&gdfp_req=1&vrg=202605140101&ptt=17&impl=fifs&iu_parts=23328656850%2Citf%2Cprimary_below_nav%2Ctournament_feature_banner&enc_prev_ius=%2F0%2F1%2F2%2C%2F0%2F1%2F3&prev_iu_szs=728x90%7C320x100%7C970x250%7C320x50%7C970x90%2C320x50%7C320x100%7C728x90%7C970x250%7C970x90&ifi=1&dids=div-gpt-ad-1768303440211-0~div-gpt-ad-1768303600172-0&adfs=2433876935~3601381602&sfv=1-0-45&sc=1&cookie_enabled=1&abxe=1&dt=1779214901997&lmt=1779214901&adxs=276%2C480&adys=179%2C699&biw=1280&bih=720&scr_x=0&scr_y=0&btvi=0%7C0&ucis=1%7C2&oid=2&u_his=2&u_h=720&u_w=1280&u_ah=720&u_aw=1280&u_cd=24&u_sd=1&dmc=16&bc=31&nvt=1&uach=WyJMaW51eCIsIiIsIng4NiIsIiIsIjE0OC4wLjc3NzguOTYiLG51bGwsMCxudWxsLCI2NCIsW1siQ2hyb21pdW0iLCIxNDguMC43Nzc4Ljk2Il0sWyJIZWFkbGVzc0Nocm9tZSIsIjE0OC4wLjc3NzguOTYiXSxbIk5vdC9BKUJyYW5kIiwiOTkuMC4wLjAiXV0sMF0.&url=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj500-milan%2Fita%2F2026%2Fj-j500-ita-2026-001%2Fdraws-and-results%2F&vis=1&psz=970x90%7C970x90&msz=728x50%7C320x50&fws=4%2C4&ohw=1280%2C1280&dlt=1779214898362&idt=705&cust_params=tour%3Djuniors%26tournament_id%3DJ-J500-ITA-2026-001%26location%3DMilan%26country%3DItaly&adks=2599182603%2C2569989109&frm=20&eoidce=1&pgls=CAk.",
-          "https://www.google.com/recaptcha/api2/aframe"
-        ]
-      }
+      "drawWarning": "Playwright unavailable; Cannot find package 'playwright' imported from C:\\Users\\genar\\Documents\\Codex\\2026-05-17\\cr-bom-dia-codex-eu-quero\\pipeline\\scrape-weekly-results.mjs"
     },
     {
       "tournamentName": "J200 Targu Jiu",
@@ -2130,15 +1851,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "confidence": "core-win",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/132305/Tournament-Rounds.html"
+            "currentRound": "R16",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
           }
         }
       ],
-      "coreTennisUrls": [
-        "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/132305/Tournament-Rounds.html"
-      ]
+      "liveTennisUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
     },
     {
       "tournamentName": "J100 Huzhou",

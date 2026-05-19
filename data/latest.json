@@ -1,7 +1,7 @@
 {
   "dataSource": {
     "rankingDate": "18 mai 2026",
-    "updatedAt": "18/05/2026, 23:39",
+    "updatedAt": "19/05/2026, 16:46",
     "note": "Pontos = ∑ 6 melhores resultados de simples + ∑ 25% dos 6 melhores resultados de duplas"
   },
   "players": [
@@ -12,7 +12,7 @@
       "gender": "Boys",
       "currentRank": 1,
       "officialPoints": 3053,
-      "sourceTotalCombinedPoints": 3053,
+      "sourceTotalCombinedPoints": 2686.25,
       "singles": [
         {
           "event": "The Junior Championships, Wimbledon",
@@ -39,14 +39,6 @@
           "sourceCounting": true
         },
         {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 350,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
-          "sourceCounting": true
-        },
-        {
           "event": "J300 Roehampton",
           "round": "J300",
           "points": 140,
@@ -63,30 +55,9 @@
           "date": "2025-06-01",
           "dropDate": "2026-05-31",
           "sourceCounting": true
-        },
-        {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 67,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
-          "sourceCounting": true
         }
       ],
-      "defending": [
-        {
-          "type": "singles",
-          "event": "J500 Milan",
-          "points": 350,
-          "date": "2026-05-18"
-        },
-        {
-          "type": "doubles",
-          "event": "J500 Milan",
-          "points": 67,
-          "date": "2026-05-18"
-        }
-      ],
+      "defending": [],
       "liveEvent": {
         "event": "",
         "grade": "",
@@ -173,14 +144,6 @@
           "sourceCounting": false
         },
         {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 90,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
-          "sourceCounting": false
-        },
-        {
           "event": "The Junior Championships, Wimbledon",
           "round": "JGS",
           "points": 90,
@@ -239,14 +202,6 @@
           "sourceCounting": true
         },
         {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 0,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
-          "sourceCounting": false
-        },
-        {
           "event": "J300 Charleroi-Marcinelle",
           "round": "J300",
           "points": 0,
@@ -279,25 +234,18 @@
           "sourceCounting": false
         }
       ],
-      "defending": [
-        {
-          "type": "doubles",
-          "event": "J500 Milan",
-          "points": 0,
-          "date": "2026-05-18"
-        }
-      ],
+      "defending": [],
       "liveEvent": {
         "event": "J500 Milan",
         "grade": "J500",
         "singlesStatus": "Ativo",
         "singlesRound": "R32",
         "singlesPoints": 0,
-        "doublesStatus": "Nao joga",
-        "doublesRound": "Nao joga",
+        "doublesStatus": "Ativo",
+        "doublesRound": "QF",
         "doublesPoints": 0,
         "singlesMaxPoints": 500,
-        "doublesMaxPoints": 0,
+        "doublesMaxPoints": 375,
         "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/luis-guto-miguel/800680259/bra/jt/s/itf-points-breakdown/"
@@ -309,7 +257,7 @@
       "gender": "Boys",
       "currentRank": 3,
       "officialPoints": 2379,
-      "sourceTotalCombinedPoints": 2379,
+      "sourceTotalCombinedPoints": 2377.25,
       "singles": [
         {
           "event": "2025 ITF World Tennis Tour Junior Finals",
@@ -378,25 +326,9 @@
         {
           "event": "Tennis Europe Summer Cups (B18)",
           "round": "GC",
-          "points": 75,
-          "date": "2025-08-04",
-          "dropDate": "2026-08-03",
-          "sourceCounting": false
-        },
-        {
-          "event": "J300 Traralgon",
-          "round": "J300",
           "points": 60,
           "date": "2026-01-16",
           "dropDate": "2027-01-15",
-          "sourceCounting": false
-        },
-        {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 0,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
           "sourceCounting": false
         },
         {
@@ -466,14 +398,6 @@
           "sourceCounting": true
         },
         {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 112,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
-          "sourceCounting": true
-        },
-        {
           "event": "J500 Fort Lauderdale",
           "round": "J500",
           "points": 112,
@@ -525,14 +449,6 @@
           "event": "Tennis Europe Summer Cups (B18)",
           "round": "GC",
           "points": 0,
-          "date": "2025-08-04",
-          "dropDate": "2026-08-03",
-          "sourceCounting": false
-        },
-        {
-          "event": "The Junior Championships, Wimbledon",
-          "round": "JGS",
-          "points": 0,
           "date": "2025-07-05",
           "dropDate": "2026-07-04",
           "sourceCounting": false
@@ -546,14 +462,7 @@
           "sourceCounting": false
         }
       ],
-      "defending": [
-        {
-          "type": "doubles",
-          "event": "J500 Milan",
-          "points": 112,
-          "date": "2026-05-18"
-        }
-      ],
+      "defending": [],
       "liveEvent": {
         "event": "",
         "grade": "",
@@ -806,7 +715,7 @@
       "gender": "Boys",
       "currentRank": 5,
       "officialPoints": 2082,
-      "sourceTotalCombinedPoints": 2082,
+      "sourceTotalCombinedPoints": 2007,
       "singles": [
         {
           "event": "J500 Offenbach",
@@ -838,14 +747,6 @@
           "points": 300,
           "date": "2026-01-24",
           "dropDate": "2027-01-23",
-          "sourceCounting": true
-        },
-        {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 150,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
           "sourceCounting": true
         },
         {
@@ -930,14 +831,6 @@
         }
       ],
       "doubles": [
-        {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 375,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
-          "sourceCounting": true
-        },
         {
           "event": "US Open Junior Tennis Championships",
           "round": "JGS",
@@ -1043,31 +936,18 @@
           "sourceCounting": false
         }
       ],
-      "defending": [
-        {
-          "type": "singles",
-          "event": "J500 Milan",
-          "points": 150,
-          "date": "2026-05-18"
-        },
-        {
-          "type": "doubles",
-          "event": "J500 Milan",
-          "points": 375,
-          "date": "2026-05-18"
-        }
-      ],
+      "defending": [],
       "liveEvent": {
         "event": "J500 Milan",
         "grade": "J500",
         "singlesStatus": "Ativo",
         "singlesRound": "R32",
         "singlesPoints": 0,
-        "doublesStatus": "Nao joga",
-        "doublesRound": "Nao joga",
+        "doublesStatus": "Ativo",
+        "doublesRound": "QF",
         "doublesPoints": 0,
         "singlesMaxPoints": 500,
-        "doublesMaxPoints": 0,
+        "doublesMaxPoints": 375,
         "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/jamie-mackenzie/800570117/ger/jt/s/itf-points-breakdown/"
@@ -1079,7 +959,7 @@
       "gender": "Boys",
       "currentRank": 6,
       "officialPoints": 2022.75,
-      "sourceTotalCombinedPoints": 2022.75,
+      "sourceTotalCombinedPoints": 1985.25,
       "singles": [
         {
           "event": "Australian Open Junior Championships",
@@ -1127,7 +1007,7 @@
           "points": 90,
           "date": "2025-06-01",
           "dropDate": "2026-05-31",
-          "sourceCounting": false
+          "sourceCounting": true
         },
         {
           "event": "J500 Fort Lauderdale",
@@ -1135,14 +1015,6 @@
           "points": 45,
           "date": "2025-12-08",
           "dropDate": "2026-12-07",
-          "sourceCounting": false
-        },
-        {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 0,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
           "sourceCounting": false
         },
         {
@@ -1180,14 +1052,6 @@
           "sourceCounting": true
         },
         {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 262,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
-          "sourceCounting": true
-        },
-        {
           "event": "Australian Open Junior Championships",
           "round": "JGS",
           "points": 225,
@@ -1209,7 +1073,7 @@
           "points": 112,
           "date": "2025-11-24",
           "dropDate": "2026-11-23",
-          "sourceCounting": false
+          "sourceCounting": true
         },
         {
           "event": "J500 Fort Lauderdale",
@@ -1244,14 +1108,7 @@
           "sourceCounting": false
         }
       ],
-      "defending": [
-        {
-          "type": "doubles",
-          "event": "J500 Milan",
-          "points": 262,
-          "date": "2026-05-18"
-        }
-      ],
+      "defending": [],
       "liveEvent": {
         "event": "",
         "grade": "",
@@ -1271,7 +1128,7 @@
       "gender": "Boys",
       "currentRank": 7,
       "officialPoints": 1966.5,
-      "sourceTotalCombinedPoints": 1966.5,
+      "sourceTotalCombinedPoints": 1651,
       "singles": [
         {
           "event": "2025 ITF World Tennis Tour Junior Finals",
@@ -1287,14 +1144,6 @@
           "points": 350,
           "date": "2025-12-08",
           "dropDate": "2026-12-07",
-          "sourceCounting": true
-        },
-        {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 250,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
           "sourceCounting": true
         },
         {
@@ -1319,7 +1168,7 @@
           "points": 180,
           "date": "2025-08-31",
           "dropDate": "2026-08-30",
-          "sourceCounting": false
+          "sourceCounting": true
         }
       ],
       "doubles": [
@@ -1340,14 +1189,6 @@
           "sourceCounting": true
         },
         {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 262,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
-          "sourceCounting": true
-        },
-        {
           "event": "The Junior Championships, Wimbledon",
           "round": "JGS",
           "points": 135,
@@ -1364,20 +1205,7 @@
           "sourceCounting": true
         }
       ],
-      "defending": [
-        {
-          "type": "singles",
-          "event": "J500 Milan",
-          "points": 250,
-          "date": "2026-05-18"
-        },
-        {
-          "type": "doubles",
-          "event": "J500 Milan",
-          "points": 262,
-          "date": "2026-05-18"
-        }
-      ],
+      "defending": [],
       "liveEvent": {
         "event": "",
         "grade": "",
@@ -1651,25 +1479,9 @@
         {
           "event": "Tennis Europe Summer Cups (B18)",
           "round": "GC",
-          "points": 50,
-          "date": "2025-08-04",
-          "dropDate": "2026-08-03",
-          "sourceCounting": false
-        },
-        {
-          "event": "J300 Roehampton",
-          "round": "J300",
           "points": 30,
           "date": "2025-06-29",
           "dropDate": "2026-06-28",
-          "sourceCounting": false
-        },
-        {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 0,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
           "sourceCounting": false
         },
         {
@@ -1779,14 +1591,6 @@
           "sourceCounting": false
         },
         {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 67,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
-          "sourceCounting": false
-        },
-        {
           "event": "J300 Roehampton",
           "round": "J300",
           "points": 0,
@@ -1814,14 +1618,6 @@
           "event": "Tennis Europe Summer Cups (B18)",
           "round": "GC",
           "points": 0,
-          "date": "2025-08-04",
-          "dropDate": "2026-08-03",
-          "sourceCounting": false
-        },
-        {
-          "event": "The Junior Championships, Wimbledon",
-          "round": "JGS",
-          "points": 0,
           "date": "2025-07-05",
           "dropDate": "2026-07-04",
           "sourceCounting": false
@@ -1834,11 +1630,11 @@
         "singlesStatus": "Ativo",
         "singlesRound": "R32",
         "singlesPoints": 0,
-        "doublesStatus": "Nao joga",
-        "doublesRound": "Nao joga",
+        "doublesStatus": "Eliminado",
+        "doublesRound": "QF",
         "doublesPoints": 0,
         "singlesMaxPoints": 500,
-        "doublesMaxPoints": 0,
+        "doublesMaxPoints": 375,
         "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/thilo-behrmann/800589798/aut/jt/s/itf-points-breakdown/"
@@ -1850,7 +1646,7 @@
       "gender": "Boys",
       "currentRank": 10,
       "officialPoints": 1709,
-      "sourceTotalCombinedPoints": 1709,
+      "sourceTotalCombinedPoints": 1692.25,
       "singles": [
         {
           "event": "Roland Garros Junior Championships",
@@ -1933,14 +1729,6 @@
           "sourceCounting": false
         },
         {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 0,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
-          "sourceCounting": false
-        },
-        {
           "event": "The Junior Championships, Wimbledon",
           "round": "JGS",
           "points": 0,
@@ -1980,14 +1768,6 @@
           "points": 135,
           "date": "2026-01-24",
           "dropDate": "2027-01-23",
-          "sourceCounting": true
-        },
-        {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 112,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
           "sourceCounting": true
         },
         {
@@ -2031,14 +1811,7 @@
           "sourceCounting": false
         }
       ],
-      "defending": [
-        {
-          "type": "doubles",
-          "event": "J500 Milan",
-          "points": 112,
-          "date": "2026-05-18"
-        }
-      ],
+      "defending": [],
       "liveEvent": {
         "event": "",
         "grade": "",
@@ -2251,7 +2024,7 @@
       "gender": "Girls",
       "currentRank": 2,
       "officialPoints": 2325.5,
-      "sourceTotalCombinedPoints": 2325.5,
+      "sourceTotalCombinedPoints": 2047.5,
       "singles": [
         {
           "event": "Roland Garros Junior Championships",
@@ -2284,14 +2057,6 @@
           "date": "2025-07-05",
           "dropDate": "2026-07-04",
           "sourceCounting": true
-        },
-        {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 250,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
-          "sourceCounting": true
         }
       ],
       "doubles": [
@@ -2312,14 +2077,6 @@
           "sourceCounting": true
         },
         {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 112,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
-          "sourceCounting": true
-        },
-        {
           "event": "Roland Garros Junior Championships",
           "round": "JGS",
           "points": 0,
@@ -2328,20 +2085,7 @@
           "sourceCounting": true
         }
       ],
-      "defending": [
-        {
-          "type": "singles",
-          "event": "J500 Milan",
-          "points": 250,
-          "date": "2026-05-18"
-        },
-        {
-          "type": "doubles",
-          "event": "J500 Milan",
-          "points": 112,
-          "date": "2026-05-18"
-        }
-      ],
+      "defending": [],
       "liveEvent": {
         "event": "",
         "grade": "",
@@ -2361,7 +2105,7 @@
       "gender": "Girls",
       "currentRank": 3,
       "officialPoints": 2279.25,
-      "sourceTotalCombinedPoints": 2279.25,
+      "sourceTotalCombinedPoints": 2189.25,
       "singles": [
         {
           "event": "The Junior Championships, Wimbledon",
@@ -2393,14 +2137,6 @@
           "points": 180,
           "date": "2025-06-01",
           "dropDate": "2026-05-31",
-          "sourceCounting": true
-        },
-        {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 90,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
           "sourceCounting": true
         },
         {
@@ -2438,14 +2174,6 @@
           "sourceCounting": true
         },
         {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 0,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
-          "sourceCounting": true
-        },
-        {
           "event": "J300 Roehampton",
           "round": "J300",
           "points": 0,
@@ -2454,20 +2182,7 @@
           "sourceCounting": true
         }
       ],
-      "defending": [
-        {
-          "type": "singles",
-          "event": "J500 Milan",
-          "points": 90,
-          "date": "2026-05-18"
-        },
-        {
-          "type": "doubles",
-          "event": "J500 Milan",
-          "points": 0,
-          "date": "2026-05-18"
-        }
-      ],
+      "defending": [],
       "liveEvent": {
         "event": "",
         "grade": "",
@@ -2487,7 +2202,7 @@
       "gender": "Girls",
       "currentRank": 4,
       "officialPoints": 2237.25,
-      "sourceTotalCombinedPoints": 2237.25,
+      "sourceTotalCombinedPoints": 2199.75,
       "singles": [
         {
           "event": "J500 Merida",
@@ -2546,14 +2261,6 @@
           "sourceCounting": false
         },
         {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 45,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
-          "sourceCounting": false
-        },
-        {
           "event": "J300 Roehampton",
           "round": "J300",
           "points": 0,
@@ -2596,14 +2303,6 @@
           "sourceCounting": true
         },
         {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 375,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
-          "sourceCounting": true
-        },
-        {
           "event": "The Junior Championships, Wimbledon",
           "round": "JGS",
           "points": 367,
@@ -2636,14 +2335,7 @@
           "sourceCounting": false
         }
       ],
-      "defending": [
-        {
-          "type": "doubles",
-          "event": "J500 Milan",
-          "points": 375,
-          "date": "2026-05-18"
-        }
-      ],
+      "defending": [],
       "liveEvent": {
         "event": "",
         "grade": "",
@@ -2730,14 +2422,6 @@
           "sourceCounting": false
         },
         {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 45,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
-          "sourceCounting": false
-        },
-        {
           "event": "J300 Traralgon",
           "round": "J300",
           "points": 0,
@@ -2818,14 +2502,6 @@
           "date": "2026-01-16",
           "dropDate": "2027-01-15",
           "sourceCounting": false
-        },
-        {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 0,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
-          "sourceCounting": false
         }
       ],
       "defending": [],
@@ -2835,11 +2511,11 @@
         "singlesStatus": "Ativo",
         "singlesRound": "R32",
         "singlesPoints": 0,
-        "doublesStatus": "Nao joga",
-        "doublesRound": "Nao joga",
+        "doublesStatus": "Ativo",
+        "doublesRound": "QF",
         "doublesPoints": 0,
         "singlesMaxPoints": 500,
-        "doublesMaxPoints": 0,
+        "doublesMaxPoints": 375,
         "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/victoria-luiza-barros/800655335/bra/jt/s/itf-points-breakdown/"
@@ -2851,7 +2527,7 @@
       "gender": "Girls",
       "currentRank": 6,
       "officialPoints": 2084.75,
-      "sourceTotalCombinedPoints": 2084.75,
+      "sourceTotalCombinedPoints": 1706.75,
       "singles": [
         {
           "event": "The Junior Championships, Wimbledon",
@@ -2859,14 +2535,6 @@
           "points": 700,
           "date": "2025-07-05",
           "dropDate": "2026-07-04",
-          "sourceCounting": true
-        },
-        {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 350,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
           "sourceCounting": true
         },
         {
@@ -2918,30 +2586,9 @@
           "date": "2025-06-29",
           "dropDate": "2026-06-28",
           "sourceCounting": true
-        },
-        {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 112,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
-          "sourceCounting": true
         }
       ],
-      "defending": [
-        {
-          "type": "singles",
-          "event": "J500 Milan",
-          "points": 350,
-          "date": "2026-05-18"
-        },
-        {
-          "type": "doubles",
-          "event": "J500 Milan",
-          "points": 112,
-          "date": "2026-05-18"
-        }
-      ],
+      "defending": [],
       "liveEvent": {
         "event": "",
         "grade": "",
@@ -2961,7 +2608,7 @@
       "gender": "Girls",
       "currentRank": 7,
       "officialPoints": 1977.25,
-      "sourceTotalCombinedPoints": 1977.25,
+      "sourceTotalCombinedPoints": 1769.75,
       "singles": [
         {
           "event": "J300 Zapopan",
@@ -2974,14 +2621,6 @@
         {
           "event": "2025 ITF World Tennis Tour Junior Finals",
           "round": "JM",
-          "points": 260,
-          "date": "2025-10-22",
-          "dropDate": "2026-10-21",
-          "sourceCounting": true
-        },
-        {
-          "event": "J500 Merida",
-          "round": "J500",
           "points": 250,
           "date": "2025-11-24",
           "dropDate": "2026-11-23",
@@ -3026,14 +2665,6 @@
           "date": "2026-01-24",
           "dropDate": "2027-01-23",
           "sourceCounting": false
-        },
-        {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 0,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
-          "sourceCounting": false
         }
       ],
       "doubles": [
@@ -3059,14 +2690,6 @@
           "points": 525,
           "date": "2025-06-01",
           "dropDate": "2026-05-31",
-          "sourceCounting": true
-        },
-        {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 375,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
           "sourceCounting": true
         },
         {
@@ -3102,25 +2725,18 @@
           "sourceCounting": false
         }
       ],
-      "defending": [
-        {
-          "type": "doubles",
-          "event": "J500 Milan",
-          "points": 375,
-          "date": "2026-05-18"
-        }
-      ],
+      "defending": [],
       "liveEvent": {
         "event": "J500 Milan",
         "grade": "J500",
         "singlesStatus": "Ativo",
         "singlesRound": "R32",
         "singlesPoints": 0,
-        "doublesStatus": "Nao joga",
-        "doublesRound": "Nao joga",
+        "doublesStatus": "Ativo",
+        "doublesRound": "QF",
         "doublesPoints": 0,
         "singlesMaxPoints": 500,
-        "doublesMaxPoints": 0,
+        "doublesMaxPoints": 375,
         "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/jana-kovackova/800661515/cze/jt/s/itf-points-breakdown/"
@@ -3457,7 +3073,7 @@
       "gender": "Girls",
       "currentRank": 10,
       "officialPoints": 1741,
-      "sourceTotalCombinedPoints": 1741,
+      "sourceTotalCombinedPoints": 1675.5,
       "singles": [
         {
           "event": "2025 ITF World Tennis Tour Junior Finals",
@@ -3500,14 +3116,6 @@
           "sourceCounting": true
         },
         {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 90,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
-          "sourceCounting": true
-        },
-        {
           "event": "The Junior Championships, Wimbledon",
           "round": "JGS",
           "points": 90,
@@ -3531,14 +3139,6 @@
           "points": 367,
           "date": "2025-07-05",
           "dropDate": "2026-07-04",
-          "sourceCounting": true
-        },
-        {
-          "event": "J500 Milan",
-          "round": "J500",
-          "points": 262,
-          "date": "2025-05-19",
-          "dropDate": "2026-05-18",
           "sourceCounting": true
         },
         {
@@ -3574,20 +3174,7 @@
           "sourceCounting": true
         }
       ],
-      "defending": [
-        {
-          "type": "singles",
-          "event": "J500 Milan",
-          "points": 90,
-          "date": "2026-05-18"
-        },
-        {
-          "type": "doubles",
-          "event": "J500 Milan",
-          "points": 262,
-          "date": "2026-05-18"
-        }
-      ],
+      "defending": [],
       "liveEvent": {
         "event": "",
         "grade": "",
@@ -3655,6 +3242,6 @@
     "victoria-luiza-barros",
     "xinran-sun"
   ],
-  "skippedUpdateReason": "Empty data for: niels-mcdonald, thijs-boogaard, arnav-paparkar, raffaele-ciurnelli, ryan-cozad, daniel-jovanovski, matei-todoran, mark-ceban, emilio-camacho, valentin-gonzalez-galino, daniel-jade, kanta-watanabe, vincent-reisach, jakub-kusy, kirill-filaretov, leon-sloboda, gavin-goode, tanishk-konduri, juan-miguel-bolivar-idarraga, benjamin-azar, lilli-tagger, sol-ailin-larraya-guidi, anastasija-cvetkovic, kanon-sawashiro, charo-esquiva-banuls, ida-wobker, paola-pinera-celorio, mariella-thamm, mariia-makarova, giulia-safina-popa, anna-pushkareva, thea-frodin, alexandra-malova, maaya-rajeshwaran-revathi, felitsata-dorofeeva-rybas, jordyn-hazelitt, polina-skliar, welles-newman, rada-zolotareva, anastasia-lizunova, ruien-zhang, renee-alame, sofie-hettlerova, denisa-zoldakova, maia-ilinca-burcescu, yihan-qu, yu-jun-lin, nadia-lagaev, antonina-sushkova, adelina-lacinova, ha-eum-lee, maria-valentina-pop, alyssa-james, sonja-zhenikhova, luna-maria-cinalli, chukwumelije-clarke, yu-chen-lin",
-  "skippedUpdateAt": "19/05/2026, 15:21"
+  "partialUpdateReason": "Preserved previous data for: niels-mcdonald, thijs-boogaard, arnav-paparkar, raffaele-ciurnelli, ryan-cozad, daniel-jovanovski, matei-todoran, mark-ceban, emilio-camacho, valentin-gonzalez-galino, daniel-jade, kanta-watanabe, vincent-reisach, jakub-kusy, kirill-filaretov, leon-sloboda, gavin-goode, tanishk-konduri, juan-miguel-bolivar-idarraga, benjamin-azar, lilli-tagger, sol-ailin-larraya-guidi, anastasija-cvetkovic, kanon-sawashiro, charo-esquiva-banuls, ida-wobker, paola-pinera-celorio, mariella-thamm, mariia-makarova, giulia-safina-popa, anna-pushkareva, thea-frodin, alexandra-malova, maaya-rajeshwaran-revathi, felitsata-dorofeeva-rybas, jordyn-hazelitt, polina-skliar, welles-newman, rada-zolotareva, anastasia-lizunova, ruien-zhang, renee-alame, sofie-hettlerova, denisa-zoldakova, maia-ilinca-burcescu, yihan-qu, yu-jun-lin, nadia-lagaev, antonina-sushkova, adelina-lacinova, ha-eum-lee, maria-valentina-pop, alyssa-james, sonja-zhenikhova, luna-maria-cinalli, chukwumelije-clarke, yu-chen-lin",
+  "partialUpdateAt": "19/05/2026, 16:46"
 }

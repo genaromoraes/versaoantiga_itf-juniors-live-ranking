@@ -531,16 +531,22 @@ let payload = {
 };
 
 if (invalidPlayers.length && existingLatest?.players?.length) {
-  console.warn(`Keeping previous latest.json because this run has empty data for: ${invalidPlayers.map((player) => player.id).join(", ")}`);
+  console.warn(`Partially updating latest.json; preserving previous data for: ${invalidPlayers.map((player) => player.id).join(", ")}`);
+  const updatedById = new Map(players.filter(hasRankingResults).map((player) => [player.id, player]));
+  const mergedPlayers = existingLatest.players.map((player) => updatedById.get(player.id) || player);
   payload = {
     ...existingLatest,
+    players: mergedPlayers,
+    skippedUpdateReason: undefined,
+    skippedUpdateAt: undefined,
     dataSource: {
       ...existingLatest.dataSource,
-      updatedAt: existingLatest.dataSource?.updatedAt || payload.dataSource.updatedAt
+      rankingDate: payload.dataSource.rankingDate,
+      updatedAt: payload.dataSource.updatedAt
     },
     generatedBy: "pipeline/build-latest.mjs",
-    skippedUpdateReason: `Empty data for: ${invalidPlayers.map((player) => player.id).join(", ")}`,
-    skippedUpdateAt: payload.dataSource.updatedAt
+    partialUpdateReason: `Preserved previous data for: ${invalidPlayers.map((player) => player.id).join(", ")}`,
+    partialUpdateAt: payload.dataSource.updatedAt
   };
 }
 
