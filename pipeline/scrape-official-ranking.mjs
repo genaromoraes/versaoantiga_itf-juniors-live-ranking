@@ -49,6 +49,15 @@ function canonicalPointsBreakdownUrl(url = "") {
   return `https://www.itftennis.com/en/players/${match[1]}/${match[2]}/${match[3].toLowerCase()}/jt/s/itf-points-breakdown/`;
 }
 
+function decodeBase64Url(value = "") {
+  try {
+    const normalized = value.replace(/-/g, "+").replace(/_/g, "/");
+    return Buffer.from(normalized, "base64").toString("utf8");
+  } catch {
+    return "";
+  }
+}
+
 function safeDecode(value = "") {
   try {
     return decodeURIComponent(value);
@@ -124,7 +133,47 @@ async function scrapeAuxiliaryCategory(page, category) {
   return result;
 }
 
+function matchingItfProfileUrl(urls, player) {
+  const expectedSlug = slugifyName(player.name);
+  const expectedCountry = (player.country || "").toLowerCase();
+
+  return (
+    urls
+      .map((url) => canonicalPointsBreakdownUrl(safeDecode(url)))
+      .find((url) => {
+        const parts = url.match(/\/players\/([^/]+)\/\d+\/([a-z]{3})\/jt\/s\/itf-points-breakdown\//i);
+        return parts?.[1] === expectedSlug && parts?.[2].toLowerCase() === expectedCountry;
+      }) || ""
+  );
+}
+
+async function resolveItfProfileFromItfSearch(page, player) {
+  await page.goto("https://www.itftennis.com/en/players/", { waitUntil: "domcontentloaded", timeout: 45000 });
+
+  const visibleInputs = page.locator("input:visible");
+  const inputCount = await visibleInputs.count().catch(() => 0);
+  for (let index = 0; index < inputCount; index += 1) {
+    const input = visibleInputs.nth(index);
+    try {
+      await input.fill(player.name, { timeout: 5000 });
+      await input.press("Enter", { timeout: 5000 });
+      await page.waitForTimeout(1500);
+    } catch {
+      continue;
+    }
+
+    const urls = await page.evaluate(() => [...document.querySelectorAll('a[href*="/en/players/"]')].map((link) => link.href));
+    const resolvedUrl = matchingItfProfileUrl(urls, player);
+    if (resolvedUrl) return resolvedUrl;
+  }
+
+  return "";
+}
+
 async function resolveItfProfileUrl(page, player) {
+  const fromItfSearch = await resolveItfProfileFromItfSearch(page, player).catch(() => "");
+  if (fromItfSearch) return fromItfSearch;
+
   const query = ["site:itftennis.com/en/players/", `"${player.name}"`, player.country, "itf points breakdown"].join(" ");
 
   await page.goto(`https://www.bing.com/search?q=${encodeURIComponent(query)}`, { waitUntil: "domcontentloaded", timeout: 45000 });
@@ -137,24 +186,44 @@ async function resolveItfProfileUrl(page, player) {
     return [...hrefs, ...bodyUrls].flatMap((value) => {
       try {
         const url = new URL(value);
-        return [value, url.searchParams.get("url"), url.searchParams.get("u")].filter(Boolean);
+        const bingEncoded = url.searchParams.get("u") || "";
+        const decodedBing = bingEncoded.startsWith("a1") ? atob(bingEncoded.slice(2).replace(/-/g, "+").replace(/_/g, "/")) : "";
+        return [value, url.searchParams.get("url"), url.searchParams.get("u"), decodedBing].filter(Boolean);
       } catch {
         return [value];
       }
     });
   });
 
-  const expectedSlug = slugifyName(player.name);
-  const expectedCountry = (player.country || "").toLowerCase();
-
-  return (
-    urls
-      .map((url) => canonicalPointsBreakdownUrl(safeDecode(url)))
-      .find((url) => {
-        const parts = url.match(/\/players\/([^/]+)\/\d+\/([a-z]{3})\/jt\/s\/itf-points-breakdown\//i);
-        return parts?.[1] === expectedSlug && parts?.[2].toLowerCase() === expectedCountry;
-      }) || ""
+  const resolvedUrl = matchingItfProfileUrl(
+    urls.flatMap((url) => {
+      const decoded = safeDecode(url);
+      const maybeBingEncoded = decoded.startsWith("a1") ? decodeBase64Url(decoded.slice(2)) : "";
+      return [url, decoded, maybeBingEncoded].filter(Boolean);
+    }),
+    player
   );
+  if (resolvedUrl) return resolvedUrl;
+
+  const duckDuckGoUrl = `https://html.duckduckgo.com/html/?q=${encodeURIComponent(`${player.name} ${player.country} site:itftennis.com/en/players`)}`;
+  await page.goto(duckDuckGoUrl, { waitUntil: "domcontentloaded", timeout: 45000 });
+  await page.waitForTimeout(750);
+
+  const duckDuckGoUrls = await page.evaluate(() => {
+    const hrefs = [...document.querySelectorAll("a[href]")].map((link) => link.href);
+    const bodyUrls = document.body.innerHTML.match(/https?:\/\/www\.itftennis\.com\/en\/players\/[^"'<>\\\s]+/gi) || [];
+
+    return [...hrefs, ...bodyUrls].flatMap((value) => {
+      try {
+        const url = new URL(value);
+        return [value, url.searchParams.get("uddg")].filter(Boolean);
+      } catch {
+        return [value];
+      }
+    });
+  });
+
+  return matchingItfProfileUrl(duckDuckGoUrls, player);
 }
 
 async function resolveMissingItfProfiles(page, players, warnings) {
