@@ -42,6 +42,21 @@ function pointsBreakdownUrl(url) {
   return url.replace(/\/$/, "") + "/itf-points-breakdown/";
 }
 
+function canonicalPointsBreakdownUrl(url = "") {
+  const match = url.match(/https?:\/\/www\.itftennis\.com\/en\/players\/([^/"'<>\s]+)\/(\d+)\/([a-z]{3})\/(?:jt|mt|wt)\/[sd]/i);
+  if (!match) return "";
+
+  return `https://www.itftennis.com/en/players/${match[1]}/${match[2]}/${match[3].toLowerCase()}/jt/s/itf-points-breakdown/`;
+}
+
+function safeDecode(value = "") {
+  try {
+    return decodeURIComponent(value);
+  } catch {
+    return value;
+  }
+}
+
 function slugifyName(name = "") {
   return name
     .normalize("NFD")
@@ -107,6 +122,58 @@ async function scrapeAuxiliaryCategory(page, category) {
   }
 
   return result;
+}
+
+async function resolveItfProfileUrl(page, player) {
+  const query = ["site:itftennis.com/en/players/", `"${player.name}"`, player.country, "itf points breakdown"].join(" ");
+
+  await page.goto(`https://www.bing.com/search?q=${encodeURIComponent(query)}`, { waitUntil: "domcontentloaded", timeout: 45000 });
+  await page.waitForTimeout(750);
+
+  const urls = await page.evaluate(() => {
+    const hrefs = [...document.querySelectorAll("a[href]")].map((link) => link.href);
+    const bodyUrls = document.body.innerHTML.match(/https?:\/\/www\.itftennis\.com\/en\/players\/[^"'<>\\\s]+/gi) || [];
+
+    return [...hrefs, ...bodyUrls].flatMap((value) => {
+      try {
+        const url = new URL(value);
+        return [value, url.searchParams.get("url"), url.searchParams.get("u")].filter(Boolean);
+      } catch {
+        return [value];
+      }
+    });
+  });
+
+  const expectedSlug = slugifyName(player.name);
+  const expectedCountry = (player.country || "").toLowerCase();
+
+  return (
+    urls
+      .map((url) => canonicalPointsBreakdownUrl(safeDecode(url)))
+      .find((url) => {
+        const parts = url.match(/\/players\/([^/]+)\/\d+\/([a-z]{3})\/jt\/s\/itf-points-breakdown\//i);
+        return parts?.[1] === expectedSlug && parts?.[2].toLowerCase() === expectedCountry;
+      }) || ""
+  );
+}
+
+async function resolveMissingItfProfiles(page, players, warnings) {
+  for (const player of players) {
+    if (player.pointsBreakdownUrl) continue;
+
+    try {
+      const resolvedUrl = await resolveItfProfileUrl(page, player);
+      if (!resolvedUrl) {
+        warnings.push(`Could not resolve ITF profile URL for ${player.id}.`);
+        continue;
+      }
+
+      player.pointsBreakdownUrl = resolvedUrl;
+      player.needsProfileResolution = false;
+    } catch (error) {
+      warnings.push(`Could not resolve ITF profile URL for ${player.id}: ${error.message}`);
+    }
+  }
 }
 
 async function scrapeVisibleRows(page, limit) {
@@ -297,6 +364,8 @@ try {
       );
     }
   }
+
+  await resolveMissingItfProfiles(page, rankingPlayers, warnings);
 } finally {
   await browser.close();
 }
