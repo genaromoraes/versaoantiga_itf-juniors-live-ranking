@@ -297,6 +297,14 @@ function sumCounted(results = [], multiplier = 1) {
     .reduce((total, item) => total + item.countedPoints, 0);
 }
 
+function countedReplacementResults(beforeResults = [], afterResults = [], multiplier = 1) {
+  const beforeCounted = rankedResults(beforeResults, multiplier).filter((item) => item.isCounting);
+  const afterCounted = rankedResults(afterResults, multiplier).filter((item) => item.isCounting);
+  const beforeKeys = new Set(beforeCounted.map(resultKey));
+
+  return afterCounted.filter((item) => !beforeKeys.has(resultKey(item)));
+}
+
 const gradePoints = {
   JGS: { R32: 90, R16: 180, QF: 300, SF: 490, Final: 700, Campeao: 1000 },
   J500: { R32: 45, R16: 90, QF: 150, SF: 250, Final: 350, Campeao: 500 },
@@ -352,6 +360,11 @@ function normalizePlayer(player) {
   const droppingDoubles = droppingResultSet(defending, "doubles");
   const liveBaseSingles = singles.filter((result) => !droppingSingles.has(resultKey(result)));
   const liveBaseDoubles = doubles.filter((result) => !droppingDoubles.has(resultKey(result)));
+  const replacementSingles = countedReplacementResults(singles, liveBaseSingles);
+  const replacementDoubles = countedReplacementResults(doubles, liveBaseDoubles, 0.25).map((item) => ({
+    ...item,
+    type: "doubles"
+  }));
   const basePoints = sumCounted(singles) + sumCounted(doubles, 0.25);
   const liveBasePoints = sumCounted(liveBaseSingles) + sumCounted(liveBaseDoubles, 0.25);
   const defendingPoints = Math.max(0, basePoints - liveBasePoints);
@@ -365,6 +378,10 @@ function normalizePlayer(player) {
     singles,
     doubles,
     defending,
+    replacements: [
+      ...replacementSingles.map((item) => ({ ...item, type: "singles" })),
+      ...replacementDoubles
+    ],
     liveEvent,
     basePoints,
     liveBasePoints,
@@ -459,9 +476,24 @@ function pointsDropSummary(player) {
 
 function pointsEntrySummary(player) {
   const liveEvent = player.liveEvent || {};
-  if (!isActiveThisWeek(liveEvent)) return "";
-
   const entries = [];
+  const replacements = Array.isArray(player.replacements) ? player.replacements : [];
+
+  for (const item of replacements) {
+    const typeLabel = item.type === "doubles" ? "duplas" : "simples";
+    const countedValue = item.type === "doubles" ? doublesValue(item.points) : Number(item.points || 0);
+    entries.push(
+      [item.event, item.round || typeLabel, `+${formatNumber(countedValue)}`]
+        .filter(Boolean)
+        .join(" · ")
+    );
+  }
+
+  if (!isActiveThisWeek(liveEvent)) {
+    if (!entries.length) return "";
+    if (entries.length <= 2) return entries.join(" | ");
+    return `${entries.slice(0, 2).join(" | ")} | +${entries.length - 2}`;
+  }
 
   if (Number(liveEvent.singlesPoints || 0) > 0) {
     entries.push(
