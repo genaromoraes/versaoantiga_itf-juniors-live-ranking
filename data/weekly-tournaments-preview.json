@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "19/05/2026, 14:16",
+  "scrapedAt": "19/05/2026, 14:50",
   "calendarStartDate": "2026-05",
   "tournaments": [
     {
@@ -35,7 +35,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 5,
@@ -57,7 +58,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 9,
@@ -79,7 +81,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 14,
@@ -101,7 +104,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 12,
@@ -123,7 +127,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 18,
@@ -145,7 +150,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 16,
@@ -167,7 +173,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 17,
@@ -189,7 +196,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 15,
@@ -211,7 +219,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 19,
@@ -233,7 +242,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 22,
@@ -255,7 +265,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 20,
@@ -277,7 +288,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 27,
@@ -299,7 +311,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 32,
@@ -321,7 +334,8 @@
             "pointsOverride": 0,
             "confidence": "core-pending-match",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 30,
@@ -343,7 +357,8 @@
             "pointsOverride": 0,
             "confidence": "core-pending-match",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 31,
@@ -364,7 +379,8 @@
             "currentRound": "R64",
             "confidence": "core-loss",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 29,
@@ -386,7 +402,8 @@
             "pointsOverride": 0,
             "confidence": "core-pending-match",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 45,
@@ -407,7 +424,8 @@
             "currentRound": "R32",
             "confidence": "core-win",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 28,
@@ -429,7 +447,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 36,
@@ -451,7 +470,8 @@
             "pointsOverride": 0,
             "confidence": "core-pending-match",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 34,
@@ -472,7 +492,8 @@
             "currentRound": "R64",
             "confidence": "core-loss",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 33,
@@ -493,7 +514,8 @@
             "currentRound": "R32",
             "confidence": "core-win",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 39,
@@ -514,7 +536,8 @@
             "currentRound": "R64",
             "confidence": "core-loss",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 24,
@@ -536,7 +559,8 @@
             "pointsOverride": 0,
             "confidence": "core-pending-match",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 44,
@@ -557,7 +581,8 @@
             "currentRound": "R64",
             "confidence": "core-loss",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 25,
@@ -573,6 +598,7 @@
           "sex": "boy",
           "juniorRank": 40,
           "priority": 1,
+          "drawResultDoubles": null,
           "drawResult": {
             "status": "Ativo",
             "currentRound": "Pendente",
@@ -598,7 +624,8 @@
             "currentRound": "R32",
             "confidence": "core-win",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 47,
@@ -620,7 +647,8 @@
             "pointsOverride": 0,
             "confidence": "core-pending-match",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 43,
@@ -642,7 +670,8 @@
             "pointsOverride": 0,
             "confidence": "core-pending-match",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 42,
@@ -663,7 +692,8 @@
             "currentRound": "R32",
             "confidence": "core-win",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 48,
@@ -685,7 +715,8 @@
             "pointsOverride": 0,
             "confidence": "core-pending-match",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 26,
@@ -707,7 +738,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 35,
@@ -728,7 +760,8 @@
             "currentRound": "R64",
             "confidence": "core-loss",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 49,
@@ -750,7 +783,8 @@
             "pointsOverride": 0,
             "confidence": "core-pending-match",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 50,
@@ -772,7 +806,8 @@
             "pointsOverride": 0,
             "confidence": "core-pending-match",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130143/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 7,
@@ -794,7 +829,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 5,
@@ -816,7 +852,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 8,
@@ -838,7 +875,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 11,
@@ -860,7 +898,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 13,
@@ -882,7 +921,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 14,
@@ -904,7 +944,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 20,
@@ -926,7 +967,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 16,
@@ -948,7 +990,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 17,
@@ -970,7 +1013,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 25,
@@ -992,7 +1036,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 21,
@@ -1014,7 +1059,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 22,
@@ -1036,7 +1082,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 24,
@@ -1058,7 +1105,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 18,
@@ -1080,7 +1128,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 28,
@@ -1102,7 +1151,8 @@
             "pointsOverride": 0,
             "confidence": "core-pending-match",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 26,
@@ -1124,7 +1174,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 27,
@@ -1146,7 +1197,8 @@
             "pointsOverride": 0,
             "confidence": "core-pending-match",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 29,
@@ -1168,7 +1220,8 @@
             "pointsOverride": 0,
             "confidence": "core-pending-match",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 23,
@@ -1190,7 +1243,8 @@
             "pointsOverride": 0,
             "confidence": "core-bye",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 39,
@@ -1211,7 +1265,8 @@
             "currentRound": "R32",
             "confidence": "core-win",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 31,
@@ -1232,7 +1287,8 @@
             "currentRound": "R32",
             "confidence": "core-win",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 35,
@@ -1253,7 +1309,8 @@
             "currentRound": "R32",
             "confidence": "core-win",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 38,
@@ -1274,7 +1331,8 @@
             "currentRound": "R64",
             "confidence": "core-loss",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 41,
@@ -1295,7 +1353,8 @@
             "currentRound": "R64",
             "confidence": "core-loss",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 43,
@@ -1316,7 +1375,8 @@
             "currentRound": "R32",
             "confidence": "core-win",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 48,
@@ -1338,7 +1398,8 @@
             "pointsOverride": 0,
             "confidence": "core-pending-match",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 50,
@@ -1360,7 +1421,8 @@
             "pointsOverride": 0,
             "confidence": "core-pending-match",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 46,
@@ -1381,7 +1443,8 @@
             "currentRound": "R32",
             "confidence": "core-win",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 49,
@@ -1403,7 +1466,8 @@
             "pointsOverride": 0,
             "confidence": "core-pending-match",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 40,
@@ -1425,7 +1489,8 @@
             "pointsOverride": 0,
             "confidence": "core-pending-match",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         },
         {
           "currentRank": 45,
@@ -1447,7 +1512,8 @@
             "pointsOverride": 0,
             "confidence": "core-pending-match",
             "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
-          }
+          },
+          "drawResultDoubles": null
         }
       ],
       "coreTennisUrls": [
@@ -1860,8 +1926,8 @@
         "networkUrls": [
           "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
           "https://www.itftennis.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3",
-          "https://www.itftennis.com/_Incapsula_Resource?SWKMTFSR=1&e=0.4945947537139441",
-          "https://www.itftennis.com/_Incapsula_Resource?SWUDNSAI=31&xinfo=10-37613742-0%202NNN%20RT%281779210961071%2011%29%20q%280%20-1%20-1%200%29%20r%280%20-1%29%20B12%2811%2c14315807%2c0%29%20U18&incident_id=1251000090117035575-183892185956155978&edet=12&cinfo=0b000000&rpinfo=0&cts=1zwZmzWNBGXqOuKUOLP3s%2bC9Bda7gOiPwGCbUI5eqWqz7yYoM4maxcLH8YCsWUuN&cip=172.214.104.49&mth=GET",
+          "https://www.itftennis.com/_Incapsula_Resource?SWKMTFSR=1&e=0.34096732989978296",
+          "https://www.itftennis.com/_Incapsula_Resource?SWUDNSAI=31&xinfo=13-72982643-0%202NNN%20RT%281779213011794%2015%29%20q%280%20-1%20-1%200%29%20r%280%20-1%29%20B12%2811%2c14315729%2c0%29%20U18&incident_id=1541000070154471451-379305256548630989&edet=12&cinfo=0b000000&rpinfo=0&cts=HwnVp6H3aaIcCLIsfufPoQQD2XT%2fDZ8KGni5HROQF4bABVD0cywcAo5M0jvt3L4o&cip=20.109.92.213&mth=GET",
           "https://js.hcaptcha.com/1/api.js",
           "https://api.hcaptcha.com/checksiteconfig?v=6528675343bbcfa331f287bf983949f75bf1e7bb&host=www.itftennis.com&sitekey=dd6e16a7-972e-47d2-93d0-96642fb6d8de&sc=1&swa=1&spst=1"
         ]
