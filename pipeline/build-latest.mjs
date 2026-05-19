@@ -67,11 +67,13 @@ async function readPointsCsvPreview() {
     const [headerLine, ...lines] = csv.split(/\r?\n/).filter(Boolean);
     const headers = parseCsvLine(headerLine);
     const playersById = new Map();
+    const today = saoPauloTodayIso();
 
     for (const line of lines) {
       const columns = parseCsvLine(line);
       const row = Object.fromEntries(headers.map((header, index) => [header, columns[index] || ""]));
       if (!row.player_id || !row.result_type) continue;
+      if (!row.drop_date || row.drop_date < today) continue;
 
       const player = playersById.get(row.player_id) || {
         id: row.player_id,
@@ -88,6 +90,7 @@ async function readPointsCsvPreview() {
         event: row.event,
         grade: row.grade,
         date: row.date,
+        dropDate: row.drop_date,
         points: Number(row.points || 0),
         sourceCounting: row.source_counting !== "false"
       });
@@ -97,8 +100,8 @@ async function readPointsCsvPreview() {
     const players = [...playersById.values()].map((player) => ({
       ...player,
       totalCombinedPoints: [
-        ...player.singles.filter((result) => result.sourceCounting !== false).slice(0, 6).map((result) => Number(result.points || 0)),
-        ...player.doubles.filter((result) => result.sourceCounting !== false).slice(0, 6).map((result) => Number(result.points || 0) * 0.25)
+        ...topSixByPoints(player.singles).map((result) => Number(result.points || 0)),
+        ...topSixByPoints(player.doubles).map((result) => Number(result.points || 0) * 0.25)
       ].reduce((total, points) => total + points, 0)
     }));
 
@@ -211,6 +214,15 @@ function hasRankingResults(player) {
   return (player?.singles?.length || 0) + (player?.doubles?.length || 0) > 0;
 }
 
+function topSixByPoints(results = []) {
+  return [...results].sort((a, b) => Number(b.points || 0) - Number(a.points || 0)).slice(0, 6);
+}
+
+function saoPauloTodayIso() {
+  const today = saoPauloToday();
+  return today.toISOString().slice(0, 10);
+}
+
 function officialFallbackResults(player, rankingDate) {
   if (!Number(player.officialPoints || 0)) return player;
 
@@ -273,8 +285,8 @@ function applyRealPlayerPreview(players, previewPlayers) {
     if (!realPlayer.singles?.length && !realPlayer.doubles?.length) return player;
 
     const defending = [
-      ...defendingFromResults(realPlayer.singles, "singles"),
-      ...defendingFromResults(realPlayer.doubles, "doubles")
+      ...defendingFromResults(topSixByPoints(realPlayer.singles), "singles"),
+      ...defendingFromResults(topSixByPoints(realPlayer.doubles), "doubles")
     ];
 
     return {
@@ -286,6 +298,7 @@ function applyRealPlayerPreview(players, previewPlayers) {
         round: result.grade,
         points: result.points,
         date: result.date,
+        dropDate: result.dropDate,
         sourceCounting: result.sourceCounting
       })),
       defending,
@@ -294,6 +307,7 @@ function applyRealPlayerPreview(players, previewPlayers) {
         round: result.grade,
         points: result.points,
         date: result.date,
+        dropDate: result.dropDate,
         sourceCounting: result.sourceCounting
       }))
     };
@@ -315,17 +329,18 @@ function defendingFromResults(results, type) {
   const { start, end } = currentWeekBounds();
 
   return results
-    .filter((result) => result.sourceCounting !== false)
     .filter((result) => {
-      const dropDate = new Date(`${result.date}T00:00:00Z`);
-      dropDate.setUTCDate(dropDate.getUTCDate() + 364);
+      const dropDate = result.dropDate
+        ? new Date(`${result.dropDate}T00:00:00Z`)
+        : new Date(`${result.date}T00:00:00Z`);
+      if (!result.dropDate) dropDate.setUTCDate(dropDate.getUTCDate() + 364);
       return start <= dropDate && dropDate <= end;
     })
     .map((result) => ({
       type,
       event: result.event,
       points: result.points,
-      date: result.date
+      date: result.dropDate || result.date
     }));
 }
 
@@ -489,7 +504,7 @@ const sourcePlayers = await readSourcePlayers();
 const rules = JSON.parse(await fs.readFile(path.join(rootDir, "pipeline", "rules", "itf-juniors-2026.json"), "utf8"));
 const basePlayers = sourcePlayers.length ? sourcePlayers.map(sourcePlayerShell) : context.payload.players;
 const pointsPreview = pointsCsvPreview.players?.length ? pointsCsvPreview : realPreview;
-const playersWithOfficialFallbacks = basePlayers.map((player) => officialFallbackResults(player, rankingPreview.rankingDate));
+const playersWithOfficialFallbacks = basePlayers;
 const playersWithRealResults = applyRealPlayerPreview(playersWithOfficialFallbacks, pointsPreview.players || []);
 const playersWithActivity = applyActivityPreview(playersWithRealResults, activityPreview.players || [], rules);
 const players = applyWeeklyResultsPreview(playersWithActivity, weeklyResultsPreview.rows || [], rules);

@@ -348,14 +348,17 @@ function normalizePlayer(player) {
   const doubles = Array.isArray(player.doubles) ? player.doubles : [];
   const defending = Array.isArray(player.defending) ? player.defending : [];
   const liveEvent = player.liveEvent || {};
+  const droppingSingles = droppingResultSet(defending, "singles");
+  const droppingDoubles = droppingResultSet(defending, "doubles");
+  const liveBaseSingles = singles.filter((result) => !droppingSingles.has(resultKey(result)));
+  const liveBaseDoubles = doubles.filter((result) => !droppingDoubles.has(resultKey(result)));
   const basePoints = sumCounted(singles) + sumCounted(doubles, 0.25);
-  const defendingPoints = defending.reduce((total, item) => {
-    return total + (item.type === "doubles" ? doublesValue(item.points) : Number(item.points || 0));
-  }, 0);
+  const liveBasePoints = sumCounted(liveBaseSingles) + sumCounted(liveBaseDoubles, 0.25);
+  const defendingPoints = Math.max(0, basePoints - liveBasePoints);
   const gainedPoints = Number(liveEvent.singlesPoints || 0) + doublesValue(liveEvent.doublesPoints);
-  const livePoints = Math.max(0, basePoints - defendingPoints + gainedPoints);
-  const nextWinPoints = Math.max(0, basePoints - defendingPoints + projectedEventPoints(liveEvent, "next"));
-  const maxPoints = Math.max(0, basePoints - defendingPoints + projectedEventPoints(liveEvent, "max"));
+  const livePoints = Math.max(0, liveBasePoints + gainedPoints);
+  const nextWinPoints = Math.max(0, liveBasePoints + projectedEventPoints(liveEvent, "next"));
+  const maxPoints = Math.max(0, liveBasePoints + projectedEventPoints(liveEvent, "max"));
 
   return {
     ...player,
@@ -364,6 +367,7 @@ function normalizePlayer(player) {
     defending,
     liveEvent,
     basePoints,
+    liveBasePoints,
     defendingPoints,
     gainedPoints,
     livePoints,
@@ -371,6 +375,18 @@ function normalizePlayer(player) {
     maxPoints,
     projectedMovement: estimateMovement(player.currentRank, basePoints, livePoints)
   };
+}
+
+function resultKey(result) {
+  return [result.event || "", Number(result.points || 0)].join("|");
+}
+
+function droppingResultSet(defending = [], type) {
+  return new Set(
+    defending
+      .filter((result) => result.type === type)
+      .map(resultKey)
+  );
 }
 
 function estimateMovement(currentRank, basePoints, livePoints) {
