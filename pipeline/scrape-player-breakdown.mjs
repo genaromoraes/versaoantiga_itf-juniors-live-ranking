@@ -88,8 +88,8 @@ for (const player of players) {
     await page.goto(player.pointsBreakdownUrl, { waitUntil: "domcontentloaded", timeout: 90000 });
     const text = await page.locator("body").innerText({ timeout: 45000 });
     const parsed = parseItfPointsBreakdown(text);
-    const playerName = parsed.playerName || player.name;
-    const country = parsed.country || player.country;
+    const playerName = player.name;
+    const country = player.country;
 
     const scrapedPlayer = {
       id: player.id,
