@@ -295,12 +295,43 @@ tbody tr.is-selected {
   white-space: nowrap;
 }
 
-.points-drop-detail {
-  margin-top: 4px;
-  color: var(--muted);
+.points-stack {
+  display: grid;
+  gap: 4px;
+  min-width: 210px;
+}
+
+.points-flow {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
   font-size: 0.72rem;
   line-height: 1.35;
-  max-width: 180px;
+  max-width: 230px;
+}
+
+.points-flow-label {
+  flex: 0 0 auto;
+  border-radius: 999px;
+  padding: 1px 6px;
+  font-size: 0.68rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.points-flow.is-drop .points-flow-label {
+  color: var(--loss);
+  background: rgba(189, 59, 47, 0.1);
+}
+
+.points-flow.is-entry .points-flow-label {
+  color: var(--gain);
+  background: rgba(12, 122, 79, 0.1);
+}
+
+.points-flow-text {
+  color: var(--muted);
 }
 
 .rank {

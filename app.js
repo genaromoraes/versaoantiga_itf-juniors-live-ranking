@@ -437,6 +437,10 @@ function escapeHtml(value = "") {
     .replaceAll('"', "&quot;");
 }
 
+function pointsItemValue(item = {}) {
+  return item.type === "doubles" ? doublesValue(item.points) : Number(item.points || 0);
+}
+
 function pointsDropSummary(player) {
   const defending = Array.isArray(player.defending) ? player.defending : [];
   if (!defending.length) return "";
@@ -444,13 +448,43 @@ function pointsDropSummary(player) {
   const summary = defending
     .map((item) => {
       const year = item.date ? String(item.date).slice(0, 4) : "";
-      return [item.event, item.round || item.type || "", year].filter(Boolean).join(" · ");
+      const typeLabel = item.type === "doubles" ? "duplas" : "simples";
+      return [item.event, item.round || typeLabel, year, `-${formatNumber(pointsItemValue(item))}`].filter(Boolean).join(" · ");
     })
     .filter(Boolean);
 
   if (!summary.length) return "";
   if (summary.length <= 2) return summary.join(" | ");
   return `${summary.slice(0, 2).join(" | ")} | +${summary.length - 2}`;
+}
+
+function pointsEntrySummary(player) {
+  const liveEvent = player.liveEvent || {};
+  if (!isActiveThisWeek(liveEvent)) return "";
+
+  const entries = [];
+  const year = state.dataSource.rankingDate ? String(state.dataSource.rankingDate).slice(-4) : "";
+
+  if (Number(liveEvent.singlesPoints || 0) > 0) {
+    entries.push(
+      [liveEvent.event, liveEvent.singlesRound || "simples", year, `+${formatNumber(liveEvent.singlesPoints)}`]
+        .filter(Boolean)
+        .join(" · ")
+    );
+  }
+
+  const doublesRankingPoints = doublesValue(liveEvent.doublesPoints);
+  if (doublesRankingPoints > 0) {
+    entries.push(
+      [liveEvent.event, liveEvent.doublesRound || "duplas", year, `+${formatNumber(doublesRankingPoints)}`]
+        .filter(Boolean)
+        .join(" · ")
+    );
+  }
+
+  if (!entries.length) return "";
+  if (entries.length <= 2) return entries.join(" | ");
+  return `${entries.slice(0, 2).join(" | ")} | +${entries.length - 2}`;
 }
 
 function flagMarkup(country = "") {
@@ -471,11 +505,12 @@ function movementLabel(player) {
 
 function pointsBalanceLabel(player) {
   const balance = player.gainedPoints - player.defendingPoints;
-  if (!balance) return { text: "0", type: "neutral", detail: "" };
+  if (!balance) return { text: "0", type: "neutral", dropDetail: "", entryDetail: pointsEntrySummary(player) };
   return {
     text: balance > 0 ? `+${formatNumber(balance)}` : `-${formatNumber(Math.abs(balance))}`,
     type: balance > 0 ? "gain" : "loss",
-    detail: balance < 0 ? pointsDropSummary(player) : ""
+    dropDetail: player.defendingPoints > 0 ? pointsDropSummary(player) : "",
+    entryDetail: pointsEntrySummary(player)
   };
 }
 
@@ -594,11 +629,14 @@ function renderTable() {
           </td>
           <td>${player.currentRank || "-"}</td>
           <td>
-            <div class="points-cell">
-              <strong class="live-points">${formatNumber(player.livePoints)}</strong>
-              <span class="pill ${pointsBalance.type}">${pointsBalance.text}</span>
+            <div class="points-stack">
+              <div class="points-cell">
+                <strong class="live-points">${formatNumber(player.livePoints)}</strong>
+                <span class="pill ${pointsBalance.type}">${pointsBalance.text}</span>
+              </div>
+              ${pointsBalance.dropDetail ? `<div class="points-flow is-drop"><span class="points-flow-label">Sai</span><span class="points-flow-text">${escapeHtml(pointsBalance.dropDetail)}</span></div>` : ""}
+              ${pointsBalance.entryDetail ? `<div class="points-flow is-entry"><span class="points-flow-label">Entra</span><span class="points-flow-text">${escapeHtml(pointsBalance.entryDetail)}</span></div>` : ""}
             </div>
-            ${pointsBalance.detail ? `<div class="points-drop-detail">${escapeHtml(pointsBalance.detail)}</div>` : ""}
           </td>
           <td>${weeklyStatusMarkup(player.liveEvent)}</td>
           <td class="projected-points is-max">${projectionMarkup(player)}</td>
