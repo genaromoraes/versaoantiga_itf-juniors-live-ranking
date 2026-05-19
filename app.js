@@ -489,8 +489,7 @@ function inferResultPhase(item = {}) {
 
 function pointsFlowText(eventName, typeLabel, phaseLabel, value) {
   if (!eventName || !typeLabel || !isMeaningfulPoints(value)) return "";
-  const sign = value > 0 ? "+" : "-";
-  return [eventName, typeLabel, phaseLabel, `${sign}${formatNumber(Math.abs(value))} pts`]
+  return [eventName, typeLabel, phaseLabel, `${formatNumber(Math.abs(value))} pts`]
     .filter(Boolean)
     .join(" - ");
 }
