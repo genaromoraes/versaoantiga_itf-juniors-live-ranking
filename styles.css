@@ -464,13 +464,8 @@ tbody tr.is-selected {
 
 .projection-cell {
   display: grid;
-  gap: 7px;
-  min-width: 196px;
-}
-
-.projection-group {
-  display: grid;
   gap: 2px;
+  min-width: 122px;
 }
 
 .projection-cell span {
@@ -510,8 +505,14 @@ table:not(.is-official-table) td:nth-child(5) {
 
 table:not(.is-official-table) th:nth-child(6),
 table:not(.is-official-table) td:nth-child(6) {
-  min-width: 204px;
-  width: 204px;
+  min-width: 128px;
+  width: 128px;
+}
+
+table:not(.is-official-table) th:nth-child(7),
+table:not(.is-official-table) td:nth-child(7) {
+  min-width: 128px;
+  width: 128px;
 }
 
 .week-status {

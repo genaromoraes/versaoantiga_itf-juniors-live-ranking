@@ -676,37 +676,24 @@ function renderPointsFlow(items, kind) {
     .join("");
 }
 
-function projectionMarkup(player) {
+function projectionMarkup(player, target) {
   if (!isActiveThisWeek(player.liveEvent)) return `<span class="empty-mark">-</span>`;
 
-  const nextScenarios = projectionScenarios(player.liveEvent, "next");
-  const titleScenarios = projectionScenarios(player.liveEvent, "max");
-  if (!nextScenarios.length && !titleScenarios.length) return `<span class="empty-mark">-</span>`;
-
-  const renderScenarioGroup = (label, scenarios) => {
-    if (!scenarios.length) return "";
-
-    return `
-      <div class="projection-group">
-        <span>${label}</span>
-        ${scenarios
-          .map(
-            (scenario) => `
-              <div class="projection-line">
-                <em>${scenario.label}</em>
-                <strong>${formatNumber(scenario.gain)} pts</strong>
-              </div>
-            `
-          )
-          .join("")}
-      </div>
-    `;
-  };
+  const scenarios = projectionScenarios(player.liveEvent, target);
+  if (!scenarios.length) return `<span class="empty-mark">-</span>`;
 
   return `
     <div class="projection-cell">
-      ${renderScenarioGroup(t("nextRound"), nextScenarios)}
-      ${renderScenarioGroup(t("champion"), titleScenarios)}
+      ${scenarios
+        .map(
+          (scenario) => `
+            <div class="projection-line">
+              <em>${scenario.label}</em>
+              <strong>${formatNumber(scenario.gain)} pts</strong>
+            </div>
+          `
+        )
+        .join("")}
     </div>
   `;
 }
@@ -737,7 +724,8 @@ function renderTable() {
         <th>${t("officialRank")}</th>
         <th>${t("livePoints")}</th>
         <th>${t("playingThisWeek")}</th>
-        <th>${t("scenarios")}</th>
+        <th>${t("nextRound")}</th>
+        <th>${t("champion")}</th>
       </tr>
     `;
 
@@ -787,7 +775,8 @@ function renderTable() {
             </div>
           </td>
           <td>${weeklyStatusMarkup(player.liveEvent)}</td>
-          <td class="projected-points is-max">${projectionMarkup(player)}</td>
+          <td class="projected-points is-max">${projectionMarkup(player, "next")}</td>
+          <td class="projected-points is-max">${projectionMarkup(player, "max")}</td>
         </tr>
       `;
     })
