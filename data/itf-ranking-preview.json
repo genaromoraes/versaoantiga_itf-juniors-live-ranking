@@ -182,6 +182,8 @@
       "pointsBreakdownUrl": "https://www.itftennis.com/en/players/julia-stusek/800579453/ger/jt/s/itf-points-breakdown/"
     }
   ],
-  "warnings": [],
-  "scrapedAt": "18/05/2026, 19:58"
+  "warnings": [
+    "ITF ranking page returned 20 total rows; requested 100. Continuing with available rows."
+  ],
+  "scrapedAt": "18/05/2026, 23:38"
 }

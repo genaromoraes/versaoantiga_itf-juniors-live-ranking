@@ -1,7 +1,7 @@
 {
   "dataSource": {
     "rankingDate": "18 mai 2026",
-    "updatedAt": "18/05/2026, 23:06",
+    "updatedAt": "18/05/2026, 23:39",
     "note": "Pontos = ∑ 6 melhores resultados de simples + ∑ 25% dos 6 melhores resultados de duplas"
   },
   "players": [
@@ -244,7 +244,7 @@
           "points": 0,
           "date": "2025-05-19",
           "dropDate": "2026-05-18",
-          "sourceCounting": true
+          "sourceCounting": false
         },
         {
           "event": "J300 Charleroi-Marcinelle",
@@ -1127,7 +1127,7 @@
           "points": 90,
           "date": "2025-06-01",
           "dropDate": "2026-05-31",
-          "sourceCounting": true
+          "sourceCounting": false
         },
         {
           "event": "J500 Fort Lauderdale",
@@ -1209,7 +1209,7 @@
           "points": 112,
           "date": "2025-11-24",
           "dropDate": "2026-11-23",
-          "sourceCounting": true
+          "sourceCounting": false
         },
         {
           "event": "J500 Fort Lauderdale",
@@ -1319,7 +1319,7 @@
           "points": 180,
           "date": "2025-08-31",
           "dropDate": "2026-08-30",
-          "sourceCounting": true
+          "sourceCounting": false
         }
       ],
       "doubles": [
@@ -3607,9 +3607,9 @@
     "luis-guto-miguel",
     "yannick-theodor-alexandrescou",
     "ziga-sesko",
-    "jack-kennedy",
     "jamie-mackenzie",
     "keaton-hance",
+    "jack-kennedy",
     "zangar-nurlanuly",
     "thilo-behrmann",
     "ryo-tabata",
@@ -3622,7 +3622,6 @@
     "jana-kovackova",
     "xinran-sun",
     "kristina-penickova",
-    "anastasija-cvetkovic",
     "julia-stusek"
   ],
   "pointsSource": "data/player-points.csv",
