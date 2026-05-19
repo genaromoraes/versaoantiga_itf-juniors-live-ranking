@@ -254,7 +254,7 @@ button:hover {
 
 table {
   width: 100%;
-  min-width: 1060px;
+  min-width: 1120px;
   border-collapse: collapse;
 }
 
@@ -432,7 +432,7 @@ tbody tr.is-selected {
 .projection-cell {
   display: grid;
   gap: 3px;
-  min-width: 180px;
+  min-width: 210px;
 }
 
 .projection-cell div {
@@ -455,10 +455,16 @@ tbody tr.is-selected {
   font-weight: 950;
 }
 
+table:not(.is-official-table) th:nth-child(5),
+table:not(.is-official-table) td:nth-child(5) {
+  min-width: 165px;
+  width: 165px;
+}
+
 table:not(.is-official-table) th:nth-child(6),
 table:not(.is-official-table) td:nth-child(6) {
-  min-width: 190px;
-  width: 190px;
+  min-width: 220px;
+  width: 220px;
 }
 
 .week-status {
@@ -475,8 +481,8 @@ table:not(.is-official-table) td:nth-child(6) {
 
 .ranking-workspace {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(360px, 420px);
-  gap: 20px;
+  grid-template-columns: minmax(0, 1fr) minmax(290px, 330px);
+  gap: 16px;
   align-items: start;
 }
 
