@@ -1,7 +1,7 @@
 {
   "dataSource": {
     "rankingDate": "18 mai 2026",
-    "updatedAt": "19/05/2026, 16:46",
+    "updatedAt": "19/05/2026, 17:04",
     "note": "Pontos = ∑ 6 melhores resultados de simples + ∑ 25% dos 6 melhores resultados de duplas"
   },
   "players": [
@@ -243,7 +243,7 @@
         "singlesPoints": 0,
         "doublesStatus": "Ativo",
         "doublesRound": "QF",
-        "doublesPoints": 0,
+        "doublesPoints": 112,
         "singlesMaxPoints": 500,
         "doublesMaxPoints": 375,
         "source": "data/weekly-results.csv"
@@ -1632,7 +1632,7 @@
         "singlesPoints": 0,
         "doublesStatus": "Eliminado",
         "doublesRound": "QF",
-        "doublesPoints": 0,
+        "doublesPoints": 112,
         "singlesMaxPoints": 500,
         "doublesMaxPoints": 375,
         "source": "data/weekly-results.csv"
@@ -2734,7 +2734,7 @@
         "singlesPoints": 0,
         "doublesStatus": "Ativo",
         "doublesRound": "QF",
-        "doublesPoints": 0,
+        "doublesPoints": 112,
         "singlesMaxPoints": 500,
         "doublesMaxPoints": 375,
         "source": "data/weekly-results.csv"
@@ -3243,5 +3243,5 @@
     "xinran-sun"
   ],
   "partialUpdateReason": "Preserved previous data for: niels-mcdonald, thijs-boogaard, arnav-paparkar, raffaele-ciurnelli, ryan-cozad, daniel-jovanovski, matei-todoran, mark-ceban, emilio-camacho, valentin-gonzalez-galino, daniel-jade, kanta-watanabe, vincent-reisach, jakub-kusy, kirill-filaretov, leon-sloboda, gavin-goode, tanishk-konduri, juan-miguel-bolivar-idarraga, benjamin-azar, lilli-tagger, sol-ailin-larraya-guidi, anastasija-cvetkovic, kanon-sawashiro, charo-esquiva-banuls, ida-wobker, paola-pinera-celorio, mariella-thamm, mariia-makarova, giulia-safina-popa, anna-pushkareva, thea-frodin, alexandra-malova, maaya-rajeshwaran-revathi, felitsata-dorofeeva-rybas, jordyn-hazelitt, polina-skliar, welles-newman, rada-zolotareva, anastasia-lizunova, ruien-zhang, renee-alame, sofie-hettlerova, denisa-zoldakova, maia-ilinca-burcescu, yihan-qu, yu-jun-lin, nadia-lagaev, antonina-sushkova, adelina-lacinova, ha-eum-lee, maria-valentina-pop, alyssa-james, sonja-zhenikhova, luna-maria-cinalli, chukwumelije-clarke, yu-chen-lin",
-  "partialUpdateAt": "19/05/2026, 16:46"
+  "partialUpdateAt": "19/05/2026, 17:04"
 }

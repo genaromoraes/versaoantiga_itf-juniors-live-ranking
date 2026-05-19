@@ -366,7 +366,10 @@ function pointsAndStatusForTournament(tournament, rules, matchType) {
   const normalizedCurrentRound = displayToRound[tournament.currentRound] || tournament.currentRound || "";
   const pointsRound = tournament.status === "Eliminado" ? lastResult?.round || normalizedCurrentRound : normalizedCurrentRound || lastResult?.round || "";
   const currentRound = roundToDisplay[tournament.currentRound] || tournament.currentRound || "Nao joga";
-  const pointsOverride = Number(tournament.pointsOverride);
+  const hasPointsOverride = tournament.pointsOverride !== undefined
+    && tournament.pointsOverride !== null
+    && String(tournament.pointsOverride).trim() !== "";
+  const pointsOverride = hasPointsOverride ? Number(tournament.pointsOverride) : Number.NaN;
 
   return {
     status: tournament.status === "Eliminado" ? "Eliminado" : "Ativo",
