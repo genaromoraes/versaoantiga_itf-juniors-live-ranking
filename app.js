@@ -47,12 +47,12 @@ const translations = {
     officialPoints: "Pontos base",
     athlete: "Atleta",
     livePoints: "Pontos ao vivo",
-    scenarios: "Cenários",
+    scenarios: "Projeção",
     playingThisWeek: "Jogando esta semana",
     playerPoints: "Pontuações do atleta",
     emptyDetails: "Selecione um atleta para ver os resultados que entram e os que ficam fora do ranking.",
     nextWin: "Próx. vitória",
-    champion: "Campeão",
+    champion: "Título",
     singles: "Simples",
     doubles: "Duplas",
     notPlaying: "não joga",
@@ -85,12 +85,12 @@ const translations = {
     officialPoints: "Base points",
     athlete: "Player",
     livePoints: "Live points",
-    scenarios: "Scenarios",
+    scenarios: "Projection",
     playingThisWeek: "Playing this week",
     playerPoints: "Player points",
     emptyDetails: "Select a player to see counting results and results outside the ranking.",
     nextWin: "Next win",
-    champion: "Champion",
+    champion: "Title",
     singles: "Singles",
     doubles: "Doubles",
     notPlaying: "not playing",
@@ -123,12 +123,12 @@ const translations = {
     officialPoints: "Puntos base",
     athlete: "Jugador",
     livePoints: "Puntos en vivo",
-    scenarios: "Escenarios",
+    scenarios: "Proyección",
     playingThisWeek: "Jugando esta semana",
     playerPoints: "Puntos del jugador",
     emptyDetails: "Seleccione un jugador para ver los resultados que cuentan y los que quedan fuera del ranking.",
     nextWin: "Próx. victoria",
-    champion: "Campeón",
+    champion: "Título",
     singles: "Individuales",
     doubles: "Dobles",
     notPlaying: "no juega",
@@ -161,12 +161,12 @@ const translations = {
     officialPoints: "Punti base",
     athlete: "Giocatore",
     livePoints: "Punti live",
-    scenarios: "Scenari",
+    scenarios: "Proiezione",
     playingThisWeek: "In gioco questa settimana",
     playerPoints: "Punti del giocatore",
     emptyDetails: "Seleziona un giocatore per vedere i risultati validi e quelli fuori dal ranking.",
     nextWin: "Prossima vittoria",
-    champion: "Campione",
+    champion: "Titolo",
     singles: "Singolare",
     doubles: "Doppio",
     notPlaying: "non gioca",
@@ -199,12 +199,12 @@ const translations = {
     officialPoints: "Points de base",
     athlete: "Joueur",
     livePoints: "Points live",
-    scenarios: "Scénarios",
+    scenarios: "Projection",
     playingThisWeek: "Joue cette semaine",
     playerPoints: "Points du joueur",
     emptyDetails: "Sélectionnez un joueur pour voir les résultats comptabilisés et ceux hors classement.",
     nextWin: "Proch. victoire",
-    champion: "Champion",
+    champion: "Titre",
     singles: "Simple",
     doubles: "Double",
     notPlaying: "ne joue pas",
@@ -475,7 +475,10 @@ function phaseText(liveEvent = {}) {
 }
 
 function weeklyStatusMarkup(liveEvent = {}) {
-  if (!liveEvent.event) return `<span class="empty-mark">-</span>`;
+  const singlesNotPlaying = !liveEvent.singlesRound && liveEvent.singlesStatus === "Nao joga";
+  const doublesNotPlaying = !liveEvent.doublesRound && liveEvent.doublesStatus === "Nao joga";
+  if (!liveEvent.event || (singlesNotPlaying && doublesNotPlaying)) return `<span class="empty-mark">-</span>`;
+
   return `
     <div class="week-status">
       <strong>${liveEvent.event}</strong>
@@ -525,12 +528,10 @@ function renderTable() {
         <th>${t("athlete")}</th>
         <th>${t("officialRank")}</th>
         <th>${t("livePoints")}</th>
-        <th>Cenários</th>
+        <th>${t("scenarios")}</th>
         <th>${t("playingThisWeek")}</th>
       </tr>
     `;
-
-  if (!isOfficialTable) els.rankingHead.querySelectorAll("th")[4].textContent = t("scenarios");
 
   els.rankingBody.innerHTML = players
     .map((player) => {
