@@ -447,9 +447,8 @@ function pointsDropSummary(player) {
 
   const summary = defending
     .map((item) => {
-      const year = item.date ? String(item.date).slice(0, 4) : "";
       const typeLabel = item.type === "doubles" ? "duplas" : "simples";
-      return [item.event, item.round || typeLabel, year, `-${formatNumber(pointsItemValue(item))}`].filter(Boolean).join(" · ");
+      return [item.event, item.round || typeLabel, `-${formatNumber(pointsItemValue(item))}`].filter(Boolean).join(" · ");
     })
     .filter(Boolean);
 
@@ -463,11 +462,10 @@ function pointsEntrySummary(player) {
   if (!isActiveThisWeek(liveEvent)) return "";
 
   const entries = [];
-  const year = state.dataSource.rankingDate ? String(state.dataSource.rankingDate).slice(-4) : "";
 
   if (Number(liveEvent.singlesPoints || 0) > 0) {
     entries.push(
-      [liveEvent.event, liveEvent.singlesRound || "simples", year, `+${formatNumber(liveEvent.singlesPoints)}`]
+      [liveEvent.event, liveEvent.singlesRound || "simples", `+${formatNumber(liveEvent.singlesPoints)}`]
         .filter(Boolean)
         .join(" · ")
     );
@@ -476,7 +474,7 @@ function pointsEntrySummary(player) {
   const doublesRankingPoints = doublesValue(liveEvent.doublesPoints);
   if (doublesRankingPoints > 0) {
     entries.push(
-      [liveEvent.event, liveEvent.doublesRound || "duplas", year, `+${formatNumber(doublesRankingPoints)}`]
+      [liveEvent.event, liveEvent.doublesRound || "duplas", `+${formatNumber(doublesRankingPoints)}`]
         .filter(Boolean)
         .join(" · ")
     );
