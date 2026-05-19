@@ -29,7 +29,26 @@ function stamp() {
   }).format(new Date());
 }
 
-function fallbackPlayer(player, reason) {
+function diagnoseEmptyBreakdown(player, reason, text = "") {
+  if (diagnostics.length >= 25) return;
+
+  const cleanText = text.replace(/\s+/g, " ").trim();
+  diagnostics.push({
+    id: player.id,
+    name: player.name,
+    sourceUrl: player.pointsBreakdownUrl,
+    reason,
+    textLength: text.length,
+    hasPointsBreakdownText: /ITF POINTS BREAKDOWN|Total Combined Ranking Points/i.test(text),
+    hasIncapsulaText: /Incapsula|Request unsuccessful|incident_id/i.test(text),
+    hasCaptchaText: /captcha|hcaptcha/i.test(text),
+    sample: cleanText.slice(0, 500)
+  });
+}
+
+function fallbackPlayer(player, reason, text = "") {
+  if (text) diagnoseEmptyBreakdown(player, reason, text);
+
   const existing = existingById.get(player.id);
   if (hasResults(existing)) {
     warnings.push(`Keeping previous points breakdown for ${player.id}; ${reason}.`);
@@ -56,6 +75,7 @@ const browser = await chromium.launch({ headless: true });
 const page = await browser.newPage();
 const scrapedPlayers = [];
 const warnings = [];
+const diagnostics = [];
 
 for (const player of players) {
   if (!player.pointsBreakdownUrl) {
@@ -84,7 +104,7 @@ for (const player of players) {
     };
 
     if (!hasResults(scrapedPlayer)) {
-      scrapedPlayers.push(fallbackPlayer(player, "new scrape returned no results"));
+      scrapedPlayers.push(fallbackPlayer(player, "new scrape returned no results", text));
     } else {
       scrapedPlayers.push(scrapedPlayer);
     }
@@ -98,7 +118,7 @@ await browser.close();
 await fs.mkdir(path.dirname(outputFile), { recursive: true });
 await fs.writeFile(
   outputFile,
-  `${JSON.stringify({ players: scrapedPlayers }, null, 2)}\n`,
+  `${JSON.stringify({ players: scrapedPlayers, diagnostics }, null, 2)}\n`,
   "utf8"
 );
 
