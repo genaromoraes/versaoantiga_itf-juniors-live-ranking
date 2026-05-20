@@ -321,17 +321,18 @@ table.is-official-table {
 
 th,
 td {
-  padding: 9px 10px;
+  padding: 6px 8px;
   border-bottom: 1px solid var(--line);
   text-align: left;
   vertical-align: middle;
+  line-height: 1.18;
 }
 
 th {
   color: var(--muted);
-  font-size: 0.74rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.04em;
   background: #f8fbfa;
 }
 
@@ -347,20 +348,20 @@ tbody tr.is-selected {
 .rank-cell {
   display: inline-flex;
   align-items: center;
-  gap: 7px;
+  gap: 6px;
   white-space: nowrap;
 }
 
 .points-cell {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   flex-wrap: wrap;
 }
 
 .points-stack {
   display: grid;
-  gap: 4px;
+  gap: 3px;
   min-width: 208px;
 }
 
@@ -376,8 +377,8 @@ tbody tr.is-selected {
 .points-flow-label {
   flex: 0 0 auto;
   border-radius: 999px;
-  padding: 1px 6px;
-  font-size: 0.64rem;
+  padding: 0 6px;
+  font-size: 0.6rem;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.02em;
@@ -402,24 +403,26 @@ tbody tr.is-selected {
 
 .rank {
   min-width: 32px;
-  font-size: 1.02rem;
+  font-size: 0.98rem;
   font-weight: 950;
 }
 
 .player {
   display: grid;
-  gap: 2px;
+  gap: 1px;
 }
 
 .player strong {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
+  line-height: 1.12;
 }
 
 .player span,
 .tournament,
 .small {
   color: var(--muted);
-  font-size: 0.78rem;
+  font-size: 0.72rem;
+  line-height: 1.1;
 }
 
 .player span {
@@ -431,12 +434,12 @@ tbody tr.is-selected {
 .country-badge {
   display: inline-flex;
   align-items: center;
-  min-height: 18px;
+  min-height: 16px;
   border-radius: 4px;
-  padding: 1px 6px;
+  padding: 0 6px;
   background: #edf4f2;
   color: var(--accent);
-  font-size: 0.68rem;
+  font-size: 0.64rem;
   font-weight: 900;
   letter-spacing: 0.03em;
 }
@@ -444,11 +447,12 @@ tbody tr.is-selected {
 .pill {
   display: inline-flex;
   align-items: center;
-  min-height: 24px;
+  min-height: 20px;
   border-radius: 999px;
-  padding: 1px 8px;
+  padding: 0 7px;
   font-weight: 850;
   white-space: nowrap;
+  font-size: 0.84rem;
 }
 
 .pill.gain {
@@ -468,13 +472,13 @@ tbody tr.is-selected {
 
 .live-points {
   color: var(--accent);
-  font-size: 1.12rem;
+  font-size: 1.02rem;
   font-weight: 950;
 }
 
 .official-points {
   color: var(--accent);
-  font-size: 1.05rem;
+  font-size: 0.98rem;
   font-weight: 950;
   white-space: nowrap;
 }
@@ -491,7 +495,7 @@ tbody tr.is-selected {
 
 .projection-cell {
   display: grid;
-  gap: 2px;
+  gap: 1px;
   min-width: 122px;
 }
 
@@ -507,20 +511,20 @@ tbody tr.is-selected {
 .projection-line {
   display: flex;
   align-items: baseline;
-  gap: 6px;
+  gap: 5px;
   white-space: nowrap;
 }
 
 .projection-line em {
   color: var(--muted);
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   font-style: normal;
   font-weight: 800;
 }
 
 .projection-cell strong {
   color: var(--accent-2);
-  font-size: 0.88rem;
+  font-size: 0.82rem;
   font-weight: 900;
 }
 
@@ -544,14 +548,15 @@ table:not(.is-official-table) td:nth-child(7) {
 
 .week-status {
   display: grid;
-  gap: 1px;
+  gap: 0;
   min-width: 128px;
 }
 
 .week-status span,
 .empty-mark {
   color: var(--muted);
-  font-size: 0.76rem;
+  font-size: 0.72rem;
+  line-height: 1.12;
 }
 
 .points-flow-disclosure {
@@ -571,8 +576,8 @@ table:not(.is-official-table) td:nth-child(7) {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 22px;
-  height: 22px;
+  width: 19px;
+  height: 19px;
   border: 1px solid var(--line);
   border-radius: 999px;
   background: #fff;
@@ -587,7 +592,7 @@ table:not(.is-official-table) td:nth-child(7) {
 }
 
 .points-flow-toggle-icon {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 900;
   line-height: 1;
 }
