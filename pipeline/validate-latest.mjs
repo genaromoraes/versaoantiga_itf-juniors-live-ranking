@@ -9,7 +9,7 @@ const sourcesFile = path.join(rootDir, "pipeline", "sources", "players.json");
 const latest = JSON.parse(await fs.readFile(latestFile, "utf8"));
 const sources = JSON.parse(await fs.readFile(sourcesFile, "utf8"));
 const players = Array.isArray(latest.players) ? latest.players : [];
-const expectedPlayersPerGender = Number(process.env.RANKING_LIMIT || 50);
+const expectedPlayersPerGender = Number(process.env.RANKING_LIMIT || 150);
 const skippedUpdate = Boolean(latest.skippedUpdateReason);
 const partialUpdate = Boolean(latest.partialUpdateReason);
 const invalidPlayers = players.filter((player) => {

@@ -84,6 +84,7 @@ class ImportedPlayer:
     country: str
     gender: str
     current_rank: int
+    birth_year: int
     official_points: float
     points_breakdown_url: str
 
@@ -91,12 +92,14 @@ class ImportedPlayer:
 def build_sources(players_df: pd.DataFrame) -> list[dict]:
     players = []
     for row in players_df.fillna("").to_dict(orient="records"):
+        birth_year = int(float_value(row.get("birth_year"))) or 0
         imported = ImportedPlayer(
             id=player_slug(row),
             name=str(row.get("player") or "").strip(),
             country=str(row.get("country_code") or "").strip(),
             gender=gender_label(row.get("gender")),
             current_rank=int(float_value(row.get("rank"))),
+            birth_year=birth_year,
             official_points=float_value(row.get("ranking_points_total")),
             points_breakdown_url=str(row.get("points_breakdown_url") or "").strip(),
         )
@@ -107,6 +110,7 @@ def build_sources(players_df: pd.DataFrame) -> list[dict]:
                 "country": imported.country,
                 "gender": imported.gender,
                 "id": imported.id,
+                "birthYear": imported.birth_year or "",
                 "officialPoints": imported.official_points,
                 "pointsBreakdownUrl": imported.points_breakdown_url,
                 "needsProfileResolution": not bool(imported.points_breakdown_url),
@@ -130,6 +134,7 @@ def build_numeric_player_map(players_df: pd.DataFrame) -> dict[str, dict]:
             "country": str(row.get("country_code") or "").strip(),
             "gender": gender_label(row.get("gender")),
             "id": player_slug(row),
+            "birthYear": int(float_value(row.get("birth_year"))) or "",
             "officialPoints": float_value(row.get("ranking_points_total")),
             "pointsBreakdownUrl": str(row.get("points_breakdown_url") or "").strip(),
             "needsProfileResolution": not bool(str(row.get("points_breakdown_url") or "").strip()),
