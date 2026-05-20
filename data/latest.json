@@ -1,7 +1,7 @@
 {
   "dataSource": {
     "rankingDate": "18 mai 2026",
-    "updatedAt": "20/05/2026, 16:37",
+    "updatedAt": "20/05/2026, 18:05",
     "note": "Pontos = ∑ 6 melhores resultados de simples + ∑ 25% dos 6 melhores resultados de duplas"
   },
   "players": [
@@ -11,8 +11,9 @@
       "country": "BUL",
       "gender": "Boys",
       "currentRank": 1,
+      "birthYear": 2008,
       "officialPoints": 3053,
-      "sourceTotalCombinedPoints": 3053,
+      "sourceTotalCombinedPoints": 4006.25,
       "singles": [
         {
           "event": "The Junior Championships, Wimbledon",
@@ -53,9 +54,65 @@
           "date": "2025-06-29",
           "dropDate": "2026-06-28",
           "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 225,
+          "date": "2025-06-01",
+          "dropDate": "2026-05-31",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 67,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": true
         }
       ],
       "doubles": [
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 1000,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 1000,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 490,
+          "date": "2025-06-01",
+          "dropDate": "2026-05-31",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 350,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 140,
+          "date": "2025-06-29",
+          "dropDate": "2026-06-28",
+          "sourceCounting": true
+        },
         {
           "event": "Roland Garros Junior Championships",
           "round": "JGS",
@@ -83,7 +140,7 @@
         {
           "type": "doubles",
           "event": "J500 Milan",
-          "points": 67,
+          "points": 350,
           "date": "2026-05-18"
         }
       ],
@@ -105,8 +162,9 @@
       "country": "BRA",
       "gender": "Boys",
       "currentRank": 2,
+      "birthYear": 2009,
       "officialPoints": 2420.5,
-      "sourceTotalCombinedPoints": 2420.5,
+      "sourceTotalCombinedPoints": 2737.5,
       "singles": [
         {
           "event": "J500 Merida",
@@ -195,9 +253,7 @@
           "date": "2025-06-01",
           "dropDate": "2026-05-31",
           "sourceCounting": false
-        }
-      ],
-      "doubles": [
+        },
         {
           "event": "J300 Repentigny",
           "round": "J300",
@@ -279,14 +335,177 @@
           "sourceCounting": false
         }
       ],
-      "defending": [
+      "doubles": [
         {
-          "type": "doubles",
+          "event": "J500 Merida",
+          "round": "J500",
+          "points": 500,
+          "date": "2025-11-24",
+          "dropDate": "2026-11-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 490,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Charleroi-Marcinelle",
+          "round": "J300",
+          "points": 300,
+          "date": "2025-05-26",
+          "dropDate": "2026-05-25",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Repentigny",
+          "round": "J300",
+          "points": 300,
+          "date": "2025-08-24",
+          "dropDate": "2026-08-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 300,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 300,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 140,
+          "date": "2025-06-29",
+          "dropDate": "2026-06-28",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Zapopan",
+          "round": "J300",
+          "points": 140,
+          "date": "2025-11-17",
+          "dropDate": "2026-11-16",
+          "sourceCounting": false
+        },
+        {
           "event": "J500 Milan",
+          "round": "J500",
+          "points": 90,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 90,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
           "points": 0,
-          "date": "2026-05-18"
+          "date": "2025-06-01",
+          "dropDate": "2026-05-31",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Repentigny",
+          "round": "J300",
+          "points": 225,
+          "date": "2025-08-24",
+          "dropDate": "2026-08-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 225,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 225,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 135,
+          "date": "2025-06-01",
+          "dropDate": "2026-05-31",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Merida",
+          "round": "J500",
+          "points": 112,
+          "date": "2025-11-24",
+          "dropDate": "2026-11-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 0,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Charleroi-Marcinelle",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-05-26",
+          "dropDate": "2026-05-25",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-06-29",
+          "dropDate": "2026-06-28",
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": false
         }
       ],
+      "defending": [],
       "liveEvent": {
         "event": "J500 Milan",
         "grade": "J500",
@@ -308,8 +527,9 @@
       "country": "FRA",
       "gender": "Boys",
       "currentRank": 3,
+      "birthYear": 2008,
       "officialPoints": 2379,
-      "sourceTotalCombinedPoints": 2379,
+      "sourceTotalCombinedPoints": 2781.25,
       "singles": [
         {
           "event": "2025 ITF World Tennis Tour Junior Finals",
@@ -430,9 +650,7 @@
           "date": "2026-01-24",
           "dropDate": "2027-01-23",
           "sourceCounting": false
-        }
-      ],
-      "doubles": [
+        },
         {
           "event": "J500 Merida",
           "round": "J500",
@@ -546,14 +764,241 @@
           "sourceCounting": false
         }
       ],
-      "defending": [
+      "doubles": [
         {
-          "type": "doubles",
+          "event": "2025 ITF World Tennis Tour Junior Finals",
+          "round": "JM",
+          "points": 700,
+          "date": "2025-10-22",
+          "dropDate": "2026-10-21",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bytom",
+          "round": "J300",
+          "points": 300,
+          "date": "2025-07-22",
+          "dropDate": "2026-07-21",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 College Park",
+          "round": "J300",
+          "points": 300,
+          "date": "2025-08-18",
+          "dropDate": "2026-08-17",
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 300,
+          "date": "2025-06-01",
+          "dropDate": "2026-05-31",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Merida",
+          "round": "J500",
+          "points": 250,
+          "date": "2025-11-24",
+          "dropDate": "2026-11-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "round": "J500",
+          "points": 250,
+          "date": "2025-12-08",
+          "dropDate": "2026-12-07",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Oberpullendorf (Europe Regional Championships)",
+          "round": "J300",
+          "points": 210,
+          "date": "2025-09-15",
+          "dropDate": "2026-09-14",
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 90,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": false
+        },
+        {
+          "event": "Tennis Europe Summer Cups (B18)",
+          "round": "GC",
+          "points": 75,
+          "date": "2025-08-04",
+          "dropDate": "2026-08-03",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 60,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": false
+        },
+        {
           "event": "J500 Milan",
+          "round": "J500",
+          "points": 0,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-06-29",
+          "dropDate": "2026-06-28",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bradenton",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-12-01",
+          "dropDate": "2026-11-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Merida",
+          "round": "J500",
+          "points": 375,
+          "date": "2025-11-24",
+          "dropDate": "2026-11-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 225,
+          "date": "2025-06-01",
+          "dropDate": "2026-05-31",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 College Park",
+          "round": "J300",
+          "points": 157,
+          "date": "2025-08-18",
+          "dropDate": "2026-08-17",
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 135,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
           "points": 112,
-          "date": "2026-05-18"
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "round": "J500",
+          "points": 112,
+          "date": "2025-12-08",
+          "dropDate": "2026-12-07",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 105,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bytom",
+          "round": "J300",
+          "points": 75,
+          "date": "2025-07-22",
+          "dropDate": "2026-07-21",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Oberpullendorf (Europe Regional Championships)",
+          "round": "J300",
+          "points": 75,
+          "date": "2025-09-15",
+          "dropDate": "2026-09-14",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-06-29",
+          "dropDate": "2026-06-28",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bradenton",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-12-01",
+          "dropDate": "2026-11-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "Tennis Europe Summer Cups (B18)",
+          "round": "GC",
+          "points": 0,
+          "date": "2025-08-04",
+          "dropDate": "2026-08-03",
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": false
         }
       ],
+      "defending": [],
       "liveEvent": {
         "event": "",
         "grade": "",
@@ -572,8 +1017,9 @@
       "country": "SLO",
       "gender": "Boys",
       "currentRank": 4,
+      "birthYear": 2008,
       "officialPoints": 2149.75,
-      "sourceTotalCombinedPoints": 2149.75,
+      "sourceTotalCombinedPoints": 2937.5,
       "singles": [
         {
           "event": "Australian Open Junior Championships",
@@ -678,9 +1124,217 @@
           "date": "2025-08-31",
           "dropDate": "2026-08-30",
           "sourceCounting": false
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "round": "J500",
+          "points": 375,
+          "date": "2025-12-08",
+          "dropDate": "2026-12-07",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Repentigny",
+          "round": "J300",
+          "points": 225,
+          "date": "2025-08-24",
+          "dropDate": "2026-08-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 225,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 225,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bradenton",
+          "round": "J300",
+          "points": 157,
+          "date": "2025-12-01",
+          "dropDate": "2026-11-30",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Merida",
+          "round": "J500",
+          "points": 112,
+          "date": "2025-11-24",
+          "dropDate": "2026-11-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Charleroi-Marcinelle",
+          "round": "J300",
+          "points": 105,
+          "date": "2025-05-26",
+          "dropDate": "2026-05-25",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bamberg",
+          "round": "J300",
+          "points": 105,
+          "date": "2025-06-10",
+          "dropDate": "2026-06-09",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Oberpullendorf (Europe Regional Championships)",
+          "round": "J300",
+          "points": 75,
+          "date": "2025-09-15",
+          "dropDate": "2026-09-14",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-06-29",
+          "dropDate": "2026-06-28",
+          "sourceCounting": false
+        },
+        {
+          "event": "Tennis Europe Summer Cups (B18)",
+          "round": "GC",
+          "points": 0,
+          "date": "2025-08-04",
+          "dropDate": "2026-08-03",
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": false
         }
       ],
       "doubles": [
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 1000,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 300,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bamberg",
+          "round": "J300",
+          "points": 140,
+          "date": "2025-06-10",
+          "dropDate": "2026-06-09",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Repentigny",
+          "round": "J300",
+          "points": 140,
+          "date": "2025-08-24",
+          "dropDate": "2026-08-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Oberpullendorf (Europe Regional Championships)",
+          "round": "J300",
+          "points": 140,
+          "date": "2025-09-15",
+          "dropDate": "2026-09-14",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Charleroi-Marcinelle",
+          "round": "J300",
+          "points": 100,
+          "date": "2025-05-26",
+          "dropDate": "2026-05-25",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 60,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "Tennis Europe Summer Cups (B18)",
+          "round": "GC",
+          "points": 50,
+          "date": "2025-08-04",
+          "dropDate": "2026-08-03",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Merida",
+          "round": "J500",
+          "points": 45,
+          "date": "2025-11-24",
+          "dropDate": "2026-11-23",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "round": "J500",
+          "points": 45,
+          "date": "2025-12-08",
+          "dropDate": "2026-12-07",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bradenton",
+          "round": "J300",
+          "points": 30,
+          "date": "2025-12-01",
+          "dropDate": "2026-11-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-06-29",
+          "dropDate": "2026-06-28",
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": false
+        },
         {
           "event": "J500 Fort Lauderdale",
           "round": "J500",
@@ -805,8 +1459,9 @@
       "country": "GER",
       "gender": "Boys",
       "currentRank": 5,
+      "birthYear": 2008,
       "officialPoints": 2082,
-      "sourceTotalCombinedPoints": 2082,
+      "sourceTotalCombinedPoints": 2677.5,
       "singles": [
         {
           "event": "J500 Offenbach",
@@ -927,9 +1582,241 @@
           "date": "2025-07-05",
           "dropDate": "2026-07-04",
           "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 375,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 367,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Osaka",
+          "round": "J500",
+          "points": 262,
+          "date": "2025-09-22",
+          "dropDate": "2026-09-21",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Beijing",
+          "round": "J300",
+          "points": 225,
+          "date": "2025-09-16",
+          "dropDate": "2026-09-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Merida",
+          "round": "J500",
+          "points": 187,
+          "date": "2025-11-24",
+          "dropDate": "2026-11-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Offenbach",
+          "round": "J500",
+          "points": 112,
+          "date": "2026-05-04",
+          "dropDate": "2027-05-03",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bamberg",
+          "round": "J300",
+          "points": 75,
+          "date": "2025-06-10",
+          "dropDate": "2026-06-09",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bradenton",
+          "round": "J300",
+          "points": 75,
+          "date": "2025-12-01",
+          "dropDate": "2026-11-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 45,
+          "date": "2025-06-29",
+          "dropDate": "2026-06-28",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "round": "J500",
+          "points": 0,
+          "date": "2025-12-08",
+          "dropDate": "2026-12-07",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 College Park",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-08-18",
+          "dropDate": "2026-08-17",
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-06-01",
+          "dropDate": "2026-05-31",
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": false
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": false
         }
       ],
       "doubles": [
+        {
+          "event": "J500 Offenbach",
+          "round": "J500",
+          "points": 500,
+          "date": "2026-05-04",
+          "dropDate": "2027-05-03",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bamberg",
+          "round": "J300",
+          "points": 300,
+          "date": "2025-06-10",
+          "dropDate": "2026-06-09",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Beijing",
+          "round": "J300",
+          "points": 300,
+          "date": "2025-09-16",
+          "dropDate": "2026-09-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 300,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 150,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Merida",
+          "round": "J500",
+          "points": 150,
+          "date": "2025-11-24",
+          "dropDate": "2026-11-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "round": "J500",
+          "points": 150,
+          "date": "2025-12-08",
+          "dropDate": "2026-12-07",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 100,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Osaka",
+          "round": "J500",
+          "points": 90,
+          "date": "2025-09-22",
+          "dropDate": "2026-09-21",
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 90,
+          "date": "2025-06-01",
+          "dropDate": "2026-05-31",
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 90,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bradenton",
+          "round": "J300",
+          "points": 60,
+          "date": "2025-12-01",
+          "dropDate": "2026-11-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 30,
+          "date": "2025-06-29",
+          "dropDate": "2026-06-28",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 College Park",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-08-18",
+          "dropDate": "2026-08-17",
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": false
+        },
         {
           "event": "J500 Milan",
           "round": "J500",
@@ -1047,7 +1934,7 @@
         {
           "type": "singles",
           "event": "J500 Milan",
-          "points": 150,
+          "points": 375,
           "date": "2026-05-18"
         },
         {
@@ -1078,6 +1965,7 @@
       "country": "USA",
       "gender": "Boys",
       "currentRank": 6,
+      "birthYear": 2008,
       "officialPoints": 2022.75,
       "sourceTotalCombinedPoints": 2022.75,
       "singles": [
@@ -1270,6 +2158,7 @@
       "country": "USA",
       "gender": "Boys",
       "currentRank": 7,
+      "birthYear": 2008,
       "officialPoints": 1966.5,
       "sourceTotalCombinedPoints": 1966.5,
       "singles": [
@@ -1396,6 +2285,7 @@
       "country": "KAZ",
       "gender": "Boys",
       "currentRank": 8,
+      "birthYear": 2008,
       "officialPoints": 1842.5,
       "sourceTotalCombinedPoints": 1842.5,
       "singles": [
@@ -1565,6 +2455,7 @@
       "country": "AUT",
       "gender": "Boys",
       "currentRank": 9,
+      "birthYear": 2008,
       "officialPoints": 1764.75,
       "sourceTotalCombinedPoints": 1764.75,
       "singles": [
@@ -1849,6 +2740,7 @@
       "country": "JPN",
       "gender": "Boys",
       "currentRank": 10,
+      "birthYear": 2008,
       "officialPoints": 1709,
       "sourceTotalCombinedPoints": 1709,
       "singles": [
@@ -2057,6 +2949,7 @@
       "country": "BUL",
       "gender": "Boys",
       "currentRank": 11,
+      "birthYear": 2008,
       "officialPoints": 1696.75,
       "sourceTotalCombinedPoints": 1696.75,
       "singles": [
@@ -2377,6 +3270,7 @@
       "country": "USA",
       "gender": "Boys",
       "currentRank": 12,
+      "birthYear": 2009,
       "officialPoints": 1632.5,
       "sourceTotalCombinedPoints": 1632.5,
       "singles": [
@@ -2557,6 +3451,7 @@
       "country": "GER",
       "gender": "Boys",
       "currentRank": 13,
+      "birthYear": 2008,
       "officialPoints": 1622.5,
       "sourceTotalCombinedPoints": 1622.5,
       "singles": [
@@ -2691,6 +3586,7 @@
       "country": "USA",
       "gender": "Boys",
       "currentRank": 14,
+      "birthYear": 2010,
       "officialPoints": 1558.75,
       "sourceTotalCombinedPoints": 1558.75,
       "singles": [
@@ -2855,6 +3751,7 @@
       "country": "PUR",
       "gender": "Boys",
       "currentRank": 15,
+      "birthYear": 2008,
       "officialPoints": 1553.5,
       "sourceTotalCombinedPoints": 1553.5,
       "singles": [
@@ -3147,6 +4044,7 @@
       "country": "ARG",
       "gender": "Boys",
       "currentRank": 16,
+      "birthYear": 2008,
       "officialPoints": 1468.5,
       "sourceTotalCombinedPoints": 1468.5,
       "singles": [
@@ -3358,6 +4256,7 @@
       "country": "TPE",
       "gender": "Boys",
       "currentRank": 17,
+      "birthYear": 2008,
       "officialPoints": 1437.5,
       "sourceTotalCombinedPoints": 1437.5,
       "singles": [
@@ -3665,6 +4564,7 @@
       "country": "UZB",
       "gender": "Boys",
       "currentRank": 18,
+      "birthYear": 2008,
       "officialPoints": 1436.5,
       "sourceTotalCombinedPoints": 1436.5,
       "singles": [
@@ -3850,6 +4750,7 @@
       "country": "PER",
       "gender": "Boys",
       "currentRank": 19,
+      "birthYear": 2008,
       "officialPoints": 1380.5,
       "sourceTotalCombinedPoints": 1380.5,
       "singles": [
@@ -4110,6 +5011,7 @@
       "country": "ESP",
       "gender": "Boys",
       "currentRank": 20,
+      "birthYear": 2008,
       "officialPoints": 1374,
       "sourceTotalCombinedPoints": 1374,
       "singles": [
@@ -4434,6 +5336,7 @@
       "country": "FRA",
       "gender": "Boys",
       "currentRank": 21,
+      "birthYear": 2009,
       "officialPoints": 1346,
       "sourceTotalCombinedPoints": 1346,
       "singles": [
@@ -4627,6 +5530,7 @@
       "country": "SUI",
       "gender": "Boys",
       "currentRank": 22,
+      "birthYear": 2008,
       "officialPoints": 1318.5,
       "sourceTotalCombinedPoints": 1318.5,
       "singles": [
@@ -4887,6 +5791,7 @@
       "country": "NED",
       "gender": "Boys",
       "currentRank": 23,
+      "birthYear": 2008,
       "officialPoints": 1263,
       "sourceTotalCombinedPoints": 1263,
       "singles": [
@@ -4991,6 +5896,7 @@
       "country": "ITA",
       "gender": "Boys",
       "currentRank": 24,
+      "birthYear": 2008,
       "officialPoints": 1258.75,
       "sourceTotalCombinedPoints": 1258.75,
       "singles": [
@@ -5235,6 +6141,7 @@
       "country": "IND",
       "gender": "Boys",
       "currentRank": 25,
+      "birthYear": 2008,
       "officialPoints": 1241.75,
       "sourceTotalCombinedPoints": 1241.75,
       "singles": [
@@ -5476,6 +6383,7 @@
       "country": "JPN",
       "gender": "Boys",
       "currentRank": 26,
+      "birthYear": 2008,
       "officialPoints": 1226,
       "sourceTotalCombinedPoints": 1226,
       "singles": [
@@ -5760,6 +6668,7 @@
       "country": "ITA",
       "gender": "Boys",
       "currentRank": 27,
+      "birthYear": 2008,
       "officialPoints": 1212.5,
       "sourceTotalCombinedPoints": 1212.5,
       "singles": [
@@ -6076,6 +6985,7 @@
       "country": "HKG",
       "gender": "Boys",
       "currentRank": 28,
+      "birthYear": 2008,
       "officialPoints": 1193.5,
       "sourceTotalCombinedPoints": 1193.5,
       "singles": [
@@ -6392,6 +7302,7 @@
       "country": "ITA",
       "gender": "Boys",
       "currentRank": 29,
+      "birthYear": 2008,
       "officialPoints": 1188.75,
       "sourceTotalCombinedPoints": 1188.75,
       "singles": [
@@ -6708,6 +7619,7 @@
       "country": "KAZ",
       "gender": "Boys",
       "currentRank": 30,
+      "birthYear": 2008,
       "officialPoints": 1175.5,
       "sourceTotalCombinedPoints": 1175.5,
       "singles": [
@@ -7016,6 +7928,7 @@
       "country": "USA",
       "gender": "Boys",
       "currentRank": 31,
+      "birthYear": 2008,
       "officialPoints": 1174,
       "sourceTotalCombinedPoints": 1174,
       "singles": [
@@ -7332,6 +8245,7 @@
       "country": "AUS",
       "gender": "Boys",
       "currentRank": 32,
+      "birthYear": 2008,
       "officialPoints": 1166.75,
       "sourceTotalCombinedPoints": 1166.75,
       "singles": [
@@ -7552,6 +8466,7 @@
       "country": "RUS",
       "gender": "Boys",
       "currentRank": 33,
+      "birthYear": 2009,
       "officialPoints": 1157.25,
       "sourceTotalCombinedPoints": 1157.25,
       "singles": [
@@ -7843,6 +8758,7 @@
       "country": "ROU",
       "gender": "Boys",
       "currentRank": 34,
+      "birthYear": 2008,
       "officialPoints": 1148.5,
       "sourceTotalCombinedPoints": 1148.5,
       "singles": [
@@ -8111,6 +9027,7 @@
       "country": "GBR",
       "gender": "Boys",
       "currentRank": 35,
+      "birthYear": 2009,
       "officialPoints": 1144.75,
       "sourceTotalCombinedPoints": 1144.75,
       "singles": [
@@ -8395,6 +9312,7 @@
       "country": "ECU",
       "gender": "Boys",
       "currentRank": 36,
+      "birthYear": 2009,
       "officialPoints": 1141,
       "sourceTotalCombinedPoints": 1141,
       "singles": [
@@ -8679,6 +9597,7 @@
       "country": "ESP",
       "gender": "Boys",
       "currentRank": 37,
+      "birthYear": 2008,
       "officialPoints": 1124.75,
       "sourceTotalCombinedPoints": 1124.75,
       "singles": [
@@ -9056,6 +9975,7 @@
       "country": "FRA",
       "gender": "Boys",
       "currentRank": 38,
+      "birthYear": 2009,
       "officialPoints": 1111.75,
       "sourceTotalCombinedPoints": 1111.75,
       "singles": [
@@ -9297,6 +10217,7 @@
       "country": "JPN",
       "gender": "Boys",
       "currentRank": 39,
+      "birthYear": 2009,
       "officialPoints": 1111,
       "sourceTotalCombinedPoints": 1111,
       "singles": [
@@ -9565,6 +10486,7 @@
       "country": "GER",
       "gender": "Boys",
       "currentRank": 40,
+      "birthYear": 2009,
       "officialPoints": 1102.5,
       "sourceTotalCombinedPoints": 1102.5,
       "singles": [
@@ -9726,6 +10648,7 @@
       "country": "CZE",
       "gender": "Boys",
       "currentRank": 41,
+      "birthYear": 2009,
       "officialPoints": 1100,
       "sourceTotalCombinedPoints": 1100,
       "singles": [
@@ -10039,6 +10962,7 @@
       "country": "BRA",
       "gender": "Boys",
       "currentRank": 42,
+      "birthYear": 2008,
       "officialPoints": 1090.5,
       "sourceTotalCombinedPoints": 1090.5,
       "singles": [
@@ -10307,6 +11231,7 @@
       "country": "RUS",
       "gender": "Boys",
       "currentRank": 43,
+      "birthYear": 2008,
       "officialPoints": 1079,
       "sourceTotalCombinedPoints": 1079,
       "singles": [
@@ -10655,6 +11580,7 @@
       "country": "SVK",
       "gender": "Boys",
       "currentRank": 44,
+      "birthYear": 2009,
       "officialPoints": 1073,
       "sourceTotalCombinedPoints": 1073,
       "singles": [
@@ -10859,6 +11785,7 @@
       "country": "USA",
       "gender": "Boys",
       "currentRank": 45,
+      "birthYear": 2008,
       "officialPoints": 1058.5,
       "sourceTotalCombinedPoints": 1058.5,
       "singles": [
@@ -11087,6 +12014,7 @@
       "country": "USA",
       "gender": "Boys",
       "currentRank": 46,
+      "birthYear": 2008,
       "officialPoints": 1053.5,
       "sourceTotalCombinedPoints": 1053.5,
       "singles": [
@@ -11323,6 +12251,7 @@
       "country": "USA",
       "gender": "Boys",
       "currentRank": 47,
+      "birthYear": 2009,
       "officialPoints": 1048.5,
       "sourceTotalCombinedPoints": 1048.5,
       "singles": [
@@ -11575,6 +12504,7 @@
       "country": "COL",
       "gender": "Boys",
       "currentRank": 48,
+      "birthYear": 2009,
       "officialPoints": 1026.25,
       "sourceTotalCombinedPoints": 1026.25,
       "singles": [
@@ -11891,6 +12821,7 @@
       "country": "LAT",
       "gender": "Boys",
       "currentRank": 49,
+      "birthYear": 2008,
       "officialPoints": 983.5,
       "sourceTotalCombinedPoints": 983.5,
       "singles": [
@@ -12207,6 +13138,7 @@
       "country": "CAN",
       "gender": "Boys",
       "currentRank": 50,
+      "birthYear": 2008,
       "officialPoints": 954.25,
       "sourceTotalCombinedPoints": 954.25,
       "singles": [
@@ -12571,6 +13503,7 @@
       "country": "FRA",
       "gender": "Girls",
       "currentRank": 1,
+      "birthYear": 2009,
       "officialPoints": 2818,
       "sourceTotalCombinedPoints": 2818,
       "singles": [
@@ -12764,6 +13697,7 @@
       "country": "GBR",
       "gender": "Girls",
       "currentRank": 2,
+      "birthYear": 2009,
       "officialPoints": 2325.5,
       "sourceTotalCombinedPoints": 2325.5,
       "singles": [
@@ -12874,6 +13808,7 @@
       "country": "SVK",
       "gender": "Girls",
       "currentRank": 3,
+      "birthYear": 2008,
       "officialPoints": 2279.25,
       "sourceTotalCombinedPoints": 2279.25,
       "singles": [
@@ -13000,6 +13935,7 @@
       "country": "CZE",
       "gender": "Girls",
       "currentRank": 4,
+      "birthYear": 2008,
       "officialPoints": 2237.25,
       "sourceTotalCombinedPoints": 2237.25,
       "singles": [
@@ -13176,6 +14112,7 @@
       "country": "BRA",
       "gender": "Girls",
       "currentRank": 5,
+      "birthYear": 2009,
       "officialPoints": 2194,
       "sourceTotalCombinedPoints": 2194,
       "singles": [
@@ -13364,6 +14301,7 @@
       "country": "USA",
       "gender": "Girls",
       "currentRank": 6,
+      "birthYear": 2009,
       "officialPoints": 2084.75,
       "sourceTotalCombinedPoints": 2084.75,
       "singles": [
@@ -13474,6 +14412,7 @@
       "country": "CZE",
       "gender": "Girls",
       "currentRank": 7,
+      "birthYear": 2010,
       "officialPoints": 1977.25,
       "sourceTotalCombinedPoints": 1977.25,
       "singles": [
@@ -13645,6 +14584,7 @@
       "country": "CHN",
       "gender": "Girls",
       "currentRank": 8,
+      "birthYear": 2010,
       "officialPoints": 1968,
       "sourceTotalCombinedPoints": 1968,
       "singles": [
@@ -13849,6 +14789,7 @@
       "country": "USA",
       "gender": "Girls",
       "currentRank": 9,
+      "birthYear": 2009,
       "officialPoints": 1905.5,
       "sourceTotalCombinedPoints": 1905.5,
       "singles": [
@@ -13970,6 +14911,7 @@
       "country": "GER",
       "gender": "Girls",
       "currentRank": 10,
+      "birthYear": 2008,
       "officialPoints": 1741,
       "sourceTotalCombinedPoints": 1741,
       "singles": [
@@ -14120,6 +15062,7 @@
       "country": "BRA",
       "gender": "Girls",
       "currentRank": 11,
+      "birthYear": 2010,
       "officialPoints": 1677.25,
       "sourceTotalCombinedPoints": 1677.25,
       "singles": [
@@ -14297,6 +15240,7 @@
       "country": "AUT",
       "gender": "Girls",
       "currentRank": 12,
+      "birthYear": 2008,
       "officialPoints": 1669.75,
       "sourceTotalCombinedPoints": 1669.75,
       "singles": [
@@ -14391,6 +15335,7 @@
       "country": "ARG",
       "gender": "Girls",
       "currentRank": 13,
+      "birthYear": 2008,
       "officialPoints": 1621,
       "sourceTotalCombinedPoints": 1621,
       "singles": [
@@ -14739,6 +15684,7 @@
       "country": "SRB",
       "gender": "Girls",
       "currentRank": 14,
+      "birthYear": 2008,
       "officialPoints": 1619,
       "sourceTotalCombinedPoints": 1619,
       "singles": [
@@ -15007,6 +15953,7 @@
       "country": "JPN",
       "gender": "Girls",
       "currentRank": 15,
+      "birthYear": 2008,
       "officialPoints": 1473,
       "sourceTotalCombinedPoints": 1473,
       "singles": [
@@ -15264,6 +16211,7 @@
       "country": "ESP",
       "gender": "Girls",
       "currentRank": 16,
+      "birthYear": 2008,
       "officialPoints": 1459.25,
       "sourceTotalCombinedPoints": 1459.25,
       "singles": [
@@ -15419,6 +16367,7 @@
       "country": "GER",
       "gender": "Girls",
       "currentRank": 17,
+      "birthYear": 2010,
       "officialPoints": 1426,
       "sourceTotalCombinedPoints": 1426,
       "singles": [
@@ -15575,6 +16524,7 @@
       "country": "ESP",
       "gender": "Girls",
       "currentRank": 18,
+      "birthYear": 2010,
       "officialPoints": 1410.5,
       "sourceTotalCombinedPoints": 1410.5,
       "singles": [
@@ -15843,6 +16793,7 @@
       "country": "GER",
       "gender": "Girls",
       "currentRank": 19,
+      "birthYear": 2009,
       "officialPoints": 1383.75,
       "sourceTotalCombinedPoints": 1383.75,
       "singles": [
@@ -16044,6 +16995,7 @@
       "country": "RUS",
       "gender": "Girls",
       "currentRank": 20,
+      "birthYear": 2010,
       "officialPoints": 1350.5,
       "sourceTotalCombinedPoints": 1350.5,
       "singles": [
@@ -16176,6 +17128,7 @@
       "country": "USA",
       "gender": "Girls",
       "currentRank": 21,
+      "birthYear": 2010,
       "officialPoints": 1321,
       "sourceTotalCombinedPoints": 1321,
       "singles": [
@@ -16356,6 +17309,7 @@
       "country": "ROU",
       "gender": "Girls",
       "currentRank": 22,
+      "birthYear": 2009,
       "officialPoints": 1320.5,
       "sourceTotalCombinedPoints": 1320.5,
       "singles": [
@@ -16608,6 +17562,7 @@
       "country": "RUS",
       "gender": "Girls",
       "currentRank": 23,
+      "birthYear": 2009,
       "officialPoints": 1302.75,
       "sourceTotalCombinedPoints": 1302.75,
       "singles": [
@@ -16836,6 +17791,7 @@
       "country": "USA",
       "gender": "Girls",
       "currentRank": 24,
+      "birthYear": 2008,
       "officialPoints": 1296,
       "sourceTotalCombinedPoints": 1296,
       "singles": [
@@ -17021,6 +17977,7 @@
       "country": "CHN",
       "gender": "Girls",
       "currentRank": 25,
+      "birthYear": 2008,
       "officialPoints": 1244.25,
       "sourceTotalCombinedPoints": 1244.25,
       "singles": [
@@ -17225,6 +18182,7 @@
       "country": "RUS",
       "gender": "Girls",
       "currentRank": 26,
+      "birthYear": 2008,
       "officialPoints": 1232.25,
       "sourceTotalCombinedPoints": 1232.25,
       "singles": [
@@ -17453,6 +18411,7 @@
       "country": "IND",
       "gender": "Girls",
       "currentRank": 27,
+      "birthYear": 2009,
       "officialPoints": 1218,
       "sourceTotalCombinedPoints": 1218,
       "singles": [
@@ -17737,6 +18696,7 @@
       "country": "RUS",
       "gender": "Girls",
       "currentRank": 28,
+      "birthYear": 2009,
       "officialPoints": 1215.25,
       "sourceTotalCombinedPoints": 1215.25,
       "singles": [
@@ -17973,6 +18933,7 @@
       "country": "USA",
       "gender": "Girls",
       "currentRank": 29,
+      "birthYear": 2010,
       "officialPoints": 1211.75,
       "sourceTotalCombinedPoints": 1211.75,
       "singles": [
@@ -18220,7 +19181,7 @@
         "singlesPoints": 0,
         "doublesStatus": "Ativo",
         "doublesRound": "QF",
-        "doublesPoints": 0,
+        "doublesPoints": 112,
         "singlesMaxPoints": 500,
         "doublesMaxPoints": 375,
         "source": "data/weekly-results.csv"
@@ -18233,6 +19194,7 @@
       "country": "UKR",
       "gender": "Girls",
       "currentRank": 30,
+      "birthYear": 2010,
       "officialPoints": 1181.75,
       "sourceTotalCombinedPoints": 1181.75,
       "singles": [
@@ -18458,6 +19420,7 @@
       "country": "USA",
       "gender": "Girls",
       "currentRank": 31,
+      "birthYear": 2010,
       "officialPoints": 1173.5,
       "sourceTotalCombinedPoints": 1173.5,
       "singles": [
@@ -18649,7 +19612,7 @@
         "singlesPoints": 0,
         "doublesStatus": "Ativo",
         "doublesRound": "QF",
-        "doublesPoints": 0,
+        "doublesPoints": 112,
         "singlesMaxPoints": 500,
         "doublesMaxPoints": 375,
         "source": "data/weekly-results.csv"
@@ -18662,6 +19625,7 @@
       "country": "RUS",
       "gender": "Girls",
       "currentRank": 32,
+      "birthYear": 2008,
       "officialPoints": 1168,
       "sourceTotalCombinedPoints": 1168,
       "singles": [
@@ -18751,6 +19715,7 @@
       "country": "RUS",
       "gender": "Girls",
       "currentRank": 33,
+      "birthYear": 2008,
       "officialPoints": 1158.5,
       "sourceTotalCombinedPoints": 1158.5,
       "singles": [
@@ -18944,6 +19909,7 @@
       "country": "CHN",
       "gender": "Girls",
       "currentRank": 34,
+      "birthYear": 2008,
       "officialPoints": 1129.75,
       "sourceTotalCombinedPoints": 1129.75,
       "singles": [
@@ -19128,6 +20094,7 @@
       "country": "AUS",
       "gender": "Girls",
       "currentRank": 35,
+      "birthYear": 2009,
       "officialPoints": 1127.25,
       "sourceTotalCombinedPoints": 1127.25,
       "singles": [
@@ -19412,6 +20379,7 @@
       "country": "CZE",
       "gender": "Girls",
       "currentRank": 36,
+      "birthYear": 2009,
       "officialPoints": 1119.25,
       "sourceTotalCombinedPoints": 1119.25,
       "singles": [
@@ -19661,6 +20629,7 @@
       "country": "CZE",
       "gender": "Girls",
       "currentRank": 37,
+      "birthYear": 2008,
       "officialPoints": 1111.75,
       "sourceTotalCombinedPoints": 1111.75,
       "singles": [
@@ -19886,6 +20855,7 @@
       "country": "ROU",
       "gender": "Girls",
       "currentRank": 38,
+      "birthYear": 2009,
       "officialPoints": 1103,
       "sourceTotalCombinedPoints": 1103,
       "singles": [
@@ -20106,6 +21076,7 @@
       "country": "CHN",
       "gender": "Girls",
       "currentRank": 39,
+      "birthYear": 2009,
       "officialPoints": 1098,
       "sourceTotalCombinedPoints": 1098,
       "singles": [
@@ -20342,6 +21313,7 @@
       "country": "CHN",
       "gender": "Girls",
       "currentRank": 40,
+      "birthYear": 2010,
       "officialPoints": 1093.5,
       "sourceTotalCombinedPoints": 1093.5,
       "singles": [
@@ -20594,6 +21566,7 @@
       "country": "CAN",
       "gender": "Girls",
       "currentRank": 41,
+      "birthYear": 2008,
       "officialPoints": 1086.25,
       "sourceTotalCombinedPoints": 1086.25,
       "singles": [
@@ -20846,6 +21819,7 @@
       "country": "UKR",
       "gender": "Girls",
       "currentRank": 42,
+      "birthYear": 2008,
       "officialPoints": 1073,
       "sourceTotalCombinedPoints": 1073,
       "singles": [
@@ -21095,6 +22069,7 @@
       "country": "LAT",
       "gender": "Girls",
       "currentRank": 43,
+      "birthYear": 2008,
       "officialPoints": 1070,
       "sourceTotalCombinedPoints": 1070,
       "singles": [
@@ -21323,6 +22298,7 @@
       "country": "KOR",
       "gender": "Girls",
       "currentRank": 44,
+      "birthYear": 2008,
       "officialPoints": 1041.75,
       "sourceTotalCombinedPoints": 1041.75,
       "singles": [
@@ -21620,6 +22596,7 @@
       "country": "ROU",
       "gender": "Girls",
       "currentRank": 45,
+      "birthYear": 2010,
       "officialPoints": 1038.75,
       "sourceTotalCombinedPoints": 1038.75,
       "singles": [
@@ -21928,6 +22905,7 @@
       "country": "JAM",
       "gender": "Girls",
       "currentRank": 46,
+      "birthYear": 2008,
       "officialPoints": 1027.25,
       "sourceTotalCombinedPoints": 1027.25,
       "singles": [
@@ -22212,6 +23190,7 @@
       "country": "GER",
       "gender": "Girls",
       "currentRank": 47,
+      "birthYear": 2008,
       "officialPoints": 1013.5,
       "sourceTotalCombinedPoints": 1013.5,
       "singles": [
@@ -22418,6 +23397,7 @@
       "country": "ARG",
       "gender": "Girls",
       "currentRank": 48,
+      "birthYear": 2008,
       "officialPoints": 1007.25,
       "sourceTotalCombinedPoints": 1007.25,
       "singles": [
@@ -22597,6 +23577,7 @@
       "country": "USA",
       "gender": "Girls",
       "currentRank": 49,
+      "birthYear": 2009,
       "officialPoints": 1003.75,
       "sourceTotalCombinedPoints": 1003.75,
       "singles": [
@@ -22825,6 +23806,7 @@
       "country": "TPE",
       "gender": "Girls",
       "currentRank": 50,
+      "birthYear": 2009,
       "officialPoints": 990.5,
       "sourceTotalCombinedPoints": 990.5,
       "singles": [
