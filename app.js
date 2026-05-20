@@ -623,9 +623,27 @@ function inferResultPhase(item = {}) {
   return "";
 }
 
+function abbreviateTournamentName(eventName = "") {
+  const compact = String(eventName)
+    .replace(/\bThe Junior Championships,\s*Wimbledon\b/gi, "Wimbledon Juniors")
+    .replace(/\bAustralian Open Junior Championships\b/gi, "Australian Open Juniors")
+    .replace(/\bRoland Garros Junior Championships\b/gi, "Roland Garros Juniors")
+    .replace(/\bUS Open Junior Tennis Championships\b/gi, "US Open Juniors")
+    .replace(/\bChampionships\b/gi, "Ch.")
+    .replace(/\bChampionship\b/gi, "Ch.")
+    .replace(/\bInternational\b/gi, "Intl.")
+    .replace(/\bRegional\b/gi, "Reg.")
+    .replace(/\bClosed\b/gi, "Cls.")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  if (compact.length <= 30) return compact;
+  return `${compact.slice(0, 27).trimEnd()}...`;
+}
+
 function pointsFlowText(eventName, typeLabel, phaseLabel, value) {
   if (!eventName || !typeLabel || !isMeaningfulPoints(value)) return "";
-  return [eventName, typeLabel, phaseLabel, `${formatNumber(Math.abs(value))} pts`]
+  return [abbreviateTournamentName(eventName), typeLabel, phaseLabel, `${formatNumber(Math.abs(value))} pts`]
     .filter(Boolean)
     .join(" - ");
 }
