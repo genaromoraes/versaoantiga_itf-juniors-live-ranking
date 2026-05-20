@@ -11,6 +11,7 @@ const sources = JSON.parse(await fs.readFile(sourcesFile, "utf8"));
 const players = Array.isArray(latest.players) ? latest.players : [];
 const expectedPlayersPerGender = Number(process.env.RANKING_LIMIT || 50);
 const skippedUpdate = Boolean(latest.skippedUpdateReason);
+const partialUpdate = Boolean(latest.partialUpdateReason);
 const invalidPlayers = players.filter((player) => {
   return (player.singles?.length || 0) + (player.doubles?.length || 0) === 0;
 });
@@ -21,8 +22,11 @@ for (const gender of ["Boys", "Girls"]) {
   if (sourceCount !== expectedPlayersPerGender) {
     throw new Error(`Expected ${expectedPlayersPerGender} ${gender} source players, found ${sourceCount}.`);
   }
-  if (!skippedUpdate && playerCount !== expectedPlayersPerGender) {
+  if (!skippedUpdate && !partialUpdate && playerCount !== expectedPlayersPerGender) {
     throw new Error(`Expected ${expectedPlayersPerGender} ${gender} players in latest.json, found ${playerCount}.`);
+  }
+  if (partialUpdate && playerCount > expectedPlayersPerGender) {
+    throw new Error(`Expected at most ${expectedPlayersPerGender} ${gender} players in latest.json during partial update, found ${playerCount}.`);
   }
 }
 
@@ -32,6 +36,8 @@ if (!skippedUpdate && invalidPlayers.length) {
 
 if (skippedUpdate) {
   console.log(`Validated previous ranking data for ${players.length} players; skipped current update because ${latest.skippedUpdateReason}.`);
+} else if (partialUpdate) {
+  console.log(`Validated partial ranking data for ${players.length} players; awaiting complete points breakdowns for remaining players.`);
 } else {
   console.log(`Validated latest ranking data for ${players.length} players.`);
 }

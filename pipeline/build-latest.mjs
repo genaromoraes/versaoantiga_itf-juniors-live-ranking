@@ -538,9 +538,17 @@ if (invalidPlayers.length && existingLatest?.players?.length) {
   console.warn(`Partially updating latest.json; preserving previous data for: ${invalidPlayers.map((player) => player.id).join(", ")}`);
   const updatedById = new Map(players.filter(hasRankingResults).map((player) => [player.id, player]));
   const mergedPlayers = existingLatest.players.map((player) => updatedById.get(player.id) || player);
+  const existingIds = new Set(mergedPlayers.map((player) => player.id));
+  const appendedPlayers = players
+    .filter(hasRankingResults)
+    .filter((player) => !existingIds.has(player.id));
+  const allMergedPlayers = [...mergedPlayers, ...appendedPlayers].sort((a, b) => {
+    if (a.gender !== b.gender) return String(a.gender).localeCompare(String(b.gender));
+    return Number(a.currentRank || Infinity) - Number(b.currentRank || Infinity);
+  });
   payload = {
     ...existingLatest,
-    players: mergedPlayers,
+    players: allMergedPlayers,
     skippedUpdateReason: undefined,
     skippedUpdateAt: undefined,
     dataSource: {
