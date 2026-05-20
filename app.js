@@ -763,7 +763,7 @@ function projectionMarkup(player, target) {
           (scenario) => `
             <div class="projection-line">
               <em>${scenario.label}</em>
-              <strong>${formatNumber(scenario.gain)} pts</strong>
+              <strong>${formatNumber(player.livePoints + scenario.gain)}</strong>
             </div>
           `
         )
