@@ -502,18 +502,35 @@ try {
   await browser.close();
 }
 
-if (rankingPlayers.length !== categories.length * rankingLimit) {
-  warnings.push(`ITF ranking page returned ${rankingPlayers.length} total rows; requested ${categories.length * rankingLimit}. Continuing with available rows.`);
+const finalPlayers = [];
+for (const category of categories) {
+  const scrapedPlayers = rankingPlayers.filter((player) => player.gender === category.gender);
+  const existingCategoryPlayers = existingPlayers.filter((player) => player.gender === category.gender);
+
+  if (existingCategoryPlayers.length && scrapedPlayers.length < existingCategoryPlayers.length) {
+    warnings.push(
+      `Keeping previous ${category.gender} source list because scraped ranking returned only ${scrapedPlayers.length} rows; previous source has ${existingCategoryPlayers.length}.`
+    );
+    finalPlayers.push(...existingCategoryPlayers);
+  } else if (scrapedPlayers.length) {
+    finalPlayers.push(...scrapedPlayers);
+  } else {
+    finalPlayers.push(...existingCategoryPlayers);
+  }
 }
 
-await fs.writeFile(sourcesFile, `${JSON.stringify(rankingPlayers, null, 2)}\n`, "utf8");
+if (finalPlayers.length !== categories.length * rankingLimit) {
+  warnings.push(`ITF ranking page returned ${finalPlayers.length} total rows; requested ${categories.length * rankingLimit}. Continuing with available rows.`);
+}
+
+await fs.writeFile(sourcesFile, `${JSON.stringify(finalPlayers, null, 2)}\n`, "utf8");
 await fs.mkdir(path.dirname(previewFile), { recursive: true });
 await fs.writeFile(
   previewFile,
   `${JSON.stringify(
     {
       rankingDate,
-      players: rankingPlayers,
+      players: finalPlayers,
       warnings,
       scrapedAt: new Intl.DateTimeFormat("pt-BR", {
         dateStyle: "short",
@@ -527,5 +544,5 @@ await fs.writeFile(
   "utf8"
 );
 
-console.log(`Scraped official ranking sources for ${rankingPlayers.length} players.`);
+console.log(`Scraped official ranking sources for ${finalPlayers.length} players.`);
 for (const warning of warnings) console.warn(warning);
