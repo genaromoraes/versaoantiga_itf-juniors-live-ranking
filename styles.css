@@ -178,6 +178,7 @@ label,
 .controls-week-card {
   min-width: 0;
   box-shadow: none;
+  order: 2;
 }
 
 .controls {
@@ -186,6 +187,14 @@ label,
   gap: 16px;
   margin-bottom: 20px;
   align-items: end;
+}
+
+.controls > :nth-child(2) {
+  order: 3;
+}
+
+.controls > :nth-child(3) {
+  order: 4;
 }
 
 label {
