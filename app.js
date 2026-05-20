@@ -777,6 +777,24 @@ function renderPointsFlow(items, kind) {
     .join("");
 }
 
+function pointsFlowDisclosure(pointsBalance) {
+  const dropMarkup = renderPointsFlow(pointsBalance.dropItems, "drop");
+  const entryMarkup = renderPointsFlow(pointsBalance.entryItems, "entry");
+  if (!dropMarkup && !entryMarkup) return "";
+
+  return `
+    <details class="points-flow-disclosure">
+      <summary class="points-flow-toggle" aria-label="Ver detalhes de pontos">
+        <span class="points-flow-toggle-icon" aria-hidden="true">+</span>
+      </summary>
+      <div class="points-flow-panel">
+        ${dropMarkup}
+        ${entryMarkup}
+      </div>
+    </details>
+  `;
+}
+
 function projectionMarkup(player, target) {
   if (!isActiveThisWeek(player.liveEvent)) return `<span class="empty-mark">-</span>`;
 
@@ -870,9 +888,8 @@ function renderTable() {
               <div class="points-cell">
                 <strong class="live-points">${formatNumber(player.livePoints)}</strong>
                 <span class="pill ${pointsBalance.type}">${pointsBalance.text}</span>
+                ${pointsFlowDisclosure(pointsBalance)}
               </div>
-              ${renderPointsFlow(pointsBalance.dropItems, "drop")}
-              ${renderPointsFlow(pointsBalance.entryItems, "entry")}
             </div>
           </td>
           <td>${weeklyStatusMarkup(player.liveEvent)}</td>
@@ -964,6 +981,9 @@ function renderDetails(playerId) {
 }
 
 els.rankingBody.addEventListener("click", (event) => {
+  if (event.target.closest(".points-flow-toggle")) {
+    return;
+  }
   const row = event.target.closest("tr[data-player-id]");
   if (!row) return;
   state.selectedId = row.dataset.playerId;
