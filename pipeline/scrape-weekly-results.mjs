@@ -384,6 +384,7 @@ function parseLiveTennisDraw(fragmentHtml, player, matchType = "Singles") {
 
   const baseRound = liveTennisRoundForSize(Math.max(...rows.map((row) => row.seq)), matchType);
   let bestResult = null;
+  let bestMeta = null;
 
   for (let index = 0; index < rows.length; index += 2) {
     const pair = rows.slice(index, index + 2);
@@ -422,9 +423,24 @@ function parseLiveTennisDraw(fragmentHtml, player, matchType = "Singles") {
             pointsOverride: hasBye ? 0 : undefined,
             confidence: "live-pending-match"
           };
+    const meta = {
+      depth: liveTennisRoundDepth(result.currentRound, matchType),
+      statusWeight: result.status === "Ativo" ? 2 : 1,
+      progression: latestIndex - earliestIndex,
+      hitCount: playerIndexes.length,
+      pairIndex: index
+    };
 
-    if (!bestResult || liveTennisRoundDepth(result.currentRound, matchType) > liveTennisRoundDepth(bestResult.currentRound, matchType)) {
+    if (
+      !bestResult ||
+      meta.depth > bestMeta.depth ||
+      (meta.depth === bestMeta.depth && meta.statusWeight > bestMeta.statusWeight) ||
+      (meta.depth === bestMeta.depth && meta.statusWeight === bestMeta.statusWeight && meta.progression > bestMeta.progression) ||
+      (meta.depth === bestMeta.depth && meta.statusWeight === bestMeta.statusWeight && meta.progression === bestMeta.progression && meta.hitCount > bestMeta.hitCount) ||
+      (meta.depth === bestMeta.depth && meta.statusWeight === bestMeta.statusWeight && meta.progression === bestMeta.progression && meta.hitCount === bestMeta.hitCount && meta.pairIndex > bestMeta.pairIndex)
+    ) {
       bestResult = result;
+      bestMeta = meta;
     }
   }
 

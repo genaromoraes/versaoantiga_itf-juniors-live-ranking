@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "20/05/2026, 12:59",
+  "scrapedAt": "20/05/2026, 13:21",
   "calendarStartDate": "2026-05",
   "tournaments": [
     {
@@ -58,9 +58,9 @@
           "juniorRank": 8,
           "priority": 1,
           "drawResult": {
-            "status": "Eliminado",
+            "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-loss",
+            "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
           "drawResultDoubles": {
@@ -93,9 +93,9 @@
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
           "drawResultDoubles": {
-            "status": "Eliminado",
+            "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-loss",
+            "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           }
         },
@@ -142,9 +142,9 @@
           "juniorRank": 13,
           "priority": 1,
           "drawResult": {
-            "status": "Eliminado",
+            "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-loss",
+            "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
           "drawResultDoubles": {
@@ -234,9 +234,9 @@
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
           "drawResultDoubles": {
-            "status": "Eliminado",
+            "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-loss",
+            "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           }
         },
@@ -453,8 +453,7 @@
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "live-pending-match",
+            "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           }
         },
@@ -508,8 +507,7 @@
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "live-pending-match",
+            "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           }
         },
@@ -820,8 +818,7 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "pointsOverride": 0,
-            "confidence": "live-pending-match",
+            "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
           "drawResultDoubles": {
@@ -848,8 +845,7 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "pointsOverride": 0,
-            "confidence": "live-pending-match",
+            "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
           "drawResultDoubles": {
@@ -983,9 +979,9 @@
           "juniorRank": 7,
           "priority": 1,
           "drawResult": {
-            "status": "Eliminado",
+            "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-loss",
+            "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
           "drawResultDoubles": {
@@ -1039,9 +1035,9 @@
           "juniorRank": 10,
           "priority": 2,
           "drawResult": {
-            "status": "Eliminado",
+            "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-loss",
+            "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
           "drawResultDoubles": null
@@ -1068,9 +1064,9 @@
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
           "drawResultDoubles": {
-            "status": "Eliminado",
+            "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-loss",
+            "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           }
         },
@@ -1147,9 +1143,9 @@
           "juniorRank": 15,
           "priority": 1,
           "drawResult": {
-            "status": "Eliminado",
+            "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-loss",
+            "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
           "drawResultDoubles": {
@@ -1182,9 +1178,9 @@
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
           "drawResultDoubles": {
-            "status": "Eliminado",
+            "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-loss",
+            "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           }
         },
@@ -1435,9 +1431,9 @@
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
           "drawResultDoubles": {
-            "status": "Eliminado",
+            "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-loss",
+            "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           }
         },
@@ -1568,9 +1564,9 @@
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
           "drawResultDoubles": {
-            "status": "Eliminado",
+            "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-loss",
+            "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           }
         },
