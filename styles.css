@@ -496,12 +496,12 @@ tbody tr.is-selected {
 .projection-cell {
   display: grid;
   gap: 1px;
-  min-width: 122px;
+  min-width: 108px;
 }
 
 .projection-cell span {
   color: var(--muted);
-  font-size: 0.66rem;
+  font-size: 0.62rem;
   font-weight: 800;
   letter-spacing: 0;
   text-transform: uppercase;
@@ -511,52 +511,58 @@ tbody tr.is-selected {
 .projection-line {
   display: flex;
   align-items: baseline;
-  gap: 5px;
+  gap: 4px;
   white-space: nowrap;
 }
 
 .projection-line em {
   color: var(--muted);
-  font-size: 0.68rem;
+  font-size: 0.64rem;
   font-style: normal;
   font-weight: 800;
 }
 
 .projection-cell strong {
   color: var(--accent-2);
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   font-weight: 900;
 }
 
 table:not(.is-official-table) th:nth-child(5),
 table:not(.is-official-table) td:nth-child(5) {
-  min-width: 138px;
-  width: 138px;
+  min-width: 122px;
+  width: 122px;
 }
 
 table:not(.is-official-table) th:nth-child(6),
 table:not(.is-official-table) td:nth-child(6) {
-  min-width: 128px;
-  width: 128px;
+  min-width: 110px;
+  width: 110px;
 }
 
 table:not(.is-official-table) th:nth-child(7),
 table:not(.is-official-table) td:nth-child(7) {
-  min-width: 128px;
-  width: 128px;
+  min-width: 110px;
+  width: 110px;
 }
 
 .week-status {
   display: grid;
   gap: 0;
-  min-width: 128px;
+  min-width: 118px;
+}
+
+.week-status strong {
+  font-size: 0.88rem;
+  line-height: 1.08;
+  font-weight: 850;
 }
 
 .week-status span,
 .empty-mark {
   color: var(--muted);
-  font-size: 0.72rem;
-  line-height: 1.12;
+  font-size: 0.68rem;
+  line-height: 1.08;
 }
 
 .points-flow-disclosure {
