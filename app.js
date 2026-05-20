@@ -43,6 +43,7 @@ const translations = {
     sortBy: "Ordenar por",
     liveRank: "Ranking ao vivo",
     officialRank: "Ranking oficial",
+    birthYear: "Ano",
     liveRanking: "Live ranking",
     formula: "Pontos = ∑ 6 melhores resultados de simples + ∑ 25% dos 6 melhores resultados de duplas",
     officialPoints: "Pontos base",
@@ -82,6 +83,7 @@ const translations = {
     sortBy: "Sort by",
     liveRank: "Live ranking",
     officialRank: "Official ranking",
+    birthYear: "Birth year",
     liveRanking: "Live ranking",
     formula: "Points = ∑ best 6 singles results + ∑ 25% of best 6 doubles results",
     officialPoints: "Base points",
@@ -121,6 +123,7 @@ const translations = {
     sortBy: "Ordenar por",
     liveRank: "Ranking en vivo",
     officialRank: "Ranking oficial",
+    birthYear: "Año",
     liveRanking: "Ranking en vivo",
     formula: "Puntos = ∑ 6 mejores resultados de individuales + ∑ 25% de los 6 mejores resultados de dobles",
     officialPoints: "Puntos base",
@@ -160,6 +163,7 @@ const translations = {
     sortBy: "Ordina per",
     liveRank: "Ranking live",
     officialRank: "Ranking ufficiale",
+    birthYear: "Anno",
     liveRanking: "Ranking live",
     formula: "Punti = ∑ 6 migliori risultati di singolare + ∑ 25% dei 6 migliori risultati di doppio",
     officialPoints: "Punti base",
@@ -199,6 +203,7 @@ const translations = {
     sortBy: "Trier par",
     liveRank: "Classement live",
     officialRank: "Classement officiel",
+    birthYear: "Année",
     liveRanking: "Classement live",
     formula: "Points = ∑ 6 meilleurs résultats en simple + ∑ 25% des 6 meilleurs résultats en double",
     officialPoints: "Points de base",
@@ -896,6 +901,7 @@ function renderTable() {
       <tr>
         <th>${t("officialRank")}</th>
         <th>${t("athlete")}</th>
+        <th>${t("birthYear")}</th>
         <th>${t("officialPoints")}</th>
       </tr>
     `
@@ -903,6 +909,7 @@ function renderTable() {
       <tr>
         <th>${t("liveRank")}</th>
         <th>${t("athlete")}</th>
+        <th>${t("birthYear")}</th>
         <th>${t("livePoints")}</th>
         <th>${t("playingThisWeek")}</th>
         <th>${t("nextRound")}</th>
@@ -918,15 +925,16 @@ function renderTable() {
       if (isOfficialTable) {
         return `
           <tr class="${selected}" data-player-id="${player.id}">
-            <td><strong class="rank">${player.currentRank || "-"}</strong></td>
-            <td>
-              <div class="player">
-                <strong>${playerNameMarkup(player.name, player.country)}</strong>
-              </div>
-            </td>
-            <td><strong class="official-points">${formatNumber(officialPoints(player))}</strong></td>
-          </tr>
-        `;
+          <td><strong class="rank">${player.currentRank || "-"}</strong></td>
+          <td>
+            <div class="player">
+              <strong>${playerNameMarkup(player.name, player.country)}</strong>
+            </div>
+          </td>
+          <td>${player.birthYear || "-"}</td>
+          <td><strong class="official-points">${formatNumber(officialPoints(player))}</strong></td>
+        </tr>
+      `;
       }
 
       return `
@@ -942,6 +950,7 @@ function renderTable() {
               <strong>${playerNameMarkup(player.name, player.country)}</strong>
             </div>
           </td>
+          <td>${player.birthYear || "-"}</td>
           <td>
             <div class="points-stack">
               <div class="points-cell">

@@ -193,6 +193,7 @@ function sourcePlayerShell(player) {
     country: player.country,
     gender: player.gender,
     currentRank: player.currentRank,
+    birthYear: player.birthYear || "",
     officialPoints,
     sourceTotalCombinedPoints: officialPoints,
     singles: [],

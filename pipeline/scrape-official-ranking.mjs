@@ -149,6 +149,7 @@ function mergeRankingPlayers(primaryPlayers, auxiliaryPlayers, existingPlayers, 
       currentRank: candidate.currentRank,
       officialPoints: profile?.officialPoints || candidate.officialPoints || 0,
       pointsBreakdownUrl: profile?.pointsBreakdownUrl || "",
+      birthYear: profile?.birthYear || candidate.birthYear || "",
       needsProfileResolution: !profile?.pointsBreakdownUrl
     };
   });
@@ -169,6 +170,7 @@ async function scrapeAuxiliaryCategory(page, category) {
       players.push({
         currentRank: Number(match[1]),
         name: match[2].trim(),
+        birthYear: Number(match[3]),
         country: match[4].trim()
       });
 

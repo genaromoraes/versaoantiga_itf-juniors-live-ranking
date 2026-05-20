@@ -563,6 +563,12 @@ table:not(.is-official-table) td:nth-child(4) {
   width: 122px;
 }
 
+table th:nth-child(3),
+table td:nth-child(3) {
+  min-width: 72px;
+  width: 72px;
+}
+
 table:not(.is-official-table) th:nth-child(5),
 table:not(.is-official-table) td:nth-child(5) {
   min-width: 110px;
