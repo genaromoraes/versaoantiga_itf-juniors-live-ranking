@@ -98,11 +98,17 @@ async function readPointsCsvPreview() {
       playersById.set(row.player_id, player);
     }
 
+    const topSixCountableByPoints = (results = []) =>
+      [...results]
+        .filter((result) => result.sourceCounting !== false)
+        .sort((a, b) => Number(b.points || 0) - Number(a.points || 0))
+        .slice(0, 6);
+
     const players = [...playersById.values()].map((player) => ({
       ...player,
       totalCombinedPoints: [
-        ...topSixByPoints(player.singles).map((result) => Number(result.points || 0)),
-        ...topSixByPoints(player.doubles).map((result) => Number(result.points || 0) * 0.25)
+        ...topSixCountableByPoints(player.singles).map((result) => Number(result.points || 0)),
+        ...topSixCountableByPoints(player.doubles).map((result) => Number(result.points || 0) * 0.25)
       ].reduce((total, points) => total + points, 0)
     }));
 

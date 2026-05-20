@@ -364,7 +364,7 @@ function rankedResults(results = [], multiplier = 1) {
     .sort((a, b) => b.points - a.points)
     .map((item, index) => ({
       ...item,
-      isCounting: index < 6,
+      isCounting: index < 6 && item.sourceCounting !== false && item.sourceCounting !== "false",
       countedPoints: Number(item.points || 0) * multiplier
     }));
 }
