@@ -165,6 +165,7 @@ label,
   display: block;
   margin-top: 4px;
   font-size: 1.24rem;
+  line-height: 1.15;
 }
 
 .week-card small {
@@ -178,23 +179,40 @@ label,
 .controls-week-card {
   min-width: 0;
   box-shadow: none;
+  order: 3;
+}
+
+.controls-update-card {
+  min-width: 0;
+  box-shadow: none;
   order: 2;
+}
+
+.controls-update-card small {
+  margin-top: 4px;
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: var(--ink);
 }
 
 .controls {
   display: grid;
-  grid-template-columns: minmax(280px, 1.4fr) minmax(160px, 200px) minmax(170px, 210px) minmax(180px, 220px);
+  grid-template-columns: minmax(280px, 1.4fr) minmax(150px, 180px) minmax(160px, 190px) minmax(160px, 200px) minmax(170px, 210px);
   gap: 16px;
   margin-bottom: 20px;
   align-items: end;
 }
 
 .controls > :nth-child(2) {
-  order: 3;
+  order: 4;
 }
 
 .controls > :nth-child(3) {
-  order: 4;
+  order: 5;
+}
+
+.week-card span:empty {
+  display: none;
 }
 
 label {

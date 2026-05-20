@@ -15,6 +15,7 @@ const els = {
   playerDetails: document.querySelector("#playerDetails"),
   weekLabel: document.querySelector("#weekLabel"),
   updatedAtLabel: document.querySelector("#updatedAtLabel"),
+  updatedCardLabel: document.querySelector("#updatedCardLabel"),
   dataSourceNote: document.querySelector("#dataSourceNote"),
   languageSelect: document.querySelector("#languageSelect"),
   languageLabel: document.querySelector("#languageLabel"),
@@ -292,12 +293,20 @@ function weekLabelText(rankingDate = "") {
   return `Semana ${isoWeekNumber(date)} · ${rankingDate}`;
 }
 
+function weekLabelMarkup(rankingDate = "") {
+  const text = weekLabelText(rankingDate);
+  const [weekPart, datePart] = text.split(" · ");
+  if (!datePart) return escapeHtml(text);
+  return `${escapeHtml(weekPart)}<br />${escapeHtml(datePart)}`;
+}
+
 function updateStaticText() {
   document.documentElement.lang = t("htmlLang");
   els.languageSelect.value = state.language;
   els.languageLabel.textContent = t("language");
   els.siteCredit.textContent = t("siteCredit");
-  els.rankingBaseLabel.textContent = t("rankingBase");
+  els.rankingBaseLabel.textContent = "";
+  if (els.updatedCardLabel) els.updatedCardLabel.textContent = t("updated");
   els.searchLabel.textContent = t("search");
   els.searchInput.placeholder = t("searchPlaceholder");
   els.categoryLabel.textContent = t("category");
@@ -310,8 +319,8 @@ function updateStaticText() {
   els.playerPanelTitle.textContent = t("playerPoints");
   els.dataSourceNote.textContent = t("formula");
 
-  if (state.dataSource.rankingDate) els.weekLabel.textContent = weekLabelText(state.dataSource.rankingDate);
-  if (state.dataSource.updatedAt) els.updatedAtLabel.textContent = `${t("updated")} ${state.dataSource.updatedAt}`;
+  if (state.dataSource.rankingDate) els.weekLabel.innerHTML = weekLabelMarkup(state.dataSource.rankingDate);
+  if (state.dataSource.updatedAt) els.updatedAtLabel.textContent = state.dataSource.updatedAt;
 }
 
 function applyDataSet(payload) {
