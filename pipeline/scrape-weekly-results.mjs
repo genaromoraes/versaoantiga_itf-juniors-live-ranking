@@ -113,11 +113,12 @@ function cleanLine(line) {
 }
 
 function isRound(value = "") {
-  return /^(R1|R2|R3|R4|R16|R32|R64|QF|SF|F|W)$/i.test(value);
+  return /^(R1|R2|R3|R4|R16|R32|R64|Q1|Q2|Q3|Q4|QF|SF|F|W)$/i.test(value);
 }
 
 function normalizeDrawRound(value = "", matchType = "SINGLES") {
   const round = value.toUpperCase();
+  if (/^Q[1-4]$/.test(round)) return round;
   if (matchType === "DOUBLES") {
     if (round === "R1") return "R32";
     if (round === "R2") return "R16";
@@ -133,6 +134,10 @@ function normalizeDrawRound(value = "", matchType = "SINGLES") {
 }
 
 function nextRound(round = "", matchType = "SINGLES") {
+  if (round === "Q1") return "Q2";
+  if (round === "Q2") return "Q3";
+  if (round === "Q3") return "Q4";
+  if (round === "Q4") return matchType === "DOUBLES" ? "R16" : "R64";
   return {
     R64: "R32",
     R32: "R16",
@@ -199,7 +204,7 @@ function candidateDrawSections(lines, player, matchType = "SINGLES") {
   const sections = splitDrawSections(lines)
     .filter((section) => !section.gender || section.gender === expectedGender)
     .filter((section) => !section.matchType || section.matchType === matchType)
-    .filter((section) => !section.drawType || section.drawType === "MAIN DRAW");
+    .filter((section) => !section.drawType || section.drawType === "MAIN DRAW" || section.drawType === "QUALIFYING DRAW");
 
   if (sections.length) return sections.map((section) => section.lines);
   return [lines];
@@ -744,7 +749,7 @@ function drawStatusForPlayer(text, player, matchType = "SINGLES", options = {}) 
 function drawDiagnostic(text, players) {
   const lines = text.split(/\r?\n/).map(cleanLine).filter(Boolean);
   const interestingLines = lines.filter((line) => {
-    if (/^(BOYS|GIRLS|SINGLES|DOUBLES|MAIN DRAW|QUALIFYING DRAW|R1|R2|R3|R4|R16|R32|R64|QF|SF|F|W|L|BYE)$/i.test(line)) return true;
+    if (/^(BOYS|GIRLS|SINGLES|DOUBLES|MAIN DRAW|QUALIFYING DRAW|R1|R2|R3|R4|R16|R32|R64|Q1|Q2|Q3|Q4|QF|SF|F|W|L|BYE)$/i.test(line)) return true;
     return players.some((player) => normalizeName(line).includes(normalizeName(player.name)));
   });
 
@@ -797,8 +802,11 @@ async function readDrawPageText(page, tournament, networkUrls = []) {
     await clickIfPresent(page, gender);
     for (const matchType of ["SINGLES", "DOUBLES"]) {
       await clickIfPresent(page, matchType);
-      await clickIfPresent(page, "MAIN DRAW");
-      texts.push(await page.locator("body").innerText({ timeout: 45000 }));
+      for (const drawType of ["MAIN DRAW", "QUALIFYING DRAW"]) {
+        if (await clickIfPresent(page, drawType)) {
+          texts.push(await page.locator("body").innerText({ timeout: 45000 }));
+        }
+      }
     }
   }
 
