@@ -179,13 +179,11 @@ label,
 .controls-week-card {
   min-width: 0;
   box-shadow: none;
-  order: 3;
 }
 
 .controls-update-card {
   min-width: 0;
   box-shadow: none;
-  order: 2;
 }
 
 .controls-update-card small {
@@ -197,22 +195,21 @@ label,
 
 .controls {
   display: grid;
-  grid-template-columns: minmax(280px, 1.4fr) minmax(150px, 180px) minmax(160px, 190px) minmax(160px, 200px) minmax(170px, 210px);
+  grid-template-columns: minmax(320px, 1.7fr) minmax(150px, 180px) minmax(170px, 200px) minmax(160px, 190px) minmax(180px, 220px);
   gap: 16px;
   margin-bottom: 20px;
   align-items: end;
 }
 
-.controls > :nth-child(2) {
-  order: 4;
-}
-
-.controls > :nth-child(3) {
-  order: 5;
-}
-
 .week-card span:empty {
   display: none;
+}
+
+.controls .week-card {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 label {
