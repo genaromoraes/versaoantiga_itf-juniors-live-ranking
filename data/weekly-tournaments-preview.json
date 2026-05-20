@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "20/05/2026, 09:39",
+  "scrapedAt": "20/05/2026, 12:59",
   "calendarStartDate": "2026-05",
   "tournaments": [
     {
@@ -36,7 +36,12 @@
             "confidence": "live-bye",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 5,
@@ -53,13 +58,18 @@
           "juniorRank": 8,
           "priority": 1,
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R32",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
             "pointsOverride": 0,
             "confidence": "live-bye",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
-          },
-          "drawResultDoubles": null
+          }
         },
         {
           "currentRank": 9,
@@ -82,7 +92,12 @@
             "confidence": "live-bye",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "QF",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 14,
@@ -90,7 +105,7 @@
           "country": "USA",
           "gender": "Boys",
           "id": "michael-antonius",
-          "officialPoints": 0,
+          "officialPoints": 1558.75,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/michael-antonius/800732018/usa/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -101,11 +116,16 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
             "pointsOverride": 0,
             "confidence": "live-bye",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
-          },
-          "drawResultDoubles": null
+          }
         },
         {
           "currentRank": 12,
@@ -113,7 +133,7 @@
           "country": "USA",
           "gender": "Boys",
           "id": "andrew-johnson",
-          "officialPoints": 0,
+          "officialPoints": 1632.5,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/andrew-johnson/800717286/usa/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -122,13 +142,18 @@
           "juniorRank": 13,
           "priority": 1,
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R32",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
             "pointsOverride": 0,
             "confidence": "live-bye",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
-          },
-          "drawResultDoubles": null
+          }
         },
         {
           "currentRank": 18,
@@ -136,7 +161,7 @@
           "country": "UZB",
           "gender": "Boys",
           "id": "nikita-belozertsev",
-          "officialPoints": 0,
+          "officialPoints": 1436.5,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/nikita-belozertsev/800590346/uzb/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -151,7 +176,13 @@
             "confidence": "live-bye",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 16,
@@ -159,7 +190,7 @@
           "country": "ARG",
           "gender": "Boys",
           "id": "dante-pagani",
-          "officialPoints": 0,
+          "officialPoints": 1468.5,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/dante-pagani/800658369/arg/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -174,7 +205,12 @@
             "confidence": "live-bye",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 17,
@@ -182,7 +218,7 @@
           "country": "TPE",
           "gender": "Boys",
           "id": "kuan-shou-chen",
-          "officialPoints": 0,
+          "officialPoints": 1437.5,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/kuan-shou-chen/800692766/tpe/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -197,7 +233,12 @@
             "confidence": "live-bye",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "QF",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 15,
@@ -205,7 +246,7 @@
           "country": "PUR",
           "gender": "Boys",
           "id": "yannik-alvarez",
-          "officialPoints": 0,
+          "officialPoints": 1553.5,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/yannik-alvarez/800696168/pur/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -220,7 +261,13 @@
             "confidence": "live-bye",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 19,
@@ -228,7 +275,7 @@
           "country": "PER",
           "gender": "Boys",
           "id": "nicolas-baena",
-          "officialPoints": 0,
+          "officialPoints": 1380.5,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/nicolas-baena/800600773/per/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -243,7 +290,12 @@
             "confidence": "live-bye",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 22,
@@ -251,7 +303,7 @@
           "country": "SUI",
           "gender": "Boys",
           "id": "flynn-thomas",
-          "officialPoints": 0,
+          "officialPoints": 1318.5,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/flynn-thomas/800571129/sui/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -274,7 +326,7 @@
           "country": "ESP",
           "gender": "Boys",
           "id": "tito-chavez",
-          "officialPoints": 0,
+          "officialPoints": 1374,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/tito-chavez/800590474/esp/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -289,7 +341,12 @@
             "confidence": "live-bye",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 27,
@@ -297,7 +354,7 @@
           "country": "ITA",
           "gender": "Boys",
           "id": "raffaele-ciurnelli",
-          "officialPoints": 0,
+          "officialPoints": 1212.5,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/raffaele-ciurnelli/800589799/ita/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -312,7 +369,39 @@
             "confidence": "live-bye",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
+        },
+        {
+          "currentRank": 32,
+          "name": "Daniel Jovanovski",
+          "country": "AUS",
+          "gender": "Boys",
+          "id": "daniel-jovanovski",
+          "officialPoints": 1166.75,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/daniel-jovanovski/800712851/aus/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 14,
+          "sex": "boy",
+          "juniorRank": 25,
+          "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "R64",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R16",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 30,
@@ -320,7 +409,7 @@
           "country": "KAZ",
           "gender": "Boys",
           "id": "damir-zhalgasbay",
-          "officialPoints": 0,
+          "officialPoints": 1175.5,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/damir-zhalgasbay/800559166/kaz/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -334,7 +423,40 @@
             "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
+        },
+        {
+          "currentRank": 31,
+          "name": "Ryan Cozad",
+          "country": "USA",
+          "gender": "Boys",
+          "id": "ryan-cozad",
+          "officialPoints": 1174,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ryan-cozad/800721316/usa/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 16,
+          "sex": "boy",
+          "juniorRank": 27,
+          "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "R64",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-pending-match",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 29,
@@ -342,7 +464,7 @@
           "country": "ITA",
           "gender": "Boys",
           "id": "matteo-gribaldo",
-          "officialPoints": 0,
+          "officialPoints": 1188.75,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/matteo-gribaldo/800705107/ita/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -356,7 +478,40 @@
             "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
+        },
+        {
+          "currentRank": 45,
+          "name": "Gavin Goode",
+          "country": "USA",
+          "gender": "Boys",
+          "id": "gavin-goode",
+          "officialPoints": 1058.5,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/gavin-goode/800754035/usa/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 18,
+          "sex": "boy",
+          "juniorRank": 29,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-pending-match",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 28,
@@ -364,7 +519,7 @@
           "country": "HKG",
           "gender": "Boys",
           "id": "kai-thompson",
-          "officialPoints": 0,
+          "officialPoints": 1193.5,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/kai-thompson/800591436/hkg/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -379,7 +534,121 @@
             "confidence": "live-bye",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
+        },
+        {
+          "currentRank": 36,
+          "name": "Emilio Camacho",
+          "country": "ECU",
+          "gender": "Boys",
+          "id": "emilio-camacho",
+          "officialPoints": 1141,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/emilio-camacho/800654359/ecu/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 20,
+          "sex": "boy",
+          "juniorRank": 31,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
+        },
+        {
+          "currentRank": 34,
+          "name": "Matei Todoran",
+          "country": "ROU",
+          "gender": "Boys",
+          "id": "matei-todoran",
+          "officialPoints": 1148.5,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/matei-todoran/800565895/rou/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 21,
+          "sex": "boy",
+          "juniorRank": 32,
+          "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "R64",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
+        },
+        {
+          "currentRank": 33,
+          "name": "Savva Rybkin",
+          "country": "RUS",
+          "gender": "Boys",
+          "id": "savva-rybkin",
+          "officialPoints": 1157.25,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/savva-rybkin/800590813/rus/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 22,
+          "sex": "boy",
+          "juniorRank": 34,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R16",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
+        },
+        {
+          "currentRank": 39,
+          "name": "Kanta Watanabe",
+          "country": "JPN",
+          "gender": "Boys",
+          "id": "kanta-watanabe",
+          "officialPoints": 1111,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/kanta-watanabe/800686514/jpn/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 23,
+          "sex": "boy",
+          "juniorRank": 36,
+          "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "R64",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 24,
@@ -387,7 +656,7 @@
           "country": "ITA",
           "gender": "Boys",
           "id": "simone-massellani",
-          "officialPoints": 0,
+          "officialPoints": 1258.75,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/simone-massellani/800668600/ita/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -401,7 +670,39 @@
             "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
+        },
+        {
+          "currentRank": 44,
+          "name": "Leon Sloboda",
+          "country": "SVK",
+          "gender": "Boys",
+          "id": "leon-sloboda",
+          "officialPoints": 1073,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/leon-sloboda/800661936/svk/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 25,
+          "sex": "boy",
+          "juniorRank": 39,
+          "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "R64",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 25,
@@ -409,7 +710,7 @@
           "country": "IND",
           "gender": "Boys",
           "id": "arnav-paparkar",
-          "officialPoints": 0,
+          "officialPoints": 1241.75,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/arnav-paparkar/800573038/ind/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -417,12 +718,146 @@
           "sex": "boy",
           "juniorRank": 40,
           "priority": 1,
+          "drawResultDoubles": null
+        },
+        {
+          "currentRank": 46,
+          "name": "Jack Secord",
+          "country": "USA",
+          "gender": "Boys",
+          "id": "jack-secord",
+          "officialPoints": 1053.5,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/jack-secord/800720203/usa/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 27,
+          "sex": "boy",
+          "juniorRank": 41,
+          "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
+            "currentRound": "R32",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
+        },
+        {
+          "currentRank": 47,
+          "name": "Tanishk Konduri",
+          "country": "USA",
+          "gender": "Boys",
+          "id": "tanishk-konduri",
+          "officialPoints": 1048.5,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/tanishk-konduri/800793512/usa/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 28,
+          "sex": "boy",
+          "juniorRank": 42,
+          "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "R64",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
+        },
+        {
+          "currentRank": 43,
+          "name": "Kirill Filaretov",
+          "country": "RUS",
+          "gender": "Boys",
+          "id": "kirill-filaretov",
+          "officialPoints": 1079,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/kirill-filaretov/800572955/rus/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 29,
+          "sex": "boy",
+          "juniorRank": 44,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R16",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
+        },
+        {
+          "currentRank": 42,
+          "name": "Pedro Henrique Chabalgoity",
+          "country": "BRA",
+          "gender": "Boys",
+          "id": "pedro-henrique-chabalgoity",
+          "officialPoints": 1090.5,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/pedro-henrique-chabalgoity/800650301/bra/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 30,
+          "sex": "boy",
+          "juniorRank": 45,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "live-pending-match",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
+        },
+        {
+          "currentRank": 48,
+          "name": "Juan Miguel Bolivar Idarraga",
+          "country": "COL",
+          "gender": "Boys",
+          "id": "juan-miguel-bolivar-idarraga",
+          "officialPoints": 1026.25,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/juan-miguel-bolivar-idarraga/800652195/col/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 31,
+          "sex": "boy",
+          "juniorRank": 46,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "live-pending-match",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R16",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 26,
@@ -430,7 +865,7 @@
           "country": "JPN",
           "gender": "Boys",
           "id": "hyu-kawanishi",
-          "officialPoints": 0,
+          "officialPoints": 1226,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/hyu-kawanishi/800700658/jpn/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -445,7 +880,93 @@
             "confidence": "live-bye",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
+        },
+        {
+          "currentRank": 35,
+          "name": "Mark Ceban",
+          "country": "GBR",
+          "gender": "Boys",
+          "id": "mark-ceban",
+          "officialPoints": 1144.75,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/mark-ceban/800646827/gbr/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "Q",
+          "position": 1,
+          "sex": "boy",
+          "juniorRank": 48,
+          "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "R64",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R16",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
+        },
+        {
+          "currentRank": 49,
+          "name": "Rihards Neimanis",
+          "country": "LAT",
+          "gender": "Boys",
+          "id": "rihards-neimanis",
+          "officialPoints": 983.5,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/rihards-neimanis/800589275/lat/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "Q",
+          "position": 2,
+          "sex": "boy",
+          "juniorRank": 49,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
+        },
+        {
+          "currentRank": 50,
+          "name": "Benjamin Azar",
+          "country": "CAN",
+          "gender": "Boys",
+          "id": "benjamin-azar",
+          "officialPoints": 954.25,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/benjamin-azar/800672226/can/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "Q",
+          "position": 3,
+          "sex": "boy",
+          "juniorRank": 51,
+          "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "R64",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R16",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 7,
@@ -462,13 +983,17 @@
           "juniorRank": 7,
           "priority": 1,
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R32",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
+            "confidence": "live-loss",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 5,
@@ -491,7 +1016,13 @@
             "confidence": "live-bye",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 8,
@@ -508,10 +1039,9 @@
           "juniorRank": 10,
           "priority": 2,
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R32",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
+            "confidence": "live-loss",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
           "drawResultDoubles": null
@@ -522,7 +1052,7 @@
           "country": "BRA",
           "gender": "Girls",
           "id": "nauhany-vitoria-leme-da-silva",
-          "officialPoints": 0,
+          "officialPoints": 1677.25,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/nauhany-vitoria-leme-da-silva/800695060/bra/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -537,7 +1067,12 @@
             "confidence": "live-bye",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "QF",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 13,
@@ -545,7 +1080,7 @@
           "country": "ARG",
           "gender": "Girls",
           "id": "sol-ailin-larraya-guidi",
-          "officialPoints": 0,
+          "officialPoints": 1621,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/sol-ailin-larraya-guidi/800659876/arg/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -560,7 +1095,13 @@
             "confidence": "live-bye",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 14,
@@ -568,7 +1109,7 @@
           "country": "SRB",
           "gender": "Girls",
           "id": "anastasija-cvetkovic",
-          "officialPoints": 0,
+          "officialPoints": 1619,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/anastasija-cvetkovic/800598140/srb/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -583,7 +1124,13 @@
             "confidence": "live-bye",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 20,
@@ -591,7 +1138,7 @@
           "country": "RUS",
           "gender": "Girls",
           "id": "mariia-makarova",
-          "officialPoints": 0,
+          "officialPoints": 1350.5,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/mariia-makarova/800644962/rus/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -600,13 +1147,18 @@
           "juniorRank": 15,
           "priority": 1,
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R32",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
             "pointsOverride": 0,
             "confidence": "live-bye",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
-          },
-          "drawResultDoubles": null
+          }
         },
         {
           "currentRank": 16,
@@ -614,7 +1166,7 @@
           "country": "ESP",
           "gender": "Girls",
           "id": "charo-esquiva-banuls",
-          "officialPoints": 0,
+          "officialPoints": 1459.25,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/charo-esquiva-banuls/800672253/esp/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -629,7 +1181,12 @@
             "confidence": "live-bye",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "QF",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 17,
@@ -637,7 +1194,7 @@
           "country": "GER",
           "gender": "Girls",
           "id": "ida-wobker",
-          "officialPoints": 0,
+          "officialPoints": 1426,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ida-wobker/800671481/ger/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -652,7 +1209,13 @@
             "confidence": "live-bye",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 25,
@@ -660,7 +1223,7 @@
           "country": "CHN",
           "gender": "Girls",
           "id": "yushan-shao",
-          "officialPoints": 0,
+          "officialPoints": 1244.25,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/yushan-shao/800731351/chn/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -671,11 +1234,15 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
+            "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 21,
@@ -683,7 +1250,7 @@
           "country": "USA",
           "gender": "Girls",
           "id": "janae-preston",
-          "officialPoints": 0,
+          "officialPoints": 1321,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/janae-preston/800758791/usa/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -694,11 +1261,16 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
             "pointsOverride": 0,
             "confidence": "live-bye",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
-          },
-          "drawResultDoubles": null
+          }
         },
         {
           "currentRank": 22,
@@ -706,7 +1278,7 @@
           "country": "ROU",
           "gender": "Girls",
           "id": "giulia-safina-popa",
-          "officialPoints": 0,
+          "officialPoints": 1320.5,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/giulia-safina-popa/800640357/rou/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -721,7 +1293,12 @@
             "confidence": "live-bye",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 24,
@@ -729,7 +1306,7 @@
           "country": "USA",
           "gender": "Girls",
           "id": "thea-frodin",
-          "officialPoints": 0,
+          "officialPoints": 1296,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/thea-frodin/800702416/usa/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -744,7 +1321,13 @@
             "confidence": "live-bye",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 18,
@@ -752,7 +1335,7 @@
           "country": "ESP",
           "gender": "Girls",
           "id": "paola-pinera-celorio",
-          "officialPoints": 0,
+          "officialPoints": 1410.5,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/paola-pinera-celorio/800656554/esp/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -767,7 +1350,13 @@
             "confidence": "live-bye",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 28,
@@ -775,7 +1364,7 @@
           "country": "RUS",
           "gender": "Girls",
           "id": "felitsata-dorofeeva-rybas",
-          "officialPoints": 0,
+          "officialPoints": 1215.25,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/felitsata-dorofeeva-rybas/800721825/rus/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -789,7 +1378,13 @@
             "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 26,
@@ -797,7 +1392,7 @@
           "country": "RUS",
           "gender": "Girls",
           "id": "alexandra-malova",
-          "officialPoints": 0,
+          "officialPoints": 1232.25,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/alexandra-malova/800635479/rus/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -812,7 +1407,12 @@
             "confidence": "live-bye",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R16",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 27,
@@ -820,7 +1420,7 @@
           "country": "IND",
           "gender": "Girls",
           "id": "maaya-rajeshwaran-revathi",
-          "officialPoints": 0,
+          "officialPoints": 1218,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/maaya-rajeshwaran-revathi/800632131/ind/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -834,7 +1434,12 @@
             "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "QF",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 29,
@@ -842,7 +1447,7 @@
           "country": "USA",
           "gender": "Girls",
           "id": "jordyn-hazelitt",
-          "officialPoints": 0,
+          "officialPoints": 1211.75,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/jordyn-hazelitt/800646432/usa/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -856,7 +1461,13 @@
             "confidence": "live-loss",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         },
         {
           "currentRank": 23,
@@ -864,7 +1475,7 @@
           "country": "RUS",
           "gender": "Girls",
           "id": "anna-pushkareva",
-          "officialPoints": 0,
+          "officialPoints": 1302.75,
           "pointsBreakdownUrl": "https://www.itftennis.com/en/players/anna-pushkareva/800636696/rus/jt/s/itf-points-breakdown/",
           "needsProfileResolution": false,
           "entryGroup": "MD",
@@ -880,425 +1491,329 @@
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
           "drawResultDoubles": null
+        },
+        {
+          "currentRank": 39,
+          "name": "Yihan Qu",
+          "country": "CHN",
+          "gender": "Girls",
+          "id": "yihan-qu",
+          "officialPoints": 1098,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/yihan-qu/800726989/chn/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 20,
+          "sex": "girl",
+          "juniorRank": 32,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R16",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
+        },
+        {
+          "currentRank": 31,
+          "name": "Welles Newman",
+          "country": "USA",
+          "gender": "Girls",
+          "id": "welles-newman",
+          "officialPoints": 1173.5,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/welles-newman/800705703/usa/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 21,
+          "sex": "girl",
+          "juniorRank": 33,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
+        },
+        {
+          "currentRank": 35,
+          "name": "Renee Alame",
+          "country": "AUS",
+          "gender": "Girls",
+          "id": "renee-alame",
+          "officialPoints": 1127.25,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/renee-alame/800701055/aus/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 22,
+          "sex": "girl",
+          "juniorRank": 37,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "QF",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
+        },
+        {
+          "currentRank": 38,
+          "name": "Maia Ilinca Burcescu",
+          "country": "ROU",
+          "gender": "Girls",
+          "id": "maia-ilinca-burcescu",
+          "officialPoints": 1103,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/maia-ilinca-burcescu/800636281/rou/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 23,
+          "sex": "girl",
+          "juniorRank": 39,
+          "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "R64",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
+        },
+        {
+          "currentRank": 41,
+          "name": "Nadia Lagaev",
+          "country": "CAN",
+          "gender": "Girls",
+          "id": "nadia-lagaev",
+          "officialPoints": 1086.25,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/nadia-lagaev/800638930/can/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 24,
+          "sex": "girl",
+          "juniorRank": 40,
+          "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "R64",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
+        },
+        {
+          "currentRank": 43,
+          "name": "Adelina Lacinova",
+          "country": "LAT",
+          "gender": "Girls",
+          "id": "adelina-lacinova",
+          "officialPoints": 1070,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/adelina-lacinova/800592997/lat/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 25,
+          "sex": "girl",
+          "juniorRank": 42,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "core-win",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          },
+          "drawResultDoubles": null
+        },
+        {
+          "currentRank": 48,
+          "name": "Luna Maria Cinalli",
+          "country": "ARG",
+          "gender": "Girls",
+          "id": "luna-maria-cinalli",
+          "officialPoints": 1007.25,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/luna-maria-cinalli/800644753/arg/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 26,
+          "sex": "girl",
+          "juniorRank": 43,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "pointsOverride": 0,
+            "confidence": "live-bye",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
+        },
+        {
+          "currentRank": 50,
+          "name": "Yu-Chen Lin",
+          "country": "TPE",
+          "gender": "Girls",
+          "id": "yu-chen-lin",
+          "officialPoints": 990.5,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/yu-chen-lin/800708800/tpe/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 27,
+          "sex": "girl",
+          "juniorRank": 45,
+          "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "R64",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R16",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
+        },
+        {
+          "currentRank": 46,
+          "name": "Alyssa James",
+          "country": "JAM",
+          "gender": "Girls",
+          "id": "alyssa-james",
+          "officialPoints": 1027.25,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/alyssa-james/800693920/jam/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 28,
+          "sex": "girl",
+          "juniorRank": 46,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
+        },
+        {
+          "currentRank": 49,
+          "name": "Chukwumelije Clarke",
+          "country": "USA",
+          "gender": "Girls",
+          "id": "chukwumelije-clarke",
+          "officialPoints": 1003.75,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/chukwumelije-clarke/800719735/usa/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 29,
+          "sex": "girl",
+          "juniorRank": 48,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
+        },
+        {
+          "currentRank": 40,
+          "name": "Yu Jun Lin",
+          "country": "CHN",
+          "gender": "Girls",
+          "id": "yu-jun-lin",
+          "officialPoints": 1093.5,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/yu-jun-lin/800739107/chn/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 33,
+          "sex": "girl",
+          "juniorRank": 57,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "core-win",
+            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+          },
+          "drawResultDoubles": null
+        },
+        {
+          "currentRank": 45,
+          "name": "Maria Valentina Pop",
+          "country": "ROU",
+          "gender": "Girls",
+          "id": "maria-valentina-pop",
+          "officialPoints": 1038.75,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/maria-valentina-pop/800664506/rou/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "Q",
+          "position": 11,
+          "sex": "girl",
+          "juniorRank": 79,
+          "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "R64",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+          }
         }
       ],
       "liveTennisUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026",
-      "drawDiagnostic": {
-        "textLength": 8306,
-        "lineCount": 672,
-        "firstLines": [
-          "We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience and analyze website traffic. By clicking “Accept,” you agree to our website's cookie use as described in our Cookie Policy. You can change your cookie settings at any time by clicking “Preferences.”",
-          "Preferences",
-          "Decline",
-          "Accept",
-          "Sign Up",
-          "Register to receive unrivalled access to the world of tennis",
-          "Get all the latest news, information plus access to exclusive content and offers from across the world of tennis, including the Billie Jean King Cup, Davis Cup and ITF World Tennis Number.",
-          "Yes I would like to receive news, information and special offers via email, from the ITF",
-          "For details on how we use your data, please visit our Marketing Privacy Notice on the ITF website. You can unsubscribe any time.",
-          "New | Audio",
-          "SUBMIT",
-          "EN",
-          "SIGN UP",
-          "IPIN",
-          "TOURNAMENTS",
-          "ITF WORLD TENNIS TOUR CALENDARS",
-          "Women's Calendar",
-          "Men's Calendar",
-          "Juniors Calendar",
-          "ITF TOURNAMENT CALENDARS",
-          "Masters Tour Calendar",
-          "Wheelchair Tennis Calendar",
-          "Beach Tennis Calendar",
-          "ITF COMPETITION CALENDARS",
-          "Billie Jean King Cup Calendar",
-          "Davis Cup Calendar",
-          "ITF TOURS",
-          "TOURS",
-          "Women's World Tennis Tour",
-          "Men's World Tennis Tour",
-          "World Tennis Tour Juniors",
-          "Live match centre",
-          "World Tennis Masters Tour",
-          "UNIQLO Wheelchair Tennis Tour",
-          "Beach Tennis World Tour",
-          "WORLD CUP OF TENNIS",
-          "Davis Cup",
-          "Billie Jean King Cup",
-          "COMPETITIONS",
-          "Junior Team Competitions",
-          "World Tennis Tour Junior Finals",
-          "Wheelchair World Team Cup",
-          "Wheelchair Singles and Doubles Masters",
-          "Masters World Championships",
-          "Tie Break Tens",
-          "LA 2028",
-          "Olympic Tennis Event",
-          "Paralympic Wheelchair Tennis Event",
-          "MORE",
-          "Grand Slam tournaments",
-          "Wheelchair Tennis Hall of Champions",
-          "eSports",
-          "PLAYERS",
-          "RESULTS",
-          "RANKINGS",
-          "WORLD TENNIS TOUR RANKINGS",
-          "Women's",
-          "Men's",
-          "Juniors",
-          "RANKINGS",
-          "Masters Tour",
-          "Wheelchair Tennis",
-          "Beach Tennis",
-          "TEAM COMPETITION RANKINGS",
-          "Billie Jean King Cup",
-          "Davis Cup",
-          "NEWS",
-          "ALL NEWS",
-          "Latest News",
-          "Latest photos",
-          "TOURS",
-          "Women's World Tennis Tour",
-          "Men's World Tennis Tour",
-          "World Tennis Tour Juniors",
-          "World Tennis Masters Tour",
-          "UNIQLO Wheelchair Tennis Tour",
-          "Beach Tennis World Tour",
-          "OLYMPICS",
-          "Olympics",
-          "Paralympics"
-        ],
-        "interestingLines": [
-          "BOYS",
-          "SINGLES",
-          "MAIN DRAW",
-          "BYE"
-        ],
-        "playerHits": [
-          {
-            "id": "luis-guto-miguel",
-            "name": "Luis Guto Miguel",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "jamie-mackenzie",
-            "name": "Jamie Mackenzie",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "thilo-behrmann",
-            "name": "Thilo Behrmann",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "michael-antonius",
-            "name": "Michael Antonius",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "andrew-johnson",
-            "name": "Andrew Johnson",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "nikita-belozertsev",
-            "name": "Nikita Belozertsev",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "dante-pagani",
-            "name": "Dante Pagani",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "kuan-shou-chen",
-            "name": "Kuan-Shou Chen",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "yannik-alvarez",
-            "name": "Yannik Alvarez",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "nicolas-baena",
-            "name": "Nicolas Baena",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "flynn-thomas",
-            "name": "Flynn Thomas",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "tito-chavez",
-            "name": "Tito Chavez",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "raffaele-ciurnelli",
-            "name": "Raffaele Ciurnelli",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "damir-zhalgasbay",
-            "name": "Damir Zhalgasbay",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "matteo-gribaldo",
-            "name": "Matteo Gribaldo",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "kai-thompson",
-            "name": "Kai Thompson",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "simone-massellani",
-            "name": "Simone Massellani",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "arnav-paparkar",
-            "name": "Arnav Paparkar",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "hyu-kawanishi",
-            "name": "Hyu Kawanishi",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "jana-kovackova",
-            "name": "Jana Kovackova",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "victoria-luiza-barros",
-            "name": "Victoria Luiza Barros",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "xinran-sun",
-            "name": "Xinran Sun",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "nauhany-vitoria-leme-da-silva",
-            "name": "Nauhany Vitoria Leme Da Silva",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "sol-ailin-larraya-guidi",
-            "name": "Sol Ailin Larraya Guidi",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "anastasija-cvetkovic",
-            "name": "Anastasija Cvetkovic",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "mariia-makarova",
-            "name": "Mariia Makarova",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "charo-esquiva-banuls",
-            "name": "Charo Esquiva Banuls",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "ida-wobker",
-            "name": "Ida Wobker",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "yushan-shao",
-            "name": "Yushan Shao",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "janae-preston",
-            "name": "Janae Preston",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "giulia-safina-popa",
-            "name": "Giulia Safina Popa",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "thea-frodin",
-            "name": "Thea Frodin",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "paola-pinera-celorio",
-            "name": "Paola Pinera Celorio",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "felitsata-dorofeeva-rybas",
-            "name": "Felitsata Dorofeeva-Rybas",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "alexandra-malova",
-            "name": "Alexandra Malova",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "maaya-rajeshwaran-revathi",
-            "name": "Maaya Rajeshwaran Revathi",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "jordyn-hazelitt",
-            "name": "Jordyn Hazelitt",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "anna-pushkareva",
-            "name": "Anna Pushkareva",
-            "hits": 0,
-            "snippets": []
-          }
-        ],
-        "networkUrls": [
-          "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
-          "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results/",
-          "https://www.itftennis.com/media/8566/wtt-asset-amended.jpg",
-          "https://itftennis-ep.azureedge.net/media/assets/bundle.css?key=@assemblyVersion",
-          "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap",
-          "https://itftennis-ep.azureedge.net/media/assets/bundle.js?key=@assemblyVersion",
-          "https://www.itftennis.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=326488459",
-          "https://itftennis-ep.azureedge.net/media/assets/images/stripes.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_LATEST%20NEWS.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_PLAYER%20FEATURES.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_DRAWS,%20FIXTURES.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_TIE%20HIGHLIGHTS.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_EXCLUSIVE%20C&P.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_FIRST%20TO%20HEAR.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/fb-dark.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/insta-dark.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/youtube-dark.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/envelope.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/unlock.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/search-dark.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/close-outlined--dark.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/site-logo.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/twitter-light.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/external-link-light.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/shop_icon.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/arrow-right.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/surface-clay.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/10.css",
-          "https://itftennis-ep.azureedge.net/media/assets/images/info-inactive.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/acceptance-list.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/draw-light-active.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/op-light-inactive.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/media-icon.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/champions_icon--grey.svg",
-          "https://www.itftennis.com/media/16544/club-view-2.jpg?anchor=center&amp;mode=crop&amp;width=1440&amp;height=415&amp;rnd=134232474470000000",
-          "https://www.itftennis.com/media/14909/tennis-point-logo-colour-1.png",
-          "https://itftennis-ep.azureedge.net/media/assets/10.bundle.js",
-          "https://widgets.itf-production.sports-data.stadion.io/itf-widget-sdk.umd.js",
-          "https://www.itftennis.com/_Incapsula_Resource?SWKMTFSR=1&e=0.7462550433419267",
-          "https://itftennis-ep.azureedge.net/media/assets/images/tennis_id_logo.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/chevron-right-grey.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/sign-up__splash-background.jpg",
-          "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap",
-          "https://itftennis-ep.azureedge.net/media/assets/images/sign-up__mobile-app.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/calendar.svg",
-          "https://connect.facebook.net/signals/config/1025417051169198?v=2.9.324&r=stable&domain=www.itftennis.com&hme=af8aa31887db259becaf70277daef60bd8bc35c2df82c2acd4258de27ecac4b5&ex_m=104%2C207%2C155%2C22%2C72%2C73%2C146%2C68%2C67%2C11%2C164%2C90%2C16%2C138%2C127%2C39%2C75%2C78%2C134%2C160%2C166%2C8%2C4%2C5%2C7%2C6%2C3%2C91%2C101%2C167%2C172%2C221%2C62%2C188%2C189%2C55%2C279%2C30%2C74%2C233%2C232%2C231%2C23%2C33%2C103%2C61%2C10%2C63%2C97%2C98%2C99%2C105%2C130%2C31%2C29%2C132%2C133%2C129%2C128%2C156%2C76%2C159%2C157%2C158%2C50%2C60%2C123%2C15%2C163%2C45%2C266%2C267%2C265%2C26%2C27%2C28%2C48%2C147%2C77%2C112%2C18%2C20%2C44%2C40%2C42%2C41%2C83%2C92%2C96%2C110%2C145%2C148%2C46%2C111%2C24%2C21%2C119%2C69%2C36%2C150%2C149%2C151%2C142%2C140%2C25%2C35%2C59%2C109%2C162%2C70%2C17%2C153%2C114%2C81%2C66%2C19%2C85%2C86%2C116%2C84%2C136%2C135%2C139%2C161%2C34%2C281%2C297%2C214%2C203%2C204%2C202%2C300%2C291%2C52%2C215%2C107%2C131%2C80%2C121%2C54%2C47%2C49%2C113%2C120%2C126%2C125%2C58%2C64%2C152%2C115%2C37%2C32%2C53%2C56%2C100%2C165%2C1%2C124%2C14%2C122%2C12%2C2%2C57%2C93%2C65%2C118%2C89%2C88%2C168%2C169%2C94%2C95%2C9%2C102%2C51%2C143%2C87%2C79%2C71%2C117%2C106%2C43%2C144%2C0%2C82%2C137%2C141%2C154%2C38%2C108%2C13%2C170",
-          "https://www.itftennis.com/tennis/api/TournamentApi/GetEventFilters?tournamentKey=j-j500-ita-2026-001",
-          "https://cm.g.doubleclick.net/partnerpixels?url=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj500-milan%2Fita%2F2026%2Fj-j500-ita-2026-001%2Fdraws-and-results%2F",
-          "https://itftennis-ep.azureedge.net/media/assets/images/loading.gif",
-          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/script?fid=da643a5f-367f-484f-aa6d-4b07ffe20ed3&type=visual&rnd=e743a15c-fcbc-4eeb-ba71-b0f6d464efab&mkt=en",
-          "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=1676797543273089&correlator=1828176418258306&eid=31097657%2C31098634%2C31098203&output=ldjh&gdfp_req=1&vrg=202605150101&ptt=17&impl=fifs&iu_parts=23328656850%2Citf%2Cprimary_below_nav%2Ctournament_feature_banner&enc_prev_ius=%2F0%2F1%2F2%2C%2F0%2F1%2F3&prev_iu_szs=728x90%7C320x100%7C970x250%7C320x50%7C970x90%2C320x50%7C320x100%7C728x90%7C970x250%7C970x90&ifi=1&dids=div-gpt-ad-1768303440211-0~div-gpt-ad-1768303600172-0&adfs=2433876935~3601381602&sfv=1-0-45&sc=1&cookie_enabled=1&abxe=1&dt=1779280765347&lmt=1779280765&adxs=276%2C480&adys=179%2C699&biw=1280&bih=720&scr_x=0&scr_y=0&btvi=0%7C0&ucis=1%7C2&oid=2&u_his=2&u_h=720&u_w=1280&u_ah=720&u_aw=1280&u_cd=24&u_sd=1&dmc=16&bc=31&nvt=1&uach=WyJMaW51eCIsIiIsIng4NiIsIiIsIjE0OC4wLjc3NzguOTYiLG51bGwsMCxudWxsLCI2NCIsW1siQ2hyb21pdW0iLCIxNDguMC43Nzc4Ljk2Il0sWyJIZWFkbGVzc0Nocm9tZSIsIjE0OC4wLjc3NzguOTYiXSxbIk5vdC9BKUJyYW5kIiwiOTkuMC4wLjAiXV0sMF0.&url=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj500-milan%2Fita%2F2026%2Fj-j500-ita-2026-001%2Fdraws-and-results%2F&vis=1&psz=970x90%7C970x90&msz=728x50%7C320x50&fws=4%2C4&ohw=1280%2C1280&dlt=1779280764421&idt=691&cust_params=tour%3Djuniors%26tournament_id%3DJ-J500-ITA-2026-001%26location%3DMilan%26country%3DItaly&adks=2599182603%2C2569989109&frm=20&eoidce=1&pgls=CAk.",
-          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/forms/221840a7-9abb-ee11-9078-6045bd127be4/visits",
-          "https://app.termly.io/api/v1/snippets/websites/736a1a74-e471-43b1-9611-36ab129ebc69/cookies?lang=en",
-          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65i2v9100208071za20gzb898764819zd898764819&_p=1779280764427&_gaz=1&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AEIEAGA&are=1&cid=999916409.1779280766&frm=0&pscdl=noapi&rcb=16&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938465~115938469&sid=1779280765&sct=1&seg=0&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj500-milan%2Fita%2F2026%2Fj-j500-ita-2026-001%2Fdraws-and-results%2F&dt=J500%20Milan%3A%20Watch%20and%20follow%20the%20ITF%20World%20Tennis%20Tour%20Junior%20event&_tu=CA&en=ad_impression&_fv=1&_nsi=1&_ss=1&ep.tournamentName=&ep.playersName=&ep.query_id=COeM6K_xx5QDFaKJdwEd9HsHGg&tfd=1324",
-          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65i2v9100208071za20gzb898764819zd898764819&_p=1779280764427&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AEIEAGQ&are=1&cid=999916409.1779280766&frm=0&pscdl=noapi&rcb=16&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115616985~115938465~115938469&sid=1779280765&sct=1&seg=0&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj500-milan%2Fita%2F2026%2Fj-j500-ita-2026-001%2Fdraws-and-results%2F&dt=J500%20Milan%3A%20Watch%20and%20follow%20the%20ITF%20World%20Tennis%20Tour%20Junior%20event&_tu=CA&en=ad_impression&ep.tournamentName=&ep.playersName=&ep.query_id=COiM6K_xx5QDFaKJdwEd9HsHGg&_et=4&tfd=1333",
-          "https://app.termly.io/api/v1/snippets/websites/736a1a74-e471-43b1-9611-36ab129ebc69/statistics",
-          "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjssN9u0Gy9wJQZWSkqnWBrS_DqD85ygXPWrVAm8to62n-kWH7gILufm3sphxXhuVNh8e52tTX9A3IPOxHeSI0OF1AME9nD2eu4hk2pVBhrL12KrYinWKu9zbIUkMJqr1MV7g0B8ExzhqgeYB4jsn5FQnWEqYq4zhtLUYjlTV399z-1MIU05RHSbdak7Mw3T988MSQHaTgxjpB1expxPvGLlLCYEXWR7GqIK5TWVGHaxLx0mXLljHbMfHS7Nm4z2SVYPg6pUp2rZWVvCIyIienTCZonu9B-HWoCCdTKGC655xMJpr9ORYloXlm115K6Z3U0icObcKiyG1EU7Ojz-KeBAmm3ihVGIHGruETxZf0Y_os--ulxCqWs87LVe_sr7OaB8qvjajiMJHKKFaroTVermRjLSB57G2aLYNgembTlQ7&sai=AMfl-YQO503WX1NN7f8yW76KDe5l0swSvBhpoRsqbe5U8IxeMtGLe8jzxVvFOFnuT11benT8mwN69MN6JTs7-6xqxAQ0KU-AKohQAbEgqjGqxE_HO99szDly8JIjiQm53hUpb8-DucxDxFlQQzA9F0yHK9JbiYyNlLuO5XmXAoyNOAENC3bBXMMrjyzNLELdwxZBN8sLLvUEgagqFhuMi94lxKuRG3fb3ewWM0B4PbXSm1mmKP3QX0q76XuL2yMrlxvIhkFrhBALmrDKDRqNy8F95CW7jIZOJwlfm1ksJ4R5jX8h-gApiRgNyqDNfBVrstlKWeHtd_YBcoav4ysEqwxCrtwHv5HkS_kWE_zbqWzzmQFBZ1gdux41F3HrL0vy0RJzffIVxaw4Vmn_M1YX&sig=Cg0ArKJSzF9m8tDVCXwMEAE&uach_m=%5BUACH%5D&dett=2&adurl=",
-          "https://analytics.tiktok.com/api/v2/pixel",
-          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/challenge/visual?flowId=da643a5f-367f-484f-aa6d-4b07ffe20ed3&rnd=ac20fab099674347bb3692410580d001&market=en",
-          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65i2v9100208071z8898764819za20gzb898764819zd898764819&_p=1779280764427&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AAAAAGQ&are=1&cid=999916409.1779280766&frm=0&pscdl=noapi&rcb=16&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115616985~115938465~115938469&sid=1779280765&sct=1&seg=1&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj500-milan%2Fita%2F2026%2Fj-j500-ita-2026-001%2Fdraws-and-results%2F&dt=J500%20Milan%3A%20Watch%20and%20follow%20the%20ITF%20World%20Tennis%20Tour%20Junior%20event&_tu=CA&en=page_view&ep.tournamentName=&ep.playersName=&_et=1&tfd=1647",
-          "https://www.google.com/recaptcha/api2/aframe",
-          "https://analytics.tiktok.com/api/v2/pixel/act",
-          "https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet",
-          "https://itftennis-ep.azureedge.net/media/assets/images/BR.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/tick-green.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/JP.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/IT.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/US.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/IN.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/CH.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/CO.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/RO.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/tpe.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/AT.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/GB.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ZA.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/PR.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/CA.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ES.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/LV.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/AR.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/FR.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/SK.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/KZ.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/IL.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/UZ.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/AU.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/PE.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/HK.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/EC.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/DE.png",
-          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65i2v9100208071z8898764819za20gzb898764819zd898764819&_p=1779280764427&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AAAAAGQ&are=1&cid=999916409.1779280766&frm=0&pscdl=noapi&rcb=16&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=4&tag_exp=0~115616985~115938465~115938469&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj500-milan%2Fita%2F2026%2Fj-j500-ita-2026-001%2Fdraws-and-results%2F&sid=1779280765&sct=1&seg=1&dt=J500%20Milan%3A%20Watch%20and%20follow%20the%20ITF%20World%20Tennis%20Tour%20Junior%20event&_tu=CA&en=scroll_percent_25&ep.tournamentName=&ep.playersName=&_et=312&tfd=6648"
-        ]
-      }
+      "coreTennisUrls": [
+        "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+      ],
+      "drawWarning": "Playwright unavailable; Cannot find package 'playwright' imported from C:\\Users\\genar\\Documents\\Codex\\2026-05-17\\cr-bom-dia-codex-eu-quero\\pipeline\\scrape-weekly-results.mjs"
     },
     {
       "tournamentName": "J200 Targu Jiu",
@@ -1312,7 +1827,36 @@
       "acceptanceListUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/acceptance-list",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
       "itfEntriesUrl": "https://itf-entries.netlify.app/tournament/J-J200-ROU-2026-001",
-      "acceptedPlayers": []
+      "acceptedPlayers": [
+        {
+          "currentRank": 36,
+          "name": "Sofie Hettlerova",
+          "country": "CZE",
+          "gender": "Girls",
+          "id": "sofie-hettlerova",
+          "officialPoints": 1119.25,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/sofie-hettlerova/800604444/cze/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 1,
+          "sex": "girl",
+          "juniorRank": 37,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R16",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+          }
+        }
+      ],
+      "liveTennisUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
     },
     {
       "tournamentName": "J100 Punta Cana",

@@ -779,9 +779,11 @@ async function readDrawPageText(page, tournament, networkUrls = []) {
   const texts = [await page.locator("body").innerText({ timeout: 45000 })];
   for (const gender of ["BOYS", "GIRLS"]) {
     await clickIfPresent(page, gender);
-    await clickIfPresent(page, "SINGLES");
-    await clickIfPresent(page, "MAIN DRAW");
-    texts.push(await page.locator("body").innerText({ timeout: 45000 }));
+    for (const matchType of ["SINGLES", "DOUBLES"]) {
+      await clickIfPresent(page, matchType);
+      await clickIfPresent(page, "MAIN DRAW");
+      texts.push(await page.locator("body").innerText({ timeout: 45000 }));
+    }
   }
 
   page.off("response", collectUrl);
@@ -790,7 +792,12 @@ async function readDrawPageText(page, tournament, networkUrls = []) {
 
 async function enrichTournamentWithDrawRounds(tournaments) {
   const tournamentsWithPlayers = tournaments.filter((tournament) =>
-    tournament.acceptedPlayers.some((player) => !player.drawResult || player.drawResult.currentRound === pendingRound)
+    tournament.acceptedPlayers.some(
+      (player) =>
+        !player.drawResult ||
+        player.drawResult.currentRound === pendingRound ||
+        !player.drawResultDoubles
+    )
   );
   if (!tournamentsWithPlayers.length) return tournaments;
 
@@ -819,7 +826,9 @@ async function enrichTournamentWithDrawRounds(tournaments) {
 
         tournament.acceptedPlayers = tournament.acceptedPlayers.map((player) => ({
           ...player,
-          drawResultDoubles: drawStatusForPlayer(text, player, "DOUBLES", { missingAsNull: true }),
+          drawResultDoubles:
+            player.drawResultDoubles ||
+            drawStatusForPlayer(text, player, "DOUBLES", { missingAsNull: true }),
           drawResult: player.drawResult && player.drawResult.currentRound !== pendingRound
             ? player.drawResult
             : drawStatusForPlayer(text, player)
