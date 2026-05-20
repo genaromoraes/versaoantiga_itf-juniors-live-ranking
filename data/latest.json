@@ -1,7 +1,7 @@
 {
   "dataSource": {
     "rankingDate": "18 mai 2026",
-    "updatedAt": "19/05/2026, 17:21",
+    "updatedAt": "19/05/2026, 22:49",
     "note": "Pontos = ∑ 6 melhores resultados de simples + ∑ 25% dos 6 melhores resultados de duplas"
   },
   "players": [
@@ -293,11 +293,11 @@
         "singlesStatus": "Ativo",
         "singlesRound": "R32",
         "singlesPoints": 0,
-        "doublesStatus": "Ativo",
-        "doublesRound": "QF",
-        "doublesPoints": 112,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0,
         "singlesMaxPoints": 500,
-        "doublesMaxPoints": 375,
+        "doublesMaxPoints": 0,
         "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/luis-guto-miguel/800680259/bra/jt/s/itf-points-breakdown/"
@@ -1047,11 +1047,11 @@
         "singlesStatus": "Ativo",
         "singlesRound": "R32",
         "singlesPoints": 0,
-        "doublesStatus": "Ativo",
-        "doublesRound": "QF",
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
         "doublesPoints": 0,
         "singlesMaxPoints": 500,
-        "doublesMaxPoints": 375,
+        "doublesMaxPoints": 0,
         "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/jamie-mackenzie/800570117/ger/jt/s/itf-points-breakdown/"
@@ -1802,11 +1802,11 @@
         "singlesStatus": "Ativo",
         "singlesRound": "R32",
         "singlesPoints": 0,
-        "doublesStatus": "Eliminado",
-        "doublesRound": "QF",
-        "doublesPoints": 112,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0,
         "singlesMaxPoints": 500,
-        "doublesMaxPoints": 375,
+        "doublesMaxPoints": 0,
         "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/thilo-behrmann/800589798/aut/jt/s/itf-points-breakdown/"
@@ -2018,6 +2018,4727 @@
         "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/ryo-tabata/800583844/jpn/jt/s/itf-points-breakdown/"
+    },
+    {
+      "id": "dimitar-kisimov",
+      "name": "Dimitar Kisimov",
+      "country": "BUL",
+      "gender": "Boys",
+      "currentRank": 11,
+      "officialPoints": 0,
+      "sourceTotalCombinedPoints": 1696.75,
+      "singles": [
+        {
+          "event": "J500 Offenbach",
+          "round": "J500",
+          "points": 350,
+          "date": "2026-05-04",
+          "dropDate": "2027-05-03",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Cairo",
+          "round": "J300",
+          "points": 300,
+          "date": "2026-03-30",
+          "dropDate": "2027-03-29",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bradenton",
+          "round": "J300",
+          "points": 210,
+          "date": "2025-12-01",
+          "dropDate": "2026-11-30",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Villena",
+          "round": "J300",
+          "points": 210,
+          "date": "2026-03-16",
+          "dropDate": "2027-03-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Mugla",
+          "round": "J200",
+          "points": 200,
+          "date": "2025-09-29",
+          "dropDate": "2026-09-28",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Plovdiv",
+          "round": "J300",
+          "points": 140,
+          "date": "2026-04-28",
+          "dropDate": "2027-04-27",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Szekesfehervar",
+          "round": "J200",
+          "points": 100,
+          "date": "2025-10-22",
+          "dropDate": "2026-10-21",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "round": "J500",
+          "points": 90,
+          "date": "2025-12-08",
+          "dropDate": "2026-12-07",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Cairo",
+          "round": "J500",
+          "points": 90,
+          "date": "2026-04-06",
+          "dropDate": "2027-04-05",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Oberpullendorf (Europe Regional Championships)",
+          "round": "J300",
+          "points": 60,
+          "date": "2025-09-15",
+          "dropDate": "2026-09-14",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Belgrade",
+          "round": "J200",
+          "points": 36,
+          "date": "2025-08-25",
+          "dropDate": "2026-08-24",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 30,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 0,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Charleroi-Marcinelle",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-05-26",
+          "dropDate": "2026-05-25",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-06-29",
+          "dropDate": "2026-06-28",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bytom",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-07-22",
+          "dropDate": "2026-07-21",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Pancevo",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-08-18",
+          "dropDate": "2026-08-17",
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": false
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 750,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Cairo",
+          "round": "J300",
+          "points": 105,
+          "date": "2026-03-30",
+          "dropDate": "2027-03-29",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Villena",
+          "round": "J300",
+          "points": 75,
+          "date": "2026-03-16",
+          "dropDate": "2027-03-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Plovdiv",
+          "round": "J300",
+          "points": 75,
+          "date": "2026-04-28",
+          "dropDate": "2027-04-27",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Mugla",
+          "round": "J200",
+          "points": 75,
+          "date": "2025-09-29",
+          "dropDate": "2026-09-28",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 67,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "round": "J500",
+          "points": 67,
+          "date": "2025-12-08",
+          "dropDate": "2026-12-07",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Offenbach",
+          "round": "J500",
+          "points": 67,
+          "date": "2026-05-04",
+          "dropDate": "2027-05-03",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Szekesfehervar",
+          "round": "J200",
+          "points": 45,
+          "date": "2025-10-22",
+          "dropDate": "2026-10-21",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Cairo",
+          "round": "J500",
+          "points": 0,
+          "date": "2026-04-06",
+          "dropDate": "2027-04-05",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-06-29",
+          "dropDate": "2026-06-28",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bytom",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-07-22",
+          "dropDate": "2026-07-21",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Pancevo",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-08-18",
+          "dropDate": "2026-08-17",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Oberpullendorf (Europe Regional Championships)",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-09-15",
+          "dropDate": "2026-09-14",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bradenton",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-12-01",
+          "dropDate": "2026-11-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Belgrade",
+          "round": "J200",
+          "points": 0,
+          "date": "2025-08-25",
+          "dropDate": "2026-08-24",
+          "sourceCounting": false
+        }
+      ],
+      "defending": [
+        {
+          "type": "doubles",
+          "event": "J500 Milan",
+          "points": 67,
+          "date": "2026-05-18"
+        }
+      ],
+      "liveEvent": {
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
+        "singlesPoints": 0,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0
+      },
+      "sourceUrl": "https://www.itftennis.com/en/players/dimitar-kisimov/800571859/bul/jt/s/itf-points-breakdown/"
+    },
+    {
+      "id": "andrew-johnson",
+      "name": "Andrew Johnson",
+      "country": "USA",
+      "gender": "Boys",
+      "currentRank": 12,
+      "officialPoints": 0,
+      "sourceTotalCombinedPoints": 1632.5,
+      "singles": [
+        {
+          "event": "J300 Tucson",
+          "round": "J300",
+          "points": 300,
+          "date": "2026-03-09",
+          "dropDate": "2027-03-08",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 San Diego (North American Regional Championships)",
+          "round": "J300",
+          "points": 300,
+          "date": "2026-03-16",
+          "dropDate": "2027-03-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 300,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Spring - Pan American ITF",
+          "round": "J300",
+          "points": 210,
+          "date": "2025-10-06",
+          "dropDate": "2026-10-05",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Corpus Christi",
+          "round": "J200",
+          "points": 200,
+          "date": "2025-09-29",
+          "dropDate": "2026-09-28",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "round": "J500",
+          "points": 150,
+          "date": "2025-12-08",
+          "dropDate": "2026-12-07",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Gladbeck",
+          "round": "J200",
+          "points": 100,
+          "date": "2025-06-17",
+          "dropDate": "2026-06-16",
+          "sourceCounting": false
+        },
+        {
+          "event": "J100 Bruchkoebel",
+          "round": "J100",
+          "points": 100,
+          "date": "2025-06-24",
+          "dropDate": "2026-06-23",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bradenton",
+          "round": "J300",
+          "points": 60,
+          "date": "2025-12-01",
+          "dropDate": "2026-11-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 College Park",
+          "round": "J300",
+          "points": 30,
+          "date": "2025-08-18",
+          "dropDate": "2026-08-17",
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J200 Gladbeck",
+          "round": "J200",
+          "points": 150,
+          "date": "2025-06-17",
+          "dropDate": "2026-06-16",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Corpus Christi",
+          "round": "J200",
+          "points": 150,
+          "date": "2025-09-29",
+          "dropDate": "2026-09-28",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 College Park",
+          "round": "J300",
+          "points": 105,
+          "date": "2025-08-18",
+          "dropDate": "2026-08-17",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Spring - Pan American ITF",
+          "round": "J300",
+          "points": 105,
+          "date": "2025-10-06",
+          "dropDate": "2026-10-05",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bradenton",
+          "round": "J300",
+          "points": 105,
+          "date": "2025-12-01",
+          "dropDate": "2026-11-30",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Tucson",
+          "round": "J300",
+          "points": 75,
+          "date": "2026-03-09",
+          "dropDate": "2027-03-08",
+          "sourceCounting": true
+        },
+        {
+          "event": "J100 Bruchkoebel",
+          "round": "J100",
+          "points": 75,
+          "date": "2025-06-24",
+          "dropDate": "2026-06-23",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "round": "J500",
+          "points": 67,
+          "date": "2025-12-08",
+          "dropDate": "2026-12-07",
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": false
+        }
+      ],
+      "defending": [],
+      "liveEvent": {
+        "event": "J500 Milan",
+        "grade": "J500",
+        "singlesStatus": "Ativo",
+        "singlesRound": "R32",
+        "singlesPoints": 0,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0,
+        "singlesMaxPoints": 500,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
+      },
+      "sourceUrl": "https://www.itftennis.com/en/players/andrew-johnson/800717286/usa/jt/s/itf-points-breakdown/"
+    },
+    {
+      "id": "michael-antonius",
+      "name": "Michael Antonius",
+      "country": "USA",
+      "gender": "Boys",
+      "currentRank": 14,
+      "officialPoints": 0,
+      "sourceTotalCombinedPoints": 1558.75,
+      "singles": [
+        {
+          "event": "J300 Spring - Pan American ITF",
+          "round": "J300",
+          "points": 300,
+          "date": "2025-10-06",
+          "dropDate": "2026-10-05",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Barranquilla",
+          "round": "J300",
+          "points": 300,
+          "date": "2026-01-26",
+          "dropDate": "2027-01-25",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Salinas",
+          "round": "J300",
+          "points": 300,
+          "date": "2026-02-02",
+          "dropDate": "2027-02-01",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 College Park",
+          "round": "J300",
+          "points": 210,
+          "date": "2025-08-18",
+          "dropDate": "2026-08-17",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Corpus Christi",
+          "round": "J200",
+          "points": 100,
+          "date": "2025-09-29",
+          "dropDate": "2026-09-28",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "round": "J500",
+          "points": 90,
+          "date": "2025-12-08",
+          "dropDate": "2026-12-07",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Charleroi-Marcinelle",
+          "round": "J300",
+          "points": 60,
+          "date": "2025-05-26",
+          "dropDate": "2026-05-25",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bradenton",
+          "round": "J300",
+          "points": 30,
+          "date": "2025-12-01",
+          "dropDate": "2026-11-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J300 Barranquilla",
+          "round": "J300",
+          "points": 225,
+          "date": "2026-01-26",
+          "dropDate": "2027-01-25",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Salinas",
+          "round": "J300",
+          "points": 225,
+          "date": "2026-02-02",
+          "dropDate": "2027-02-01",
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 225,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Corpus Christi",
+          "round": "J200",
+          "points": 150,
+          "date": "2025-09-29",
+          "dropDate": "2026-09-28",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 College Park",
+          "round": "J300",
+          "points": 105,
+          "date": "2025-08-18",
+          "dropDate": "2026-08-17",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Spring - Pan American ITF",
+          "round": "J300",
+          "points": 105,
+          "date": "2025-10-06",
+          "dropDate": "2026-10-05",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bradenton",
+          "round": "J300",
+          "points": 105,
+          "date": "2025-12-01",
+          "dropDate": "2026-11-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Charleroi-Marcinelle",
+          "round": "J300",
+          "points": 75,
+          "date": "2025-05-26",
+          "dropDate": "2026-05-25",
+          "sourceCounting": false
+        }
+      ],
+      "defending": [],
+      "liveEvent": {
+        "event": "J500 Milan",
+        "grade": "J500",
+        "singlesStatus": "Ativo",
+        "singlesRound": "R32",
+        "singlesPoints": 0,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0,
+        "singlesMaxPoints": 500,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
+      },
+      "sourceUrl": "https://www.itftennis.com/en/players/michael-antonius/800732018/usa/jt/s/itf-points-breakdown/"
+    },
+    {
+      "id": "yannik-alvarez",
+      "name": "Yannik Alvarez",
+      "country": "PUR",
+      "gender": "Boys",
+      "currentRank": 15,
+      "officialPoints": 0,
+      "sourceTotalCombinedPoints": 1553.5,
+      "singles": [
+        {
+          "event": "J500 Gaspar",
+          "round": "J500",
+          "points": 350,
+          "date": "2026-03-16",
+          "dropDate": "2027-03-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Asuncion",
+          "round": "J300",
+          "points": 210,
+          "date": "2026-03-02",
+          "dropDate": "2027-03-01",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Santa Croce Sull’Arno",
+          "round": "J300",
+          "points": 210,
+          "date": "2026-05-11",
+          "dropDate": "2027-05-10",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "round": "J500",
+          "points": 150,
+          "date": "2025-12-08",
+          "dropDate": "2026-12-07",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Asuncion (Junior Pan American Games)",
+          "round": "J300",
+          "points": 140,
+          "date": "2025-08-11",
+          "dropDate": "2026-08-10",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Veracruz",
+          "round": "J200",
+          "points": 100,
+          "date": "2025-06-23",
+          "dropDate": "2026-06-22",
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 90,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 90,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Charleroi-Marcinelle",
+          "round": "J300",
+          "points": 60,
+          "date": "2025-05-26",
+          "dropDate": "2026-05-25",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Repentigny",
+          "round": "J300",
+          "points": 60,
+          "date": "2025-08-24",
+          "dropDate": "2026-08-23",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 60,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Porto Alegre",
+          "round": "J300",
+          "points": 60,
+          "date": "2026-03-09",
+          "dropDate": "2027-03-08",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Merida",
+          "round": "J500",
+          "points": 45,
+          "date": "2025-11-24",
+          "dropDate": "2026-11-23",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bradenton",
+          "round": "J300",
+          "points": 30,
+          "date": "2025-12-01",
+          "dropDate": "2026-11-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 0,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-06-01",
+          "dropDate": "2026-05-31",
+          "sourceCounting": false
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J500 Fort Lauderdale",
+          "round": "J500",
+          "points": 375,
+          "date": "2025-12-08",
+          "dropDate": "2026-12-07",
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 367,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Charleroi-Marcinelle",
+          "round": "J300",
+          "points": 225,
+          "date": "2025-05-26",
+          "dropDate": "2026-05-25",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Asuncion",
+          "round": "J300",
+          "points": 225,
+          "date": "2026-03-02",
+          "dropDate": "2027-03-01",
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 225,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Repentigny",
+          "round": "J300",
+          "points": 157,
+          "date": "2025-08-24",
+          "dropDate": "2026-08-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bradenton",
+          "round": "J300",
+          "points": 157,
+          "date": "2025-12-01",
+          "dropDate": "2026-11-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Porto Alegre",
+          "round": "J300",
+          "points": 157,
+          "date": "2026-03-09",
+          "dropDate": "2027-03-08",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Veracruz",
+          "round": "J200",
+          "points": 150,
+          "date": "2025-06-23",
+          "dropDate": "2026-06-22",
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 135,
+          "date": "2025-06-01",
+          "dropDate": "2026-05-31",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Gaspar",
+          "round": "J500",
+          "points": 112,
+          "date": "2026-03-16",
+          "dropDate": "2027-03-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Merida",
+          "round": "J500",
+          "points": 67,
+          "date": "2025-11-24",
+          "dropDate": "2026-11-23",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 0,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Santa Croce Sull’Arno",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-05-11",
+          "dropDate": "2027-05-10",
+          "sourceCounting": false
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": false
+        }
+      ],
+      "defending": [],
+      "liveEvent": {
+        "event": "J500 Milan",
+        "grade": "J500",
+        "singlesStatus": "Ativo",
+        "singlesRound": "R32",
+        "singlesPoints": 0,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0,
+        "singlesMaxPoints": 500,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
+      },
+      "sourceUrl": "https://www.itftennis.com/en/players/yannik-alvarez/800696168/pur/jt/s/itf-points-breakdown/"
+    },
+    {
+      "id": "dante-pagani",
+      "name": "Dante Pagani",
+      "country": "ARG",
+      "gender": "Boys",
+      "currentRank": 16,
+      "officialPoints": 0,
+      "sourceTotalCombinedPoints": 1468.5,
+      "singles": [
+        {
+          "event": "J500 Gaspar",
+          "round": "J500",
+          "points": 500,
+          "date": "2026-03-16",
+          "dropDate": "2027-03-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Asuncion (Junior Pan American Games)",
+          "round": "J300",
+          "points": 210,
+          "date": "2025-08-11",
+          "dropDate": "2026-08-10",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Salta",
+          "round": "J200",
+          "points": 200,
+          "date": "2025-10-06",
+          "dropDate": "2026-10-05",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Santa Cruz (South America Regional Championships)",
+          "round": "J300",
+          "points": 140,
+          "date": "2026-02-23",
+          "dropDate": "2027-02-22",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Porto Alegre",
+          "round": "J300",
+          "points": 100,
+          "date": "2026-03-09",
+          "dropDate": "2027-03-08",
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 90,
+          "date": "2025-06-01",
+          "dropDate": "2026-05-31",
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 90,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Repentigny",
+          "round": "J300",
+          "points": 60,
+          "date": "2025-08-24",
+          "dropDate": "2026-08-23",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 0,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-06-29",
+          "dropDate": "2026-06-28",
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J300 Asuncion (Junior Pan American Games)",
+          "round": "J300",
+          "points": 225,
+          "date": "2025-08-11",
+          "dropDate": "2026-08-10",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Santa Cruz (South America Regional Championships)",
+          "round": "J300",
+          "points": 225,
+          "date": "2026-02-23",
+          "dropDate": "2027-02-22",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Gaspar",
+          "round": "J500",
+          "points": 187,
+          "date": "2026-03-16",
+          "dropDate": "2027-03-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 135,
+          "date": "2025-06-01",
+          "dropDate": "2026-05-31",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Porto Alegre",
+          "round": "J300",
+          "points": 75,
+          "date": "2026-03-09",
+          "dropDate": "2027-03-08",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 67,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Salta",
+          "round": "J200",
+          "points": 45,
+          "date": "2025-10-06",
+          "dropDate": "2026-10-05",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-06-29",
+          "dropDate": "2026-06-28",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Repentigny",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-08-24",
+          "dropDate": "2026-08-23",
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": false
+        }
+      ],
+      "defending": [
+        {
+          "type": "doubles",
+          "event": "J500 Milan",
+          "points": 67,
+          "date": "2026-05-18"
+        }
+      ],
+      "liveEvent": {
+        "event": "J500 Milan",
+        "grade": "J500",
+        "singlesStatus": "Ativo",
+        "singlesRound": "R32",
+        "singlesPoints": 0,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0,
+        "singlesMaxPoints": 500,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
+      },
+      "sourceUrl": "https://www.itftennis.com/en/players/dante-pagani/800658369/arg/jt/s/itf-points-breakdown/"
+    },
+    {
+      "id": "kuan-shou-chen",
+      "name": "Kuan-Shou Chen",
+      "country": "TPE",
+      "gender": "Boys",
+      "currentRank": 17,
+      "officialPoints": 0,
+      "sourceTotalCombinedPoints": 1437.5,
+      "singles": [
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 300,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Beijing",
+          "round": "J300",
+          "points": 210,
+          "date": "2025-09-16",
+          "dropDate": "2026-09-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Wanju (Closed Asia Regional Championship)",
+          "round": "J300",
+          "points": 210,
+          "date": "2025-10-06",
+          "dropDate": "2026-10-05",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 210,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Nanjing",
+          "round": "J200",
+          "points": 200,
+          "date": "2025-09-09",
+          "dropDate": "2026-09-08",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Repentigny",
+          "round": "J300",
+          "points": 100,
+          "date": "2025-08-24",
+          "dropDate": "2026-08-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 90,
+          "date": "2025-06-01",
+          "dropDate": "2026-05-31",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Charleroi-Marcinelle",
+          "round": "J300",
+          "points": 60,
+          "date": "2025-05-26",
+          "dropDate": "2026-05-25",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Chuncheon",
+          "round": "J200",
+          "points": 60,
+          "date": "2025-09-30",
+          "dropDate": "2026-09-29",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 45,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Osaka",
+          "round": "J500",
+          "points": 45,
+          "date": "2025-09-22",
+          "dropDate": "2026-09-21",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "round": "J500",
+          "points": 45,
+          "date": "2025-12-08",
+          "dropDate": "2026-12-07",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bradenton",
+          "round": "J300",
+          "points": 30,
+          "date": "2025-12-01",
+          "dropDate": "2026-11-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-06-29",
+          "dropDate": "2026-06-28",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Santa Croce Sull’Arno",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-05-11",
+          "dropDate": "2027-05-10",
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J500 Osaka",
+          "round": "J500",
+          "points": 187,
+          "date": "2025-09-22",
+          "dropDate": "2026-09-21",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Wanju (Closed Asia Regional Championship)",
+          "round": "J300",
+          "points": 157,
+          "date": "2025-10-06",
+          "dropDate": "2026-10-05",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 157,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 112,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "round": "J500",
+          "points": 112,
+          "date": "2025-12-08",
+          "dropDate": "2026-12-07",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Charleroi-Marcinelle",
+          "round": "J300",
+          "points": 105,
+          "date": "2025-05-26",
+          "dropDate": "2026-05-25",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Repentigny",
+          "round": "J300",
+          "points": 105,
+          "date": "2025-08-24",
+          "dropDate": "2026-08-23",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 75,
+          "date": "2025-06-29",
+          "dropDate": "2026-06-28",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Beijing",
+          "round": "J300",
+          "points": 75,
+          "date": "2025-09-16",
+          "dropDate": "2026-09-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Santa Croce Sull’Arno",
+          "round": "J300",
+          "points": 75,
+          "date": "2026-05-11",
+          "dropDate": "2027-05-10",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Chuncheon",
+          "round": "J200",
+          "points": 75,
+          "date": "2025-09-30",
+          "dropDate": "2026-09-29",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Nanjing",
+          "round": "J200",
+          "points": 45,
+          "date": "2025-09-09",
+          "dropDate": "2026-09-08",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bradenton",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-12-01",
+          "dropDate": "2026-11-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-06-01",
+          "dropDate": "2026-05-31",
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": false
+        }
+      ],
+      "defending": [
+        {
+          "type": "doubles",
+          "event": "J500 Milan",
+          "points": 112,
+          "date": "2026-05-18"
+        }
+      ],
+      "liveEvent": {
+        "event": "J500 Milan",
+        "grade": "J500",
+        "singlesStatus": "Ativo",
+        "singlesRound": "R32",
+        "singlesPoints": 0,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0,
+        "singlesMaxPoints": 500,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
+      },
+      "sourceUrl": "https://www.itftennis.com/en/players/kuan-shou-chen/800692766/tpe/jt/s/itf-points-breakdown/"
+    },
+    {
+      "id": "nikita-belozertsev",
+      "name": "Nikita Belozertsev",
+      "country": "UZB",
+      "gender": "Boys",
+      "currentRank": 18,
+      "officialPoints": 0,
+      "sourceTotalCombinedPoints": 1436.5,
+      "singles": [
+        {
+          "event": "J300 Astana",
+          "round": "J300",
+          "points": 300,
+          "date": "2025-09-08",
+          "dropDate": "2026-09-07",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 250,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 180,
+          "date": "2025-06-01",
+          "dropDate": "2026-05-31",
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 180,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 180,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Offenbach",
+          "round": "J500",
+          "points": 150,
+          "date": "2026-05-04",
+          "dropDate": "2027-05-03",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Charleroi-Marcinelle",
+          "round": "J300",
+          "points": 140,
+          "date": "2025-05-26",
+          "dropDate": "2026-05-25",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Cairo",
+          "round": "J500",
+          "points": 90,
+          "date": "2026-04-06",
+          "dropDate": "2027-04-05",
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J300 Astana",
+          "round": "J300",
+          "points": 225,
+          "date": "2025-09-08",
+          "dropDate": "2026-09-07",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Cairo",
+          "round": "J500",
+          "points": 187,
+          "date": "2026-04-06",
+          "dropDate": "2027-04-05",
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 135,
+          "date": "2025-06-01",
+          "dropDate": "2026-05-31",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Charleroi-Marcinelle",
+          "round": "J300",
+          "points": 105,
+          "date": "2025-05-26",
+          "dropDate": "2026-05-25",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 67,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Offenbach",
+          "round": "J500",
+          "points": 67,
+          "date": "2026-05-04",
+          "dropDate": "2027-05-03",
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": false
+        }
+      ],
+      "defending": [
+        {
+          "type": "singles",
+          "event": "J500 Milan",
+          "points": 250,
+          "date": "2026-05-18"
+        },
+        {
+          "type": "doubles",
+          "event": "J500 Milan",
+          "points": 67,
+          "date": "2026-05-18"
+        }
+      ],
+      "liveEvent": {
+        "event": "J500 Milan",
+        "grade": "J500",
+        "singlesStatus": "Ativo",
+        "singlesRound": "R32",
+        "singlesPoints": 0,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0,
+        "singlesMaxPoints": 500,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
+      },
+      "sourceUrl": "https://www.itftennis.com/en/players/nikita-belozertsev/800590346/uzb/jt/s/itf-points-breakdown/"
+    },
+    {
+      "id": "nicolas-baena",
+      "name": "Nicolas Baena",
+      "country": "PER",
+      "gender": "Boys",
+      "currentRank": 19,
+      "officialPoints": 0,
+      "sourceTotalCombinedPoints": 1380.5,
+      "singles": [
+        {
+          "event": "J300 Santa Cruz (South America Regional Championships)",
+          "round": "J300",
+          "points": 300,
+          "date": "2026-02-23",
+          "dropDate": "2027-02-22",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Gaspar",
+          "round": "J500",
+          "points": 250,
+          "date": "2026-03-16",
+          "dropDate": "2027-03-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Santa Cruz",
+          "round": "J200",
+          "points": 200,
+          "date": "2025-11-03",
+          "dropDate": "2026-11-02",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 La Paz",
+          "round": "J200",
+          "points": 200,
+          "date": "2025-11-10",
+          "dropDate": "2026-11-09",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Asuncion (Junior Pan American Games)",
+          "round": "J300",
+          "points": 100,
+          "date": "2025-08-11",
+          "dropDate": "2026-08-10",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Bogota",
+          "round": "J200",
+          "points": 100,
+          "date": "2025-07-14",
+          "dropDate": "2026-07-13",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Asuncion",
+          "round": "J300",
+          "points": 60,
+          "date": "2026-03-02",
+          "dropDate": "2027-03-01",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Santiago",
+          "round": "J200",
+          "points": 60,
+          "date": "2025-09-29",
+          "dropDate": "2026-09-28",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Salta",
+          "round": "J200",
+          "points": 60,
+          "date": "2025-10-06",
+          "dropDate": "2026-10-05",
+          "sourceCounting": false
+        },
+        {
+          "event": "J100 Medellin",
+          "round": "J100",
+          "points": 60,
+          "date": "2025-07-07",
+          "dropDate": "2026-07-06",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Lima",
+          "round": "J200",
+          "points": 36,
+          "date": "2025-09-22",
+          "dropDate": "2026-09-21",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "round": "J500",
+          "points": 0,
+          "date": "2025-12-08",
+          "dropDate": "2026-12-07",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Lima",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-02-09",
+          "dropDate": "2027-02-08",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Porto Alegre",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-03-09",
+          "dropDate": "2027-03-08",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Santa Croce Sull’Arno",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-05-11",
+          "dropDate": "2027-05-10",
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J300 Santa Cruz (South America Regional Championships)",
+          "round": "J300",
+          "points": 225,
+          "date": "2026-02-23",
+          "dropDate": "2027-02-22",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Gaspar",
+          "round": "J500",
+          "points": 187,
+          "date": "2026-03-16",
+          "dropDate": "2027-03-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Salta",
+          "round": "J200",
+          "points": 150,
+          "date": "2025-10-06",
+          "dropDate": "2026-10-05",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 La Paz",
+          "round": "J200",
+          "points": 150,
+          "date": "2025-11-10",
+          "dropDate": "2026-11-09",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Bogota",
+          "round": "J200",
+          "points": 105,
+          "date": "2025-07-14",
+          "dropDate": "2026-07-13",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Santiago",
+          "round": "J200",
+          "points": 105,
+          "date": "2025-09-29",
+          "dropDate": "2026-09-28",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Lima",
+          "round": "J300",
+          "points": 75,
+          "date": "2026-02-09",
+          "dropDate": "2027-02-08",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Porto Alegre",
+          "round": "J300",
+          "points": 75,
+          "date": "2026-03-09",
+          "dropDate": "2027-03-08",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Santa Cruz",
+          "round": "J200",
+          "points": 45,
+          "date": "2025-11-03",
+          "dropDate": "2026-11-02",
+          "sourceCounting": false
+        },
+        {
+          "event": "J100 Medellin",
+          "round": "J100",
+          "points": 27,
+          "date": "2025-07-07",
+          "dropDate": "2026-07-06",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "round": "J500",
+          "points": 0,
+          "date": "2025-12-08",
+          "dropDate": "2026-12-07",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Asuncion",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-03-02",
+          "dropDate": "2027-03-01",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Santa Croce Sull’Arno",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-05-11",
+          "dropDate": "2027-05-10",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Lima",
+          "round": "J200",
+          "points": 0,
+          "date": "2025-09-22",
+          "dropDate": "2026-09-21",
+          "sourceCounting": false
+        }
+      ],
+      "defending": [],
+      "liveEvent": {
+        "event": "J500 Milan",
+        "grade": "J500",
+        "singlesStatus": "Ativo",
+        "singlesRound": "R32",
+        "singlesPoints": 0,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0,
+        "singlesMaxPoints": 500,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
+      },
+      "sourceUrl": "https://www.itftennis.com/en/players/nicolas-baena/800600773/per/jt/s/itf-points-breakdown/"
+    },
+    {
+      "id": "tito-chavez",
+      "name": "Tito Chavez",
+      "country": "ESP",
+      "gender": "Boys",
+      "currentRank": 20,
+      "officialPoints": 0,
+      "sourceTotalCombinedPoints": 1374,
+      "singles": [
+        {
+          "event": "J500 Offenbach",
+          "round": "J500",
+          "points": 250,
+          "date": "2026-05-04",
+          "dropDate": "2027-05-03",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bamberg",
+          "round": "J300",
+          "points": 210,
+          "date": "2025-06-10",
+          "dropDate": "2026-06-09",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Cairo",
+          "round": "J300",
+          "points": 210,
+          "date": "2026-03-30",
+          "dropDate": "2027-03-29",
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 180,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Osaka",
+          "round": "J500",
+          "points": 150,
+          "date": "2025-09-22",
+          "dropDate": "2026-09-21",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Beijing",
+          "round": "J300",
+          "points": 140,
+          "date": "2025-09-16",
+          "dropDate": "2026-09-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 100,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Vrsar",
+          "round": "J300",
+          "points": 100,
+          "date": "2026-03-23",
+          "dropDate": "2027-03-22",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bytom",
+          "round": "J300",
+          "points": 60,
+          "date": "2025-07-22",
+          "dropDate": "2026-07-21",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Repentigny",
+          "round": "J300",
+          "points": 60,
+          "date": "2025-08-24",
+          "dropDate": "2026-08-23",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Gladbeck",
+          "round": "J200",
+          "points": 36,
+          "date": "2025-06-17",
+          "dropDate": "2026-06-16",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 30,
+          "date": "2025-06-29",
+          "dropDate": "2026-06-28",
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 20,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Merida",
+          "round": "J500",
+          "points": 0,
+          "date": "2025-11-24",
+          "dropDate": "2026-11-23",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "round": "J500",
+          "points": 0,
+          "date": "2025-12-08",
+          "dropDate": "2026-12-07",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bradenton",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-12-01",
+          "dropDate": "2026-11-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Villena",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-03-16",
+          "dropDate": "2027-03-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-06-01",
+          "dropDate": "2026-05-31",
+          "sourceCounting": false
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J500 Osaka",
+          "round": "J500",
+          "points": 262,
+          "date": "2025-09-22",
+          "dropDate": "2026-09-21",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Beijing",
+          "round": "J300",
+          "points": 225,
+          "date": "2025-09-16",
+          "dropDate": "2026-09-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Merida",
+          "round": "J500",
+          "points": 187,
+          "date": "2025-11-24",
+          "dropDate": "2026-11-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Offenbach",
+          "round": "J500",
+          "points": 112,
+          "date": "2026-05-04",
+          "dropDate": "2027-05-03",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Repentigny",
+          "round": "J300",
+          "points": 75,
+          "date": "2025-08-24",
+          "dropDate": "2026-08-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bradenton",
+          "round": "J300",
+          "points": 75,
+          "date": "2025-12-01",
+          "dropDate": "2026-11-30",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 75,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Vrsar",
+          "round": "J300",
+          "points": 75,
+          "date": "2026-03-23",
+          "dropDate": "2027-03-22",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Cairo",
+          "round": "J300",
+          "points": 75,
+          "date": "2026-03-30",
+          "dropDate": "2027-03-29",
+          "sourceCounting": false
+        },
+        {
+          "event": "J60 Les Franqueses del Valles",
+          "round": "J60",
+          "points": 14,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "round": "J500",
+          "points": 0,
+          "date": "2025-12-08",
+          "dropDate": "2026-12-07",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bamberg",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-06-10",
+          "dropDate": "2026-06-09",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-06-29",
+          "dropDate": "2026-06-28",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bytom",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-07-22",
+          "dropDate": "2026-07-21",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Villena",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-03-16",
+          "dropDate": "2027-03-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Gladbeck",
+          "round": "J200",
+          "points": 0,
+          "date": "2025-06-17",
+          "dropDate": "2026-06-16",
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": false
+        }
+      ],
+      "defending": [],
+      "liveEvent": {
+        "event": "J500 Milan",
+        "grade": "J500",
+        "singlesStatus": "Ativo",
+        "singlesRound": "R32",
+        "singlesPoints": 0,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0,
+        "singlesMaxPoints": 500,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
+      },
+      "sourceUrl": "https://www.itftennis.com/en/players/tito-chavez/800590474/esp/jt/s/itf-points-breakdown/"
+    },
+    {
+      "id": "mathys-domenc",
+      "name": "Mathys Domenc",
+      "country": "FRA",
+      "gender": "Boys",
+      "currentRank": 21,
+      "officialPoints": 0,
+      "sourceTotalCombinedPoints": 1346,
+      "singles": [
+        {
+          "event": "J300 San Jose",
+          "round": "J300",
+          "points": 300,
+          "date": "2026-01-19",
+          "dropDate": "2027-01-18",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Lima",
+          "round": "J300",
+          "points": 300,
+          "date": "2026-02-09",
+          "dropDate": "2027-02-08",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Oslo",
+          "round": "J200",
+          "points": 200,
+          "date": "2025-11-24",
+          "dropDate": "2026-11-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Beaulieu-sur-Mer",
+          "round": "J300",
+          "points": 140,
+          "date": "2026-04-13",
+          "dropDate": "2027-04-12",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Barranquilla",
+          "round": "J300",
+          "points": 100,
+          "date": "2026-01-26",
+          "dropDate": "2027-01-25",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Salinas",
+          "round": "J300",
+          "points": 100,
+          "date": "2026-02-02",
+          "dropDate": "2027-02-01",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Villena",
+          "round": "J300",
+          "points": 100,
+          "date": "2026-03-16",
+          "dropDate": "2027-03-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "J100 Verbier",
+          "round": "J100",
+          "points": 100,
+          "date": "2025-06-30",
+          "dropDate": "2026-06-29",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Offenbach",
+          "round": "J500",
+          "points": 90,
+          "date": "2026-05-04",
+          "dropDate": "2027-05-03",
+          "sourceCounting": false
+        },
+        {
+          "event": "J100 Stabekk",
+          "round": "J100",
+          "points": 0,
+          "date": "2025-11-17",
+          "dropDate": "2026-11-16",
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-06-01",
+          "dropDate": "2026-05-31",
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J300 Lima",
+          "round": "J300",
+          "points": 225,
+          "date": "2026-02-09",
+          "dropDate": "2027-02-08",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Offenbach",
+          "round": "J500",
+          "points": 187,
+          "date": "2026-05-04",
+          "dropDate": "2027-05-03",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Salinas",
+          "round": "J300",
+          "points": 157,
+          "date": "2026-02-02",
+          "dropDate": "2027-02-01",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Beaulieu-sur-Mer",
+          "round": "J300",
+          "points": 105,
+          "date": "2026-04-13",
+          "dropDate": "2027-04-12",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 San Jose",
+          "round": "J300",
+          "points": 75,
+          "date": "2026-01-19",
+          "dropDate": "2027-01-18",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Villena",
+          "round": "J300",
+          "points": 75,
+          "date": "2026-03-16",
+          "dropDate": "2027-03-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "J100 Verbier",
+          "round": "J100",
+          "points": 27,
+          "date": "2025-06-30",
+          "dropDate": "2026-06-29",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Barranquilla",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-01-26",
+          "dropDate": "2027-01-25",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Oslo",
+          "round": "J200",
+          "points": 0,
+          "date": "2025-11-24",
+          "dropDate": "2026-11-23",
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-06-01",
+          "dropDate": "2026-05-31",
+          "sourceCounting": false
+        }
+      ],
+      "defending": [],
+      "liveEvent": {
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
+        "singlesPoints": 0,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0
+      },
+      "sourceUrl": "https://www.itftennis.com/en/players/mathys-domenc/800597355/fra/jt/s/itf-points-breakdown/"
+    },
+    {
+      "id": "flynn-thomas",
+      "name": "Flynn Thomas",
+      "country": "SUI",
+      "gender": "Boys",
+      "currentRank": 22,
+      "officialPoints": 0,
+      "sourceTotalCombinedPoints": 1318.5,
+      "singles": [
+        {
+          "event": "J300 New Delhi",
+          "round": "J300",
+          "points": 300,
+          "date": "2026-01-05",
+          "dropDate": "2027-01-04",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Offenbach",
+          "round": "J500",
+          "points": 250,
+          "date": "2026-05-04",
+          "dropDate": "2027-05-03",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Sanxenxo",
+          "round": "J300",
+          "points": 210,
+          "date": "2025-09-23",
+          "dropDate": "2026-09-22",
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 180,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Oslo",
+          "round": "J200",
+          "points": 140,
+          "date": "2025-11-24",
+          "dropDate": "2026-11-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Basel",
+          "round": "J200",
+          "points": 100,
+          "date": "2025-07-29",
+          "dropDate": "2026-07-28",
+          "sourceCounting": true
+        },
+        {
+          "event": "J100 Palermo",
+          "round": "J100",
+          "points": 100,
+          "date": "2025-09-08",
+          "dropDate": "2026-09-07",
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 90,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bamberg",
+          "round": "J300",
+          "points": 60,
+          "date": "2025-06-10",
+          "dropDate": "2026-06-09",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 60,
+          "date": "2025-06-29",
+          "dropDate": "2026-06-28",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Gladbeck",
+          "round": "J200",
+          "points": 60,
+          "date": "2025-06-17",
+          "dropDate": "2026-06-16",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 30,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 0,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-06-01",
+          "dropDate": "2026-05-31",
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 157,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bamberg",
+          "round": "J300",
+          "points": 105,
+          "date": "2025-06-10",
+          "dropDate": "2026-06-09",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Oslo",
+          "round": "J200",
+          "points": 105,
+          "date": "2025-11-24",
+          "dropDate": "2026-11-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 75,
+          "date": "2025-06-29",
+          "dropDate": "2026-06-28",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Offenbach",
+          "round": "J500",
+          "points": 67,
+          "date": "2026-05-04",
+          "dropDate": "2027-05-03",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Basel",
+          "round": "J200",
+          "points": 45,
+          "date": "2025-07-29",
+          "dropDate": "2026-07-28",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 0,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Sanxenxo",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-09-23",
+          "dropDate": "2026-09-22",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 New Delhi",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-01-05",
+          "dropDate": "2027-01-04",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Gladbeck",
+          "round": "J200",
+          "points": 0,
+          "date": "2025-06-17",
+          "dropDate": "2026-06-16",
+          "sourceCounting": false
+        },
+        {
+          "event": "J100 Palermo",
+          "round": "J100",
+          "points": 0,
+          "date": "2025-09-08",
+          "dropDate": "2026-09-07",
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-06-01",
+          "dropDate": "2026-05-31",
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": false
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": false
+        }
+      ],
+      "defending": [],
+      "liveEvent": {
+        "event": "J500 Milan",
+        "grade": "J500",
+        "singlesStatus": "Ativo",
+        "singlesRound": "R32",
+        "singlesPoints": 0,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0,
+        "singlesMaxPoints": 500,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
+      },
+      "sourceUrl": "https://www.itftennis.com/en/players/flynn-thomas/800571129/sui/jt/s/itf-points-breakdown/"
+    },
+    {
+      "id": "simone-massellani",
+      "name": "Simone Massellani",
+      "country": "ITA",
+      "gender": "Boys",
+      "currentRank": 24,
+      "officialPoints": 0,
+      "sourceTotalCombinedPoints": 1258.75,
+      "singles": [
+        {
+          "event": "J300 Santa Croce Sull’Arno",
+          "round": "J300",
+          "points": 300,
+          "date": "2026-05-11",
+          "dropDate": "2027-05-10",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Belgrade",
+          "round": "J200",
+          "points": 200,
+          "date": "2025-08-25",
+          "dropDate": "2026-08-24",
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 180,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Vrsar",
+          "round": "J300",
+          "points": 140,
+          "date": "2026-03-23",
+          "dropDate": "2027-03-22",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Florence",
+          "round": "J200",
+          "points": 140,
+          "date": "2026-04-01",
+          "dropDate": "2027-03-31",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Sanxenxo",
+          "round": "J300",
+          "points": 100,
+          "date": "2025-09-23",
+          "dropDate": "2026-09-22",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Rakovnik",
+          "round": "J200",
+          "points": 100,
+          "date": "2025-09-01",
+          "dropDate": "2026-08-31",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Vigo",
+          "round": "J200",
+          "points": 100,
+          "date": "2025-09-30",
+          "dropDate": "2026-09-29",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Pilsen",
+          "round": "J200",
+          "points": 60,
+          "date": "2025-06-23",
+          "dropDate": "2026-06-22",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Offenbach",
+          "round": "J500",
+          "points": 45,
+          "date": "2026-05-04",
+          "dropDate": "2027-05-03",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Castricum",
+          "round": "J200",
+          "points": 36,
+          "date": "2025-07-01",
+          "dropDate": "2026-06-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bytom",
+          "round": "J300",
+          "points": 30,
+          "date": "2025-07-22",
+          "dropDate": "2026-07-21",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 30,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Pancevo",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-08-18",
+          "dropDate": "2026-08-17",
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J300 Pancevo",
+          "round": "J300",
+          "points": 225,
+          "date": "2025-08-18",
+          "dropDate": "2026-08-17",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Florence",
+          "round": "J200",
+          "points": 150,
+          "date": "2026-04-01",
+          "dropDate": "2027-03-31",
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 135,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bytom",
+          "round": "J300",
+          "points": 105,
+          "date": "2025-07-22",
+          "dropDate": "2026-07-21",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Sanxenxo",
+          "round": "J300",
+          "points": 105,
+          "date": "2025-09-23",
+          "dropDate": "2026-09-22",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Vrsar",
+          "round": "J300",
+          "points": 75,
+          "date": "2026-03-23",
+          "dropDate": "2027-03-22",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Pilsen",
+          "round": "J200",
+          "points": 75,
+          "date": "2025-06-23",
+          "dropDate": "2026-06-22",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Offenbach",
+          "round": "J500",
+          "points": 67,
+          "date": "2026-05-04",
+          "dropDate": "2027-05-03",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Belgrade",
+          "round": "J200",
+          "points": 45,
+          "date": "2025-08-25",
+          "dropDate": "2026-08-24",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Santa Croce Sull’Arno",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-05-11",
+          "dropDate": "2027-05-10",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Castricum",
+          "round": "J200",
+          "points": 0,
+          "date": "2025-07-01",
+          "dropDate": "2026-06-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Vigo",
+          "round": "J200",
+          "points": 0,
+          "date": "2025-09-30",
+          "dropDate": "2026-09-29",
+          "sourceCounting": false
+        }
+      ],
+      "defending": [],
+      "liveEvent": {
+        "event": "J500 Milan",
+        "grade": "J500",
+        "singlesStatus": "Ativo",
+        "singlesRound": "R32",
+        "singlesPoints": 0,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0,
+        "singlesMaxPoints": 500,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
+      },
+      "sourceUrl": "https://www.itftennis.com/en/players/simone-massellani/800668600/ita/jt/s/itf-points-breakdown/"
+    },
+    {
+      "id": "arnav-paparkar",
+      "name": "Arnav Paparkar",
+      "country": "IND",
+      "gender": "Boys",
+      "currentRank": 25,
+      "officialPoints": 0,
+      "sourceTotalCombinedPoints": 1241.75,
+      "singles": [
+        {
+          "event": "J300 New Delhi",
+          "round": "J300",
+          "points": 210,
+          "date": "2026-01-05",
+          "dropDate": "2027-01-04",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Kuching",
+          "round": "J300",
+          "points": 210,
+          "date": "2026-04-07",
+          "dropDate": "2027-04-06",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Pune (Asia/Oceania Closed Regional Championships)",
+          "round": "J300",
+          "points": 210,
+          "date": "2026-04-20",
+          "dropDate": "2027-04-19",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Kuala Lumpur",
+          "round": "J200",
+          "points": 200,
+          "date": "2026-04-14",
+          "dropDate": "2027-04-13",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Nonthaburi",
+          "round": "J300",
+          "points": 100,
+          "date": "2026-03-02",
+          "dropDate": "2027-03-01",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Targu Jiu",
+          "round": "J200",
+          "points": 100,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Nonthaburi",
+          "round": "J200",
+          "points": 60,
+          "date": "2026-02-23",
+          "dropDate": "2027-02-22",
+          "sourceCounting": false
+        },
+        {
+          "event": "J60 Manama",
+          "round": "J60",
+          "points": 60,
+          "date": "2025-12-08",
+          "dropDate": "2026-12-07",
+          "sourceCounting": false
+        },
+        {
+          "event": "J100 Pune",
+          "round": "J100",
+          "points": 20,
+          "date": "2025-12-01",
+          "dropDate": "2026-11-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-06-29",
+          "dropDate": "2026-06-28",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Wanju (Closed Asia Regional Championship)",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-10-06",
+          "dropDate": "2026-10-05",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Chuncheon",
+          "round": "J200",
+          "points": 0,
+          "date": "2025-09-30",
+          "dropDate": "2026-09-29",
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": false
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J300 Pune (Asia/Oceania Closed Regional Championships)",
+          "round": "J300",
+          "points": 225,
+          "date": "2026-04-20",
+          "dropDate": "2027-04-19",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Kuching",
+          "round": "J300",
+          "points": 157,
+          "date": "2026-04-07",
+          "dropDate": "2027-04-06",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Targu Jiu",
+          "round": "J200",
+          "points": 150,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Nonthaburi",
+          "round": "J300",
+          "points": 105,
+          "date": "2026-03-02",
+          "dropDate": "2027-03-01",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Chuncheon",
+          "round": "J200",
+          "points": 105,
+          "date": "2025-09-30",
+          "dropDate": "2026-09-29",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Nonthaburi",
+          "round": "J200",
+          "points": 105,
+          "date": "2026-02-23",
+          "dropDate": "2027-02-22",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Wanju (Closed Asia Regional Championship)",
+          "round": "J300",
+          "points": 75,
+          "date": "2025-10-06",
+          "dropDate": "2026-10-05",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 45,
+          "date": "2025-06-29",
+          "dropDate": "2026-06-28",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Kuala Lumpur",
+          "round": "J200",
+          "points": 45,
+          "date": "2026-04-14",
+          "dropDate": "2027-04-13",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 New Delhi",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-01-05",
+          "dropDate": "2027-01-04",
+          "sourceCounting": false
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": false
+        }
+      ],
+      "defending": [
+        {
+          "type": "singles",
+          "event": "J200 Targu Jiu",
+          "points": 100,
+          "date": "2026-05-18"
+        },
+        {
+          "type": "doubles",
+          "event": "J200 Targu Jiu",
+          "points": 150,
+          "date": "2026-05-18"
+        }
+      ],
+      "liveEvent": {
+        "event": "J500 Milan",
+        "grade": "J500",
+        "singlesStatus": "Ativo",
+        "singlesRound": "Pendente",
+        "singlesPoints": 0,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0,
+        "singlesMaxPoints": 500,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
+      },
+      "sourceUrl": "https://www.itftennis.com/en/players/arnav-paparkar/800573038/ind/jt/s/itf-points-breakdown/"
+    },
+    {
+      "id": "hyu-kawanishi",
+      "name": "Hyu Kawanishi",
+      "country": "JPN",
+      "gender": "Boys",
+      "currentRank": 26,
+      "officialPoints": 0,
+      "sourceTotalCombinedPoints": 1226,
+      "singles": [
+        {
+          "event": "J300 Pune (Asia/Oceania Closed Regional Championships)",
+          "round": "J300",
+          "points": 300,
+          "date": "2026-04-20",
+          "dropDate": "2027-04-19",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Miki",
+          "round": "J200",
+          "points": 200,
+          "date": "2025-09-16",
+          "dropDate": "2026-09-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Nonthaburi",
+          "round": "J200",
+          "points": 140,
+          "date": "2026-02-23",
+          "dropDate": "2027-02-22",
+          "sourceCounting": true
+        },
+        {
+          "event": "J100 Almaty",
+          "round": "J100",
+          "points": 100,
+          "date": "2025-06-16",
+          "dropDate": "2026-06-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "J100 Almaty",
+          "round": "J100",
+          "points": 100,
+          "date": "2025-06-23",
+          "dropDate": "2026-06-22",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Osaka",
+          "round": "J500",
+          "points": 90,
+          "date": "2025-09-22",
+          "dropDate": "2026-09-21",
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 90,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Kuching",
+          "round": "J300",
+          "points": 60,
+          "date": "2026-04-07",
+          "dropDate": "2027-04-06",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 30,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Merida",
+          "round": "J500",
+          "points": 0,
+          "date": "2025-11-24",
+          "dropDate": "2026-11-23",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Charleroi-Marcinelle",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-05-26",
+          "dropDate": "2026-05-25",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Wanju (Closed Asia Regional Championship)",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-10-06",
+          "dropDate": "2026-10-05",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Zapopan",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-11-17",
+          "dropDate": "2026-11-16",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Nonthaburi",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-03-02",
+          "dropDate": "2027-03-01",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Kuala Lumpur",
+          "round": "J200",
+          "points": 0,
+          "date": "2026-04-14",
+          "dropDate": "2027-04-13",
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-06-01",
+          "dropDate": "2026-05-31",
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 367,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Wanju (Closed Asia Regional Championship)",
+          "round": "J300",
+          "points": 225,
+          "date": "2025-10-06",
+          "dropDate": "2026-10-05",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Kuching",
+          "round": "J300",
+          "points": 225,
+          "date": "2026-04-07",
+          "dropDate": "2027-04-06",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Pune (Asia/Oceania Closed Regional Championships)",
+          "round": "J300",
+          "points": 157,
+          "date": "2026-04-20",
+          "dropDate": "2027-04-19",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Charleroi-Marcinelle",
+          "round": "J300",
+          "points": 105,
+          "date": "2025-05-26",
+          "dropDate": "2026-05-25",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Zapopan",
+          "round": "J300",
+          "points": 105,
+          "date": "2025-11-17",
+          "dropDate": "2026-11-16",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Kuala Lumpur",
+          "round": "J200",
+          "points": 75,
+          "date": "2026-04-14",
+          "dropDate": "2027-04-13",
+          "sourceCounting": false
+        },
+        {
+          "event": "J100 Almaty",
+          "round": "J100",
+          "points": 75,
+          "date": "2025-06-23",
+          "dropDate": "2026-06-22",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Merida",
+          "round": "J500",
+          "points": 67,
+          "date": "2025-11-24",
+          "dropDate": "2026-11-23",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 45,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Miki",
+          "round": "J200",
+          "points": 45,
+          "date": "2025-09-16",
+          "dropDate": "2026-09-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Nonthaburi",
+          "round": "J200",
+          "points": 45,
+          "date": "2026-02-23",
+          "dropDate": "2027-02-22",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Osaka",
+          "round": "J500",
+          "points": 0,
+          "date": "2025-09-22",
+          "dropDate": "2026-09-21",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Nonthaburi",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-03-02",
+          "dropDate": "2027-03-01",
+          "sourceCounting": false
+        },
+        {
+          "event": "J100 Almaty",
+          "round": "J100",
+          "points": 0,
+          "date": "2025-06-16",
+          "dropDate": "2026-06-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-06-01",
+          "dropDate": "2026-05-31",
+          "sourceCounting": false
+        }
+      ],
+      "defending": [],
+      "liveEvent": {
+        "event": "J500 Milan",
+        "grade": "J500",
+        "singlesStatus": "Ativo",
+        "singlesRound": "R32",
+        "singlesPoints": 0,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0,
+        "singlesMaxPoints": 500,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
+      },
+      "sourceUrl": "https://www.itftennis.com/en/players/hyu-kawanishi/800700658/jpn/jt/s/itf-points-breakdown/"
+    },
+    {
+      "id": "raffaele-ciurnelli",
+      "name": "Raffaele Ciurnelli",
+      "country": "ITA",
+      "gender": "Boys",
+      "currentRank": 27,
+      "officialPoints": 0,
+      "sourceTotalCombinedPoints": 1212.5,
+      "singles": [
+        {
+          "event": "J300 Casablanca",
+          "round": "J300",
+          "points": 300,
+          "date": "2026-02-09",
+          "dropDate": "2027-02-08",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Villena",
+          "round": "J300",
+          "points": 300,
+          "date": "2026-03-16",
+          "dropDate": "2027-03-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Vrsar",
+          "round": "J300",
+          "points": 140,
+          "date": "2026-03-23",
+          "dropDate": "2027-03-22",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Belgrade",
+          "round": "J200",
+          "points": 100,
+          "date": "2025-08-25",
+          "dropDate": "2026-08-24",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Florence",
+          "round": "J200",
+          "points": 100,
+          "date": "2026-04-01",
+          "dropDate": "2027-03-31",
+          "sourceCounting": true
+        },
+        {
+          "event": "J100 Maaseik",
+          "round": "J100",
+          "points": 100,
+          "date": "2025-08-04",
+          "dropDate": "2026-08-03",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Pancevo",
+          "round": "J300",
+          "points": 60,
+          "date": "2025-08-18",
+          "dropDate": "2026-08-17",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Oberpullendorf (Europe Regional Championships)",
+          "round": "J300",
+          "points": 60,
+          "date": "2025-09-15",
+          "dropDate": "2026-09-14",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Vigo",
+          "round": "J200",
+          "points": 60,
+          "date": "2025-09-30",
+          "dropDate": "2026-09-29",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 45,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Castricum",
+          "round": "J200",
+          "points": 36,
+          "date": "2025-07-01",
+          "dropDate": "2026-06-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Szekesfehervar",
+          "round": "J200",
+          "points": 36,
+          "date": "2025-10-22",
+          "dropDate": "2026-10-21",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bamberg",
+          "round": "J300",
+          "points": 30,
+          "date": "2025-06-10",
+          "dropDate": "2026-06-09",
+          "sourceCounting": false
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 20,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Sanxenxo",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-09-23",
+          "dropDate": "2026-09-22",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Beaulieu-sur-Mer",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-04-13",
+          "dropDate": "2027-04-12",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Santa Croce Sull’Arno",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-05-11",
+          "dropDate": "2027-05-10",
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J300 Oberpullendorf (Europe Regional Championships)",
+          "round": "J300",
+          "points": 225,
+          "date": "2025-09-15",
+          "dropDate": "2026-09-14",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Sanxenxo",
+          "round": "J300",
+          "points": 105,
+          "date": "2025-09-23",
+          "dropDate": "2026-09-22",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Villena",
+          "round": "J300",
+          "points": 105,
+          "date": "2026-03-16",
+          "dropDate": "2027-03-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Santa Croce Sull’Arno",
+          "round": "J300",
+          "points": 105,
+          "date": "2026-05-11",
+          "dropDate": "2027-05-10",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Belgrade",
+          "round": "J200",
+          "points": 75,
+          "date": "2025-08-25",
+          "dropDate": "2026-08-24",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Florence",
+          "round": "J200",
+          "points": 75,
+          "date": "2026-04-01",
+          "dropDate": "2027-03-31",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bamberg",
+          "round": "J300",
+          "points": 45,
+          "date": "2025-06-10",
+          "dropDate": "2026-06-09",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 45,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Castricum",
+          "round": "J200",
+          "points": 45,
+          "date": "2025-07-01",
+          "dropDate": "2026-06-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Vigo",
+          "round": "J200",
+          "points": 45,
+          "date": "2025-09-30",
+          "dropDate": "2026-09-29",
+          "sourceCounting": false
+        },
+        {
+          "event": "J100 Maaseik",
+          "round": "J100",
+          "points": 45,
+          "date": "2025-08-04",
+          "dropDate": "2026-08-03",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 0,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Pancevo",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-08-18",
+          "dropDate": "2026-08-17",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Casablanca",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-02-09",
+          "dropDate": "2027-02-08",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Vrsar",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-03-23",
+          "dropDate": "2027-03-22",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Beaulieu-sur-Mer",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-04-13",
+          "dropDate": "2027-04-12",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Szekesfehervar",
+          "round": "J200",
+          "points": 0,
+          "date": "2025-10-22",
+          "dropDate": "2026-10-21",
+          "sourceCounting": false
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": false
+        }
+      ],
+      "defending": [],
+      "liveEvent": {
+        "event": "J500 Milan",
+        "grade": "J500",
+        "singlesStatus": "Ativo",
+        "singlesRound": "R32",
+        "singlesPoints": 0,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0,
+        "singlesMaxPoints": 500,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
+      },
+      "sourceUrl": "https://www.itftennis.com/en/players/raffaele-ciurnelli/800589799/ita/jt/s/itf-points-breakdown/"
+    },
+    {
+      "id": "kai-thompson",
+      "name": "Kai Thompson",
+      "country": "HKG",
+      "gender": "Boys",
+      "currentRank": 28,
+      "officialPoints": 0,
+      "sourceTotalCombinedPoints": 1193.5,
+      "singles": [
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 300,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Cairo",
+          "round": "J500",
+          "points": 250,
+          "date": "2026-04-06",
+          "dropDate": "2027-04-05",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Tainan",
+          "round": "J200",
+          "points": 200,
+          "date": "2025-11-25",
+          "dropDate": "2026-11-24",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Wanju (Closed Asia Regional Championship)",
+          "round": "J300",
+          "points": 140,
+          "date": "2025-10-06",
+          "dropDate": "2026-10-05",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Beijing",
+          "round": "J300",
+          "points": 60,
+          "date": "2025-09-16",
+          "dropDate": "2026-09-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Beaulieu-sur-Mer",
+          "round": "J300",
+          "points": 60,
+          "date": "2026-04-13",
+          "dropDate": "2027-04-12",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Nonthaburi",
+          "round": "J200",
+          "points": 60,
+          "date": "2026-02-23",
+          "dropDate": "2027-02-22",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Castricum",
+          "round": "J200",
+          "points": 36,
+          "date": "2025-07-01",
+          "dropDate": "2026-06-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "J100 Chengdu",
+          "round": "J100",
+          "points": 36,
+          "date": "2025-10-28",
+          "dropDate": "2026-10-27",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bytom",
+          "round": "J300",
+          "points": 30,
+          "date": "2025-07-22",
+          "dropDate": "2026-07-21",
+          "sourceCounting": false
+        },
+        {
+          "event": "J100 Qionghai",
+          "round": "J100",
+          "points": 10,
+          "date": "2025-05-27",
+          "dropDate": "2026-05-26",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Osaka",
+          "round": "J500",
+          "points": 0,
+          "date": "2025-09-22",
+          "dropDate": "2026-09-21",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Offenbach",
+          "round": "J500",
+          "points": 0,
+          "date": "2026-05-04",
+          "dropDate": "2027-05-03",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Cairo",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-03-30",
+          "dropDate": "2027-03-29",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Santa Croce Sull’Arno",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-05-11",
+          "dropDate": "2027-05-10",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Pilsen",
+          "round": "J200",
+          "points": 0,
+          "date": "2025-06-23",
+          "dropDate": "2026-06-22",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Hong Kong",
+          "round": "J200",
+          "points": 0,
+          "date": "2025-09-30",
+          "dropDate": "2026-09-29",
+          "sourceCounting": false
+        },
+        {
+          "event": "J100 The Hague",
+          "round": "J100",
+          "points": 0,
+          "date": "2025-06-18",
+          "dropDate": "2026-06-17",
+          "sourceCounting": false
+        },
+        {
+          "event": "J100 Moenchengladbach",
+          "round": "J100",
+          "points": 0,
+          "date": "2025-07-14",
+          "dropDate": "2026-07-13",
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J500 Offenbach",
+          "round": "J500",
+          "points": 187,
+          "date": "2026-05-04",
+          "dropDate": "2027-05-03",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Hong Kong",
+          "round": "J200",
+          "points": 150,
+          "date": "2025-09-30",
+          "dropDate": "2026-09-29",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Cairo",
+          "round": "J500",
+          "points": 112,
+          "date": "2026-04-06",
+          "dropDate": "2027-04-05",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Beijing",
+          "round": "J300",
+          "points": 105,
+          "date": "2025-09-16",
+          "dropDate": "2026-09-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Wanju (Closed Asia Regional Championship)",
+          "round": "J300",
+          "points": 105,
+          "date": "2025-10-06",
+          "dropDate": "2026-10-05",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Tainan",
+          "round": "J200",
+          "points": 75,
+          "date": "2025-11-25",
+          "dropDate": "2026-11-24",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Osaka",
+          "round": "J500",
+          "points": 67,
+          "date": "2025-09-22",
+          "dropDate": "2026-09-21",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bytom",
+          "round": "J300",
+          "points": 45,
+          "date": "2025-07-22",
+          "dropDate": "2026-07-21",
+          "sourceCounting": false
+        },
+        {
+          "event": "J100 Moenchengladbach",
+          "round": "J100",
+          "points": 45,
+          "date": "2025-07-14",
+          "dropDate": "2026-07-13",
+          "sourceCounting": false
+        },
+        {
+          "event": "J100 Qionghai",
+          "round": "J100",
+          "points": 27,
+          "date": "2025-05-27",
+          "dropDate": "2026-05-26",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Beaulieu-sur-Mer",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-04-13",
+          "dropDate": "2027-04-12",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Pilsen",
+          "round": "J200",
+          "points": 0,
+          "date": "2025-06-23",
+          "dropDate": "2026-06-22",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Castricum",
+          "round": "J200",
+          "points": 0,
+          "date": "2025-07-01",
+          "dropDate": "2026-06-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "J100 The Hague",
+          "round": "J100",
+          "points": 0,
+          "date": "2025-06-18",
+          "dropDate": "2026-06-17",
+          "sourceCounting": false
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": false
+        }
+      ],
+      "defending": [],
+      "liveEvent": {
+        "event": "J500 Milan",
+        "grade": "J500",
+        "singlesStatus": "Ativo",
+        "singlesRound": "R32",
+        "singlesPoints": 0,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0,
+        "singlesMaxPoints": 500,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
+      },
+      "sourceUrl": "https://www.itftennis.com/en/players/kai-thompson/800591436/hkg/jt/s/itf-points-breakdown/"
+    },
+    {
+      "id": "matteo-gribaldo",
+      "name": "Matteo Gribaldo",
+      "country": "ITA",
+      "gender": "Boys",
+      "currentRank": 29,
+      "officialPoints": 0,
+      "sourceTotalCombinedPoints": 1188.75,
+      "singles": [
+        {
+          "event": "J300 Vrsar",
+          "round": "J300",
+          "points": 210,
+          "date": "2026-03-23",
+          "dropDate": "2027-03-22",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Beaulieu-sur-Mer",
+          "round": "J300",
+          "points": 210,
+          "date": "2026-04-13",
+          "dropDate": "2027-04-12",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Rutesheim",
+          "round": "J200",
+          "points": 200,
+          "date": "2025-08-05",
+          "dropDate": "2026-08-04",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Santa Croce Sull’Arno",
+          "round": "J300",
+          "points": 140,
+          "date": "2026-05-11",
+          "dropDate": "2027-05-10",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Pancevo",
+          "round": "J300",
+          "points": 100,
+          "date": "2025-08-18",
+          "dropDate": "2026-08-17",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Sanxenxo",
+          "round": "J300",
+          "points": 100,
+          "date": "2025-09-23",
+          "dropDate": "2026-09-22",
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 90,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Pilsen",
+          "round": "J200",
+          "points": 60,
+          "date": "2025-06-23",
+          "dropDate": "2026-06-22",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 45,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Castricum",
+          "round": "J200",
+          "points": 36,
+          "date": "2025-07-01",
+          "dropDate": "2026-06-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Basel",
+          "round": "J200",
+          "points": 36,
+          "date": "2025-07-29",
+          "dropDate": "2026-07-28",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Vigo",
+          "round": "J200",
+          "points": 36,
+          "date": "2025-09-30",
+          "dropDate": "2026-09-29",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bamberg",
+          "round": "J300",
+          "points": 30,
+          "date": "2025-06-10",
+          "dropDate": "2026-06-09",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bytom",
+          "round": "J300",
+          "points": 30,
+          "date": "2025-07-22",
+          "dropDate": "2026-07-21",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Oberpullendorf (Europe Regional Championships)",
+          "round": "J300",
+          "points": 30,
+          "date": "2025-09-15",
+          "dropDate": "2026-09-14",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Belgrade",
+          "round": "J200",
+          "points": 0,
+          "date": "2025-08-25",
+          "dropDate": "2026-08-24",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Florence",
+          "round": "J200",
+          "points": 0,
+          "date": "2026-04-01",
+          "dropDate": "2027-03-31",
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J300 Pancevo",
+          "round": "J300",
+          "points": 225,
+          "date": "2025-08-18",
+          "dropDate": "2026-08-17",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Oberpullendorf (Europe Regional Championships)",
+          "round": "J300",
+          "points": 225,
+          "date": "2025-09-15",
+          "dropDate": "2026-09-14",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Florence",
+          "round": "J200",
+          "points": 150,
+          "date": "2026-04-01",
+          "dropDate": "2027-03-31",
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 135,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bytom",
+          "round": "J300",
+          "points": 105,
+          "date": "2025-07-22",
+          "dropDate": "2026-07-21",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Vrsar",
+          "round": "J300",
+          "points": 75,
+          "date": "2026-03-23",
+          "dropDate": "2027-03-22",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Pilsen",
+          "round": "J200",
+          "points": 75,
+          "date": "2025-06-23",
+          "dropDate": "2026-06-22",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Basel",
+          "round": "J200",
+          "points": 75,
+          "date": "2025-07-29",
+          "dropDate": "2026-07-28",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bamberg",
+          "round": "J300",
+          "points": 45,
+          "date": "2025-06-10",
+          "dropDate": "2026-06-09",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Rutesheim",
+          "round": "J200",
+          "points": 45,
+          "date": "2025-08-05",
+          "dropDate": "2026-08-04",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Belgrade",
+          "round": "J200",
+          "points": 45,
+          "date": "2025-08-25",
+          "dropDate": "2026-08-24",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Vigo",
+          "round": "J200",
+          "points": 45,
+          "date": "2025-09-30",
+          "dropDate": "2026-09-29",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 0,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Sanxenxo",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-09-23",
+          "dropDate": "2026-09-22",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Beaulieu-sur-Mer",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-04-13",
+          "dropDate": "2027-04-12",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Santa Croce Sull’Arno",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-05-11",
+          "dropDate": "2027-05-10",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Castricum",
+          "round": "J200",
+          "points": 0,
+          "date": "2025-07-01",
+          "dropDate": "2026-06-30",
+          "sourceCounting": false
+        }
+      ],
+      "defending": [],
+      "liveEvent": {
+        "event": "J500 Milan",
+        "grade": "J500",
+        "singlesStatus": "Ativo",
+        "singlesRound": "R32",
+        "singlesPoints": 0,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0,
+        "singlesMaxPoints": 500,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
+      },
+      "sourceUrl": "https://www.itftennis.com/en/players/matteo-gribaldo/800705107/ita/jt/s/itf-points-breakdown/"
+    },
+    {
+      "id": "damir-zhalgasbay",
+      "name": "Damir Zhalgasbay",
+      "country": "KAZ",
+      "gender": "Boys",
+      "currentRank": 30,
+      "officialPoints": 0,
+      "sourceTotalCombinedPoints": 1175.5,
+      "singles": [
+        {
+          "event": "J300 Asuncion",
+          "round": "J300",
+          "points": 300,
+          "date": "2026-03-02",
+          "dropDate": "2027-03-01",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Porto Alegre",
+          "round": "J300",
+          "points": 210,
+          "date": "2026-03-09",
+          "dropDate": "2027-03-08",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Gaspar",
+          "round": "J500",
+          "points": 150,
+          "date": "2026-03-16",
+          "dropDate": "2027-03-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bytom",
+          "round": "J300",
+          "points": 100,
+          "date": "2025-07-22",
+          "dropDate": "2026-07-21",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Sanxenxo",
+          "round": "J300",
+          "points": 100,
+          "date": "2025-09-23",
+          "dropDate": "2026-09-22",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 New Delhi",
+          "round": "J300",
+          "points": 100,
+          "date": "2026-01-05",
+          "dropDate": "2027-01-04",
+          "sourceCounting": true
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 90,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 60,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Santa Croce Sull’Arno",
+          "round": "J300",
+          "points": 60,
+          "date": "2026-05-11",
+          "dropDate": "2027-05-10",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 45,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Szekesfehervar",
+          "round": "J200",
+          "points": 36,
+          "date": "2025-10-22",
+          "dropDate": "2026-10-21",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Oslo",
+          "round": "J200",
+          "points": 36,
+          "date": "2025-11-24",
+          "dropDate": "2026-11-23",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 30,
+          "date": "2025-06-29",
+          "dropDate": "2026-06-28",
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 20,
+          "date": "2025-06-01",
+          "dropDate": "2026-05-31",
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 20,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 College Park",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-08-18",
+          "dropDate": "2026-08-17",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Vigo",
+          "round": "J200",
+          "points": 0,
+          "date": "2025-09-30",
+          "dropDate": "2026-09-29",
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J300 New Delhi",
+          "round": "J300",
+          "points": 225,
+          "date": "2026-01-05",
+          "dropDate": "2027-01-04",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Vigo",
+          "round": "J200",
+          "points": 150,
+          "date": "2025-09-30",
+          "dropDate": "2026-09-29",
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 135,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 135,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Gaspar",
+          "round": "J500",
+          "points": 112,
+          "date": "2026-03-16",
+          "dropDate": "2027-03-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Porto Alegre",
+          "round": "J300",
+          "points": 105,
+          "date": "2026-03-09",
+          "dropDate": "2027-03-08",
+          "sourceCounting": true
+        },
+        {
+          "event": "J200 Szekesfehervar",
+          "round": "J200",
+          "points": 105,
+          "date": "2025-10-22",
+          "dropDate": "2026-10-21",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Sanxenxo",
+          "round": "J300",
+          "points": 75,
+          "date": "2025-09-23",
+          "dropDate": "2026-09-22",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 75,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Santa Croce Sull’Arno",
+          "round": "J300",
+          "points": 75,
+          "date": "2026-05-11",
+          "dropDate": "2027-05-10",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 0,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-06-29",
+          "dropDate": "2026-06-28",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Bytom",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-07-22",
+          "dropDate": "2026-07-21",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 College Park",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-08-18",
+          "dropDate": "2026-08-17",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Asuncion",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-03-02",
+          "dropDate": "2027-03-01",
+          "sourceCounting": false
+        },
+        {
+          "event": "J200 Oslo",
+          "round": "J200",
+          "points": 0,
+          "date": "2025-11-24",
+          "dropDate": "2026-11-23",
+          "sourceCounting": false
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": false
+        }
+      ],
+      "defending": [],
+      "liveEvent": {
+        "event": "J500 Milan",
+        "grade": "J500",
+        "singlesStatus": "Ativo",
+        "singlesRound": "R32",
+        "singlesPoints": 0,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0,
+        "singlesMaxPoints": 500,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
+      },
+      "sourceUrl": "https://www.itftennis.com/en/players/damir-zhalgasbay/800559166/kaz/jt/s/itf-points-breakdown/"
     },
     {
       "id": "ksenia-efremova",
@@ -2803,11 +7524,11 @@
         "singlesStatus": "Ativo",
         "singlesRound": "R32",
         "singlesPoints": 0,
-        "doublesStatus": "Ativo",
-        "doublesRound": "QF",
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
         "doublesPoints": 0,
         "singlesMaxPoints": 500,
-        "doublesMaxPoints": 375,
+        "doublesMaxPoints": 0,
         "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/victoria-luiza-barros/800655335/bra/jt/s/itf-points-breakdown/"
@@ -3076,11 +7797,11 @@
         "singlesStatus": "Ativo",
         "singlesRound": "R32",
         "singlesPoints": 0,
-        "doublesStatus": "Ativo",
-        "doublesRound": "QF",
-        "doublesPoints": 112,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0,
         "singlesMaxPoints": 500,
-        "doublesMaxPoints": 375,
+        "doublesMaxPoints": 0,
         "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/jana-kovackova/800661515/cze/jt/s/itf-points-breakdown/"
@@ -3559,6 +8280,567 @@
         "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/julia-stusek/800579453/ger/jt/s/itf-points-breakdown/"
+    },
+    {
+      "id": "nauhany-vitoria-leme-da-silva",
+      "name": "Nauhany Vitoria Leme Da Silva",
+      "country": "BRA",
+      "gender": "Girls",
+      "currentRank": 11,
+      "officialPoints": 0,
+      "sourceTotalCombinedPoints": 1677.25,
+      "singles": [
+        {
+          "event": "J500 Gaspar",
+          "round": "J500",
+          "points": 500,
+          "date": "2026-03-16",
+          "dropDate": "2027-03-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Santa Cruz (South America Regional Championships)",
+          "round": "J300",
+          "points": 300,
+          "date": "2026-02-23",
+          "dropDate": "2027-02-22",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Porto Alegre",
+          "round": "J300",
+          "points": 300,
+          "date": "2026-03-09",
+          "dropDate": "2027-03-08",
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 180,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 90,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 90,
+          "date": "2025-06-01",
+          "dropDate": "2026-05-31",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Repentigny",
+          "round": "J300",
+          "points": 60,
+          "date": "2025-08-24",
+          "dropDate": "2026-08-23",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 30,
+          "date": "2025-06-29",
+          "dropDate": "2026-06-28",
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J500 Gaspar",
+          "round": "J500",
+          "points": 262,
+          "date": "2026-03-16",
+          "dropDate": "2027-03-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Santa Cruz (South America Regional Championships)",
+          "round": "J300",
+          "points": 225,
+          "date": "2026-02-23",
+          "dropDate": "2027-02-22",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Porto Alegre",
+          "round": "J300",
+          "points": 225,
+          "date": "2026-03-09",
+          "dropDate": "2027-03-08",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Milan",
+          "round": "J500",
+          "points": 112,
+          "date": "2025-05-19",
+          "dropDate": "2026-05-18",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 45,
+          "date": "2025-06-29",
+          "dropDate": "2026-06-28",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Repentigny",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-08-24",
+          "dropDate": "2026-08-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-06-01",
+          "dropDate": "2026-05-31",
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": false
+        }
+      ],
+      "defending": [
+        {
+          "type": "singles",
+          "event": "J500 Milan",
+          "points": 90,
+          "date": "2026-05-18"
+        },
+        {
+          "type": "doubles",
+          "event": "J500 Milan",
+          "points": 112,
+          "date": "2026-05-18"
+        }
+      ],
+      "liveEvent": {
+        "event": "J500 Milan",
+        "grade": "J500",
+        "singlesStatus": "Ativo",
+        "singlesRound": "R32",
+        "singlesPoints": 0,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0,
+        "singlesMaxPoints": 500,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
+      },
+      "sourceUrl": "https://www.itftennis.com/en/players/nauhany-vitoria-leme-da-silva/800695060/bra/jt/s/itf-points-breakdown/"
+    },
+    {
+      "id": "janae-preston",
+      "name": "Janae Preston",
+      "country": "USA",
+      "gender": "Girls",
+      "currentRank": 21,
+      "officialPoints": 0,
+      "sourceTotalCombinedPoints": 1321,
+      "singles": [
+        {
+          "event": "J300 San Jose",
+          "round": "J300",
+          "points": 300,
+          "date": "2026-01-19",
+          "dropDate": "2027-01-18",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Salinas",
+          "round": "J300",
+          "points": 300,
+          "date": "2026-02-02",
+          "dropDate": "2027-02-01",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Lima",
+          "round": "J300",
+          "points": 300,
+          "date": "2026-02-09",
+          "dropDate": "2027-02-08",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Spring - Pan American ITF",
+          "round": "J300",
+          "points": 100,
+          "date": "2025-10-06",
+          "dropDate": "2026-10-05",
+          "sourceCounting": true
+        },
+        {
+          "event": "J100 Guatemala",
+          "round": "J100",
+          "points": 100,
+          "date": "2025-06-02",
+          "dropDate": "2026-06-01",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Merida",
+          "round": "J500",
+          "points": 90,
+          "date": "2025-11-24",
+          "dropDate": "2026-11-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 90,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 College Park",
+          "round": "J300",
+          "points": 60,
+          "date": "2025-08-18",
+          "dropDate": "2026-08-17",
+          "sourceCounting": false
+        },
+        {
+          "event": "J100 Guatemala",
+          "round": "J100",
+          "points": 60,
+          "date": "2025-06-09",
+          "dropDate": "2026-06-08",
+          "sourceCounting": false
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "round": "J500",
+          "points": 45,
+          "date": "2025-12-08",
+          "dropDate": "2026-12-07",
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J300 Lima",
+          "round": "J300",
+          "points": 157,
+          "date": "2026-02-09",
+          "dropDate": "2027-02-08",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Spring - Pan American ITF",
+          "round": "J300",
+          "points": 105,
+          "date": "2025-10-06",
+          "dropDate": "2026-10-05",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Salinas",
+          "round": "J300",
+          "points": 105,
+          "date": "2026-02-02",
+          "dropDate": "2027-02-01",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Merida",
+          "round": "J500",
+          "points": 67,
+          "date": "2025-11-24",
+          "dropDate": "2026-11-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J100 Guatemala",
+          "round": "J100",
+          "points": 45,
+          "date": "2025-06-02",
+          "dropDate": "2026-06-01",
+          "sourceCounting": true
+        },
+        {
+          "event": "J100 Guatemala",
+          "round": "J100",
+          "points": 45,
+          "date": "2025-06-09",
+          "dropDate": "2026-06-08",
+          "sourceCounting": true
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "round": "J500",
+          "points": 0,
+          "date": "2025-12-08",
+          "dropDate": "2026-12-07",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 College Park",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-08-18",
+          "dropDate": "2026-08-17",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 San Jose",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-01-19",
+          "dropDate": "2027-01-18",
+          "sourceCounting": false
+        }
+      ],
+      "defending": [],
+      "liveEvent": {
+        "event": "J500 Milan",
+        "grade": "J500",
+        "singlesStatus": "Ativo",
+        "singlesRound": "R32",
+        "singlesPoints": 0,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0,
+        "singlesMaxPoints": 500,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
+      },
+      "sourceUrl": "https://www.itftennis.com/en/players/janae-preston/800758791/usa/jt/s/itf-points-breakdown/"
+    },
+    {
+      "id": "yushan-shao",
+      "name": "Yushan Shao",
+      "country": "CHN",
+      "gender": "Girls",
+      "currentRank": 25,
+      "officialPoints": 0,
+      "sourceTotalCombinedPoints": 1244.25,
+      "singles": [
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 300,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Beijing",
+          "round": "J300",
+          "points": 210,
+          "date": "2025-09-16",
+          "dropDate": "2026-09-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 180,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Repentigny",
+          "round": "J300",
+          "points": 140,
+          "date": "2025-08-24",
+          "dropDate": "2026-08-23",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Nonthaburi",
+          "round": "J300",
+          "points": 140,
+          "date": "2026-03-02",
+          "dropDate": "2027-03-01",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bamberg",
+          "round": "J300",
+          "points": 100,
+          "date": "2025-06-10",
+          "dropDate": "2026-06-09",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 College Park",
+          "round": "J300",
+          "points": 100,
+          "date": "2025-08-18",
+          "dropDate": "2026-08-17",
+          "sourceCounting": false
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 90,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 60,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": false
+        },
+        {
+          "event": "Roland Garros Junior Championships",
+          "round": "JGS",
+          "points": 20,
+          "date": "2025-06-01",
+          "dropDate": "2026-05-31",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Charleroi-Marcinelle",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-05-26",
+          "dropDate": "2026-05-25",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-06-29",
+          "dropDate": "2026-06-28",
+          "sourceCounting": false
+        }
+      ],
+      "doubles": [
+        {
+          "event": "J300 Beijing",
+          "round": "J300",
+          "points": 225,
+          "date": "2025-09-16",
+          "dropDate": "2026-09-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 College Park",
+          "round": "J300",
+          "points": 157,
+          "date": "2025-08-18",
+          "dropDate": "2026-08-17",
+          "sourceCounting": true
+        },
+        {
+          "event": "The Junior Championships, Wimbledon",
+          "round": "JGS",
+          "points": 135,
+          "date": "2025-07-05",
+          "dropDate": "2026-07-04",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Traralgon",
+          "round": "J300",
+          "points": 105,
+          "date": "2026-01-16",
+          "dropDate": "2027-01-15",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Bamberg",
+          "round": "J300",
+          "points": 75,
+          "date": "2025-06-10",
+          "dropDate": "2026-06-09",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Charleroi-Marcinelle",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-05-26",
+          "dropDate": "2026-05-25",
+          "sourceCounting": true
+        },
+        {
+          "event": "J300 Roehampton",
+          "round": "J300",
+          "points": 0,
+          "date": "2025-06-29",
+          "dropDate": "2026-06-28",
+          "sourceCounting": false
+        },
+        {
+          "event": "J300 Nonthaburi",
+          "round": "J300",
+          "points": 0,
+          "date": "2026-03-02",
+          "dropDate": "2027-03-01",
+          "sourceCounting": false
+        },
+        {
+          "event": "US Open Junior Tennis Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2025-08-31",
+          "dropDate": "2026-08-30",
+          "sourceCounting": false
+        },
+        {
+          "event": "Australian Open Junior Championships",
+          "round": "JGS",
+          "points": 0,
+          "date": "2026-01-24",
+          "dropDate": "2027-01-23",
+          "sourceCounting": false
+        }
+      ],
+      "defending": [],
+      "liveEvent": {
+        "event": "J500 Milan",
+        "grade": "J500",
+        "singlesStatus": "Ativo",
+        "singlesRound": "R32",
+        "singlesPoints": 0,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0,
+        "singlesMaxPoints": 500,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
+      },
+      "sourceUrl": "https://www.itftennis.com/en/players/yushan-shao/800731351/chn/jt/s/itf-points-breakdown/"
     }
   ],
   "generatedBy": "pipeline/build-latest.mjs",
@@ -3615,6 +8897,6 @@
     "victoria-luiza-barros",
     "xinran-sun"
   ],
-  "partialUpdateReason": "Preserved previous data for: niels-mcdonald, thijs-boogaard, arnav-paparkar, raffaele-ciurnelli, ryan-cozad, daniel-jovanovski, matei-todoran, mark-ceban, emilio-camacho, valentin-gonzalez-galino, daniel-jade, kanta-watanabe, vincent-reisach, jakub-kusy, kirill-filaretov, leon-sloboda, gavin-goode, tanishk-konduri, juan-miguel-bolivar-idarraga, benjamin-azar, lilli-tagger, sol-ailin-larraya-guidi, anastasija-cvetkovic, kanon-sawashiro, charo-esquiva-banuls, ida-wobker, paola-pinera-celorio, mariella-thamm, mariia-makarova, giulia-safina-popa, anna-pushkareva, thea-frodin, alexandra-malova, maaya-rajeshwaran-revathi, felitsata-dorofeeva-rybas, jordyn-hazelitt, polina-skliar, welles-newman, rada-zolotareva, anastasia-lizunova, ruien-zhang, renee-alame, sofie-hettlerova, denisa-zoldakova, maia-ilinca-burcescu, yihan-qu, yu-jun-lin, nadia-lagaev, antonina-sushkova, adelina-lacinova, ha-eum-lee, maria-valentina-pop, alyssa-james, sonja-zhenikhova, luna-maria-cinalli, chukwumelije-clarke, yu-chen-lin",
-  "partialUpdateAt": "19/05/2026, 17:21"
+  "partialUpdateReason": "Preserved previous data for: niels-mcdonald, thijs-boogaard, lilli-tagger, sol-ailin-larraya-guidi, anastasija-cvetkovic, kanon-sawashiro, charo-esquiva-banuls, ida-wobker, paola-pinera-celorio, mariella-thamm, mariia-makarova, giulia-safina-popa, anna-pushkareva, thea-frodin, alexandra-malova, maaya-rajeshwaran-revathi, felitsata-dorofeeva-rybas, jordyn-hazelitt, polina-skliar",
+  "partialUpdateAt": "19/05/2026, 22:49"
 }
