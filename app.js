@@ -305,7 +305,7 @@ function updateStaticText() {
   els.languageSelect.value = state.language;
   els.languageLabel.textContent = t("language");
   els.siteCredit.textContent = t("siteCredit");
-  els.rankingBaseLabel.textContent = "";
+  if (els.rankingBaseLabel) els.rankingBaseLabel.textContent = "";
   if (els.updatedCardLabel) els.updatedCardLabel.textContent = t("updated");
   els.searchLabel.textContent = t("search");
   els.searchInput.placeholder = t("searchPlaceholder");
@@ -319,7 +319,7 @@ function updateStaticText() {
   els.playerPanelTitle.textContent = t("playerPoints");
   els.dataSourceNote.textContent = t("formula");
 
-  if (state.dataSource.rankingDate) els.weekLabel.innerHTML = weekLabelMarkup(state.dataSource.rankingDate);
+  if (state.dataSource.rankingDate && els.weekLabel) els.weekLabel.innerHTML = weekLabelMarkup(state.dataSource.rankingDate);
   if (state.dataSource.updatedAt) els.updatedAtLabel.textContent = state.dataSource.updatedAt;
 }
 
@@ -903,7 +903,6 @@ function renderTable() {
       <tr>
         <th>${t("liveRank")}</th>
         <th>${t("athlete")}</th>
-        <th>${t("officialRank")}</th>
         <th>${t("livePoints")}</th>
         <th>${t("playingThisWeek")}</th>
         <th>${t("nextRound")}</th>
@@ -943,7 +942,6 @@ function renderTable() {
               <strong>${playerNameMarkup(player.name, player.country)}</strong>
             </div>
           </td>
-          <td>${player.currentRank || "-"}</td>
           <td>
             <div class="points-stack">
               <div class="points-cell">
