@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "20/05/2026, 13:21",
+  "scrapedAt": "20/05/2026, 16:37",
   "calendarStartDate": "2026-05",
   "tournaments": [
     {
@@ -286,8 +286,7 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
+            "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
           "drawResultDoubles": {
@@ -337,8 +336,7 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
+            "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
           "drawResultDoubles": {
@@ -365,8 +363,7 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
+            "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
           "drawResultDoubles": {
@@ -716,6 +713,11 @@
           "sex": "boy",
           "juniorRank": 40,
           "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Pendente",
+            "confidence": "pending"
+          },
           "drawResultDoubles": null
         },
         {
@@ -1015,8 +1017,7 @@
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
+            "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           }
         },
@@ -1173,8 +1174,7 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
+            "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
           "drawResultDoubles": {
@@ -1263,8 +1263,7 @@
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
+            "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           }
         },
@@ -1313,8 +1312,7 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
+            "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
           "drawResultDoubles": {
@@ -1342,8 +1340,7 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
+            "confidence": "live-win",
             "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
           },
           "drawResultDoubles": {
@@ -1809,7 +1806,418 @@
       "coreTennisUrls": [
         "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
       ],
-      "drawWarning": "Playwright unavailable; Cannot find package 'playwright' imported from C:\\Users\\genar\\Documents\\Codex\\2026-05-17\\cr-bom-dia-codex-eu-quero\\pipeline\\scrape-weekly-results.mjs"
+      "drawDiagnostic": {
+        "textLength": 0,
+        "lineCount": 0,
+        "firstLines": [],
+        "interestingLines": [],
+        "playerHits": [
+          {
+            "id": "luis-guto-miguel",
+            "name": "Luis Guto Miguel",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "jamie-mackenzie",
+            "name": "Jamie Mackenzie",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "thilo-behrmann",
+            "name": "Thilo Behrmann",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "michael-antonius",
+            "name": "Michael Antonius",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "andrew-johnson",
+            "name": "Andrew Johnson",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "nikita-belozertsev",
+            "name": "Nikita Belozertsev",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "dante-pagani",
+            "name": "Dante Pagani",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "kuan-shou-chen",
+            "name": "Kuan-Shou Chen",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "yannik-alvarez",
+            "name": "Yannik Alvarez",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "nicolas-baena",
+            "name": "Nicolas Baena",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "flynn-thomas",
+            "name": "Flynn Thomas",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "tito-chavez",
+            "name": "Tito Chavez",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "raffaele-ciurnelli",
+            "name": "Raffaele Ciurnelli",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "daniel-jovanovski",
+            "name": "Daniel Jovanovski",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "damir-zhalgasbay",
+            "name": "Damir Zhalgasbay",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "ryan-cozad",
+            "name": "Ryan Cozad",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "matteo-gribaldo",
+            "name": "Matteo Gribaldo",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "gavin-goode",
+            "name": "Gavin Goode",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "kai-thompson",
+            "name": "Kai Thompson",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "emilio-camacho",
+            "name": "Emilio Camacho",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "matei-todoran",
+            "name": "Matei Todoran",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "savva-rybkin",
+            "name": "Savva Rybkin",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "kanta-watanabe",
+            "name": "Kanta Watanabe",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "simone-massellani",
+            "name": "Simone Massellani",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "leon-sloboda",
+            "name": "Leon Sloboda",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "arnav-paparkar",
+            "name": "Arnav Paparkar",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "jack-secord",
+            "name": "Jack Secord",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "tanishk-konduri",
+            "name": "Tanishk Konduri",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "kirill-filaretov",
+            "name": "Kirill Filaretov",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "pedro-henrique-chabalgoity",
+            "name": "Pedro Henrique Chabalgoity",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "juan-miguel-bolivar-idarraga",
+            "name": "Juan Miguel Bolivar Idarraga",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "hyu-kawanishi",
+            "name": "Hyu Kawanishi",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "mark-ceban",
+            "name": "Mark Ceban",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "rihards-neimanis",
+            "name": "Rihards Neimanis",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "benjamin-azar",
+            "name": "Benjamin Azar",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "jana-kovackova",
+            "name": "Jana Kovackova",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "victoria-luiza-barros",
+            "name": "Victoria Luiza Barros",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "xinran-sun",
+            "name": "Xinran Sun",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "nauhany-vitoria-leme-da-silva",
+            "name": "Nauhany Vitoria Leme Da Silva",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "sol-ailin-larraya-guidi",
+            "name": "Sol Ailin Larraya Guidi",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "anastasija-cvetkovic",
+            "name": "Anastasija Cvetkovic",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "mariia-makarova",
+            "name": "Mariia Makarova",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "charo-esquiva-banuls",
+            "name": "Charo Esquiva Banuls",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "ida-wobker",
+            "name": "Ida Wobker",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "yushan-shao",
+            "name": "Yushan Shao",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "janae-preston",
+            "name": "Janae Preston",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "giulia-safina-popa",
+            "name": "Giulia Safina Popa",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "thea-frodin",
+            "name": "Thea Frodin",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "paola-pinera-celorio",
+            "name": "Paola Pinera Celorio",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "felitsata-dorofeeva-rybas",
+            "name": "Felitsata Dorofeeva-Rybas",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "alexandra-malova",
+            "name": "Alexandra Malova",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "maaya-rajeshwaran-revathi",
+            "name": "Maaya Rajeshwaran Revathi",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "jordyn-hazelitt",
+            "name": "Jordyn Hazelitt",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "anna-pushkareva",
+            "name": "Anna Pushkareva",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "yihan-qu",
+            "name": "Yihan Qu",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "welles-newman",
+            "name": "Welles Newman",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "renee-alame",
+            "name": "Renee Alame",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "maia-ilinca-burcescu",
+            "name": "Maia Ilinca Burcescu",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "nadia-lagaev",
+            "name": "Nadia Lagaev",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "adelina-lacinova",
+            "name": "Adelina Lacinova",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "luna-maria-cinalli",
+            "name": "Luna Maria Cinalli",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "yu-chen-lin",
+            "name": "Yu-Chen Lin",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "alyssa-james",
+            "name": "Alyssa James",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "chukwumelije-clarke",
+            "name": "Chukwumelije Clarke",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "yu-jun-lin",
+            "name": "Yu Jun Lin",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "maria-valentina-pop",
+            "name": "Maria Valentina Pop",
+            "hits": 0,
+            "snippets": []
+          }
+        ],
+        "networkUrls": [
+          "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+          "https://www.itftennis.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3",
+          "https://www.itftennis.com/_Incapsula_Resource?SWKMTFSR=1&e=0.9154817067612268",
+          "https://www.itftennis.com/_Incapsula_Resource?SWUDNSAI=31&xinfo=14-131169581-0%202NNN%20RT%281779305815091%2010%29%20q%280%20-1%20-1%200%29%20r%280%20-1%29%20B12%2811%2c14315729%2c0%29%20U18&incident_id=1416000610293500390-738651675409518414&edet=12&cinfo=0b000000&rpinfo=0&cts=1TtLjKJeGXXsifWUNx3onqvifIrOwyCRkhqrYqR8lWoqAovRlLo%2bBdl3vGkjkLm1&cip=52.161.69.167&mth=GET",
+          "https://js.hcaptcha.com/1/api.js",
+          "https://api.hcaptcha.com/checksiteconfig?v=6528675343bbcfa331f287bf983949f75bf1e7bb&host=www.itftennis.com&sitekey=dd6e16a7-972e-47d2-93d0-96642fb6d8de&sc=1&swa=1&spst=1"
+        ]
+      }
     },
     {
       "tournamentName": "J200 Targu Jiu",

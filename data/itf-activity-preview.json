@@ -12,6 +12,103 @@
       "name": "Luis Guto Miguel",
       "activityUrl": "https://www.itftennis.com/en/players/luis-guto-miguel/800680259/bra/jt/s/activity/",
       "doublesActivityUrl": "https://www.itftennis.com/en/players/luis-guto-miguel/800680259/bra/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "yannick-theodor-alexandrescou",
+      "name": "Yannick Theodor Alexandrescou",
+      "activityUrl": "https://www.itftennis.com/en/players/yannick-theodor-alexandrescou/800564683/fra/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/yannick-theodor-alexandrescou/800564683/fra/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "ziga-sesko",
+      "name": "Ziga Sesko",
+      "activityUrl": "https://www.itftennis.com/en/players/ziga-sesko/800579895/slo/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/ziga-sesko/800579895/slo/jt/d/activity/",
+      "tournaments": [
+        {
+          "event": "Australian Open Junior Championships",
+          "startDate": "2026-01-24",
+          "endDate": "2026-02-01",
+          "city": "City/Town: Melbourne",
+          "country": "Nation:",
+          "grade": "AUS",
+          "surface": "Tournament type: JGS",
+          "draw": "Surface: Hard",
+          "matchType": "Draw: Main Draw",
+          "entryType": "Type: Singles",
+          "status": "Ativo",
+          "currentRound": "",
+          "matches": []
+        },
+        {
+          "event": "J300 Traralgon",
+          "startDate": "2026-01-16",
+          "endDate": "2026-01-21",
+          "city": "City/Town: Traralgon",
+          "country": "Nation:",
+          "grade": "AUS",
+          "surface": "Tournament type: J300",
+          "draw": "Surface: Hard",
+          "matchType": "Draw: Main Draw",
+          "entryType": "Type: Singles",
+          "status": "Ativo",
+          "currentRound": "",
+          "matches": []
+        },
+        {
+          "event": "J500 Fort Lauderdale",
+          "startDate": "2025-12-08",
+          "endDate": "2025-12-14",
+          "city": "City/Town: Fort Lauderdale",
+          "country": "Nation:",
+          "grade": "USA",
+          "surface": "Tournament type: J500",
+          "draw": "Surface: Clay",
+          "matchType": "Draw: Main Draw",
+          "entryType": "Type: Singles",
+          "status": "Ativo",
+          "currentRound": "",
+          "matches": []
+        },
+        {
+          "event": "J300 Bradenton",
+          "startDate": "2025-12-01",
+          "endDate": "2025-12-07",
+          "city": "City/Town: Bradenton",
+          "country": "Nation:",
+          "grade": "USA",
+          "surface": "Tournament type: J300",
+          "draw": "Surface: Clay",
+          "matchType": "Draw: Main Draw",
+          "entryType": "Type: Singles",
+          "status": "Ativo",
+          "currentRound": "",
+          "matches": []
+        },
+        {
+          "event": "J500 Merida",
+          "startDate": "2025-11-24",
+          "endDate": "2025-11-30",
+          "city": "City/Town: Merida",
+          "country": "Nation:",
+          "grade": "MEX",
+          "surface": "Tournament type: J500",
+          "draw": "Surface: Clay",
+          "matchType": "Draw: Main Draw",
+          "entryType": "Type: Singles",
+          "status": "Ativo",
+          "currentRound": "",
+          "matches": []
+        }
+      ]
+    },
+    {
+      "id": "jamie-mackenzie",
+      "name": "Jamie Mackenzie",
+      "activityUrl": "https://www.itftennis.com/en/players/jamie-mackenzie/800570117/ger/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/jamie-mackenzie/800570117/ger/jt/d/activity/",
       "tournaments": [
         {
           "event": "J500 Milan",
@@ -20,6 +117,21 @@
           "city": "City/Town: Milan",
           "country": "Nation:",
           "grade": "ITA",
+          "surface": "Tournament type: J500",
+          "draw": "Surface: Clay",
+          "matchType": "Draw: Main Draw",
+          "entryType": "Type: Doubles",
+          "status": "Ativo",
+          "currentRound": "",
+          "matches": []
+        },
+        {
+          "event": "J500 Offenbach",
+          "startDate": "2026-05-04",
+          "endDate": "2026-05-10",
+          "city": "City/Town: Offenbach",
+          "country": "Nation:",
+          "grade": "GER",
           "surface": "Tournament type: J500",
           "draw": "Surface: Clay",
           "matchType": "Draw: Main Draw",
@@ -44,27 +156,12 @@
           "matches": []
         },
         {
-          "event": "J300 Traralgon",
-          "startDate": "2026-01-16",
-          "endDate": "2026-01-21",
-          "city": "City/Town: Traralgon",
+          "event": "J500 Fort Lauderdale",
+          "startDate": "2025-12-08",
+          "endDate": "2025-12-14",
+          "city": "City/Town: Fort Lauderdale",
           "country": "Nation:",
-          "grade": "AUS",
-          "surface": "Tournament type: J300",
-          "draw": "Surface: Hard",
-          "matchType": "Draw: Main Draw",
-          "entryType": "Type: Doubles",
-          "status": "Ativo",
-          "currentRound": "",
-          "matches": []
-        },
-        {
-          "event": "J500 Merida",
-          "startDate": "2025-11-24",
-          "endDate": "2025-11-30",
-          "city": "City/Town: Merida",
-          "country": "Nation:",
-          "grade": "MEX",
+          "grade": "USA",
           "surface": "Tournament type: J500",
           "draw": "Surface: Clay",
           "matchType": "Draw: Main Draw",
@@ -74,14 +171,14 @@
           "matches": []
         },
         {
-          "event": "US Open Junior Tennis Championships",
-          "startDate": "2025-08-31",
-          "endDate": "2025-09-06",
-          "city": "City/Town: New York",
+          "event": "J300 Bradenton",
+          "startDate": "2025-12-01",
+          "endDate": "2025-12-07",
+          "city": "City/Town: Bradenton",
           "country": "Nation:",
           "grade": "USA",
-          "surface": "Tournament type: JGS",
-          "draw": "Surface: Hard",
+          "surface": "Tournament type: J300",
+          "draw": "Surface: Clay",
           "matchType": "Draw: Main Draw",
           "entryType": "Type: Doubles",
           "status": "Ativo",
@@ -89,27 +186,6 @@
           "matches": []
         }
       ]
-    },
-    {
-      "id": "yannick-theodor-alexandrescou",
-      "name": "Yannick Theodor Alexandrescou",
-      "activityUrl": "https://www.itftennis.com/en/players/yannick-theodor-alexandrescou/800564683/fra/jt/s/activity/",
-      "doublesActivityUrl": "https://www.itftennis.com/en/players/yannick-theodor-alexandrescou/800564683/fra/jt/d/activity/",
-      "tournaments": []
-    },
-    {
-      "id": "ziga-sesko",
-      "name": "Ziga Sesko",
-      "activityUrl": "https://www.itftennis.com/en/players/ziga-sesko/800579895/slo/jt/s/activity/",
-      "doublesActivityUrl": "https://www.itftennis.com/en/players/ziga-sesko/800579895/slo/jt/d/activity/",
-      "tournaments": []
-    },
-    {
-      "id": "jamie-mackenzie",
-      "name": "Jamie Mackenzie",
-      "activityUrl": "https://www.itftennis.com/en/players/jamie-mackenzie/800570117/ger/jt/s/activity/",
-      "doublesActivityUrl": "https://www.itftennis.com/en/players/jamie-mackenzie/800570117/ger/jt/d/activity/",
-      "tournaments": []
     },
     {
       "id": "keaton-hance",
@@ -162,9 +238,9 @@
     },
     {
       "id": "niels-mcdonald",
-      "name": "Niels Mcdonald",
-      "activityUrl": "",
-      "doublesActivityUrl": "",
+      "name": "Niels McDonald",
+      "activityUrl": "https://www.itftennis.com/en/players/niels-mcdonald/800572931/ger/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/niels-mcdonald/800572931/ger/jt/d/activity/",
       "tournaments": []
     },
     {
@@ -233,8 +309,8 @@
     {
       "id": "thijs-boogaard",
       "name": "Thijs Boogaard",
-      "activityUrl": "",
-      "doublesActivityUrl": "",
+      "activityUrl": "https://www.itftennis.com/en/players/thijs-boogaard/800575096/ned/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/thijs-boogaard/800575096/ned/jt/d/activity/",
       "tournaments": []
     },
     {
@@ -284,6 +360,146 @@
       "name": "Damir Zhalgasbay",
       "activityUrl": "https://www.itftennis.com/en/players/damir-zhalgasbay/800559166/kaz/jt/s/activity/",
       "doublesActivityUrl": "https://www.itftennis.com/en/players/damir-zhalgasbay/800559166/kaz/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "ryan-cozad",
+      "name": "Ryan Cozad",
+      "activityUrl": "https://www.itftennis.com/en/players/ryan-cozad/800721316/usa/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/ryan-cozad/800721316/usa/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "daniel-jovanovski",
+      "name": "Daniel Jovanovski",
+      "activityUrl": "https://www.itftennis.com/en/players/daniel-jovanovski/800712851/aus/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/daniel-jovanovski/800712851/aus/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "savva-rybkin",
+      "name": "Savva Rybkin",
+      "activityUrl": "https://www.itftennis.com/en/players/savva-rybkin/800590813/rus/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/savva-rybkin/800590813/rus/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "matei-todoran",
+      "name": "Matei Todoran",
+      "activityUrl": "https://www.itftennis.com/en/players/matei-todoran/800565895/rou/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/matei-todoran/800565895/rou/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "mark-ceban",
+      "name": "Mark Ceban",
+      "activityUrl": "https://www.itftennis.com/en/players/mark-ceban/800646827/gbr/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/mark-ceban/800646827/gbr/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "emilio-camacho",
+      "name": "Emilio Camacho",
+      "activityUrl": "https://www.itftennis.com/en/players/emilio-camacho/800654359/ecu/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/emilio-camacho/800654359/ecu/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "valentin-gonzalez-galino",
+      "name": "Valentin Gonzalez-Galino",
+      "activityUrl": "https://www.itftennis.com/en/players/valentin-gonzalez-galino/800594039/esp/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/valentin-gonzalez-galino/800594039/esp/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "daniel-jade",
+      "name": "Daniel Jade",
+      "activityUrl": "https://www.itftennis.com/en/players/daniel-jade/800681412/fra/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/daniel-jade/800681412/fra/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "kanta-watanabe",
+      "name": "Kanta Watanabe",
+      "activityUrl": "https://www.itftennis.com/en/players/kanta-watanabe/800686514/jpn/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/kanta-watanabe/800686514/jpn/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "vincent-reisach",
+      "name": "Vincent Reisach",
+      "activityUrl": "https://www.itftennis.com/en/players/vincent-reisach/800635903/ger/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/vincent-reisach/800635903/ger/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "jakub-kusy",
+      "name": "Jakub Kusy",
+      "activityUrl": "https://www.itftennis.com/en/players/jakub-kusy/800597132/cze/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/jakub-kusy/800597132/cze/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "pedro-henrique-chabalgoity",
+      "name": "Pedro Henrique Chabalgoity",
+      "activityUrl": "https://www.itftennis.com/en/players/pedro-henrique-chabalgoity/800650301/bra/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/pedro-henrique-chabalgoity/800650301/bra/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "kirill-filaretov",
+      "name": "Kirill Filaretov",
+      "activityUrl": "https://www.itftennis.com/en/players/kirill-filaretov/800572955/rus/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/kirill-filaretov/800572955/rus/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "leon-sloboda",
+      "name": "Leon Sloboda",
+      "activityUrl": "https://www.itftennis.com/en/players/leon-sloboda/800661936/svk/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/leon-sloboda/800661936/svk/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "gavin-goode",
+      "name": "Gavin Goode",
+      "activityUrl": "https://www.itftennis.com/en/players/gavin-goode/800754035/usa/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/gavin-goode/800754035/usa/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "jack-secord",
+      "name": "Jack Secord",
+      "activityUrl": "https://www.itftennis.com/en/players/jack-secord/800720203/usa/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/jack-secord/800720203/usa/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "tanishk-konduri",
+      "name": "Tanishk Konduri",
+      "activityUrl": "https://www.itftennis.com/en/players/tanishk-konduri/800793512/usa/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/tanishk-konduri/800793512/usa/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "juan-miguel-bolivar-idarraga",
+      "name": "Juan Miguel Bolivar Idarraga",
+      "activityUrl": "https://www.itftennis.com/en/players/juan-miguel-bolivar-idarraga/800652195/col/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/juan-miguel-bolivar-idarraga/800652195/col/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "rihards-neimanis",
+      "name": "Rihards Neimanis",
+      "activityUrl": "https://www.itftennis.com/en/players/rihards-neimanis/800589275/lat/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/rihards-neimanis/800589275/lat/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "benjamin-azar",
+      "name": "Benjamin Azar",
+      "activityUrl": "https://www.itftennis.com/en/players/benjamin-azar/800672226/can/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/benjamin-azar/800672226/can/jt/d/activity/",
       "tournaments": []
     },
     {
@@ -366,8 +582,8 @@
     {
       "id": "lilli-tagger",
       "name": "Lilli Tagger",
-      "activityUrl": "",
-      "doublesActivityUrl": "",
+      "activityUrl": "https://www.itftennis.com/en/players/lilli-tagger/800564568/aut/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/lilli-tagger/800564568/aut/jt/d/activity/",
       "tournaments": []
     },
     {
@@ -387,8 +603,8 @@
     {
       "id": "kanon-sawashiro",
       "name": "Kanon Sawashiro",
-      "activityUrl": "",
-      "doublesActivityUrl": "",
+      "activityUrl": "https://www.itftennis.com/en/players/kanon-sawashiro/800666095/jpn/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/kanon-sawashiro/800666095/jpn/jt/d/activity/",
       "tournaments": []
     },
     {
@@ -494,6 +710,146 @@
       "name": "Polina Skliar",
       "activityUrl": "https://www.itftennis.com/en/players/polina-skliar/800667265/ukr/jt/s/activity/",
       "doublesActivityUrl": "https://www.itftennis.com/en/players/polina-skliar/800667265/ukr/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "welles-newman",
+      "name": "Welles Newman",
+      "activityUrl": "https://www.itftennis.com/en/players/welles-newman/800705703/usa/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/welles-newman/800705703/usa/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "rada-zolotareva",
+      "name": "Rada Zolotareva",
+      "activityUrl": "https://www.itftennis.com/en/players/rada-zolotareva/800587900/rus/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/rada-zolotareva/800587900/rus/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "anastasia-lizunova",
+      "name": "Anastasia Lizunova",
+      "activityUrl": "https://www.itftennis.com/en/players/anastasia-lizunova/800589857/rus/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/anastasia-lizunova/800589857/rus/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "ruien-zhang",
+      "name": "Ruien Zhang",
+      "activityUrl": "https://www.itftennis.com/en/players/ruien-zhang/800631529/chn/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/ruien-zhang/800631529/chn/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "renee-alame",
+      "name": "Renee Alame",
+      "activityUrl": "https://www.itftennis.com/en/players/renee-alame/800701055/aus/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/renee-alame/800701055/aus/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "sofie-hettlerova",
+      "name": "Sofie Hettlerova",
+      "activityUrl": "https://www.itftennis.com/en/players/sofie-hettlerova/800604444/cze/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/sofie-hettlerova/800604444/cze/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "denisa-zoldakova",
+      "name": "Denisa Zoldakova",
+      "activityUrl": "https://www.itftennis.com/en/players/denisa-zoldakova/800638346/cze/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/denisa-zoldakova/800638346/cze/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "maia-ilinca-burcescu",
+      "name": "Maia Ilinca Burcescu",
+      "activityUrl": "https://www.itftennis.com/en/players/maia-ilinca-burcescu/800636281/rou/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/maia-ilinca-burcescu/800636281/rou/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "yihan-qu",
+      "name": "Yihan Qu",
+      "activityUrl": "https://www.itftennis.com/en/players/yihan-qu/800726989/chn/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/yihan-qu/800726989/chn/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "yu-jun-lin",
+      "name": "Yu Jun Lin",
+      "activityUrl": "https://www.itftennis.com/en/players/yu-jun-lin/800739107/chn/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/yu-jun-lin/800739107/chn/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "nadia-lagaev",
+      "name": "Nadia Lagaev",
+      "activityUrl": "https://www.itftennis.com/en/players/nadia-lagaev/800638930/can/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/nadia-lagaev/800638930/can/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "antonina-sushkova",
+      "name": "Antonina Sushkova",
+      "activityUrl": "https://www.itftennis.com/en/players/antonina-sushkova/800597362/ukr/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/antonina-sushkova/800597362/ukr/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "adelina-lacinova",
+      "name": "Adelina Lacinova",
+      "activityUrl": "https://www.itftennis.com/en/players/adelina-lacinova/800592997/lat/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/adelina-lacinova/800592997/lat/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "ha-eum-lee",
+      "name": "Ha Eum Lee",
+      "activityUrl": "https://www.itftennis.com/en/players/ha-eum-lee/800586389/kor/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/ha-eum-lee/800586389/kor/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "maria-valentina-pop",
+      "name": "Maria Valentina Pop",
+      "activityUrl": "https://www.itftennis.com/en/players/maria-valentina-pop/800664506/rou/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/maria-valentina-pop/800664506/rou/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "alyssa-james",
+      "name": "Alyssa James",
+      "activityUrl": "https://www.itftennis.com/en/players/alyssa-james/800693920/jam/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/alyssa-james/800693920/jam/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "sonja-zhenikhova",
+      "name": "Sonja Zhenikhova",
+      "activityUrl": "https://www.itftennis.com/en/players/sonja-zhenikhova/800595691/ger/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/sonja-zhenikhova/800595691/ger/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "luna-maria-cinalli",
+      "name": "Luna Maria Cinalli",
+      "activityUrl": "https://www.itftennis.com/en/players/luna-maria-cinalli/800644753/arg/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/luna-maria-cinalli/800644753/arg/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "chukwumelije-clarke",
+      "name": "Chukwumelije Clarke",
+      "activityUrl": "https://www.itftennis.com/en/players/chukwumelije-clarke/800719735/usa/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/chukwumelije-clarke/800719735/usa/jt/d/activity/",
+      "tournaments": []
+    },
+    {
+      "id": "yu-chen-lin",
+      "name": "Yu-Chen Lin",
+      "activityUrl": "https://www.itftennis.com/en/players/yu-chen-lin/800708800/tpe/jt/s/activity/",
+      "doublesActivityUrl": "https://www.itftennis.com/en/players/yu-chen-lin/800708800/tpe/jt/d/activity/",
       "tournaments": []
     }
   ]
