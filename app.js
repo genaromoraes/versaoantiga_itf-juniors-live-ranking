@@ -700,9 +700,72 @@ function pointsEntryLines(player) {
   return entries;
 }
 
+const countryFlagMap = {
+  ARG: "ar",
+  AUS: "au",
+  AUT: "at",
+  BEL: "be",
+  BLR: "",
+  BRA: "br",
+  BUL: "bg",
+  CAN: "ca",
+  CHN: "cn",
+  COL: "co",
+  CZE: "cz",
+  ECU: "ec",
+  ESP: "es",
+  FRA: "fr",
+  GBR: "gb",
+  GER: "de",
+  HKG: "hk",
+  IND: "in",
+  ITA: "it",
+  JPN: "jp",
+  KAZ: "kz",
+  LAT: "lv",
+  MEX: "mx",
+  NED: "nl",
+  NOR: "no",
+  PER: "pe",
+  PUR: "pr",
+  ROU: "ro",
+  RUS: "",
+  SLO: "si",
+  SRB: "rs",
+  SVK: "sk",
+  SUI: "ch",
+  TPE: "tw",
+  USA: "us",
+  UZB: "uz"
+};
+
 function flagMarkup(country = "") {
-  const code = String(country).toLowerCase();
-  return `<span class="country-badge country-${code}" title="${country}" aria-label="${country}">${country}</span>`;
+  const code = String(country || "").trim().toUpperCase();
+  const flagCode = countryFlagMap[code] || "";
+  if (!flagCode) {
+    return `<span class="flag-fallback" title="${code}" aria-label="${code}">${code}</span>`;
+  }
+
+  return `
+    <span class="flag-mark" title="${code}" aria-label="${code}">
+      <img
+        class="flag-icon"
+        src="https://flagcdn.com/20x15/${flagCode}.png"
+        srcset="https://flagcdn.com/40x30/${flagCode}.png 2x"
+        alt="${code}"
+        loading="lazy"
+      />
+    </span>
+  `;
+}
+
+function playerNameMarkup(name = "", country = "") {
+  return `
+    <span class="player-name">
+      ${flagMarkup(country)}
+      <span>${escapeHtml(name)}</span>
+    </span>
+  `;
 }
 
 function movementLabel(player) {
@@ -859,8 +922,7 @@ function renderTable() {
             <td><strong class="rank">${player.currentRank || "-"}</strong></td>
             <td>
               <div class="player">
-                <strong>${player.name}</strong>
-                <span>${flagMarkup(player.country)}</span>
+                <strong>${playerNameMarkup(player.name, player.country)}</strong>
               </div>
             </td>
             <td><strong class="official-points">${formatNumber(officialPoints(player))}</strong></td>
@@ -878,8 +940,7 @@ function renderTable() {
           </td>
           <td>
             <div class="player">
-              <strong>${player.name}</strong>
-              <span>${flagMarkup(player.country)}</span>
+              <strong>${playerNameMarkup(player.name, player.country)}</strong>
             </div>
           </td>
           <td>${player.currentRank || "-"}</td>
@@ -969,8 +1030,8 @@ function renderDetails(playerId) {
   els.playerDetails.className = "";
   els.playerDetails.innerHTML = `
     <div class="player detail-player">
-      <strong>${player.name}</strong>
-      <span>${flagMarkup(player.country)} ${t("official")} ${player.currentRank} · live ${formatNumber(player.livePoints)} · ${t("maximum")} ${formatNumber(player.maxPoints)}</span>
+      <strong>${playerNameMarkup(player.name, player.country)}</strong>
+      <span>${t("official")} ${player.currentRank} · live ${formatNumber(player.livePoints)} · ${t("maximum")} ${formatNumber(player.maxPoints)}</span>
       <span>${player.liveEvent.event || "-"} · ${phaseText(player.liveEvent)}</span>
     </div>
     ${resultMarkup(singlesResults, t("singles"))}

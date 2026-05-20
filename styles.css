@@ -417,18 +417,47 @@ tbody tr.is-selected {
   line-height: 1.12;
 }
 
+.player-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.flag-mark,
+.flag-fallback {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+}
+
+.flag-icon {
+  display: block;
+  width: 16px;
+  height: 12px;
+  border: 1px solid rgba(24, 32, 38, 0.08);
+  border-radius: 2px;
+  object-fit: cover;
+  background: #fff;
+}
+
+.flag-fallback {
+  min-height: 14px;
+  padding: 0 4px;
+  border-radius: 4px;
+  background: #edf4f2;
+  color: var(--accent);
+  font-size: 0.58rem;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+}
+
 .player span,
 .tournament,
 .small {
   color: var(--muted);
   font-size: 0.72rem;
   line-height: 1.1;
-}
-
-.player span {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
 }
 
 .country-badge {
