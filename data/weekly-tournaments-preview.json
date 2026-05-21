@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "20/05/2026, 21:48",
+  "scrapedAt": "20/05/2026, 22:12",
   "calendarStartDate": "2026-05",
   "tournaments": [
     {
@@ -738,11 +738,6 @@
           "sex": "boy",
           "juniorRank": 40,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -1043,11 +1038,6 @@
           "sex": "boy",
           "juniorRank": 52,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -1093,11 +1083,6 @@
           "sex": "boy",
           "juniorRank": 55,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -1115,11 +1100,6 @@
           "sex": "boy",
           "juniorRank": 57,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -1137,11 +1117,6 @@
           "sex": "boy",
           "juniorRank": 59,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": {
             "status": "Eliminado",
             "currentRound": "R16",
@@ -1164,11 +1139,6 @@
           "sex": "boy",
           "juniorRank": 62,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -1186,11 +1156,6 @@
           "sex": "boy",
           "juniorRank": 63,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -1236,11 +1201,6 @@
           "sex": "boy",
           "juniorRank": 68,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": {
             "status": "Eliminado",
             "currentRound": "R16",
@@ -1263,11 +1223,6 @@
           "sex": "boy",
           "juniorRank": 71,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -1285,11 +1240,6 @@
           "sex": "boy",
           "juniorRank": 73,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -1307,11 +1257,6 @@
           "sex": "boy",
           "juniorRank": 75,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -1329,11 +1274,6 @@
           "sex": "boy",
           "juniorRank": 76,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
@@ -1356,11 +1296,6 @@
           "sex": "boy",
           "juniorRank": 81,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -1378,11 +1313,6 @@
           "sex": "boy",
           "juniorRank": 82,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -1400,11 +1330,6 @@
           "sex": "boy",
           "juniorRank": 84,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -1422,11 +1347,6 @@
           "sex": "boy",
           "juniorRank": 90,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -1444,11 +1364,6 @@
           "sex": "boy",
           "juniorRank": 91,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -1466,11 +1381,6 @@
           "sex": "boy",
           "juniorRank": 92,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -1488,11 +1398,6 @@
           "sex": "boy",
           "juniorRank": 95,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -1561,11 +1466,6 @@
           "sex": "boy",
           "juniorRank": 118,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -1583,11 +1483,6 @@
           "sex": "boy",
           "juniorRank": 124,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -1633,11 +1528,6 @@
           "sex": "boy",
           "juniorRank": 137,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -1683,11 +1573,6 @@
           "sex": "boy",
           "juniorRank": 150,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -2648,11 +2533,6 @@
           "sex": "girl",
           "juniorRank": 62,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -2670,11 +2550,6 @@
           "sex": "girl",
           "juniorRank": 64,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -2692,11 +2567,6 @@
           "sex": "girl",
           "juniorRank": 65,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
@@ -2742,11 +2612,6 @@
           "sex": "girl",
           "juniorRank": 67,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -2820,11 +2685,6 @@
           "sex": "girl",
           "juniorRank": 74,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -2842,11 +2702,6 @@
           "sex": "girl",
           "juniorRank": 75,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": {
             "status": "Eliminado",
             "currentRound": "R16",
@@ -2925,11 +2780,6 @@
           "sex": "girl",
           "juniorRank": 83,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": {
             "status": "Eliminado",
             "currentRound": "R16",
@@ -2952,11 +2802,6 @@
           "sex": "girl",
           "juniorRank": 89,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -2974,11 +2819,6 @@
           "sex": "girl",
           "juniorRank": 91,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -2996,11 +2836,6 @@
           "sex": "girl",
           "juniorRank": 97,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -3046,11 +2881,6 @@
           "sex": "girl",
           "juniorRank": 109,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -3068,11 +2898,6 @@
           "sex": "girl",
           "juniorRank": 110,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -3090,11 +2915,6 @@
           "sex": "girl",
           "juniorRank": 117,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -3140,11 +2960,6 @@
           "sex": "girl",
           "juniorRank": 129,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -3162,11 +2977,6 @@
           "sex": "girl",
           "juniorRank": 136,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -3207,11 +3017,6 @@
           "sex": "girl",
           "juniorRank": 152,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -3229,11 +3034,6 @@
           "sex": "girl",
           "juniorRank": 161,
           "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "Pendente",
-            "confidence": "pending"
-          },
           "drawResultDoubles": null
         },
         {
@@ -3269,938 +3069,7 @@
       "coreTennisUrls": [
         "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
       ],
-      "drawDiagnostic": {
-        "textLength": 8662,
-        "lineCount": 758,
-        "firstLines": [
-          "We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience and analyze website traffic. By clicking “Accept,” you agree to our website's cookie use as described in our Cookie Policy. You can change your cookie settings at any time by clicking “Preferences.”",
-          "Preferences",
-          "Decline",
-          "Accept",
-          "Sign Up",
-          "Register to receive unrivalled access to the world of tennis",
-          "Get all the latest news, information plus access to exclusive content and offers from across the world of tennis, including the Billie Jean King Cup, Davis Cup and ITF World Tennis Number.",
-          "Yes I would like to receive news, information and special offers via email, from the ITF",
-          "For details on how we use your data, please visit our Marketing Privacy Notice on the ITF website. You can unsubscribe any time.",
-          "New | Audio",
-          "SUBMIT",
-          "EN",
-          "SIGN UP",
-          "IPIN",
-          "TOURNAMENTS",
-          "ITF WORLD TENNIS TOUR CALENDARS",
-          "Women's Calendar",
-          "Men's Calendar",
-          "Juniors Calendar",
-          "ITF TOURNAMENT CALENDARS",
-          "Masters Tour Calendar",
-          "Wheelchair Tennis Calendar",
-          "Beach Tennis Calendar",
-          "ITF COMPETITION CALENDARS",
-          "Billie Jean King Cup Calendar",
-          "Davis Cup Calendar",
-          "ITF TOURS",
-          "TOURS",
-          "Women's World Tennis Tour",
-          "Men's World Tennis Tour",
-          "World Tennis Tour Juniors",
-          "Live match centre",
-          "World Tennis Masters Tour",
-          "UNIQLO Wheelchair Tennis Tour",
-          "Beach Tennis World Tour",
-          "WORLD CUP OF TENNIS",
-          "Davis Cup",
-          "Billie Jean King Cup",
-          "COMPETITIONS",
-          "Junior Team Competitions",
-          "World Tennis Tour Junior Finals",
-          "Wheelchair World Team Cup",
-          "Wheelchair Singles and Doubles Masters",
-          "Masters World Championships",
-          "Tie Break Tens",
-          "LA 2028",
-          "Olympic Tennis Event",
-          "Paralympic Wheelchair Tennis Event",
-          "MORE",
-          "Grand Slam tournaments",
-          "Wheelchair Tennis Hall of Champions",
-          "eSports",
-          "PLAYERS",
-          "RESULTS",
-          "RANKINGS",
-          "WORLD TENNIS TOUR RANKINGS",
-          "Women's",
-          "Men's",
-          "Juniors",
-          "RANKINGS",
-          "Masters Tour",
-          "Wheelchair Tennis",
-          "Beach Tennis",
-          "TEAM COMPETITION RANKINGS",
-          "Billie Jean King Cup",
-          "Davis Cup",
-          "NEWS",
-          "ALL NEWS",
-          "Latest News",
-          "Latest photos",
-          "TOURS",
-          "Women's World Tennis Tour",
-          "Men's World Tennis Tour",
-          "World Tennis Tour Juniors",
-          "World Tennis Masters Tour",
-          "UNIQLO Wheelchair Tennis Tour",
-          "Beach Tennis World Tour",
-          "OLYMPICS",
-          "Olympics",
-          "Paralympics"
-        ],
-        "interestingLines": [
-          "BOYS",
-          "SINGLES",
-          "MAIN DRAW",
-          "BYE"
-        ],
-        "playerHits": [
-          {
-            "id": "luis-guto-miguel",
-            "name": "Luis Guto Miguel",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "jamie-mackenzie",
-            "name": "Jamie Mackenzie",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "thilo-behrmann",
-            "name": "Thilo Behrmann",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "michael-antonius",
-            "name": "Michael Antonius",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "andrew-johnson",
-            "name": "Andrew Johnson",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "nikita-belozertsev",
-            "name": "Nikita Belozertsev",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "dante-pagani",
-            "name": "Dante Pagani",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "kuan-shou-chen",
-            "name": "Kuan-Shou Chen",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "yannik-alvarez",
-            "name": "Yannik Alvarez",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "nicolas-baena",
-            "name": "Nicolas Baena",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "flynn-thomas",
-            "name": "Flynn Thomas",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "tito-chavez",
-            "name": "Tito Chavez",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "raffaele-ciurnelli",
-            "name": "Raffaele Ciurnelli",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "daniel-jovanovski",
-            "name": "Daniel Jovanovski",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "damir-zhalgasbay",
-            "name": "Damir Zhalgasbay",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "ryan-cozad",
-            "name": "Ryan Cozad",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "matteo-gribaldo",
-            "name": "Matteo Gribaldo",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "gavin-goode",
-            "name": "Gavin Goode",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "kai-thompson",
-            "name": "Kai Thompson",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "emilio-camacho",
-            "name": "Emilio Camacho",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "matei-todoran",
-            "name": "Matei Todoran",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "savva-rybkin",
-            "name": "Savva Rybkin",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "kanta-watanabe",
-            "name": "Kanta Watanabe",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "simone-massellani",
-            "name": "Simone Massellani",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "leon-sloboda",
-            "name": "Leon Sloboda",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "arnav-paparkar",
-            "name": "Arnav Paparkar",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "jack-secord",
-            "name": "Jack Secord",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "tanishk-konduri",
-            "name": "Tanishk Konduri",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "kirill-filaretov",
-            "name": "Kirill Filaretov",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "pedro-henrique-chabalgoity",
-            "name": "Pedro Henrique Chabalgoity",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "juan-miguel-bolivar-idarraga",
-            "name": "Juan Miguel Bolivar Idarraga",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "hyu-kawanishi",
-            "name": "Hyu Kawanishi",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "connor-doig",
-            "name": "Connor Doig",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "mark-ceban",
-            "name": "Mark Ceban",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "rihards-neimanis",
-            "name": "Rihards Neimanis",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "benjamin-azar",
-            "name": "Benjamin Azar",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "john-bothma",
-            "name": "John Bothma",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "dan-brand",
-            "name": "Dan Brand",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "xavier-massotte",
-            "name": "Xavier Massotte",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "jan-sadzik",
-            "name": "Jan Sadzik",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "mustafa-ege-sik",
-            "name": "Mustafa Ege Sik",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "marat-salbiev",
-            "name": "Marat Salbiev",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "oluwaseun-peter-ogunsakin",
-            "name": "OLUWASEUN PETER OGUNSAKIN",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "eudald-gonzalez",
-            "name": "Eudald Gonzalez",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "rhys-lawlor",
-            "name": "Rhys Lawlor",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "lucas-yunez",
-            "name": "Lucas Yunez",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "matei-victor-chelemen",
-            "name": "Matei Victor Chelemen",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "daniel-tazabekov",
-            "name": "Daniel Tazabekov",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "leonardo-storck-franca",
-            "name": "Leonardo Storck Franca",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "agassi-rusher",
-            "name": "Agassi Rusher",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "felix-roussel",
-            "name": "Felix Roussel",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "min-hyuk-cho",
-            "name": "Min Hyuk Cho",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "cooper-kose",
-            "name": "Cooper Kose",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "luis-andres-flores-avila",
-            "name": "Luis Andres Flores Avila",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "alberto-pulido-moreno",
-            "name": "Alberto Pulido Moreno",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "marko-bekeni",
-            "name": "Marko Bekeni",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "koki-nara",
-            "name": "Koki Nara",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "filippo-alfano",
-            "name": "Filippo Alfano",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "yen-chun-wang",
-            "name": "Yen-Chun Wang",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "felipe-mamede",
-            "name": "Felipe Mamede",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "jordan-lee",
-            "name": "Jordan Lee",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "jerrid-gaines-jr",
-            "name": "Jerrid Gaines Jr",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "matisse-martin",
-            "name": "Matisse MARTIN",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "richard-lacis",
-            "name": "Richard Lacis",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "jana-kovackova",
-            "name": "Jana Kovackova",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "victoria-luiza-barros",
-            "name": "Victoria Luiza Barros",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "xinran-sun",
-            "name": "Xinran Sun",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "nauhany-vitoria-leme-da-silva",
-            "name": "Nauhany Vitoria Leme Da Silva",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "sol-ailin-larraya-guidi",
-            "name": "Sol Ailin Larraya Guidi",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "anastasija-cvetkovic",
-            "name": "Anastasija Cvetkovic",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "mariia-makarova",
-            "name": "Mariia Makarova",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "charo-esquiva-banuls",
-            "name": "Charo Esquiva Banuls",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "ida-wobker",
-            "name": "Ida Wobker",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "yushan-shao",
-            "name": "Yushan Shao",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "janae-preston",
-            "name": "Janae Preston",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "giulia-safina-popa",
-            "name": "Giulia Safina Popa",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "thea-frodin",
-            "name": "Thea Frodin",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "paola-pinera-celorio",
-            "name": "Paola Pinera Celorio",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "felitsata-dorofeeva-rybas",
-            "name": "Felitsata Dorofeeva-Rybas",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "alexandra-malova",
-            "name": "Alexandra Malova",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "maaya-rajeshwaran-revathi",
-            "name": "Maaya Rajeshwaran Revathi",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "jordyn-hazelitt",
-            "name": "Jordyn Hazelitt",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "anna-pushkareva",
-            "name": "Anna Pushkareva",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "yihan-qu",
-            "name": "Yihan Qu",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "welles-newman",
-            "name": "Welles Newman",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "renee-alame",
-            "name": "Renee Alame",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "maia-ilinca-burcescu",
-            "name": "Maia Ilinca Burcescu",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "nadia-lagaev",
-            "name": "Nadia Lagaev",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "adelina-lacinova",
-            "name": "Adelina Lacinova",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "luna-maria-cinalli",
-            "name": "Luna Maria Cinalli",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "yu-chen-lin",
-            "name": "Yu-Chen Lin",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "alyssa-james",
-            "name": "Alyssa James",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "chukwumelije-clarke",
-            "name": "Chukwumelije Clarke",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "tereza-hermanova",
-            "name": "Tereza Hermanova",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "lana-virc",
-            "name": "Lana Virc",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "lani-chang",
-            "name": "Lani Chang",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "yu-jun-lin",
-            "name": "Yu Jun Lin",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "hollie-smart",
-            "name": "Hollie Smart",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "sofia-meabe",
-            "name": "Sofia Meabe",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "olivia-traynor",
-            "name": "Olivia Traynor",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "pietra-rivoli",
-            "name": "Pietra Rivoli",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "zhang-qian-wei",
-            "name": "Zhang-Qian Wei",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "nancy-lee",
-            "name": "Nancy Lee",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "katerina-zajickova",
-            "name": "Katerina Zajickova",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "ilary-pistola",
-            "name": "Ilary Pistola",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "sarah-ye",
-            "name": "Sarah Ye",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "polina-berezina",
-            "name": "Polina Berezina",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "maria-valentina-pop",
-            "name": "Maria Valentina Pop",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "marija-lauva",
-            "name": "Marija Lauva",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "carrie-anne-hoo",
-            "name": "Carrie-Anne Hoo",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "anita-tu",
-            "name": "Anita Tu",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "marianne-angel",
-            "name": "Marianne Angel",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "yeri-hong",
-            "name": "Yeri Hong",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "sakino-miyazawa",
-            "name": "Sakino Miyazawa",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "jizelle-sibai",
-            "name": "Jizelle Sibai",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "avery-alexander",
-            "name": "Avery Alexander",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "isabelle-thi-deluccia-deluccia",
-            "name": "Isabelle Thi DeLuccia DeLuccia",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "ophelia-korpanec-davies",
-            "name": "Ophelia Korpanec Davies",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "londyn-mccord",
-            "name": "Londyn McCord",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "nathalia-pontes-tourinho",
-            "name": "Nathalia Pontes Tourinho",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "ru-xi-wu",
-            "name": "Ru Xi Wu",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "michelle-khomich",
-            "name": "Michelle Khomich",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "kennedy-drenser-hagmann",
-            "name": "Kennedy Drenser-Hagmann",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "lujza-beviz",
-            "name": "Lujza Beviz",
-            "hits": 0,
-            "snippets": []
-          }
-        ],
-        "networkUrls": [
-          "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
-          "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results/",
-          "https://www.itftennis.com/media/8566/wtt-asset-amended.jpg",
-          "https://itftennis-ep.azureedge.net/media/assets/bundle.css?key=@assemblyVersion",
-          "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap",
-          "https://itftennis-ep.azureedge.net/media/assets/bundle.js?key=@assemblyVersion",
-          "https://www.itftennis.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=1919943805",
-          "https://itftennis-ep.azureedge.net/media/assets/images/stripes.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_LATEST%20NEWS.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_PLAYER%20FEATURES.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_DRAWS,%20FIXTURES.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_TIE%20HIGHLIGHTS.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_FIRST%20TO%20HEAR.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_EXCLUSIVE%20C&P.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/fb-dark.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/insta-dark.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/youtube-dark.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/envelope.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/unlock.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/search-dark.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/close-outlined--dark.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/site-logo.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/external-link-light.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/twitter-light.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/shop_icon.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/arrow-right.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/surface-clay.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/10.css",
-          "https://www.itftennis.com/media/16544/club-view-2.jpg?anchor=center&amp;mode=crop&amp;width=1440&amp;height=415&amp;rnd=134232474470000000",
-          "https://itftennis-ep.azureedge.net/media/assets/images/info-inactive.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/acceptance-list.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/media-icon.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/op-light-inactive.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/champions_icon--grey.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/draw-light-active.svg",
-          "https://www.itftennis.com/media/14909/tennis-point-logo-colour-1.png",
-          "https://widgets.itf-production.sports-data.stadion.io/itf-widget-sdk.umd.js",
-          "https://itftennis-ep.azureedge.net/media/assets/10.bundle.js",
-          "https://www.itftennis.com/_Incapsula_Resource?SWKMTFSR=1&e=0.8503407035012575",
-          "https://itftennis-ep.azureedge.net/media/assets/images/tennis_id_logo.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/sign-up__mobile-app.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/sign-up__splash-background.jpg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/chevron-right-grey.svg",
-          "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap",
-          "https://itftennis-ep.azureedge.net/media/assets/images/calendar.svg",
-          "https://connect.facebook.net/signals/config/1025417051169198?v=2.9.324&r=stable&domain=www.itftennis.com&hme=af8aa31887db259becaf70277daef60bd8bc35c2df82c2acd4258de27ecac4b5&ex_m=104%2C207%2C155%2C22%2C72%2C73%2C146%2C68%2C67%2C11%2C164%2C90%2C16%2C138%2C127%2C39%2C75%2C78%2C134%2C160%2C166%2C8%2C4%2C5%2C7%2C6%2C3%2C91%2C101%2C167%2C172%2C221%2C62%2C188%2C189%2C55%2C279%2C30%2C74%2C233%2C232%2C231%2C23%2C33%2C103%2C61%2C10%2C63%2C97%2C98%2C99%2C105%2C130%2C31%2C29%2C132%2C133%2C129%2C128%2C156%2C76%2C159%2C157%2C158%2C50%2C60%2C123%2C15%2C163%2C45%2C266%2C267%2C265%2C26%2C27%2C28%2C48%2C147%2C77%2C112%2C18%2C20%2C44%2C40%2C42%2C41%2C83%2C92%2C96%2C110%2C145%2C148%2C46%2C111%2C24%2C21%2C119%2C69%2C36%2C150%2C149%2C151%2C142%2C140%2C25%2C35%2C59%2C109%2C162%2C70%2C17%2C153%2C114%2C81%2C66%2C19%2C85%2C86%2C116%2C84%2C136%2C135%2C139%2C161%2C34%2C281%2C297%2C214%2C203%2C204%2C202%2C300%2C291%2C52%2C215%2C107%2C131%2C80%2C121%2C54%2C47%2C49%2C113%2C120%2C126%2C125%2C58%2C64%2C152%2C115%2C37%2C32%2C53%2C56%2C100%2C165%2C1%2C124%2C14%2C122%2C12%2C2%2C57%2C93%2C65%2C118%2C89%2C88%2C168%2C169%2C94%2C95%2C9%2C102%2C51%2C143%2C87%2C79%2C71%2C117%2C106%2C43%2C144%2C0%2C82%2C137%2C141%2C154%2C38%2C108%2C13%2C170",
-          "https://www.itftennis.com/tennis/api/TournamentApi/GetEventFilters?tournamentKey=j-j500-ita-2026-001",
-          "https://itftennis-ep.azureedge.net/media/assets/images/loading.gif",
-          "https://cm.g.doubleclick.net/partnerpixels?url=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj500-milan%2Fita%2F2026%2Fj-j500-ita-2026-001%2Fdraws-and-results%2F",
-          "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=3915513348234949&correlator=2279073220747624&eid=31098669%2C31098635%2C31098203&output=ldjh&gdfp_req=1&vrg=202605180101&ptt=17&impl=fifs&iu_parts=23328656850%2Citf%2Cprimary_below_nav%2Ctournament_feature_banner&enc_prev_ius=%2F0%2F1%2F2%2C%2F0%2F1%2F3&prev_iu_szs=728x90%7C320x100%7C970x250%7C320x50%7C970x90%2C320x50%7C320x100%7C728x90%7C970x250%7C970x90&ifi=1&dids=div-gpt-ad-1768303440211-0~div-gpt-ad-1768303600172-0&adfs=2433876935~3601381602&sfv=1-0-45&sc=1&cookie_enabled=1&abxe=1&dt=1779324510927&lmt=1779324510&adxs=276%2C480&adys=179%2C699&biw=1280&bih=720&scr_x=0&scr_y=0&btvi=0%7C0&ucis=1%7C2&oid=2&u_his=2&u_h=720&u_w=1280&u_ah=720&u_aw=1280&u_cd=24&u_sd=1&dmc=16&bc=31&nvt=1&uach=WyJMaW51eCIsIiIsIng4NiIsIiIsIjE0OC4wLjc3NzguOTYiLG51bGwsMCxudWxsLCI2NCIsW1siQ2hyb21pdW0iLCIxNDguMC43Nzc4Ljk2Il0sWyJIZWFkbGVzc0Nocm9tZSIsIjE0OC4wLjc3NzguOTYiXSxbIk5vdC9BKUJyYW5kIiwiOTkuMC4wLjAiXV0sMF0.&url=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj500-milan%2Fita%2F2026%2Fj-j500-ita-2026-001%2Fdraws-and-results%2F&vis=1&psz=970x90%7C970x90&msz=728x50%7C320x50&fws=4%2C4&ohw=1280%2C1280&dlt=1779324510077&idt=638&cust_params=tour%3Djuniors%26tournament_id%3DJ-J500-ITA-2026-001%26location%3DMilan%26country%3DItaly&adks=2599182603%2C2569989109&frm=20&eoidce=1&pgls=CAk.",
-          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/script?fid=a0064c3d-6d42-4e91-9b13-e6de9f953180&type=visual&rnd=39ad3715-fc93-4ece-b014-373a032e2810&mkt=en",
-          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/forms/221840a7-9abb-ee11-9078-6045bd127be4/visits",
-          "https://app.termly.io/api/v1/snippets/websites/736a1a74-e471-43b1-9611-36ab129ebc69/cookies?lang=en",
-          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65j1v9100208071za20gzb898764819zd898764819&_p=1779324510083&_gaz=1&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AEIEAGA&are=1&cid=2014415740.1779324511&frm=0&pscdl=noapi&rcb=15&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938469&sid=1779324511&sct=1&seg=0&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj500-milan%2Fita%2F2026%2Fj-j500-ita-2026-001%2Fdraws-and-results%2F&dt=J500%20Milan%3A%20Watch%20and%20follow%20the%20ITF%20World%20Tennis%20Tour%20Junior%20event&_tu=CA&en=ad_impression&_fv=1&_nsi=1&_ss=1&ep.tournamentName=&ep.playersName=&ep.query_id=CLTEqquUyZQDFQqG0QQd78IWMQ&tfd=1260",
-          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65j1v9100208071za20gzb898764819zd898764819&_p=1779324510083&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AEIEAGQ&are=1&cid=2014415740.1779324511&frm=0&pscdl=noapi&rcb=15&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938469&sid=1779324511&sct=1&seg=0&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj500-milan%2Fita%2F2026%2Fj-j500-ita-2026-001%2Fdraws-and-results%2F&dt=J500%20Milan%3A%20Watch%20and%20follow%20the%20ITF%20World%20Tennis%20Tour%20Junior%20event&_tu=CA&en=ad_impression&ep.tournamentName=&ep.playersName=&ep.query_id=CLXEqquUyZQDFQqG0QQd78IWMQ&_et=4&tfd=1268",
-          "https://app.termly.io/api/v1/snippets/websites/736a1a74-e471-43b1-9611-36ab129ebc69/statistics",
-          "https://analytics.tiktok.com/api/v2/pixel",
-          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/challenge/visual?flowId=a0064c3d-6d42-4e91-9b13-e6de9f953180&rnd=22183bd53cee41eaabfd182422bf4895&market=en",
-          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65j1v9100208071z8898764819za20gzb898764819zd898764819&_p=1779324510083&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AAAAAGQ&are=1&cid=2014415740.1779324511&frm=0&pscdl=noapi&rcb=15&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115938465~115938469&sid=1779324511&sct=1&seg=1&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj500-milan%2Fita%2F2026%2Fj-j500-ita-2026-001%2Fdraws-and-results%2F&dt=J500%20Milan%3A%20Watch%20and%20follow%20the%20ITF%20World%20Tennis%20Tour%20Junior%20event&_tu=CA&en=page_view&ep.tournamentName=&ep.playersName=&tfd=1573",
-          "https://www.google.com/recaptcha/api2/aframe",
-          "https://analytics.tiktok.com/api/v2/pixel/act",
-          "https://ep1.adtrafficquality.google/pagead/sodar?id=sodar2&v=254&t=2&li=gpt_m202605180101&jk=3915513348234949&bg=!VValVjTNAAYUUpX8NFI7AEcBe5WfOGt_9YQBlgQ--8vl8R14w3blHS4J1LU0SqGkWuh6UFx-NjJQKechMMP7XwcZIXPShaEwqvzXXCOQXdR4qKO_9cFuNwIAAABCUgAAAARoAQd-ADYzVtFdvn9zYypedaKhQIxytz8mW4hPVLFJGokSi3Gps1H2N4XcBauDuoWpZGotfWIaK3IeXjmZApIfAzUWYNj-BSy02MLtTkthmVWygFdgK6iW0J808wzxsvCHNBB597kY3ekGkZQ8HYMRyX8xsrqB3WDe4eiqa-yzR8_tB-0lPGTEC7pAcn_QEwUVo6MnF4QxaeNRZpUyMJu2gTB_ruoJ6LTbSq9T6UubYjc-FPvL65Gswyey8-J55p_cfFnaOBSQ10-aMpDQ0mz2u2Hn9zavBWMKznTXFF1s6ps6SVB11hwjXH_VP91O5gDzT-DTgvG6uY8DmM08u2vs2JGbMs07sWjTqJcJIAHDjuOlJgCAPHSk8V5PtV3_nrnKQk3MMX6Bo65qggovRpsMv_lJzSgK9AOxU9FXlZprnyTVaHqXd0bJ_spWKm6pXbDDA66TtxIAsfk941asAFGpzn9bLeyJnEkS9yOMDXN0GGbsotEvB5DluTzegHxQawwA31GlSk_Oq_vPN_ysaRMYdv3fwOOkmOLlr6GSR3b7NTcQaS6iTmC0TH147Sza3dY9L3E9P8ofciELRmjjgkRSsSVqyj3QZNg-ot0pveecj8Jp__zkLWDyVG5hinU3KGRxLyTtyu9AxdLfCek1X-DrBkY9yhS1SD3C6FrReQs5mLxvetopV5YVW-XZMyBrdsD_XZyD8vvaIIyJHwTOeoIrw6n4X39ztRIlxI8Akmk62ZXyddxtjErV3qbi8e17MMbzCVUCyArDI0WJSRXM0K_uIEiNNgdKH7WLrAVrf0lvuOPn7Ch3d511kj8TP78dnRzJ5s_0giB26jiCp1mNsfunt5IrTGzFdclXi4wdtVv-vyl1voTBlxTRxzWwO_4ZoWKTry7Xlcw5OUbwpi1eT8nPeaEf9PlLVxHue-jzg0Tq7chLdyJeA_eVq266-z-kwb1Q",
-          "https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet",
-          "https://itftennis-ep.azureedge.net/media/assets/images/BR.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/IT.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/US.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/IN.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/CH.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/CO.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/RO.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/JP.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/AT.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/GB.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/PR.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/CA.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ES.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/LV.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/tpe.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/tick-green.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/FR.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/KZ.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/IL.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/UZ.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/AU.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/PE.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/HK.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/EC.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/DE.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ZA.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/AR.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/SK.png",
-          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65j1v9100208071z8898764819za20gzb898764819zd898764819&_p=1779324510083&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AAAAAGQ&are=1&cid=2014415740.1779324511&frm=0&pscdl=noapi&rcb=15&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=4&tag_exp=0~115938465~115938469&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj500-milan%2Fita%2F2026%2Fj-j500-ita-2026-001%2Fdraws-and-results%2F&sid=1779324511&sct=1&seg=1&dt=J500%20Milan%3A%20Watch%20and%20follow%20the%20ITF%20World%20Tennis%20Tour%20Junior%20event&_tu=CA&en=scroll_percent_25&ep.tournamentName=&ep.playersName=&_et=302&tfd=6573"
-        ]
-      }
+      "drawWarning": "Playwright unavailable; Cannot find package 'playwright' imported from C:\\Users\\genar\\Documents\\Codex\\2026-05-17\\cr-bom-dia-codex-eu-quero\\pipeline\\scrape-weekly-results.mjs"
     },
     {
       "tournamentName": "J200 Targu Jiu",
@@ -4800,304 +3669,7 @@
         }
       ],
       "liveTennisUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026",
-      "drawDiagnostic": {
-        "textLength": 6567,
-        "lineCount": 526,
-        "firstLines": [
-          "We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience and analyze website traffic. By clicking “Accept,” you agree to our website's cookie use as described in our Cookie Policy. You can change your cookie settings at any time by clicking “Preferences.”",
-          "Preferences",
-          "Decline",
-          "Accept",
-          "Sign Up",
-          "Register to receive unrivalled access to the world of tennis",
-          "Get all the latest news, information plus access to exclusive content and offers from across the world of tennis, including the Billie Jean King Cup, Davis Cup and ITF World Tennis Number.",
-          "Yes I would like to receive news, information and special offers via email, from the ITF",
-          "For details on how we use your data, please visit our Marketing Privacy Notice on the ITF website. You can unsubscribe any time.",
-          "New | Audio",
-          "SUBMIT",
-          "EN",
-          "SIGN UP",
-          "IPIN",
-          "TOURNAMENTS",
-          "ITF WORLD TENNIS TOUR CALENDARS",
-          "Women's Calendar",
-          "Men's Calendar",
-          "Juniors Calendar",
-          "ITF TOURNAMENT CALENDARS",
-          "Masters Tour Calendar",
-          "Wheelchair Tennis Calendar",
-          "Beach Tennis Calendar",
-          "ITF COMPETITION CALENDARS",
-          "Billie Jean King Cup Calendar",
-          "Davis Cup Calendar",
-          "ITF TOURS",
-          "TOURS",
-          "Women's World Tennis Tour",
-          "Men's World Tennis Tour",
-          "World Tennis Tour Juniors",
-          "Live match centre",
-          "World Tennis Masters Tour",
-          "UNIQLO Wheelchair Tennis Tour",
-          "Beach Tennis World Tour",
-          "WORLD CUP OF TENNIS",
-          "Davis Cup",
-          "Billie Jean King Cup",
-          "COMPETITIONS",
-          "Junior Team Competitions",
-          "World Tennis Tour Junior Finals",
-          "Wheelchair World Team Cup",
-          "Wheelchair Singles and Doubles Masters",
-          "Masters World Championships",
-          "Tie Break Tens",
-          "LA 2028",
-          "Olympic Tennis Event",
-          "Paralympic Wheelchair Tennis Event",
-          "MORE",
-          "Grand Slam tournaments",
-          "Wheelchair Tennis Hall of Champions",
-          "eSports",
-          "PLAYERS",
-          "RESULTS",
-          "RANKINGS",
-          "WORLD TENNIS TOUR RANKINGS",
-          "Women's",
-          "Men's",
-          "Juniors",
-          "RANKINGS",
-          "Masters Tour",
-          "Wheelchair Tennis",
-          "Beach Tennis",
-          "TEAM COMPETITION RANKINGS",
-          "Billie Jean King Cup",
-          "Davis Cup",
-          "NEWS",
-          "ALL NEWS",
-          "Latest News",
-          "Latest photos",
-          "TOURS",
-          "Women's World Tennis Tour",
-          "Men's World Tennis Tour",
-          "World Tennis Tour Juniors",
-          "World Tennis Masters Tour",
-          "UNIQLO Wheelchair Tennis Tour",
-          "Beach Tennis World Tour",
-          "OLYMPICS",
-          "Olympics",
-          "Paralympics"
-        ],
-        "interestingLines": [
-          "BOYS",
-          "SINGLES",
-          "MAIN DRAW"
-        ],
-        "playerHits": [
-          {
-            "id": "safir-azam",
-            "name": "Safir Azam",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "aaron-gabet",
-            "name": "Aaron Gabet",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "oliver-majdandzic",
-            "name": "Oliver Majdandzic",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "navneet-raghuram",
-            "name": "Navneet Raghuram",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "ali-missoum",
-            "name": "Ali Missoum",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "ignacio-de-armas",
-            "name": "Ignacio De Armas",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "jan-chlodnicki",
-            "name": "Jan Chlodnicki",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "pedro-albuquerque-dietrich",
-            "name": "Pedro Albuquerque Dietrich",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "dominik-macej",
-            "name": "Dominik Macej",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "jia-hu",
-            "name": "Jia Hu",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "alan-aiukhanov",
-            "name": "Alan Aiukhanov",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "svit-suljic",
-            "name": "Svit Suljic",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "sofie-hettlerova",
-            "name": "Sofie Hettlerova",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "riyo-yoshida",
-            "name": "Riyo Yoshida",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "ireland-obrien",
-            "name": "Ireland O'Brien",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "jahnie-van-zyl",
-            "name": "Jahnie Van Zyl",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "maja-pawelska",
-            "name": "Maja Pawelska",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "oliwia-sybicka",
-            "name": "Oliwia Sybicka",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "masa-jankovic",
-            "name": "Masa Jankovic",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "nehir-dogan",
-            "name": "Nehir Dogan",
-            "hits": 0,
-            "snippets": []
-          },
-          {
-            "id": "elizaveta-anikina",
-            "name": "Elizaveta Anikina",
-            "hits": 0,
-            "snippets": []
-          }
-        ],
-        "networkUrls": [
-          "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
-          "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results/",
-          "https://itftennis-ep.azureedge.net/media/assets/bundle.js?key=@assemblyVersion",
-          "https://itftennis-ep.azureedge.net/media/assets/bundle.css?key=@assemblyVersion",
-          "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap",
-          "https://www.itftennis.com/media/8566/wtt-asset-amended.jpg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/stripes.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_LATEST%20NEWS.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_PLAYER%20FEATURES.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_DRAWS,%20FIXTURES.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_TIE%20HIGHLIGHTS.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_FIRST%20TO%20HEAR.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_EXCLUSIVE%20C&P.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/fb-dark.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/twitter-light.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/insta-dark.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/youtube-dark.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/envelope.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/unlock.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/search-dark.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/close-outlined--dark.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/site-logo.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/external-link-light.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/shop_icon.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/arrow-right.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/surface-clay.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/10.css",
-          "https://itftennis-ep.azureedge.net/media/assets/10.bundle.js",
-          "https://itftennis-ep.azureedge.net/media/assets/images/info-inactive.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/acceptance-list.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/draw-light-active.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/op-light-inactive.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/champions_icon--grey.svg",
-          "https://www.itftennis.com/media/14909/tennis-point-logo-colour-1.png",
-          "https://app.termly.io/api/v1/snippets/websites/736a1a74-e471-43b1-9611-36ab129ebc69/cookies?lang=en",
-          "https://connect.facebook.net/signals/config/1025417051169198?v=2.9.324&r=stable&domain=www.itftennis.com&hme=af8aa31887db259becaf70277daef60bd8bc35c2df82c2acd4258de27ecac4b5&ex_m=104%2C207%2C155%2C22%2C72%2C73%2C146%2C68%2C67%2C11%2C164%2C90%2C16%2C138%2C127%2C39%2C75%2C78%2C134%2C160%2C166%2C8%2C4%2C5%2C7%2C6%2C3%2C91%2C101%2C167%2C172%2C221%2C62%2C188%2C189%2C55%2C279%2C30%2C74%2C233%2C232%2C231%2C23%2C33%2C103%2C61%2C10%2C63%2C97%2C98%2C99%2C105%2C130%2C31%2C29%2C132%2C133%2C129%2C128%2C156%2C76%2C159%2C157%2C158%2C50%2C60%2C123%2C15%2C163%2C45%2C266%2C267%2C265%2C26%2C27%2C28%2C48%2C147%2C77%2C112%2C18%2C20%2C44%2C40%2C42%2C41%2C83%2C92%2C96%2C110%2C145%2C148%2C46%2C111%2C24%2C21%2C119%2C69%2C36%2C150%2C149%2C151%2C142%2C140%2C25%2C35%2C59%2C109%2C162%2C70%2C17%2C153%2C114%2C81%2C66%2C19%2C85%2C86%2C116%2C84%2C136%2C135%2C139%2C161%2C34%2C281%2C297%2C214%2C203%2C204%2C202%2C300%2C291%2C52%2C215%2C107%2C131%2C80%2C121%2C54%2C47%2C49%2C113%2C120%2C126%2C125%2C58%2C64%2C152%2C115%2C37%2C32%2C53%2C56%2C100%2C165%2C1%2C124%2C14%2C122%2C12%2C2%2C57%2C93%2C65%2C118%2C89%2C88%2C168%2C169%2C94%2C95%2C9%2C102%2C51%2C143%2C87%2C79%2C71%2C117%2C106%2C43%2C144%2C0%2C82%2C137%2C141%2C154%2C38%2C108%2C13%2C170",
-          "https://itftennis-ep.azureedge.net/media/assets/images/loading.gif",
-          "https://app.termly.io/api/v1/snippets/websites/736a1a74-e471-43b1-9611-36ab129ebc69/statistics",
-          "https://www.itftennis.com/tennis/api/TournamentApi/GetEventFilters?tournamentKey=j-j200-rou-2026-001",
-          "https://widgets.itf-production.sports-data.stadion.io/itf-widget-sdk.umd.js",
-          "https://analytics.tiktok.com/api/v2/pixel",
-          "https://cm.g.doubleclick.net/partnerpixels?gdpr=0&url=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj200-targu-jiu%2Frou%2F2026%2Fj-j200-rou-2026-001%2Fdraws-and-results%2F",
-          "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap",
-          "https://itftennis-ep.azureedge.net/media/assets/images/sign-up__splash-background.jpg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/sign-up__mobile-app.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/tennis_id_logo.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/chevron-right-grey.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/calendar.svg",
-          "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=7877582799775699&correlator=91555808736786&eid=31098635%2C83322746&output=ldjh&gdfp_req=1&vrg=202605180101&ptt=17&impl=fifs&gdpr=0&iu_parts=23328656850%2Citf%2Cprimary_below_nav%2Ctournament_feature_banner&enc_prev_ius=%2F0%2F1%2F2%2C%2F0%2F1%2F3&prev_iu_szs=728x90%7C320x100%7C970x250%7C320x50%7C970x90%2C320x50%7C320x100%7C728x90%7C970x250%7C970x90&ifi=1&dids=div-gpt-ad-1768303440211-0~div-gpt-ad-1768303600172-0&adfs=2433876935~3601381602&sfv=1-0-45&sc=1&cookie=ID%3D913a44377d533300%3AT%3D1779324510%3ART%3D1779324510%3AS%3DALNI_MZ6tfX20ThRtctcBgQF3wzsdkOtAQ&gpic=UID%3D000013a8c94eed3c%3AT%3D1779324510%3ART%3D1779324510%3AS%3DALNI_MY4DsNgLU2j5-R0GQrjZyBJHaNHkw&abxe=1&dt=1779324519651&lmt=1779324519&adxs=276%2C480&adys=179%2C500&biw=1280&bih=720&scr_x=0&scr_y=0&btvi=0%7C0&ucis=1%7C2&oid=2&u_his=3&u_h=720&u_w=1280&u_ah=720&u_aw=1280&u_cd=24&u_sd=1&dmc=16&bc=31&nvt=1&uach=WyJMaW51eCIsIiIsIng4NiIsIiIsIjE0OC4wLjc3NzguOTYiLG51bGwsMCxudWxsLCI2NCIsW1siQ2hyb21pdW0iLCIxNDguMC43Nzc4Ljk2Il0sWyJIZWFkbGVzc0Nocm9tZSIsIjE0OC4wLjc3NzguOTYiXSxbIk5vdC9BKUJyYW5kIiwiOTkuMC4wLjAiXV0sMF0.&url=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj200-targu-jiu%2Frou%2F2026%2Fj-j200-rou-2026-001%2Fdraws-and-results%2F&vis=1&psz=970x90%7C970x90&msz=728x50%7C320x50&fws=4%2C4&ohw=1280%2C1280&dlt=1779324519255&idt=234&cust_params=tour%3Djuniors%26tournament_id%3DJ-J200-ROU-2026-001%26location%3DTargu%2520Jiu%26country%3DRomania&adks=2599182603%2C2569989109&frm=20&eo_id_str=ID%3Dc1a521fb3104a836%3AT%3D1779324510%3ART%3D1779324510%3AS%3DAA-AfjZJw7Hf5F165zFI82gsRZDR&pgls=CAk.",
-          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/script?fid=97de8675-162c-47b6-af31-3e185c84157c&type=visual&rnd=386cd9d9-1941-4f69-a127-dfa63f6c2d1a&mkt=en",
-          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65j1v9100208071z8898764819za20gzb898764819zd898764819&_p=1779324519262&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AAAAAGQ&are=1&cid=2014415740.1779324511&frm=0&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938465~115938469&sid=1779324511&sct=1&seg=1&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj200-targu-jiu%2Frou%2F2026%2Fj-j200-rou-2026-001%2Fdraws-and-results%2F&dt=J200%20Targu%20Jiu%202026%20Tennis%20Tournament%20%7C%20ITF&_tu=CA&en=page_view&ep.tournamentName=&ep.playersName=&tfd=1318",
-          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/forms/221840a7-9abb-ee11-9078-6045bd127be4/visits",
-          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/challenge/visual?flowId=97de8675-162c-47b6-af31-3e185c84157c&rnd=d273484a3b23486aa202362b8fb02c8a&market=en",
-          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65j1v9100208071za20gzb898764819zd898764819&_p=1779324519262&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&tcfd=10000&gdid=dNzg2MD&_eu=AEIAAGQ&are=1&cid=2014415740.1779324511&frm=0&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&tag_exp=0~115616985~115938465~115938469&sid=1779324511&sct=1&seg=1&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj200-targu-jiu%2Frou%2F2026%2Fj-j200-rou-2026-001%2Fdraws-and-results%2F&dt=J200%20Targu%20Jiu%202026%20Tennis%20Tournament%20%7C%20ITF&_tu=CA&_s=2&tfd=1561",
-          "https://www.google.com/recaptcha/api2/aframe",
-          "https://analytics.tiktok.com/api/v2/pixel/act",
-          "https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet",
-          "https://itftennis-ep.azureedge.net/media/assets/images/FR.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/tick-green.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ES.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/RO.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/US.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/SK.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/IN.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/DE.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/BR.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/UA.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/BG.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/MA.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/VE.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/CN.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/SI.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/PL.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/SE.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/RS.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/CZ.png",
-          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65j1v9100208071z8898764819za20gzb898764819zd898764819&_p=1779324519262&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&tcfd=10000&gdid=dNzg2MD&_eu=AAAAAGQ&are=1&cid=2014415740.1779324511&frm=0&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115616985~115938465~115938469&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj200-targu-jiu%2Frou%2F2026%2Fj-j200-rou-2026-001%2Fdraws-and-results%2F&sid=1779324511&sct=1&seg=1&dt=J200%20Targu%20Jiu%202026%20Tennis%20Tournament%20%7C%20ITF&_tu=CA&en=scroll_percent_25&ep.tournamentName=&ep.playersName=&_et=236&tfd=6562"
-        ]
-      }
+      "drawWarning": "Playwright unavailable; Cannot find package 'playwright' imported from C:\\Users\\genar\\Documents\\Codex\\2026-05-17\\cr-bom-dia-codex-eu-quero\\pipeline\\scrape-weekly-results.mjs"
     },
     {
       "tournamentName": "J100 Punta Cana",

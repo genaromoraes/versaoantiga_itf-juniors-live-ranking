@@ -168,8 +168,25 @@ function confidenceNote(value = "") {
     "core-win": "CoreTennis: vitoria encontrada",
     "core-loss": "CoreTennis: derrota encontrada",
     "core-pending-match": "CoreTennis: partida pendente",
+    "acceptance-qualifying": "acceptance list: atleta no qualifying, assumido como Q1 ate leitura mais precisa do draw",
     pending: "fase pendente"
   }[value] || value || "fase pendente";
+}
+
+function fallbackDrawResult(player) {
+  if (player.entryGroup === "Q") {
+    return {
+      status: "Ativo",
+      currentRound: "Q1",
+      confidence: "acceptance-qualifying"
+    };
+  }
+
+  return {
+    status: "Ativo",
+    currentRound: pendingRound,
+    confidence: "pending"
+  };
 }
 
 function expectedGenderLabel(player) {
@@ -895,7 +912,7 @@ await enrichTournamentWithDrawRounds(tournaments);
 const rows = [headers];
 for (const tournament of tournaments) {
   for (const player of tournament.acceptedPlayers) {
-    const drawResult = player.drawResult || { status: "Ativo", currentRound: pendingRound, confidence: "pending" };
+    const drawResult = player.drawResult || fallbackDrawResult(player);
     rows.push([
       player.id,
       player.name,
