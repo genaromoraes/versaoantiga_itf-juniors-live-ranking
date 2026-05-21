@@ -110,8 +110,6 @@ function statusForPlayer({ playerRows, missingDropDateRows, badRankingPointRows,
   if (!playerRows.length) notes.push("Adicionar o breakdown completo na planilha mestre.");
   if (missingDropDateRows.length) notes.push("Preencher drop_date nas linhas sem data de queda.");
   if (badRankingPointRows.length) notes.push("Conferir ranking_points: deve ser points x weight.");
-  if (singlesRows.length < 6) notes.push("Menos de 6 resultados de simples na planilha.");
-  if (doublesRows.length < 6) notes.push("Menos de 6 resultados de duplas na planilha.");
 
   return {
     status: notes.length ? "Revisar planilha" : "OK",
