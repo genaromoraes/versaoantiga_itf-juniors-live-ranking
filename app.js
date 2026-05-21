@@ -369,6 +369,17 @@ function rankedResults(results = [], multiplier = 1) {
     }));
 }
 
+function bestSixResults(results = [], multiplier = 1) {
+  return [...results]
+    .sort((a, b) => Number(b.points || 0) - Number(a.points || 0))
+    .slice(0, 6)
+    .map((item) => ({
+      ...item,
+      isCounting: true,
+      countedPoints: Number(item.points || 0) * multiplier
+    }));
+}
+
 function sumPoints(results = []) {
   return results.reduce((total, item) => total + Number(item.points || 0), 0);
 }
@@ -379,9 +390,13 @@ function sumCounted(results = [], multiplier = 1) {
     .reduce((total, item) => total + item.countedPoints, 0);
 }
 
+function sumBestSix(results = [], multiplier = 1) {
+  return bestSixResults(results, multiplier).reduce((total, item) => total + item.countedPoints, 0);
+}
+
 function countedReplacementResults(beforeResults = [], afterResults = [], multiplier = 1) {
   const beforeCounted = rankedResults(beforeResults, multiplier).filter((item) => item.isCounting);
-  const afterCounted = rankedResults(afterResults, multiplier).filter((item) => item.isCounting);
+  const afterCounted = bestSixResults(afterResults, multiplier);
   const beforeKeys = new Set(beforeCounted.map(resultKey));
 
   return afterCounted.filter((item) => !beforeKeys.has(resultKey(item)));
@@ -450,8 +465,8 @@ function countedPointsWithProjection(baseResults, currentRawPoints, projectedRaw
     ? [...baseResults, { event: "__projected_projection__", round: "", points: projectedRawPoints }]
     : [...baseResults];
 
-  const baseline = sumCounted(baselineResults, multiplier);
-  const projected = sumCounted(projectedResults, multiplier);
+  const baseline = sumBestSix(baselineResults, multiplier);
+  const projected = sumBestSix(projectedResults, multiplier);
 
   return Math.max(0, projected - baseline);
 }
@@ -509,10 +524,24 @@ function normalizePlayer(player) {
     type: "doubles"
   }));
   const basePoints = sumCounted(singles) + sumCounted(doubles, 0.25);
-  const liveBasePoints = sumCounted(liveBaseSingles) + sumCounted(liveBaseDoubles, 0.25);
+  const liveBasePoints = sumBestSix(liveBaseSingles) + sumBestSix(liveBaseDoubles, 0.25);
   const defendingPoints = Math.max(0, basePoints - liveBasePoints);
-  const gainedPoints = Number(liveEvent.singlesPoints || 0) + doublesValue(liveEvent.doublesPoints);
-  const livePoints = Math.max(0, liveBasePoints + gainedPoints);
+  const weeklySinglesResult = isMeaningfulPoints(liveEvent.singlesPoints)
+    ? { event: liveEvent.event, round: liveEvent.grade, points: Number(liveEvent.singlesPoints || 0), type: "singles", isWeeklyResult: true }
+    : null;
+  const weeklyDoublesResult = isMeaningfulPoints(liveEvent.doublesPoints)
+    ? { event: liveEvent.event, round: liveEvent.grade, points: Number(liveEvent.doublesPoints || 0), type: "doubles", isWeeklyResult: true }
+    : null;
+  const liveSingles = weeklySinglesResult ? [...liveBaseSingles, weeklySinglesResult] : liveBaseSingles;
+  const liveDoubles = weeklyDoublesResult ? [...liveBaseDoubles, weeklyDoublesResult] : liveBaseDoubles;
+  const liveCountedSingles = bestSixResults(liveSingles);
+  const liveCountedDoubles = bestSixResults(liveDoubles, 0.25);
+  const weeklyEntries = [
+    ...liveCountedSingles.filter((item) => item.isWeeklyResult),
+    ...liveCountedDoubles.filter((item) => item.isWeeklyResult)
+  ];
+  const livePoints = Math.max(0, sumBestSix(liveSingles) + sumBestSix(liveDoubles, 0.25));
+  const gainedPoints = Math.max(0, livePoints - liveBasePoints);
   const normalizedPlayer = {
     ...player,
     singles,
@@ -524,6 +553,7 @@ function normalizePlayer(player) {
       ...replacementSingles.map((item) => ({ ...item, type: "singles" })),
       ...replacementDoubles
     ],
+    weeklyEntries,
     liveEvent,
     basePoints,
     liveBasePoints,
@@ -673,8 +703,8 @@ function pointsDropLines(player) {
 }
 
 function pointsEntryLines(player) {
-  const liveEvent = player.liveEvent || {};
   const replacements = Array.isArray(player.replacements) ? player.replacements : [];
+  const weeklyEntries = Array.isArray(player.weeklyEntries) ? player.weeklyEntries : [];
   const entries = replacements
     .map((item) => {
       const typeLabel = item.type === "doubles" ? "(D)" : "(S)";
@@ -684,23 +714,13 @@ function pointsEntryLines(player) {
     })
     .filter(Boolean);
 
-  if (!isActiveThisWeek(liveEvent)) return entries;
-
-  const singlesEntry = pointsFlowText(
-    liveEvent.event,
-    "(S)",
-    liveEvent.singlesRound || "",
-    Number(liveEvent.singlesPoints || 0)
-  );
-  if (singlesEntry) entries.push(singlesEntry);
-
-  const doublesEntry = pointsFlowText(
-    liveEvent.event,
-    "(D)",
-    liveEvent.doublesRound || "",
-    doublesValue(liveEvent.doublesPoints)
-  );
-  if (doublesEntry) entries.push(doublesEntry);
+  for (const item of weeklyEntries) {
+    const typeLabel = item.type === "doubles" ? "(D)" : "(S)";
+    const phaseLabel = inferResultPhase(item);
+    const countedValue = item.type === "doubles" ? doublesValue(item.points) : Number(item.points || 0);
+    const entry = pointsFlowText(item.event, typeLabel, phaseLabel, countedValue);
+    if (entry) entries.push(entry);
+  }
 
   return entries;
 }
