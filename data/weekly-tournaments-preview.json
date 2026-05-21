@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "21/05/2026, 12:15",
+  "scrapedAt": "21/05/2026, 14:13",
   "calendarStartDate": "2026-05",
   "tournaments": [
     {
@@ -40,11 +40,12 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
+            "currentRound": "SF",
+            "pointsOverride": 0,
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
-            "matchId": 2124502663
+            "matchId": 2124502667
           }
         },
         {
@@ -96,11 +97,11 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
-            "score": "7-5",
+            "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
-            "matchId": 1183541993
+            "matchId": 1183542000
           },
           "drawResultDoubles": {
             "status": "Ativo",
@@ -289,7 +290,6 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "QF",
-            "pointsOverride": 0,
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
@@ -297,11 +297,12 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
+            "currentRound": "SF",
+            "pointsOverride": 0,
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
-            "matchId": 2124502665
+            "matchId": 2124502668
           }
         },
         {
@@ -385,10 +386,10 @@
             "matchId": 1183541984
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "QF",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "6-3 6-7(3) 5-10",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
             "matchId": 2124502665
           }
@@ -409,10 +410,10 @@
           "juniorRank": 24,
           "priority": 1,
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "5-7",
+            "confidence": "itf-api-loss",
+            "score": "5-7 7-5 2-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
             "matchId": 1183541993
           },
@@ -474,11 +475,11 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
-            "score": "6-4 4-6",
+            "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
-            "matchId": 1183541996
+            "matchId": 1183542001
           },
           "drawResultDoubles": {
             "status": "Eliminado",
@@ -545,9 +546,9 @@
             "matchId": 1183541999
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "QF",
-            "confidence": "itf-api-pending-match",
+            "confidence": "itf-api-loss",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
             "matchId": 2124502663
@@ -769,9 +770,9 @@
             "matchId": 1183541981
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "QF",
-            "confidence": "itf-api-pending-match",
+            "confidence": "itf-api-loss",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
             "matchId": 2124502663
@@ -866,11 +867,12 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
+            "currentRound": "SF",
+            "pointsOverride": 0,
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
-            "matchId": 2124502665
+            "matchId": 2124502668
           }
         },
         {
@@ -1374,10 +1376,10 @@
             "matchId": 1183541957
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "QF",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "6-3 6-7(3) 5-10",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
             "matchId": 2124502665
           }
@@ -1514,11 +1516,12 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
+            "currentRound": "SF",
+            "pointsOverride": 0,
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
-            "matchId": 2124502663
+            "matchId": 2124502667
           }
         },
         {
@@ -1743,7 +1746,6 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "QF",
-            "pointsOverride": 0,
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
@@ -1956,10 +1958,10 @@
           "juniorRank": 152,
           "priority": 1,
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "4-6 6-4",
+            "confidence": "itf-api-loss",
+            "score": "4-6 6-4 4-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
             "matchId": 1183541996
           },
@@ -4497,8 +4499,8 @@
       ],
       "liveTennisUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026",
       "drawDiagnostic": {
-        "textLength": 8741,
-        "lineCount": 795,
+        "textLength": 8753,
+        "lineCount": 801,
         "firstLines": [
           "We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience and analyze website traffic. By clicking “Accept,” you agree to our website's cookie use as described in our Cookie Policy. You can change your cookie settings at any time by clicking “Preferences.”",
           "Preferences",
@@ -5506,9 +5508,10 @@
           "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results/",
           "https://www.itftennis.com/media/8566/wtt-asset-amended.jpg",
           "https://itftennis-ep.azureedge.net/media/assets/bundle.css?key=@assemblyVersion",
-          "https://itftennis-ep.azureedge.net/media/assets/bundle.js?key=@assemblyVersion",
           "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap",
-          "https://www.itftennis.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=1096391925",
+          "https://itftennis-ep.azureedge.net/media/assets/bundle.js?key=@assemblyVersion",
+          "https://www.itftennis.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=697355616",
+          "https://widgets.itf-production.sports-data.stadion.io/itf-widget-sdk.umd.js",
           "https://itftennis-ep.azureedge.net/media/assets/images/stripes.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_LATEST%20NEWS.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_PLAYER%20FEATURES.png",
@@ -5524,74 +5527,73 @@
           "https://itftennis-ep.azureedge.net/media/assets/images/search-dark.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/close-outlined--dark.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/site-logo.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/twitter-light.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/external-link-light.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/shop_icon.svg",
+          "https://itftennis-ep.azureedge.net/media/assets/images/twitter-light.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/surface-clay.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/arrow-right.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/10.css",
           "https://www.itftennis.com/media/16544/club-view-2.jpg?anchor=center&amp;mode=crop&amp;width=1440&amp;height=415&amp;rnd=134232474470000000",
           "https://itftennis-ep.azureedge.net/media/assets/images/info-inactive.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/media-icon.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/acceptance-list.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/draw-light-active.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/champions_icon--grey.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/op-light-inactive.svg",
+          "https://itftennis-ep.azureedge.net/media/assets/images/media-icon.svg",
+          "https://itftennis-ep.azureedge.net/media/assets/images/champions_icon--grey.svg",
+          "https://itftennis-ep.azureedge.net/media/assets/images/acceptance-list.svg",
+          "https://itftennis-ep.azureedge.net/media/assets/10.css",
           "https://www.itftennis.com/media/14909/tennis-point-logo-colour-1.png",
-          "https://itftennis-ep.azureedge.net/media/assets/10.bundle.js",
-          "https://widgets.itf-production.sports-data.stadion.io/itf-widget-sdk.umd.js",
-          "https://www.itftennis.com/_Incapsula_Resource?SWKMTFSR=1&e=0.7615600507637565",
+          "https://itftennis-ep.azureedge.net/media/assets/images/draw-light-active.svg",
+          "https://www.itftennis.com/_Incapsula_Resource?SWKMTFSR=1&e=0.346086681888926",
+          "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap",
           "https://itftennis-ep.azureedge.net/media/assets/images/tennis_id_logo.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/chevron-right-grey.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/sign-up__splash-background.jpg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/sign-up__mobile-app.png",
-          "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap",
           "https://itftennis-ep.azureedge.net/media/assets/images/calendar.svg",
+          "https://itftennis-ep.azureedge.net/media/assets/images/sign-up__mobile-app.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/sign-up__splash-background.jpg",
+          "https://itftennis-ep.azureedge.net/media/assets/10.bundle.js",
           "https://connect.facebook.net/signals/config/1025417051169198?v=2.9.324&r=stable&domain=www.itftennis.com&hme=af8aa31887db259becaf70277daef60bd8bc35c2df82c2acd4258de27ecac4b5&ex_m=104%2C207%2C155%2C22%2C72%2C73%2C146%2C68%2C67%2C11%2C164%2C90%2C16%2C138%2C127%2C39%2C75%2C78%2C134%2C160%2C166%2C8%2C4%2C5%2C7%2C6%2C3%2C91%2C101%2C167%2C172%2C221%2C62%2C188%2C189%2C55%2C279%2C30%2C74%2C233%2C232%2C231%2C23%2C33%2C103%2C61%2C10%2C63%2C97%2C98%2C99%2C105%2C130%2C31%2C29%2C132%2C133%2C129%2C128%2C156%2C76%2C159%2C157%2C158%2C50%2C60%2C123%2C15%2C163%2C45%2C266%2C267%2C265%2C26%2C27%2C28%2C48%2C147%2C77%2C112%2C18%2C20%2C44%2C40%2C42%2C41%2C83%2C92%2C96%2C110%2C145%2C148%2C46%2C111%2C24%2C21%2C119%2C69%2C36%2C150%2C149%2C151%2C142%2C140%2C25%2C35%2C59%2C109%2C162%2C70%2C17%2C153%2C114%2C81%2C66%2C19%2C85%2C86%2C116%2C84%2C136%2C135%2C139%2C161%2C34%2C281%2C297%2C214%2C203%2C204%2C202%2C300%2C291%2C52%2C215%2C107%2C131%2C80%2C121%2C54%2C47%2C49%2C113%2C120%2C126%2C125%2C58%2C64%2C152%2C115%2C37%2C32%2C53%2C56%2C100%2C165%2C1%2C124%2C14%2C122%2C12%2C2%2C57%2C93%2C65%2C118%2C89%2C88%2C168%2C169%2C94%2C95%2C9%2C102%2C51%2C143%2C87%2C79%2C71%2C117%2C106%2C43%2C144%2C0%2C82%2C137%2C141%2C154%2C38%2C108%2C13%2C170",
           "https://www.itftennis.com/tennis/api/TournamentApi/GetEventFilters?tournamentKey=j-j500-ita-2026-001",
-          "https://cm.g.doubleclick.net/partnerpixels?url=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj500-milan%2Fita%2F2026%2Fj-j500-ita-2026-001%2Fdraws-and-results%2F",
           "https://itftennis-ep.azureedge.net/media/assets/images/loading.gif",
-          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/script?fid=6ea92875-8de2-4e65-a64d-a87482fb5b38&type=visual&rnd=4b6d1743-b2ac-4159-8fee-478d04f68a66&mkt=en",
+          "https://cm.g.doubleclick.net/partnerpixels?url=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj500-milan%2Fita%2F2026%2Fj-j500-ita-2026-001%2Fdraws-and-results%2F",
+          "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=4424235705807635&correlator=300001453709681&eid=31098204&output=ldjh&gdfp_req=1&vrg=202605140101&ptt=17&impl=fifs&iu_parts=23328656850%2Citf%2Cprimary_below_nav%2Ctournament_feature_banner&enc_prev_ius=%2F0%2F1%2F2%2C%2F0%2F1%2F3&prev_iu_szs=728x90%7C320x100%7C970x250%7C320x50%7C970x90%2C320x50%7C320x100%7C728x90%7C970x250%7C970x90&ifi=1&dids=div-gpt-ad-1768303440211-0~div-gpt-ad-1768303600172-0&adfs=2433876935~3601381602&sfv=1-0-45&sc=1&cookie_enabled=1&abxe=1&dt=1779383561290&lmt=1779383561&adxs=276%2C480&adys=179%2C699&biw=1280&bih=720&scr_x=0&scr_y=0&btvi=0%7C0&ucis=1%7C2&oid=2&u_his=2&u_h=720&u_w=1280&u_ah=720&u_aw=1280&u_cd=24&u_sd=1&dmc=16&bc=31&nvt=1&uach=WyJMaW51eCIsIiIsIng4NiIsIiIsIjE0OC4wLjc3NzguOTYiLG51bGwsMCxudWxsLCI2NCIsW1siQ2hyb21pdW0iLCIxNDguMC43Nzc4Ljk2Il0sWyJIZWFkbGVzc0Nocm9tZSIsIjE0OC4wLjc3NzguOTYiXSxbIk5vdC9BKUJyYW5kIiwiOTkuMC4wLjAiXV0sMF0.&url=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj500-milan%2Fita%2F2026%2Fj-j500-ita-2026-001%2Fdraws-and-results%2F&vis=1&psz=970x90%7C970x90&msz=728x50%7C320x50&fws=4%2C4&ohw=1280%2C1280&dlt=1779383560457&idt=628&cust_params=tour%3Djuniors%26tournament_id%3DJ-J500-ITA-2026-001%26location%3DMilan%26country%3DItaly&adks=2599182603%2C2569989109&frm=20&eoidce=1&pgls=CAk.",
+          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/script?fid=8f7d5dda-e779-4083-846f-43c529b67de1&type=visual&rnd=fb032050-c4cd-411e-ab5b-0ea170007fdd&mkt=en",
           "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/forms/221840a7-9abb-ee11-9078-6045bd127be4/visits",
-          "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=1596526741696577&correlator=4148570046616771&eid=31098602&output=ldjh&gdfp_req=1&vrg=202605140101&ptt=17&impl=fifs&iu_parts=23328656850%2Citf%2Cprimary_below_nav%2Ctournament_feature_banner&enc_prev_ius=%2F0%2F1%2F2%2C%2F0%2F1%2F3&prev_iu_szs=728x90%7C320x100%7C970x250%7C320x50%7C970x90%2C320x50%7C320x100%7C728x90%7C970x250%7C970x90&ifi=1&dids=div-gpt-ad-1768303440211-0~div-gpt-ad-1768303600172-0&adfs=2433876935~3601381602&sfv=1-0-45&sc=1&cookie_enabled=1&abxe=1&dt=1779376524037&lmt=1779376524&adxs=276%2C480&adys=179%2C699&biw=1280&bih=720&scr_x=0&scr_y=0&btvi=0%7C0&ucis=1%7C2&oid=2&u_his=2&u_h=720&u_w=1280&u_ah=720&u_aw=1280&u_cd=24&u_sd=1&dmc=16&bc=31&nvt=1&uach=WyJMaW51eCIsIiIsIng4NiIsIiIsIjE0OC4wLjc3NzguOTYiLG51bGwsMCxudWxsLCI2NCIsW1siQ2hyb21pdW0iLCIxNDguMC43Nzc4Ljk2Il0sWyJIZWFkbGVzc0Nocm9tZSIsIjE0OC4wLjc3NzguOTYiXSxbIk5vdC9BKUJyYW5kIiwiOTkuMC4wLjAiXV0sMF0.&url=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj500-milan%2Fita%2F2026%2Fj-j500-ita-2026-001%2Fdraws-and-results%2F&vis=1&psz=970x90%7C970x90&msz=728x50%7C320x50&fws=4%2C4&ohw=1280%2C1280&dlt=1779376523101&idt=697&cust_params=tour%3Djuniors%26tournament_id%3DJ-J500-ITA-2026-001%26location%3DMilan%26country%3DItaly&adks=2599182603%2C2569989109&frm=20&eoidce=1&pgls=CAk.",
-          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65j1v9100208071z8898764819za20gzb898764819zd898764819&_p=1779376523107&_gaz=1&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AAAAAGA&are=1&cid=222803127.1779376524&frm=0&pscdl=noapi&rcb=6&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938469&sid=1779376524&sct=1&seg=0&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj500-milan%2Fita%2F2026%2Fj-j500-ita-2026-001%2Fdraws-and-results%2F&dt=J500%20Milan%3A%20Watch%20and%20follow%20the%20ITF%20World%20Tennis%20Tour%20Junior%20event&_tu=CA&en=page_view&_fv=1&_nsi=1&_ss=1&ep.tournamentName=&ep.playersName=&tfd=1345",
-          "https://app.termly.io/api/v1/snippets/websites/736a1a74-e471-43b1-9611-36ab129ebc69/cookies?lang=en",
-          "https://app.termly.io/api/v1/snippets/websites/736a1a74-e471-43b1-9611-36ab129ebc69/statistics",
+          "https://analytics.tiktok.com/api/v2/monitor",
           "https://analytics.tiktok.com/api/v2/pixel",
-          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/challenge/visual?flowId=6ea92875-8de2-4e65-a64d-a87482fb5b38&rnd=801e18ef4c324d6097922af7ea874653&market=en",
-          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65j1v9100208071za20gzb898764819zd898764819&_p=1779376523107&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AEIAAGQ&are=1&cid=222803127.1779376524&frm=0&pscdl=noapi&rcb=6&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&tag_exp=0~115938465~115938469&sid=1779376524&sct=1&seg=0&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj500-milan%2Fita%2F2026%2Fj-j500-ita-2026-001%2Fdraws-and-results%2F&dt=J500%20Milan%3A%20Watch%20and%20follow%20the%20ITF%20World%20Tennis%20Tour%20Junior%20event&_tu=CA&_s=2&tfd=1728",
-          "https://www.google.com/recaptcha/api2/aframe",
+          "https://app.termly.io/api/v1/snippets/websites/736a1a74-e471-43b1-9611-36ab129ebc69/cookies?lang=en",
           "https://analytics.tiktok.com/api/v2/pixel/act",
+          "https://app.termly.io/api/v1/snippets/websites/736a1a74-e471-43b1-9611-36ab129ebc69/statistics",
+          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/challenge/visual?flowId=8f7d5dda-e779-4083-846f-43c529b67de1&rnd=33944b4b757244ffa25a9f833f0465f4&market=en",
+          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65k0v9100208071z8898764819za20gzb898764819zd898764819&_p=1779383560462&_gaz=1&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AAAAAGA&are=1&cid=525626019.1779383562&frm=0&pscdl=noapi&rcb=1&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938465~115938469&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj500-milan%2Fita%2F2026%2Fj-j500-ita-2026-001%2Fdraws-and-results%2F&sid=1779383561&sct=1&seg=0&dt=J500%20Milan%3A%20Watch%20and%20follow%20the%20ITF%20World%20Tennis%20Tour%20Junior%20event&_tu=CA&en=scroll_percent_25&_fv=1&_nsi=1&_ss=1&ep.tournamentName=&ep.playersName=&tfd=1585",
+          "https://www.google.com/recaptcha/api2/aframe",
+          "https://ep1.adtrafficquality.google/pagead/sodar?id=sodar2&v=254&t=2&li=gpt_m202605140101&jk=4424235705807635&bg=!5eal5oTNAAYUUpX8NFI7AEcBe5WfOKpRpglC4T02eLUGVrTjVnVoySGqDM58NN9VNPe6cq0NCQWBo3yNheTsoA_owEVFZych-fbFrf6HagqUIyEfx9BBzgIAAABAUgAAAANoAQd-ADYTclrkIDVv_Vfwa54C5UWOFkmLAtizN1Kp-GuHxPcRWAifBjTlOVfJ0Zmy1O6Z2XwvJEeKeuAKAHXrFT82P2T6DMHDPnZp18dyaGZXH3WbBPbCjiiS2tgSvLmqZA4MIuM9LZfqN170ji-WIg1YV-JjKyXA7Svif3ulZ-Vsk2KFTBp39jdPI42CmQoq-_PcBBURUPClZ0pd-Vlxtjo6qQcH8y2eru233ZvyVQ3-mLKZApbBDVoU5lgWIt1lnvG3kBTppP9Wb78QvZccbKPRpNLw6ndFjIlSdYH_4CYkyCao9RfOA5vNs0ioi4NfQxp9HlFhw-wLHf_KjUh0G9RCDb7U53d6D7NJYnJC_4TU1kpAUNVZCmZ3HpVi89waWlenFmdhjV23jBHrIXm4aO1KxPChv2HheWR53RGuBvvrwrsb6z6iAESzBwgBgtHyLV2qV9J16XriQqzKJ2Bqmzzan8P03AvUDReD-uLCWcoegZvTZNK0BjhUiiTfwnoJSr8nvitRXS4BuKuSKutQZ3UYUR0x-JeaPRCCMkTTMU72QjRnRMv-3SdwEfNPtN7XysvfK_dP21x98RJJmTxmBA2p5slNRu3o3fonxnjCE-oaTdfd1gIwPCkS8Wp3lMB8jJVXmHPBo7kVBptLKU3Uxb6uG0WjQIbLibcCI138vB_VWx9aYSDHv-SKEuYzSP32Sr8jxJv5Kkj7FLm6niTBNQJuJsKesFmQfnkJItLIWRA_6a0CIVYCnKitm9zk_RwfEr8SYhB_oBQHq2PvrncfsAHqbroyRmh74n1SAa95NdXuV7de5pynjYVGmkUzXmmeXrz4tKKh1Ei0zGB-5TJhVyFYHqAL9Qc09I31uafsGvVNcnpLpM0tyhlrP6iix9ySnZaapKBmIcHBLua4EEGt0cBEfzu7du9nExJMtQA44FT_D35id6jNHDH9ddXTz43ZG0h13UCWzoAMIvqXmOce-SMBTMUoIzx0N21sIIIuhbjdQNlhuys9UkXXJWtcjzr6eEICBTRZfl1H8dAjDzE00Ts3qeGM8QykG27UQL51EWi4szLMlgCrjioksK4Dt8JwCR5UlYr83E79nok-UJWKhTFc1sIRv97U9wNPPw",
           "https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet",
-          "https://itftennis-ep.azureedge.net/media/assets/images/BR.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/JP.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/US.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/tick-green.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/IN.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/IT.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/CH.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/JP.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/KZ.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/IT.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/US.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/IN.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/CO.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/tpe.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/AT.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/RO.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/AT.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/GB.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/ZA.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/BR.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/CA.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/ES.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/AR.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/LV.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/tpe.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/FR.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/DE.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/ZA.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/SK.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/PR.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/EC.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/UZ.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/AU.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/HK.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/IL.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/PR.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/LV.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/CA.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/KZ.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/PE.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/EC.png",
-          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65j1v9100208071z8898764819za20gzb898764819zd898764819&_p=1779376523107&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AAAAAGQ&are=1&cid=222803127.1779376524&frm=0&pscdl=noapi&rcb=6&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115938465~115938469&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj500-milan%2Fita%2F2026%2Fj-j500-ita-2026-001%2Fdraws-and-results%2F&sid=1779376524&sct=1&seg=0&dt=J500%20Milan%3A%20Watch%20and%20follow%20the%20ITF%20World%20Tennis%20Tour%20Junior%20event&_tu=CA&en=scroll_percent_25&ep.tournamentName=&ep.playersName=&_et=310&tfd=6728"
+          "https://itftennis-ep.azureedge.net/media/assets/images/IL.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/DE.png"
         ]
       }
     },
@@ -7405,6 +7407,7 @@
           "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_TIE%20HIGHLIGHTS.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_FIRST%20TO%20HEAR.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_EXCLUSIVE%20C&P.png",
+          "https://widgets.itf-production.sports-data.stadion.io/itf-widget-sdk.umd.js",
           "https://itftennis-ep.azureedge.net/media/assets/images/fb-dark.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/twitter-light.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/insta-dark.svg",
@@ -7425,50 +7428,49 @@
           "https://itftennis-ep.azureedge.net/media/assets/images/draw-light-active.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/op-light-inactive.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/champions_icon--grey.svg",
-          "https://www.itftennis.com/media/14909/tennis-point-logo-colour-1.png",
-          "https://widgets.itf-production.sports-data.stadion.io/itf-widget-sdk.umd.js",
-          "https://app.termly.io/api/v1/snippets/websites/736a1a74-e471-43b1-9611-36ab129ebc69/cookies?lang=en",
           "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap",
           "https://itftennis-ep.azureedge.net/media/assets/images/sign-up__splash-background.jpg",
           "https://itftennis-ep.azureedge.net/media/assets/images/sign-up__mobile-app.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/tennis_id_logo.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/chevron-right-grey.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/calendar.svg",
-          "https://app.termly.io/api/v1/snippets/websites/736a1a74-e471-43b1-9611-36ab129ebc69/statistics",
+          "https://www.itftennis.com/media/14909/tennis-point-logo-colour-1.png",
           "https://connect.facebook.net/signals/config/1025417051169198?v=2.9.324&r=stable&domain=www.itftennis.com&hme=af8aa31887db259becaf70277daef60bd8bc35c2df82c2acd4258de27ecac4b5&ex_m=104%2C207%2C155%2C22%2C72%2C73%2C146%2C68%2C67%2C11%2C164%2C90%2C16%2C138%2C127%2C39%2C75%2C78%2C134%2C160%2C166%2C8%2C4%2C5%2C7%2C6%2C3%2C91%2C101%2C167%2C172%2C221%2C62%2C188%2C189%2C55%2C279%2C30%2C74%2C233%2C232%2C231%2C23%2C33%2C103%2C61%2C10%2C63%2C97%2C98%2C99%2C105%2C130%2C31%2C29%2C132%2C133%2C129%2C128%2C156%2C76%2C159%2C157%2C158%2C50%2C60%2C123%2C15%2C163%2C45%2C266%2C267%2C265%2C26%2C27%2C28%2C48%2C147%2C77%2C112%2C18%2C20%2C44%2C40%2C42%2C41%2C83%2C92%2C96%2C110%2C145%2C148%2C46%2C111%2C24%2C21%2C119%2C69%2C36%2C150%2C149%2C151%2C142%2C140%2C25%2C35%2C59%2C109%2C162%2C70%2C17%2C153%2C114%2C81%2C66%2C19%2C85%2C86%2C116%2C84%2C136%2C135%2C139%2C161%2C34%2C281%2C297%2C214%2C203%2C204%2C202%2C300%2C291%2C52%2C215%2C107%2C131%2C80%2C121%2C54%2C47%2C49%2C113%2C120%2C126%2C125%2C58%2C64%2C152%2C115%2C37%2C32%2C53%2C56%2C100%2C165%2C1%2C124%2C14%2C122%2C12%2C2%2C57%2C93%2C65%2C118%2C89%2C88%2C168%2C169%2C94%2C95%2C9%2C102%2C51%2C143%2C87%2C79%2C71%2C117%2C106%2C43%2C144%2C0%2C82%2C137%2C141%2C154%2C38%2C108%2C13%2C170",
           "https://itftennis-ep.azureedge.net/media/assets/images/loading.gif",
           "https://www.itftennis.com/tennis/api/TournamentApi/GetEventFilters?tournamentKey=j-j200-rou-2026-001",
+          "https://app.termly.io/api/v1/snippets/websites/736a1a74-e471-43b1-9611-36ab129ebc69/cookies?lang=en",
+          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/script?fid=8a1cd5f9-0ba7-4b60-85a3-2d1cec370d79&type=visual&rnd=5f8e9bf4-c414-4989-a88d-0fa26949a57b&mkt=en",
+          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/forms/221840a7-9abb-ee11-9078-6045bd127be4/visits",
+          "https://app.termly.io/api/v1/snippets/websites/736a1a74-e471-43b1-9611-36ab129ebc69/statistics",
+          "https://analytics.tiktok.com/api/v2/monitor",
           "https://cm.g.doubleclick.net/partnerpixels?url=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj200-targu-jiu%2Frou%2F2026%2Fj-j200-rou-2026-001%2Fdraws-and-results%2F",
           "https://analytics.tiktok.com/api/v2/pixel",
-          "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=1207406365053563&correlator=3022322918927154&eid=31098501%2C31098621%2C95390960%2C31098602%2C95386538%2C95391544&output=ldjh&gdfp_req=1&vrg=202605140101&ptt=17&impl=fifs&iu_parts=23328656850%2Citf%2Cprimary_below_nav%2Ctournament_feature_banner&enc_prev_ius=%2F0%2F1%2F2%2C%2F0%2F1%2F3&prev_iu_szs=728x90%7C320x100%7C970x250%7C320x50%7C970x90%2C320x50%7C320x100%7C728x90%7C970x250%7C970x90&ifi=1&dids=div-gpt-ad-1768303440211-0~div-gpt-ad-1768303600172-0&adfs=2433876935~3601381602&sfv=1-0-45&sc=1&cookie=ID%3D680bdeee12209e12%3AT%3D1779376524%3ART%3D1779376524%3AS%3DALNI_Ma1jVhBNzcIjP4WmcYuhMd0OqFtQg&gpic=UID%3D000013a8fc30d95a%3AT%3D1779376524%3ART%3D1779376524%3AS%3DALNI_MZHkpX8N2p-DZJNhfA1DOekheCrig&abxe=1&dt=1779376531017&lmt=1779376531&adxs=276%2C480&adys=179%2C500&biw=1280&bih=720&scr_x=0&scr_y=0&btvi=0%7C0&ucis=1%7C2&oid=2&u_his=3&u_h=720&u_w=1280&u_ah=720&u_aw=1280&u_cd=24&u_sd=1&dmc=16&bc=31&nvt=1&uach=WyJMaW51eCIsIiIsIng4NiIsIiIsIjE0OC4wLjc3NzguOTYiLG51bGwsMCxudWxsLCI2NCIsW1siQ2hyb21pdW0iLCIxNDguMC43Nzc4Ljk2Il0sWyJIZWFkbGVzc0Nocm9tZSIsIjE0OC4wLjc3NzguOTYiXSxbIk5vdC9BKUJyYW5kIiwiOTkuMC4wLjAiXV0sMF0.&url=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj200-targu-jiu%2Frou%2F2026%2Fj-j200-rou-2026-001%2Fdraws-and-results%2F&vis=1&psz=970x90%7C970x90&msz=728x50%7C320x50&fws=4%2C4&ohw=1280%2C1280&dlt=1779376530614&idt=310&cust_params=tour%3Djuniors%26tournament_id%3DJ-J200-ROU-2026-001%26location%3DTargu%2520Jiu%26country%3DRomania&adks=2599182603%2C2569989109&frm=20&eo_id_str=ID%3D83ea387f82f6dacc%3AT%3D1779376524%3ART%3D1779376524%3AS%3DAA-AfjaFwdHQqZyhDT9XJ7jGKFn3&pgls=CAk.",
-          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65j1v9100208071z8898764819za20gzb898764819zd898764819&_p=1779376530620&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AAAAAGQ&are=1&cid=222803127.1779376524&frm=0&pscdl=noapi&rcb=11&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938468&sid=1779376524&sct=1&seg=1&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj200-targu-jiu%2Frou%2F2026%2Fj-j200-rou-2026-001%2Fdraws-and-results%2F&dt=J200%20Targu%20Jiu%202026%20Tennis%20Tournament%20%7C%20ITF&_tu=CA&en=page_view&ep.tournamentName=&ep.playersName=&tfd=847",
-          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/script?fid=156d3c3a-e2f7-4fd5-9106-3a6e201975f5&type=visual&rnd=b2965bbb-e8ec-450f-80b5-a346171deaa5&mkt=en",
-          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/forms/221840a7-9abb-ee11-9078-6045bd127be4/visits",
-          "https://analytics.tiktok.com/api/v2/pixel/act",
-          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/challenge/visual?flowId=156d3c3a-e2f7-4fd5-9106-3a6e201975f5&rnd=efa3ff3154b14fca927e8226286b4d57&market=en",
-          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65j1v9100208071za20gzb898764819zd898764819&_p=1779376530620&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AEIAAGQ&are=1&cid=222803127.1779376524&frm=0&pscdl=noapi&rcb=11&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&tag_exp=0~115938466~115938468&sid=1779376524&sct=1&seg=1&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj200-targu-jiu%2Frou%2F2026%2Fj-j200-rou-2026-001%2Fdraws-and-results%2F&dt=J200%20Targu%20Jiu%202026%20Tennis%20Tournament%20%7C%20ITF&_tu=CA&_s=2&tfd=1014",
+          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/challenge/visual?flowId=8a1cd5f9-0ba7-4b60-85a3-2d1cec370d79&rnd=0735fbcf5b5249588fac49e0467ad940&market=en",
+          "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=1254125542785692&correlator=3822103156817248&eid=31097658%2C31098624%2C31096727&output=ldjh&gdfp_req=1&vrg=202605140101&ptt=17&impl=fifs&iu_parts=23328656850%2Citf%2Cprimary_below_nav%2Ctournament_feature_banner&enc_prev_ius=%2F0%2F1%2F2%2C%2F0%2F1%2F3&prev_iu_szs=728x90%7C320x100%7C970x250%7C320x50%7C970x90%2C320x50%7C320x100%7C728x90%7C970x250%7C970x90&ifi=1&dids=div-gpt-ad-1768303440211-0~div-gpt-ad-1768303600172-0&adfs=2433876935~3601381602&sfv=1-0-45&sc=1&cookie=ID%3Db5fef3b1cbcfecf5%3AT%3D1779383561%3ART%3D1779383561%3AS%3DALNI_Mapm4J0SAg8TRwCKdaha3qX69CKvw&gpic=UID%3D000013a9061cc64a%3AT%3D1779383561%3ART%3D1779383561%3AS%3DALNI_Mb2W4SJCpPqm0Nq55aQB7DFpXE8EQ&abxe=1&dt=1779383568152&lmt=1779383568&adxs=276%2C480&adys=179%2C500&biw=1280&bih=720&scr_x=0&scr_y=0&btvi=0%7C0&ucis=1%7C2&oid=2&u_his=3&u_h=720&u_w=1280&u_ah=720&u_aw=1280&u_cd=24&u_sd=1&dmc=16&bc=31&nvt=1&uach=WyJMaW51eCIsIiIsIng4NiIsIiIsIjE0OC4wLjc3NzguOTYiLG51bGwsMCxudWxsLCI2NCIsW1siQ2hyb21pdW0iLCIxNDguMC43Nzc4Ljk2Il0sWyJIZWFkbGVzc0Nocm9tZSIsIjE0OC4wLjc3NzguOTYiXSxbIk5vdC9BKUJyYW5kIiwiOTkuMC4wLjAiXV0sMF0.&url=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj200-targu-jiu%2Frou%2F2026%2Fj-j200-rou-2026-001%2Fdraws-and-results%2F&vis=1&psz=970x90%7C970x90&msz=728x50%7C320x50&fws=4%2C4&ohw=1280%2C1280&dlt=1779383567749&idt=320&cust_params=tour%3Djuniors%26tournament_id%3DJ-J200-ROU-2026-001%26location%3DTargu%2520Jiu%26country%3DRomania&adks=2599182603%2C2569989109&frm=20&eo_id_str=ID%3D4fd3d422f5c2588c%3AT%3D1779383561%3ART%3D1779383561%3AS%3DAA-AfjbF7AN3V31rk3Lr9SHHxPMZ&pgls=CAk.",
+          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65k0v9100208071z8898764819za20gzb898764819zd898764819&_p=1779383567756&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AAAAAGQ&are=1&cid=525626019.1779383562&frm=0&pscdl=noapi&rcb=1&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&tag_exp=0~115938465~115938469&sid=1779383561&sct=1&seg=1&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj200-targu-jiu%2Frou%2F2026%2Fj-j200-rou-2026-001%2Fdraws-and-results%2F&dt=J200%20Targu%20Jiu%202026%20Tennis%20Tournament%20%7C%20ITF&_tu=CA&_s=1&tfd=779",
           "https://www.google.com/recaptcha/api2/aframe",
+          "https://analytics.tiktok.com/api/v2/pixel/act",
           "https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet",
-          "https://itftennis-ep.azureedge.net/media/assets/images/tick-green.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/FR.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/tick-green.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/ES.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/RO.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/US.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/SK.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/IN.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/UA.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/MA.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/BG.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/VE.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/SI.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/DE.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/BR.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/CZ.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/UA.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/BG.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/SE.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/MA.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/SI.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/VE.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/RS.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/PL.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/CN.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/SE.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/RS.png",
-          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65j1v9100208071z8898764819za20gzb898764819zd898764819&_p=1779376530620&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AAAAAGQ&are=1&cid=222803127.1779376524&frm=0&pscdl=noapi&rcb=11&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115938466~115938468&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj200-targu-jiu%2Frou%2F2026%2Fj-j200-rou-2026-001%2Fdraws-and-results%2F&sid=1779376524&sct=1&seg=1&dt=J200%20Targu%20Jiu%202026%20Tennis%20Tournament%20%7C%20ITF&_tu=CA&en=scroll_percent_25&ep.tournamentName=&ep.playersName=&_et=162&tfd=6015"
+          "https://itftennis-ep.azureedge.net/media/assets/images/CZ.png",
+          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65k0v9100208071za20gzb898764819zd898764819&_p=1779383567756&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AEIAAGQ&are=1&cid=525626019.1779383562&frm=0&pscdl=noapi&rcb=1&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&tag_exp=0~115938465~115938469&sid=1779383561&sct=1&seg=1&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj200-targu-jiu%2Frou%2F2026%2Fj-j200-rou-2026-001%2Fdraws-and-results%2F&dt=J200%20Targu%20Jiu%202026%20Tennis%20Tournament%20%7C%20ITF&_tu=CA&_s=2&tfd=5780"
         ]
       }
     },
@@ -7779,6 +7781,7 @@
           "https://itftennis-ep.azureedge.net/media/assets/bundle.js?key=@assemblyVersion",
           "https://itftennis-ep.azureedge.net/media/assets/bundle.css?key=@assemblyVersion",
           "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap",
+          "https://www.itftennis.com/media/8566/wtt-asset-amended.jpg",
           "https://itftennis-ep.azureedge.net/media/assets/images/stripes.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_LATEST%20NEWS.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/ITF%20ICONS%20white_PLAYER%20FEATURES.png",
@@ -7799,37 +7802,36 @@
           "https://itftennis-ep.azureedge.net/media/assets/images/shop_icon.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/arrow-right.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/surface-clay.svg",
-          "https://www.itftennis.com/media/8566/wtt-asset-amended.jpg",
           "https://itftennis-ep.azureedge.net/media/assets/10.css",
           "https://itftennis-ep.azureedge.net/media/assets/10.bundle.js",
+          "https://connect.facebook.net/signals/config/1025417051169198?v=2.9.324&r=stable&domain=www.itftennis.com&hme=af8aa31887db259becaf70277daef60bd8bc35c2df82c2acd4258de27ecac4b5&ex_m=104%2C207%2C155%2C22%2C72%2C73%2C146%2C68%2C67%2C11%2C164%2C90%2C16%2C138%2C127%2C39%2C75%2C78%2C134%2C160%2C166%2C8%2C4%2C5%2C7%2C6%2C3%2C91%2C101%2C167%2C172%2C221%2C62%2C188%2C189%2C55%2C279%2C30%2C74%2C233%2C232%2C231%2C23%2C33%2C103%2C61%2C10%2C63%2C97%2C98%2C99%2C105%2C130%2C31%2C29%2C132%2C133%2C129%2C128%2C156%2C76%2C159%2C157%2C158%2C50%2C60%2C123%2C15%2C163%2C45%2C266%2C267%2C265%2C26%2C27%2C28%2C48%2C147%2C77%2C112%2C18%2C20%2C44%2C40%2C42%2C41%2C83%2C92%2C96%2C110%2C145%2C148%2C46%2C111%2C24%2C21%2C119%2C69%2C36%2C150%2C149%2C151%2C142%2C140%2C25%2C35%2C59%2C109%2C162%2C70%2C17%2C153%2C114%2C81%2C66%2C19%2C85%2C86%2C116%2C84%2C136%2C135%2C139%2C161%2C34%2C281%2C297%2C214%2C203%2C204%2C202%2C300%2C291%2C52%2C215%2C107%2C131%2C80%2C121%2C54%2C47%2C49%2C113%2C120%2C126%2C125%2C58%2C64%2C152%2C115%2C37%2C32%2C53%2C56%2C100%2C165%2C1%2C124%2C14%2C122%2C12%2C2%2C57%2C93%2C65%2C118%2C89%2C88%2C168%2C169%2C94%2C95%2C9%2C102%2C51%2C143%2C87%2C79%2C71%2C117%2C106%2C43%2C144%2C0%2C82%2C137%2C141%2C154%2C38%2C108%2C13%2C170",
           "https://itftennis-ep.azureedge.net/media/assets/images/info-inactive.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/acceptance-list.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/draw-light-active.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/op-light-inactive.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/champions_icon--grey.svg",
-          "https://connect.facebook.net/signals/config/1025417051169198?v=2.9.324&r=stable&domain=www.itftennis.com&hme=af8aa31887db259becaf70277daef60bd8bc35c2df82c2acd4258de27ecac4b5&ex_m=104%2C207%2C155%2C22%2C72%2C73%2C146%2C68%2C67%2C11%2C164%2C90%2C16%2C138%2C127%2C39%2C75%2C78%2C134%2C160%2C166%2C8%2C4%2C5%2C7%2C6%2C3%2C91%2C101%2C167%2C172%2C221%2C62%2C188%2C189%2C55%2C279%2C30%2C74%2C233%2C232%2C231%2C23%2C33%2C103%2C61%2C10%2C63%2C97%2C98%2C99%2C105%2C130%2C31%2C29%2C132%2C133%2C129%2C128%2C156%2C76%2C159%2C157%2C158%2C50%2C60%2C123%2C15%2C163%2C45%2C266%2C267%2C265%2C26%2C27%2C28%2C48%2C147%2C77%2C112%2C18%2C20%2C44%2C40%2C42%2C41%2C83%2C92%2C96%2C110%2C145%2C148%2C46%2C111%2C24%2C21%2C119%2C69%2C36%2C150%2C149%2C151%2C142%2C140%2C25%2C35%2C59%2C109%2C162%2C70%2C17%2C153%2C114%2C81%2C66%2C19%2C85%2C86%2C116%2C84%2C136%2C135%2C139%2C161%2C34%2C281%2C297%2C214%2C203%2C204%2C202%2C300%2C291%2C52%2C215%2C107%2C131%2C80%2C121%2C54%2C47%2C49%2C113%2C120%2C126%2C125%2C58%2C64%2C152%2C115%2C37%2C32%2C53%2C56%2C100%2C165%2C1%2C124%2C14%2C122%2C12%2C2%2C57%2C93%2C65%2C118%2C89%2C88%2C168%2C169%2C94%2C95%2C9%2C102%2C51%2C143%2C87%2C79%2C71%2C117%2C106%2C43%2C144%2C0%2C82%2C137%2C141%2C154%2C38%2C108%2C13%2C170",
           "https://www.itftennis.com/media/14909/tennis-point-logo-colour-1.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/loading.gif",
+          "https://www.itftennis.com/tennis/api/TournamentApi/GetEventFilters?tournamentKey=j-j100-dom-2026-002",
+          "https://app.termly.io/api/v1/snippets/websites/736a1a74-e471-43b1-9611-36ab129ebc69/cookies?lang=en",
+          "https://analytics.tiktok.com/api/v2/monitor",
+          "https://analytics.tiktok.com/api/v2/pixel",
+          "https://app.termly.io/api/v1/snippets/websites/736a1a74-e471-43b1-9611-36ab129ebc69/statistics",
           "https://widgets.itf-production.sports-data.stadion.io/itf-widget-sdk.umd.js",
           "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap",
-          "https://itftennis-ep.azureedge.net/media/assets/images/loading.gif",
           "https://itftennis-ep.azureedge.net/media/assets/images/sign-up__splash-background.jpg",
           "https://itftennis-ep.azureedge.net/media/assets/images/sign-up__mobile-app.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/tennis_id_logo.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/chevron-right-grey.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/calendar.svg",
-          "https://app.termly.io/api/v1/snippets/websites/736a1a74-e471-43b1-9611-36ab129ebc69/cookies?lang=en",
-          "https://cm.g.doubleclick.net/partnerpixels?url=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj100-punta-cana%2Fdom%2F2026%2Fj-j100-dom-2026-002%2Fdraws-and-results%2F",
-          "https://app.termly.io/api/v1/snippets/websites/736a1a74-e471-43b1-9611-36ab129ebc69/statistics",
-          "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=123927038841328&correlator=3602010661826733&eid=31098602%2C95391544%2C31061690&output=ldjh&gdfp_req=1&vrg=202605140101&ptt=17&impl=fifs&iu_parts=23328656850%2Citf%2Cprimary_below_nav%2Ctournament_feature_banner&enc_prev_ius=%2F0%2F1%2F2%2C%2F0%2F1%2F3&prev_iu_szs=728x90%7C320x100%7C970x250%7C320x50%7C970x90%2C320x50%7C320x100%7C728x90%7C970x250%7C970x90&ifi=1&dids=div-gpt-ad-1768303440211-0~div-gpt-ad-1768303600172-0&adfs=2433876935~3601381602&sfv=1-0-45&sc=1&cookie=ID%3D680bdeee12209e12%3AT%3D1779376524%3ART%3D1779376524%3AS%3DALNI_Ma1jVhBNzcIjP4WmcYuhMd0OqFtQg&gpic=UID%3D000013a8fc30d95a%3AT%3D1779376524%3ART%3D1779376524%3AS%3DALNI_MZHkpX8N2p-DZJNhfA1DOekheCrig&abxe=1&dt=1779376538136&lmt=1779376538&adxs=276%2C480&adys=179%2C525&biw=1280&bih=720&scr_x=0&scr_y=0&btvi=0%7C0&ucis=1%7C2&oid=2&u_his=4&u_h=720&u_w=1280&u_ah=720&u_aw=1280&u_cd=24&u_sd=1&dmc=16&bc=31&nvt=1&uach=WyJMaW51eCIsIiIsIng4NiIsIiIsIjE0OC4wLjc3NzguOTYiLG51bGwsMCxudWxsLCI2NCIsW1siQ2hyb21pdW0iLCIxNDguMC43Nzc4Ljk2Il0sWyJIZWFkbGVzc0Nocm9tZSIsIjE0OC4wLjc3NzguOTYiXSxbIk5vdC9BKUJyYW5kIiwiOTkuMC4wLjAiXV0sMF0.&url=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj100-punta-cana%2Fdom%2F2026%2Fj-j100-dom-2026-002%2Fdraws-and-results%2F&vis=1&psz=970x90%7C970x90&msz=728x50%7C320x50&fws=4%2C4&ohw=1280%2C1280&dlt=1779376537814&idt=229&cust_params=tour%3Djuniors%26tournament_id%3DJ-J100-DOM-2026-002%26location%3DPunta%2520Cana%26country%3DDominican%2520Republic&adks=2599182603%2C2569989109&frm=20&eo_id_str=ID%3D83ea387f82f6dacc%3AT%3D1779376524%3ART%3D1779376524%3AS%3DAA-AfjaFwdHQqZyhDT9XJ7jGKFn3&pgls=CAk.",
-          "https://www.itftennis.com/tennis/api/TournamentApi/GetEventFilters?tournamentKey=j-j100-dom-2026-002",
-          "https://analytics.tiktok.com/api/v2/pixel",
-          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65j1v9100208071z8898764819za20gzb898764819zd898764819&_p=1779376537825&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AAAAAGQ&are=1&cid=222803127.1779376524&frm=0&pscdl=noapi&rcb=17&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938469&sid=1779376524&sct=1&seg=1&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj100-punta-cana%2Fdom%2F2026%2Fj-j100-dom-2026-002%2Fdraws-and-results%2F&dt=J100%20Punta%20Cana%202026%20Tennis%20Tournament%20%7C%20ITF&_tu=CA&en=page_view&ep.tournamentName=&ep.playersName=&tfd=1275",
-          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/script?fid=1e460f6b-87d4-43b4-b256-ae4e69165f2d&type=visual&rnd=da294561-64d0-476e-b2c2-9fc49a4a2ac8&mkt=en",
-          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/forms/221840a7-9abb-ee11-9078-6045bd127be4/visits",
-          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/challenge/visual?flowId=1e460f6b-87d4-43b4-b256-ae4e69165f2d&rnd=e72081f129b2452f81c45cd6a49d2158&market=en",
-          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65j1v9100208071za20gzb898764819zd898764819&_p=1779376537825&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AEIAAGQ&are=1&cid=222803127.1779376524&frm=0&pscdl=noapi&rcb=17&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&tag_exp=0~115938465~115938469&sid=1779376524&sct=1&seg=1&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj100-punta-cana%2Fdom%2F2026%2Fj-j100-dom-2026-002%2Fdraws-and-results%2F&dt=J100%20Punta%20Cana%202026%20Tennis%20Tournament%20%7C%20ITF&_tu=CA&_s=2&tfd=1517",
+          "https://cm.g.doubleclick.net/partnerpixels?gdpr=0&url=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj100-punta-cana%2Fdom%2F2026%2Fj-j100-dom-2026-002%2Fdraws-and-results%2F",
           "https://www.google.com/recaptcha/api2/aframe",
           "https://analytics.tiktok.com/api/v2/pixel/act",
+          "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=8436099278161594&correlator=348829509722256&eid=95391185%2C31096727&output=ldjh&gdfp_req=1&vrg=202605140101&ptt=17&impl=fifs&gdpr=0&iu_parts=23328656850%2Citf%2Cprimary_below_nav%2Ctournament_feature_banner&enc_prev_ius=%2F0%2F1%2F2%2C%2F0%2F1%2F3&prev_iu_szs=728x90%7C320x100%7C970x250%7C320x50%7C970x90%2C320x50%7C320x100%7C728x90%7C970x250%7C970x90&ifi=1&dids=div-gpt-ad-1768303440211-0~div-gpt-ad-1768303600172-0&adfs=2433876935~3601381602&sfv=1-0-45&sc=1&cookie=ID%3Db5fef3b1cbcfecf5%3AT%3D1779383561%3ART%3D1779383561%3AS%3DALNI_Mapm4J0SAg8TRwCKdaha3qX69CKvw&gpic=UID%3D000013a9061cc64a%3AT%3D1779383561%3ART%3D1779383561%3AS%3DALNI_Mb2W4SJCpPqm0Nq55aQB7DFpXE8EQ&abxe=1&dt=1779383574641&lmt=1779383574&adxs=276%2C480&adys=179%2C525&biw=1280&bih=720&scr_x=0&scr_y=0&btvi=0%7C0&ucis=1%7C2&oid=2&u_his=4&u_h=720&u_w=1280&u_ah=720&u_aw=1280&u_cd=24&u_sd=1&dmc=16&bc=31&nvt=1&uach=WyJMaW51eCIsIiIsIng4NiIsIiIsIjE0OC4wLjc3NzguOTYiLG51bGwsMCxudWxsLCI2NCIsW1siQ2hyb21pdW0iLCIxNDguMC43Nzc4Ljk2Il0sWyJIZWFkbGVzc0Nocm9tZSIsIjE0OC4wLjc3NzguOTYiXSxbIk5vdC9BKUJyYW5kIiwiOTkuMC4wLjAiXV0sMF0.&url=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj100-punta-cana%2Fdom%2F2026%2Fj-j100-dom-2026-002%2Fdraws-and-results%2F&vis=1&psz=970x90%7C970x90&msz=728x50%7C320x50&fws=4%2C4&ohw=1280%2C1280&dlt=1779383574235&idt=116&cust_params=tour%3Djuniors%26tournament_id%3DJ-J100-DOM-2026-002%26location%3DPunta%2520Cana%26country%3DDominican%2520Republic&adks=2599182603%2C2569989109&frm=20&eo_id_str=ID%3D4fd3d422f5c2588c%3AT%3D1779383561%3ART%3D1779383561%3AS%3DAA-AfjbF7AN3V31rk3Lr9SHHxPMZ&pgls=CAk.",
+          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65k0v9100208071z8898764819za20gzb898764819zd898764819&_p=1779383574241&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AAAAAGQ&are=1&cid=525626019.1779383562&frm=0&pscdl=noapi&rcb=16&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&tag_exp=0~115938465~115938469&sid=1779383561&sct=1&seg=1&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj100-punta-cana%2Fdom%2F2026%2Fj-j100-dom-2026-002%2Fdraws-and-results%2F&dt=J100%20Punta%20Cana%202026%20Tennis%20Tournament%20%7C%20ITF&_tu=CA&_s=1&tfd=725",
+          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/script?fid=f18bb84a-14c2-4c70-bd6c-81fdac2819dc&type=visual&rnd=6a651e87-3460-43a9-8b36-20541d121b19&mkt=en",
+          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/forms/221840a7-9abb-ee11-9078-6045bd127be4/visits",
+          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/challenge/visual?flowId=f18bb84a-14c2-4c70-bd6c-81fdac2819dc&rnd=db37708221c74d51b3e1d53797167700&market=en",
           "https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet",
           "https://itftennis-ep.azureedge.net/media/assets/images/tick-green.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/US.png",
@@ -7839,11 +7841,11 @@
           "https://itftennis-ep.azureedge.net/media/assets/images/CA.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/IL.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/DO.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/TR.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/CL.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/MX.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/KN.png",
-          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65j1v9100208071z8898764819za20gzb898764819zd898764819&_p=1779376537825&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AAAAAGQ&are=1&cid=222803127.1779376524&frm=0&pscdl=noapi&rcb=17&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115938465~115938469&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj100-punta-cana%2Fdom%2F2026%2Fj-j100-dom-2026-002%2Fdraws-and-results%2F&sid=1779376524&sct=1&seg=1&dt=J100%20Punta%20Cana%202026%20Tennis%20Tournament%20%7C%20ITF&_tu=CA&en=scroll_percent_25&ep.tournamentName=&ep.playersName=&_et=236&tfd=6518"
+          "https://itftennis-ep.azureedge.net/media/assets/images/TR.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/CL.png",
+          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65k0v9100208071za20gzb898764819zd898764819&_p=1779383574241&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&tcfd=10000&gdid=dNzg2MD&_eu=AEIAAGQ&are=1&cid=525626019.1779383562&frm=0&pscdl=noapi&rcb=16&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&tag_exp=0~115938465~115938469&sid=1779383561&sct=1&seg=1&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj100-punta-cana%2Fdom%2F2026%2Fj-j100-dom-2026-002%2Fdraws-and-results%2F&dt=J100%20Punta%20Cana%202026%20Tennis%20Tournament%20%7C%20ITF&_tu=CA&_s=2&tfd=5726"
         ]
       }
     },
@@ -8041,16 +8043,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-SWE-2026-002/2026"
+            "currentRound": "SF",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j100-varnamo/swe/2026/j-j100-swe-2026-002/draws-and-results",
+            "matchId": 1183542181
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-SWE-2026-002/2026"
+            "currentRound": "F",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j100-varnamo/swe/2026/j-j100-swe-2026-002/draws-and-results",
+            "matchId": 2124502715
           }
         },
         {
@@ -8070,15 +8075,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-SWE-2026-002/2026"
+            "currentRound": "SF",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j100-varnamo/swe/2026/j-j100-swe-2026-002/draws-and-results",
+            "matchId": 1183542182
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-SWE-2026-002/2026"
+            "currentRound": "F",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j100-varnamo/swe/2026/j-j100-swe-2026-002/draws-and-results",
+            "matchId": 2124502715
           }
         },
         {
@@ -8098,15 +8107,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-SWE-2026-002/2026"
+            "currentRound": "SF",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j100-varnamo/swe/2026/j-j100-swe-2026-002/draws-and-results",
+            "matchId": 1183542182
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-SWE-2026-002/2026"
+            "confidence": "itf-api-loss",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j100-varnamo/swe/2026/j-j100-swe-2026-002/draws-and-results",
+            "matchId": 2124502712
           }
         },
         {
@@ -8125,16 +8138,20 @@
           "juniorRank": 265,
           "priority": 1,
           "drawResult": {
-            "status": "Ativo",
-            "currentRound": "R16",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-SWE-2026-002/2026"
+            "status": "Eliminado",
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "2-6 4-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j100-varnamo/swe/2026/j-j100-swe-2026-002/draws-and-results",
+            "matchId": 1183542235
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-SWE-2026-002/2026"
+            "currentRound": "SF",
+            "confidence": "itf-api-pending-match",
+            "score": "6-3 0-2",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j100-varnamo/swe/2026/j-j100-swe-2026-002/draws-and-results",
+            "matchId": 2124502729
           }
         },
         {
@@ -8154,342 +8171,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-SWE-2026-002/2026"
-          },
-          "drawResultDoubles": {
-            "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-SWE-2026-002/2026"
-          }
-        }
-      ],
-      "itfApiWarning": "Could not fetch ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetEventFilters?tournamentKey=J-J100-SWE-2026-002: Unexpected token '<', \"<html styl\"... is not valid JSON",
-      "liveTennisUrl": "https://www.live-tennis.cn/en/draw/J-J100-SWE-2026-002/2026"
-    },
-    {
-      "tournamentName": "J100 Huzhou",
-      "grade": "J100",
-      "startDate": "2026-05-18",
-      "endDate": "2026-05-24",
-      "status": "",
-      "country": "CHN",
-      "surface": "Clay",
-      "key": "J-J100-CHN-2026-004",
-      "acceptanceListUrl": "https://www.itftennis.com/en/tournament/j100-huzhou/chn/2026/j-j100-chn-2026-004/acceptance-list",
-      "drawsUrl": "https://www.itftennis.com/en/tournament/j100-huzhou/chn/2026/j-j100-chn-2026-004/draws-and-results",
-      "itfEntriesUrl": "https://itf-entries.netlify.app/tournament/J-J100-CHN-2026-004",
-      "acceptedPlayers": [
-        {
-          "currentRank": 151,
-          "name": "Eito Komada",
-          "country": "JPN",
-          "gender": "Boys",
-          "id": "eito-komada",
-          "birthYear": 2008,
-          "officialPoints": 498.5,
-          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/eito-komada/800679317/jpn/jt/s/itf-points-breakdown/",
-          "needsProfileResolution": false,
-          "entryGroup": "MD",
-          "position": 1,
-          "sex": "boy",
-          "juniorRank": 143,
-          "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
             "currentRound": "SF",
             "confidence": "itf-api-pending-match",
             "score": "",
-            "sourceUrl": "https://www.itftennis.com/en/tournament/j100-huzhou/chn/2026/j-j100-chn-2026-004/draws-and-results",
-            "matchId": 1183541017
-          },
-          "drawResultDoubles": {
-            "status": "Ativo",
-            "currentRound": "F",
-            "confidence": "itf-api-pending-match",
-            "score": "",
-            "sourceUrl": "https://www.itftennis.com/en/tournament/j100-huzhou/chn/2026/j-j100-chn-2026-004/draws-and-results",
-            "matchId": 2124502385
-          }
-        },
-        {
-          "currentRank": 211,
-          "name": "Kensuke Kobayashi",
-          "country": "JPN",
-          "gender": "Boys",
-          "id": "kensuke-kobayashi",
-          "birthYear": 2009,
-          "officialPoints": 385.5,
-          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/kensuke-kobayashi/800708478/jpn/jt/s/itf-points-breakdown/",
-          "needsProfileResolution": false,
-          "entryGroup": "MD",
-          "position": 2,
-          "sex": "boy",
-          "juniorRank": 196,
-          "priority": 1,
-          "drawResult": {
-            "status": "Eliminado",
-            "currentRound": "QF",
-            "confidence": "itf-api-loss",
-            "score": "3-6 2-6",
-            "sourceUrl": "https://www.itftennis.com/en/tournament/j100-huzhou/chn/2026/j-j100-chn-2026-004/draws-and-results",
-            "matchId": 1183541016
-          },
-          "drawResultDoubles": {
-            "status": "Ativo",
-            "currentRound": "F",
-            "confidence": "itf-api-pending-match",
-            "score": "",
-            "sourceUrl": "https://www.itftennis.com/en/tournament/j100-huzhou/chn/2026/j-j100-chn-2026-004/draws-and-results",
-            "matchId": 2124502385
-          }
-        },
-        {
-          "currentRank": 293,
-          "name": "Yanhong Li",
-          "country": "CHN",
-          "gender": "Boys",
-          "id": "yanhong-li",
-          "birthYear": 2008,
-          "officialPoints": 280,
-          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/yanhong-li/800625292/chn/jt/s/itf-points-breakdown/",
-          "needsProfileResolution": false,
-          "entryGroup": "MD",
-          "position": 3,
-          "sex": "boy",
-          "juniorRank": 281,
-          "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "SF",
-            "confidence": "itf-api-pending-match",
-            "score": "",
-            "sourceUrl": "https://www.itftennis.com/en/tournament/j100-huzhou/chn/2026/j-j100-chn-2026-004/draws-and-results",
-            "matchId": 1183541018
-          },
-          "drawResultDoubles": {
-            "status": "Eliminado",
-            "currentRound": "SF",
-            "confidence": "itf-api-loss",
-            "score": "6-7(3) 5-7",
-            "sourceUrl": "https://www.itftennis.com/en/tournament/j100-huzhou/chn/2026/j-j100-chn-2026-004/draws-and-results",
-            "matchId": 2124502383
-          }
-        },
-        {
-          "currentRank": 284,
-          "name": "Ivan Makarov",
-          "country": "RUS",
-          "gender": "Boys",
-          "id": "ivan-makarov",
-          "birthYear": 2009,
-          "officialPoints": 288,
-          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ivan-makarov/800591606/rus/jt/s/itf-points-breakdown/",
-          "needsProfileResolution": false,
-          "entryGroup": "MD",
-          "position": 5,
-          "sex": "boy",
-          "juniorRank": 314,
-          "priority": 1,
-          "drawResult": {
-            "status": "Eliminado",
-            "currentRound": "QF",
-            "confidence": "itf-api-loss",
-            "score": "0-6 7-6(4) 5-7",
-            "sourceUrl": "https://www.itftennis.com/en/tournament/j100-huzhou/chn/2026/j-j100-chn-2026-004/draws-and-results",
-            "matchId": 1183541015
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j100-varnamo/swe/2026/j-j100-swe-2026-002/draws-and-results",
+            "matchId": 1183542240
           },
           "drawResultDoubles": {
             "status": "Eliminado",
             "currentRound": "R32",
             "confidence": "itf-api-loss",
-            "score": "6-4 4-6 8-10",
-            "sourceUrl": "https://www.itftennis.com/en/tournament/j100-huzhou/chn/2026/j-j100-chn-2026-004/draws-and-results",
-            "matchId": 2124502377
-          }
-        },
-        {
-          "currentRank": 241,
-          "name": "Yi-En Hua",
-          "country": "TPE",
-          "gender": "Girls",
-          "id": "yi-en-hua",
-          "birthYear": 2009,
-          "officialPoints": 380.25,
-          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/yi-en-hua/800738190/tpe/jt/s/itf-points-breakdown/",
-          "needsProfileResolution": false,
-          "entryGroup": "MD",
-          "position": 1,
-          "sex": "girl",
-          "juniorRank": 238,
-          "priority": 1,
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "SF",
-            "confidence": "itf-api-pending-match",
-            "score": "",
-            "sourceUrl": "https://www.itftennis.com/en/tournament/j100-huzhou/chn/2026/j-j100-chn-2026-004/draws-and-results",
-            "matchId": 1183541076
-          },
-          "drawResultDoubles": {
-            "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-CHN-2026-004/2026"
-          }
-        },
-        {
-          "currentRank": 266,
-          "name": "Ziyu Zhou",
-          "country": "CHN",
-          "gender": "Girls",
-          "id": "ziyu-zhou",
-          "birthYear": 2009,
-          "officialPoints": 349,
-          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ziyu-zhou/800778567/chn/jt/s/itf-points-breakdown/",
-          "needsProfileResolution": false,
-          "entryGroup": "MD",
-          "position": 2,
-          "sex": "girl",
-          "juniorRank": 239,
-          "priority": 1,
-          "drawResult": {
-            "status": "Eliminado",
-            "currentRound": "QF",
-            "confidence": "itf-api-loss",
-            "score": "5-7 4-6",
-            "sourceUrl": "https://www.itftennis.com/en/tournament/j100-huzhou/chn/2026/j-j100-chn-2026-004/draws-and-results",
-            "matchId": 1183541072
-          },
-          "drawResultDoubles": {
-            "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-CHN-2026-004/2026"
-          }
-        },
-        {
-          "currentRank": 246,
-          "name": "Jiayi Sun",
-          "country": "CHN",
-          "gender": "Girls",
-          "id": "jiayi-sun",
-          "birthYear": 2010,
-          "officialPoints": 370.5,
-          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/jiayi-sun/800775735/chn/jt/s/itf-points-breakdown/",
-          "needsProfileResolution": false,
-          "entryGroup": "MD",
-          "position": 3,
-          "sex": "girl",
-          "juniorRank": 250,
-          "priority": 1,
-          "drawResult": {
-            "status": "Eliminado",
-            "currentRound": "R64",
-            "confidence": "itf-api-loss",
-            "score": "2-6 5-7",
-            "sourceUrl": "https://www.itftennis.com/en/tournament/j100-huzhou/chn/2026/j-j100-chn-2026-004/draws-and-results",
-            "matchId": 1183541063
-          },
-          "drawResultDoubles": {
-            "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-CHN-2026-004/2026"
-          }
-        },
-        {
-          "currentRank": 259,
-          "name": "Ching Ying Chen",
-          "country": "TPE",
-          "gender": "Girls",
-          "id": "ching-ying-chen",
-          "birthYear": 2009,
-          "officialPoints": 358.5,
-          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ching-ying-chen/800708182/tpe/jt/s/itf-points-breakdown/",
-          "needsProfileResolution": false,
-          "entryGroup": "MD",
-          "position": 4,
-          "sex": "girl",
-          "juniorRank": 255,
-          "priority": 1,
-          "drawResult": {
-            "status": "Eliminado",
-            "currentRound": "R64",
-            "confidence": "itf-api-loss",
-            "score": "3-6 3-6",
-            "sourceUrl": "https://www.itftennis.com/en/tournament/j100-huzhou/chn/2026/j-j100-chn-2026-004/draws-and-results",
-            "matchId": 1183541059
-          },
-          "drawResultDoubles": {
-            "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-CHN-2026-004/2026"
-          }
-        },
-        {
-          "currentRank": 234,
-          "name": "Hanlei Lu",
-          "country": "CHN",
-          "gender": "Boys",
-          "id": "hanlei-lu",
-          "birthYear": 2009,
-          "officialPoints": 352.5,
-          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/hanlei-lu/800726991/chn/jt/s/itf-points-breakdown/",
-          "needsProfileResolution": false,
-          "entryGroup": "",
-          "position": "",
-          "sex": "boy",
-          "juniorRank": 234,
-          "priority": "",
-          "drawResult": {
-            "status": "Ativo",
-            "currentRound": "SF",
-            "confidence": "itf-api-pending-match",
-            "score": "",
-            "sourceUrl": "https://www.itftennis.com/en/tournament/j100-huzhou/chn/2026/j-j100-chn-2026-004/draws-and-results",
-            "matchId": 1183541017
-          },
-          "drawResultDoubles": {
-            "status": "Eliminado",
-            "currentRound": "QF",
-            "confidence": "itf-api-loss",
-            "score": "6-4 3-6 5-10",
-            "sourceUrl": "https://www.itftennis.com/en/tournament/j100-huzhou/chn/2026/j-j100-chn-2026-004/draws-and-results",
-            "matchId": 2124502381
-          }
-        },
-        {
-          "currentRank": 263,
-          "name": "FANGYU SHANG",
-          "country": "CHN",
-          "gender": "Girls",
-          "id": "fangyu-shang",
-          "birthYear": 2010,
-          "officialPoints": 353,
-          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/fangyu-shang/800743801/chn/jt/s/itf-points-breakdown/",
-          "needsProfileResolution": false,
-          "entryGroup": "",
-          "position": "",
-          "sex": "girl",
-          "juniorRank": 263,
-          "priority": "",
-          "drawResult": {
-            "status": "Eliminado",
-            "currentRound": "QF",
-            "confidence": "itf-api-loss",
-            "score": "7-5 4-6 4-6",
-            "sourceUrl": "https://www.itftennis.com/en/tournament/j100-huzhou/chn/2026/j-j100-chn-2026-004/draws-and-results",
-            "matchId": 1183541073
-          },
-          "drawResultDoubles": {
-            "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-CHN-2026-004/2026"
+            "score": "5-7 6-2 9-11",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j100-varnamo/swe/2026/j-j100-swe-2026-002/draws-and-results",
+            "matchId": 2124502718
           }
         }
       ],
@@ -8531,7 +8225,247 @@
           "drawsheetStructureCode": "KO"
         }
       ],
-      "itfApiWarning": "Could not post ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet: Unexpected token '<', \"<html styl\"... is not valid JSON",
+      "liveTennisUrl": "https://www.live-tennis.cn/en/draw/J-J100-SWE-2026-002/2026"
+    },
+    {
+      "tournamentName": "J100 Huzhou",
+      "grade": "J100",
+      "startDate": "2026-05-18",
+      "endDate": "2026-05-24",
+      "status": "",
+      "country": "CHN",
+      "surface": "Clay",
+      "key": "J-J100-CHN-2026-004",
+      "acceptanceListUrl": "https://www.itftennis.com/en/tournament/j100-huzhou/chn/2026/j-j100-chn-2026-004/acceptance-list",
+      "drawsUrl": "https://www.itftennis.com/en/tournament/j100-huzhou/chn/2026/j-j100-chn-2026-004/draws-and-results",
+      "itfEntriesUrl": "https://itf-entries.netlify.app/tournament/J-J100-CHN-2026-004",
+      "acceptedPlayers": [
+        {
+          "currentRank": 151,
+          "name": "Eito Komada",
+          "country": "JPN",
+          "gender": "Boys",
+          "id": "eito-komada",
+          "birthYear": 2008,
+          "officialPoints": 498.5,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/eito-komada/800679317/jpn/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 1,
+          "sex": "boy",
+          "juniorRank": 143,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R16",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-CHN-2026-004/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-CHN-2026-004/2026"
+          }
+        },
+        {
+          "currentRank": 211,
+          "name": "Kensuke Kobayashi",
+          "country": "JPN",
+          "gender": "Boys",
+          "id": "kensuke-kobayashi",
+          "birthYear": 2009,
+          "officialPoints": 385.5,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/kensuke-kobayashi/800708478/jpn/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 2,
+          "sex": "boy",
+          "juniorRank": 196,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R16",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-CHN-2026-004/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-CHN-2026-004/2026"
+          }
+        },
+        {
+          "currentRank": 293,
+          "name": "Yanhong Li",
+          "country": "CHN",
+          "gender": "Boys",
+          "id": "yanhong-li",
+          "birthYear": 2008,
+          "officialPoints": 280,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/yanhong-li/800625292/chn/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 3,
+          "sex": "boy",
+          "juniorRank": 281,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R16",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-CHN-2026-004/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-CHN-2026-004/2026"
+          }
+        },
+        {
+          "currentRank": 284,
+          "name": "Ivan Makarov",
+          "country": "RUS",
+          "gender": "Boys",
+          "id": "ivan-makarov",
+          "birthYear": 2009,
+          "officialPoints": 288,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ivan-makarov/800591606/rus/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 5,
+          "sex": "boy",
+          "juniorRank": 314,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R16",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-CHN-2026-004/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R16",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-CHN-2026-004/2026"
+          }
+        },
+        {
+          "currentRank": 241,
+          "name": "Yi-En Hua",
+          "country": "TPE",
+          "gender": "Girls",
+          "id": "yi-en-hua",
+          "birthYear": 2009,
+          "officialPoints": 380.25,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/yi-en-hua/800738190/tpe/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 1,
+          "sex": "girl",
+          "juniorRank": 238,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R16",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-CHN-2026-004/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-CHN-2026-004/2026"
+          }
+        },
+        {
+          "currentRank": 266,
+          "name": "Ziyu Zhou",
+          "country": "CHN",
+          "gender": "Girls",
+          "id": "ziyu-zhou",
+          "birthYear": 2009,
+          "officialPoints": 349,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ziyu-zhou/800778567/chn/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 2,
+          "sex": "girl",
+          "juniorRank": 239,
+          "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R16",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-CHN-2026-004/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-CHN-2026-004/2026"
+          }
+        },
+        {
+          "currentRank": 246,
+          "name": "Jiayi Sun",
+          "country": "CHN",
+          "gender": "Girls",
+          "id": "jiayi-sun",
+          "birthYear": 2010,
+          "officialPoints": 370.5,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/jiayi-sun/800775735/chn/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 3,
+          "sex": "girl",
+          "juniorRank": 250,
+          "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "R32",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-CHN-2026-004/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-CHN-2026-004/2026"
+          }
+        },
+        {
+          "currentRank": 259,
+          "name": "Ching Ying Chen",
+          "country": "TPE",
+          "gender": "Girls",
+          "id": "ching-ying-chen",
+          "birthYear": 2009,
+          "officialPoints": 358.5,
+          "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ching-ying-chen/800708182/tpe/jt/s/itf-points-breakdown/",
+          "needsProfileResolution": false,
+          "entryGroup": "MD",
+          "position": 4,
+          "sex": "girl",
+          "juniorRank": 255,
+          "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "R32",
+            "confidence": "live-loss",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-CHN-2026-004/2026"
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "live-win",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J100-CHN-2026-004/2026"
+          }
+        }
+      ],
+      "itfApiWarning": "Could not fetch ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetEventFilters?tournamentKey=J-J100-CHN-2026-004: Unexpected token '<', \"<html styl\"... is not valid JSON",
       "liveTennisUrl": "https://www.live-tennis.cn/en/draw/J-J100-CHN-2026-004/2026"
     },
     {
@@ -8689,8 +8623,8 @@
         "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/132313/Tournament-Rounds.html"
       ],
       "drawDiagnostic": {
-        "textLength": 6767,
-        "lineCount": 514,
+        "textLength": 3969,
+        "lineCount": 182,
         "firstLines": [
           "We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience and analyze website traffic. By clicking “Accept,” you agree to our website's cookie use as described in our Cookie Policy. You can change your cookie settings at any time by clicking “Preferences.”",
           "Preferences",
@@ -8773,11 +8707,7 @@
           "Olympics",
           "Paralympics"
         ],
-        "interestingLines": [
-          "BOYS",
-          "SINGLES",
-          "MAIN DRAW"
-        ],
+        "interestingLines": [],
         "playerHits": [
           {
             "id": "alessandro-rubini-garcia-belaunde",
@@ -8837,44 +8767,39 @@
           "https://itftennis-ep.azureedge.net/media/assets/images/shop_icon.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/arrow-right.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/surface-clay.svg",
-          "https://widgets.itf-production.sports-data.stadion.io/itf-widget-sdk.umd.js",
           "https://itftennis-ep.azureedge.net/media/assets/10.css",
           "https://itftennis-ep.azureedge.net/media/assets/10.bundle.js",
-          "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap",
           "https://itftennis-ep.azureedge.net/media/assets/images/info-inactive.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/acceptance-list.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/draw-light-active.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/op-light-inactive.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/sign-up__splash-background.jpg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/sign-up__mobile-app.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/tennis_id_logo.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/chevron-right-grey.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/calendar.svg",
           "https://www.itftennis.com/media/14909/tennis-point-logo-colour-1.png",
           "https://connect.facebook.net/signals/config/1025417051169198?v=2.9.324&r=stable&domain=www.itftennis.com&hme=af8aa31887db259becaf70277daef60bd8bc35c2df82c2acd4258de27ecac4b5&ex_m=104%2C207%2C155%2C22%2C72%2C73%2C146%2C68%2C67%2C11%2C164%2C90%2C16%2C138%2C127%2C39%2C75%2C78%2C134%2C160%2C166%2C8%2C4%2C5%2C7%2C6%2C3%2C91%2C101%2C167%2C172%2C221%2C62%2C188%2C189%2C55%2C279%2C30%2C74%2C233%2C232%2C231%2C23%2C33%2C103%2C61%2C10%2C63%2C97%2C98%2C99%2C105%2C130%2C31%2C29%2C132%2C133%2C129%2C128%2C156%2C76%2C159%2C157%2C158%2C50%2C60%2C123%2C15%2C163%2C45%2C266%2C267%2C265%2C26%2C27%2C28%2C48%2C147%2C77%2C112%2C18%2C20%2C44%2C40%2C42%2C41%2C83%2C92%2C96%2C110%2C145%2C148%2C46%2C111%2C24%2C21%2C119%2C69%2C36%2C150%2C149%2C151%2C142%2C140%2C25%2C35%2C59%2C109%2C162%2C70%2C17%2C153%2C114%2C81%2C66%2C19%2C85%2C86%2C116%2C84%2C136%2C135%2C139%2C161%2C34%2C281%2C297%2C214%2C203%2C204%2C202%2C300%2C291%2C52%2C215%2C107%2C131%2C80%2C121%2C54%2C47%2C49%2C113%2C120%2C126%2C125%2C58%2C64%2C152%2C115%2C37%2C32%2C53%2C56%2C100%2C165%2C1%2C124%2C14%2C122%2C12%2C2%2C57%2C93%2C65%2C118%2C89%2C88%2C168%2C169%2C94%2C95%2C9%2C102%2C51%2C143%2C87%2C79%2C71%2C117%2C106%2C43%2C144%2C0%2C82%2C137%2C141%2C154%2C38%2C108%2C13%2C170",
           "https://app.termly.io/api/v1/snippets/websites/736a1a74-e471-43b1-9611-36ab129ebc69/cookies?lang=en",
           "https://itftennis-ep.azureedge.net/media/assets/images/loading.gif",
           "https://www.itftennis.com/tennis/api/TournamentApi/GetEventFilters?tournamentKey=j-j100-bol-2026-002",
+          "https://analytics.tiktok.com/api/v2/monitor",
           "https://app.termly.io/api/v1/snippets/websites/736a1a74-e471-43b1-9611-36ab129ebc69/statistics",
-          "https://cm.g.doubleclick.net/partnerpixels?url=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj100-cochabamba%2Fbol%2F2026%2Fj-j100-bol-2026-002%2Fdraws-and-results%2F",
           "https://analytics.tiktok.com/api/v2/pixel",
-          "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=8387720894435730&correlator=1169785886653577&eid=31097658%2C95390554%2C31098602&output=ldjh&gdfp_req=1&vrg=202605140101&ptt=17&impl=fifs&iu_parts=23328656850%2Citf%2Cprimary_below_nav%2Ctournament_feature_banner&enc_prev_ius=%2F0%2F1%2F2%2C%2F0%2F1%2F3&prev_iu_szs=728x90%7C320x100%7C970x250%7C320x50%7C970x90%2C320x50%7C320x100%7C728x90%7C970x250%7C970x90&ifi=1&dids=div-gpt-ad-1768303440211-0~div-gpt-ad-1768303600172-0&adfs=2433876935~3601381602&sfv=1-0-45&sc=1&cookie=ID%3D680bdeee12209e12%3AT%3D1779376524%3ART%3D1779376524%3AS%3DALNI_Ma1jVhBNzcIjP4WmcYuhMd0OqFtQg&gpic=UID%3D000013a8fc30d95a%3AT%3D1779376524%3ART%3D1779376524%3AS%3DALNI_MZHkpX8N2p-DZJNhfA1DOekheCrig&abxe=1&dt=1779376544766&lmt=1779376544&adxs=276%2C480&adys=179%2C510&biw=1280&bih=720&scr_x=0&scr_y=0&btvi=0%7C0&ucis=1%7C2&oid=2&u_his=5&u_h=720&u_w=1280&u_ah=720&u_aw=1280&u_cd=24&u_sd=1&dmc=16&bc=31&nvt=1&uach=WyJMaW51eCIsIiIsIng4NiIsIiIsIjE0OC4wLjc3NzguOTYiLG51bGwsMCxudWxsLCI2NCIsW1siQ2hyb21pdW0iLCIxNDguMC43Nzc4Ljk2Il0sWyJIZWFkbGVzc0Nocm9tZSIsIjE0OC4wLjc3NzguOTYiXSxbIk5vdC9BKUJyYW5kIiwiOTkuMC4wLjAiXV0sMF0.&url=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj100-cochabamba%2Fbol%2F2026%2Fj-j100-bol-2026-002%2Fdraws-and-results%2F&vis=1&psz=970x90%7C970x90&msz=728x50%7C320x50&fws=4%2C4&ohw=1280%2C1280&dlt=1779376544432&idt=268&cust_params=tour%3Djuniors%26tournament_id%3DJ-J100-BOL-2026-002%26location%3DCochabamba%26country%3DBolivia&adks=2599182603%2C2569989109&frm=20&cpu=2&eo_id_str=ID%3D83ea387f82f6dacc%3AT%3D1779376524%3ART%3D1779376524%3AS%3DAA-AfjaFwdHQqZyhDT9XJ7jGKFn3&pgls=CAk.",
-          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/script?fid=a46fcfb6-886b-46c9-88d9-40245629a8e2&type=visual&rnd=98e93d58-e609-4fc2-ace6-2c72466688ba&mkt=en",
-          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65j1v9100208071z8898764819za20gzb898764819zd898764819&_p=1779376544443&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AAAAAGQ&are=1&cid=222803127.1779376524&frm=0&pscdl=noapi&rcb=1&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938469&sid=1779376524&sct=1&seg=1&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj100-cochabamba%2Fbol%2F2026%2Fj-j100-bol-2026-002%2Fdraws-and-results%2F&dt=J100%20Cochabamba%202026%20Tennis%20Tournament%20%7C%20ITF&_tu=CA&en=page_view&ep.tournamentName=&ep.playersName=&tfd=784",
-          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/forms/221840a7-9abb-ee11-9078-6045bd127be4/visits",
+          "https://cm.g.doubleclick.net/partnerpixels?gdpr=0&url=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj100-cochabamba%2Fbol%2F2026%2Fj-j100-bol-2026-002%2Fdraws-and-results%2F",
+          "https://widgets.itf-production.sports-data.stadion.io/itf-widget-sdk.umd.js",
+          "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap",
+          "https://itftennis-ep.azureedge.net/media/assets/images/sign-up__splash-background.jpg",
+          "https://itftennis-ep.azureedge.net/media/assets/images/sign-up__mobile-app.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/tennis_id_logo.svg",
+          "https://itftennis-ep.azureedge.net/media/assets/images/chevron-right-grey.svg",
+          "https://itftennis-ep.azureedge.net/media/assets/images/calendar.svg",
+          "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=4909238733755612&correlator=4292103906028579&eid=31098621%2C31098671%2C31096727&output=ldjh&gdfp_req=1&vrg=202605140101&ptt=17&impl=fifs&gdpr=0&iu_parts=23328656850%2Citf%2Cprimary_below_nav%2Ctournament_feature_banner&enc_prev_ius=%2F0%2F1%2F2%2C%2F0%2F1%2F3&prev_iu_szs=728x90%7C320x100%7C970x250%7C320x50%7C970x90%2C320x50%7C320x100%7C728x90%7C970x250%7C970x90&ifi=1&dids=div-gpt-ad-1768303440211-0~div-gpt-ad-1768303600172-0&adfs=2433876935~3601381602&sfv=1-0-45&sc=1&cookie=ID%3Db5fef3b1cbcfecf5%3AT%3D1779383561%3ART%3D1779383561%3AS%3DALNI_Mapm4J0SAg8TRwCKdaha3qX69CKvw&gpic=UID%3D000013a9061cc64a%3AT%3D1779383561%3ART%3D1779383561%3AS%3DALNI_Mb2W4SJCpPqm0Nq55aQB7DFpXE8EQ&abxe=1&dt=1779383584337&lmt=1779383584&adxs=276%2C480&adys=179%2C510&biw=1280&bih=720&scr_x=0&scr_y=0&btvi=0%7C0&ucis=1%7C2&oid=2&u_his=5&u_h=720&u_w=1280&u_ah=720&u_aw=1280&u_cd=24&u_sd=1&dmc=16&bc=31&nvt=1&uach=WyJMaW51eCIsIiIsIng4NiIsIiIsIjE0OC4wLjc3NzguOTYiLG51bGwsMCxudWxsLCI2NCIsW1siQ2hyb21pdW0iLCIxNDguMC43Nzc4Ljk2Il0sWyJIZWFkbGVzc0Nocm9tZSIsIjE0OC4wLjc3NzguOTYiXSxbIk5vdC9BKUJyYW5kIiwiOTkuMC4wLjAiXV0sMF0.&url=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj100-cochabamba%2Fbol%2F2026%2Fj-j100-bol-2026-002%2Fdraws-and-results%2F&vis=1&psz=970x90%7C970x90&msz=728x50%7C320x50&fws=4%2C4&ohw=1280%2C1280&dlt=1779383584058&idt=153&cust_params=tour%3Djuniors%26tournament_id%3DJ-J100-BOL-2026-002%26location%3DCochabamba%26country%3DBolivia&adks=2599182603%2C2569989109&frm=20&eo_id_str=ID%3D4fd3d422f5c2588c%3AT%3D1779383561%3ART%3D1779383561%3AS%3DAA-AfjbF7AN3V31rk3Lr9SHHxPMZ&pgls=CAk.",
+          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65k0v9100208071z8898764819za20gzb898764819zd898764819&_p=1779383584065&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AAAAAGQ&are=1&cid=525626019.1779383562&frm=0&pscdl=noapi&rcb=7&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938466~115938469~118012008&sid=1779383561&sct=1&seg=1&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj100-cochabamba%2Fbol%2F2026%2Fj-j100-bol-2026-002%2Fdraws-and-results%2F&dt=J100%20Cochabamba%202026%20Tennis%20Tournament%20%7C%20ITF&_tu=CA&en=page_view&ep.tournamentName=&ep.playersName=&tfd=3806",
           "https://analytics.tiktok.com/api/v2/pixel/act",
-          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/challenge/visual?flowId=a46fcfb6-886b-46c9-88d9-40245629a8e2&rnd=1b528c979329461fac3902ea8bcebe44&market=en",
-          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65j1v9100208071za20gzb898764819zd898764819&_p=1779376544443&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AEIAAGQ&are=1&cid=222803127.1779376524&frm=0&pscdl=noapi&rcb=1&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&tag_exp=0~115938465~115938469&sid=1779376524&sct=1&seg=1&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj100-cochabamba%2Fbol%2F2026%2Fj-j100-bol-2026-002%2Fdraws-and-results%2F&dt=J100%20Cochabamba%202026%20Tennis%20Tournament%20%7C%20ITF&_tu=CA&_s=2&tfd=946",
+          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/script?fid=b3c99ddc-c6fc-441c-9590-e957c47262bd&type=visual&rnd=f0a3a18f-c01d-41e3-8f81-03e3a02d1e38&mkt=en",
+          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/forms/221840a7-9abb-ee11-9078-6045bd127be4/visits",
+          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/challenge/visual?flowId=b3c99ddc-c6fc-441c-9590-e957c47262bd&rnd=f6f0cfec7c3c409488a8169aee833c82&market=en",
+          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65k0v9100208071za20gzb898764819zd898764819&_p=1779383584065&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&tcfd=10000&gdid=dNzg2MD&_eu=AEIAAGQ&are=1&cid=525626019.1779383562&frm=0&pscdl=noapi&rcb=7&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&tag_exp=0~115616985~115938466~115938469~118012008&sid=1779383561&sct=1&seg=1&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj100-cochabamba%2Fbol%2F2026%2Fj-j100-bol-2026-002%2Fdraws-and-results%2F&dt=J100%20Cochabamba%202026%20Tennis%20Tournament%20%7C%20ITF&_tu=CA&_s=2&tfd=4040",
           "https://www.google.com/recaptcha/api2/aframe",
-          "https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet",
-          "https://itftennis-ep.azureedge.net/media/assets/images/tick-green.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/US.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/BR.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/CL.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/PE.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/AR.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/BO.png",
-          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65j1v9100208071z8898764819za20gzb898764819zd898764819&_p=1779376544443&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AAAAAGQ&are=1&cid=222803127.1779376524&frm=0&pscdl=noapi&rcb=1&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115938465~115938469&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj100-cochabamba%2Fbol%2F2026%2Fj-j100-bol-2026-002%2Fdraws-and-results%2F&sid=1779376524&sct=1&seg=1&dt=J100%20Cochabamba%202026%20Tennis%20Tournament%20%7C%20ITF&_tu=CA&en=scroll_percent_25&ep.tournamentName=&ep.playersName=&_et=156&tfd=5947"
+          "https://fundingchoicesmessages.google.com/el/AGSKWxXo9M-g5yg4plz2sW8LoT6dbMNWkLcU7l1AjKm1x3SwR5s4LQaVkgIviTflSOzCAX2bZGmVheKY83EIXbx1gWBchNvRv6ydW7F1XHLu0vmQInqXSOS0Z6Fw3s8EOhRIYyOMhjvByQ==",
+          "https://ep1.adtrafficquality.google/pagead/sodar?id=sodar2&v=254&t=2&li=gpt_m202605140101&jk=4909238733755612&bg=!RkWlRSfNAAYUUpX8NFI7AEcBe5WfOLq2zHYBiMDjQsNsUdJR0rvQaxU1yT3yF0EXLSAbgK5izg6b27aCLxR-Mx1acOIj0_thgXnelpGxcXZBT_aQGyxZZgIAAAAvUgAAAAJoAQd-ADZnOx5pKnllp3UkMhrLNwa750DpbOPR7bzb4cInSInnGGO96z2OOjyUB7GdkG9U7yER6Sbr8UoKAIJQ48MpX1NH3Qir-RbzcP68PjTdiMzkbr5nbib1O40wu1IABlY5pERy8OyLJnyZjjjcPy0QY_qRIeVuBRXWnH2kU2actV0UXMJb8mPoEVHO8lzjt_wp2W_AeKQUzfY8oBKB-FdtFgOI9I1sEQwgpJYkn13O715HNUgkis6Wsz-IUSKvmQKzh2e3hSWTf9lJGeFVD2iR2ld_5jVgnIME_1la682apIAgQipf_L3TyRUj1BYtlFT8n5awZuXeG_WZll2FyPFrMkBPdeuL0lxzrlHafO528V2mS4NG-I1G_oByxH4BGcv0PomNSkshrS70NOPNj7V0UQJKDOaRjLoZxnkHWTIAvCZjKgMpoYD1cw4-jKzCN77FXF55BQXp3siiJgmp6s8pIXmPw1u3f71-tLfPOJK3WYy2yiheVQaJ8nj7jH8kSZHrtcsAoQG2SW-HA6c2LanPTU8ldF4NyShr4daB7Xb6DRgHZtwv_EshGytffX0-mryM-FmK4ydkdXEGTp2eti4yJYAKzOXOafHuXcC29fsdNZRs9WcFDxoW_9EeKzt56enj6015bk-Jlith4kCi6JSd4PBxIL5kd32vLN-UMcb8tgBYsv-wcatFDZvaYcFS0MY0vz_wTESeF-tmN9RMLoiu1gzRm1CxAF671lUg6i5ruJa6c5tECymQiAnClMFQvQjnPndiiFu4pDE5uC_lhPPVYuNYMXDaaAsG88tMXGmA6AvQA3336TDfYXU8CmRUIoZNNfqRvRP1dlOGJPP872XVr__C2I0Tr6FUwE8T5aibXu3qrJMEmqk_OkpaPpbVyikKJekeY9n0B74dtDFJwMRh5EJ8aZwLQCitz01hcW0Drpe5GRNZ4jfNTXCnoPeN96lK1ELkv24H2eV-5-Agq3mGapYPBueBs3XuH772XvDTsAzduIre0mfAbUI6eDaBtFcnHP0eKXtlCevUkFNrycdnW-b4tmw_b2zjvuX0J0uw33AOUWpEGBXpXs73MOybPIHR2IEjo3_wiLqmtuxhoq4uMWCus5nJCbtffAtRTMTEmnL0IwwMGMP2gzmNs3K6UKwNLSeSNNsgZFB_2ug_4SbtN4QdVA",
+          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65k0v9100208071z8898764819za20gzb898764819zd898764819&_p=1779383584065&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&tcfd=10000&gdid=dNzg2MD&_eu=AAAAAGQ&are=1&cid=525626019.1779383562&frm=0&pscdl=noapi&rcb=7&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115616985~115938466~115938469~118012008&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj100-cochabamba%2Fbol%2F2026%2Fj-j100-bol-2026-002%2Fdraws-and-results%2F&sid=1779383561&sct=1&seg=1&dt=J100%20Cochabamba%202026%20Tennis%20Tournament%20%7C%20ITF&_tu=CA&en=scroll_percent_25&ep.tournamentName=&ep.playersName=&_et=230&tfd=9041"
         ]
       }
     },
@@ -8908,16 +8833,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J60-MEX-2026-006/2026"
+            "currentRound": "QF",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-villahermosa/mex/2026/j-j60-mex-2026-006/draws-and-results",
+            "matchId": 1183543198
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J60-MEX-2026-006/2026"
+            "currentRound": "SF",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-villahermosa/mex/2026/j-j60-mex-2026-006/draws-and-results",
+            "matchId": 2124502959
           }
         }
       ],
@@ -8959,7 +8887,6 @@
           "drawsheetStructureCode": "KO"
         }
       ],
-      "itfApiWarning": "Could not post ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet: Unexpected token '<', \"<html styl\"... is not valid JSON",
       "liveTennisUrl": "https://www.live-tennis.cn/en/draw/J-J60-MEX-2026-006/2026"
     },
     {
@@ -9032,7 +8959,45 @@
           }
         }
       ],
-      "itfApiWarning": "Could not fetch ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetEventFilters?tournamentKey=J-J60-MNE-2026-003: Unexpected token '<', \"<html styl\"... is not valid JSON",
+      "itfApiEvents": [
+        {
+          "playerTypeCode": "B",
+          "matchTypeCode": "S",
+          "eventClassificationCode": "M",
+          "drawsheetStructureCode": "KO"
+        },
+        {
+          "playerTypeCode": "B",
+          "matchTypeCode": "S",
+          "eventClassificationCode": "Q",
+          "drawsheetStructureCode": "KO"
+        },
+        {
+          "playerTypeCode": "B",
+          "matchTypeCode": "D",
+          "eventClassificationCode": "M",
+          "drawsheetStructureCode": "KO"
+        },
+        {
+          "playerTypeCode": "G",
+          "matchTypeCode": "S",
+          "eventClassificationCode": "M",
+          "drawsheetStructureCode": "KO"
+        },
+        {
+          "playerTypeCode": "G",
+          "matchTypeCode": "S",
+          "eventClassificationCode": "Q",
+          "drawsheetStructureCode": "KO"
+        },
+        {
+          "playerTypeCode": "G",
+          "matchTypeCode": "D",
+          "eventClassificationCode": "M",
+          "drawsheetStructureCode": "KO"
+        }
+      ],
+      "itfApiWarning": "Could not post ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet: Unexpected token '<', \"<html styl\"... is not valid JSON",
       "liveTennisUrl": "https://www.live-tennis.cn/en/draw/J-J60-MNE-2026-003/2026"
     },
     {
@@ -9066,71 +9031,18 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "itf-api-pending-match",
-            "score": "",
-            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-fredericton/can/2026/j-j60-can-2026-001/draws-and-results",
-            "matchId": 1183545753
+            "confidence": "live-pending-match",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J60-CAN-2026-001/2026"
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "confidence": "itf-api-pending-match",
-            "score": "",
-            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-fredericton/can/2026/j-j60-can-2026-001/draws-and-results",
-            "matchId": 2124503421
+            "currentRound": "R16",
+            "confidence": "live-pending-match",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J60-CAN-2026-001/2026"
           }
         }
       ],
-      "itfApiEvents": [
-        {
-          "playerTypeCode": "B",
-          "matchTypeCode": "S",
-          "eventClassificationCode": "M",
-          "drawsheetStructureCode": "KO"
-        },
-        {
-          "playerTypeCode": "B",
-          "matchTypeCode": "S",
-          "eventClassificationCode": "M",
-          "drawsheetStructureCode": "RR"
-        },
-        {
-          "playerTypeCode": "B",
-          "matchTypeCode": "S",
-          "eventClassificationCode": "Q",
-          "drawsheetStructureCode": "KO"
-        },
-        {
-          "playerTypeCode": "B",
-          "matchTypeCode": "D",
-          "eventClassificationCode": "M",
-          "drawsheetStructureCode": "KO"
-        },
-        {
-          "playerTypeCode": "G",
-          "matchTypeCode": "S",
-          "eventClassificationCode": "M",
-          "drawsheetStructureCode": "KO"
-        },
-        {
-          "playerTypeCode": "G",
-          "matchTypeCode": "S",
-          "eventClassificationCode": "M",
-          "drawsheetStructureCode": "RR"
-        },
-        {
-          "playerTypeCode": "G",
-          "matchTypeCode": "S",
-          "eventClassificationCode": "Q",
-          "drawsheetStructureCode": "KO"
-        },
-        {
-          "playerTypeCode": "G",
-          "matchTypeCode": "D",
-          "eventClassificationCode": "M",
-          "drawsheetStructureCode": "KO"
-        }
-      ],
+      "itfApiWarning": "Could not fetch ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetEventFilters?tournamentKey=J-J60-CAN-2026-001: Unexpected token '<', \"<html styl\"... is not valid JSON",
       "liveTennisUrl": "https://www.live-tennis.cn/en/draw/J-J60-CAN-2026-001/2026"
     },
     {
@@ -9248,10 +9160,8 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "itf-api-pending-match",
-            "score": "",
-            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-harmon/gum/2026/j-j60-gum-2026-005/draws-and-results",
-            "matchId": 1183545815
+            "confidence": "live-pending-match",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J60-GUM-2026-005/2026"
           },
           "drawResultDoubles": {
             "status": "Ativo",
@@ -9307,10 +9217,8 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "itf-api-pending-match",
-            "score": "",
-            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-harmon/gum/2026/j-j60-gum-2026-005/draws-and-results",
-            "matchId": 1183545816
+            "confidence": "live-pending-match",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J60-GUM-2026-005/2026"
           },
           "drawResultDoubles": {
             "status": "Ativo",
@@ -9338,10 +9246,8 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "itf-api-pending-match",
-            "score": "",
-            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-harmon/gum/2026/j-j60-gum-2026-005/draws-and-results",
-            "matchId": 1183545817
+            "confidence": "live-pending-match",
+            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J60-GUM-2026-005/2026"
           },
           "drawResultDoubles": {
             "status": "Ativo",
@@ -9352,57 +9258,7 @@
           }
         }
       ],
-      "itfApiEvents": [
-        {
-          "playerTypeCode": "B",
-          "matchTypeCode": "S",
-          "eventClassificationCode": "M",
-          "drawsheetStructureCode": "KO"
-        },
-        {
-          "playerTypeCode": "B",
-          "matchTypeCode": "S",
-          "eventClassificationCode": "M",
-          "drawsheetStructureCode": "RR"
-        },
-        {
-          "playerTypeCode": "B",
-          "matchTypeCode": "S",
-          "eventClassificationCode": "Q",
-          "drawsheetStructureCode": "KO"
-        },
-        {
-          "playerTypeCode": "B",
-          "matchTypeCode": "D",
-          "eventClassificationCode": "M",
-          "drawsheetStructureCode": "KO"
-        },
-        {
-          "playerTypeCode": "G",
-          "matchTypeCode": "S",
-          "eventClassificationCode": "M",
-          "drawsheetStructureCode": "KO"
-        },
-        {
-          "playerTypeCode": "G",
-          "matchTypeCode": "S",
-          "eventClassificationCode": "M",
-          "drawsheetStructureCode": "RR"
-        },
-        {
-          "playerTypeCode": "G",
-          "matchTypeCode": "S",
-          "eventClassificationCode": "Q",
-          "drawsheetStructureCode": "KO"
-        },
-        {
-          "playerTypeCode": "G",
-          "matchTypeCode": "D",
-          "eventClassificationCode": "M",
-          "drawsheetStructureCode": "KO"
-        }
-      ],
-      "itfApiWarning": "Could not post ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet: Unexpected token '<', \"<html styl\"... is not valid JSON",
+      "itfApiWarning": "Could not fetch ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetEventFilters?tournamentKey=J-J60-GUM-2026-005: Unexpected token '<', \"<html styl\"... is not valid JSON",
       "liveTennisUrl": "https://www.live-tennis.cn/en/draw/J-J60-GUM-2026-005/2026",
       "drawDiagnostic": {
         "textLength": 4420,
@@ -9521,6 +9377,14 @@
           }
         ],
         "networkUrls": [
+          "https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet",
+          "https://itftennis-ep.azureedge.net/media/assets/images/tick-green.svg",
+          "https://itftennis-ep.azureedge.net/media/assets/images/PE.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/US.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/BR.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/AR.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/CL.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/BO.png",
           "https://www.itftennis.com/en/tournament/j60-harmon/gum/2026/j-j60-gum-2026-005/draws-and-results",
           "https://www.itftennis.com/en/tournament/j60-harmon/gum/2026/j-j60-gum-2026-005/draws-and-results/",
           "https://itftennis-ep.azureedge.net/media/assets/bundle.js?key=@assemblyVersion",
@@ -9546,39 +9410,40 @@
           "https://itftennis-ep.azureedge.net/media/assets/images/external-link-light.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/shop_icon.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/arrow-right.svg",
-          "https://itftennis-ep.azureedge.net/media/assets/images/surface-hard.svg",
-          "https://widgets.itf-production.sports-data.stadion.io/itf-widget-sdk.umd.js",
           "https://itftennis-ep.azureedge.net/media/assets/10.css",
           "https://itftennis-ep.azureedge.net/media/assets/10.bundle.js",
+          "https://itftennis-ep.azureedge.net/media/assets/images/surface-hard.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/info-inactive.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/acceptance-list.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/draw-light-active.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/op-light-inactive.svg",
+          "https://www.itftennis.com/media/14909/tennis-point-logo-colour-1.png",
+          "https://connect.facebook.net/signals/config/1025417051169198?v=2.9.324&r=stable&domain=www.itftennis.com&hme=af8aa31887db259becaf70277daef60bd8bc35c2df82c2acd4258de27ecac4b5&ex_m=104%2C207%2C155%2C22%2C72%2C73%2C146%2C68%2C67%2C11%2C164%2C90%2C16%2C138%2C127%2C39%2C75%2C78%2C134%2C160%2C166%2C8%2C4%2C5%2C7%2C6%2C3%2C91%2C101%2C167%2C172%2C221%2C62%2C188%2C189%2C55%2C279%2C30%2C74%2C233%2C232%2C231%2C23%2C33%2C103%2C61%2C10%2C63%2C97%2C98%2C99%2C105%2C130%2C31%2C29%2C132%2C133%2C129%2C128%2C156%2C76%2C159%2C157%2C158%2C50%2C60%2C123%2C15%2C163%2C45%2C266%2C267%2C265%2C26%2C27%2C28%2C48%2C147%2C77%2C112%2C18%2C20%2C44%2C40%2C42%2C41%2C83%2C92%2C96%2C110%2C145%2C148%2C46%2C111%2C24%2C21%2C119%2C69%2C36%2C150%2C149%2C151%2C142%2C140%2C25%2C35%2C59%2C109%2C162%2C70%2C17%2C153%2C114%2C81%2C66%2C19%2C85%2C86%2C116%2C84%2C136%2C135%2C139%2C161%2C34%2C281%2C297%2C214%2C203%2C204%2C202%2C300%2C291%2C52%2C215%2C107%2C131%2C80%2C121%2C54%2C47%2C49%2C113%2C120%2C126%2C125%2C58%2C64%2C152%2C115%2C37%2C32%2C53%2C56%2C100%2C165%2C1%2C124%2C14%2C122%2C12%2C2%2C57%2C93%2C65%2C118%2C89%2C88%2C168%2C169%2C94%2C95%2C9%2C102%2C51%2C143%2C87%2C79%2C71%2C117%2C106%2C43%2C144%2C0%2C82%2C137%2C141%2C154%2C38%2C108%2C13%2C170",
+          "https://itftennis-ep.azureedge.net/media/assets/images/loading.gif",
+          "https://app.termly.io/api/v1/snippets/websites/736a1a74-e471-43b1-9611-36ab129ebc69/cookies?lang=en",
+          "https://www.itftennis.com/tennis/api/TournamentApi/GetEventFilters?tournamentKey=j-j60-gum-2026-005",
+          "https://analytics.tiktok.com/api/v2/monitor",
+          "https://app.termly.io/api/v1/snippets/websites/736a1a74-e471-43b1-9611-36ab129ebc69/statistics",
+          "https://analytics.tiktok.com/api/v2/pixel",
+          "https://widgets.itf-production.sports-data.stadion.io/itf-widget-sdk.umd.js",
+          "https://cm.g.doubleclick.net/partnerpixels?gdpr=0&url=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj60-harmon%2Fgum%2F2026%2Fj-j60-gum-2026-005%2Fdraws-and-results%2F",
           "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap",
           "https://itftennis-ep.azureedge.net/media/assets/images/sign-up__splash-background.jpg",
           "https://itftennis-ep.azureedge.net/media/assets/images/sign-up__mobile-app.png",
           "https://itftennis-ep.azureedge.net/media/assets/images/tennis_id_logo.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/chevron-right-grey.svg",
           "https://itftennis-ep.azureedge.net/media/assets/images/calendar.svg",
-          "https://www.itftennis.com/media/14909/tennis-point-logo-colour-1.png",
-          "https://connect.facebook.net/signals/config/1025417051169198?v=2.9.324&r=stable&domain=www.itftennis.com&hme=af8aa31887db259becaf70277daef60bd8bc35c2df82c2acd4258de27ecac4b5&ex_m=104%2C207%2C155%2C22%2C72%2C73%2C146%2C68%2C67%2C11%2C164%2C90%2C16%2C138%2C127%2C39%2C75%2C78%2C134%2C160%2C166%2C8%2C4%2C5%2C7%2C6%2C3%2C91%2C101%2C167%2C172%2C221%2C62%2C188%2C189%2C55%2C279%2C30%2C74%2C233%2C232%2C231%2C23%2C33%2C103%2C61%2C10%2C63%2C97%2C98%2C99%2C105%2C130%2C31%2C29%2C132%2C133%2C129%2C128%2C156%2C76%2C159%2C157%2C158%2C50%2C60%2C123%2C15%2C163%2C45%2C266%2C267%2C265%2C26%2C27%2C28%2C48%2C147%2C77%2C112%2C18%2C20%2C44%2C40%2C42%2C41%2C83%2C92%2C96%2C110%2C145%2C148%2C46%2C111%2C24%2C21%2C119%2C69%2C36%2C150%2C149%2C151%2C142%2C140%2C25%2C35%2C59%2C109%2C162%2C70%2C17%2C153%2C114%2C81%2C66%2C19%2C85%2C86%2C116%2C84%2C136%2C135%2C139%2C161%2C34%2C281%2C297%2C214%2C203%2C204%2C202%2C300%2C291%2C52%2C215%2C107%2C131%2C80%2C121%2C54%2C47%2C49%2C113%2C120%2C126%2C125%2C58%2C64%2C152%2C115%2C37%2C32%2C53%2C56%2C100%2C165%2C1%2C124%2C14%2C122%2C12%2C2%2C57%2C93%2C65%2C118%2C89%2C88%2C168%2C169%2C94%2C95%2C9%2C102%2C51%2C143%2C87%2C79%2C71%2C117%2C106%2C43%2C144%2C0%2C82%2C137%2C141%2C154%2C38%2C108%2C13%2C170",
-          "https://itftennis-ep.azureedge.net/media/assets/images/loading.gif",
-          "https://app.termly.io/api/v1/snippets/websites/736a1a74-e471-43b1-9611-36ab129ebc69/cookies?lang=en",
-          "https://www.itftennis.com/tennis/api/TournamentApi/GetEventFilters?tournamentKey=j-j60-gum-2026-005",
-          "https://cm.g.doubleclick.net/partnerpixels?url=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj60-harmon%2Fgum%2F2026%2Fj-j60-gum-2026-005%2Fdraws-and-results%2F",
-          "https://app.termly.io/api/v1/snippets/websites/736a1a74-e471-43b1-9611-36ab129ebc69/statistics",
-          "https://analytics.tiktok.com/api/v2/pixel",
-          "https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet",
-          "https://itftennis-ep.azureedge.net/media/assets/images/JP.png",
-          "https://itftennis-ep.azureedge.net/media/assets/images/tpe.png",
-          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/script?fid=847a7860-6052-442f-947b-fbda897fe5ec&type=visual&rnd=38a81e39-a397-4a9c-afdd-4ff274925061&mkt=en",
+          "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=1031117649339073&correlator=3459088067199303&eid=31098621%2C31098670%2C31088081%2C31096727&output=ldjh&gdfp_req=1&vrg=202605140101&ptt=17&impl=fifs&gdpr=0&iu_parts=23328656850%2Citf%2Cprimary_below_nav%2Ctournament_feature_banner&enc_prev_ius=%2F0%2F1%2F2%2C%2F0%2F1%2F3&prev_iu_szs=728x90%7C320x100%7C970x250%7C320x50%7C970x90%2C320x50%7C320x100%7C728x90%7C970x250%7C970x90&ifi=1&dids=div-gpt-ad-1768303440211-0~div-gpt-ad-1768303600172-0&adfs=2433876935~3601381602&sfv=1-0-45&sc=1&cookie=ID%3Db5fef3b1cbcfecf5%3AT%3D1779383561%3ART%3D1779383561%3AS%3DALNI_Mapm4J0SAg8TRwCKdaha3qX69CKvw&gpic=UID%3D000013a9061cc64a%3AT%3D1779383561%3ART%3D1779383561%3AS%3DALNI_Mb2W4SJCpPqm0Nq55aQB7DFpXE8EQ&abxe=1&dt=1779383593941&lmt=1779383593&adxs=276%2C480&adys=179%2C510&biw=1280&bih=720&scr_x=0&scr_y=0&btvi=0%7C0&ucis=1%7C2&oid=2&u_his=6&u_h=720&u_w=1280&u_ah=720&u_aw=1280&u_cd=24&u_sd=1&dmc=16&bc=31&nvt=1&uach=WyJMaW51eCIsIiIsIng4NiIsIiIsIjE0OC4wLjc3NzguOTYiLG51bGwsMCxudWxsLCI2NCIsW1siQ2hyb21pdW0iLCIxNDguMC43Nzc4Ljk2Il0sWyJIZWFkbGVzc0Nocm9tZSIsIjE0OC4wLjc3NzguOTYiXSxbIk5vdC9BKUJyYW5kIiwiOTkuMC4wLjAiXV0sMF0.&url=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj60-harmon%2Fgum%2F2026%2Fj-j60-gum-2026-005%2Fdraws-and-results%2F&vis=1&psz=970x90%7C970x90&msz=728x50%7C320x50&fws=4%2C4&ohw=1280%2C1280&dlt=1779383593630&idt=145&cust_params=tour%3Djuniors%26tournament_id%3DJ-J60-GUM-2026-005%26location%3DHarmon%26country%3DGuam&adks=2599182603%2C2569989109&frm=20&eo_id_str=ID%3D4fd3d422f5c2588c%3AT%3D1779383561%3ART%3D1779383561%3AS%3DAA-AfjbF7AN3V31rk3Lr9SHHxPMZ&pgls=CAk.",
+          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65k0v9100208071z8898764819za20gzb898764819zd898764819&_p=1779383593636&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AAAAAGQ&are=1&cid=525626019.1779383562&frm=0&pscdl=noapi&rcb=13&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616986~115938466~115938468&sid=1779383561&sct=1&seg=1&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj60-harmon%2Fgum%2F2026%2Fj-j60-gum-2026-005%2Fdraws-and-results%2F&dt=J60%20Harmon%202026%20Tennis%20Tournament%20%7C%20ITF&_tu=CA&en=page_view&ep.tournamentName=&ep.playersName=&tfd=3597",
+          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/script?fid=01e9ed63-5b86-48df-883a-c71eea100bd3&type=visual&rnd=dae2ccd7-94a8-4229-8283-9d3b979e5cc3&mkt=en",
           "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/forms/221840a7-9abb-ee11-9078-6045bd127be4/visits",
           "https://analytics.tiktok.com/api/v2/pixel/act",
-          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/challenge/visual?flowId=847a7860-6052-442f-947b-fbda897fe5ec&rnd=211f55169bce4f60a751410e4460110b&market=en",
+          "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/477bd92d-53fe-4790-9df3-11fb131dba0f/landingpageforms/captcha/challenge/visual?flowId=01e9ed63-5b86-48df-883a-c71eea100bd3&rnd=f1fe48b691d2437888cef7c1f9701c73&market=en",
+          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65k0v9100208071za20gzb898764819zd898764819&_p=1779383593636&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&tcfd=10000&gdid=dNzg2MD&_eu=AEIAAGQ&are=1&cid=525626019.1779383562&frm=0&pscdl=noapi&rcb=13&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&tag_exp=0~115616986~115938466~115938468&sid=1779383561&sct=1&seg=1&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj60-harmon%2Fgum%2F2026%2Fj-j60-gum-2026-005%2Fdraws-and-results%2F&dt=J60%20Harmon%202026%20Tennis%20Tournament%20%7C%20ITF&_tu=CA&_s=2&tfd=3841",
           "https://www.google.com/recaptcha/api2/aframe",
-          "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=8076582725720971&correlator=773084371109282&eid=31098602&output=ldjh&gdfp_req=1&vrg=202605140101&ptt=17&impl=fifs&iu_parts=23328656850%2Citf%2Cprimary_below_nav%2Ctournament_feature_banner&enc_prev_ius=%2F0%2F1%2F2%2C%2F0%2F1%2F3&prev_iu_szs=728x90%7C320x100%7C970x250%7C320x50%7C970x90%2C320x50%7C320x100%7C728x90%7C970x250%7C970x90&ifi=1&dids=div-gpt-ad-1768303440211-0~div-gpt-ad-1768303600172-0&adfs=2433876935~3601381602&sfv=1-0-45&sc=1&cookie=ID%3D680bdeee12209e12%3AT%3D1779376524%3ART%3D1779376524%3AS%3DALNI_Ma1jVhBNzcIjP4WmcYuhMd0OqFtQg&gpic=UID%3D000013a8fc30d95a%3AT%3D1779376524%3ART%3D1779376524%3AS%3DALNI_MZHkpX8N2p-DZJNhfA1DOekheCrig&abxe=1&dt=1779376551219&lmt=1779376551&adxs=276%2C480&adys=179%2C510&biw=1280&bih=720&scr_x=0&scr_y=0&btvi=0%7C0&ucis=1%7C2&oid=2&u_his=6&u_h=720&u_w=1280&u_ah=720&u_aw=1280&u_cd=24&u_sd=1&dmc=16&bc=31&nvt=1&uach=WyJMaW51eCIsIiIsIng4NiIsIiIsIjE0OC4wLjc3NzguOTYiLG51bGwsMCxudWxsLCI2NCIsW1siQ2hyb21pdW0iLCIxNDguMC43Nzc4Ljk2Il0sWyJIZWFkbGVzc0Nocm9tZSIsIjE0OC4wLjc3NzguOTYiXSxbIk5vdC9BKUJyYW5kIiwiOTkuMC4wLjAiXV0sMF0.&url=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj60-harmon%2Fgum%2F2026%2Fj-j60-gum-2026-005%2Fdraws-and-results%2F&vis=1&psz=970x90%7C970x90&msz=728x50%7C320x50&fws=4%2C4&ohw=1280%2C1280&dlt=1779376550909&idt=213&cust_params=tour%3Djuniors%26tournament_id%3DJ-J60-GUM-2026-005%26location%3DHarmon%26country%3DGuam&adks=2599182603%2C2569989109&frm=20&eo_id_str=ID%3D83ea387f82f6dacc%3AT%3D1779376524%3ART%3D1779376524%3AS%3DAA-AfjaFwdHQqZyhDT9XJ7jGKFn3&pgls=CAk.",
-          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65j1v9100208071z8898764819za20gzb898764819zd898764819&_p=1779376550921&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AAAAAGQ&are=1&cid=222803127.1779376524&frm=0&pscdl=noapi&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&tag_exp=0~115616985~115938465~115938468&sid=1779376524&sct=1&seg=1&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj60-harmon%2Fgum%2F2026%2Fj-j60-gum-2026-005%2Fdraws-and-results%2F&dt=J60%20Harmon%202026%20Tennis%20Tournament%20%7C%20ITF&_tu=CA&_s=1&tfd=1339",
-          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65j1v9100208071za20gzb898764819zd898764819&_p=1779376550921&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&gdid=dNzg2MD&_eu=AEIAAGQ&are=1&cid=222803127.1779376524&frm=0&pscdl=noapi&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&tag_exp=0~115616985~115938465~115938468&sid=1779376524&sct=1&seg=1&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj60-harmon%2Fgum%2F2026%2Fj-j60-gum-2026-005%2Fdraws-and-results%2F&dt=J60%20Harmon%202026%20Tennis%20Tournament%20%7C%20ITF&_tu=CA&_s=2&tfd=6340"
+          "https://itftennis-ep.azureedge.net/media/assets/images/JP.png",
+          "https://itftennis-ep.azureedge.net/media/assets/images/tpe.png",
+          "https://analytics.google.com/g/collect?v=2&tid=G-ZRMHKRE9CL&gtm=45je65k0v9100208071z8898764819za20gzb898764819zd898764819&_p=1779383593636&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&tcfd=10000&gdid=dNzg2MD&_eu=AAAAAGQ&are=1&cid=525626019.1779383562&frm=0&pscdl=noapi&rcb=13&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115616986~115938466~115938468&dl=https%3A%2F%2Fwww.itftennis.com%2Fen%2Ftournament%2Fj60-harmon%2Fgum%2F2026%2Fj-j60-gum-2026-005%2Fdraws-and-results%2F&sid=1779383561&sct=1&seg=1&dt=J60%20Harmon%202026%20Tennis%20Tournament%20%7C%20ITF&_tu=CA&en=scroll_percent_25&ep.tournamentName=&ep.playersName=&_et=239&tfd=8841"
         ]
       }
     },
