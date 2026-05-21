@@ -1,7 +1,7 @@
 {
   "dataSource": {
     "rankingDate": "18 mai 2026",
-    "updatedAt": "21/05/2026, 01:04",
+    "updatedAt": "21/05/2026, 07:56",
     "note": "Pontos = 6 melhores resultados de simples + 25% dos 6 melhores resultados de duplas"
   },
   "players": [
@@ -15144,7 +15144,7 @@
       "liveEvent": {
         "event": "J200 Targu Jiu",
         "grade": "J200",
-        "singlesStatus": "Ativo",
+        "singlesStatus": "Eliminado",
         "singlesRound": "SF",
         "singlesPoints": 100,
         "doublesStatus": "Eliminado",
@@ -23629,8 +23629,8 @@
         "event": "J200 Targu Jiu",
         "grade": "J200",
         "singlesStatus": "Ativo",
-        "singlesRound": "SF",
-        "singlesPoints": 100,
+        "singlesRound": "Final",
+        "singlesPoints": 140,
         "doublesStatus": "Eliminado",
         "doublesRound": "QF",
         "doublesPoints": 45,
@@ -26916,8 +26916,8 @@
         "event": "J200 Targu Jiu",
         "grade": "J200",
         "singlesStatus": "Ativo",
-        "singlesRound": "SF",
-        "singlesPoints": 100,
+        "singlesRound": "Final",
+        "singlesPoints": 140,
         "doublesStatus": "Eliminado",
         "doublesRound": "R32",
         "doublesPoints": 0,
