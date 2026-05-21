@@ -855,7 +855,7 @@ function weeklyStatusMarkup(liveEvent = {}) {
 
 function renderPointsFlow(items, kind) {
   if (!Array.isArray(items) || !items.length) return "";
-  const label = kind === "drop" ? "Sai" : "Entra";
+  const label = kind === "drop" ? "Caindo" : "Entra";
   const className = kind === "drop" ? "is-drop" : "is-entry";
   return items
     .map(
@@ -872,12 +872,14 @@ function renderPointsFlow(items, kind) {
 function pointsFlowDisclosure(pointsBalance) {
   const dropMarkup = renderPointsFlow(pointsBalance.dropItems, "drop");
   const entryMarkup = renderPointsFlow(pointsBalance.entryItems, "entry");
-  if (!dropMarkup && !entryMarkup) return "";
+  const balancePill = `<span class="pill ${pointsBalance.type}">${pointsBalance.text}</span>`;
+  if (!dropMarkup && !entryMarkup) return balancePill;
 
   return `
     <details class="points-flow-disclosure">
-      <summary class="points-flow-toggle" aria-label="Ver detalhes de pontos">
-        <span class="points-flow-toggle-icon" aria-hidden="true">+</span>
+      <summary class="points-flow-summary" aria-label="Ver detalhes de pontos">
+        <span class="points-flow-toggle-text" aria-hidden="true">+</span>
+        ${balancePill}
       </summary>
       <div class="points-flow-panel">
         ${dropMarkup}
@@ -979,7 +981,6 @@ function renderTable() {
             <div class="points-stack">
               <div class="points-cell">
                 <strong class="live-points">${formatNumber(player.livePoints)}</strong>
-                <span class="pill ${pointsBalance.type}">${pointsBalance.text}</span>
                 ${pointsFlowDisclosure(pointsBalance)}
               </div>
             </div>
@@ -1073,7 +1074,7 @@ function renderDetails(playerId) {
 }
 
 els.rankingBody.addEventListener("click", (event) => {
-  if (event.target.closest(".points-flow-toggle")) {
+  if (event.target.closest(".points-flow-summary")) {
     return;
   }
   const row = event.target.closest("tr[data-player-id]");

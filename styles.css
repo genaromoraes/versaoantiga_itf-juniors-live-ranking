@@ -604,47 +604,41 @@ table:not(.is-official-table) td:nth-child(6) {
 
 .points-flow-disclosure {
   display: inline-grid;
-  gap: 6px;
+  gap: 5px;
 }
 
-.points-flow-disclosure summary {
+.points-flow-summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
   list-style: none;
 }
 
-.points-flow-disclosure summary::-webkit-details-marker {
+.points-flow-summary::-webkit-details-marker {
   display: none;
 }
 
-.points-flow-toggle {
+.points-flow-toggle-text {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 19px;
-  height: 19px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: #fff;
-  color: var(--accent);
-  cursor: pointer;
-  transition: border-color 140ms ease, color 140ms ease, background 140ms ease;
-}
-
-.points-flow-toggle:hover {
-  border-color: rgba(9, 115, 104, 0.35);
-  background: rgba(9, 115, 104, 0.05);
-}
-
-.points-flow-toggle-icon {
-  font-size: 0.8rem;
+  min-width: 12px;
+  color: var(--muted);
+  font-size: 0.95rem;
   font-weight: 900;
   line-height: 1;
 }
 
-.points-flow-disclosure[open] .points-flow-toggle-icon::before {
-  content: "−";
+.points-flow-summary:hover .points-flow-toggle-text {
+  color: var(--accent);
 }
 
-.points-flow-disclosure[open] .points-flow-toggle-icon {
+.points-flow-disclosure[open] .points-flow-toggle-text::before {
+  content: "-";
+}
+
+.points-flow-disclosure[open] .points-flow-toggle-text {
   font-size: 0;
 }
 
