@@ -534,13 +534,17 @@ function normalizePlayer(player) {
     : null;
   const liveSingles = weeklySinglesResult ? [...liveBaseSingles, weeklySinglesResult] : liveBaseSingles;
   const liveDoubles = weeklyDoublesResult ? [...liveBaseDoubles, weeklyDoublesResult] : liveBaseDoubles;
+  const fallbackPoints = Number(player.sourceTotalCombinedPoints ?? player.officialPoints ?? 0);
+  const hasDetailedResults = singles.length + doubles.length > 0;
   const liveCountedSingles = bestSixResults(liveSingles);
   const liveCountedDoubles = bestSixResults(liveDoubles, 0.25);
   const weeklyEntries = [
     ...liveCountedSingles.filter((item) => item.isWeeklyResult),
     ...liveCountedDoubles.filter((item) => item.isWeeklyResult)
   ];
-  const livePoints = Math.max(0, sumBestSix(liveSingles) + sumBestSix(liveDoubles, 0.25));
+  const livePoints = hasDetailedResults
+    ? Math.max(0, sumBestSix(liveSingles) + sumBestSix(liveDoubles, 0.25))
+    : Math.max(0, fallbackPoints);
   const gainedPoints = Math.max(0, livePoints - liveBasePoints);
   const normalizedPlayer = {
     ...player,

@@ -183,6 +183,10 @@ function hasRankingResults(player) {
   return (player?.singles?.length || 0) + (player?.doubles?.length || 0) > 0;
 }
 
+function hasPublishableRankingData(player) {
+  return hasRankingResults(player) || Number(player?.officialPoints || player?.sourceTotalCombinedPoints || 0) > 0;
+}
+
 function topSixByPoints(results = []) {
   return [...results].sort((a, b) => Number(b.points || 0) - Number(a.points || 0)).slice(0, 6);
 }
@@ -405,7 +409,7 @@ const playersWithOfficialFallbacks = basePlayers;
 const playersWithRealResults = applyRealPlayerPreview(playersWithOfficialFallbacks, pointsCsvPreview.players || []);
 const players = applyWeeklyResultsPreview(playersWithRealResults, weeklyResultsPreview.rows || [], rules);
 const existingLatest = await readExistingLatest();
-const invalidPlayers = players.filter((player) => !hasRankingResults(player));
+const invalidPlayers = players.filter((player) => !hasPublishableRankingData(player));
 
 let payload = {
   dataSource: {
@@ -426,11 +430,11 @@ let payload = {
 
 if (invalidPlayers.length && existingLatest?.players?.length) {
   console.warn(`Partially updating latest.json; preserving previous data for: ${invalidPlayers.map((player) => player.id).join(", ")}`);
-  const updatedById = new Map(players.filter(hasRankingResults).map((player) => [player.id, player]));
+  const updatedById = new Map(players.filter(hasPublishableRankingData).map((player) => [player.id, player]));
   const mergedPlayers = existingLatest.players.map((player) => updatedById.get(player.id) || player);
   const existingIds = new Set(mergedPlayers.map((player) => player.id));
   const appendedPlayers = players
-    .filter(hasRankingResults)
+    .filter(hasPublishableRankingData)
     .filter((player) => !existingIds.has(player.id));
   const allMergedPlayers = [...mergedPlayers, ...appendedPlayers].sort((a, b) => {
     if (a.gender !== b.gender) return String(a.gender).localeCompare(String(b.gender));

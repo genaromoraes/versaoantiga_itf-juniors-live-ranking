@@ -104,10 +104,10 @@ function topSixTotal(rows) {
     .reduce((total, row) => total + expectedRankingPoints(row), 0);
 }
 
-function statusForPlayer({ playerRows, missingDropDateRows, badRankingPointRows, singlesRows, doublesRows }) {
+function statusForPlayer({ playerRows, missingDropDateRows, badRankingPointRows, officialPoints }) {
   const notes = [];
 
-  if (!playerRows.length) notes.push("Adicionar o breakdown completo na planilha mestre.");
+  if (!playerRows.length && !officialPoints) notes.push("Adicionar o breakdown completo na planilha mestre.");
   if (missingDropDateRows.length) notes.push("Preencher drop_date nas linhas sem data de queda.");
   if (badRankingPointRows.length) notes.push("Conferir ranking_points: deve ser points x weight.");
 
@@ -132,17 +132,18 @@ for (const player of sourcePlayers) {
   const badRankingPointRows = playerRows.filter((row) => Math.abs(numberValue(row.ranking_points) - expectedRankingPoints(row)) > 0.01);
   const countingSingles = Math.min(6, singlesRows.length);
   const countingDoubles = Math.min(6, doublesRows.length);
-  const sheetBasePoints = roundTwo(topSixTotal(singlesRows) + topSixTotal(doublesRows));
+  const officialPoints = numberValue(player.officialPoints);
+  const sheetBasePoints = playerRows.length ? roundTwo(topSixTotal(singlesRows) + topSixTotal(doublesRows)) : officialPoints;
   const health = statusForPlayer({
     playerRows,
     missingDropDateRows,
     badRankingPointRows,
-    singlesRows,
-    doublesRows
+    officialPoints
   });
   const profileNote = !player.pointsBreakdownUrl ? "Resolver URL do perfil ITF antes de buscar o breakdown." : "";
   const status = profileNote ? "Revisar perfil ITF" : health.status;
-  const notes = [profileNote, health.notes].filter(Boolean).join(" ");
+  const officialOnlyNote = !playerRows.length && officialPoints ? "Sem breakdown detalhado; usando pontuação oficial da base." : "";
+  const notes = [profileNote, officialOnlyNote, health.notes].filter(Boolean).join(" ");
 
   rows.push([
     player.gender,

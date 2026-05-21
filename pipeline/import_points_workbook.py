@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import csv
 import json
+import os
 import re
 import sys
 from dataclasses import dataclass
@@ -74,6 +75,15 @@ def float_value(value) -> float:
         return float(value)
     except (TypeError, ValueError):
         return 0.0
+
+
+def apply_ranking_limit(players_df: pd.DataFrame) -> pd.DataFrame:
+    limit = int(float_value(os.environ.get("IMPORT_RANKING_LIMIT")))
+    if limit <= 0:
+        return players_df
+
+    rank_values = pd.to_numeric(players_df.get("rank"), errors="coerce")
+    return players_df[rank_values <= limit].copy()
 
 
 @dataclass
@@ -219,7 +229,7 @@ def main() -> int:
         print(f"Arquivo não encontrado: {workbook}")
         return 1
 
-    players_df = pd.read_excel(workbook, sheet_name="jogadores")
+    players_df = apply_ranking_limit(pd.read_excel(workbook, sheet_name="jogadores"))
     cartel_df = pd.read_excel(workbook, sheet_name="cartel_pontos")
 
     players_by_numeric_id = build_numeric_player_map(players_df)

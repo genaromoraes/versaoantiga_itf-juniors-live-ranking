@@ -13,7 +13,9 @@ const expectedPlayersPerGender = Number(process.env.RANKING_LIMIT || 150);
 const skippedUpdate = Boolean(latest.skippedUpdateReason);
 const partialUpdate = Boolean(latest.partialUpdateReason);
 const invalidPlayers = players.filter((player) => {
-  return (player.singles?.length || 0) + (player.doubles?.length || 0) === 0;
+  const hasBreakdown = (player.singles?.length || 0) + (player.doubles?.length || 0) > 0;
+  const hasOfficialPoints = Number(player.officialPoints || player.sourceTotalCombinedPoints || 0) > 0;
+  return !hasBreakdown && !hasOfficialPoints;
 });
 
 for (const gender of ["Boys", "Girls"]) {
