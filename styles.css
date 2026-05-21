@@ -188,8 +188,14 @@ label,
   box-shadow: none;
 }
 
+.controls-update-group {
+  display: grid;
+  gap: 7px;
+  align-self: end;
+}
+
 .controls-update-card small {
-  margin-top: 4px;
+  margin-top: 0;
   font-size: 0.9rem;
   font-weight: 800;
   color: var(--ink);

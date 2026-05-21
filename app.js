@@ -31,7 +31,7 @@ const els = {
 const translations = {
   pt: {
     htmlLang: "pt-BR",
-    updated: "Atualizado",
+    updated: "Última atualização",
     siteCredit: "Criado por Info Tênis Brasil",
     language: "Idioma",
     rankingBase: "Semana base",
@@ -71,7 +71,7 @@ const translations = {
   },
   en: {
     htmlLang: "en",
-    updated: "Updated",
+    updated: "Last update",
     siteCredit: "Created by Info Tênis Brasil",
     language: "Language",
     rankingBase: "Base week",
@@ -111,7 +111,7 @@ const translations = {
   },
   es: {
     htmlLang: "es",
-    updated: "Actualizado",
+    updated: "Última actualización",
     siteCredit: "Creado por Info Tênis Brasil",
     language: "Idioma",
     rankingBase: "Semana base",
@@ -151,7 +151,7 @@ const translations = {
   },
   it: {
     htmlLang: "it",
-    updated: "Aggiornato",
+    updated: "Ultimo aggiornamento",
     siteCredit: "Creato da Info Tênis Brasil",
     language: "Lingua",
     rankingBase: "Settimana base",
@@ -191,7 +191,7 @@ const translations = {
   },
   fr: {
     htmlLang: "fr",
-    updated: "Mis à jour",
+    updated: "Dernière mise à jour",
     siteCredit: "Créé par Info Tênis Brasil",
     language: "Langue",
     rankingBase: "Semaine de base",
