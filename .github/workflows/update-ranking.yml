@@ -3,8 +3,8 @@ name: Update ranking data
 on:
   workflow_dispatch:
   schedule:
-    # 08:00, 12:00, 16:00 e 20:00 no horario de Brasilia (UTC-3).
-    - cron: "0 11,15,19,23 * * *"
+    # A cada 30 minutos para manter os resultados da semana atualizados.
+    - cron: "*/30 * * * *"
 
 permissions:
   contents: write
