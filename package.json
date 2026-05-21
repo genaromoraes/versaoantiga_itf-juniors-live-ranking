@@ -5,15 +5,10 @@
   "type": "module",
   "scripts": {
     "build:data": "node pipeline/build-latest.mjs",
-    "build:points-csv": "node pipeline/export-points-csv.mjs",
     "audit:points": "node pipeline/audit-player-points.mjs",
     "validate:data": "node pipeline/validate-latest.mjs",
     "scrape:ranking": "node pipeline/scrape-official-ranking.mjs",
-    "scrape:player": "node pipeline/scrape-player-breakdown.mjs",
-    "scrape:tournament": "node pipeline/scrape-tournament-draw.mjs",
-    "scrape:weekly": "node pipeline/scrape-weekly-results.mjs",
-    "scrape:activity": "node pipeline/scrape-player-activity.mjs",
-    "refresh:points": "npm run scrape:ranking && npm run scrape:player && npm run build:points-csv && npm run audit:points && npm run build:data && npm run validate:data"
+    "scrape:weekly": "node pipeline/scrape-weekly-results.mjs"
   },
   "devDependencies": {
     "playwright": "^1.56.1"

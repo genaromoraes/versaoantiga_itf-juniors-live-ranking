@@ -1,5 +1,5 @@
 const state = {
-  players: structuredClone(samplePlayers),
+  players: typeof samplePlayers !== "undefined" ? structuredClone(samplePlayers) : [],
   selectedId: null,
   language: localStorage.getItem("itf-juniors-language") || "pt",
   dataSource: typeof dataSource !== "undefined" ? dataSource : {}

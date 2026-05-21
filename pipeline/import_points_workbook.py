@@ -5,7 +5,7 @@ import json
 import re
 import sys
 from dataclasses import dataclass
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta
 from pathlib import Path
 
 import pandas as pd
@@ -14,7 +14,6 @@ import pandas as pd
 ROOT_DIR = Path(__file__).resolve().parents[1]
 SOURCES_FILE = ROOT_DIR / "pipeline" / "sources" / "players.json"
 POINTS_CSV_FILE = ROOT_DIR / "data" / "player-points.csv"
-PREVIEW_FILE = ROOT_DIR / "data" / "itf-player-preview.json"
 
 
 def slugify(value: str) -> str:
@@ -203,56 +202,6 @@ def build_points_rows(cartel_df: pd.DataFrame, players_by_numeric_id: dict[str, 
     return rows
 
 
-def build_preview(cartel_df: pd.DataFrame, players_by_numeric_id: dict[str, dict]) -> dict:
-    grouped: dict[str, dict] = {}
-
-    for row in cartel_df.fillna("").to_dict(orient="records"):
-        numeric_id = str(row.get("player_id") or "").strip()
-        source_player = players_by_numeric_id.get(numeric_id)
-        if not source_player:
-            continue
-
-        player = grouped.setdefault(
-            source_player["id"],
-            {
-                "id": source_player["id"],
-                "name": source_player["name"],
-                "country": source_player["country"],
-                "gender": source_player["gender"],
-                "currentRank": source_player["currentRank"],
-                "sourceUrl": source_player["pointsBreakdownUrl"],
-                "totalCombinedPoints": float_value(source_player["officialPoints"]),
-                "singles": [],
-                "doubles": [],
-            },
-        )
-
-        result_type = str(row.get("event_type") or "").strip().lower()
-        target = "doubles" if result_type == "doubles" else "singles"
-        date_iso = parse_iso_date(row.get("startDate"))
-        player[target].append(
-            {
-                "event": str(row.get("tournamentName") or "").strip(),
-                "date": date_iso,
-                "dropDate": add_drop_date(date_iso),
-                "grade": str(row.get("category") or "").strip(),
-                "country": str(row.get("hostNation") or "").strip(),
-                "surface": str(row.get("surfaceDesc") or "").strip(),
-                "round": str(row.get("round") or "").strip(),
-                "draw": str(row.get("drawType") or "").strip(),
-                "points": float_value(row.get("points")),
-                "sourceCounting": parse_bool_countable(row.get("countable_status")),
-            }
-        )
-
-    timestamp = datetime.now(timezone.utc).astimezone().strftime("%d/%m/%Y, %H:%M")
-    return {
-        "players": sorted(grouped.values(), key=lambda item: (item["gender"], item["currentRank"])),
-        "importedFromWorkbook": True,
-        "importedAt": timestamp,
-    }
-
-
 def write_csv(rows: list[list[str]], output_file: Path) -> None:
     output_file.parent.mkdir(parents=True, exist_ok=True)
     with output_file.open("w", encoding="utf-8", newline="") as handle:
@@ -262,7 +211,7 @@ def write_csv(rows: list[list[str]], output_file: Path) -> None:
 
 def main() -> int:
     if len(sys.argv) < 2:
-        print("Uso: python pipeline/import_top50_workbook.py <caminho-da-planilha.xlsx>")
+        print("Uso: python pipeline/import_points_workbook.py <caminho-da-planilha.xlsx>")
         return 1
 
     workbook = Path(sys.argv[1]).expanduser().resolve()
@@ -276,13 +225,10 @@ def main() -> int:
     players_by_numeric_id = build_numeric_player_map(players_df)
     sources = sorted(players_by_numeric_id.values(), key=lambda item: (item["gender"], item["currentRank"]))
     points_rows = build_points_rows(cartel_df, players_by_numeric_id)
-    preview = build_preview(cartel_df, players_by_numeric_id)
 
     SOURCES_FILE.parent.mkdir(parents=True, exist_ok=True)
     SOURCES_FILE.write_text(f"{json.dumps(sources, ensure_ascii=False, indent=2)}\n", encoding="utf-8")
     write_csv(points_rows, POINTS_CSV_FILE)
-    PREVIEW_FILE.parent.mkdir(parents=True, exist_ok=True)
-    PREVIEW_FILE.write_text(f"{json.dumps(preview, ensure_ascii=False, indent=2)}\n", encoding="utf-8")
 
     print(
         json.dumps(
@@ -292,7 +238,6 @@ def main() -> int:
                 "pointRowsImported": len(points_rows) - 1,
                 "sourcesFile": str(SOURCES_FILE),
                 "pointsCsvFile": str(POINTS_CSV_FILE),
-                "previewFile": str(PREVIEW_FILE),
             },
             ensure_ascii=False,
             indent=2,

@@ -50,10 +50,7 @@ jobs:
         env:
           RANKING_LIMIT: ${{ steps.ranking-limit.outputs.value }}
 
-      - name: Scrape ITF activity
-        run: npm run scrape:activity
-
-      - name: Scrape weekly acceptance lists
+      - name: Scrape weekly tournament results
         run: npm run scrape:weekly
 
       - name: Generate latest data
@@ -71,7 +68,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pipeline/sources/players.json data/latest.json data/itf-ranking-preview.json data/itf-activity-preview.json data/weekly-results.csv data/weekly-tournaments-preview.json data/manual-weekly-results.csv data/player-points-status.csv
+          git add pipeline/sources/players.json data/latest.json data/itf-ranking-preview.json data/weekly-results.csv data/weekly-tournaments-preview.json data/manual-weekly-results.csv data/player-points-status.csv
           git diff --cached --quiet && exit 0
           git commit -m "Update ranking data"
           git pull --rebase origin main

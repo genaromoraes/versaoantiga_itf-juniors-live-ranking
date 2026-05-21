@@ -1,40 +1,15 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import vm from "node:vm";
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const dataFile = path.join(rootDir, "data.js");
 const sourcesFile = path.join(rootDir, "pipeline", "sources", "players.json");
 const rankingPreviewFile = path.join(rootDir, "data", "itf-ranking-preview.json");
 const pointsCsvFile = path.join(rootDir, "data", "player-points.csv");
-const previewFile = path.join(rootDir, "data", "itf-player-preview.json");
-const activityPreviewFile = path.join(rootDir, "data", "itf-activity-preview.json");
 const weeklyResultsFile = path.join(rootDir, "data", "weekly-results.csv");
 const manualWeeklyResultsFile = path.join(rootDir, "data", "manual-weekly-results.csv");
 const outputDir = path.join(rootDir, "data");
 const outputFile = path.join(outputDir, "latest.json");
-
-const dataCode = await fs.readFile(dataFile, "utf8");
-const context = vm.createContext({});
-
-vm.runInContext(
-  `${dataCode}
-this.payload = {
-  dataSource,
-  players: samplePlayers
-};`,
-  context,
-  { filename: "data.js" }
-);
-
-async function readRealPlayerPreview() {
-  try {
-    return JSON.parse(await fs.readFile(previewFile, "utf8"));
-  } catch {
-    return { players: [] };
-  }
-}
 
 function parseCsvLine(line) {
   const values = [];
@@ -98,12 +73,6 @@ async function readPointsCsvPreview() {
       playersById.set(row.player_id, player);
     }
 
-    const topSixCountableByPoints = (results = []) =>
-      [...results]
-        .filter((result) => result.sourceCounting !== false)
-        .sort((a, b) => Number(b.points || 0) - Number(a.points || 0))
-        .slice(0, 6);
-
     const players = [...playersById.values()].map((player) => ({
       ...player,
       totalCombinedPoints: [
@@ -131,14 +100,6 @@ async function readSourcePlayers() {
     return JSON.parse(await fs.readFile(sourcesFile, "utf8"));
   } catch {
     return [];
-  }
-}
-
-async function readActivityPreview() {
-  try {
-    return JSON.parse(await fs.readFile(activityPreviewFile, "utf8"));
-  } catch {
-    return { players: [] };
   }
 }
 
@@ -226,29 +187,17 @@ function topSixByPoints(results = []) {
   return [...results].sort((a, b) => Number(b.points || 0) - Number(a.points || 0)).slice(0, 6);
 }
 
+function isSourceCounting(result) {
+  return result?.sourceCounting !== false && result?.sourceCounting !== "false";
+}
+
+function topSixCountableByPoints(results = []) {
+  return topSixByPoints(results.filter(isSourceCounting));
+}
+
 function saoPauloTodayIso() {
   const today = saoPauloToday();
   return today.toISOString().slice(0, 10);
-}
-
-function officialFallbackResults(player, rankingDate) {
-  if (!Number(player.officialPoints || 0)) return player;
-
-  return {
-    ...player,
-    sourceTotalCombinedPoints: Number(player.officialPoints),
-    singles: [
-      {
-        event: `Ranking oficial ITF (${rankingDate || "data pendente"})`,
-        round: "Oficial",
-        points: Number(player.officialPoints),
-        date: "",
-        sourceCounting: true,
-        officialFallback: true
-      }
-    ],
-    doubles: []
-  };
 }
 
 const roundToDisplay = {
@@ -293,8 +242,8 @@ function applyRealPlayerPreview(players, previewPlayers) {
     if (!realPlayer.singles?.length && !realPlayer.doubles?.length) return player;
 
     const defending = [
-      ...defendingFromResults(topSixByPoints(realPlayer.singles), "singles"),
-      ...defendingFromResults(topSixByPoints(realPlayer.doubles), "doubles")
+      ...defendingFromResults(topSixCountableByPoints(realPlayer.singles), "singles"),
+      ...defendingFromResults(topSixCountableByPoints(realPlayer.doubles), "doubles")
     ];
 
     return {
@@ -352,14 +301,6 @@ function defendingFromResults(results, type) {
     }));
 }
 
-function currentTournamentForType(tournaments = [], matchType, today) {
-  return tournaments.find((tournament) => {
-    const start = new Date(`${tournament.startDate}T00:00:00Z`);
-    const end = new Date(`${tournament.endDate}T23:59:59Z`);
-    return tournament.matchType === matchType && start <= today && today <= end;
-  });
-}
-
 function pointsAndStatusForTournament(tournament, rules, matchType) {
   if (!tournament) {
     return {
@@ -385,58 +326,6 @@ function pointsAndStatusForTournament(tournament, rules, matchType) {
     points: Number.isFinite(pointsOverride) ? pointsOverride : pointsForRound(rules, tournament.grade, matchType, pointsRound),
     maxPoints: pointsForRound(rules, tournament.grade, matchType, "W")
   };
-}
-
-function applyActivityPreview(players, activityPlayers, rules) {
-  const activityById = new Map(activityPlayers.map((player) => [player.id, player]));
-  const today = saoPauloToday();
-
-  return players.map((player) => {
-    const activityPlayer = activityById.get(player.id);
-    const singlesTournament = currentTournamentForType(activityPlayer?.tournaments, "Singles", today);
-    const doublesTournament = currentTournamentForType(activityPlayer?.tournaments, "Doubles", today);
-
-    if (activityPlayer && !singlesTournament && !doublesTournament) {
-      return {
-        ...player,
-        liveEvent: {
-          event: "",
-          grade: "",
-          singlesStatus: "Nao joga",
-          singlesRound: "Nao joga",
-          singlesPoints: 0,
-          doublesStatus: "Nao joga",
-          doublesRound: "Nao joga",
-          doublesPoints: 0
-        }
-      };
-    }
-
-    if (!singlesTournament && !doublesTournament) return player;
-
-    const singles = pointsAndStatusForTournament(singlesTournament, rules, "singles");
-    const doubles = pointsAndStatusForTournament(doublesTournament, rules, "doubles");
-    const eventNames = [singlesTournament?.event, doublesTournament?.event].filter(Boolean);
-    const event = [...new Set(eventNames)].join(" / ");
-    const grade = singlesTournament?.grade || doublesTournament?.grade || "";
-
-    return {
-      ...player,
-      liveEvent: {
-        ...(player.liveEvent || {}),
-        event,
-        grade,
-        singlesStatus: singles.status,
-        singlesRound: singles.round,
-        singlesPoints: singles.points,
-        singlesMaxPoints: singles.maxPoints,
-        doublesStatus: doubles.status,
-        doublesRound: doubles.round,
-        doublesPoints: doubles.points,
-        doublesMaxPoints: doubles.maxPoints
-      }
-    };
-  });
 }
 
 function normalizeWeeklyStatus(status = "") {
@@ -506,38 +395,32 @@ function applyWeeklyResultsPreview(players, weeklyRows, rules) {
   });
 }
 
-const realPreview = await readRealPlayerPreview();
 const pointsCsvPreview = await readPointsCsvPreview();
-const activityPreview = await readActivityPreview();
 const weeklyResultsPreview = await readWeeklyResultsPreview();
 const rankingPreview = await readRankingPreview();
 const sourcePlayers = await readSourcePlayers();
 const rules = JSON.parse(await fs.readFile(path.join(rootDir, "pipeline", "rules", "itf-juniors-2026.json"), "utf8"));
-const basePlayers = sourcePlayers.length ? sourcePlayers.map(sourcePlayerShell) : context.payload.players;
-const pointsPreview = pointsCsvPreview.players?.length ? pointsCsvPreview : realPreview;
+const basePlayers = sourcePlayers.map(sourcePlayerShell);
 const playersWithOfficialFallbacks = basePlayers;
-const playersWithRealResults = applyRealPlayerPreview(playersWithOfficialFallbacks, pointsPreview.players || []);
-const playersWithActivity = applyActivityPreview(playersWithRealResults, activityPreview.players || [], rules);
-const players = applyWeeklyResultsPreview(playersWithActivity, weeklyResultsPreview.rows || [], rules);
+const playersWithRealResults = applyRealPlayerPreview(playersWithOfficialFallbacks, pointsCsvPreview.players || []);
+const players = applyWeeklyResultsPreview(playersWithRealResults, weeklyResultsPreview.rows || [], rules);
 const existingLatest = await readExistingLatest();
 const invalidPlayers = players.filter((player) => !hasRankingResults(player));
 
 let payload = {
-  ...context.payload,
-  players,
   dataSource: {
-    ...context.payload.dataSource,
-    rankingDate: rankingPreview.rankingDate || context.payload.dataSource.rankingDate,
+    rankingDate: rankingPreview.rankingDate || "",
     updatedAt: new Intl.DateTimeFormat("pt-BR", {
       dateStyle: "short",
       timeStyle: "short",
       timeZone: "America/Sao_Paulo"
-    }).format(new Date())
+    }).format(new Date()),
+    note: "Pontos = 6 melhores resultados de simples + 25% dos 6 melhores resultados de duplas"
   },
+  players,
   generatedBy: "pipeline/build-latest.mjs",
-  realPlayersApplied: pointsPreview.players?.map((player) => player.id) || [],
-  pointsSource: pointsCsvPreview.players?.length ? "data/player-points.csv" : "data/itf-player-preview.json",
-  activityPlayersApplied: activityPreview.players?.map((player) => player.id) || [],
+  realPlayersApplied: pointsCsvPreview.players?.map((player) => player.id) || [],
+  pointsSource: "data/player-points.csv",
   weeklyResultsApplied: [...new Set((weeklyResultsPreview.rows || []).map((row) => row.player_id))]
 };
 
