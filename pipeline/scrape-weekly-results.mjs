@@ -479,7 +479,7 @@ function resultForTeam({ team, opponent, match, round, matchType }) {
 
 function resultDepth(result, matchType = "Singles") {
   const depth = liveTennisRoundDepth(result.currentRound, matchType);
-  const statusWeight = result.status === "Ativo" ? 2 : 1;
+  const statusWeight = result.status === "Eliminado" ? 3 : 2;
   return depth * 10 + statusWeight;
 }
 
