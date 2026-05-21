@@ -603,7 +603,9 @@ table:not(.is-official-table) td:nth-child(6) {
 }
 
 .points-flow-disclosure {
-  display: inline-grid;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
   gap: 5px;
 }
 
@@ -613,13 +615,14 @@ table:not(.is-official-table) td:nth-child(6) {
   gap: 4px;
   cursor: pointer;
   list-style: none;
+  flex: 0 0 auto;
 }
 
 .points-flow-summary::-webkit-details-marker {
   display: none;
 }
 
-.points-flow-toggle-text {
+.points-flow-toggle-symbol {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -630,21 +633,22 @@ table:not(.is-official-table) td:nth-child(6) {
   line-height: 1;
 }
 
-.points-flow-summary:hover .points-flow-toggle-text {
+.points-flow-toggle-symbol::before {
+  content: "+";
+}
+
+.points-flow-summary:hover .points-flow-toggle-symbol {
   color: var(--accent);
 }
 
-.points-flow-disclosure[open] .points-flow-toggle-text::before {
+.points-flow-disclosure[open] .points-flow-toggle-symbol::before {
   content: "-";
-}
-
-.points-flow-disclosure[open] .points-flow-toggle-text {
-  font-size: 0;
 }
 
 .points-flow-panel {
   display: grid;
   gap: 4px;
+  flex-basis: 100%;
 }
 
 .ranking-workspace {

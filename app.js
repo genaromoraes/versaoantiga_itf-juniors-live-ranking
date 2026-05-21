@@ -878,7 +878,7 @@ function pointsFlowDisclosure(pointsBalance) {
   return `
     <details class="points-flow-disclosure">
       <summary class="points-flow-summary" aria-label="Ver detalhes de pontos">
-        <span class="points-flow-toggle-text" aria-hidden="true">+</span>
+        <span class="points-flow-toggle-symbol" aria-hidden="true"></span>
         ${balancePill}
       </summary>
       <div class="points-flow-panel">
