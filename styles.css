@@ -612,7 +612,7 @@ table:not(.is-official-table) td:nth-child(6) {
 .points-flow-summary {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 6px;
   cursor: pointer;
   list-style: none;
   flex: 0 0 auto;
@@ -626,12 +626,12 @@ table:not(.is-official-table) td:nth-child(6) {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 999px;
   background: #edf2f4;
   color: var(--muted);
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: 900;
   line-height: 1;
   flex: 0 0 auto;
