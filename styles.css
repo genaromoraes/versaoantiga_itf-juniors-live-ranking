@@ -612,7 +612,7 @@ table:not(.is-official-table) td:nth-child(6) {
 .points-flow-summary {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
+  gap: 10px;
   cursor: pointer;
   list-style: none;
   flex: 0 0 auto;
@@ -626,11 +626,15 @@ table:not(.is-official-table) td:nth-child(6) {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 12px;
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  background: #edf2f4;
   color: var(--muted);
-  font-size: 0.95rem;
+  font-size: 1.5rem;
   font-weight: 900;
   line-height: 1;
+  flex: 0 0 auto;
 }
 
 .points-flow-toggle-symbol::before {
@@ -638,7 +642,8 @@ table:not(.is-official-table) td:nth-child(6) {
 }
 
 .points-flow-summary:hover .points-flow-toggle-symbol {
-  color: var(--accent);
+  background: #e4ebef;
+  color: var(--ink);
 }
 
 .points-flow-disclosure[open] .points-flow-toggle-symbol::before {
