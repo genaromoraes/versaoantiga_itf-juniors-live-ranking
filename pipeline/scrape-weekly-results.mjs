@@ -8,6 +8,9 @@ const outputFile = path.join(rootDir, "data", "weekly-results.csv");
 const previewFile = path.join(rootDir, "data", "weekly-tournaments-preview.json");
 const itfEntriesBaseUrl = "https://itf-entries.netlify.app";
 const itfBaseUrl = "https://www.itftennis.com";
+const itfCalendarPage = "https://www.itftennis.com/en/tournament-calendar/world-tennis-tour-juniors-calendar/";
+const itfEventFiltersApiBase = "https://www.itftennis.com/tennis/api/TournamentApi/GetEventFilters";
+const itfDrawsheetApi = "https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet";
 const coreTennisBaseUrl = "https://www.coretennis.net";
 const liveTennisBaseUrl = "https://www.live-tennis.cn";
 const coreTennisCalendars = {
@@ -168,6 +171,10 @@ function confidenceNote(value = "") {
     "core-win": "CoreTennis: vitoria encontrada",
     "core-loss": "CoreTennis: derrota encontrada",
     "core-pending-match": "CoreTennis: partida pendente",
+    "itf-api-bye": "ITF API: bye encontrado; atleta avancou de rodada sem pontuar",
+    "itf-api-win": "ITF API: vitoria encontrada",
+    "itf-api-loss": "ITF API: derrota encontrada",
+    "itf-api-pending-match": "ITF API: partida pendente",
     "acceptance-qualifying": "acceptance list: atleta no qualifying, assumido como Q1 ate leitura mais precisa do draw",
     pending: "fase pendente"
   }[value] || value || "fase pendente";
@@ -267,6 +274,330 @@ async function fetchText(url, retries = 3) {
   }
 
   throw new Error(`Could not fetch ${url}: ${lastError?.message || "unknown error"}`);
+}
+
+async function pageApiGet(page, url, retries = 4) {
+  let lastError;
+
+  for (let attempt = 1; attempt <= retries; attempt += 1) {
+    try {
+      const response = await page.evaluate(
+        async (targetUrl) => {
+          const result = await fetch(targetUrl, {
+            method: "GET",
+            headers: { accept: "application/json, text/plain, */*" }
+          });
+          return {
+            status: result.status,
+            text: await result.text()
+          };
+        },
+        url
+      );
+
+      if (response.status !== 200) throw new Error(`HTTP ${response.status}`);
+      if (!response.text?.trim()) throw new Error("empty response");
+      return JSON.parse(response.text);
+    } catch (error) {
+      lastError = error;
+      await new Promise((resolve) => setTimeout(resolve, attempt * 1200));
+    }
+  }
+
+  throw new Error(`Could not fetch ITF API ${url}: ${lastError?.message || "unknown error"}`);
+}
+
+async function pageApiPost(page, url, payload, retries = 4) {
+  let lastError;
+
+  for (let attempt = 1; attempt <= retries; attempt += 1) {
+    try {
+      const response = await page.evaluate(
+        async ({ targetUrl, body }) => {
+          const result = await fetch(targetUrl, {
+            method: "POST",
+            headers: {
+              accept: "application/json, text/plain, */*",
+              "content-type": "application/json"
+            },
+            body: JSON.stringify(body)
+          });
+          return {
+            status: result.status,
+            text: await result.text()
+          };
+        },
+        { targetUrl: url, body: payload }
+      );
+
+      if (response.status !== 200) throw new Error(`HTTP ${response.status}`);
+      if (!response.text?.trim()) throw new Error("empty response");
+      return JSON.parse(response.text);
+    } catch (error) {
+      lastError = error;
+      await new Promise((resolve) => setTimeout(resolve, attempt * 1200));
+    }
+  }
+
+  throw new Error(`Could not post ITF API ${url}: ${lastError?.message || "unknown error"}`);
+}
+
+async function eventFiltersForTournament(page, tournament) {
+  const url = `${itfEventFiltersApiBase}?tournamentKey=${encodeURIComponent(tournament.key)}`;
+  const payload = await pageApiGet(page, url);
+  const filters = payload.filters || [];
+  const events = [];
+
+  for (const playerFilter of filters) {
+    for (const matchFilter of playerFilter.subFilter || []) {
+      for (const eventFilter of matchFilter.subFilter || []) {
+        for (const structureFilter of eventFilter.subFilter || []) {
+          events.push({
+            tournamentId: payload.tournamentId,
+            tourType: payload.tourType,
+            circuitCode: payload.circuitCode,
+            playerTypeCode: playerFilter.valueCode,
+            playerTypeDesc: playerFilter.valueDesc,
+            matchTypeCode: matchFilter.valueCode,
+            matchTypeDesc: matchFilter.valueDesc,
+            eventClassificationCode: eventFilter.valueCode,
+            eventClassificationDesc: eventFilter.valueDesc,
+            drawsheetStructureCode: structureFilter.valueCode,
+            drawsheetStructureDesc: structureFilter.valueDesc
+          });
+        }
+      }
+    }
+  }
+
+  return events;
+}
+
+function drawsheetPayload(event) {
+  return {
+    tournamentId: event.tournamentId,
+    tourType: event.tourType,
+    weekNumber: 0,
+    playerTypeCode: event.playerTypeCode,
+    matchTypeCode: event.matchTypeCode,
+    eventClassificationCode: event.eventClassificationCode,
+    drawsheetStructureCode: event.drawsheetStructureCode
+  };
+}
+
+function teamPlayers(team = {}) {
+  return (team.players || []).filter(Boolean);
+}
+
+function playerIdsForTeam(team = {}) {
+  return teamPlayers(team).map((player) => String(player.playerId || "")).filter(Boolean);
+}
+
+function teamIsBye(team = {}) {
+  return !teamPlayers(team).length;
+}
+
+function eventMatchType(event) {
+  return event.matchTypeCode === "D" || /doubles/i.test(event.matchTypeDesc || "") ? "Doubles" : "Singles";
+}
+
+function eventIsQualifying(event) {
+  return event.eventClassificationCode === "Q" || /qual/i.test(event.eventClassificationDesc || "");
+}
+
+function roundFromDesc(roundDesc = "", roundNumber = 1, event, matchType = "Singles") {
+  const text = String(roundDesc).toLowerCase();
+  if (eventIsQualifying(event)) return `Q${roundNumber || 1}`;
+  if (/winner|champion/.test(text)) return "W";
+  if (/final/.test(text) && !/semi|quarter/.test(text)) return "F";
+  if (/semi/.test(text)) return "SF";
+  if (/quarter/.test(text)) return "QF";
+  if (/\b16\b/.test(text)) return "R16";
+  if (/\b32\b/.test(text)) return "R32";
+  if (/\b64\b/.test(text)) return "R64";
+
+  const normalizedMatchType = matchType.toUpperCase();
+  if (roundNumber === 1) return normalizedMatchType === "DOUBLES" ? "R32" : "R64";
+  if (roundNumber === 2) return normalizedMatchType === "DOUBLES" ? "R16" : "R32";
+  if (roundNumber === 3) return normalizedMatchType === "DOUBLES" ? "QF" : "R16";
+  if (roundNumber === 4) return normalizedMatchType === "DOUBLES" ? "SF" : "QF";
+  if (roundNumber === 5) return normalizedMatchType === "DOUBLES" ? "F" : "SF";
+  if (roundNumber === 6) return "F";
+  return normalizedMatchType === "DOUBLES" ? "R32" : "R64";
+}
+
+function teamScoreDisplay(team1 = {}, team2 = {}) {
+  const scores1 = team1.scores || [];
+  const scores2 = team2.scores || [];
+  const parts = [];
+  const maxSets = Math.max(scores1.length, scores2.length);
+
+  for (let index = 0; index < maxSets; index += 1) {
+    const score1 = scores1[index];
+    const score2 = scores2[index];
+    if (!score1 || !score2 || score1.score === undefined || score2.score === undefined) continue;
+    const tiebreak = score1.losingScore ?? score2.losingScore;
+    parts.push(tiebreak === undefined || tiebreak === null ? `${score1.score}-${score2.score}` : `${score1.score}-${score2.score}(${tiebreak})`);
+  }
+
+  return parts.join(" ");
+}
+
+function resultForTeam({ team, opponent, match, round, matchType }) {
+  const teamWon = team?.isWinner === true;
+  const opponentWon = opponent?.isWinner === true;
+  const hasWinner = teamWon || opponentWon;
+  const bye = teamIsBye(opponent);
+
+  if (teamWon) {
+    return {
+      status: "Ativo",
+      currentRound: round === "F" ? "W" : nextRound(round, matchType.toUpperCase()),
+      pointsOverride: bye ? 0 : undefined,
+      confidence: bye ? "itf-api-bye" : "itf-api-win",
+      score: teamScoreDisplay(team, opponent)
+    };
+  }
+
+  if (opponentWon) {
+    return {
+      status: "Eliminado",
+      currentRound: round,
+      confidence: "itf-api-loss",
+      score: teamScoreDisplay(team, opponent)
+    };
+  }
+
+  return {
+    status: "Ativo",
+    currentRound: round,
+    pointsOverride: bye ? 0 : undefined,
+    confidence: hasWinner ? "itf-api-win" : "itf-api-pending-match",
+    score: teamScoreDisplay(team, opponent)
+  };
+}
+
+function resultDepth(result, matchType = "Singles") {
+  const depth = liveTennisRoundDepth(result.currentRound, matchType);
+  const statusWeight = result.status === "Ativo" ? 2 : 1;
+  return depth * 10 + statusWeight;
+}
+
+function betterDrawResult(current, candidate, matchType) {
+  if (!current) return candidate;
+  return resultDepth(candidate, matchType) >= resultDepth(current, matchType) ? candidate : current;
+}
+
+function ensureTournamentPlayer(tournament, player) {
+  let existing = tournament.acceptedPlayers.find((item) => item.id === player.id);
+  if (existing) return existing;
+
+  existing = {
+    ...player,
+    entryGroup: "",
+    position: "",
+    sex: player.gender === "Girls" ? "girl" : "boy",
+    juniorRank: player.currentRank,
+    priority: ""
+  };
+  tournament.acceptedPlayers.push(existing);
+  return existing;
+}
+
+function applyDrawsheetToTournament(tournament, event, drawsheet) {
+  const matchType = eventMatchType(event);
+  const groups = drawsheet.koGroups || [];
+
+  for (const group of groups) {
+    for (const roundData of group.rounds || []) {
+      const round = roundFromDesc(roundData.roundDesc, roundData.roundNumber, event, matchType);
+
+      for (const match of roundData.matches || []) {
+        const teams = match.teams || [];
+        const team1 = teams[0] || {};
+        const team2 = teams[1] || {};
+        const candidates = [
+          { team: team1, opponent: team2 },
+          { team: team2, opponent: team1 }
+        ];
+
+        for (const candidate of candidates) {
+          for (const playerId of playerIdsForTeam(candidate.team)) {
+            const sourcePlayer = playersByItfId.get(playerId);
+            if (!sourcePlayer) continue;
+
+            const player = ensureTournamentPlayer(tournament, sourcePlayer);
+            const result = {
+              ...resultForTeam({
+                team: candidate.team,
+                opponent: candidate.opponent,
+                match,
+                round,
+                matchType
+              }),
+              sourceUrl: tournament.drawsUrl,
+              matchId: match.matchId
+            };
+
+            if (matchType === "Doubles") {
+              player.drawResultDoubles = betterDrawResult(player.drawResultDoubles, result, matchType);
+            } else {
+              player.drawResult = betterDrawResult(player.drawResult, result, matchType);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+async function enrichTournamentWithItfApiDraws(tournaments) {
+  const tournamentsWithPlayers = tournaments.filter((tournament) => tournament.acceptedPlayers.length);
+  if (!tournamentsWithPlayers.length) return tournaments;
+
+  let chromium;
+  try {
+    ({ chromium } = await import("playwright"));
+  } catch (error) {
+    for (const tournament of tournaments) tournament.itfApiWarning = `Playwright unavailable; ${error.message}`;
+    return tournaments;
+  }
+
+  const browser = await chromium.launch({ headless: true });
+  const page = await browser.newPage();
+
+  try {
+    await page.goto(`${itfCalendarPage}?categories=All&startdate=${calendarStartDate()}`, { waitUntil: "domcontentloaded", timeout: 90000 });
+    await page.waitForTimeout(5000);
+
+    for (const tournament of tournamentsWithPlayers) {
+      try {
+        if (tournament.drawsUrl) {
+          await page.goto(tournament.drawsUrl, { waitUntil: "domcontentloaded", timeout: 90000 });
+          await page.waitForTimeout(3000);
+        }
+
+        const events = await eventFiltersForTournament(page, tournament);
+        tournament.itfApiEvents = events.map((event) => ({
+          playerTypeCode: event.playerTypeCode,
+          matchTypeCode: event.matchTypeCode,
+          eventClassificationCode: event.eventClassificationCode,
+          drawsheetStructureCode: event.drawsheetStructureCode
+        }));
+
+        for (const event of events) {
+          const drawsheet = await pageApiPost(page, itfDrawsheetApi, drawsheetPayload(event));
+          applyDrawsheetToTournament(tournament, event, drawsheet);
+        }
+      } catch (error) {
+        tournament.itfApiWarning = error.message;
+      }
+    }
+  } finally {
+    await browser.close();
+  }
+
+  return tournaments;
 }
 
 function decodeHtml(value = "") {
@@ -641,10 +972,10 @@ async function enrichTournamentWithLiveTennisDraws(tournaments) {
 
         return {
           ...player,
-          drawResult: singlesResult
+          drawResult: singlesResult && (!player.drawResult || player.drawResult.currentRound === pendingRound)
             ? { ...singlesResult, sourceUrl: tournament.liveTennisUrl }
             : player.drawResult,
-          drawResultDoubles: doublesResult
+          drawResultDoubles: doublesResult && !player.drawResultDoubles
             ? { ...doublesResult, sourceUrl: tournament.liveTennisUrl }
             : player.drawResultDoubles || null
         };
@@ -905,6 +1236,7 @@ try {
   console.warn(`Could not scrape itf-entries weekly tournaments: ${error.message}`);
 }
 
+await enrichTournamentWithItfApiDraws(tournaments);
 await enrichTournamentWithLiveTennisDraws(tournaments);
 await enrichTournamentWithCoreTennisRounds(tournaments);
 await enrichTournamentWithDrawRounds(tournaments);
@@ -912,7 +1244,9 @@ await enrichTournamentWithDrawRounds(tournaments);
 const rows = [headers];
 for (const tournament of tournaments) {
   for (const player of tournament.acceptedPlayers) {
-    const drawResult = player.drawResult || fallbackDrawResult(player);
+    const drawResult = !player.drawResult || player.drawResult.currentRound === pendingRound
+      ? fallbackDrawResult(player)
+      : player.drawResult;
     rows.push([
       player.id,
       player.name,

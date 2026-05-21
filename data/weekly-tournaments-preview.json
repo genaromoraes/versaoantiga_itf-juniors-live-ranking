@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "20/05/2026, 22:12",
+  "scrapedAt": "21/05/2026, 00:13",
   "calendarStartDate": "2026-05",
   "tournaments": [
     {
@@ -32,16 +32,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541991
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502663
           }
         },
         {
@@ -61,16 +64,20 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541998
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
+            "currentRound": "R16",
             "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502639
           }
         },
         {
@@ -90,16 +97,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541993
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502666
           }
         },
         {
@@ -120,15 +130,20 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "pointsOverride": 0,
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541966
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
+            "currentRound": "R16",
             "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502639
           }
         },
         {
@@ -148,16 +163,20 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541994
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
+            "currentRound": "R16",
             "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502651
           }
         },
         {
@@ -177,17 +196,20 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541997
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
+            "currentRound": "R16",
             "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502643
           }
         },
         {
@@ -209,14 +231,19 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541959
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "pointsOverride": 0,
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502650
           }
         },
         {
@@ -237,14 +264,19 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "pointsOverride": 0,
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541950
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502666
           }
         },
         {
@@ -264,17 +296,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541994
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502665
           }
         },
         {
@@ -294,15 +328,20 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541997
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "pointsOverride": 0,
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502650
           }
         },
         {
@@ -324,8 +363,10 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541947
           },
           "drawResultDoubles": null
         },
@@ -347,14 +388,19 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "pointsOverride": 0,
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541962
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502665
           }
         },
         {
@@ -374,15 +420,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541993
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502664
           }
         },
         {
@@ -403,14 +453,18 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "2-6 4-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541969
           },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "4-6 4-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502649
           }
         },
         {
@@ -430,15 +484,20 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541996
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "pointsOverride": 0,
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502642
           }
         },
         {
@@ -459,14 +518,18 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "7-6(5) 3-6 0-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541960
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502664
           }
         },
         {
@@ -486,15 +549,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541991
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502663
           }
         },
         {
@@ -514,15 +581,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541998
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502664
           }
         },
         {
@@ -544,15 +615,19 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541971
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
+            "currentRound": "R16",
             "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502643
           }
         },
         {
@@ -573,14 +648,18 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-win",
+            "score": "6-3 6-3",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541973
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-win",
+            "score": "6-4 6-4",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502648
           }
         },
         {
@@ -601,14 +680,19 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "2-6 3-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541949
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "pointsOverride": 0,
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502642
           }
         },
         {
@@ -629,14 +713,18 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-win",
+            "score": "6-1 6-3",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541944
           },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "6-7(6) 2-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502644
           }
         },
         {
@@ -657,14 +745,19 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "1-6 3-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541944
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "pointsOverride": 0,
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502646
           }
         },
         {
@@ -685,14 +778,18 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-win",
+            "score": "6-1 6-2",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541956
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502663
           }
         },
         {
@@ -713,14 +810,18 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "7-6(3) 1-6 2-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541964
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502664
           }
         },
         {
@@ -738,7 +839,23 @@
           "sex": "boy",
           "juniorRank": 40,
           "priority": 1,
-          "drawResultDoubles": null
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "pointsOverride": 0,
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541946
+          },
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "6-3 3-6 7-10",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502653
+          }
         },
         {
           "currentRank": 46,
@@ -757,16 +874,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541992
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502665
           }
         },
         {
@@ -787,15 +907,19 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "3-6 3-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541952
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
+            "currentRound": "R16",
             "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502651
           }
         },
         {
@@ -816,14 +940,18 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-win",
+            "score": "6-3 4-6 6-4",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541968
           },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "6-2 4-6 4-10",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502652
           }
         },
         {
@@ -843,15 +971,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541995
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502666
           }
         },
         {
@@ -871,15 +1003,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541992
           },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "4-6 2-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502641
           }
         },
         {
@@ -901,14 +1037,19 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541963
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "pointsOverride": 0,
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502646
           }
         },
         {
@@ -929,14 +1070,18 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-win",
+            "score": "6-2 7-5",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541953
           },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "5-7 6-3 2-10",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502640
           }
         },
         {
@@ -957,14 +1102,18 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "2-6 5-7",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541953
           },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "6-2 4-6 4-10",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502652
           }
         },
         {
@@ -985,14 +1134,18 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-win",
+            "score": "6-4 6-3",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541957
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-win",
+            "score": "6-4 6-4",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502648
           }
         },
         {
@@ -1013,14 +1166,18 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "1-6 2-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541956
           },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "6-7(6) 2-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502644
           }
         },
         {
@@ -1038,6 +1195,14 @@
           "sex": "boy",
           "juniorRank": 52,
           "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q2",
+            "confidence": "itf-api-win",
+            "score": "6-3 1-6 12-10",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542014
+          },
           "drawResultDoubles": null
         },
         {
@@ -1058,14 +1223,18 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "6-3 0-6 3-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541965
           },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "4-6 2-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502641
           }
         },
         {
@@ -1083,6 +1252,14 @@
           "sex": "boy",
           "juniorRank": 55,
           "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q2",
+            "confidence": "itf-api-win",
+            "score": "3-6 7-6(2) 10-7",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542026
+          },
           "drawResultDoubles": null
         },
         {
@@ -1100,6 +1277,14 @@
           "sex": "boy",
           "juniorRank": 57,
           "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q2",
+            "confidence": "itf-api-win",
+            "score": "6-1 6-1",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542006
+          },
           "drawResultDoubles": null
         },
         {
@@ -1117,11 +1302,21 @@
           "sex": "boy",
           "juniorRank": 59,
           "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q3",
+            "confidence": "itf-api-win",
+            "score": "6-2 7-5",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542038
+          },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "4-6 4-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502649
           }
         },
         {
@@ -1139,6 +1334,14 @@
           "sex": "boy",
           "juniorRank": 62,
           "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q2",
+            "confidence": "itf-api-win",
+            "score": "7-5 6-2",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542009
+          },
           "drawResultDoubles": null
         },
         {
@@ -1156,6 +1359,14 @@
           "sex": "boy",
           "juniorRank": 63,
           "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q2",
+            "confidence": "itf-api-win",
+            "score": "6-2 6-0",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542017
+          },
           "drawResultDoubles": null
         },
         {
@@ -1176,14 +1387,18 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "4-6 3-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541957
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502665
           }
         },
         {
@@ -1201,11 +1416,21 @@
           "sex": "boy",
           "juniorRank": 68,
           "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q3",
+            "confidence": "itf-api-win",
+            "score": "7-5 6-3",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542041
+          },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "6-3 3-6 7-10",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502653
           }
         },
         {
@@ -1223,6 +1448,14 @@
           "sex": "boy",
           "juniorRank": 71,
           "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q2",
+            "confidence": "itf-api-win",
+            "score": "6-2 6-3",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542025
+          },
           "drawResultDoubles": null
         },
         {
@@ -1240,6 +1473,14 @@
           "sex": "boy",
           "juniorRank": 73,
           "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "Q1",
+            "confidence": "itf-api-loss",
+            "score": "1-6 1-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542018
+          },
           "drawResultDoubles": null
         },
         {
@@ -1257,6 +1498,14 @@
           "sex": "boy",
           "juniorRank": 75,
           "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q3",
+            "confidence": "itf-api-win",
+            "score": "7-5 6-3",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542035
+          },
           "drawResultDoubles": null
         },
         {
@@ -1274,11 +1523,21 @@
           "sex": "boy",
           "juniorRank": 76,
           "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q3",
+            "confidence": "itf-api-win",
+            "score": "7-6(8) 6-4",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542033
+          },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502663
           }
         },
         {
@@ -1296,6 +1555,14 @@
           "sex": "boy",
           "juniorRank": 81,
           "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "Q1",
+            "confidence": "itf-api-loss",
+            "score": "6-3 6-7(2) 7-10",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542026
+          },
           "drawResultDoubles": null
         },
         {
@@ -1313,6 +1580,14 @@
           "sex": "boy",
           "juniorRank": 82,
           "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q3",
+            "confidence": "itf-api-win",
+            "score": "3-6 6-4 11-9",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542037
+          },
           "drawResultDoubles": null
         },
         {
@@ -1330,6 +1605,14 @@
           "sex": "boy",
           "juniorRank": 84,
           "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q2",
+            "confidence": "itf-api-win",
+            "score": "6-2 6-4",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542011
+          },
           "drawResultDoubles": null
         },
         {
@@ -1347,6 +1630,11 @@
           "sex": "boy",
           "juniorRank": 90,
           "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Pendente",
+            "confidence": "pending"
+          },
           "drawResultDoubles": null
         },
         {
@@ -1364,6 +1652,14 @@
           "sex": "boy",
           "juniorRank": 91,
           "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q2",
+            "confidence": "itf-api-win",
+            "score": "6-3 6-4",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542020
+          },
           "drawResultDoubles": null
         },
         {
@@ -1381,6 +1677,14 @@
           "sex": "boy",
           "juniorRank": 92,
           "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q2",
+            "confidence": "itf-api-win",
+            "score": "6-3 6-3",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542012
+          },
           "drawResultDoubles": null
         },
         {
@@ -1398,6 +1702,14 @@
           "sex": "boy",
           "juniorRank": 95,
           "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "Q1",
+            "confidence": "itf-api-loss",
+            "score": "6-4 3-6 7-10",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542007
+          },
           "drawResultDoubles": null
         },
         {
@@ -1418,14 +1730,18 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-win",
+            "score": "6-2 6-4",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541969
           },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "5-7 6-3 2-10",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502640
           }
         },
         {
@@ -1445,9 +1761,11 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541995
           },
           "drawResultDoubles": null
         },
@@ -1466,6 +1784,14 @@
           "sex": "boy",
           "juniorRank": 118,
           "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q2",
+            "confidence": "itf-api-win",
+            "score": "3-6 7-5 10-2",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542023
+          },
           "drawResultDoubles": null
         },
         {
@@ -1483,6 +1809,14 @@
           "sex": "boy",
           "juniorRank": 124,
           "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "Q1",
+            "confidence": "itf-api-loss",
+            "score": "6-3 5-7 2-10",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542023
+          },
           "drawResultDoubles": null
         },
         {
@@ -1503,14 +1837,18 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "7-6(5) 3-6 5-7",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541945
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502666
           }
         },
         {
@@ -1528,6 +1866,14 @@
           "sex": "boy",
           "juniorRank": 137,
           "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "Q1",
+            "confidence": "itf-api-loss",
+            "score": "4-6 6-4 5-10",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542013
+          },
           "drawResultDoubles": null
         },
         {
@@ -1548,14 +1894,18 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "6-7(7) 3-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183541961
           },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "1-6 4-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502645
           }
         },
         {
@@ -1573,6 +1923,14 @@
           "sex": "boy",
           "juniorRank": 150,
           "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "Q1",
+            "confidence": "itf-api-loss",
+            "score": "2-6 4-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542011
+          },
           "drawResultDoubles": null
         },
         {
@@ -1592,15 +1950,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542103
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-win",
+            "score": "6-4 6-2",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502675
           }
         },
         {
@@ -1620,16 +1982,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542096
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502697
           }
         },
         {
@@ -1649,9 +2014,11 @@
           "priority": 2,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542101
           },
           "drawResultDoubles": null
         },
@@ -1672,16 +2039,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542100
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502696
           }
         },
         {
@@ -1701,17 +2071,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542102
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502694
           }
         },
         {
@@ -1731,17 +2103,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542098
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502694
           }
         },
         {
@@ -1761,16 +2135,20 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542099
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
+            "currentRound": "R16",
             "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502682
           }
         },
         {
@@ -1791,14 +2169,19 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "pointsOverride": 0,
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542055
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502696
           }
         },
         {
@@ -1818,17 +2201,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542099
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502695
           }
         },
         {
@@ -1849,14 +2234,19 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "pointsOverride": 0,
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542059
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-win",
+            "score": "6-3 6-4",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502679
           }
         },
         {
@@ -1877,14 +2267,19 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "pointsOverride": 0,
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542067
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502697
           }
         },
         {
@@ -1906,14 +2301,18 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542052
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-win",
+            "score": "6-2 7-5",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502680
           }
         },
         {
@@ -1934,15 +2333,19 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "pointsOverride": 0,
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542051
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502696
           }
         },
         {
@@ -1962,16 +2365,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542102
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502695
           }
         },
         {
@@ -1991,16 +2397,20 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542097
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
+            "currentRound": "R16",
             "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502682
           }
         },
         {
@@ -2022,14 +2432,18 @@
             "status": "Ativo",
             "currentRound": "R32",
             "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542076
           },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "4-6 2-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502675
           }
         },
         {
@@ -2050,14 +2464,18 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-win",
+            "score": "6-4 2-6 6-4",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542069
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502694
           }
         },
         {
@@ -2078,14 +2496,18 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "0-6 2-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542058
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502695
           }
         },
         {
@@ -2105,10 +2527,11 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542101
           },
           "drawResultDoubles": null
         },
@@ -2130,14 +2553,18 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-win",
+            "score": "6-7(12) 6-1 6-1",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542074
           },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "5-7 4-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502676
           }
         },
         {
@@ -2158,14 +2585,18 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-win",
+            "score": "6-7(4) 6-0 6-0",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542073
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502695
           }
         },
         {
@@ -2186,14 +2617,18 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-win",
+            "score": "6-3 7-6(6)",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542061
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502694
           }
         },
         {
@@ -2214,14 +2649,18 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "7-6(4) 0-6 0-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542073
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-win",
+            "score": "6-4 4-6 10-3",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502671
           }
         },
         {
@@ -2242,14 +2681,18 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "3-6 6-7(6)",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542061
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-win",
+            "score": "7-5 6-3",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502684
           }
         },
         {
@@ -2269,11 +2712,20 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "confidence": "core-win",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542100
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "2-6 5-7",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502680
+          }
         },
         {
           "currentRank": 48,
@@ -2293,15 +2745,18 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-win",
+            "score": "7-6(4) 6-2",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542057
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "live-bye",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502696
           }
         },
         {
@@ -2322,14 +2777,18 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "1-6 1-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542065
           },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "4-6 6-4 3-10",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502671
           }
         },
         {
@@ -2349,15 +2808,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542097
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-win",
+            "score": "6-4 4-6 10-3",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502671
           }
         },
         {
@@ -2378,14 +2841,18 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-win",
+            "score": "6-2 6-0",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542062
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502697
           }
         },
         {
@@ -2406,8 +2873,10 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "5-7 4-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542054
           },
           "drawResultDoubles": null
         },
@@ -2429,14 +2898,18 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "7-6(12) 1-6 1-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542074
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-win",
+            "score": "6-2 6-2",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502672
           }
         },
         {
@@ -2457,14 +2930,18 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-win",
+            "score": "6-4 6-3",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542078
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-win",
+            "score": "7-5 6-4",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502676
           }
         },
         {
@@ -2484,11 +2961,20 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "confidence": "core-win",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542096
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "4-6 6-4 3-10",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502671
+          }
         },
         {
           "currentRank": 52,
@@ -2508,14 +2994,18 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "3-6 4-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542077
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-win",
+            "score": "7-5 6-3",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502684
           }
         },
         {
@@ -2533,6 +3023,14 @@
           "sex": "girl",
           "juniorRank": 62,
           "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q2",
+            "confidence": "itf-api-win",
+            "score": "6-3 7-5",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542131
+          },
           "drawResultDoubles": null
         },
         {
@@ -2550,6 +3048,14 @@
           "sex": "girl",
           "juniorRank": 64,
           "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "Q1",
+            "confidence": "itf-api-loss",
+            "score": "4-6 6-2 9-11",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542119
+          },
           "drawResultDoubles": null
         },
         {
@@ -2567,11 +3073,21 @@
           "sex": "girl",
           "juniorRank": 65,
           "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q2",
+            "confidence": "itf-api-win",
+            "score": "6-1 6-2",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542123
+          },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-win",
+            "score": "6-2 6-2",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502672
           }
         },
         {
@@ -2592,10 +3108,19 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "core-win",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "confidence": "itf-api-win",
+            "score": "6-1 6-1",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542065
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "R16",
+            "confidence": "itf-api-win",
+            "score": "6-3 6-4",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502679
+          }
         },
         {
           "currentRank": 72,
@@ -2612,6 +3137,14 @@
           "sex": "girl",
           "juniorRank": 67,
           "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q3",
+            "confidence": "itf-api-win",
+            "score": "6-4 6-0",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542136
+          },
           "drawResultDoubles": null
         },
         {
@@ -2631,15 +3164,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542098
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-win",
+            "score": "6-4 6-2",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502675
           }
         },
         {
@@ -2660,14 +3197,18 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-win",
+            "score": "3-6 7-5 6-2",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542070
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-win",
+            "score": "6-2 7-5",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502680
           }
         },
         {
@@ -2685,6 +3226,14 @@
           "sex": "girl",
           "juniorRank": 74,
           "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "Q1",
+            "confidence": "itf-api-loss",
+            "score": "4-6 4-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542126
+          },
           "drawResultDoubles": null
         },
         {
@@ -2702,11 +3251,21 @@
           "sex": "girl",
           "juniorRank": 75,
           "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q2",
+            "confidence": "itf-api-win",
+            "score": "6-4 6-3",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542115
+          },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "4-6 2-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502675
           }
         },
         {
@@ -2727,14 +3286,18 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "4-6 6-2 4-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542069
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R16",
+            "confidence": "itf-api-win",
+            "score": "7-5 6-4",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502676
           }
         },
         {
@@ -2755,14 +3318,18 @@
           "drawResult": {
             "status": "Ativo",
             "currentRound": "R32",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-win",
+            "score": "6-3 6-4",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542049
           },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "2-6 5-7",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502680
           }
         },
         {
@@ -2780,11 +3347,21 @@
           "sex": "girl",
           "juniorRank": 83,
           "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q2",
+            "confidence": "itf-api-win",
+            "score": "7-5 6-2",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542130
+          },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "3-6 4-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502679
           }
         },
         {
@@ -2802,6 +3379,14 @@
           "sex": "girl",
           "juniorRank": 89,
           "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q2",
+            "confidence": "itf-api-win",
+            "score": "6-0 6-1",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542118
+          },
           "drawResultDoubles": null
         },
         {
@@ -2819,6 +3404,14 @@
           "sex": "girl",
           "juniorRank": 91,
           "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q2",
+            "confidence": "itf-api-win",
+            "score": "6-2 6-1",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542121
+          },
           "drawResultDoubles": null
         },
         {
@@ -2836,6 +3429,14 @@
           "sex": "girl",
           "juniorRank": 97,
           "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "Q1",
+            "confidence": "itf-api-loss",
+            "score": "4-6 7-6(8) 2-10",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542111
+          },
           "drawResultDoubles": null
         },
         {
@@ -2856,14 +3457,18 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "6-7(4) 2-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542057
           },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "5-7 4-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502676
           }
         },
         {
@@ -2881,6 +3486,14 @@
           "sex": "girl",
           "juniorRank": 109,
           "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q2",
+            "confidence": "itf-api-win",
+            "score": "6-2 6-1",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542112
+          },
           "drawResultDoubles": null
         },
         {
@@ -2898,6 +3511,14 @@
           "sex": "girl",
           "juniorRank": 110,
           "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q3",
+            "confidence": "itf-api-win",
+            "score": "6-4 5-7 10-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542137
+          },
           "drawResultDoubles": null
         },
         {
@@ -2915,7 +3536,22 @@
           "sex": "girl",
           "juniorRank": 117,
           "priority": 1,
-          "drawResultDoubles": null
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "Q1",
+            "confidence": "itf-api-loss",
+            "score": "2-6 2-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542133
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502697
+          }
         },
         {
           "currentRank": 129,
@@ -2935,14 +3571,18 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "7-5 2-6 2-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542050
           },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "3-6 5-7",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502683
           }
         },
         {
@@ -2960,6 +3600,14 @@
           "sex": "girl",
           "juniorRank": 129,
           "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "Q1",
+            "confidence": "itf-api-loss",
+            "score": "1-6 2-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542123
+          },
           "drawResultDoubles": null
         },
         {
@@ -2977,6 +3625,14 @@
           "sex": "girl",
           "juniorRank": 136,
           "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "Q1",
+            "confidence": "itf-api-loss",
+            "score": "1-6 3-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542120
+          },
           "drawResultDoubles": null
         },
         {
@@ -2996,11 +3652,20 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "confidence": "core-win",
-            "sourceUrl": "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542103
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "3-6 4-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502679
+          }
         },
         {
           "currentRank": 116,
@@ -3017,6 +3682,14 @@
           "sex": "girl",
           "juniorRank": 152,
           "priority": 1,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q2",
+            "confidence": "itf-api-win",
+            "score": "6-2 6-0",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542125
+          },
           "drawResultDoubles": null
         },
         {
@@ -3034,6 +3707,14 @@
           "sex": "girl",
           "juniorRank": 161,
           "priority": 1,
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "Q1",
+            "confidence": "itf-api-loss",
+            "score": "2-6 3-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542122
+          },
           "drawResultDoubles": null
         },
         {
@@ -3054,22 +3735,818 @@
           "drawResult": {
             "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "6-3 5-7 2-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 1183542070
           },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "3-6 5-7",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+            "matchId": 2124502683
           }
         }
       ],
-      "liveTennisUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026",
-      "coreTennisUrls": [
-        "https://www.coretennis.net/majic/pageServer/0r0100000c/en/tid/130146/Tournament-Rounds.html"
+      "itfApiEvents": [
+        {
+          "playerTypeCode": "B",
+          "matchTypeCode": "S",
+          "eventClassificationCode": "M",
+          "drawsheetStructureCode": "KO"
+        },
+        {
+          "playerTypeCode": "B",
+          "matchTypeCode": "S",
+          "eventClassificationCode": "Q",
+          "drawsheetStructureCode": "KO"
+        },
+        {
+          "playerTypeCode": "B",
+          "matchTypeCode": "D",
+          "eventClassificationCode": "M",
+          "drawsheetStructureCode": "KO"
+        },
+        {
+          "playerTypeCode": "G",
+          "matchTypeCode": "S",
+          "eventClassificationCode": "M",
+          "drawsheetStructureCode": "KO"
+        },
+        {
+          "playerTypeCode": "G",
+          "matchTypeCode": "S",
+          "eventClassificationCode": "Q",
+          "drawsheetStructureCode": "KO"
+        },
+        {
+          "playerTypeCode": "G",
+          "matchTypeCode": "D",
+          "eventClassificationCode": "M",
+          "drawsheetStructureCode": "KO"
+        }
       ],
-      "drawWarning": "Playwright unavailable; Cannot find package 'playwright' imported from C:\\Users\\genar\\Documents\\Codex\\2026-05-17\\cr-bom-dia-codex-eu-quero\\pipeline\\scrape-weekly-results.mjs"
+      "liveTennisUrl": "https://www.live-tennis.cn/en/draw/J-J500-ITA-2026-001/2026",
+      "drawDiagnostic": {
+        "textLength": 0,
+        "lineCount": 0,
+        "firstLines": [],
+        "interestingLines": [],
+        "playerHits": [
+          {
+            "id": "luis-guto-miguel",
+            "name": "Luis Guto Miguel",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "jamie-mackenzie",
+            "name": "Jamie Mackenzie",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "thilo-behrmann",
+            "name": "Thilo Behrmann",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "michael-antonius",
+            "name": "Michael Antonius",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "andrew-johnson",
+            "name": "Andrew Johnson",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "nikita-belozertsev",
+            "name": "Nikita Belozertsev",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "dante-pagani",
+            "name": "Dante Pagani",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "kuan-shou-chen",
+            "name": "Kuan-Shou Chen",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "yannik-alvarez",
+            "name": "Yannik Alvarez",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "nicolas-baena",
+            "name": "Nicolas Baena",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "flynn-thomas",
+            "name": "Flynn Thomas",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "tito-chavez",
+            "name": "Tito Chavez",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "raffaele-ciurnelli",
+            "name": "Raffaele Ciurnelli",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "daniel-jovanovski",
+            "name": "Daniel Jovanovski",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "damir-zhalgasbay",
+            "name": "Damir Zhalgasbay",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "ryan-cozad",
+            "name": "Ryan Cozad",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "matteo-gribaldo",
+            "name": "Matteo Gribaldo",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "gavin-goode",
+            "name": "Gavin Goode",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "kai-thompson",
+            "name": "Kai Thompson",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "emilio-camacho",
+            "name": "Emilio Camacho",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "matei-todoran",
+            "name": "Matei Todoran",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "savva-rybkin",
+            "name": "Savva Rybkin",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "kanta-watanabe",
+            "name": "Kanta Watanabe",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "simone-massellani",
+            "name": "Simone Massellani",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "leon-sloboda",
+            "name": "Leon Sloboda",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "arnav-paparkar",
+            "name": "Arnav Paparkar",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "jack-secord",
+            "name": "Jack Secord",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "tanishk-konduri",
+            "name": "Tanishk Konduri",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "kirill-filaretov",
+            "name": "Kirill Filaretov",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "pedro-henrique-chabalgoity",
+            "name": "Pedro Henrique Chabalgoity",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "juan-miguel-bolivar-idarraga",
+            "name": "Juan Miguel Bolivar Idarraga",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "hyu-kawanishi",
+            "name": "Hyu Kawanishi",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "connor-doig",
+            "name": "Connor Doig",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "mark-ceban",
+            "name": "Mark Ceban",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "rihards-neimanis",
+            "name": "Rihards Neimanis",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "benjamin-azar",
+            "name": "Benjamin Azar",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "john-bothma",
+            "name": "John Bothma",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "dan-brand",
+            "name": "Dan Brand",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "xavier-massotte",
+            "name": "Xavier Massotte",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "jan-sadzik",
+            "name": "Jan Sadzik",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "mustafa-ege-sik",
+            "name": "Mustafa Ege Sik",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "marat-salbiev",
+            "name": "Marat Salbiev",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "oluwaseun-peter-ogunsakin",
+            "name": "OLUWASEUN PETER OGUNSAKIN",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "eudald-gonzalez",
+            "name": "Eudald Gonzalez",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "rhys-lawlor",
+            "name": "Rhys Lawlor",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "lucas-yunez",
+            "name": "Lucas Yunez",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "matei-victor-chelemen",
+            "name": "Matei Victor Chelemen",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "daniel-tazabekov",
+            "name": "Daniel Tazabekov",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "leonardo-storck-franca",
+            "name": "Leonardo Storck Franca",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "agassi-rusher",
+            "name": "Agassi Rusher",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "felix-roussel",
+            "name": "Felix Roussel",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "min-hyuk-cho",
+            "name": "Min Hyuk Cho",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "cooper-kose",
+            "name": "Cooper Kose",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "luis-andres-flores-avila",
+            "name": "Luis Andres Flores Avila",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "alberto-pulido-moreno",
+            "name": "Alberto Pulido Moreno",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "marko-bekeni",
+            "name": "Marko Bekeni",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "koki-nara",
+            "name": "Koki Nara",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "filippo-alfano",
+            "name": "Filippo Alfano",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "yen-chun-wang",
+            "name": "Yen-Chun Wang",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "felipe-mamede",
+            "name": "Felipe Mamede",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "jordan-lee",
+            "name": "Jordan Lee",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "jerrid-gaines-jr",
+            "name": "Jerrid Gaines Jr",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "matisse-martin",
+            "name": "Matisse MARTIN",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "richard-lacis",
+            "name": "Richard Lacis",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "jana-kovackova",
+            "name": "Jana Kovackova",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "victoria-luiza-barros",
+            "name": "Victoria Luiza Barros",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "xinran-sun",
+            "name": "Xinran Sun",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "nauhany-vitoria-leme-da-silva",
+            "name": "Nauhany Vitoria Leme Da Silva",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "sol-ailin-larraya-guidi",
+            "name": "Sol Ailin Larraya Guidi",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "anastasija-cvetkovic",
+            "name": "Anastasija Cvetkovic",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "mariia-makarova",
+            "name": "Mariia Makarova",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "charo-esquiva-banuls",
+            "name": "Charo Esquiva Banuls",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "ida-wobker",
+            "name": "Ida Wobker",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "yushan-shao",
+            "name": "Yushan Shao",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "janae-preston",
+            "name": "Janae Preston",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "giulia-safina-popa",
+            "name": "Giulia Safina Popa",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "thea-frodin",
+            "name": "Thea Frodin",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "paola-pinera-celorio",
+            "name": "Paola Pinera Celorio",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "felitsata-dorofeeva-rybas",
+            "name": "Felitsata Dorofeeva-Rybas",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "alexandra-malova",
+            "name": "Alexandra Malova",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "maaya-rajeshwaran-revathi",
+            "name": "Maaya Rajeshwaran Revathi",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "jordyn-hazelitt",
+            "name": "Jordyn Hazelitt",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "anna-pushkareva",
+            "name": "Anna Pushkareva",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "yihan-qu",
+            "name": "Yihan Qu",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "welles-newman",
+            "name": "Welles Newman",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "renee-alame",
+            "name": "Renee Alame",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "maia-ilinca-burcescu",
+            "name": "Maia Ilinca Burcescu",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "nadia-lagaev",
+            "name": "Nadia Lagaev",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "adelina-lacinova",
+            "name": "Adelina Lacinova",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "luna-maria-cinalli",
+            "name": "Luna Maria Cinalli",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "yu-chen-lin",
+            "name": "Yu-Chen Lin",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "alyssa-james",
+            "name": "Alyssa James",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "chukwumelije-clarke",
+            "name": "Chukwumelije Clarke",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "tereza-hermanova",
+            "name": "Tereza Hermanova",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "lana-virc",
+            "name": "Lana Virc",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "lani-chang",
+            "name": "Lani Chang",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "yu-jun-lin",
+            "name": "Yu Jun Lin",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "hollie-smart",
+            "name": "Hollie Smart",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "sofia-meabe",
+            "name": "Sofia Meabe",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "olivia-traynor",
+            "name": "Olivia Traynor",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "pietra-rivoli",
+            "name": "Pietra Rivoli",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "zhang-qian-wei",
+            "name": "Zhang-Qian Wei",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "nancy-lee",
+            "name": "Nancy Lee",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "katerina-zajickova",
+            "name": "Katerina Zajickova",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "ilary-pistola",
+            "name": "Ilary Pistola",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "sarah-ye",
+            "name": "Sarah Ye",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "polina-berezina",
+            "name": "Polina Berezina",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "maria-valentina-pop",
+            "name": "Maria Valentina Pop",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "marija-lauva",
+            "name": "Marija Lauva",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "carrie-anne-hoo",
+            "name": "Carrie-Anne Hoo",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "anita-tu",
+            "name": "Anita Tu",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "marianne-angel",
+            "name": "Marianne Angel",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "yeri-hong",
+            "name": "Yeri Hong",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "sakino-miyazawa",
+            "name": "Sakino Miyazawa",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "jizelle-sibai",
+            "name": "Jizelle Sibai",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "avery-alexander",
+            "name": "Avery Alexander",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "isabelle-thi-deluccia-deluccia",
+            "name": "Isabelle Thi DeLuccia DeLuccia",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "ophelia-korpanec-davies",
+            "name": "Ophelia Korpanec Davies",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "londyn-mccord",
+            "name": "Londyn McCord",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "nathalia-pontes-tourinho",
+            "name": "Nathalia Pontes Tourinho",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "ru-xi-wu",
+            "name": "Ru Xi Wu",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "michelle-khomich",
+            "name": "Michelle Khomich",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "kennedy-drenser-hagmann",
+            "name": "Kennedy Drenser-Hagmann",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "lujza-beviz",
+            "name": "Lujza Beviz",
+            "hits": 0,
+            "snippets": []
+          }
+        ],
+        "networkUrls": [
+          "https://www.itftennis.com/en/tournament/j500-milan/ita/2026/j-j500-ita-2026-001/draws-and-results",
+          "https://www.itftennis.com/_Incapsula_Resource?SWUDNSAI=31&xinfo=58-34216758-0%202NNN%20RT%281779333217229%2052%29%20q%280%20-1%20-1%20-1%29%20r%280%20-1%29%20B12%2811%2c14315225%2c0%29%20U18&incident_id=684000580253419080-196243073048252090&edet=12&cinfo=0b000000&rpinfo=0&cts=LVQXSV44lpBZ%2bBxQwaAmVkiqUbgwZrAl2bptnPo48zbHoPi1V%2f7DE6WB9LiKACFX&cip=148.227.86.194&mth=GET",
+          "https://js.hcaptcha.com/1/api.js",
+          "https://api.hcaptcha.com/checksiteconfig?v=6528675343bbcfa331f287bf983949f75bf1e7bb&host=www.itftennis.com&sitekey=dd6e16a7-972e-47d2-93d0-96642fb6d8de&sc=1&swa=1&spst=1"
+        ]
+      }
     },
     {
       "tournamentName": "J200 Targu Jiu",
@@ -3101,15 +4578,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "SF",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 1183541854
           },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "4-6 6-7(5)",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 2124502609
           }
         },
         {
@@ -3128,16 +4609,20 @@
           "juniorRank": 62,
           "priority": 1,
           "drawResult": {
-            "status": "Ativo",
-            "currentRound": "R16",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "status": "Eliminado",
+            "currentRound": "QF",
+            "confidence": "itf-api-loss",
+            "score": "2-6 3-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 1183541849
           },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "1-6 1-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 2124502611
           }
         },
         {
@@ -3157,15 +4642,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "SF",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 1183541854
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "6-3 6-7(8) 4-10",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 2124502620
           }
         },
         {
@@ -3185,15 +4674,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-win",
+            "score": "6-4 6-3",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 1183541829
           },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "4-6 6-7(5)",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 2124502609
           }
         },
         {
@@ -3213,15 +4706,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Eliminado",
-            "currentRound": "R32",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "R64",
+            "confidence": "itf-api-loss",
+            "score": "4-6 1-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 1183541828
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "6-4 4-6 6-10",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 2124502617
           }
         },
         {
@@ -3241,15 +4738,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Eliminado",
-            "currentRound": "R32",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "R64",
+            "confidence": "itf-api-loss",
+            "score": "6-1 2-6 1-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 1183541833
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "7-6(3) 1-6 6-10",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 2124502619
           }
         },
         {
@@ -3269,15 +4770,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Eliminado",
-            "currentRound": "R32",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "R64",
+            "confidence": "itf-api-loss",
+            "score": "2-6 1-3",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 1183541837
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "F",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 2124502623
           }
         },
         {
@@ -3296,16 +4801,20 @@
           "juniorRank": 121,
           "priority": 1,
           "drawResult": {
-            "status": "Ativo",
-            "currentRound": "R16",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "status": "Eliminado",
+            "currentRound": "QF",
+            "confidence": "itf-api-loss",
+            "score": "2-6 0-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 1183541852
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "7-6(3) 1-6 6-10",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 2124502619
           }
         },
         {
@@ -3324,16 +4833,20 @@
           "juniorRank": 126,
           "priority": 1,
           "drawResult": {
-            "status": "Ativo",
-            "currentRound": "R16",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "status": "Eliminado",
+            "currentRound": "QF",
+            "confidence": "itf-api-loss",
+            "score": "0-6 2-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 1183541850
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "6-3 6-7(8) 4-10",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 2124502620
           }
         },
         {
@@ -3353,15 +4866,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Eliminado",
-            "currentRound": "R32",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "R64",
+            "confidence": "itf-api-loss",
+            "score": "3-6 1-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 1183541835
           },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "2-6 2-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 2124502614
           }
         },
         {
@@ -3381,15 +4898,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Eliminado",
-            "currentRound": "R32",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "R64",
+            "confidence": "itf-api-loss",
+            "score": "6-2 4-6 2-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 1183541834
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "SF",
+            "confidence": "itf-api-win",
+            "score": "4-6 6-4 10-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 2124502617
           }
         },
         {
@@ -3409,15 +4930,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "SF",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 1183541853
           },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "3-6 4-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 2124502613
           }
         },
         {
@@ -3436,16 +4961,20 @@
           "juniorRank": 37,
           "priority": 1,
           "drawResult": {
-            "status": "Ativo",
-            "currentRound": "R16",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "status": "Eliminado",
+            "currentRound": "QF",
+            "confidence": "itf-api-loss",
+            "score": "3-6 2-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 1183541908
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 2124502632
           }
         },
         {
@@ -3465,15 +4994,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Eliminado",
-            "currentRound": "R32",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "R64",
+            "confidence": "itf-api-loss",
+            "score": "2-6 5-7",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 1183541899
           },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "3-6 2-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 2124502631
           }
         },
         {
@@ -3493,15 +5026,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Eliminado",
-            "currentRound": "R32",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "R64",
+            "confidence": "itf-api-loss",
+            "score": "2-6 2-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 1183541888
           },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "3-6 2-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 2124502631
           }
         },
         {
@@ -3521,15 +5058,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Eliminado",
-            "currentRound": "R32",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "R64",
+            "confidence": "itf-api-loss",
+            "score": "4-6 4-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 1183541887
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "SF",
+            "confidence": "itf-api-win",
+            "score": "6-2 6-3",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 2124502633
           }
         },
         {
@@ -3549,15 +5090,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-win",
+            "score": "6-1 6-0",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 1183541891
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "confidence": "itf-api-loss",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 2124502632
           }
         },
         {
@@ -3577,15 +5122,19 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "SF",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 1183541913
           },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "3-6 6-4 8-10",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 2124502629
           }
         },
         {
@@ -3604,16 +5153,20 @@
           "juniorRank": 126,
           "priority": 1,
           "drawResult": {
-            "status": "Ativo",
-            "currentRound": "R16",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "status": "Eliminado",
+            "currentRound": "QF",
+            "confidence": "itf-api-loss",
+            "score": "3-6 1-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 1183541911
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "SF",
+            "confidence": "itf-api-win",
+            "score": "6-2 6-3",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 2124502633
           }
         },
         {
@@ -3633,9 +5186,11 @@
           "priority": 1,
           "drawResult": {
             "status": "Eliminado",
-            "currentRound": "R32",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "R64",
+            "confidence": "itf-api-loss",
+            "score": "1-6 3-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 1183541892
           },
           "drawResultDoubles": null
         },
@@ -3656,20 +5211,203 @@
           "priority": 1,
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
-            "confidence": "live-win",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "SF",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 1183541913
           },
           "drawResultDoubles": {
             "status": "Eliminado",
-            "currentRound": "R16",
-            "confidence": "live-loss",
-            "sourceUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026"
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "3-6 6-4 8-10",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+            "matchId": 2124502629
           }
         }
       ],
+      "itfApiEvents": [
+        {
+          "playerTypeCode": "B",
+          "matchTypeCode": "S",
+          "eventClassificationCode": "M",
+          "drawsheetStructureCode": "KO"
+        },
+        {
+          "playerTypeCode": "B",
+          "matchTypeCode": "S",
+          "eventClassificationCode": "Q",
+          "drawsheetStructureCode": "KO"
+        },
+        {
+          "playerTypeCode": "B",
+          "matchTypeCode": "D",
+          "eventClassificationCode": "M",
+          "drawsheetStructureCode": "KO"
+        },
+        {
+          "playerTypeCode": "G",
+          "matchTypeCode": "S",
+          "eventClassificationCode": "M",
+          "drawsheetStructureCode": "KO"
+        },
+        {
+          "playerTypeCode": "G",
+          "matchTypeCode": "S",
+          "eventClassificationCode": "Q",
+          "drawsheetStructureCode": "KO"
+        },
+        {
+          "playerTypeCode": "G",
+          "matchTypeCode": "D",
+          "eventClassificationCode": "M",
+          "drawsheetStructureCode": "KO"
+        }
+      ],
       "liveTennisUrl": "https://www.live-tennis.cn/en/draw/J-J200-ROU-2026-001/2026",
-      "drawWarning": "Playwright unavailable; Cannot find package 'playwright' imported from C:\\Users\\genar\\Documents\\Codex\\2026-05-17\\cr-bom-dia-codex-eu-quero\\pipeline\\scrape-weekly-results.mjs"
+      "drawDiagnostic": {
+        "textLength": 0,
+        "lineCount": 0,
+        "firstLines": [],
+        "interestingLines": [],
+        "playerHits": [
+          {
+            "id": "safir-azam",
+            "name": "Safir Azam",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "aaron-gabet",
+            "name": "Aaron Gabet",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "oliver-majdandzic",
+            "name": "Oliver Majdandzic",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "navneet-raghuram",
+            "name": "Navneet Raghuram",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "ali-missoum",
+            "name": "Ali Missoum",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "ignacio-de-armas",
+            "name": "Ignacio De Armas",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "jan-chlodnicki",
+            "name": "Jan Chlodnicki",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "pedro-albuquerque-dietrich",
+            "name": "Pedro Albuquerque Dietrich",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "dominik-macej",
+            "name": "Dominik Macej",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "jia-hu",
+            "name": "Jia Hu",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "alan-aiukhanov",
+            "name": "Alan Aiukhanov",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "svit-suljic",
+            "name": "Svit Suljic",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "sofie-hettlerova",
+            "name": "Sofie Hettlerova",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "riyo-yoshida",
+            "name": "Riyo Yoshida",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "ireland-obrien",
+            "name": "Ireland O'Brien",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "jahnie-van-zyl",
+            "name": "Jahnie Van Zyl",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "maja-pawelska",
+            "name": "Maja Pawelska",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "oliwia-sybicka",
+            "name": "Oliwia Sybicka",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "masa-jankovic",
+            "name": "Masa Jankovic",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "nehir-dogan",
+            "name": "Nehir Dogan",
+            "hits": 0,
+            "snippets": []
+          },
+          {
+            "id": "elizaveta-anikina",
+            "name": "Elizaveta Anikina",
+            "hits": 0,
+            "snippets": []
+          }
+        ],
+        "networkUrls": [
+          "https://www.itftennis.com/en/tournament/j200-targu-jiu/rou/2026/j-j200-rou-2026-001/draws-and-results",
+          "https://www.itftennis.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3",
+          "https://www.itftennis.com/_Incapsula_Resource?SWKMTFSR=1&e=0.923165491931306",
+          "https://www.itftennis.com/_Incapsula_Resource?SWUDNSAI=31&xinfo=58-34216758-0%202NNN%20RT%281779333217229%206220%29%20q%280%20-1%20-1%20-1%29%20r%280%20-1%29%20B12%2811%2c14315225%2c0%29%20U18&incident_id=684000580254163853-196244451732754106&edet=12&cinfo=0b000000&rpinfo=0&cts=PXO9Tr4a%2b30x6gIZK0kmT2DeDQVs1hzHcxwuYcbyy3YkFUCf3LT1E08WBsiNwzaH&cip=148.227.86.194&mth=GET",
+          "https://js.hcaptcha.com/1/api.js",
+          "https://api.hcaptcha.com/checksiteconfig?v=6528675343bbcfa331f287bf983949f75bf1e7bb&host=www.itftennis.com&sitekey=dd6e16a7-972e-47d2-93d0-96642fb6d8de&sc=1&swa=1&spst=1"
+        ]
+      }
     },
     {
       "tournamentName": "J100 Punta Cana",
@@ -3769,6 +5507,7 @@
           }
         }
       ],
+      "itfApiWarning": "Could not fetch ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetEventFilters?tournamentKey=J-J100-BOL-2026-002: Unexpected token '<', \"<html styl\"... is not valid JSON",
       "liveTennisUrl": "https://www.live-tennis.cn/en/draw/J-J100-BOL-2026-002/2026"
     },
     {
