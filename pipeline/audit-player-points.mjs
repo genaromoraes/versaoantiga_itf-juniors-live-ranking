@@ -107,12 +107,14 @@ function topSixTotal(rows) {
 function statusForPlayer({ playerRows, missingDropDateRows, badRankingPointRows, officialPoints }) {
   const notes = [];
 
-  if (!playerRows.length && !officialPoints) notes.push("Adicionar o breakdown completo na planilha mestre.");
+  if (!playerRows.length && !officialPoints) {
+    notes.push("Sem pontos nas últimas 52 semanas; breakdown vazio é válido.");
+  }
   if (missingDropDateRows.length) notes.push("Preencher drop_date nas linhas sem data de queda.");
   if (badRankingPointRows.length) notes.push("Conferir ranking_points: deve ser points x weight.");
 
   return {
-    status: notes.length ? "Revisar planilha" : "OK",
+    status: missingDropDateRows.length || badRankingPointRows.length ? "Revisar planilha" : "OK",
     notes: notes.join(" ")
   };
 }
