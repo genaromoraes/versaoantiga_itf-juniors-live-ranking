@@ -25,6 +25,24 @@ npm run audit:points
 npm run validate:data
 ```
 
+## Vigiar jogadores fora da base
+
+Quando voce tiver a planilha dos draws da semana com a aba `partidas`, este comando gera uma lista dos atletas que estao jogando e ainda nao existem na base local:
+
+```bash
+python pipeline/detect-weekly-draw-outsiders.py caminho/para/itf_juniors_draws_semana.xlsx
+```
+
+Saidas geradas:
+
+- `data/weekly-draw-outsiders.xlsx`
+- `data/weekly-draw-outsiders.csv`
+
+As abas do `.xlsx` sao:
+
+- `jogadores_dos_draws`
+- `fora_da_base`
+
 ## Importar planilha mestre
 
 ```bash
