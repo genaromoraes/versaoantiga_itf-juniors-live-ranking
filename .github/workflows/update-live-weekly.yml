@@ -3,8 +3,8 @@ name: Update live weekly data
 on:
   workflow_dispatch:
   schedule:
-    # Atualizacao leve a cada 30 minutos, focada nos torneios da semana.
-    - cron: "*/30 * * * *"
+    # Atualizacao leve a cada 30 minutos, evitando minutos congestionados do agendador do GitHub.
+    - cron: "7,37 * * * *"
 
 permissions:
   contents: write

@@ -251,6 +251,8 @@ const translations = {
   }
 };
 
+translations.pt.updated = "\u00DAltima atualiza\u00E7\u00E3o";
+
 function t(key) {
   return (translations[state.language] || translations.pt)[key] || translations.pt[key] || key;
 }
