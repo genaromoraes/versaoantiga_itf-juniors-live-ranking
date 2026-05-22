@@ -8,9 +8,9 @@ const outputFile = path.join(rootDir, "data", "weekly-results.csv");
 const previewFile = path.join(rootDir, "data", "weekly-tournaments-preview.json");
 const outsidersOutputFile = path.join(rootDir, "data", "weekly-outsiders.csv");
 const outsidersPreviewFile = path.join(rootDir, "data", "weekly-outsiders-preview.json");
-const itfEntriesBaseUrl = "https://itf-entries.netlify.app";
 const itfBaseUrl = "https://www.itftennis.com";
 const itfCalendarPage = "https://www.itftennis.com/en/tournament-calendar/world-tennis-tour-juniors-calendar/";
+const itfCalendarApiBase = "https://www.itftennis.com/tennis/api/TournamentApi/GetCalendar";
 const itfEventFiltersApiBase = "https://www.itftennis.com/tennis/api/TournamentApi/GetEventFilters";
 const itfDrawsheetApi = "https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet";
 const coreTennisBaseUrl = "https://www.coretennis.net";
@@ -112,6 +112,18 @@ function calendarStartDate() {
   return `${start.getUTCFullYear()}-${String(start.getUTCMonth() + 1).padStart(2, "0")}`;
 }
 
+function calendarDate(value) {
+  return value.toISOString().slice(0, 10);
+}
+
+function currentWeekDateRange() {
+  const { start, end } = currentWeekBounds();
+  return {
+    startDate: calendarDate(start),
+    endDate: calendarDate(end)
+  };
+}
+
 function parseDateRange(text = "") {
   const match = text.match(/(\d{1,2})\s([A-Za-z]{3})\s(?:-|to)\s(\d{1,2})\s([A-Za-z]{3})\s(\d{4})/i);
   if (!match) return { startDate: "", endDate: "" };
@@ -132,6 +144,43 @@ function overlapsCurrentWeek(startDate, endDate) {
 
 function gradeFromTournamentName(value = "") {
   return value.match(/\b(JGS|JM|J500|J300|J200|J100|J60|J30)\b/i)?.[1]?.toUpperCase() || "";
+}
+
+function findFirstArray(value) {
+  if (Array.isArray(value)) return value;
+  if (!value || typeof value !== "object") return null;
+
+  for (const nested of Object.values(value)) {
+    if (Array.isArray(nested)) return nested;
+  }
+
+  for (const nested of Object.values(value)) {
+    const found = findFirstArray(nested);
+    if (found) return found;
+  }
+
+  return null;
+}
+
+function flattenObject(value, prefix = "") {
+  if (!value || typeof value !== "object" || Array.isArray(value)) {
+    return { [prefix || "value"]: value };
+  }
+
+  const flattened = {};
+
+  for (const [key, nestedValue] of Object.entries(value)) {
+    const nestedKey = prefix ? `${prefix}_${key}` : key;
+    if (nestedValue && typeof nestedValue === "object" && !Array.isArray(nestedValue)) {
+      Object.assign(flattened, flattenObject(nestedValue, nestedKey));
+    } else if (Array.isArray(nestedValue)) {
+      flattened[nestedKey] = JSON.stringify(nestedValue);
+    } else {
+      flattened[nestedKey] = nestedValue;
+    }
+  }
+
+  return flattened;
 }
 
 function cleanLine(line) {
@@ -182,23 +231,15 @@ function roundForOutcome(round = "", outcome = "", matchType = "SINGLES") {
 
 function confidenceNote(value = "") {
   return {
-    "live-bye": "Live Tennis: bye encontrado; atleta avancou de rodada sem pontuar",
-    "live-win": "Live Tennis: vitoria encontrada",
-    "live-loss": "Live Tennis: derrota encontrada",
-    "live-pending-match": "Live Tennis: partida pendente",
     "nearby-result": "resultado encontrado perto do nome",
     "nearby-win": "vitoria encontrada perto do nome",
     "nearby-round": "rodada encontrada perto do nome",
     bye: "bye encontrado; atleta avancou de rodada sem pontuar",
-    "core-bye": "CoreTennis: bye encontrado; atleta avancou de rodada sem pontuar",
-    "core-win": "CoreTennis: vitoria encontrada",
-    "core-loss": "CoreTennis: derrota encontrada",
-    "core-pending-match": "CoreTennis: partida pendente",
     "itf-api-bye": "ITF API: bye encontrado; atleta avancou de rodada sem pontuar",
     "itf-api-win": "ITF API: vitoria encontrada",
     "itf-api-loss": "ITF API: derrota encontrada",
     "itf-api-pending-match": "ITF API: partida pendente",
-    "acceptance-qualifying": "acceptance list: atleta no qualifying, assumido como Q1 ate leitura mais precisa do draw",
+    "drawsheet-qualifying": "ITF drawsheet: atleta encontrado no qualifying",
     pending: "fase pendente"
   }[value] || value || "fase pendente";
 }
@@ -208,7 +249,7 @@ function fallbackDrawResult(player) {
     return {
       status: "Ativo",
       currentRound: "Q1",
-      confidence: "acceptance-qualifying"
+      confidence: "drawsheet-qualifying"
     };
   }
 
@@ -363,6 +404,70 @@ async function pageApiPost(page, url, payload, retries = 4) {
   }
 
   throw new Error(`Could not post ITF API ${url}: ${lastError?.message || "unknown error"}`);
+}
+
+function itfCalendarApiUrl(skip = 0, take = 100) {
+  const { startDate, endDate } = currentWeekDateRange();
+  return `${itfCalendarApiBase}?circuitCode=JT&searchString=&skip=${skip}&take=${take}&nationCodes=&zoneCodes=&dateFrom=${startDate}&dateTo=${endDate}&indoorOutdoor=&categories=&isOrderAscending=true&orderField=startDate&surfaceCodes=&singlesDrawFormat=`;
+}
+
+function tournamentUrlFromCalendarLink(link = "") {
+  if (!link) return "";
+  return link.startsWith("http") ? link : `${itfBaseUrl}${link}`;
+}
+
+function tournamentFromCalendarRow(row = {}) {
+  const flattened = flattenObject(row);
+  const tournamentUrl =
+    tournamentUrlFromCalendarLink(row.tournamentLink || row.link || flattened.tournamentLink || flattened.link);
+  const drawsUrl = tournamentUrl
+    ? `${tournamentUrl.replace(/\/$/, "")}/draws-and-results/`
+    : "";
+
+  return {
+    tournamentName: flattened.tournamentName || flattened.name || "",
+    grade: flattened.category || gradeFromTournamentName(flattened.tournamentName || flattened.name || ""),
+    startDate: String(flattened.startDate || "").slice(0, 10),
+    endDate: String(flattened.endDate || "").slice(0, 10),
+    status: flattened.status || "",
+    country: flattened.hostNation || flattened.country || "",
+    surface: flattened.surfaceDesc || flattened.surface || "",
+    key: flattened.tournamentKey || "",
+    tournamentId: flattened.tournamentId || "",
+    tournamentUrl,
+    drawsUrl,
+    acceptedPlayers: [],
+    outsiderCandidates: [],
+    warning: "",
+    drawWarning: ""
+  };
+}
+
+async function currentWeekTournamentsFromItfCalendar(page) {
+  const tournaments = [];
+  const seen = new Set();
+  const take = 100;
+  let skip = 0;
+
+  while (true) {
+    const payload = await pageApiGet(page, itfCalendarApiUrl(skip, take));
+    const rows = findFirstArray(payload) || [];
+    if (!rows.length) break;
+
+    for (const row of rows) {
+      const tournament = tournamentFromCalendarRow(row);
+      if (!tournament.key || seen.has(tournament.key)) continue;
+      if (tournament.status === "CN" || tournament.status === "PP") continue;
+      if (!overlapsCurrentWeek(tournament.startDate, tournament.endDate)) continue;
+      seen.add(tournament.key);
+      tournaments.push(tournament);
+    }
+
+    if (rows.length < take) break;
+    skip += take;
+  }
+
+  return tournaments;
 }
 
 async function eventFiltersForTournament(page, tournament) {
@@ -527,6 +632,41 @@ function ensureTournamentPlayer(tournament, player) {
   return existing;
 }
 
+function ensureTournamentOutsider(tournament, event, drawPlayer = {}) {
+  const playerId = String(drawPlayer.playerId || "").trim();
+  const playerName = `${drawPlayer.givenName || ""} ${drawPlayer.familyName || ""}`.replace(/\s+/g, " ").trim();
+  const gender = eventGender(event);
+  const key = `${gender}|${playerId || normalizeName(playerName)}`;
+
+  tournament.outsiderCandidates ||= [];
+  const existing = tournament.outsiderCandidates.find(
+    (candidate) =>
+      `${candidate.gender || ""}|${candidate.playerItfId || normalizeName(candidate.playerName || "")}` === key
+  );
+
+  if (existing) {
+    if (!existing.country) existing.country = eventCountryFromPlayer(drawPlayer);
+    if (!existing.entryGroup) existing.entryGroup = eventEntryGroup(event);
+    return existing;
+  }
+
+  const outsider = {
+    playerItfId: playerId,
+    playerName,
+    gender,
+    country: eventCountryFromPlayer(drawPlayer),
+    juniorRank: "",
+    entryGroup: eventEntryGroup(event),
+    tournamentName: tournament.tournamentName,
+    sourceUrl: tournament.drawsUrl || tournament.tournamentUrl || "",
+    drawsUrl: tournament.drawsUrl || tournament.tournamentUrl || "",
+    notes: "Encontrado no drawsheet da ITF."
+  };
+
+  tournament.outsiderCandidates.push(outsider);
+  return outsider;
+}
+
 function applyDrawsheetToTournament(tournament, event, drawsheet) {
   const matchType = eventMatchType(event);
   const groups = drawsheet.koGroups || [];
@@ -545,11 +685,14 @@ function applyDrawsheetToTournament(tournament, event, drawsheet) {
         ];
 
         for (const candidate of candidates) {
-          for (const playerId of playerIdsForTeam(candidate.team)) {
+          for (const drawPlayer of teamPlayers(candidate.team)) {
+            const playerId = String(drawPlayer.playerId || "");
             const sourcePlayer = playersByItfId.get(playerId);
-            if (!sourcePlayer) continue;
+            const player = sourcePlayer
+              ? ensureTournamentPlayer(tournament, sourcePlayer)
+              : ensureTournamentOutsider(tournament, event, drawPlayer);
 
-            const player = ensureTournamentPlayer(tournament, sourcePlayer);
+            if (sourcePlayer && !player.entryGroup) player.entryGroup = eventEntryGroup(event);
             const result = {
               ...resultForTeam({
                 team: candidate.team,
@@ -561,6 +704,8 @@ function applyDrawsheetToTournament(tournament, event, drawsheet) {
               sourceUrl: tournament.drawsUrl,
               matchId: match.matchId
             };
+
+            if (!sourcePlayer) continue;
 
             if (matchType === "Doubles") {
               player.drawResultDoubles = betterDrawResult(player.drawResultDoubles, result, matchType);
@@ -575,9 +720,6 @@ function applyDrawsheetToTournament(tournament, event, drawsheet) {
 }
 
 async function enrichTournamentWithItfApiDraws(tournaments) {
-  const tournamentsWithPlayers = tournaments.filter((tournament) => tournament.acceptedPlayers.length);
-  if (!tournamentsWithPlayers.length) return tournaments;
-
   let chromium;
   try {
     ({ chromium } = await import("playwright"));
@@ -593,7 +735,7 @@ async function enrichTournamentWithItfApiDraws(tournaments) {
     await page.goto(`${itfCalendarPage}?categories=All&startdate=${calendarStartDate()}`, { waitUntil: "domcontentloaded", timeout: 90000 });
     await page.waitForTimeout(5000);
 
-    for (const tournament of tournamentsWithPlayers) {
+    for (const tournament of tournaments) {
       try {
         if (tournament.drawsUrl) {
           await page.goto(tournament.drawsUrl, { waitUntil: "domcontentloaded", timeout: 90000 });
@@ -1117,6 +1259,18 @@ function outsiderRankValue(value) {
   return Number.isFinite(number) ? number : Infinity;
 }
 
+function eventEntryGroup(event) {
+  return eventIsQualifying(event) ? "Q" : "MD";
+}
+
+function eventGender(event) {
+  return String(event.playerTypeCode || "").toUpperCase() === "G" ? "Girls" : "Boys";
+}
+
+function eventCountryFromPlayer(player = {}) {
+  return player.nationality || player.countryCode || "";
+}
+
 function aggregateOutsiders(tournaments = []) {
   const outsiders = new Map();
 
@@ -1268,6 +1422,45 @@ async function clickIfPresent(page, label) {
   }
 }
 
+async function dismissItfCookieBanner(page) {
+  const candidates = [
+    { role: "button", name: "Accept" },
+    { role: "button", name: "I Accept" },
+    { role: "button", name: "ACEITAR" },
+    { role: "button", name: "Accept All" }
+  ];
+
+  for (const candidate of candidates) {
+    try {
+      const locator = page.getByRole(candidate.role, { name: candidate.name }).first();
+      if ((await locator.count()) === 0) continue;
+      await locator.click({ timeout: 3000 });
+      await page.waitForTimeout(1500);
+      return true;
+    } catch {
+      // Try next candidate.
+    }
+  }
+
+  try {
+    const locator = page.locator("button", { hasText: "Accept" }).first();
+    if ((await locator.count()) > 0) {
+      await locator.click({ timeout: 3000 });
+      await page.waitForTimeout(1500);
+      return true;
+    }
+  } catch {
+    // Ignore and fall through.
+  }
+
+  return false;
+}
+
+async function captureBodyText(page) {
+  await page.waitForTimeout(1200);
+  return page.locator("body").innerText({ timeout: 45000 });
+}
+
 async function readDrawPageText(page, tournament, networkUrls = []) {
   const collectUrl = (response) => {
     const url = response.url();
@@ -1277,15 +1470,19 @@ async function readDrawPageText(page, tournament, networkUrls = []) {
   page.on("response", collectUrl);
   await page.goto(tournament.drawsUrl, { waitUntil: "domcontentloaded", timeout: 90000 });
   await page.waitForTimeout(6000);
+  await dismissItfCookieBanner(page);
 
-  const texts = [await page.locator("body").innerText({ timeout: 45000 })];
+  const texts = [await captureBodyText(page)];
   for (const gender of ["BOYS", "GIRLS"]) {
     await clickIfPresent(page, gender);
+    await dismissItfCookieBanner(page);
     for (const matchType of ["SINGLES", "DOUBLES"]) {
       await clickIfPresent(page, matchType);
+      await dismissItfCookieBanner(page);
       for (const drawType of ["MAIN DRAW", "QUALIFYING DRAW"]) {
         if (await clickIfPresent(page, drawType)) {
-          texts.push(await page.locator("body").innerText({ timeout: 45000 }));
+          await dismissItfCookieBanner(page);
+          texts.push(await captureBodyText(page));
         }
       }
     }
@@ -1358,40 +1555,38 @@ const storedTournamentsByKey = new Map(
 );
 
 try {
-  const currentWeekTournaments = await currentWeekTournamentsFromItfEntries();
+  let chromium;
+  try {
+    ({ chromium } = await import("playwright"));
+  } catch (error) {
+    throw new Error(`Playwright unavailable for ITF calendar discovery: ${error.message}`);
+  }
+
+  const browser = await chromium.launch({ headless: true });
+  const page = await browser.newPage();
+  await page.goto(`${itfCalendarPage}?categories=All&startdate=${calendarStartDate()}`, { waitUntil: "domcontentloaded", timeout: 90000 });
+  await page.waitForTimeout(4000);
+  const currentWeekTournaments = await currentWeekTournamentsFromItfCalendar(page);
+  await browser.close();
+
   const tournamentsToProcess = currentWeekTournaments.length
     ? currentWeekTournaments
     : storedWeeklyTournaments.map(prepareStoredTournamentFallback);
 
   if (!currentWeekTournaments.length && tournamentsToProcess.length) {
-    console.warn("itf-entries returned no tournaments for the current week; using stored weekly preview fallback.");
+    console.warn("ITF calendar API returned no tournaments for the current week; using stored weekly preview fallback.");
   }
 
   for (const tournament of tournamentsToProcess) {
-    try {
-      tournaments.push(await scrapeTournament(tournament));
-    } catch (error) {
-      const storedFallback = storedTournamentsByKey.get(tournament.key);
-      if (storedFallback?.acceptedPlayers?.length) {
-        tournaments.push({
-          ...storedFallback,
-          ...tournament,
-          acceptedPlayers: storedFallback.acceptedPlayers,
-          outsiderCandidates: storedFallback.outsiderCandidates,
-          warning: `${error.message} | fallback: stored weekly preview`
-        });
-        continue;
-      }
-
-      tournaments.push({
-        ...tournament,
-        acceptedPlayers: [],
-        warning: error.message
-      });
-    }
+    const storedFallback = storedTournamentsByKey.get(tournament.key);
+    tournaments.push({
+      ...tournament,
+      acceptedPlayers: storedFallback?.acceptedPlayers || tournament.acceptedPlayers || [],
+      outsiderCandidates: storedFallback?.outsiderCandidates || tournament.outsiderCandidates || []
+    });
   }
 } catch (error) {
-  console.warn(`Could not scrape itf-entries weekly tournaments: ${error.message}`);
+  console.warn(`Could not scrape ITF weekly tournaments: ${error.message}`);
   if (storedWeeklyTournaments.length) {
     console.warn("Using stored weekly preview fallback for current-week tournaments.");
     tournaments.push(...storedWeeklyTournaments.map(prepareStoredTournamentFallback));
@@ -1399,8 +1594,6 @@ try {
 }
 
 await enrichTournamentWithItfApiDraws(tournaments);
-await enrichTournamentWithLiveTennisDraws(tournaments);
-await enrichTournamentWithCoreTennisRounds(tournaments);
 await enrichTournamentWithDrawRounds(tournaments);
 
 const outsiders = aggregateOutsiders(tournaments);
@@ -1423,7 +1616,7 @@ for (const tournament of tournaments) {
       drawResult.currentRound,
       drawResult.pointsOverride ?? "",
       drawResult.sourceUrl || tournament.drawsUrl,
-      `Encontrado na acceptance list do itf-entries (${player.entryGroup || "sem grupo"}); leitura do draw: ${confidenceNote(drawResult.confidence)}.`
+      `Encontrado na ITF (${player.entryGroup || "sem grupo"}); leitura do draw: ${confidenceNote(drawResult.confidence)}.`
     ]);
 
     if (player.drawResultDoubles) {
@@ -1439,7 +1632,7 @@ for (const tournament of tournaments) {
         player.drawResultDoubles.currentRound,
         player.drawResultDoubles.pointsOverride ?? "",
         player.drawResultDoubles.sourceUrl || tournament.drawsUrl,
-        `Encontrado no draw de duplas; leitura do draw: ${confidenceNote(player.drawResultDoubles.confidence)}.`
+        `Encontrado na ITF; leitura do draw de duplas: ${confidenceNote(player.drawResultDoubles.confidence)}.`
       ]);
     }
   }
