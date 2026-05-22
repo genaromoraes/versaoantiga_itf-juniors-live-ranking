@@ -183,8 +183,21 @@ function hasRankingResults(player) {
   return (player?.singles?.length || 0) + (player?.doubles?.length || 0) > 0;
 }
 
+function hasWeeklyActivity(player) {
+  const liveEvent = player?.liveEvent || {};
+  const statuses = [liveEvent.singlesStatus, liveEvent.doublesStatus]
+    .map((value) => String(value || "").trim().toLowerCase())
+    .filter(Boolean);
+
+  return Boolean(liveEvent.event) || statuses.some((status) => status !== "nao joga" && status !== "não joga");
+}
+
 function hasPublishableRankingData(player) {
-  return hasRankingResults(player) || Number(player?.officialPoints || player?.sourceTotalCombinedPoints || 0) > 0;
+  return (
+    hasRankingResults(player) ||
+    Number(player?.officialPoints || player?.sourceTotalCombinedPoints || 0) > 0 ||
+    hasWeeklyActivity(player)
+  );
 }
 
 function topSixByPoints(results = []) {

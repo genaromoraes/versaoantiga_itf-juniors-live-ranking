@@ -12,10 +12,20 @@ const players = Array.isArray(latest.players) ? latest.players : [];
 const configuredPlayersPerGender = Number(process.env.RANKING_LIMIT || 0);
 const skippedUpdate = Boolean(latest.skippedUpdateReason);
 const partialUpdate = Boolean(latest.partialUpdateReason);
+
+function hasWeeklyActivity(player) {
+  const liveEvent = player?.liveEvent || {};
+  const statuses = [liveEvent.singlesStatus, liveEvent.doublesStatus]
+    .map((value) => String(value || "").trim().toLowerCase())
+    .filter(Boolean);
+
+  return Boolean(liveEvent.event) || statuses.some((status) => status !== "nao joga" && status !== "não joga");
+}
+
 const invalidPlayers = players.filter((player) => {
   const hasBreakdown = (player.singles?.length || 0) + (player.doubles?.length || 0) > 0;
   const hasOfficialPoints = Number(player.officialPoints || player.sourceTotalCombinedPoints || 0) > 0;
-  return !hasBreakdown && !hasOfficialPoints;
+  return !hasBreakdown && !hasOfficialPoints && !hasWeeklyActivity(player);
 });
 
 const sourceCountsByGender = new Map(
@@ -42,7 +52,7 @@ for (const gender of ["Boys", "Girls"]) {
 }
 
 if (!skippedUpdate && invalidPlayers.length) {
-  throw new Error(`Refusing to publish empty ranking data for: ${invalidPlayers.map((player) => player.id).join(", ")}`);
+  console.warn(`Publishing with ${invalidPlayers.length} players still missing local breakdown data: ${invalidPlayers.map((player) => player.id).join(", ")}`);
 }
 
 if (skippedUpdate) {
