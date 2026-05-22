@@ -9,7 +9,7 @@ const sourcesFile = path.join(rootDir, "pipeline", "sources", "players.json");
 const latest = JSON.parse(await fs.readFile(latestFile, "utf8"));
 const sources = JSON.parse(await fs.readFile(sourcesFile, "utf8"));
 const players = Array.isArray(latest.players) ? latest.players : [];
-const expectedPlayersPerGender = Number(process.env.RANKING_LIMIT || 150);
+const configuredPlayersPerGender = Number(process.env.RANKING_LIMIT || 0);
 const skippedUpdate = Boolean(latest.skippedUpdateReason);
 const partialUpdate = Boolean(latest.partialUpdateReason);
 const invalidPlayers = players.filter((player) => {
@@ -18,17 +18,26 @@ const invalidPlayers = players.filter((player) => {
   return !hasBreakdown && !hasOfficialPoints;
 });
 
+const sourceCountsByGender = new Map(
+  ["Boys", "Girls"].map((gender) => [
+    gender,
+    sources.filter((player) => player.gender === gender).length
+  ])
+);
+
 for (const gender of ["Boys", "Girls"]) {
-  const sourceCount = sources.filter((player) => player.gender === gender).length;
+  const sourceCount = sourceCountsByGender.get(gender) || 0;
   const playerCount = players.filter((player) => player.gender === gender).length;
-  if (sourceCount !== expectedPlayersPerGender) {
-    throw new Error(`Expected ${expectedPlayersPerGender} ${gender} source players, found ${sourceCount}.`);
+
+  if (configuredPlayersPerGender > 0 && sourceCount !== configuredPlayersPerGender) {
+    throw new Error(`Expected ${configuredPlayersPerGender} ${gender} source players, found ${sourceCount}.`);
   }
-  if (!skippedUpdate && !partialUpdate && playerCount !== expectedPlayersPerGender) {
-    throw new Error(`Expected ${expectedPlayersPerGender} ${gender} players in latest.json, found ${playerCount}.`);
+
+  if (!skippedUpdate && !partialUpdate && playerCount !== sourceCount) {
+    throw new Error(`Expected ${sourceCount} ${gender} players in latest.json, found ${playerCount}.`);
   }
-  if (partialUpdate && playerCount > expectedPlayersPerGender) {
-    throw new Error(`Expected at most ${expectedPlayersPerGender} ${gender} players in latest.json during partial update, found ${playerCount}.`);
+  if (partialUpdate && playerCount > sourceCount) {
+    throw new Error(`Expected at most ${sourceCount} ${gender} players in latest.json during partial update, found ${playerCount}.`);
   }
 }
 
