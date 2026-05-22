@@ -1,7 +1,7 @@
 {
-  "scrapedAt": "22/05/2026, 14:11",
-  "outsidersFound": 525,
-  "boysOutsiders": 525,
+  "scrapedAt": "22/05/2026, 16:06",
+  "outsidersFound": 526,
+  "boysOutsiders": 526,
   "girlsOutsiders": 0,
   "outsiders": [
     {
@@ -3879,6 +3879,18 @@
       "source_urls": "https://itf-entries.netlify.app/tournament/J-J30-GBR-2026-003",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-newport/gbr/2026/j-j30-gbr-2026-003/draws-and-results",
       "notes": "Encontrado na acceptance list do itf-entries (ALT)."
+    },
+    {
+      "player_itf_id": "800823515",
+      "player_name": "Soulaimane Jamji",
+      "gender": "Boys",
+      "country": "MAR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Taroudant",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-taroudant/mar/2026/j-j30-mar-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-taroudant/mar/2026/j-j30-mar-2026-001/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
     },
     {
       "player_itf_id": "800822033",
