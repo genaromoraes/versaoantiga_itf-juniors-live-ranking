@@ -6,6 +6,8 @@ const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 const playersFile = path.join(rootDir, "pipeline", "sources", "players.json");
 const outputFile = path.join(rootDir, "data", "weekly-results.csv");
 const previewFile = path.join(rootDir, "data", "weekly-tournaments-preview.json");
+const outsidersOutputFile = path.join(rootDir, "data", "weekly-outsiders.csv");
+const outsidersPreviewFile = path.join(rootDir, "data", "weekly-outsiders-preview.json");
 const itfEntriesBaseUrl = "https://itf-entries.netlify.app";
 const itfBaseUrl = "https://www.itftennis.com";
 const itfCalendarPage = "https://www.itftennis.com/en/tournament-calendar/world-tennis-tour-juniors-calendar/";
@@ -38,6 +40,19 @@ const headers = [
   "notes"
 ];
 
+const outsiderHeaders = [
+  "player_itf_id",
+  "player_name",
+  "gender",
+  "country",
+  "junior_rank",
+  "entry_groups",
+  "tournaments",
+  "source_urls",
+  "draw_urls",
+  "notes"
+];
+
 function csvValue(value) {
   const text = value === undefined || value === null ? "" : String(value);
   return `"${text.replaceAll('"', '""')}"`;
@@ -52,6 +67,14 @@ function normalizeName(value = "") {
     .replace(/\s+/g, " ")
     .trim()
     .toLowerCase();
+}
+
+function acceptanceEntryName(entry = {}) {
+  return `${entry.name || ""} ${entry.surname || ""}`.replace(/\s+/g, " ").trim();
+}
+
+function acceptanceEntryGender(entry = {}) {
+  return String(entry.sex || "").toUpperCase() === "F" ? "Girls" : "Boys";
 }
 
 function itfPlayerId(player) {
@@ -1017,11 +1040,27 @@ async function scrapeTournament(tournament) {
   const payload = await fetchJson(`${itfEntriesBaseUrl}/api/tournament/${tournament.key}`);
   const acceptanceRows = rowsFromTablePayload(payload, "acceptanceList");
   const acceptedPlayers = [];
+  const outsiderCandidates = [];
 
   for (const entry of acceptanceRows) {
     if (entry.isAvailable || entry.isExemption || entry.entryGroup === "WD") continue;
-    const player = playersByItfId.get(String(entry.id)) || playersByNormalizedName.get(normalizeName(`${entry.name} ${entry.surname}`));
-    if (!player) continue;
+    const playerName = acceptanceEntryName(entry);
+    const player = playersByItfId.get(String(entry.id)) || playersByNormalizedName.get(normalizeName(playerName));
+    if (!player) {
+      outsiderCandidates.push({
+        playerItfId: String(entry.id || "").trim(),
+        playerName,
+        gender: acceptanceEntryGender(entry),
+        country: entry.nat || entry.nationality || entry.country || "",
+        juniorRank: entry.jrRank || "",
+        entryGroup: entry.entryGroup || "",
+        tournamentName: tournament.tournamentName,
+        sourceUrl: tournament.itfEntriesUrl,
+        drawsUrl: tournament.drawsUrl,
+        notes: `Encontrado na acceptance list do itf-entries (${entry.entryGroup || "sem grupo"}).`
+      });
+      continue;
+    }
 
     acceptedPlayers.push({
       ...player,
@@ -1035,8 +1074,73 @@ async function scrapeTournament(tournament) {
 
   return {
     ...tournament,
-    acceptedPlayers
+    acceptedPlayers,
+    outsiderCandidates
   };
+}
+
+function outsiderKey(candidate = {}) {
+  return `${candidate.gender || ""}|${candidate.playerItfId || normalizeName(candidate.playerName || "")}`;
+}
+
+function outsiderRankValue(value) {
+  const number = Number(value);
+  return Number.isFinite(number) ? number : Infinity;
+}
+
+function aggregateOutsiders(tournaments = []) {
+  const outsiders = new Map();
+
+  for (const tournament of tournaments) {
+    for (const candidate of tournament.outsiderCandidates || []) {
+      const key = outsiderKey(candidate);
+      if (!key.trim()) continue;
+
+      if (!outsiders.has(key)) {
+        outsiders.set(key, {
+          player_itf_id: candidate.playerItfId || "",
+          player_name: candidate.playerName || "",
+          gender: candidate.gender || "",
+          country: candidate.country || "",
+          junior_rank: candidate.juniorRank || "",
+          entry_groups: new Set(),
+          tournaments: new Set(),
+          source_urls: new Set(),
+          draw_urls: new Set(),
+          notes: new Set()
+        });
+      }
+
+      const outsider = outsiders.get(key);
+      if (!outsider.player_name && candidate.playerName) outsider.player_name = candidate.playerName;
+      if (!outsider.country && candidate.country) outsider.country = candidate.country;
+      if (!outsider.junior_rank && candidate.juniorRank) outsider.junior_rank = candidate.juniorRank;
+      outsider.entry_groups.add(candidate.entryGroup || "sem grupo");
+      outsider.tournaments.add(candidate.tournamentName || "");
+      outsider.source_urls.add(candidate.sourceUrl || "");
+      outsider.draw_urls.add(candidate.drawsUrl || "");
+      outsider.notes.add(candidate.notes || "");
+    }
+  }
+
+  return [...outsiders.values()]
+    .map((item) => ({
+      player_itf_id: item.player_itf_id,
+      player_name: item.player_name,
+      gender: item.gender,
+      country: item.country,
+      junior_rank: item.junior_rank,
+      entry_groups: [...item.entry_groups].filter(Boolean).sort().join(" | "),
+      tournaments: [...item.tournaments].filter(Boolean).sort().join(" | "),
+      source_urls: [...item.source_urls].filter(Boolean).sort().join(" | "),
+      draw_urls: [...item.draw_urls].filter(Boolean).sort().join(" | "),
+      notes: [...item.notes].filter(Boolean).sort().join(" | ")
+    }))
+    .sort((a, b) =>
+      a.gender.localeCompare(b.gender) ||
+      outsiderRankValue(a.junior_rank) - outsiderRankValue(b.junior_rank) ||
+      a.player_name.localeCompare(b.player_name)
+    );
 }
 
 function lineOutcomeScore(lines, index) {
@@ -1241,6 +1345,8 @@ await enrichTournamentWithLiveTennisDraws(tournaments);
 await enrichTournamentWithCoreTennisRounds(tournaments);
 await enrichTournamentWithDrawRounds(tournaments);
 
+const outsiders = aggregateOutsiders(tournaments);
+
 const rows = [headers];
 for (const tournament of tournaments) {
   for (const player of tournament.acceptedPlayers) {
@@ -1283,6 +1389,13 @@ for (const tournament of tournaments) {
 
 await fs.writeFile(outputFile, `${rows.map((row) => row.map(csvValue).join(",")).join("\n")}\n`, "utf8");
 await fs.writeFile(
+  outsidersOutputFile,
+  `${[outsiderHeaders, ...outsiders.map((item) => outsiderHeaders.map((header) => item[header] || ""))]
+    .map((row) => row.map(csvValue).join(","))
+    .join("\n")}\n`,
+  "utf8"
+);
+await fs.writeFile(
   previewFile,
   `${JSON.stringify(
     {
@@ -1299,6 +1412,26 @@ await fs.writeFile(
   )}\n`,
   "utf8"
 );
+await fs.writeFile(
+  outsidersPreviewFile,
+  `${JSON.stringify(
+    {
+      scrapedAt: new Intl.DateTimeFormat("pt-BR", {
+        dateStyle: "short",
+        timeStyle: "short",
+        timeZone: "America/Sao_Paulo"
+      }).format(new Date()),
+      outsidersFound: outsiders.length,
+      boysOutsiders: outsiders.filter((item) => item.gender === "Boys").length,
+      girlsOutsiders: outsiders.filter((item) => item.gender === "Girls").length,
+      outsiders
+    },
+    null,
+    2
+  )}\n`,
+  "utf8"
+);
 
 console.log(`Found ${tournaments.length} current-week tournament(s).`);
 console.log(`Generated ${path.relative(rootDir, outputFile)} with ${rows.length - 1} weekly result row(s).`);
+console.log(`Generated ${path.relative(rootDir, outsidersOutputFile)} with ${outsiders.length} outsider candidate(s).`);

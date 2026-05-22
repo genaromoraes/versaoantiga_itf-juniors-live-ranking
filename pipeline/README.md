@@ -13,6 +13,7 @@ Depois disso, o robo frequente nao precisa abrir o breakdown de todos os atletas
 
 - ranking oficial atual;
 - torneios e fases da semana;
+- jogadores da semana que ainda estao fora da base;
 - arquivo final `data/latest.json`.
 
 ## Comandos
@@ -59,6 +60,7 @@ O importador espera duas abas:
 - Pontos historicos: `data/player-points.csv`.
 - Atletas acompanhados: `pipeline/sources/players.json`.
 - Semana atual: `data/weekly-results.csv`, com possiveis correcoes em `data/manual-weekly-results.csv`.
+- Radar de fora da base: `data/weekly-outsiders.csv` e `data/weekly-outsiders-preview.json`.
 - Regras de pontos: `pipeline/rules/itf-juniors-2026.json`.
 
 ## Arquivos antigos removidos
