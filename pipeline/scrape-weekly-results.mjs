@@ -1192,14 +1192,8 @@ async function storedWeeklyPreviewTournaments() {
 function prepareStoredTournamentFallback(tournament = {}) {
   return {
     ...tournament,
-    acceptedPlayers: Array.isArray(tournament.acceptedPlayers)
-      ? tournament.acceptedPlayers.map((player) => ({
-          ...player,
-          drawResult: null,
-          drawResultDoubles: null
-        }))
-      : [],
-    outsiderCandidates: Array.isArray(tournament.outsiderCandidates) ? tournament.outsiderCandidates : [],
+    acceptedPlayers: [],
+    outsiderCandidates: [],
     warning: "",
     drawWarning: "",
     coreTennisWarning: "",
@@ -1578,11 +1572,10 @@ try {
   }
 
   for (const tournament of tournamentsToProcess) {
-    const storedFallback = storedTournamentsByKey.get(tournament.key);
     tournaments.push({
       ...tournament,
-      acceptedPlayers: storedFallback?.acceptedPlayers || tournament.acceptedPlayers || [],
-      outsiderCandidates: storedFallback?.outsiderCandidates || tournament.outsiderCandidates || []
+      acceptedPlayers: tournament.acceptedPlayers || [],
+      outsiderCandidates: tournament.outsiderCandidates || []
     });
   }
 } catch (error) {
