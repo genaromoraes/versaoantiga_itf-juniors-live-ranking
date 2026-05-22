@@ -33,12 +33,6 @@ jobs:
         with:
           node-version: 22
 
-      - name: Resolve ranking limit from source list
-        id: ranking-limit
-        run: |
-          LIMIT=$(node -e "const fs=require('fs'); const players=JSON.parse(fs.readFileSync('pipeline/sources/players.json','utf8')); const boys=players.filter((p)=>p.gender==='Boys').length; const girls=players.filter((p)=>p.gender==='Girls').length; if (!boys || boys !== girls) { throw new Error('Invalid source player counts'); } process.stdout.write(String(boys));")
-          echo "value=$LIMIT" >> "$GITHUB_OUTPUT"
-
       - name: Install dependencies
         run: npm install
 
@@ -48,7 +42,7 @@ jobs:
       - name: Scrape ITF official ranking
         run: npm run scrape:ranking
         env:
-          RANKING_LIMIT: ${{ steps.ranking-limit.outputs.value }}
+          RANKING_LIMIT: "1000"
 
       - name: Scrape weekly tournament results
         run: npm run scrape:weekly
@@ -61,8 +55,6 @@ jobs:
 
       - name: Validate latest data
         run: npm run validate:data
-        env:
-          RANKING_LIMIT: ${{ steps.ranking-limit.outputs.value }}
 
       - name: Commit latest data
         run: |
