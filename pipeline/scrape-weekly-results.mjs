@@ -1036,6 +1036,35 @@ async function currentWeekTournamentsFromItfEntries() {
     .filter((tournament) => overlapsCurrentWeek(tournament.startDate, tournament.endDate));
 }
 
+async function storedWeeklyPreviewTournaments() {
+  try {
+    const raw = await fs.readFile(previewFile, "utf8");
+    const payload = JSON.parse(raw.replace(/^\uFEFF/, ""));
+    if (!payload || payload.calendarStartDate !== calendarStartDate()) return [];
+    return Array.isArray(payload.tournaments) ? payload.tournaments : [];
+  } catch {
+    return [];
+  }
+}
+
+function prepareStoredTournamentFallback(tournament = {}) {
+  return {
+    ...tournament,
+    acceptedPlayers: Array.isArray(tournament.acceptedPlayers)
+      ? tournament.acceptedPlayers.map((player) => ({
+          ...player,
+          drawResult: null,
+          drawResultDoubles: null
+        }))
+      : [],
+    outsiderCandidates: Array.isArray(tournament.outsiderCandidates) ? tournament.outsiderCandidates : [],
+    warning: "",
+    drawWarning: "",
+    coreTennisWarning: "",
+    liveTennisWarning: ""
+  };
+}
+
 async function scrapeTournament(tournament) {
   const payload = await fetchJson(`${itfEntriesBaseUrl}/api/tournament/${tournament.key}`);
   const acceptanceRows = rowsFromTablePayload(payload, "acceptanceList");
@@ -1321,14 +1350,39 @@ async function enrichTournamentWithDrawRounds(tournaments) {
 }
 
 const tournaments = [];
+const storedWeeklyTournaments = await storedWeeklyPreviewTournaments();
+const storedTournamentsByKey = new Map(
+  storedWeeklyTournaments
+    .filter((tournament) => tournament?.key)
+    .map((tournament) => [tournament.key, prepareStoredTournamentFallback(tournament)])
+);
 
 try {
   const currentWeekTournaments = await currentWeekTournamentsFromItfEntries();
+  const tournamentsToProcess = currentWeekTournaments.length
+    ? currentWeekTournaments
+    : storedWeeklyTournaments.map(prepareStoredTournamentFallback);
 
-  for (const tournament of currentWeekTournaments) {
+  if (!currentWeekTournaments.length && tournamentsToProcess.length) {
+    console.warn("itf-entries returned no tournaments for the current week; using stored weekly preview fallback.");
+  }
+
+  for (const tournament of tournamentsToProcess) {
     try {
       tournaments.push(await scrapeTournament(tournament));
     } catch (error) {
+      const storedFallback = storedTournamentsByKey.get(tournament.key);
+      if (storedFallback?.acceptedPlayers?.length) {
+        tournaments.push({
+          ...storedFallback,
+          ...tournament,
+          acceptedPlayers: storedFallback.acceptedPlayers,
+          outsiderCandidates: storedFallback.outsiderCandidates,
+          warning: `${error.message} | fallback: stored weekly preview`
+        });
+        continue;
+      }
+
       tournaments.push({
         ...tournament,
         acceptedPlayers: [],
@@ -1338,6 +1392,10 @@ try {
   }
 } catch (error) {
   console.warn(`Could not scrape itf-entries weekly tournaments: ${error.message}`);
+  if (storedWeeklyTournaments.length) {
+    console.warn("Using stored weekly preview fallback for current-week tournaments.");
+    tournaments.push(...storedWeeklyTournaments.map(prepareStoredTournamentFallback));
+  }
 }
 
 await enrichTournamentWithItfApiDraws(tournaments);
