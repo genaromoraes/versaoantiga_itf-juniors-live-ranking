@@ -2,6 +2,7 @@ const state = {
   players: typeof samplePlayers !== "undefined" ? structuredClone(samplePlayers) : [],
   selectedId: null,
   language: localStorage.getItem("itf-juniors-language") || "pt",
+  theme: localStorage.getItem("itf-juniors-theme") || "light",
   dataSource: typeof dataSource !== "undefined" ? dataSource : {}
 };
 
@@ -17,6 +18,8 @@ const els = {
   updatedAtLabel: document.querySelector("#updatedAtLabel"),
   updatedCardLabel: document.querySelector("#updatedCardLabel"),
   dataSourceNote: document.querySelector("#dataSourceNote"),
+  themeSelect: document.querySelector("#themeSelect"),
+  themeLabel: document.querySelector("#themeLabel"),
   languageSelect: document.querySelector("#languageSelect"),
   languageLabel: document.querySelector("#languageLabel"),
   siteCredit: document.querySelector("#siteCredit"),
@@ -32,6 +35,9 @@ const translations = {
   pt: {
     htmlLang: "pt-BR",
     updated: "Última atualização",
+    theme: "Tema",
+    lightMode: "Claro",
+    darkMode: "Escuro",
     siteCredit: "Criado por Info Tênis Brasil",
     language: "Idioma",
     rankingBase: "Semana base",
@@ -72,6 +78,9 @@ const translations = {
   en: {
     htmlLang: "en",
     updated: "Last update",
+    theme: "Theme",
+    lightMode: "Light",
+    darkMode: "Dark",
     siteCredit: "Created by Info Tênis Brasil",
     language: "Language",
     rankingBase: "Base week",
@@ -112,6 +121,9 @@ const translations = {
   es: {
     htmlLang: "es",
     updated: "Última actualización",
+    theme: "Tema",
+    lightMode: "Claro",
+    darkMode: "Oscuro",
     siteCredit: "Creado por Info Tênis Brasil",
     language: "Idioma",
     rankingBase: "Semana base",
@@ -152,6 +164,9 @@ const translations = {
   it: {
     htmlLang: "it",
     updated: "Ultimo aggiornamento",
+    theme: "Tema",
+    lightMode: "Chiaro",
+    darkMode: "Scuro",
     siteCredit: "Creato da Info Tênis Brasil",
     language: "Lingua",
     rankingBase: "Settimana base",
@@ -192,6 +207,9 @@ const translations = {
   fr: {
     htmlLang: "fr",
     updated: "Dernière mise à jour",
+    theme: "Thème",
+    lightMode: "Clair",
+    darkMode: "Sombre",
     siteCredit: "Créé par Info Tênis Brasil",
     language: "Langue",
     rankingBase: "Semaine de base",
@@ -307,6 +325,15 @@ function weekLabelMarkup(rankingDate = "") {
 
 function updateStaticText() {
   document.documentElement.lang = t("htmlLang");
+  document.documentElement.dataset.theme = state.theme;
+  if (els.themeSelect) {
+    els.themeSelect.value = state.theme;
+    const lightOption = els.themeSelect.querySelector('option[value="light"]');
+    const darkOption = els.themeSelect.querySelector('option[value="dark"]');
+    if (lightOption) lightOption.textContent = t("lightMode");
+    if (darkOption) darkOption.textContent = t("darkMode");
+  }
+  if (els.themeLabel) els.themeLabel.textContent = t("theme");
   els.languageSelect.value = state.language;
   els.languageLabel.textContent = t("language");
   els.siteCredit.textContent = t("siteCredit");
@@ -1095,6 +1122,14 @@ els.languageSelect.addEventListener("input", () => {
   renderTable();
   if (state.selectedId) renderDetails(state.selectedId);
 });
+
+if (els.themeSelect) {
+  els.themeSelect.addEventListener("input", () => {
+    state.theme = els.themeSelect.value;
+    localStorage.setItem("itf-juniors-theme", state.theme);
+    updateStaticText();
+  });
+}
 
 updateStaticText();
 renderEmptyDetails();

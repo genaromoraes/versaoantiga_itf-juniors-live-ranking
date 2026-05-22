@@ -5,12 +5,56 @@
   --muted: #61707d;
   --line: #d9e2e8;
   --surface: #ffffff;
+  --surface-elevated: rgba(255, 255, 255, 0.88);
+  --surface-soft: #f8fbfa;
+  --surface-muted: #edf4f2;
+  --surface-neutral: #eef2f4;
+  --surface-neutral-hover: #e4ebef;
+  --surface-danger: #fff8f6;
+  --surface-success: #f5fbf7;
   --soft: #eef5f2;
   --accent: #116d5d;
   --accent-2: #1f7a9b;
   --gain: #0c7a4f;
   --loss: #bd3b2f;
   --shadow: 0 18px 45px rgba(24, 32, 38, 0.08);
+  --page-glow: rgba(17, 109, 93, 0.08);
+  --page-bg-start: #f6faf8;
+  --page-bg-mid: #edf3f7;
+  --page-bg-end: #f8f6f0;
+  --focus-ring: rgba(17, 109, 93, 0.14);
+  --flag-border: rgba(24, 32, 38, 0.08);
+  --button-hover: #0c5a4d;
+  --button-secondary-bg: #ffffff;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --ink: #edf4f7;
+  --muted: #9eb0bb;
+  --line: #2b3b45;
+  --surface: #142029;
+  --surface-elevated: rgba(20, 32, 41, 0.94);
+  --surface-soft: #1a2730;
+  --surface-muted: #20313c;
+  --surface-neutral: #243640;
+  --surface-neutral-hover: #30444f;
+  --surface-danger: #2e1d20;
+  --surface-success: #152a21;
+  --soft: #1a2a33;
+  --accent: #37b89d;
+  --accent-2: #5eb8da;
+  --gain: #59c98b;
+  --loss: #ff847a;
+  --shadow: 0 20px 48px rgba(0, 0, 0, 0.34);
+  --page-glow: rgba(55, 184, 157, 0.15);
+  --page-bg-start: #0d1419;
+  --page-bg-mid: #101b22;
+  --page-bg-end: #12181d;
+  --focus-ring: rgba(55, 184, 157, 0.22);
+  --flag-border: rgba(255, 255, 255, 0.12);
+  --button-hover: #2f9d86;
+  --button-secondary-bg: #1a2730;
 }
 
 * {
@@ -22,8 +66,8 @@ body {
   min-width: var(--desktop-width);
   min-height: 100vh;
   background:
-    radial-gradient(circle at 10% 0%, rgba(17, 109, 93, 0.08), transparent 32%),
-    linear-gradient(180deg, #f6faf8 0%, #edf3f7 58%, #f8f6f0 100%);
+    radial-gradient(circle at 10% 0%, var(--page-glow), transparent 32%),
+    linear-gradient(180deg, var(--page-bg-start) 0%, var(--page-bg-mid) 58%, var(--page-bg-end) 100%);
   color: var(--ink);
   font-family:
     Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -256,14 +300,14 @@ input:focus,
 select:focus,
 textarea:focus {
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(17, 109, 93, 0.14);
+  box-shadow: 0 0 0 3px var(--focus-ring);
 }
 
 .table-shell,
 .panel {
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.88);
+  background: var(--surface-elevated);
   box-shadow: var(--shadow);
 }
 
@@ -296,7 +340,7 @@ button {
 }
 
 button:hover {
-  background: #0c5a4d;
+  background: var(--button-hover);
 }
 
 .button-row {
@@ -309,7 +353,7 @@ button:hover {
 .button-row button:last-child,
 #sampleDataButton {
   border: 1px solid var(--line);
-  background: #fff;
+  background: var(--button-secondary-bg);
   color: var(--ink);
 }
 
@@ -341,7 +385,7 @@ th {
   font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  background: #f8fbfa;
+  background: var(--surface-soft);
 }
 
 tbody tr {
@@ -443,17 +487,17 @@ tbody tr.is-selected {
   display: block;
   width: 16px;
   height: 12px;
-  border: 1px solid rgba(24, 32, 38, 0.08);
+  border: 1px solid var(--flag-border);
   border-radius: 2px;
   object-fit: cover;
-  background: #fff;
+  background: var(--surface);
 }
 
 .flag-fallback {
   min-height: 14px;
   padding: 0 4px;
   border-radius: 4px;
-  background: #edf4f2;
+  background: var(--surface-muted);
   color: var(--accent);
   font-size: 0.58rem;
   font-weight: 900;
@@ -474,7 +518,7 @@ tbody tr.is-selected {
   min-height: 16px;
   border-radius: 4px;
   padding: 0 6px;
-  background: #edf4f2;
+  background: var(--surface-muted);
   color: var(--accent);
   font-size: 0.64rem;
   font-weight: 900;
@@ -504,7 +548,7 @@ tbody tr.is-selected {
 
 .pill.neutral {
   color: var(--muted);
-  background: #eef2f4;
+  background: var(--surface-neutral);
 }
 
 .live-points {
@@ -635,7 +679,7 @@ table:not(.is-official-table) td:nth-child(6) {
   width: 30px;
   height: 30px;
   border-radius: 999px;
-  background: #edf2f4;
+  background: var(--surface-neutral);
   color: var(--muted);
   font-size: 1.1rem;
   font-weight: 900;
@@ -648,7 +692,7 @@ table:not(.is-official-table) td:nth-child(6) {
 }
 
 .points-flow-summary:hover .points-flow-toggle-symbol {
-  background: #e4ebef;
+  background: var(--surface-neutral-hover);
   color: var(--ink);
 }
 
@@ -700,17 +744,17 @@ table:not(.is-official-table) td:nth-child(6) {
   padding: 12px;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: #fff;
+  background: var(--surface);
 }
 
 .result-card.is-dropping {
   border-color: rgba(189, 59, 47, 0.34);
-  background: #fff8f6;
+  background: var(--surface-danger);
 }
 
 .result-card.is-new {
   border-color: rgba(12, 122, 79, 0.34);
-  background: #f5fbf7;
+  background: var(--surface-success);
 }
 
 .result-card.is-out {

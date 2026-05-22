@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1440, initial-scale=0.25, minimum-scale=0.1, maximum-scale=3.0" />
     <title>Juvenil Live Ranking</title>
+    <script>
+      document.documentElement.dataset.theme = localStorage.getItem("itf-juniors-theme") || "light";
+    </script>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -17,6 +20,13 @@
         </div>
       </div>
       <div class="topbar-actions">
+        <label class="language-control">
+          <span id="themeLabel">Tema</span>
+          <select id="themeSelect" aria-label="Tema">
+            <option value="light">Claro</option>
+            <option value="dark">Escuro</option>
+          </select>
+        </label>
         <label class="language-control">
           <span id="languageLabel">Idioma</span>
           <select id="languageSelect" aria-label="Idioma">
@@ -92,6 +102,6 @@
       </section>
     </main>
 
-    <script src="app.js?v=2026-05-21-top1000"></script>
+    <script src="app.js?v=2026-05-21-darkmode"></script>
   </body>
 </html>
