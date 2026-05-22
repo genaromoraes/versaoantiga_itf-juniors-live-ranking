@@ -6,6 +6,8 @@ const state = {
   dataSource: typeof dataSource !== "undefined" ? dataSource : {}
 };
 
+const LIVE_RANKING_TABLE_LIMIT = 1000;
+
 const els = {
   rankingTable: document.querySelector("table"),
   rankingBody: document.querySelector("#rankingBody"),
@@ -622,8 +624,21 @@ function getRankedPlayers() {
   const gender = els.genderFilter.value;
   const sortBy = els.sortFilter.value;
 
-  const filtered = state.players
+  const normalized = state.players
     .map(normalizePlayer)
+    .filter((player) => {
+      return player.gender === gender;
+    });
+
+  const liveRanked = normalized
+    .sort((a, b) => b.livePoints - a.livePoints)
+    .map((player, index) => ({
+      ...player,
+      liveRank: index + 1
+    }));
+
+  const visiblePool = liveRanked
+    .filter((player) => player.liveRank <= LIVE_RANKING_TABLE_LIMIT)
     .filter((player) => {
       const haystack = [
         player.name,
@@ -634,7 +649,7 @@ function getRankedPlayers() {
       ]
         .join(" ")
         .toLowerCase();
-      return (!query || haystack.includes(query)) && player.gender === gender;
+      return !query || haystack.includes(query);
     });
 
   const sorters = {
@@ -642,10 +657,7 @@ function getRankedPlayers() {
     officialRank: (a, b) => Number(a.currentRank || Infinity) - Number(b.currentRank || Infinity)
   };
 
-  return filtered.sort(sorters[sortBy] || sorters.liveRank).map((player, index) => ({
-    ...player,
-    liveRank: index + 1
-  }));
+  return visiblePool.sort(sorters[sortBy] || sorters.liveRank);
 }
 
 function formatNumber(value) {
