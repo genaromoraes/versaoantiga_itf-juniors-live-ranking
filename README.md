@@ -27,7 +27,8 @@ Para atualizar a pagina publicada:
 
 - Mudanca visual em `app.js`, `index.html` ou `styles.css`: basta fazer push no GitHub.
 - Mudanca em dados ja gerados (`data/latest.json`, `data/player-points.csv`, etc.): basta fazer push no GitHub.
-- Atualizacao automatica de torneios da semana: rode o workflow `Update ranking data`.
+- Atualizacao leve da semana: workflow `Update live weekly data`.
+- Atualizacao completa da base/ranking oficial: workflow `Update ranking data`.
 
 Nao existe mais workflow para reconstruir o cartel historico pela ITF. Quando a base historica mudar, importe uma nova planilha mestre.
 
@@ -58,7 +59,23 @@ A planilha precisa ter as abas:
 - `jogadores`
 - `cartel_pontos`
 
-## Workflow principal
+## Workflows atuais
+
+### 1. Workflow leve da semana
+
+O workflow `.github/workflows/update-live-weekly.yml` roda a cada 30 minutos, nos minutos:
+
+- 07
+- 37
+
+Ele faz:
+
+1. Atualiza os torneios e resultados da semana.
+2. Atualiza o radar de outsiders da semana.
+3. Recalcula `data/latest.json`.
+4. Valida e publica os dados leves.
+
+### 2. Workflow completo
 
 O workflow `.github/workflows/update-ranking.yml` roda 4 vezes por dia:
 
@@ -82,6 +99,8 @@ Ele faz:
 - `data/manual-weekly-results.csv`: correcoes manuais, quando necessario.
 - `data/itf-ranking-preview.json`: ultima leitura do ranking oficial.
 - `data/weekly-tournaments-preview.json`: diagnostico da leitura semanal.
+- `data/weekly-outsiders.csv`: jogadores da semana ainda fora da base principal.
+- `data/weekly-outsiders-preview.json`: preview resumido dos outsiders encontrados.
 - `data/player-points-status.csv`: auditoria da planilha/cartel.
 - `data/latest.json`: arquivo final usado pelo site.
 
