@@ -7,11 +7,10 @@ const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 const sourcesFile = path.join(rootDir, "pipeline", "sources", "players.json");
 const previewFile = path.join(rootDir, "data", "itf-ranking-preview.json");
 const rankingUrl = "https://www.itftennis.com/en/rankings/world-tennis-tour-junior-rankings/?matchType=S%2F1000";
-const itfEntriesPlayersUrl = "https://itf-entries.netlify.app/api/junior-players";
-const rankingLimit = Number(process.env.RANKING_LIMIT || 50);
+const rankingLimit = Number(process.env.RANKING_LIMIT || 1000);
 const categories = [
-  { gender: "Boys", playerType: "B", auxiliaryUrl: "https://tennisdbjp.com/junior-en/list/wboysrank.html" },
-  { gender: "Girls", playerType: "G", auxiliaryUrl: "https://tennisdbjp.com/junior-en/list/wgirlsrank.html" }
+  { gender: "Boys", playerType: "B" },
+  { gender: "Girls", playerType: "G" }
 ];
 
 async function readJson(file, fallback) {
@@ -22,49 +21,16 @@ async function readJson(file, fallback) {
   }
 }
 
-function titleCaseSlug(slug) {
-  return slug
-    .split("-")
-    .filter(Boolean)
-    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
-    .join(" ");
-}
-
 function rankingDatePtBr(value = "") {
   const cleaned = value.replace(/^Last Updated:\s*/i, "").trim();
   const date = new Date(`${cleaned} UTC`);
   if (Number.isNaN(date.getTime())) return cleaned;
   const months = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"];
-
   return `${date.getUTCDate()} ${months[date.getUTCMonth()]} ${date.getUTCFullYear()}`;
 }
 
 function pointsBreakdownUrl(url) {
   return url.replace(/\/$/, "") + "/itf-points-breakdown/";
-}
-
-function canonicalPointsBreakdownUrl(url = "") {
-  const match = url.match(/https?:\/\/www\.itftennis\.com\/en\/players\/([^/"'<>\s]+)\/(\d+)\/([a-z]{3})\/(?:jt|mt|wt)\/[sd]/i);
-  if (!match) return "";
-
-  return `https://www.itftennis.com/en/players/${match[1]}/${match[2]}/${match[3].toLowerCase()}/jt/s/itf-points-breakdown/`;
-}
-
-function decodeBase64Url(value = "") {
-  try {
-    const normalized = value.replace(/-/g, "+").replace(/_/g, "/");
-    return Buffer.from(normalized, "base64").toString("utf8");
-  } catch {
-    return "";
-  }
-}
-
-function safeDecode(value = "") {
-  try {
-    return decodeURIComponent(value);
-  } catch {
-    return value;
-  }
 }
 
 function slugifyName(name = "") {
@@ -76,243 +42,52 @@ function slugifyName(name = "") {
     .replace(/^-|-$/g, "");
 }
 
-function playerKey(player) {
-  return `${slugifyName(player.name)}|${player.country || ""}`;
+function playerLookupKeys(player = {}) {
+  const keys = [];
+  if (player.id) keys.push(`id:${player.id}`);
+  const name = slugifyName(player.name || "");
+  const country = String(player.country || "").toUpperCase();
+  const gender = String(player.gender || "");
+  if (name && country && gender) keys.push(`profile:${gender}|${country}|${name}`);
+  return keys;
 }
 
-function genderKey(gender = "") {
-  return gender === "Boys" ? "boy" : "girl";
-}
-
-function itfEntriesPlayerKey(player) {
-  return `${slugifyName(player.name)}|${player.country || ""}|${genderKey(player.gender)}`;
-}
-
-async function loadItfEntriesPlayerIndex(warnings) {
-  try {
-    const response = await fetch(itfEntriesPlayersUrl);
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-
-    const payload = await response.json();
-    const fields = payload?.listPlayers?.fields || [];
-    const players = payload?.listPlayers?.players || [];
-    const indexOf = (field) => fields.indexOf(field);
-    const idIndex = indexOf("id");
-    const nameIndex = indexOf("name");
-    const surnameIndex = indexOf("surname");
-    const countryIndex = indexOf("country");
-    const sexIndex = indexOf("sex");
-    const playersByKey = new Map();
-
-    for (const row of players) {
-      const id = row[idIndex];
-      const firstName = row[nameIndex];
-      const surname = row[surnameIndex];
-      const country = row[countryIndex];
-      const sex = row[sexIndex];
-      if (!id || !firstName || !surname || !country || !sex) continue;
-
-      const fullName = `${firstName} ${surname}`.replace(/\s+/g, " ").trim();
-      const player = {
-        id,
-        fullName,
-        country,
-        sex,
-        pointsBreakdownUrl: `https://www.itftennis.com/en/players/${slugifyName(fullName)}/${id}/${country.toLowerCase()}/jt/s/itf-points-breakdown/`
-      };
-
-      playersByKey.set(`${slugifyName(fullName)}|${country}|${sex}`, player);
-    }
-
-    return playersByKey;
-  } catch (error) {
-    warnings.push(`Could not load ITF entries junior players: ${error.message}`);
-    return new Map();
-  }
-}
-
-function mergeRankingPlayers(primaryPlayers, auxiliaryPlayers, existingPlayers, gender) {
-  const primaryByKey = new Map(primaryPlayers.map((player) => [playerKey(player), player]));
-  const existingByKey = new Map(existingPlayers.filter((player) => player.gender === gender).map((player) => [playerKey(player), player]));
-
-  return auxiliaryPlayers.map((candidate) => {
-    const primary = primaryByKey.get(playerKey(candidate));
-    const existing = existingByKey.get(playerKey(candidate));
-    const profile = primary || existing;
-
-    return {
-      ...candidate,
-      id: profile?.id || slugifyName(candidate.name),
-      name: profile?.name || candidate.name,
-      country: profile?.country || candidate.country,
-      gender,
-      currentRank: candidate.currentRank,
-      officialPoints: profile?.officialPoints || candidate.officialPoints || 0,
-      pointsBreakdownUrl: profile?.pointsBreakdownUrl || "",
-      birthYear: profile?.birthYear || candidate.birthYear || "",
-      needsProfileResolution: !profile?.pointsBreakdownUrl
-    };
-  });
-}
-
-async function scrapeAuxiliaryCategory(page, category) {
-  await page.goto(category.auxiliaryUrl, { waitUntil: "domcontentloaded", timeout: 60000 });
-
-  const result = await page.evaluate((limit) => {
-    const lines = document.body.innerText.split(/\r?\n/).map((line) => line.trim()).filter(Boolean);
-    const rankingDate = lines.find((line) => /^\d{4}\/\d{2}\/\d{2}/.test(line)) || "";
-    const players = [];
-
-    for (const line of lines) {
-      const match = line.match(/^(\d+)(?:\s+\([^)]+\))?\s+(.+?)\s+(20\d{2})\s+([A-Z]{3})$/);
-      if (!match) continue;
-
-      players.push({
-        currentRank: Number(match[1]),
-        name: match[2].trim(),
-        birthYear: Number(match[3]),
-        country: match[4].trim()
-      });
-
-      if (players.length >= limit) break;
-    }
-
-    return { rankingDate, players };
-  }, rankingLimit);
-
-  if (result.players.length < rankingLimit) {
-    throw new Error(`Auxiliary ranking returned ${result.players.length} ${category.gender} rows; expected ${rankingLimit}.`);
-  }
-
-  return result;
-}
-
-function matchingItfProfileUrl(urls, player) {
-  const expectedSlug = slugifyName(player.name);
-  const expectedCountry = (player.country || "").toLowerCase();
-
-  return (
-    urls
-      .map((url) => canonicalPointsBreakdownUrl(safeDecode(url)))
-      .find((url) => {
-        const parts = url.match(/\/players\/([^/]+)\/\d+\/([a-z]{3})\/jt\/s\/itf-points-breakdown\//i);
-        return parts?.[1] === expectedSlug && parts?.[2].toLowerCase() === expectedCountry;
-      }) || ""
-  );
-}
-
-async function resolveItfProfileFromItfSearch(page, player) {
-  await page.goto("https://www.itftennis.com/en/players/", { waitUntil: "domcontentloaded", timeout: 45000 });
-
-  const visibleInputs = page.locator("input:visible");
-  const inputCount = await visibleInputs.count().catch(() => 0);
-  for (let index = 0; index < inputCount; index += 1) {
-    const input = visibleInputs.nth(index);
-    try {
-      await input.fill(player.name, { timeout: 5000 });
-      await input.press("Enter", { timeout: 5000 });
-      await page.waitForTimeout(1500);
-    } catch {
-      continue;
-    }
-
-    const urls = await page.evaluate(() => [...document.querySelectorAll('a[href*="/en/players/"]')].map((link) => link.href));
-    const resolvedUrl = matchingItfProfileUrl(urls, player);
-    if (resolvedUrl) return resolvedUrl;
-  }
-
-  return "";
-}
-
-async function resolveItfProfileUrl(page, player) {
-  const fromItfSearch = await resolveItfProfileFromItfSearch(page, player).catch(() => "");
-  if (fromItfSearch) return fromItfSearch;
-
-  const query = ["site:itftennis.com/en/players/", `"${player.name}"`, player.country, "itf points breakdown"].join(" ");
-
-  await page.goto(`https://www.bing.com/search?q=${encodeURIComponent(query)}`, { waitUntil: "domcontentloaded", timeout: 45000 });
-  await page.waitForTimeout(750);
-
-  const urls = await page.evaluate(() => {
-    const hrefs = [...document.querySelectorAll("a[href]")].map((link) => link.href);
-    const bodyUrls = document.body.innerHTML.match(/https?:\/\/www\.itftennis\.com\/en\/players\/[^"'<>\\\s]+/gi) || [];
-
-    return [...hrefs, ...bodyUrls].flatMap((value) => {
-      try {
-        const url = new URL(value);
-        const bingEncoded = url.searchParams.get("u") || "";
-        const decodedBing = bingEncoded.startsWith("a1") ? atob(bingEncoded.slice(2).replace(/-/g, "+").replace(/_/g, "/")) : "";
-        return [value, url.searchParams.get("url"), url.searchParams.get("u"), decodedBing].filter(Boolean);
-      } catch {
-        return [value];
-      }
-    });
-  });
-
-  const resolvedUrl = matchingItfProfileUrl(
-    urls.flatMap((url) => {
-      const decoded = safeDecode(url);
-      const maybeBingEncoded = decoded.startsWith("a1") ? decodeBase64Url(decoded.slice(2)) : "";
-      return [url, decoded, maybeBingEncoded].filter(Boolean);
-    }),
-    player
-  );
-  if (resolvedUrl) return resolvedUrl;
-
-  const duckDuckGoUrl = `https://html.duckduckgo.com/html/?q=${encodeURIComponent(`${player.name} ${player.country} site:itftennis.com/en/players`)}`;
-  await page.goto(duckDuckGoUrl, { waitUntil: "domcontentloaded", timeout: 45000 });
-  await page.waitForTimeout(750);
-
-  const duckDuckGoUrls = await page.evaluate(() => {
-    const hrefs = [...document.querySelectorAll("a[href]")].map((link) => link.href);
-    const bodyUrls = document.body.innerHTML.match(/https?:\/\/www\.itftennis\.com\/en\/players\/[^"'<>\\\s]+/gi) || [];
-
-    return [...hrefs, ...bodyUrls].flatMap((value) => {
-      try {
-        const url = new URL(value);
-        return [value, url.searchParams.get("uddg")].filter(Boolean);
-      } catch {
-        return [value];
-      }
-    });
-  });
-
-  return matchingItfProfileUrl(duckDuckGoUrls, player);
-}
-
-async function resolveMissingItfProfiles(page, players, warnings) {
-  const itfEntriesPlayers = await loadItfEntriesPlayerIndex(warnings);
+function buildExistingPlayerIndex(players = []) {
+  const index = new Map();
 
   for (const player of players) {
-    if (player.pointsBreakdownUrl) continue;
-
-    const entryPlayer = itfEntriesPlayers.get(itfEntriesPlayerKey(player));
-    if (entryPlayer) {
-      player.pointsBreakdownUrl = entryPlayer.pointsBreakdownUrl;
-      player.needsProfileResolution = false;
-      continue;
-    }
-
-    try {
-      const resolvedUrl = await resolveItfProfileUrl(page, player);
-      if (!resolvedUrl) {
-        warnings.push(`Could not resolve ITF profile URL for ${player.id}.`);
-        continue;
-      }
-
-      player.pointsBreakdownUrl = resolvedUrl;
-      player.needsProfileResolution = false;
-    } catch (error) {
-      warnings.push(`Could not resolve ITF profile URL for ${player.id}: ${error.message}`);
+    for (const key of playerLookupKeys(player)) {
+      if (!index.has(key)) index.set(key, player);
     }
   }
+
+  return index;
+}
+
+function parseRankingNumber(value = "") {
+  const cleaned = String(value).replace(/\s+/g, "").trim();
+  if (!cleaned) return 0;
+
+  const lastComma = cleaned.lastIndexOf(",");
+  const lastDot = cleaned.lastIndexOf(".");
+  let normalized = cleaned;
+
+  if (lastComma > -1 && lastDot > -1) {
+    normalized = lastComma > lastDot ? cleaned.replaceAll(".", "").replace(",", ".") : cleaned.replaceAll(",", "");
+  } else if (lastComma > -1) {
+    const decimals = cleaned.length - lastComma - 1;
+    normalized = decimals === 3 ? cleaned.replaceAll(",", "") : cleaned.replace(",", ".");
+  }
+
+  const number = Number(normalized);
+  return Number.isFinite(number) ? number : 0;
 }
 
 async function scrapeVisibleRows(page, limit) {
   return page.evaluate((rankingLimit) => {
-    function parseRankingNumber(value = "") {
-      const cleaned = value.replace(/\s+/g, "").trim();
-      if (!/^\d+(?:[.,]\d+)?$/.test(cleaned) && !/^\d{1,3}(?:[.,]\d{3})+(?:[.,]\d+)?$/.test(cleaned)) return 0;
+    function parseNumber(value = "") {
+      const cleaned = String(value).replace(/\s+/g, "").trim();
+      if (!cleaned) return 0;
 
       const lastComma = cleaned.lastIndexOf(",");
       const lastDot = cleaned.lastIndexOf(".");
@@ -325,7 +100,8 @@ async function scrapeVisibleRows(page, limit) {
         normalized = decimals === 3 ? cleaned.replaceAll(",", "") : cleaned.replace(",", ".");
       }
 
-      return Number(normalized);
+      const number = Number(normalized);
+      return Number.isFinite(number) ? number : 0;
     }
 
     return [...document.querySelectorAll("table tbody tr")]
@@ -334,27 +110,21 @@ async function scrapeVisibleRows(page, limit) {
         if (!link) return null;
 
         const cells = [...row.querySelectorAll("td")].map((cell) => cell.innerText.trim().replace(/\s+/g, " "));
-        const rank = Number((cells[0] || "").match(/\d+/)?.[0]);
         const href = new URL(link.getAttribute("href"), location.origin).href;
-        const id = href.match(/\/players\/([^/]+)\//)?.[1] || "";
+        const rank = Number((cells[0] || "").match(/\d+/)?.[0]);
         const country = (href.match(/\/players\/[^/]+\/[^/]+\/([^/]+)\//)?.[1] || "").toUpperCase();
-        const pointsCandidates = cells
-          .slice(1)
-          .map((cell) => parseRankingNumber(cell))
+        const id = href.match(/\/players\/([^/]+)\//)?.[1] || "";
+        const rowText = row.innerText.trim().replace(/\s+/g, " ");
+        const pointsCandidates = [...cells, ...rowText.split(" ")]
+          .map((value) => parseNumber(value))
           .filter((value) => Number.isFinite(value) && value > 20);
-        const rowText = row.innerText.trim().replace(/Head\s*2\s*Head/gi, "").replace(/\s+/g, " ");
-        const textPointsCandidates = rowText
-          .split(" ")
-          .map((cell) => parseRankingNumber(cell))
-          .filter((value) => Number.isFinite(value) && value > 20);
-        const officialPoints = pointsCandidates.at(-1) || textPointsCandidates.at(-1) || 0;
 
         return {
           id,
           rank,
-          country,
           name: link.innerText.trim().replace(/\s+/g, " "),
-          officialPoints,
+          country,
+          officialPoints: pointsCandidates.at(-1) || 0,
           href
         };
       })
@@ -428,7 +198,6 @@ async function scrapeCategory(page, category) {
   );
 
   const rows = await collectRankingRows(page, rankingLimit);
-
   const lastUpdated = await page.evaluate(() => {
     const match = document.body.innerText.match(/Last Updated:\s*\d{1,2}\s[A-Za-z]{3,9}\s\d{4}/);
     return match?.[0] || "";
@@ -441,87 +210,85 @@ async function scrapeCategory(page, category) {
   return {
     lastUpdated,
     players: rows.map((player) => ({
-      id: player.id,
-      name: titleCaseSlug(player.id),
+      id: player.id || slugifyName(player.name),
+      name: player.name,
       country: player.country,
       gender: category.gender,
       currentRank: player.rank,
-      officialPoints: player.officialPoints,
-      pointsBreakdownUrl: pointsBreakdownUrl(player.href)
+      officialPoints: parseRankingNumber(player.officialPoints),
+      pointsBreakdownUrl: pointsBreakdownUrl(player.href),
+      needsProfileResolution: false
     }))
   };
+}
+
+function mergeScrapedPlayersIntoExisting(existingPlayers = [], scrapedPlayers = []) {
+  const existingIndex = buildExistingPlayerIndex(existingPlayers);
+  const merged = new Map(existingPlayers.map((player) => [player.id, { ...player }]));
+
+  for (const scraped of scrapedPlayers) {
+    const existing =
+      existingIndex.get(`id:${scraped.id}`) ||
+      existingIndex.get(`profile:${scraped.gender}|${scraped.country}|${slugifyName(scraped.name)}`);
+
+    const mergedPlayer = {
+      ...(existing || {}),
+      ...scraped,
+      id: existing?.id || scraped.id,
+      name: existing?.name || scraped.name,
+      country: existing?.country || scraped.country,
+      gender: scraped.gender,
+      birthYear: existing?.birthYear || "",
+      pointsBreakdownUrl: scraped.pointsBreakdownUrl || existing?.pointsBreakdownUrl || "",
+      needsProfileResolution: !(scraped.pointsBreakdownUrl || existing?.pointsBreakdownUrl)
+    };
+
+    merged.set(mergedPlayer.id, mergedPlayer);
+  }
+
+  return [...merged.values()];
+}
+
+function playerSortValue(player = {}) {
+  const rank = Number(player.currentRank || 0);
+  return rank > 0 ? rank : Number.POSITIVE_INFINITY;
+}
+
+function sortPlayers(players = []) {
+  return [...players].sort((a, b) => {
+    if (a.gender !== b.gender) return String(a.gender).localeCompare(String(b.gender));
+    const rankDiff = playerSortValue(a) - playerSortValue(b);
+    if (rankDiff !== 0) return rankDiff;
+    return String(a.name || "").localeCompare(String(b.name || ""));
+  });
 }
 
 const browser = await chromium.launch({ headless: true });
 const page = await browser.newPage();
 const existingPlayers = await readJson(sourcesFile, []);
-const existingPreview = await readJson(previewFile, { rankingDate: "", players: [] });
-const rankingPlayers = [];
 const warnings = [];
-let rankingDate = existingPreview.rankingDate || "";
+let rankingDate = "";
+let scrapedPlayers = [];
 
 try {
   for (const category of categories) {
-    let auxiliaryPlayers = [];
-    try {
-      const auxiliary = await scrapeAuxiliaryCategory(page, category);
-      auxiliaryPlayers = auxiliary.players.map((player) => ({
-        ...player,
-        gender: category.gender,
-        id: slugifyName(player.name),
-        officialPoints: 0,
-        pointsBreakdownUrl: ""
-      }));
-      rankingDate = auxiliary.rankingDate.replaceAll("/", "-") || rankingDate;
-    } catch (error) {
-      warnings.push(`Could not read auxiliary ${category.gender} ranking: ${error.message}`);
-    }
-
     try {
       const result = await scrapeCategory(page, category);
-      rankingPlayers.push(
-        ...(auxiliaryPlayers.length
-          ? mergeRankingPlayers(result.players, auxiliaryPlayers, existingPlayers, category.gender)
-          : result.players)
-      );
+      scrapedPlayers.push(...result.players);
       rankingDate = rankingDatePtBr(result.lastUpdated) || rankingDate;
     } catch (error) {
-      const fallbackPlayers = existingPlayers.filter((player) => player.gender === category.gender);
-      if (!fallbackPlayers.length && !auxiliaryPlayers.length) throw error;
-      warnings.push(`Keeping previous ${category.gender} ranking because live scrape failed: ${error.message}`);
-      rankingPlayers.push(
-        ...(auxiliaryPlayers.length
-          ? mergeRankingPlayers([], auxiliaryPlayers, existingPlayers, category.gender)
-          : fallbackPlayers)
-      );
+      warnings.push(`Could not scrape ${category.gender} official ranking: ${error.message}`);
     }
   }
-
-  await resolveMissingItfProfiles(page, rankingPlayers, warnings);
 } finally {
   await browser.close();
 }
 
-const finalPlayers = [];
-for (const category of categories) {
-  const scrapedPlayers = rankingPlayers.filter((player) => player.gender === category.gender);
-  const existingCategoryPlayers = existingPlayers.filter((player) => player.gender === category.gender);
-
-  if (existingCategoryPlayers.length && scrapedPlayers.length < existingCategoryPlayers.length) {
-    warnings.push(
-      `Keeping previous ${category.gender} source list because scraped ranking returned only ${scrapedPlayers.length} rows; previous source has ${existingCategoryPlayers.length}.`
-    );
-    finalPlayers.push(...existingCategoryPlayers);
-  } else if (scrapedPlayers.length) {
-    finalPlayers.push(...scrapedPlayers);
-  } else {
-    finalPlayers.push(...existingCategoryPlayers);
-  }
+if (!scrapedPlayers.length) {
+  throw new Error("Official ranking scrape returned no players.");
 }
 
-if (finalPlayers.length !== categories.length * rankingLimit) {
-  warnings.push(`ITF ranking page returned ${finalPlayers.length} total rows; requested ${categories.length * rankingLimit}. Continuing with available rows.`);
-}
+const finalPlayers = sortPlayers(mergeScrapedPlayersIntoExisting(existingPlayers, scrapedPlayers));
 
 await fs.writeFile(sourcesFile, `${JSON.stringify(finalPlayers, null, 2)}\n`, "utf8");
 await fs.mkdir(path.dirname(previewFile), { recursive: true });
@@ -530,7 +297,9 @@ await fs.writeFile(
   `${JSON.stringify(
     {
       rankingDate,
-      players: finalPlayers,
+      scrapedPlayers,
+      totalPlayersInBase: finalPlayers.length,
+      rankingLimit,
       warnings,
       scrapedAt: new Intl.DateTimeFormat("pt-BR", {
         dateStyle: "short",
@@ -544,5 +313,5 @@ await fs.writeFile(
   "utf8"
 );
 
-console.log(`Scraped official ranking sources for ${finalPlayers.length} players.`);
+console.log(`Scraped official ranking for ${scrapedPlayers.length} top-ranked players; base now has ${finalPlayers.length} total players.`);
 for (const warning of warnings) console.warn(warning);
