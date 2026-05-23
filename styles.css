@@ -720,32 +720,32 @@ table:not(.is-official-table) td:nth-child(6) {
   display: none;
 }
 
-.points-flow-toggle-symbol {
+.points-flow-toggle-text {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 30px;
-  height: 30px;
-  border-radius: 999px;
-  background: var(--surface-neutral);
   color: var(--muted);
-  font-size: 1.1rem;
-  font-weight: 900;
+  font-size: 0.68rem;
+  font-weight: 800;
   line-height: 1;
   flex: 0 0 auto;
+  text-transform: uppercase;
 }
 
-.points-flow-toggle-symbol::before {
-  content: "+";
+.points-flow-toggle-text .is-open {
+  display: none;
 }
 
-.points-flow-summary:hover .points-flow-toggle-symbol {
-  background: var(--surface-neutral-hover);
+.points-flow-summary:hover .points-flow-toggle-text {
   color: var(--ink);
 }
 
-.points-flow-disclosure[open] .points-flow-toggle-symbol::before {
-  content: "-";
+.points-flow-disclosure[open] .points-flow-toggle-text .is-closed {
+  display: none;
+}
+
+.points-flow-disclosure[open] .points-flow-toggle-text .is-open {
+  display: inline;
 }
 
 .points-flow-panel {

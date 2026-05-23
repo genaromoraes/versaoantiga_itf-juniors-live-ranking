@@ -78,7 +78,9 @@ const translations = {
     official: "oficial",
     maximum: "máximo",
     pointsDefended: "Pontos defendidos nesta semana",
-    pointsEntering: "Pontos entrando no torneio atual"
+    pointsEntering: "Pontos entrando no torneio atual",
+    showDetails: "Mostrar detalhes",
+    hideDetails: "Fechar detalhes"
   },
   en: {
     htmlLang: "en",
@@ -121,7 +123,9 @@ const translations = {
     official: "official",
     maximum: "maximum",
     pointsDefended: "Points defended this week",
-    pointsEntering: "Points entering from current tournament"
+    pointsEntering: "Points entering from current tournament",
+    showDetails: "Show details",
+    hideDetails: "Hide details"
   },
   es: {
     htmlLang: "es",
@@ -164,7 +168,9 @@ const translations = {
     official: "oficial",
     maximum: "máximo",
     pointsDefended: "Puntos defendidos esta semana",
-    pointsEntering: "Puntos que entran del torneo actual"
+    pointsEntering: "Puntos que entran del torneo actual",
+    showDetails: "Mostrar detalles",
+    hideDetails: "Cerrar detalles"
   },
   it: {
     htmlLang: "it",
@@ -207,7 +213,9 @@ const translations = {
     official: "ufficiale",
     maximum: "massimo",
     pointsDefended: "Punti difesi questa settimana",
-    pointsEntering: "Punti in entrata dal torneo attuale"
+    pointsEntering: "Punti in entrata dal torneo attuale",
+    showDetails: "Mostra dettagli",
+    hideDetails: "Chiudi dettagli"
   },
   fr: {
     htmlLang: "fr",
@@ -250,7 +258,9 @@ const translations = {
     official: "officiel",
     maximum: "maximum",
     pointsDefended: "Points défendus cette semaine",
-    pointsEntering: "Points entrant du tournoi actuel"
+    pointsEntering: "Points entrant du tournoi actuel",
+    showDetails: "Afficher les détails",
+    hideDetails: "Fermer les détails"
   }
 };
 
@@ -1141,9 +1151,12 @@ function pointsFlowDisclosure(pointsBalance) {
 
   return `
     <details class="points-flow-disclosure">
-      <summary class="points-flow-summary" aria-label="Ver detalhes de pontos">
+      <summary class="points-flow-summary" aria-label="${escapeHtml(t("showDetails"))}">
         ${balancePill}
-        <span class="points-flow-toggle-symbol" aria-hidden="true"></span>
+        <span class="points-flow-toggle-text">
+          <span class="is-closed">${escapeHtml(t("showDetails"))}</span>
+          <span class="is-open">${escapeHtml(t("hideDetails"))}</span>
+        </span>
       </summary>
       <div class="points-flow-panel">
         ${dropMarkup}
