@@ -570,8 +570,10 @@ function defendingFromResults(results, type) {
     .map((result) => ({
       type,
       event: result.event,
+      round: result.round || result.grade || "",
       points: result.points,
-      date: result.dropDate || result.date
+      date: result.date,
+      dropDate: result.dropDate || result.date
     }));
 }
 
