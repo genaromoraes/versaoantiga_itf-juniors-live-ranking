@@ -3,8 +3,10 @@ name: Update live weekly data
 on:
   workflow_dispatch:
   schedule:
-    # Atualizacao operacional a cada 30 minutos, evitando minutos congestionados do agendador do GitHub.
-    - cron: "7,37 * * * *"
+    # O scheduler do GitHub pode atrasar ou pular janelas.
+    # Tentamos a cada 10 minutos e o proprio workflow so executa de verdade
+    # quando a ultima atualizacao ja tem 30 minutos ou mais.
+    - cron: "7,17,27,37,47,57 * * * *"
 
 permissions:
   contents: write
@@ -28,32 +30,46 @@ jobs:
           git fetch origin main
           git pull --rebase origin main
 
+      - name: Decide whether live update is due
+        id: due
+        run: node pipeline/should-run-live-update.mjs
+        env:
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+
       - name: Setup Node.js
+        if: steps.due.outputs.should_run == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: 22
 
       - name: Install dependencies
+        if: steps.due.outputs.should_run == 'true'
         run: npm install
 
       - name: Install browser
+        if: steps.due.outputs.should_run == 'true'
         run: npx playwright install --with-deps chromium
 
       - name: Refresh ITF official ranking base
+        if: steps.due.outputs.should_run == 'true'
         run: npm run scrape:ranking
         env:
           RANKING_LIMIT: "1000"
 
       - name: Scrape weekly tournament results
+        if: steps.due.outputs.should_run == 'true'
         run: npm run scrape:weekly
 
       - name: Generate latest data
+        if: steps.due.outputs.should_run == 'true'
         run: npm run build:data
 
       - name: Validate latest data
+        if: steps.due.outputs.should_run == 'true'
         run: npm run validate:data
 
       - name: Commit live weekly data
+        if: steps.due.outputs.should_run == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -62,3 +78,7 @@ jobs:
           git commit -m "Update live weekly data"
           git pull --rebase origin main
           git push
+
+      - name: Skip summary
+        if: steps.due.outputs.should_run != 'true'
+        run: echo "${{ steps.due.outputs.reason }}"
