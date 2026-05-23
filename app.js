@@ -434,7 +434,9 @@ function groupedWeeklyTournaments() {
 
   for (const tournament of state.weeklyTournaments || []) {
     const grade = String(tournament.grade || "Outros").trim() || "Outros";
-    const tournamentName = String(tournament.tournamentName || "").trim();
+    const tournamentName = String(tournament.tournamentName || "")
+      .replace(new RegExp(`^${grade}\\s+`, "i"), "")
+      .trim();
     if (!tournamentName) continue;
 
     if (!grouped.has(grade)) grouped.set(grade, new Set());
