@@ -3,7 +3,8 @@ const state = {
   selectedId: null,
   language: localStorage.getItem("itf-juniors-language") || "pt",
   theme: localStorage.getItem("itf-juniors-theme") || "light",
-  dataSource: typeof dataSource !== "undefined" ? dataSource : {}
+  dataSource: typeof dataSource !== "undefined" ? dataSource : {},
+  weeklyTournaments: []
 };
 
 const LIVE_RANKING_TABLE_LIMIT = 1000;
@@ -30,7 +31,9 @@ const els = {
   categoryLabel: document.querySelector("#categoryLabel"),
   sortLabel: document.querySelector("#sortLabel"),
   liveRankingTitle: document.querySelector("#liveRankingTitle"),
-  playerPanelTitle: document.querySelector("#playerPanelTitle")
+  playerPanelTitle: document.querySelector("#playerPanelTitle"),
+  weeklyTournamentsTitle: document.querySelector("#weeklyTournamentsTitle"),
+  weeklyTournamentsList: document.querySelector("#weeklyTournamentsList")
 };
 
 const translations = {
@@ -252,6 +255,16 @@ const translations = {
 };
 
 translations.pt.updated = "\u00DAltima atualiza\u00E7\u00E3o";
+translations.pt.weeklyTournaments = "Torneios da semana";
+translations.pt.noWeeklyTournaments = "Nenhum torneio detectado nesta semana";
+translations.en.weeklyTournaments = "This week's tournaments";
+translations.en.noWeeklyTournaments = "No tournaments detected this week";
+translations.es.weeklyTournaments = "Torneos de la semana";
+translations.es.noWeeklyTournaments = "No se detectaron torneos esta semana";
+translations.it.weeklyTournaments = "Tornei della settimana";
+translations.it.noWeeklyTournaments = "Nessun torneo rilevato questa settimana";
+translations.fr.weeklyTournaments = "Tournois de la semaine";
+translations.fr.noWeeklyTournaments = "Aucun tournoi detecte cette semaine";
 
 function t(key) {
   return (translations[state.language] || translations.pt)[key] || translations.pt[key] || key;
@@ -353,6 +366,7 @@ function updateStaticText() {
   els.sortFilter.querySelector('option[value="officialRank"]').textContent = t("officialRank");
   els.liveRankingTitle.textContent = t("liveRanking");
   els.playerPanelTitle.textContent = t("playerPoints");
+  if (els.weeklyTournamentsTitle) els.weeklyTournamentsTitle.textContent = t("weeklyTournaments");
   els.dataSourceNote.textContent = t("formula");
 
   if (state.dataSource.rankingDate && els.weekLabel) els.weekLabel.innerHTML = weekLabelMarkup(state.dataSource.rankingDate);
@@ -377,17 +391,83 @@ function applyDataSet(payload) {
 
   updateStaticText();
   renderEmptyDetails();
+  renderWeeklyTournaments();
   renderTable();
 }
 
 async function loadAutomatedData() {
   try {
-    const response = await fetch(`data/latest.json?v=${Date.now()}`, { cache: "no-store" });
-    if (!response.ok) return;
-    applyDataSet(await response.json());
+    const cacheToken = Date.now();
+    const [latestResponse, weeklyTournamentsResponse] = await Promise.all([
+      fetch(`data/latest.json?v=${cacheToken}`, { cache: "no-store" }),
+      fetch(`data/weekly-tournaments-preview.json?v=${cacheToken}`, { cache: "no-store" })
+    ]);
+
+    if (latestResponse.ok) {
+      applyDataSet(await latestResponse.json());
+    }
+
+    if (weeklyTournamentsResponse.ok) {
+      const weeklyPayload = await weeklyTournamentsResponse.json();
+      state.weeklyTournaments = Array.isArray(weeklyPayload?.tournaments) ? weeklyPayload.tournaments : [];
+      renderWeeklyTournaments();
+    }
   } catch {
     // Opening the HTML file directly can block fetch; the built-in sample data keeps the app usable.
   }
+}
+
+function compareTournamentGrades(left = "", right = "") {
+  const order = ["JGS", "J500", "J300", "J200", "J100", "J60", "J30"];
+  const leftIndex = order.indexOf(String(left).toUpperCase());
+  const rightIndex = order.indexOf(String(right).toUpperCase());
+
+  if (leftIndex === -1 && rightIndex === -1) return String(left).localeCompare(String(right));
+  if (leftIndex === -1) return 1;
+  if (rightIndex === -1) return -1;
+
+  return leftIndex - rightIndex;
+}
+
+function groupedWeeklyTournaments() {
+  const grouped = new Map();
+
+  for (const tournament of state.weeklyTournaments || []) {
+    const grade = String(tournament.grade || "Outros").trim() || "Outros";
+    const tournamentName = String(tournament.tournamentName || "").trim();
+    if (!tournamentName) continue;
+
+    if (!grouped.has(grade)) grouped.set(grade, new Set());
+    grouped.get(grade).add(tournamentName);
+  }
+
+  return [...grouped.entries()]
+    .sort((a, b) => compareTournamentGrades(a[0], b[0]))
+    .map(([grade, names]) => ({
+      grade,
+      tournaments: [...names].sort((a, b) => a.localeCompare(b))
+    }));
+}
+
+function renderWeeklyTournaments() {
+  if (!els.weeklyTournamentsList) return;
+
+  const groups = groupedWeeklyTournaments();
+  if (!groups.length) {
+    els.weeklyTournamentsList.innerHTML = `<p class="weekly-tournaments-empty">${escapeHtml(t("noWeeklyTournaments"))}</p>`;
+    return;
+  }
+
+  els.weeklyTournamentsList.innerHTML = groups
+    .map(
+      (group) => `
+        <div class="weekly-tournament-group">
+          <span class="weekly-tournament-grade">${escapeHtml(group.grade)}</span>
+          <span class="weekly-tournament-names">${escapeHtml(group.tournaments.join(", "))}</span>
+        </div>
+      `
+    )
+    .join("");
 }
 
 function rankedResults(results = [], multiplier = 1) {
@@ -1136,6 +1216,7 @@ els.languageSelect.addEventListener("input", () => {
   state.language = els.languageSelect.value;
   localStorage.setItem("itf-juniors-language", state.language);
   updateStaticText();
+  renderWeeklyTournaments();
   renderTable();
   if (state.selectedId) renderDetails(state.selectedId);
 });
@@ -1150,5 +1231,6 @@ if (els.themeSelect) {
 
 updateStaticText();
 renderEmptyDetails();
+renderWeeklyTournaments();
 renderTable();
 loadAutomatedData();

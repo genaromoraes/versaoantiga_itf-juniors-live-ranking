@@ -253,6 +253,50 @@ label,
   align-items: end;
 }
 
+.weekly-tournaments-panel {
+  margin-bottom: 20px;
+  padding: 16px 20px;
+}
+
+.weekly-tournaments-heading {
+  margin-bottom: 10px;
+}
+
+.weekly-tournaments-heading h2 {
+  margin-bottom: 0;
+}
+
+.weekly-tournaments-list {
+  display: grid;
+  gap: 8px;
+}
+
+.weekly-tournament-group {
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr);
+  gap: 10px;
+  align-items: start;
+}
+
+.weekly-tournament-grade {
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 900;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.weekly-tournament-names,
+.weekly-tournaments-empty {
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.35;
+}
+
+.weekly-tournaments-empty {
+  margin: 0;
+}
+
 .week-card span:empty {
   display: none;
 }
