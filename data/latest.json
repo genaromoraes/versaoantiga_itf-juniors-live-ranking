@@ -1,7 +1,7 @@
 {
   "dataSource": {
     "rankingDate": "18 mai 2026",
-    "updatedAt": "22/05/2026, 19:42",
+    "updatedAt": "22/05/2026, 21:25",
     "note": "Pontos = 6 melhores resultados de simples + 25% dos 6 melhores resultados de duplas"
   },
   "players": [
@@ -71284,14 +71284,17 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
-        "singlesPoints": 0,
+        "event": "J60 Fredericton",
+        "grade": "J60",
+        "singlesStatus": "Ativo",
+        "singlesRound": "Final",
+        "singlesPoints": 36,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/andy-tchinda-kepche/800672663/can/jt/s/itf-points-breakdown/"
     },
@@ -86755,14 +86758,17 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
-        "singlesPoints": 0,
+        "event": "J60 Fredericton",
+        "grade": "J60",
+        "singlesStatus": "Ativo",
+        "singlesRound": "Final",
+        "singlesPoints": 36,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/gadin-arun/800716820/usa/jt/s/itf-points-breakdown/"
     },
@@ -95086,14 +95092,17 @@
         }
       ],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
-        "singlesPoints": 0,
+        "event": "J60 Villahermosa",
+        "grade": "J60",
+        "singlesStatus": "Ativo",
+        "singlesRound": "SF",
+        "singlesPoints": 18,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/harold-ronaldo-andre-cotom-hidalgo/800692700/gua/jt/s/itf-points-breakdown/"
     },
@@ -103950,14 +103959,17 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
-        "singlesPoints": 0,
+        "event": "J60 Fredericton",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "SF",
+        "singlesPoints": 18,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/loic-massotte/800688517/can/jt/s/itf-points-breakdown/"
     },
@@ -104723,17 +104735,14 @@
         }
       ],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "R32",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/jaume-casas-blasi/800667513/esp/jt/s/itf-points-breakdown/"
     },
@@ -119376,14 +119385,17 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
-        "singlesPoints": 0,
+        "event": "J60 Villahermosa",
+        "grade": "J60",
+        "singlesStatus": "Ativo",
+        "singlesRound": "SF",
+        "singlesPoints": 18,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/niccolo-magagnin/800718989/ita/jt/s/itf-points-breakdown/"
     },
@@ -136984,17 +136996,14 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "QF",
-        "singlesPoints": 10,
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
+        "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/tomas-lagarde/800630490/fra/jt/s/itf-points-breakdown/"
     },
@@ -152644,17 +152653,14 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "R64",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/zayyan-virani/800675502/ken/jt/s/itf-points-breakdown/"
     },
@@ -155702,14 +155708,17 @@
         }
       ],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
-        "singlesPoints": 0,
+        "event": "J60 Fredericton",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "QF",
+        "singlesPoints": 10,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/brayden-woo/800734058/can/jt/s/itf-points-breakdown/"
     },
@@ -161565,17 +161574,14 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "QF",
-        "singlesPoints": 10,
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
+        "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/marc-puig-mont/800791700/esp/jt/s/itf-points-breakdown/"
     },
@@ -164574,14 +164580,17 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
-        "singlesPoints": 0,
+        "event": "J60 Villahermosa",
+        "grade": "J60",
+        "singlesStatus": "Ativo",
+        "singlesRound": "SF",
+        "singlesPoints": 18,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/jaime-gomez-lopez/800743167/mex/jt/s/itf-points-breakdown/"
     },
@@ -166013,14 +166022,17 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
-        "singlesPoints": 0,
+        "event": "J60 Fredericton",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "SF",
+        "singlesPoints": 18,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/rafael-bote/800671394/can/jt/s/itf-points-breakdown/"
     },
@@ -172040,14 +172052,17 @@
         }
       ],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
-        "singlesPoints": 0,
+        "event": "J60 Fredericton",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "QF",
+        "singlesPoints": 10,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/marc-edouard-lallier/800712978/can/jt/s/itf-points-breakdown/"
     },
@@ -195618,17 +195633,14 @@
         }
       ],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Ativo",
-        "singlesRound": "SF",
-        "singlesPoints": 18,
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
+        "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/jiacheng-li/800747931/chn/jt/s/itf-points-breakdown/"
     },
@@ -215123,14 +215135,17 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
-        "singlesPoints": 0,
+        "event": "J60 Fredericton",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "QF",
+        "singlesPoints": 10,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/arjun-krishnan/800771606/usa/jt/s/itf-points-breakdown/"
     },
@@ -223282,14 +223297,17 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
-        "singlesPoints": 0,
+        "event": "J60 Villahermosa",
+        "grade": "J60",
+        "singlesStatus": "Ativo",
+        "singlesRound": "SF",
+        "singlesPoints": 18,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/juan-manuel-ascencion/800735177/mex/jt/s/itf-points-breakdown/"
     },
@@ -233567,14 +233585,17 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
-        "singlesPoints": 0,
+        "event": "J60 Villahermosa",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "QF",
+        "singlesPoints": 10,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/omar-alejandro-ascencion/800735179/mex/jt/s/itf-points-breakdown/"
     },
@@ -243511,14 +243532,17 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
-        "singlesPoints": 0,
+        "event": "J60 Villahermosa",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "QF",
+        "singlesPoints": 10,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/ricardo-dorantes-ramos/800776732/mex/jt/s/itf-points-breakdown/"
     },
@@ -255361,14 +255385,17 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
+        "event": "J60 Villahermosa",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "R64",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/alejandro-calles/800777437/mex/jt/s/itf-points-breakdown/"
     },
@@ -255668,17 +255695,14 @@
         }
       ],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "R32",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/alejandro-marco/800762826/esp/jt/s/itf-points-breakdown/"
     },
@@ -256070,17 +256094,14 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "R64",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/alex-escofet-berge/800730861/esp/jt/s/itf-points-breakdown/"
     },
@@ -257758,17 +257779,14 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Ativo",
-        "singlesRound": "SF",
-        "singlesPoints": 18,
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
+        "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/alvaro-lago-furio/800708031/esp/jt/s/itf-points-breakdown/"
     },
@@ -260544,14 +260562,17 @@
         }
       ],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
+        "event": "J60 Villahermosa",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "R32",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/antonio-jimenez/800697521/mex/jt/s/itf-points-breakdown/"
     },
@@ -266167,14 +266188,17 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
-        "singlesPoints": 0,
+        "event": "J60 Fredericton",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "QF",
+        "singlesPoints": 10,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/carter-jauffret/800781938/usa/jt/s/itf-points-breakdown/"
     },
@@ -268663,14 +268687,17 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
+        "event": "J60 Villahermosa",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "R64",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/dan-schwartz/800750954/mex/jt/s/itf-points-breakdown/"
     },
@@ -270815,17 +270842,14 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "J100 Varnamo",
-        "grade": "J100",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "Q2",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 100,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/david-gerremo-diedrichs/800753870/swe/jt/s/itf-points-breakdown/"
     },
@@ -271028,17 +271052,14 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Ativo",
-        "singlesRound": "SF",
-        "singlesPoints": 18,
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
+        "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/david-hustin-alemany/800758305/esp/jt/s/itf-points-breakdown/"
     },
@@ -274779,17 +274800,14 @@
         }
       ],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "R32",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/eduard-khaikov/800654326/esp/jt/s/itf-points-breakdown/"
     },
@@ -276102,14 +276120,17 @@
         }
       ],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
+        "event": "J60 Villahermosa",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "R64",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/emmanuel-martinez-reza/800782408/mex/jt/s/itf-points-breakdown/"
     },
@@ -276550,17 +276571,14 @@
         }
       ],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "QF",
-        "singlesPoints": 10,
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
+        "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/enric-novell/800738629/esp/jt/s/itf-points-breakdown/"
     },
@@ -276619,14 +276637,17 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
+        "event": "J60 Villahermosa",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "R64",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/enrique-fuentes/800724849/mex/jt/s/itf-points-breakdown/"
     },
@@ -277852,14 +277873,17 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
+        "event": "J60 Villahermosa",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "R64",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/fernando-saravia-gandara/800801381/mex/jt/s/itf-points-breakdown/"
     },
@@ -280186,17 +280210,14 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "R64",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/gerard-sawatzki/800736948/esp/jt/s/itf-points-breakdown/"
     },
@@ -281528,17 +281549,14 @@
         }
       ],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "R64",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/gregor-distler/800766125/ger/jt/s/itf-points-breakdown/"
     },
@@ -284582,17 +284600,14 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "R64",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/hyeonu-nam/800717647/kor/jt/s/itf-points-breakdown/"
     },
@@ -287350,17 +287365,14 @@
         }
       ],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "R64",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/jan-garcia/800603812/esp/jt/s/itf-points-breakdown/"
     },
@@ -290529,17 +290541,14 @@
         }
       ],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "R64",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/jose-ignacio-cuevas/800596362/esp/jt/s/itf-points-breakdown/"
     },
@@ -290884,14 +290893,17 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
+        "event": "J60 Villahermosa",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "R64",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/juan-manuel-aramburo-garcia/800817844/mex/jt/s/itf-points-breakdown/"
     },
@@ -291056,17 +291068,14 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Ativo",
-        "singlesRound": "SF",
-        "singlesPoints": 18,
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
+        "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/julio-zarate-fernandez/800706379/esp/jt/s/itf-points-breakdown/"
     },
@@ -293570,17 +293579,14 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "R64",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/kuzma-avdeev/800639376/rus/jt/s/itf-points-breakdown/"
     },
@@ -294569,17 +294575,14 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "J100 Varnamo",
-        "grade": "J100",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "Q1",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 100,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/leo-kullberg/800773727/swe/jt/s/itf-points-breakdown/"
     },
@@ -294842,14 +294845,17 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
-        "singlesPoints": 0,
+        "event": "J60 Villahermosa",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "QF",
+        "singlesPoints": 10,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/leonardo-calles-salinas/800773934/mex/jt/s/itf-points-breakdown/"
     },
@@ -296970,17 +296976,14 @@
         }
       ],
       "liveEvent": {
-        "event": "J100 Varnamo",
-        "grade": "J100",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "Q2",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 100,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/lucas-strid/800733608/swe/jt/s/itf-points-breakdown/"
     },
@@ -297493,14 +297496,17 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
+        "event": "J60 Villahermosa",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "R64",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/luis-manuel-abella-alcalde/800745474/mex/jt/s/itf-points-breakdown/"
     },
@@ -298690,17 +298696,14 @@
         }
       ],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "R64",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/marc-schulz-barrera/800684657/esp/jt/s/itf-points-breakdown/"
     },
@@ -298967,17 +298970,14 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "QF",
-        "singlesPoints": 10,
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
+        "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/marcos-romero-ramos/800684016/esp/jt/s/itf-points-breakdown/"
     },
@@ -299604,14 +299604,17 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
+        "event": "J60 Villahermosa",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "R32",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/macario-reyna/800706127/mex/jt/s/itf-points-breakdown/"
     },
@@ -301207,17 +301210,14 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "R32",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/marcos-valent-guazzora/800806259/esp/jt/s/itf-points-breakdown/"
     },
@@ -303070,17 +303070,14 @@
         }
       ],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "R32",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/matias-anchoriz-sunol/800799799/esp/jt/s/itf-points-breakdown/"
     },
@@ -303414,14 +303411,17 @@
         }
       ],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
+        "event": "J60 Villahermosa",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "R64",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/matteo-limones-munoz/800813878/mex/jt/s/itf-points-breakdown/"
     },
@@ -308820,14 +308820,17 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
+        "event": "J60 Villahermosa",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "R32",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/nicolas-reyes-dominguez/800774258/mex/jt/s/itf-points-breakdown/"
     },
@@ -309227,17 +309230,14 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "R64",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/nicolau-canas-urbiola/800762294/esp/jt/s/itf-points-breakdown/"
     },
@@ -310206,17 +310206,14 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "J100 Varnamo",
-        "grade": "J100",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "Q2",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 100,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/noah-roberte/800728774/swe/jt/s/itf-points-breakdown/"
     },
@@ -311247,17 +311244,14 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "R64",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/oriol-alvarez-velis/800671630/esp/jt/s/itf-points-breakdown/"
     },
@@ -312217,14 +312211,17 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
+        "event": "J60 Villahermosa",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "R32",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/patricio-alvarez-chavez/800818812/mex/jt/s/itf-points-breakdown/"
     },
@@ -312421,14 +312418,17 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
+        "event": "J60 Villahermosa",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "R32",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/patricio-fuentes-valencia/800737004/mex/jt/s/itf-points-breakdown/"
     },
@@ -312601,14 +312601,17 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
+        "event": "J60 Villahermosa",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "R64",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/patricio-quintana-zapata/800738513/mex/jt/s/itf-points-breakdown/"
     },
@@ -313298,17 +313301,14 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "R64",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/pau-berto-bosca/800591122/esp/jt/s/itf-points-breakdown/"
     },
@@ -314546,17 +314546,14 @@
         }
       ],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "R64",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/quim-fuentes-duran/800770723/mex/jt/s/itf-points-breakdown/"
     },
@@ -317504,17 +317501,14 @@
         }
       ],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "R32",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/renato-kurmanaev/800757100/esp/jt/s/itf-points-breakdown/"
     },
@@ -317578,17 +317572,14 @@
         }
       ],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "R32",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/ricard-lazaro-farres/800737353/esp/jt/s/itf-points-breakdown/"
     },
@@ -318281,14 +318272,17 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
+        "event": "J60 Villahermosa",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "R64",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/roberto-alexis-vega-velazquez/800721201/mex/jt/s/itf-points-breakdown/"
     },
@@ -321586,14 +321580,17 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
-        "singlesPoints": 0,
+        "event": "J60 Villahermosa",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "QF",
+        "singlesPoints": 10,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/santiago-brocker-ordaz/800739109/mex/jt/s/itf-points-breakdown/"
     },
@@ -321906,14 +321903,17 @@
         }
       ],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
+        "event": "J60 Villahermosa",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "R64",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/santiago-rodriguez/800777926/mex/jt/s/itf-points-breakdown/"
     },
@@ -323166,17 +323166,14 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "R32",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/sergio-paulo-bastos-sousa-betanzos/800592426/esp/jt/s/itf-points-breakdown/"
     },
@@ -324748,17 +324745,14 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "J100 Varnamo",
-        "grade": "J100",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "Q1",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 100,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/spyridon-sioutas/800654611/swe/jt/s/itf-points-breakdown/"
     },
@@ -330895,14 +330889,17 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
+        "event": "J60 Villahermosa",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "R64",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/vinicius-amann-silveira/800711502/bra/jt/s/itf-points-breakdown/"
     },
@@ -331726,14 +331723,17 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "",
-        "grade": "",
-        "singlesStatus": "Nao joga",
-        "singlesRound": "Nao joga",
+        "event": "J60 Villahermosa",
+        "grade": "J60",
+        "singlesStatus": "Eliminado",
+        "singlesRound": "R32",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0
+        "doublesPoints": 0,
+        "singlesMaxPoints": 60,
+        "doublesMaxPoints": 0,
+        "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/victor-aleksander-gonzalez/800804224/mex/jt/s/itf-points-breakdown/"
     },
@@ -339328,17 +339328,14 @@
         }
       ],
       "liveEvent": {
-        "event": "J60 Les Franqueses del Vallès",
-        "grade": "J60",
-        "singlesStatus": "Eliminado",
-        "singlesRound": "R64",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
         "doublesStatus": "Nao joga",
         "doublesRound": "Nao joga",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 60,
-        "doublesMaxPoints": 0,
-        "source": "data/weekly-results.csv"
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/kyungone-kim/800624178/kor/jt/s/itf-points-breakdown/"
     },
@@ -468341,11 +468338,11 @@
         "singlesStatus": "Ativo",
         "singlesRound": "SF",
         "singlesPoints": 9,
-        "doublesStatus": "Ativo",
-        "doublesRound": "SF",
-        "doublesPoints": 6,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0,
         "singlesMaxPoints": 30,
-        "doublesMaxPoints": 25,
+        "doublesMaxPoints": 0,
         "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/zeinab-ayadi/800644151/tun/jt/s/itf-points-breakdown/"
@@ -518244,11 +518241,11 @@
         "singlesStatus": "Ativo",
         "singlesRound": "SF",
         "singlesPoints": 9,
-        "doublesStatus": "Ativo",
-        "doublesRound": "SF",
-        "doublesPoints": 6,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0,
         "singlesMaxPoints": 30,
-        "doublesMaxPoints": 25,
+        "doublesMaxPoints": 0,
         "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/justine-fuchs/800736955/fra/jt/s/itf-points-breakdown/"
@@ -554841,11 +554838,11 @@
         "singlesStatus": "Ativo",
         "singlesRound": "SF",
         "singlesPoints": 9,
-        "doublesStatus": "Ativo",
-        "doublesRound": "SF",
-        "doublesPoints": 6,
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0,
         "singlesMaxPoints": 30,
-        "doublesMaxPoints": 25,
+        "doublesMaxPoints": 0,
         "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/neirouz-myriam-godhbane/800836985/fra/jt/s/itf-points-breakdown/"
@@ -558326,11 +558323,11 @@
         "singlesStatus": "Ativo",
         "singlesRound": "SF",
         "singlesPoints": 9,
-        "doublesStatus": "Eliminado",
-        "doublesRound": "R32",
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
         "doublesPoints": 0,
         "singlesMaxPoints": 30,
-        "doublesMaxPoints": 25,
+        "doublesMaxPoints": 0,
         "source": "data/weekly-results.csv"
       },
       "sourceUrl": "https://www.itftennis.com/en/players/safia-allani/800696205/tun/jt/s/itf-points-breakdown/"
@@ -582170,17 +582167,14 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "J30 Kairouan",
-        "grade": "J30",
-        "singlesStatus": "Ativo",
-        "singlesRound": "Q2",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
-        "doublesStatus": "Eliminado",
-        "doublesRound": "R32",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 30,
-        "doublesMaxPoints": 25,
-        "source": "data/weekly-results.csv"
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/eya-mehiri/800833844/tun/jt/s/itf-points-breakdown/"
     },
@@ -612701,17 +612695,14 @@
       ],
       "defending": [],
       "liveEvent": {
-        "event": "J30 Kairouan",
-        "grade": "J30",
-        "singlesStatus": "Ativo",
-        "singlesRound": "Q2",
+        "event": "",
+        "grade": "",
+        "singlesStatus": "Nao joga",
+        "singlesRound": "Nao joga",
         "singlesPoints": 0,
-        "doublesStatus": "Eliminado",
-        "doublesRound": "R32",
-        "doublesPoints": 0,
-        "singlesMaxPoints": 30,
-        "doublesMaxPoints": 25,
-        "source": "data/weekly-results.csv"
+        "doublesStatus": "Nao joga",
+        "doublesRound": "Nao joga",
+        "doublesPoints": 0
       },
       "sourceUrl": "https://www.itftennis.com/en/players/sarra-marmouch/800856668/tun/jt/s/itf-points-breakdown/"
     },
@@ -628602,6 +628593,6 @@
     "safia-allani",
     "neirouz-myriam-godhbane"
   ],
-  "partialUpdateReason": "Preserved previous data for: adam-ghalas, aidan-gionis, aitemir-yeraliyev, alejandro-guardia, alex-roberts, alexander-stefanov, alexandr-sofrygin, andre-cadavid, andres-romero-malagrino, angel-giovanny-escarpeta-tovar, antonio-rodrigues, ares-ferhati, artem-ozerov, arthur-king, arthur-zhyznomirskyy, ashley-ward, augustin-warter, axel-rozdilsky, ben-coxon, biel-jimenez-habermeyer, bradley-barnaby, brayden-sophos, bruno-gonzalez-rosales, daniel-garcia-texta, daniial-karymbaev, daniil-karpenko, daniil-simdyashkin, dastan-arsenov, david-levy, david-ricardo-celaya-montalvo, david-strecht-ribeiro, debrito-borys, dhanush-m, diogo-goncalves, dmitry-mosov, dylan-charlier, eduardo-jose-garcia-ojeda, eduardo-sanchez-astor, edward-bennett, elia-bonaduce, elias-el-bouhali, eliot-hagege, emiliano-rojas-wong, enric-martin-pericas, erik-yael-alday-morales, ernesto-torres, francisco-torres, gabriel-severin, gael-lage-toledo, gaku-matsumoto, giulio-borriello, giuseppe-antonio-benedetto, goncalo-miguel-monteiro-caramelo, goncalo-vale, gonzalo-rozas-silvera, gustavo-v-rico, harrison-clowe, hubert-gelinas, ian-morales, ian-perez, igor-markelov, isaac-leigh, iskander-murat, ismail-raiss, ivan-bondarenko, ivo-palczynski, jacek-biernacki, jack-hebert, jack-naas, jacobo-gomez-pato, javier-martinez-nohales, jeremie-ross-dufour, jeren-devera, jiahao-wang, joao-marcus-vieira, jonathan-rusnak, jordi-garcia-barrera, jorge-alvarez-mosteiro, jorge-ricardo-rodriguez-loubet, josue-jovel, jude-stewart, jun-xu, kalys-kazakbaev, kim-young-jun, kirill-ponomarev, kirill-voroshilov, kongyi-hu, luis-bernardo-saraiva, laga-tu, leon-bekker, leonardo-juarez-magana, lorenzo-garcia-uribe, luca-ktori, lucian-enns, luis-ahrens, malachi-obrien, manuel-anel, marcelo-gonzalez-salinas, matias-cruz-garcia, matias-martell-heredia, mauricio-rosique-nadal, mauricio-sala, max-lendrum, mikhail-khegay, mohammed-amir-ballouchy, nathan-baldrey, nathan-baum, neo-hodkinson, nikita-mironov, noah-jon-tomas-martin, nuno-graca-moura, nurislam-musa, oliver-westbrook, oskar-laskowski, pol-chiesa-penalver, paavo-skogster, patricio-espinosa-de-los-monteros-moreno, patricio-mendez-carreno, pedro-anton-ruibal, rafael-beltran-medina-beltran, ramazan-kozhakhmet, ramon-talin-maiz, raphael-kalyuzhnov, robin-campasol, ron-teremi, rudra-raghuvanshi, sabyasachi-shubham-talukdar, sam-downs, sammy-debbagh, samuel-alejandro-mendoza-colmenares, samuel-riley, santiago-campos-serranos, santiago-farias, santiago-vasco, sebastian-gonzalez, sebastian-soto-ochoa, sergey-iliasov, siwoo-lee, spencer-collimore, sumedh-shivaji-gutte, tahir-ruzgar-ozcalabi, takayuki-sudo, tamim-soufy, teppei-harada, tom-lake, tomas-maduro, tomas-silveira, varun-vijay-kumar, wan-yang-yu, xavier-daigle, yamato-toyoshima, yaroslav-beganskii, yaroslav-ivanov, yaroslav-bobrov-bobrov-yaroslav, youssef-asso, yu-han-yang, yuri-colturi, zhijian-shen, ziyu-qian, zolbayar-ganbold, zuoyou-gu, soohwan-jeong, adiya-kenzhetay, ailana-tserenova, aitana-armesto-munoz, aleksandra-ozerova, aleksija-strika, alice-di-santo, alice-petersson, alice-amelie-staicovici, alina-shilova, amelie-caesar, ana-paula-avila-cabrera, ana-victoria-mella-garcia, angelina-farha, anna-lou-bottosso, ayana-shadubekova, barbara-banuelos-guillen, beatriz-assuncao, benedicte-lindorff, berta-salvador, carlota-escale-fisas, carolina-bernardo, carolina-toste, chenhan-xiang, chiara-bate, chuhan-cong, clara-abilova, cristina-aldana-cruz, cristina-stetsenko, daniela-duran-arce, domenica-farias, elena-garriga-gogoase, elisa-corsi, ella-constantien, elsa-olsson, emiliya-starusseva, emma-delija, emma-fitzgerald, enle-hu, eva-delmar, eva-gavshina, evangeline-dirnescu-morar, evelina-dzepa, febe-kenna, foteini-maria-fotopoulou, francesca-ponti, grace-gong-zhang, haeun-jo, hyo-sun-na, iana-kopylova, ingrid-coster, irene-rueda-reyes, iris-masetto, iulia-maria-pasca, julia-knorr, katia-maria-pemueller, lucrezia-cavalieri, lara-da-silva, laura-levy-levy, laura-rabaneda-rovira, leisan-iliasova, lena-corbier, lily-samuelsson, madeleine-berthelemy-grassi, madeleine-green, mako-kuwabara, marharyta-khomenko, maria-fernanda-martinez-herrera, maria-jose-chavez-quintero, maria-vittoria-franzoi, marianna-kyrillou, mariel-vargas, mariya-ankudinova, matilda-carey, meiqi-chen, meruert-turgan, mia-noetzig, michelle-nicole-patsa, milana-podlesnaya, mishika-suresh-balaji, montserrat-rodriguez, naeema-kubanychbekova, natalia-ember, nika-mosina, nina-mehrle, patricia-gutierrez-lage, paulina-herrera, queralt-lopez-alonso, renata-reut, riana-rayeva, saara-myzaeva, shanyi-zhou, siena-punti-pera, sienna-grace, silvana-gonzalez-arroyo, skylar-mandell, smilla-ronneke, sofia-aguilar-kolesnikova, sofia-sala-martinez, sofia-skrypnichenko, sofiia-leonenko, sofiia-vashchuk, sofiya-pak, sophia-florence, stella-zhivkova, tamar-gobechia, thelma-zimova, valencia-cui, valentina-canepa-zamarripa, valentina-soinatkvitz-martinez, valentine-charrier, valeria-eugenia-hernandez-salazar, valeria-gimeno-martinez, valeriia-bokova, victoria-ula-kur, viktoriya-oleinikova, xinyang-han, yasmin-jackson, yerika-narbekova, yichen-qian, yu-meng-zhang, yuriko-michihiro, yvette-kormos, zizeng-wang, hanbi-lee, xin-lei-peng",
-  "partialUpdateAt": "22/05/2026, 19:42"
+  "partialUpdateReason": "Preserved previous data for: adam-ghalas, aidan-gionis, aitemir-yeraliyev, albert-berglund, alejandro-guardia, alex-bassas-vila, alex-roberts, alexander-stefanov, alexandr-sofrygin, alfred-karlsson, andre-cadavid, andres-romero-malagrino, angel-giovanny-escarpeta-tovar, antonio-rodrigues, ares-ferhati, artem-ozerov, arthur-king, arthur-zhyznomirskyy, ashley-ward, augustin-warter, axel-mardh, axel-rozdilsky, ben-coxon, biel-jimenez-habermeyer, bradley-barnaby, brayden-sophos, carlos-marin-contreras, daniel-garcia-texta, daniial-karymbaev, daniil-karpenko, daniil-simdyashkin, dastan-arsenov, david-levy, david-ricardo-celaya-montalvo, david-strecht-ribeiro, debrito-borys, dhanush-m, diogo-goncalves, dmitry-mosov, dylan-charlier, eduardo-jose-garcia-ojeda, eduardo-sanchez-astor, edward-bennett, elia-bonaduce, elias-diep-niu, elias-el-bouhali, eliot-hagege, emiliano-rojas-wong, enric-martin-pericas, erik-jonsson, ernesto-torres, francisco-torres, gabriel-severin, gael-lage-toledo, gaku-matsumoto, giulio-borriello, giuseppe-antonio-benedetto, goncalo-miguel-monteiro-caramelo, goncalo-vale, gonzalo-rozas-silvera, harrison-clowe, hjalmar-nikka, hubert-gelinas, ian-morales, ian-perez, igor-markelov, isaac-leigh, iskander-murat, ismail-raiss, ivan-bondarenko, ivo-palczynski, jacek-biernacki, jack-hebert, jack-naas, jacobo-gomez-pato, jakob-jakob, javier-martinez-nohales, jeremie-ross-dufour, jeren-devera, jiahao-wang, joao-marcus-vieira, jonathan-rusnak, jordi-garcia-barrera, jorge-alvarez-mosteiro, jorge-ricardo-rodriguez-loubet, josue-jovel, jude-stewart, jun-xu, kalle-persson, kalys-kazakbaev, kim-young-jun, kirill-ponomarev, kirill-voroshilov, kongyi-hu, luis-bernardo-saraiva, laga-tu, leon-bekker, leonardo-juarez-magana, love-persson, luca-ktori, lucas-kempe, lucian-enns, luis-ahrens, malachi-obrien, manuel-anel, matias-cruz-garcia, matias-martell-heredia, mauricio-rosique-nadal, max-lendrum, mikhail-khegay, mohammed-amir-ballouchy, nathan-baldrey, nathan-baum, neo-hodkinson, nikita-mironov, noah-jon-tomas-martin, nuno-graca-moura, nurislam-musa, oliver-westbrook, oskar-laskowski, pol-chiesa-penalver, paavo-skogster, patricio-espinosa-de-los-monteros-moreno, patricio-mendez-carreno, pedro-anton-ruibal, rafael-beltran-medina-beltran, ramazan-kozhakhmet, ramon-talin-maiz, raphael-kalyuzhnov, robin-campasol, ron-teremi, rudra-raghuvanshi, sabyasachi-shubham-talukdar, sam-downs, sam-jitzmark-gren, sammy-debbagh, samuel-alejandro-mendoza-colmenares, samuel-riley, santiago-campos-serranos, santiago-farias, santiago-vasco, sebastian-gonzalez, sebastian-soto-ochoa, sergey-iliasov, siwoo-lee, spencer-collimore, sumedh-shivaji-gutte, tahir-ruzgar-ozcalabi, takayuki-sudo, tamim-soufy, teppei-harada, theo-walderyd, theodor-hagstrom, tom-lake, tomas-maduro, tomas-silveira, varish-reddy-annela, varun-vijay-kumar, viggo-kalleskog, viggo-salipurovic, viggo-sandstrom, vilgot-hidetun, vincent-behschnitt, wan-yang-yu, xavier-daigle, yamato-toyoshima, yaroslav-beganskii, yaroslav-ivanov, yaroslav-bobrov-bobrov-yaroslav, youssef-asso, yu-han-yang, yuri-colturi, zhijian-shen, ziyu-qian, zolbayar-ganbold, zuoyou-gu, soohwan-jeong, adiya-kenzhetay, ailana-tserenova, aitana-armesto-munoz, aleksandra-ozerova, aleksija-strika, alice-di-santo, alice-petersson, alice-amelie-staicovici, alina-shilova, amelie-caesar, ana-paula-avila-cabrera, ana-victoria-mella-garcia, angelina-farha, anna-lou-bottosso, ayana-shadubekova, barbara-banuelos-guillen, beatriz-assuncao, benedicte-lindorff, berta-salvador, carlota-escale-fisas, carolina-bernardo, carolina-toste, charline-bressan, chenhan-xiang, chiara-bate, chuhan-cong, clara-abilova, cristina-aldana-cruz, cristina-stetsenko, daniela-duran-arce, domenica-farias, elena-garriga-gogoase, elisa-corsi, ella-constantien, elsa-olsson, emiliya-starusseva, emma-delija, emma-fitzgerald, enle-hu, eva-delmar, eva-gavshina, evangeline-dirnescu-morar, evelina-dzepa, febe-kenna, foteini-maria-fotopoulou, francesca-ponti, grace-gong-zhang, haeun-jo, hyo-sun-na, iana-kopylova, ingrid-coster, irene-rueda-reyes, iris-masetto, iulia-maria-pasca, julia-knorr, katia-maria-pemueller, kenza-taktak, lina-ketata, lucrezia-cavalieri, lara-da-silva, laura-levy-levy, laura-rabaneda-rovira, leisan-iliasova, lena-corbier, lily-samuelsson, madeleine-berthelemy-grassi, madeleine-green, mako-kuwabara, marharyta-khomenko, maria-fernanda-martinez-herrera, maria-jose-chavez-quintero, maria-vittoria-franzoi, marianna-kyrillou, mariel-vargas, mariya-ankudinova, matilda-carey, maya-chaieb, meiqi-chen, melika-saidi, meruert-turgan, mia-noetzig, michelle-nicole-patsa, milana-podlesnaya, mishika-suresh-balaji, montserrat-rodriguez, nadine-waja, naeema-kubanychbekova, natalia-ember, nika-mosina, nina-mehrle, olive-gerard-nguimbis-ewala, patricia-gutierrez-lage, paulina-herrera, queralt-lopez-alonso, renata-reut, riana-rayeva, saara-myzaeva, shanyi-zhou, siena-punti-pera, sienna-grace, silvana-gonzalez-arroyo, skylar-mandell, smilla-ronneke, sofia-aguilar-kolesnikova, sofia-sala-martinez, sofia-skrypnichenko, sofiia-leonenko, sofiia-vashchuk, sofiya-pak, sophia-florence, stella-zhivkova, tamar-gobechia, thelma-zimova, valencia-cui, valentina-canepa-zamarripa, valentina-soinatkvitz-martinez, valentine-charrier, valeria-eugenia-hernandez-salazar, valeria-gimeno-martinez, valeriia-bokova, victoria-ula-kur, viktoriya-oleinikova, xinyang-han, yasmin-jackson, yerika-narbekova, yichen-qian, yu-meng-zhang, yuriko-michihiro, yvette-kormos, zizeng-wang, hanbi-lee, xin-lei-peng",
+  "partialUpdateAt": "22/05/2026, 21:25"
 }
