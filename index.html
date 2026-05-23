@@ -68,13 +68,6 @@
         </label>
       </section>
 
-      <section class="panel weekly-tournaments-panel" aria-label="Torneios da semana">
-        <div class="weekly-tournaments-heading">
-          <h2 id="weeklyTournamentsTitle">Torneios da semana</h2>
-        </div>
-        <div id="weeklyTournamentsList" class="weekly-tournaments-list"></div>
-      </section>
-
       <section class="ranking-workspace">
         <section class="table-shell">
           <div class="section-heading">
@@ -100,15 +93,24 @@
           </div>
         </section>
 
-        <aside class="panel player-panel">
-          <h2 id="playerPanelTitle">Pontua&ccedil;&otilde;es do atleta</h2>
-          <div id="playerDetails" class="details-empty">
-            Selecione um atleta para ver todos seus resultados
-          </div>
-        </aside>
+        <div class="sidebar-stack">
+          <aside class="panel weekly-tournaments-panel" aria-label="Torneios da semana">
+            <div class="weekly-tournaments-heading">
+              <h2 id="weeklyTournamentsTitle">Torneios da semana</h2>
+            </div>
+            <div id="weeklyTournamentsList" class="weekly-tournaments-list"></div>
+          </aside>
+
+          <aside class="panel player-panel">
+            <h2 id="playerPanelTitle">Pontua&ccedil;&otilde;es do atleta</h2>
+            <div id="playerDetails" class="details-empty">
+              Selecione um atleta para ver todos seus resultados
+            </div>
+          </aside>
+        </div>
       </section>
     </main>
 
-    <script src="app.js?v=2026-05-23-weekly-tournaments"></script>
+    <script src="app.js?v=2026-05-23-compact-weekly-tournaments"></script>
   </body>
 </html>

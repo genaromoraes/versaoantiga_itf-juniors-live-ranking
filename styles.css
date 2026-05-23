@@ -254,33 +254,33 @@ label,
 }
 
 .weekly-tournaments-panel {
-  margin-bottom: 20px;
-  padding: 16px 20px;
+  padding: 14px 16px;
 }
 
 .weekly-tournaments-heading {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .weekly-tournaments-heading h2 {
   margin-bottom: 0;
+  font-size: 1rem;
 }
 
 .weekly-tournaments-list {
   display: grid;
-  gap: 8px;
+  gap: 6px;
 }
 
 .weekly-tournament-group {
   display: grid;
-  grid-template-columns: 64px minmax(0, 1fr);
-  gap: 10px;
+  grid-template-columns: 48px minmax(0, 1fr);
+  gap: 8px;
   align-items: start;
 }
 
 .weekly-tournament-grade {
   color: var(--accent);
-  font-size: 0.82rem;
+  font-size: 0.72rem;
   font-weight: 900;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -289,8 +289,8 @@ label,
 .weekly-tournament-names,
 .weekly-tournaments-empty {
   color: var(--muted);
-  font-size: 0.84rem;
-  line-height: 1.35;
+  font-size: 0.76rem;
+  line-height: 1.28;
 }
 
 .weekly-tournaments-empty {
@@ -757,11 +757,17 @@ table:not(.is-official-table) td:nth-child(6) {
   align-items: start;
 }
 
-.player-panel {
-  max-height: calc(100vh - 150px);
-  overflow: auto;
+.sidebar-stack {
+  display: grid;
+  gap: 16px;
+  align-content: start;
   position: sticky;
   top: 18px;
+}
+
+.player-panel {
+  max-height: calc(100vh - 360px);
+  overflow: auto;
 }
 
 .import-grid {
