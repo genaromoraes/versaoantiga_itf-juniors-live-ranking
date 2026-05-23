@@ -839,8 +839,11 @@ function playerNameMarkup(name = "", country = "") {
 }
 
 function movementLabel(player) {
-  const officialRank = Number(player.currentRank || 0);
-  const liveRank = Number(player.liveRank || officialRank || 0);
+  const officialRank = Number(player.currentRank);
+  const liveRank = Number(player.liveRank || 0);
+  if (!Number.isFinite(officialRank) || officialRank <= 0) {
+    return { text: "0", type: "neutral" };
+  }
   const delta = officialRank - liveRank;
   if (!delta) return { text: "0", type: "neutral" };
   return {

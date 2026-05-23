@@ -51,12 +51,17 @@ async function readPointsCsvPreview() {
       if (!row.player_id || !row.result_type) continue;
       if (!row.drop_date || row.drop_date < currentWeekStartIso) continue;
 
+      const currentRank =
+        row.current_rank === undefined || row.current_rank === null || row.current_rank === ""
+          ? null
+          : Number(row.current_rank);
+
       const player = playersById.get(row.player_id) || {
         id: row.player_id,
         name: row.player_name,
         country: row.country,
         gender: row.gender,
-        currentRank: Number(row.current_rank || 0),
+        currentRank,
         sourceUrl: row.source_url,
         singles: [],
         doubles: []
