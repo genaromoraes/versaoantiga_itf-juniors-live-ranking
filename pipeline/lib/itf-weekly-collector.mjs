@@ -3,6 +3,7 @@ const itfCalendarPage = "https://www.itftennis.com/en/tournament-calendar/world-
 const itfCalendarApiBase = "https://www.itftennis.com/tennis/api/TournamentApi/GetCalendar";
 const itfEventFiltersApiBase = "https://www.itftennis.com/tennis/api/TournamentApi/GetEventFilters";
 const itfDrawsheetApi = "https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet";
+const itfPrintDrawBase = "https://www.itftennis.com/en/tournament/draws-and-results/print/";
 const pendingRound = "Pendente";
 
 export function csvValue(value) {
@@ -708,6 +709,27 @@ async function readDrawPageText(page, tournament) {
   return [...new Set(texts)].join("\n");
 }
 
+function printDrawUrl(event) {
+  if (!event?.tournamentId) return "";
+  const params = new URLSearchParams({
+    tournamentId: String(event.tournamentId),
+    circuitCode: "JT",
+    playerTypeCode: String(event.playerTypeCode || ""),
+    matchTypeCode: String(event.matchTypeCode || ""),
+    eventClassificationCode: String(event.eventClassificationCode || ""),
+    drawsheetStructureCode: String(event.drawsheetStructureCode || "")
+  });
+  return `${itfPrintDrawBase}?${params.toString()}`;
+}
+
+async function readPrintDrawText(page, event) {
+  const url = printDrawUrl(event);
+  if (!url) throw new Error("missing tournamentId for ITF print draw fallback");
+  await page.goto(url, { waitUntil: "domcontentloaded", timeout: 90000 });
+  await page.waitForTimeout(2500);
+  return captureBodyText(page);
+}
+
 function splitDrawSections(lines) {
   const sections = [];
   let current = {
@@ -835,6 +857,29 @@ function applyDrawPageFallback(tournament, text, indexes) {
   }
 }
 
+function applyEventPrintFallback(tournament, text, indexes, event) {
+  const matchType = eventMatchType(event) === "Doubles" ? "DOUBLES" : "SINGLES";
+  const expectedGender = eventGender(event);
+
+  for (const player of indexes.all.filter((item) => item.gender === expectedGender)) {
+    const result = drawStatusForPlayer(text, player, matchType, { missingAsNull: true });
+    if (!result) continue;
+
+    const tournamentPlayer = ensureTournamentPlayer(
+      tournament,
+      player,
+      { playerId: playerItfId(player), givenName: "", familyName: "", nationality: player.country },
+      event
+    );
+
+    if (matchType === "DOUBLES") {
+      tournamentPlayer.drawResultDoubles = betterDrawResult(tournamentPlayer.drawResultDoubles, result, "Doubles");
+    } else {
+      tournamentPlayer.drawResult = betterDrawResult(tournamentPlayer.drawResult, result, "Singles");
+    }
+  }
+}
+
 function sortTournamentPlayers(tournament) {
   tournament.acceptedPlayers.sort((a, b) => {
     const rankA = Number(a.currentRank || Number.POSITIVE_INFINITY);
@@ -865,19 +910,32 @@ async function enrichTournamentWithItfData(page, tournament, indexes) {
     }));
 
     for (const event of events) {
-      const drawsheet = await pageApiPost(page, itfDrawsheetApi, drawsheetPayload(event));
-      tournament.drawsheetsSummary.push({
-        playerTypeCode: event.playerTypeCode,
-        matchTypeCode: event.matchTypeCode,
-        eventClassificationCode: event.eventClassificationCode,
-        drawsheetStructureCode: event.drawsheetStructureCode,
-        eventId: drawsheet.eventId || "",
-        matchesCount: (drawsheet.koGroups || []).reduce(
-          (total, group) => total + (group.rounds || []).reduce((roundTotal, round) => roundTotal + (round.matches || []).length, 0),
-          0
-        )
-      });
-      applyDrawsheetToTournament(tournament, event, drawsheet, indexes);
+      try {
+        const drawsheet = await pageApiPost(page, itfDrawsheetApi, drawsheetPayload(event));
+        tournament.drawsheetsSummary.push({
+          playerTypeCode: event.playerTypeCode,
+          matchTypeCode: event.matchTypeCode,
+          eventClassificationCode: event.eventClassificationCode,
+          drawsheetStructureCode: event.drawsheetStructureCode,
+          eventId: drawsheet.eventId || "",
+          matchesCount: (drawsheet.koGroups || []).reduce(
+            (total, group) => total + (group.rounds || []).reduce((roundTotal, round) => roundTotal + (round.matches || []).length, 0),
+            0
+          )
+        });
+        applyDrawsheetToTournament(tournament, event, drawsheet, indexes);
+      } catch (eventError) {
+        const currentWarning = tournament.itfApiWarning ? `${tournament.itfApiWarning} | ` : "";
+        tournament.itfApiWarning = `${currentWarning}${event.playerTypeCode}-${event.matchTypeCode}-${event.eventClassificationCode}: ${eventError.message}`;
+        try {
+          const printText = await readPrintDrawText(page, event);
+          applyEventPrintFallback(tournament, printText, indexes, event);
+          tournament.fallbackUsed = true;
+        } catch (printError) {
+          const currentDrawWarning = tournament.drawWarning ? `${tournament.drawWarning} | ` : "";
+          tournament.drawWarning = `${currentDrawWarning}${event.playerTypeCode}-${event.matchTypeCode}-${event.eventClassificationCode}: ${printError.message}`;
+        }
+      }
     }
 
     if (!tournament.acceptedPlayers.length) {

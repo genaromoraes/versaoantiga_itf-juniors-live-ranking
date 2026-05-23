@@ -679,7 +679,6 @@ const playersWithOfficialFallbacks = basePlayers;
 const playersWithRealResults = applyRealPlayerPreview(playersWithOfficialFallbacks, pointsCsvPreview.players || []);
 const playersWithWeeklyResults = applyWeeklyResultsPreview(playersWithRealResults, weeklyResultsPreview.rows || [], rules);
 const players = assignLiveRanks(playersWithWeeklyResults.map(normalizeComputedPlayer));
-const existingLatest = await readExistingLatest();
 const invalidPlayers = players.filter((player) => !hasPublishableRankingData(player));
 
 let payload = {
@@ -699,30 +698,12 @@ let payload = {
   weeklyResultsApplied: [...new Set((weeklyResultsPreview.rows || []).map((row) => row.player_id))]
 };
 
-if (invalidPlayers.length && existingLatest?.players?.length) {
-  console.warn(`Partially updating latest.json; preserving previous data for: ${invalidPlayers.map((player) => player.id).join(", ")}`);
-  const updatedById = new Map(players.filter(hasPublishableRankingData).map((player) => [player.id, player]));
-  const mergedPlayers = existingLatest.players.map((player) => updatedById.get(player.id) || player);
-  const existingIds = new Set(mergedPlayers.map((player) => player.id));
-  const appendedPlayers = players
-    .filter(hasPublishableRankingData)
-    .filter((player) => !existingIds.has(player.id));
-  const allMergedPlayers = [...mergedPlayers, ...appendedPlayers].sort((a, b) => {
-    if (a.gender !== b.gender) return String(a.gender).localeCompare(String(b.gender));
-    return Number(a.currentRank || Infinity) - Number(b.currentRank || Infinity);
-  });
+if (invalidPlayers.length) {
   payload = {
-    ...existingLatest,
-    players: allMergedPlayers,
-    skippedUpdateReason: undefined,
-    skippedUpdateAt: undefined,
-    dataSource: {
-      ...existingLatest.dataSource,
-      rankingDate: payload.dataSource.rankingDate,
-      updatedAt: payload.dataSource.updatedAt
-    },
-    generatedBy: "pipeline/build-latest.mjs",
-    partialUpdateReason: `Preserved previous data for: ${invalidPlayers.map((player) => player.id).join(", ")}`,
+    ...payload,
+    partialUpdateReason: `Some players remain unpublished because they still have no publishable ranking data: ${invalidPlayers
+      .map((player) => player.id)
+      .join(", ")}`,
     partialUpdateAt: payload.dataSource.updatedAt
   };
 }
