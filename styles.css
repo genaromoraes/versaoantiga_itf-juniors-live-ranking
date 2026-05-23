@@ -449,10 +449,10 @@ tbody tr.is-selected {
 }
 
 .points-cell {
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
-  column-gap: 6px;
-  align-items: start;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
 }
 
 .points-stack {
@@ -701,11 +701,10 @@ table:not(.is-official-table) td:nth-child(6) {
 }
 
 .points-flow-disclosure {
-  display: grid;
-  grid-template-columns: minmax(0, auto);
-  align-items: start;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
   gap: 5px;
-  min-width: 0;
 }
 
 .points-flow-summary {
@@ -752,7 +751,7 @@ table:not(.is-official-table) td:nth-child(6) {
 .points-flow-panel {
   display: grid;
   gap: 4px;
-  min-width: 0;
+  flex-basis: 100%;
 }
 
 .ranking-workspace {
