@@ -382,7 +382,7 @@ function applyDataSet(payload) {
 
 async function loadAutomatedData() {
   try {
-    const response = await fetch("data/latest.json", { cache: "no-store" });
+    const response = await fetch(`data/latest.json?v=${Date.now()}`, { cache: "no-store" });
     if (!response.ok) return;
     applyDataSet(await response.json());
   } catch {
