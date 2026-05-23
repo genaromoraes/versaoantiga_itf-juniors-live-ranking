@@ -240,6 +240,258 @@ function pointsForRound(rules, grade, matchType, round) {
   return Number(table[round] || 0);
 }
 
+function doublesValue(points) {
+  return Number(points || 0) * 0.25;
+}
+
+function isMeaningfulPoints(value) {
+  return Math.abs(Number(value || 0)) > 0.0001;
+}
+
+function rankedResults(results = [], multiplier = 1) {
+  return [...results]
+    .filter(isSourceCounting)
+    .sort((a, b) => Number(b.points || 0) - Number(a.points || 0))
+    .map((item, index) => ({
+      ...item,
+      isCounting: index < 6,
+      countedPoints: Number(item.points || 0) * multiplier
+    }));
+}
+
+function bestSixResults(results = [], multiplier = 1) {
+  return rankedResults(results, multiplier).filter((item) => item.isCounting);
+}
+
+function sumBestSix(results = [], multiplier = 1) {
+  return bestSixResults(results, multiplier).reduce((total, item) => total + item.countedPoints, 0);
+}
+
+function resultKey(result) {
+  return [
+    result.event || "",
+    result.round || result.grade || "",
+    result.date || "",
+    result.dropDate || "",
+    Number(result.points || 0)
+  ].join("|");
+}
+
+function droppingResultSet(defending = [], type) {
+  return new Set(
+    defending
+      .filter((result) => result.type === type)
+      .map(resultKey)
+  );
+}
+
+function countedReplacementResults(beforeResults = [], afterResults = [], multiplier = 1) {
+  const beforeCounted = bestSixResults(beforeResults, multiplier);
+  const afterCounted = bestSixResults(afterResults, multiplier);
+  const beforeKeys = new Set(beforeCounted.map(resultKey));
+  return afterCounted.filter((item) => !beforeKeys.has(resultKey(item)));
+}
+
+const nextRoundByDisplay = {
+  R64: "R32",
+  R32: "R16",
+  R16: "QF",
+  QF: "SF",
+  SF: "Final",
+  Final: "Campeao",
+  Campeao: "Campeao"
+};
+
+function hasActiveDraw(liveEvent, type) {
+  const status = liveEvent?.[`${type}Status`] || "";
+  const round = liveEvent?.[`${type}Round`] || "";
+  return status === "Ativo" && round && round !== "Nao joga";
+}
+
+function projectedRawPointsForType(liveEvent, type, target) {
+  const matchType = type === "doubles" ? "doubles" : "singles";
+  const currentRound = liveEvent[`${type}Round`] || "";
+  const currentRawPoints = Number(liveEvent[`${type}Points`] || 0);
+  const targetRound = target === "next" ? nextRoundByDisplay[currentRound] || currentRound : "Campeao";
+
+  if (target === "max") {
+    const maxPoints = Number(liveEvent[`${type}MaxPoints`] || pointsForRound(rules, liveEvent.grade, matchType, "W") || currentRawPoints);
+    return Math.max(currentRawPoints, maxPoints);
+  }
+
+  return Math.max(currentRawPoints, pointsForRound(rules, liveEvent.grade, matchType, displayToRound[targetRound] || targetRound));
+}
+
+function countedPointsWithProjection(baseResults, currentRawPoints, projectedRawPoints, multiplier = 1) {
+  const baselineResults = isMeaningfulPoints(currentRawPoints)
+    ? [...baseResults, { event: "__current_projection__", round: "", points: currentRawPoints }]
+    : [...baseResults];
+  const projectedResults = isMeaningfulPoints(projectedRawPoints)
+    ? [...baseResults, { event: "__projected_projection__", round: "", points: projectedRawPoints }]
+    : [...baseResults];
+
+  const baseline = sumBestSix(baselineResults, multiplier);
+  const projected = sumBestSix(projectedResults, multiplier);
+  return Math.max(0, projected - baseline);
+}
+
+function projectionGainForType(player, type, target) {
+  const liveEvent = player.liveEvent || {};
+  if (!hasActiveDraw(liveEvent, type)) return null;
+
+  const isDoubles = type === "doubles";
+  const currentRawPoints = Number(liveEvent[`${type}Points`] || 0);
+  const projectedRawPoints = projectedRawPointsForType(liveEvent, type, target);
+  const baseResults = type === "doubles"
+    ? (Array.isArray(player.liveBaseDoubles) ? player.liveBaseDoubles : [])
+    : (Array.isArray(player.liveBaseSingles) ? player.liveBaseSingles : []);
+  const gain = countedPointsWithProjection(baseResults, currentRawPoints, projectedRawPoints, isDoubles ? 0.25 : 1);
+
+  if (!isMeaningfulPoints(gain)) return null;
+
+  return {
+    type,
+    label: isDoubles ? "(D)" : "(S)",
+    gain
+  };
+}
+
+function projectionScenarios(player, target) {
+  const scenarios = [
+    projectionGainForType(player, "singles", target),
+    projectionGainForType(player, "doubles", target)
+  ].filter(Boolean);
+
+  if (scenarios.length > 1) {
+    scenarios.push({
+      type: "combined",
+      label: "(S+D)",
+      gain: scenarios.reduce((total, item) => total + item.gain, 0)
+    });
+  }
+
+  return scenarios;
+}
+
+function normalizeComputedPlayer(player) {
+  const singles = Array.isArray(player.singles) ? player.singles : [];
+  const doubles = Array.isArray(player.doubles) ? player.doubles : [];
+  const defending = Array.isArray(player.defending) ? player.defending : [];
+  const liveEvent = player.liveEvent || {};
+  const droppingSingles = droppingResultSet(defending, "singles");
+  const droppingDoubles = droppingResultSet(defending, "doubles");
+  const liveBaseSingles = singles.filter((result) => !droppingSingles.has(resultKey(result)));
+  const liveBaseDoubles = doubles.filter((result) => !droppingDoubles.has(resultKey(result)));
+  const replacementSingles = countedReplacementResults(singles, liveBaseSingles);
+  const replacementDoubles = countedReplacementResults(doubles, liveBaseDoubles, 0.25).map((item) => ({
+    ...item,
+    type: "doubles"
+  }));
+  const basePoints = sumBestSix(singles) + sumBestSix(doubles, 0.25);
+  const liveBasePoints = sumBestSix(liveBaseSingles) + sumBestSix(liveBaseDoubles, 0.25);
+  const defendingPoints = Math.max(0, basePoints - liveBasePoints);
+  const weeklySinglesResult = isMeaningfulPoints(liveEvent.singlesPoints)
+    ? { event: liveEvent.event, round: liveEvent.grade, points: Number(liveEvent.singlesPoints || 0), type: "singles", isWeeklyResult: true }
+    : null;
+  const weeklyDoublesResult = isMeaningfulPoints(liveEvent.doublesPoints)
+    ? { event: liveEvent.event, round: liveEvent.grade, points: Number(liveEvent.doublesPoints || 0), type: "doubles", isWeeklyResult: true }
+    : null;
+  const liveSingles = weeklySinglesResult ? [...liveBaseSingles, weeklySinglesResult] : liveBaseSingles;
+  const liveDoubles = weeklyDoublesResult ? [...liveBaseDoubles, weeklyDoublesResult] : liveBaseDoubles;
+  const fallbackPoints = Number(player.sourceTotalCombinedPoints ?? player.officialPoints ?? 0);
+  const hasDetailedResults = singles.length + doubles.length > 0;
+  const liveCountedSingles = bestSixResults(liveSingles);
+  const liveCountedDoubles = bestSixResults(liveDoubles, 0.25);
+  const weeklyEntries = [
+    ...liveCountedSingles.filter((item) => item.isWeeklyResult),
+    ...liveCountedDoubles.filter((item) => item.isWeeklyResult)
+  ];
+  const livePoints = hasDetailedResults
+    ? Math.max(0, sumBestSix(liveSingles) + sumBestSix(liveDoubles, 0.25))
+    : Math.max(0, fallbackPoints);
+  const enteringPoints = Math.max(0, livePoints - liveBasePoints);
+  const pointsDelta = enteringPoints - defendingPoints;
+  const pointsFlow = {
+    dropping: defending,
+    entering: [
+      ...replacementSingles.map((item) => ({ ...item, type: "singles" })),
+      ...replacementDoubles,
+      ...weeklyEntries
+    ]
+  };
+
+  const normalizedPlayer = {
+    ...player,
+    computedLiveDataVersion: 1,
+    singles,
+    doubles,
+    defending,
+    liveBaseSingles,
+    liveBaseDoubles,
+    replacements: pointsFlow.entering,
+    weeklyEntries,
+    liveEvent,
+    basePoints,
+    liveBasePoints,
+    defendingPoints,
+    enteringPoints,
+    gainedPoints: enteringPoints,
+    pointsDelta,
+    livePoints,
+    pointsFlow
+  };
+
+  const nextScenarios = projectionScenarios(normalizedPlayer, "next").map((scenario) => ({
+    ...scenario,
+    totalPoints: Math.max(0, livePoints + scenario.gain)
+  }));
+  const maxScenarios = projectionScenarios(normalizedPlayer, "max").map((scenario) => ({
+    ...scenario,
+    totalPoints: Math.max(0, livePoints + scenario.gain)
+  }));
+
+  return {
+    ...normalizedPlayer,
+    nextScenarios,
+    maxScenarios,
+    nextWinPoints: nextScenarios.find((scenario) => scenario.type === "combined")?.totalPoints
+      || nextScenarios.reduce((best, scenario) => Math.max(best, scenario.totalPoints), livePoints),
+    maxPoints: maxScenarios.find((scenario) => scenario.type === "combined")?.totalPoints
+      || maxScenarios.reduce((best, scenario) => Math.max(best, scenario.totalPoints), livePoints)
+  };
+}
+
+function assignLiveRanks(players = []) {
+  const byGender = new Map();
+
+  for (const player of players) {
+    if (!byGender.has(player.gender)) byGender.set(player.gender, []);
+    byGender.get(player.gender).push(player);
+  }
+
+  const rankedById = new Map();
+
+  for (const group of byGender.values()) {
+    group
+      .sort((a, b) => {
+        const pointsDiff = Number(b.livePoints || 0) - Number(a.livePoints || 0);
+        if (pointsDiff !== 0) return pointsDiff;
+        return String(a.name || "").localeCompare(String(b.name || ""));
+      })
+      .forEach((player, index) => {
+        const liveRank = index + 1;
+        const officialRank = Number(player.currentRank);
+        rankedById.set(player.id, {
+          ...player,
+          liveRank,
+          rankDelta: Number.isFinite(officialRank) && officialRank > 0 ? officialRank - liveRank : 0
+        });
+      });
+  }
+
+  return players.map((player) => rankedById.get(player.id) || player);
+}
+
 function saoPauloToday() {
   const parts = Object.fromEntries(
     new Intl.DateTimeFormat("en-CA", {
@@ -425,7 +677,8 @@ const rules = JSON.parse(await fs.readFile(path.join(rootDir, "pipeline", "rules
 const basePlayers = sourcePlayers.map(sourcePlayerShell);
 const playersWithOfficialFallbacks = basePlayers;
 const playersWithRealResults = applyRealPlayerPreview(playersWithOfficialFallbacks, pointsCsvPreview.players || []);
-const players = applyWeeklyResultsPreview(playersWithRealResults, weeklyResultsPreview.rows || [], rules);
+const playersWithWeeklyResults = applyWeeklyResultsPreview(playersWithRealResults, weeklyResultsPreview.rows || [], rules);
+const players = assignLiveRanks(playersWithWeeklyResults.map(normalizeComputedPlayer));
 const existingLatest = await readExistingLatest();
 const invalidPlayers = players.filter((player) => !hasPublishableRankingData(player));
 

@@ -484,6 +484,7 @@ function rankedResults(results = [], multiplier = 1) {
 
 function bestSixResults(results = [], multiplier = 1) {
   return [...results]
+    .filter(isSourceCountingResult)
     .sort((a, b) => Number(b.points || 0) - Number(a.points || 0))
     .slice(0, 6)
     .map((item) => ({
@@ -491,6 +492,10 @@ function bestSixResults(results = [], multiplier = 1) {
       isCounting: true,
       countedPoints: Number(item.points || 0) * multiplier
     }));
+}
+
+function isSourceCountingResult(item) {
+  return item?.sourceCounting !== false && item?.sourceCounting !== "false";
 }
 
 function sumPoints(results = []) {
@@ -623,6 +628,21 @@ function projectionScenarios(player, target) {
 }
 
 function normalizePlayer(player) {
+  if (player?.computedLiveDataVersion) {
+    return {
+      ...player,
+      singles: Array.isArray(player.singles) ? player.singles : [],
+      doubles: Array.isArray(player.doubles) ? player.doubles : [],
+      defending: Array.isArray(player.defending) ? player.defending : [],
+      replacements: Array.isArray(player.replacements) ? player.replacements : [],
+      weeklyEntries: Array.isArray(player.weeklyEntries) ? player.weeklyEntries : [],
+      pointsFlow: player.pointsFlow || { dropping: [], entering: [] },
+      nextScenarios: Array.isArray(player.nextScenarios) ? player.nextScenarios : [],
+      maxScenarios: Array.isArray(player.maxScenarios) ? player.maxScenarios : [],
+      liveEvent: player.liveEvent || {}
+    };
+  }
+
   const singles = Array.isArray(player.singles) ? player.singles : [];
   const doubles = Array.isArray(player.doubles) ? player.doubles : [];
   const defending = Array.isArray(player.defending) ? player.defending : [];
@@ -714,12 +734,16 @@ function getRankedPlayers() {
       return player.gender === gender;
     });
 
-  const liveRanked = normalized
-    .sort((a, b) => b.livePoints - a.livePoints)
-    .map((player, index) => ({
-      ...player,
-      liveRank: index + 1
-    }));
+  const hasPrecomputedRanks = normalized.some((player) => Number.isFinite(Number(player.liveRank)) && Number(player.liveRank) > 0);
+
+  const liveRanked = hasPrecomputedRanks
+    ? [...normalized].sort((a, b) => Number(a.liveRank || Infinity) - Number(b.liveRank || Infinity))
+    : normalized
+      .sort((a, b) => b.livePoints - a.livePoints)
+      .map((player, index) => ({
+        ...player,
+        liveRank: index + 1
+      }));
 
   const visiblePool = liveRanked
     .filter((player) => player.liveRank <= LIVE_RANKING_TABLE_LIMIT)
@@ -737,7 +761,12 @@ function getRankedPlayers() {
     });
 
   const sorters = {
-    liveRank: (a, b) => b.livePoints - a.livePoints,
+    liveRank: (a, b) => {
+      if (Number.isFinite(Number(a.liveRank)) && Number.isFinite(Number(b.liveRank))) {
+        return Number(a.liveRank) - Number(b.liveRank);
+      }
+      return Number(b.livePoints || 0) - Number(a.livePoints || 0);
+    },
     officialRank: (a, b) => Number(a.currentRank || Infinity) - Number(b.currentRank || Infinity)
   };
 
@@ -921,6 +950,15 @@ function playerNameMarkup(name = "", country = "") {
 }
 
 function movementLabel(player) {
+  if (Number.isFinite(Number(player.rankDelta))) {
+    const delta = Number(player.rankDelta);
+    if (!delta) return { text: "0", type: "neutral" };
+    return {
+      text: delta > 0 ? `+${delta}` : `${delta}`,
+      type: delta > 0 ? "gain" : "loss"
+    };
+  }
+
   const officialRank = Number(player.currentRank);
   const liveRank = Number(player.liveRank || 0);
   if (!Number.isFinite(officialRank) || officialRank <= 0) {
@@ -935,9 +973,15 @@ function movementLabel(player) {
 }
 
 function pointsBalanceLabel(player) {
-  const balance = player.gainedPoints - player.defendingPoints;
-  const dropItems = player.defendingPoints > 0 ? pointsDropLines(player) : [];
-  const entryItems = pointsEntryLines(player);
+  const balance = Number.isFinite(Number(player.pointsDelta))
+    ? Number(player.pointsDelta)
+    : Number(player.gainedPoints || 0) - Number(player.defendingPoints || 0);
+  const dropItems = Array.isArray(player.pointsFlow?.dropping)
+    ? pointsFlowLinesFromItems(player.pointsFlow.dropping, "drop")
+    : (player.defendingPoints > 0 ? pointsDropLines(player) : []);
+  const entryItems = Array.isArray(player.pointsFlow?.entering)
+    ? pointsFlowLinesFromItems(player.pointsFlow.entering, "entry")
+    : pointsEntryLines(player);
   if (!balance) return { text: "0", type: "neutral", dropItems, entryItems };
   return {
     text: balance > 0 ? `+${formatNumber(balance)}` : `-${formatNumber(Math.abs(balance))}`,
@@ -945,6 +989,20 @@ function pointsBalanceLabel(player) {
     dropItems,
     entryItems
   };
+}
+
+function pointsFlowLinesFromItems(items = [], kind = "entry") {
+  return items
+    .map((item) => {
+      const typeLabel = item.type === "doubles" ? "(D)" : "(S)";
+      const phaseLabel = inferResultPhase(item);
+      const value =
+        kind === "drop"
+          ? -pointsItemValue(item)
+          : (item.type === "doubles" ? doublesValue(item.points) : Number(item.points || 0));
+      return pointsFlowText(item.event, typeLabel, phaseLabel, value);
+    })
+    .filter(Boolean);
 }
 
 function officialPoints(player) {
@@ -1018,7 +1076,9 @@ function pointsFlowDisclosure(pointsBalance) {
 function projectionMarkup(player, target) {
   if (!isActiveThisWeek(player.liveEvent)) return `<span class="empty-mark">-</span>`;
 
-  const scenarios = projectionScenarios(player, target);
+  const scenarios = target === "next"
+    ? (Array.isArray(player.nextScenarios) && player.nextScenarios.length ? player.nextScenarios : projectionScenarios(player, target))
+    : (Array.isArray(player.maxScenarios) && player.maxScenarios.length ? player.maxScenarios : projectionScenarios(player, target));
   if (!scenarios.length) return `<span class="empty-mark">-</span>`;
 
   return `
@@ -1028,7 +1088,7 @@ function projectionMarkup(player, target) {
           (scenario) => `
             <div class="projection-line">
               <em>${scenario.label}</em>
-              <strong>${formatNumber(player.livePoints + scenario.gain)}</strong>
+              <strong>${formatNumber(scenario.totalPoints ?? (player.livePoints + scenario.gain))}</strong>
             </div>
           `
         )
