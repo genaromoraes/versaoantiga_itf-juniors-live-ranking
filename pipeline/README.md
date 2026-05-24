@@ -11,10 +11,14 @@ O cartel historico dos atletas vem da planilha mestre importada para:
 
 Depois disso, o robo frequente nao precisa abrir o breakdown de todos os atletas. Ele so atualiza:
 
-- ranking oficial atual;
 - torneios e fases da semana;
 - jogadores da semana que ainda estao fora da base;
 - arquivo final `data/latest.json`.
+
+Hoje o fluxo esta dividido assim:
+
+- workflow leve: reutiliza a lista de torneios da semana ja descoberta e atualiza apenas draws/resultados/fases;
+- workflow completo: atualiza ranking oficial, redescobre o calendario da semana e faz a manutencao mais pesada.
 
 ## Comandos
 

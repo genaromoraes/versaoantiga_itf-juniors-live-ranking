@@ -63,17 +63,26 @@ A planilha precisa ter as abas:
 
 ### 1. Workflow leve da semana
 
-O workflow `.github/workflows/update-live-weekly.yml` roda a cada 30 minutos, nos minutos:
+O workflow `.github/workflows/update-live-weekly.yml` tenta iniciar a cada 10 minutos:
 
 - 07
+- 17
+- 27
 - 37
+- 47
+- 57
+
+Mas ele so executa de verdade quando a ultima atualizacao ja tem pelo menos 30 minutos. Isso foi feito para contornar atrasos do scheduler do GitHub.
 
 Ele faz:
 
-1. Atualiza os torneios e resultados da semana.
-2. Atualiza o radar de outsiders da semana.
-3. Recalcula `data/latest.json`.
-4. Valida e publica os dados leves.
+1. Reaproveita a lista de torneios da semana ja salva em `data/weekly-tournaments-preview.json`.
+2. Atualiza apenas draws/resultados/fases desses torneios.
+3. Atualiza o radar de outsiders da semana.
+4. Recalcula `data/latest.json`.
+5. Valida e publica os dados leves.
+
+Ele nao raspa o ranking oficial inteiro da ITF e nao redescobre o calendario completo da semana em toda execucao.
 
 ### 2. Workflow completo
 
@@ -87,10 +96,11 @@ O workflow `.github/workflows/update-ranking.yml` roda 4 vezes por dia:
 Ele faz:
 
 1. Atualiza ranking oficial dos atletas acompanhados.
-2. Atualiza resultados da semana.
-3. Recalcula `data/latest.json`.
-4. Audita o cartel de pontos.
-5. Valida e publica os dados.
+2. Redescobre os torneios da semana no calendario da ITF.
+3. Atualiza resultados da semana.
+4. Recalcula `data/latest.json`.
+5. Audita o cartel de pontos.
+6. Valida e publica os dados.
 
 ## Arquivos de dados
 

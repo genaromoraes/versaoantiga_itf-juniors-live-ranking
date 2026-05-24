@@ -95,7 +95,12 @@ async function readStoredTournaments() {
 
 const players = JSON.parse(await fs.readFile(playersFile, "utf8"));
 const storedTournaments = await readStoredTournaments();
-const snapshot = await collectWeeklyItfSnapshot({ players, storedTournaments });
+const refreshTournamentCatalog = process.env.WEEKLY_REFRESH_TOURNAMENTS !== "false";
+const snapshot = await collectWeeklyItfSnapshot({
+  players,
+  storedTournaments,
+  refreshTournamentCatalog
+});
 const weeklyRows = weeklyRowsFromTournaments(snapshot.tournaments);
 const outsiders = snapshot.outsiders || aggregateOutsiders(snapshot.tournaments);
 
@@ -147,6 +152,8 @@ await fs.writeFile(
   "utf8"
 );
 
-console.log(`Found ${snapshot.tournaments.length} current-week tournament(s) from ITF.`);
+console.log(
+  `Found ${snapshot.tournaments.length} current-week tournament(s) from ITF (${refreshTournamentCatalog ? "refreshed calendar" : "reused stored calendar"}).`
+);
 console.log(`Generated ${path.relative(rootDir, outputFile)} with ${weeklyRows.length} weekly result row(s).`);
 console.log(`Generated ${path.relative(rootDir, outsidersOutputFile)} with ${outsiders.length} outsider candidate(s).`);

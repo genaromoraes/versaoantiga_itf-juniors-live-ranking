@@ -1373,7 +1373,11 @@ export function weeklyRowsFromTournaments(tournaments = []) {
   });
 }
 
-export async function collectWeeklyItfSnapshot({ players, storedTournaments = [] }) {
+export async function collectWeeklyItfSnapshot({
+  players,
+  storedTournaments = [],
+  refreshTournamentCatalog = true
+}) {
   const indexes = buildPlayerIndexes(players);
   let chromium;
 
@@ -1394,10 +1398,12 @@ export async function collectWeeklyItfSnapshot({ players, storedTournaments = []
     await page.waitForTimeout(4000);
 
     let tournaments = [];
-    try {
-      tournaments = await collectCurrentWeekTournaments(page);
-    } catch {
-      tournaments = [];
+    if (refreshTournamentCatalog) {
+      try {
+        tournaments = await collectCurrentWeekTournaments(page);
+      } catch {
+        tournaments = [];
+      }
     }
 
     if (!tournaments.length) {
