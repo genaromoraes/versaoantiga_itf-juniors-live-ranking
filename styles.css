@@ -588,6 +588,12 @@ tbody tr.is-selected {
   font-size: 0.84rem;
 }
 
+.points-cell .pill {
+  min-height: 18px;
+  padding: 0 6px;
+  font-size: 0.74rem;
+}
+
 .pill.gain {
   color: var(--gain);
   background: rgba(12, 122, 79, 0.1);
