@@ -714,7 +714,7 @@ table:not(.is-official-table) td:nth-child(6) {
 }
 
 .week-status strong {
-  font-size: 0.88rem;
+  font-size: 0.8rem;
   line-height: 1.08;
   font-weight: 850;
 }
