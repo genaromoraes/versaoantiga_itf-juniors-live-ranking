@@ -104,30 +104,36 @@ function calendarDate(value) {
   return value.toISOString().slice(0, 10);
 }
 
-export function currentWeekBounds() {
+export function currentWeekBounds(weekOffset = 0) {
   const today = saoPauloToday();
   const day = today.getUTCDay() || 7;
   const start = new Date(Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate()));
   start.setUTCDate(start.getUTCDate() - day + 1);
+  if (weekOffset) start.setUTCDate(start.getUTCDate() + weekOffset * 7);
   const end = new Date(start);
   end.setUTCDate(start.getUTCDate() + 6);
   end.setUTCHours(23, 59, 59, 999);
   return { start, end };
 }
 
-export function calendarStartDate() {
-  const { start } = currentWeekBounds();
+export function weekStartDate(weekOffset = 0) {
+  const { start } = currentWeekBounds(weekOffset);
+  return calendarDate(start);
+}
+
+export function calendarStartDate(weekOffset = 0) {
+  const { start } = currentWeekBounds(weekOffset);
   return `${start.getUTCFullYear()}-${String(start.getUTCMonth() + 1).padStart(2, "0")}`;
 }
 
-function currentWeekDateRange() {
-  const { start, end } = currentWeekBounds();
+function currentWeekDateRange(weekOffset = 0) {
+  const { start, end } = currentWeekBounds(weekOffset);
   return { startDate: calendarDate(start), endDate: calendarDate(end) };
 }
 
-function overlapsCurrentWeek(startDate, endDate) {
+function overlapsCurrentWeek(startDate, endDate, weekOffset = 0) {
   if (!startDate || !endDate) return false;
-  const { start, end } = currentWeekBounds();
+  const { start, end } = currentWeekBounds(weekOffset);
   const tournamentStart = new Date(`${startDate}T00:00:00Z`);
   const tournamentEnd = new Date(`${endDate}T23:59:59Z`);
   return tournamentStart <= end && start <= tournamentEnd;
@@ -363,19 +369,19 @@ async function pageApiPost(page, url, payload, retries = 5) {
   throw new Error(`Could not post ITF API ${url}: ${lastError?.message || "unknown error"}`);
 }
 
-function itfCalendarApiUrl(skip = 0, take = 100) {
-  const { startDate, endDate } = currentWeekDateRange();
+function itfCalendarApiUrl(skip = 0, take = 100, weekOffset = 0) {
+  const { startDate, endDate } = currentWeekDateRange(weekOffset);
   return `${itfCalendarApiBase}?circuitCode=JT&searchString=&skip=${skip}&take=${take}&nationCodes=&zoneCodes=&dateFrom=${startDate}&dateTo=${endDate}&indoorOutdoor=&categories=&isOrderAscending=true&orderField=startDate&surfaceCodes=&singlesDrawFormat=`;
 }
 
-async function collectCurrentWeekTournaments(page) {
+async function collectCurrentWeekTournaments(page, weekOffset = 0) {
   const tournaments = [];
   const seen = new Set();
   const take = 100;
   let skip = 0;
 
   while (true) {
-    const payload = await pageApiGet(page, itfCalendarApiUrl(skip, take));
+    const payload = await pageApiGet(page, itfCalendarApiUrl(skip, take, weekOffset));
     const rows = findFirstArray(payload) || [];
     if (!rows.length) break;
 
@@ -383,7 +389,7 @@ async function collectCurrentWeekTournaments(page) {
       const tournament = tournamentFromCalendarRow(row);
       if (!tournament.key || seen.has(tournament.key)) continue;
       if (tournament.status === "CN" || tournament.status === "PP") continue;
-      if (!overlapsCurrentWeek(tournament.startDate, tournament.endDate)) continue;
+      if (!overlapsCurrentWeek(tournament.startDate, tournament.endDate, weekOffset)) continue;
       seen.add(tournament.key);
       tournaments.push(tournament);
     }
@@ -1376,7 +1382,8 @@ export function weeklyRowsFromTournaments(tournaments = []) {
 export async function collectWeeklyItfSnapshot({
   players,
   storedTournaments = [],
-  refreshTournamentCatalog = true
+  refreshTournamentCatalog = true,
+  weekOffset = 0
 }) {
   const indexes = buildPlayerIndexes(players);
   let chromium;
@@ -1391,7 +1398,7 @@ export async function collectWeeklyItfSnapshot({
   const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
 
   try {
-    await page.goto(`${itfCalendarPage}?categories=All&startdate=${calendarStartDate()}`, {
+    await page.goto(`${itfCalendarPage}?categories=All&startdate=${calendarStartDate(weekOffset)}`, {
       waitUntil: "domcontentloaded",
       timeout: 90000
     });
@@ -1400,7 +1407,7 @@ export async function collectWeeklyItfSnapshot({
     let tournaments = [];
     if (refreshTournamentCatalog) {
       try {
-        tournaments = await collectCurrentWeekTournaments(page);
+        tournaments = await collectCurrentWeekTournaments(page, weekOffset);
       } catch {
         tournaments = [];
       }
@@ -1422,7 +1429,8 @@ export async function collectWeeklyItfSnapshot({
 
     return {
       scrapedAt: saoPauloTimestamp(),
-      calendarStartDate: calendarStartDate(),
+      calendarStartDate: calendarStartDate(weekOffset),
+      weekStartDate: weekStartDate(weekOffset),
       tournaments,
       outsiders: aggregateOutsiders(tournaments)
     };

@@ -54,7 +54,8 @@ jobs:
         if: steps.due.outputs.should_run == 'true'
         run: npm run scrape:weekly
         env:
-          WEEKLY_REFRESH_TOURNAMENTS: "false"
+          WEEKLY_REFRESH_TOURNAMENTS: ${{ steps.due.outputs.refresh_tournaments }}
+          WEEKLY_WEEK_OFFSET: ${{ steps.due.outputs.week_offset }}
 
       - name: Generate latest data
         if: steps.due.outputs.should_run == 'true'

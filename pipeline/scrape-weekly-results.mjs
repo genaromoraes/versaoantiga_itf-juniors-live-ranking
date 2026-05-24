@@ -8,6 +8,7 @@ import {
   collectWeeklyItfSnapshot,
   csvValue,
   saoPauloTimestamp,
+  weekStartDate,
   weeklyRowsFromTournaments
 } from "./lib/itf-weekly-collector.mjs";
 
@@ -86,7 +87,19 @@ async function readStoredTournaments() {
   try {
     const raw = await fs.readFile(previewFile, "utf8");
     const payload = JSON.parse(raw.replace(/^\uFEFF/, ""));
-    if (!payload || payload.calendarStartDate !== calendarStartDate()) return [];
+    if (!payload) return [];
+
+    const targetWeekOffset = Number.parseInt(process.env.WEEKLY_WEEK_OFFSET || "0", 10) || 0;
+    const targetWeekStart = weekStartDate(targetWeekOffset);
+    const storedWeekStart = String(payload.weekStartDate || "").trim();
+    const storedCalendarStart = String(payload.calendarStartDate || "").trim();
+
+    const sameWeek =
+      storedWeekStart
+        ? storedWeekStart === targetWeekStart
+        : storedCalendarStart === calendarStartDate(targetWeekOffset);
+
+    if (!sameWeek) return [];
     return Array.isArray(payload.tournaments) ? payload.tournaments : [];
   } catch {
     return [];
@@ -94,12 +107,14 @@ async function readStoredTournaments() {
 }
 
 const players = JSON.parse(await fs.readFile(playersFile, "utf8"));
+const weekOffset = Number.parseInt(process.env.WEEKLY_WEEK_OFFSET || "0", 10) || 0;
 const storedTournaments = await readStoredTournaments();
 const refreshTournamentCatalog = process.env.WEEKLY_REFRESH_TOURNAMENTS !== "false";
 const snapshot = await collectWeeklyItfSnapshot({
   players,
   storedTournaments,
-  refreshTournamentCatalog
+  refreshTournamentCatalog,
+  weekOffset
 });
 const weeklyRows = weeklyRowsFromTournaments(snapshot.tournaments);
 const outsiders = snapshot.outsiders || aggregateOutsiders(snapshot.tournaments);
@@ -127,7 +142,8 @@ await fs.writeFile(
   `${JSON.stringify(
     {
       scrapedAt: snapshot.scrapedAt || saoPauloTimestamp(),
-      calendarStartDate: snapshot.calendarStartDate || calendarStartDate(),
+      calendarStartDate: snapshot.calendarStartDate || calendarStartDate(weekOffset),
+      weekStartDate: snapshot.weekStartDate || weekStartDate(weekOffset),
       tournaments: snapshot.tournaments.map(summarizeTournament)
     },
     null,
@@ -153,7 +169,7 @@ await fs.writeFile(
 );
 
 console.log(
-  `Found ${snapshot.tournaments.length} current-week tournament(s) from ITF (${refreshTournamentCatalog ? "refreshed calendar" : "reused stored calendar"}).`
+  `Found ${snapshot.tournaments.length} tournament(s) for week ${snapshot.weekStartDate || weekStartDate(weekOffset)} from ITF (${refreshTournamentCatalog ? "refreshed calendar" : "reused stored calendar"}).`
 );
 console.log(`Generated ${path.relative(rootDir, outputFile)} with ${weeklyRows.length} weekly result row(s).`);
 console.log(`Generated ${path.relative(rootDir, outsidersOutputFile)} with ${outsiders.length} outsider candidate(s).`);

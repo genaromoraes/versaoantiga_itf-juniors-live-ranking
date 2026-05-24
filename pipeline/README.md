@@ -20,6 +20,13 @@ Hoje o fluxo esta dividido assim:
 - workflow leve: reutiliza a lista de torneios da semana ja descoberta e atualiza apenas draws/resultados/fases;
 - workflow completo: atualiza ranking oficial, redescobre o calendario da semana e faz a manutencao mais pesada.
 
+O workflow leve tambem sabe antecipar a virada da semana:
+
+- se todos os torneios salvos no preview atual ja estiverem encerrados;
+- e nao houver mais atletas ativos em simples ou duplas;
+
+entao ele libera uma atualizacao que ja troca o preview para a semana seguinte e passa a acompanhar os novos torneios.
+
 ## Comandos
 
 ```bash

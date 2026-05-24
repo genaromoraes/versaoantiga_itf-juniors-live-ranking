@@ -84,6 +84,13 @@ Ele faz:
 
 Ele nao raspa o ranking oficial inteiro da ITF e nao redescobre o calendario completo da semana em toda execucao.
 
+Quando todos os torneios da semana atual ja estiverem encerrados e sem atletas ainda ativos, ele pode antecipar a virada:
+
+1. Detecta que a semana atual terminou.
+2. Autoriza uma execucao fora da janela normal de 30 minutos, se necessario.
+3. Atualiza a lista de torneios para a semana seguinte.
+4. Passa a acompanhar os draws da nova semana nas proximas rodadas leves.
+
 ### 2. Workflow completo
 
 O workflow `.github/workflows/update-ranking.yml` roda 4 vezes por dia:
