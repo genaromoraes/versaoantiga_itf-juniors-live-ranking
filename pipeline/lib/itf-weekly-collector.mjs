@@ -730,6 +730,62 @@ async function readPrintDrawText(page, event) {
   return captureBodyText(page);
 }
 
+function eventFromPrintUrl(url = "", tournament = {}) {
+  try {
+    const parsedUrl = new URL(url, itfBaseUrl);
+    if (!parsedUrl.pathname.includes("/en/tournament/draws-and-results/print/")) return null;
+
+    const event = {
+      tournamentId: parsedUrl.searchParams.get("tournamentId") || tournament.tournamentId || "",
+      tourType: "",
+      circuitCode: parsedUrl.searchParams.get("circuitCode") || "JT",
+      playerTypeCode: parsedUrl.searchParams.get("playerTypeCode") || "",
+      playerTypeDesc: parsedUrl.searchParams.get("playerTypeCode") === "G" ? "Girls" : "Boys",
+      matchTypeCode: parsedUrl.searchParams.get("matchTypeCode") || "",
+      matchTypeDesc: parsedUrl.searchParams.get("matchTypeCode") === "D" ? "Doubles" : "Singles",
+      eventClassificationCode: parsedUrl.searchParams.get("eventClassificationCode") || "",
+      eventClassificationDesc:
+        parsedUrl.searchParams.get("eventClassificationCode") === "Q" ? "Qualifying Draw" : "Main Draw",
+      drawsheetStructureCode: parsedUrl.searchParams.get("drawsheetStructureCode") || "",
+      drawsheetStructureDesc: parsedUrl.searchParams.get("drawsheetStructureCode") || ""
+    };
+
+    if (!event.tournamentId || !event.playerTypeCode || !event.matchTypeCode || !event.eventClassificationCode) {
+      return null;
+    }
+
+    return event;
+  } catch {
+    return null;
+  }
+}
+
+async function extractPrintEventsFromDrawPage(page, tournament) {
+  const hrefs = await page
+    .locator('a[href*="/en/tournament/draws-and-results/print/"]')
+    .evaluateAll((links) => links.map((link) => link.href).filter(Boolean));
+
+  const events = [];
+  const seen = new Set();
+
+  for (const href of hrefs) {
+    const event = eventFromPrintUrl(href, tournament);
+    if (!event) continue;
+    const key = [
+      event.tournamentId,
+      event.playerTypeCode,
+      event.matchTypeCode,
+      event.eventClassificationCode,
+      event.drawsheetStructureCode
+    ].join("|");
+    if (seen.has(key)) continue;
+    seen.add(key);
+    events.push(event);
+  }
+
+  return events;
+}
+
 function splitDrawSections(lines) {
   const sections = [];
   let current = {
@@ -946,6 +1002,36 @@ async function enrichTournamentWithItfData(page, tournament, indexes) {
   } catch (error) {
     tournament.itfApiWarning = error.message;
     try {
+      const printEvents = await extractPrintEventsFromDrawPage(page, tournament);
+      if (printEvents.length) {
+        tournament.events = printEvents.map((event) => ({
+          playerTypeCode: event.playerTypeCode,
+          playerTypeDesc: event.playerTypeDesc,
+          matchTypeCode: event.matchTypeCode,
+          matchTypeDesc: event.matchTypeDesc,
+          eventClassificationCode: event.eventClassificationCode,
+          eventClassificationDesc: event.eventClassificationDesc,
+          drawsheetStructureCode: event.drawsheetStructureCode,
+          drawsheetStructureDesc: event.drawsheetStructureDesc
+        }));
+
+        for (const event of printEvents) {
+          try {
+            const printText = await readPrintDrawText(page, event);
+            applyEventPrintFallback(tournament, printText, indexes, event);
+            tournament.fallbackUsed = true;
+          } catch (printError) {
+            const currentDrawWarning = tournament.drawWarning ? `${tournament.drawWarning} | ` : "";
+            tournament.drawWarning = `${currentDrawWarning}${event.playerTypeCode}-${event.matchTypeCode}-${event.eventClassificationCode}: ${printError.message}`;
+          }
+        }
+      }
+
+      if (tournament.acceptedPlayers.length) {
+        sortTournamentPlayers(tournament);
+        return tournament;
+      }
+
       const text = await readDrawPageText(page, tournament);
       applyDrawPageFallback(tournament, text, indexes);
       tournament.fallbackUsed = true;
