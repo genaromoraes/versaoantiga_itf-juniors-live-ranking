@@ -254,7 +254,8 @@ function tournamentFromCalendarRow(row = {}) {
     country: flattened.hostNation || flattened.country || "",
     surface: flattened.surfaceDesc || flattened.surface || "",
     key: flattened.tournamentKey || "",
-    tournamentId: flattened.tournamentId || "",
+    tournamentId: flattened.tournamentId || flattened.id || "",
+    tourType: flattened.tourType || flattened.tournamentType || "N",
     tournamentUrl,
     drawsUrl,
     acceptedPlayers: [],
@@ -283,6 +284,7 @@ function storedTournamentFallback(tournament = {}) {
     surface: tournament.surface || "",
     key: tournament.key || "",
     tournamentId: tournament.tournamentId || "",
+    tourType: tournament.tourType || "N",
     tournamentUrl: tournament.tournamentUrl || "",
     drawsUrl: tournament.drawsUrl || "",
     acceptedPlayers: [],
@@ -742,7 +744,7 @@ function eventFromPrintUrl(url = "", tournament = {}) {
 
     const event = {
       tournamentId: parsedUrl.searchParams.get("tournamentId") || tournament.tournamentId || "",
-      tourType: "",
+      tourType: tournament.tourType || "N",
       circuitCode: parsedUrl.searchParams.get("circuitCode") || "JT",
       playerTypeCode: parsedUrl.searchParams.get("playerTypeCode") || "",
       playerTypeDesc: parsedUrl.searchParams.get("playerTypeCode") === "G" ? "Girls" : "Boys",
@@ -849,7 +851,7 @@ function guessedPrintEvents(tournament = {}) {
     for (const baseEvent of [...mainEvents, ...qualifyingEvents]) {
       candidates.push({
         tournamentId,
-        tourType: "",
+        tourType: tournament.tourType || "N",
         circuitCode: "JT",
         playerTypeCode,
         playerTypeDesc: playerTypeCode === "G" ? "Girls" : "Boys",
@@ -864,6 +866,63 @@ function guessedPrintEvents(tournament = {}) {
   }
 
   return candidates;
+}
+
+function fallbackEventCandidatesFromTournament(tournament = {}) {
+  const tournamentId = String(tournament.tournamentId || "").trim();
+  if (!tournamentId) return [];
+
+  const base = {
+    tournamentId,
+    tourType: tournament.tourType || "N",
+    circuitCode: "JT",
+    drawsheetStructureCode: "KO",
+    drawsheetStructureDesc: "KO"
+  };
+
+  const combos = [
+    ["B", "Boys", "S", "Singles", "M", "Main Draw"],
+    ["B", "Boys", "S", "Singles", "Q", "Qualifying Draw"],
+    ["B", "Boys", "D", "Doubles", "M", "Main Draw"],
+    ["G", "Girls", "S", "Singles", "M", "Main Draw"],
+    ["G", "Girls", "S", "Singles", "Q", "Qualifying Draw"],
+    ["G", "Girls", "D", "Doubles", "M", "Main Draw"]
+  ];
+
+  return combos.map(
+    ([playerTypeCode, playerTypeDesc, matchTypeCode, matchTypeDesc, eventClassificationCode, eventClassificationDesc]) => ({
+      ...base,
+      playerTypeCode,
+      playerTypeDesc,
+      matchTypeCode,
+      matchTypeDesc,
+      eventClassificationCode,
+      eventClassificationDesc
+    })
+  );
+}
+
+async function probeEventsViaDrawsheet(page, tournament) {
+  const candidates = fallbackEventCandidatesFromTournament(tournament);
+  const validEvents = [];
+
+  for (const event of candidates) {
+    try {
+      const drawsheet = await pageApiPost(page, itfDrawsheetApi, drawsheetPayload(event), 2);
+      const groups = drawsheet?.koGroups || [];
+      const hasMatches = groups.some((group) =>
+        (group.rounds || []).some((round) => (round.matches || []).length > 0)
+      );
+
+      if (drawsheet?.eventId || hasMatches) {
+        validEvents.push({ event, drawsheet });
+      }
+    } catch {
+      // Ignore unavailable candidate combinations.
+    }
+  }
+
+  return validEvents;
 }
 
 function splitDrawSections(lines) {
@@ -1085,6 +1144,41 @@ async function enrichTournamentWithItfData(page, tournament, indexes) {
       const html = await capturePageHtml(page);
       if (!tournament.tournamentId) {
         tournament.tournamentId = tournamentIdFromHtml(html) || tournament.tournamentId;
+      }
+
+      const probedEvents = await probeEventsViaDrawsheet(page, tournament);
+      if (probedEvents.length) {
+        tournament.events = probedEvents.map(({ event }) => ({
+          playerTypeCode: event.playerTypeCode,
+          playerTypeDesc: event.playerTypeDesc,
+          matchTypeCode: event.matchTypeCode,
+          matchTypeDesc: event.matchTypeDesc,
+          eventClassificationCode: event.eventClassificationCode,
+          eventClassificationDesc: event.eventClassificationDesc,
+          drawsheetStructureCode: event.drawsheetStructureCode,
+          drawsheetStructureDesc: event.drawsheetStructureDesc
+        }));
+
+        for (const { event, drawsheet } of probedEvents) {
+          tournament.drawsheetsSummary.push({
+            playerTypeCode: event.playerTypeCode,
+            matchTypeCode: event.matchTypeCode,
+            eventClassificationCode: event.eventClassificationCode,
+            drawsheetStructureCode: event.drawsheetStructureCode,
+            eventId: drawsheet.eventId || "",
+            matchesCount: (drawsheet.koGroups || []).reduce(
+              (total, group) => total + (group.rounds || []).reduce((roundTotal, round) => roundTotal + (round.matches || []).length, 0),
+              0
+            )
+          });
+          applyDrawsheetToTournament(tournament, event, drawsheet, indexes);
+        }
+
+        if (tournament.acceptedPlayers.length) {
+          tournament.fallbackUsed = true;
+          sortTournamentPlayers(tournament);
+          return tournament;
+        }
       }
 
       const printEvents = [
