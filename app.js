@@ -33,7 +33,19 @@ const els = {
   liveRankingTitle: document.querySelector("#liveRankingTitle"),
   playerPanelTitle: document.querySelector("#playerPanelTitle"),
   weeklyTournamentsTitle: document.querySelector("#weeklyTournamentsTitle"),
-  weeklyTournamentsList: document.querySelector("#weeklyTournamentsList")
+  weeklyTournamentsList: document.querySelector("#weeklyTournamentsList"),
+  highlightRiseLabel: document.querySelector("#highlightRiseLabel"),
+  highlightRiseValue: document.querySelector("#highlightRiseValue"),
+  highlightRiseMeta: document.querySelector("#highlightRiseMeta"),
+  highlightDropLabel: document.querySelector("#highlightDropLabel"),
+  highlightDropValue: document.querySelector("#highlightDropValue"),
+  highlightDropMeta: document.querySelector("#highlightDropMeta"),
+  highlightBrazilLabel: document.querySelector("#highlightBrazilLabel"),
+  highlightBrazilValue: document.querySelector("#highlightBrazilValue"),
+  highlightBrazilMeta: document.querySelector("#highlightBrazilMeta"),
+  highlightEntryLabel: document.querySelector("#highlightEntryLabel"),
+  highlightEntryValue: document.querySelector("#highlightEntryValue"),
+  highlightEntryMeta: document.querySelector("#highlightEntryMeta")
 };
 
 const translations = {
@@ -267,14 +279,49 @@ const translations = {
 translations.pt.updated = "\u00DAltima atualiza\u00E7\u00E3o";
 translations.pt.weeklyTournaments = "Torneios da semana";
 translations.pt.noWeeklyTournaments = "Nenhum torneio detectado nesta semana";
+translations.pt.biggestRise = "Maior subida";
+translations.pt.biggestDrop = "Maior queda";
+translations.pt.bestBrazilian = "Melhor brasileiro";
+translations.pt.newTop1000 = "Novo top 1000";
+translations.pt.highlightNone = "Sem destaque";
+translations.pt.rankPosition = "Ranking";
+translations.pt.livePointsShort = "pts";
 translations.en.weeklyTournaments = "This week's tournaments";
 translations.en.noWeeklyTournaments = "No tournaments detected this week";
+translations.en.biggestRise = "Biggest rise";
+translations.en.biggestDrop = "Biggest drop";
+translations.en.bestBrazilian = "Best Brazilian";
+translations.en.newTop1000 = "New top 1000";
+translations.en.highlightNone = "No highlight";
+translations.en.rankPosition = "Rank";
+translations.en.livePointsShort = "pts";
 translations.es.weeklyTournaments = "Torneos de la semana";
 translations.es.noWeeklyTournaments = "No se detectaron torneos esta semana";
+translations.es.biggestRise = "Mayor subida";
+translations.es.biggestDrop = "Mayor caida";
+translations.es.bestBrazilian = "Mejor brasile\u00F1o";
+translations.es.newTop1000 = "Nuevo top 1000";
+translations.es.highlightNone = "Sin destaque";
+translations.es.rankPosition = "Ranking";
+translations.es.livePointsShort = "pts";
 translations.it.weeklyTournaments = "Tornei della settimana";
 translations.it.noWeeklyTournaments = "Nessun torneo rilevato questa settimana";
+translations.it.biggestRise = "Miglior salita";
+translations.it.biggestDrop = "Peggior calo";
+translations.it.bestBrazilian = "Miglior brasiliano";
+translations.it.newTop1000 = "Nuovo top 1000";
+translations.it.highlightNone = "Nessun rilievo";
+translations.it.rankPosition = "Ranking";
+translations.it.livePointsShort = "pti";
 translations.fr.weeklyTournaments = "Tournois de la semaine";
 translations.fr.noWeeklyTournaments = "Aucun tournoi detecte cette semaine";
+translations.fr.biggestRise = "Plus forte hausse";
+translations.fr.biggestDrop = "Plus forte baisse";
+translations.fr.bestBrazilian = "Meilleur bresilien";
+translations.fr.newTop1000 = "Nouveau top 1000";
+translations.fr.highlightNone = "Aucun temps fort";
+translations.fr.rankPosition = "Classement";
+translations.fr.livePointsShort = "pts";
 
 function t(key) {
   return (translations[state.language] || translations.pt)[key] || translations.pt[key] || key;
@@ -377,6 +424,10 @@ function updateStaticText() {
   els.liveRankingTitle.textContent = t("liveRanking");
   els.playerPanelTitle.textContent = t("playerPoints");
   if (els.weeklyTournamentsTitle) els.weeklyTournamentsTitle.textContent = t("weeklyTournaments");
+  if (els.highlightRiseLabel) els.highlightRiseLabel.textContent = t("biggestRise");
+  if (els.highlightDropLabel) els.highlightDropLabel.textContent = t("biggestDrop");
+  if (els.highlightBrazilLabel) els.highlightBrazilLabel.textContent = t("bestBrazilian");
+  if (els.highlightEntryLabel) els.highlightEntryLabel.textContent = t("newTop1000");
   els.dataSourceNote.textContent = t("formula");
 
   if (state.dataSource.rankingDate && els.weekLabel) els.weekLabel.innerHTML = weekLabelMarkup(state.dataSource.rankingDate);
@@ -783,6 +834,27 @@ function getRankedPlayers() {
   return visiblePool.sort(sorters[sortBy] || sorters.liveRank);
 }
 
+function baseRankedPlayersForHighlights() {
+  const gender = els.genderFilter.value;
+
+  const normalized = state.players
+    .map(normalizePlayer)
+    .filter((player) => player.gender === gender);
+
+  const hasPrecomputedRanks = normalized.some((player) => Number.isFinite(Number(player.liveRank)) && Number(player.liveRank) > 0);
+
+  const liveRanked = hasPrecomputedRanks
+    ? [...normalized].sort((a, b) => Number(a.liveRank || Infinity) - Number(b.liveRank || Infinity))
+    : normalized
+      .sort((a, b) => Number(b.livePoints || 0) - Number(a.livePoints || 0))
+      .map((player, index) => ({
+        ...player,
+        liveRank: index + 1
+      }));
+
+  return liveRanked.filter((player) => Number(player.liveRank || Infinity) <= LIVE_RANKING_TABLE_LIMIT);
+}
+
 function formatNumber(value) {
   const number = Number(value || 0);
   const hasDecimals = Math.abs(number - Math.trunc(number)) > 0.000001;
@@ -1099,6 +1171,75 @@ function officialPoints(player) {
   return Number(player.sourceTotalCombinedPoints ?? player.basePoints ?? 0);
 }
 
+function setHighlightCard(valueEl, metaEl, player, valueFallback = "-", metaFallback = "-") {
+  if (!valueEl || !metaEl) return;
+
+  if (!player) {
+    valueEl.textContent = valueFallback;
+    metaEl.textContent = metaFallback;
+    return;
+  }
+
+  valueEl.innerHTML = playerNameMarkup(player.name, player.country);
+  metaEl.textContent = metaFallback;
+}
+
+function renderHighlights() {
+  const players = baseRankedPlayersForHighlights();
+
+  const biggestRise = players
+    .filter((player) => Number(player.rankDelta || 0) > 0)
+    .sort((a, b) => Number(b.rankDelta || 0) - Number(a.rankDelta || 0) || Number(a.liveRank || Infinity) - Number(b.liveRank || Infinity))[0];
+
+  const biggestDrop = players
+    .filter((player) => Number(player.rankDelta || 0) < 0)
+    .sort((a, b) => Number(a.rankDelta || 0) - Number(b.rankDelta || 0) || Number(a.liveRank || Infinity) - Number(b.liveRank || Infinity))[0];
+
+  const bestBrazilian = players
+    .filter((player) => String(player.country || player.countryCode || "").toUpperCase() === "BRA")
+    .sort((a, b) => Number(a.liveRank || Infinity) - Number(b.liveRank || Infinity))[0];
+
+  const newTop1000 = players
+    .filter((player) => {
+      const officialRank = Number(player.currentRank || 0);
+      const liveRank = Number(player.liveRank || 0);
+      return liveRank > 0 && liveRank <= LIVE_RANKING_TABLE_LIMIT && (!officialRank || officialRank > LIVE_RANKING_TABLE_LIMIT);
+    })
+    .sort((a, b) => Number(a.liveRank || Infinity) - Number(b.liveRank || Infinity))[0];
+
+  setHighlightCard(
+    els.highlightRiseValue,
+    els.highlightRiseMeta,
+    biggestRise,
+    t("highlightNone"),
+    biggestRise ? `+${Number(biggestRise.rankDelta || 0)} · ${t("rankPosition")} ${biggestRise.liveRank}` : "-"
+  );
+
+  setHighlightCard(
+    els.highlightDropValue,
+    els.highlightDropMeta,
+    biggestDrop,
+    t("highlightNone"),
+    biggestDrop ? `${Number(biggestDrop.rankDelta || 0)} · ${t("rankPosition")} ${biggestDrop.liveRank}` : "-"
+  );
+
+  setHighlightCard(
+    els.highlightBrazilValue,
+    els.highlightBrazilMeta,
+    bestBrazilian,
+    t("highlightNone"),
+    bestBrazilian ? `${t("rankPosition")} ${bestBrazilian.liveRank} · ${formatNumber(bestBrazilian.livePoints)} ${t("livePointsShort")}` : "-"
+  );
+
+  setHighlightCard(
+    els.highlightEntryValue,
+    els.highlightEntryMeta,
+    newTop1000,
+    t("highlightNone"),
+    newTop1000 ? `${t("rankPosition")} ${newTop1000.liveRank} · ${formatNumber(newTop1000.livePoints)} ${t("livePointsShort")}` : "-"
+  );
+}
+
 function phaseText(liveEvent = {}) {
   const singles = liveEvent.singlesStatus === "Eliminado"
     ? `${t("eliminated")} ${liveEvent.singlesRound || ""}`.trim()
@@ -1191,6 +1332,7 @@ function projectionMarkup(player, target) {
 }
 
 function renderTable() {
+  renderHighlights();
   const players = getRankedPlayers();
   const isOfficialTable = els.sortFilter.value === "officialRank";
   const selectedIsVisible = players.some((player) => player.id === state.selectedId);

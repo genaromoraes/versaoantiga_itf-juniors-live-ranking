@@ -260,6 +260,50 @@ label,
   align-items: end;
 }
 
+.highlights-strip {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.highlight-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-elevated);
+  box-shadow: var(--shadow);
+  padding: 12px 14px;
+  display: grid;
+  gap: 4px;
+}
+
+.highlight-label {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.highlight-value {
+  min-height: 20px;
+  font-size: 0.92rem;
+  font-weight: 900;
+  color: var(--ink);
+}
+
+.highlight-value .player-name span:last-child {
+  color: var(--ink);
+  font-size: 0.9rem;
+  font-weight: 850;
+}
+
+.highlight-meta {
+  color: var(--muted);
+  font-size: 0.68rem;
+  line-height: 1.15;
+}
+
 .weekly-tournaments-panel {
   padding: 14px 16px;
 }
