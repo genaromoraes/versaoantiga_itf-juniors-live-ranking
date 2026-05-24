@@ -305,49 +305,60 @@ label,
 
 .weekly-tournament-group.grade-JGS .weekly-tournament-grade,
 .weekly-tournament-group.grade-GS .weekly-tournament-grade,
+.tournament-label.grade-JGS,
+.tournament-label.grade-GS,
 .tournament-grade.grade-JGS,
 .tournament-grade.grade-GS {
   color: #c62828;
 }
 
 .weekly-tournament-group.grade-J500 .weekly-tournament-grade,
+.tournament-label.grade-J500,
 .tournament-grade.grade-J500 {
   color: #101418;
 }
 
 .weekly-tournament-group.grade-J300 .weekly-tournament-grade,
+.tournament-label.grade-J300,
 .tournament-grade.grade-J300 {
   color: #2e7d32;
 }
 
 .weekly-tournament-group.grade-J200 .weekly-tournament-grade,
+.tournament-label.grade-J200,
 .tournament-grade.grade-J200 {
   color: #1565c0;
 }
 
 .weekly-tournament-group.grade-J100 .weekly-tournament-grade,
+.tournament-label.grade-J100,
 .tournament-grade.grade-J100 {
   color: #7b1fa2;
 }
 
 .weekly-tournament-group.grade-J60 .weekly-tournament-grade,
+.tournament-label.grade-J60,
 .tournament-grade.grade-J60 {
   color: #ef6c00;
 }
 
 .weekly-tournament-group.grade-J30 .weekly-tournament-grade,
+.tournament-label.grade-J30,
 .tournament-grade.grade-J30 {
   color: #6d4c41;
 }
 
 .weekly-tournament-group.grade-OUTROS .weekly-tournament-grade,
 .weekly-tournament-group.grade-outros .weekly-tournament-grade,
+.tournament-label.grade-OUTROS,
+.tournament-label.grade-outros,
 .tournament-grade.grade-OUTROS,
 .tournament-grade.grade-outros {
   color: var(--accent);
 }
 
 [data-theme="dark"] .weekly-tournament-group.grade-J500 .weekly-tournament-grade,
+[data-theme="dark"] .tournament-label.grade-J500,
 [data-theme="dark"] .tournament-grade.grade-J500 {
   color: #f5f7fa;
 }
