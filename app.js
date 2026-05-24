@@ -491,6 +491,12 @@ function groupedWeeklyTournaments() {
     }));
 }
 
+function weeklyTournamentGradeClass(grade = "") {
+  const normalized = String(grade || "").trim().toUpperCase();
+  const safe = normalized.replace(/[^A-Z0-9]+/g, "-");
+  return safe ? `grade-${safe}` : "grade-outros";
+}
+
 function renderWeeklyTournaments() {
   if (!els.weeklyTournamentsList) return;
 
@@ -503,7 +509,7 @@ function renderWeeklyTournaments() {
   els.weeklyTournamentsList.innerHTML = groups
     .map(
       (group) => `
-        <div class="weekly-tournament-group">
+        <div class="weekly-tournament-group ${weeklyTournamentGradeClass(group.grade)}">
           <span class="weekly-tournament-grade">${escapeHtml(group.grade)}</span>
           <span class="weekly-tournament-names">${escapeHtml(group.tournaments.join(", "))}</span>
         </div>

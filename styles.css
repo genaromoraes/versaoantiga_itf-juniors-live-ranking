@@ -286,7 +286,6 @@ label,
 }
 
 .weekly-tournament-grade {
-  color: var(--accent);
   font-size: 0.72rem;
   font-weight: 900;
   letter-spacing: 0.03em;
@@ -302,6 +301,44 @@ label,
 
 .weekly-tournaments-empty {
   margin: 0;
+}
+
+.weekly-tournament-group.grade-JGS .weekly-tournament-grade,
+.weekly-tournament-group.grade-GS .weekly-tournament-grade {
+  color: #c62828;
+}
+
+.weekly-tournament-group.grade-J500 .weekly-tournament-grade {
+  color: #101418;
+}
+
+.weekly-tournament-group.grade-J300 .weekly-tournament-grade {
+  color: #2e7d32;
+}
+
+.weekly-tournament-group.grade-J200 .weekly-tournament-grade {
+  color: #1565c0;
+}
+
+.weekly-tournament-group.grade-J100 .weekly-tournament-grade {
+  color: #7b1fa2;
+}
+
+.weekly-tournament-group.grade-J60 .weekly-tournament-grade {
+  color: #ef6c00;
+}
+
+.weekly-tournament-group.grade-J30 .weekly-tournament-grade {
+  color: #6d4c41;
+}
+
+.weekly-tournament-group.grade-OUTROS .weekly-tournament-grade,
+.weekly-tournament-group.grade-outros .weekly-tournament-grade {
+  color: var(--accent);
+}
+
+[data-theme="dark"] .weekly-tournament-group.grade-J500 .weekly-tournament-grade {
+  color: #f5f7fa;
 }
 
 .week-card span:empty {
