@@ -497,6 +497,20 @@ function weeklyTournamentGradeClass(grade = "") {
   return safe ? `grade-${safe}` : "grade-outros";
 }
 
+function tournamentGradeMarkup(label = "") {
+  const text = String(label || "").trim();
+  if (!text) return "";
+
+  const match = text.match(/^(JGS|GS JR|J500|J300|J200|J100|J60|J30)\b\s*/i);
+  if (!match) return escapeHtml(text);
+
+  const normalizedGrade = String(match[1] || "").trim().toUpperCase();
+  const grade = normalizedGrade === "GS JR" ? "JGS" : normalizedGrade;
+  const rest = text.slice(match[0].length).trim();
+  const gradeMarkup = `<span class="tournament-grade ${weeklyTournamentGradeClass(grade)}">${escapeHtml(match[1])}</span>`;
+  return rest ? `${gradeMarkup} <span class="tournament-label-rest">${escapeHtml(rest)}</span>` : gradeMarkup;
+}
+
 function renderWeeklyTournaments() {
   if (!els.weeklyTournamentsList) return;
 
@@ -1184,7 +1198,7 @@ function weeklyStatusMarkup(liveEvent = {}) {
 
   return `
     <div class="week-status">
-      <strong>${liveEvent.event}</strong>
+      <strong>${tournamentGradeMarkup(liveEvent.event)}</strong>
       <span>${liveEvent.singlesStatus === "Eliminado" ? `${t("singles")}: ${t("eliminated")} ${displayRound(liveEvent.singlesRound)}` : `${t("singles")}: ${displayRound(liveEvent.singlesRound)}`}</span>
       <span>${liveEvent.doublesStatus === "Nao joga" ? `${t("doubles")}: ${t("notPlaying")}` : liveEvent.doublesStatus === "Eliminado" ? `${t("doubles")}: ${t("eliminated")} ${displayRound(liveEvent.doublesRound)}` : `${t("doubles")}: ${displayRound(liveEvent.doublesRound)}`}</span>
     </div>
@@ -1200,7 +1214,7 @@ function renderPointsFlow(items, kind) {
       (item) => `
         <div class="points-flow ${className}">
           <span class="points-flow-label">${label}</span>
-          <span class="points-flow-text">${escapeHtml(item)}</span>
+          <span class="points-flow-text">${tournamentGradeMarkup(item)}</span>
         </div>
       `
     )
@@ -1357,7 +1371,7 @@ function resultMarkup(results, label, modifier = "") {
           (item) => `
           <div class="result-card ${modifier} ${item.isCounting === false ? "is-out" : ""}">
             <div>
-              <strong>${item.event}</strong>
+              <strong>${tournamentGradeMarkup(item.event)}</strong>
               <span class="small">${item.round || item.type || ""} ${item.date ? " · " + item.date : ""}</span>
             </div>
             <div class="result-points">
@@ -1407,7 +1421,7 @@ function renderDetailsSimple(playerId) {
     <div class="player detail-player">
       <strong>${playerNameMarkup(player.name, player.country)}</strong>
       <span>${t("official")} ${player.currentRank} · live ${formatNumber(player.livePoints)} · ${t("maximum")} ${formatNumber(player.maxPoints)}</span>
-      <span>${player.liveEvent.event || "-"} · ${phaseText(player.liveEvent)}</span>
+      <span>${player.liveEvent.event ? `${tournamentGradeMarkup(player.liveEvent.event)} · ${escapeHtml(phaseText(player.liveEvent))}` : "-"}</span>
     </div>
     ${resultMarkup(singlesResults, t("singles"))}
     ${resultMarkup(doublesResults, `${t("doubles")} (25%)`)}
