@@ -1286,7 +1286,6 @@ function renderTable() {
           <td>
             <div class="player">
               <strong>${playerNameMarkup(player.name, player.country)}</strong>
-              ${topMilestoneMarkup(player)}
             </div>
           </td>
           <td>${player.birthYear || "-"}</td>
@@ -1306,7 +1305,6 @@ function renderTable() {
           <td>
             <div class="player">
               <strong>${playerNameMarkup(player.name, player.country)}</strong>
-              ${topMilestoneMarkup(player)}
             </div>
           </td>
           <td>${player.birthYear || "-"}</td>
@@ -1363,7 +1361,7 @@ function resultMarkup(results, label, modifier = "") {
   `;
 }
 
-function renderDetailsLegacy(playerId) {
+function renderDetailsSimple(playerId) {
   const player = state.players.map(normalizePlayer).find((item) => item.id === playerId);
   if (!player) return;
 
@@ -1407,6 +1405,9 @@ function renderDetailsLegacy(playerId) {
 }
 
 function renderDetails(playerId) {
+  renderDetailsSimple(playerId);
+  return;
+
   const player = state.players.map(normalizePlayer).find((item) => item.id === playerId);
   if (!player) return;
 
