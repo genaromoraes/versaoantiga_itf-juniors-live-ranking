@@ -1,8 +1,8 @@
 {
-  "scrapedAt": "24/05/2026, 13:11",
-  "outsidersFound": 79,
+  "scrapedAt": "24/05/2026, 15:16",
+  "outsidersFound": 80,
   "boysOutsiders": 38,
-  "girlsOutsiders": 41,
+  "girlsOutsiders": 42,
   "outsiders": [
     {
       "player_itf_id": "800769064",
@@ -686,6 +686,18 @@
       "tournaments": "J30 Kairouan",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-kairouan/tun/2026/j-j30-tun-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-kairouan/tun/2026/j-j30-tun-2026-001/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800766760",
+      "player_name": "Mariana Ferreira Da Silva Marques",
+      "gender": "Girls",
+      "country": "POR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Taroudant",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-taroudant/mar/2026/j-j30-mar-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-taroudant/mar/2026/j-j30-mar-2026-001/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
