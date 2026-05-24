@@ -806,6 +806,50 @@ table:not(.is-official-table) td:nth-child(6) {
   font-weight: 850;
 }
 
+.week-status strong .tournament-label,
+.week-status strong .tournament-label-rest,
+.week-status strong .tournament-grade {
+  color: inherit;
+}
+
+.week-status strong .tournament-label.grade-JGS,
+.week-status strong .tournament-label.grade-GS {
+  color: #c62828;
+}
+
+.week-status strong .tournament-label.grade-J500 {
+  color: #101418;
+}
+
+.week-status strong .tournament-label.grade-J300 {
+  color: #2e7d32;
+}
+
+.week-status strong .tournament-label.grade-J200 {
+  color: #1565c0;
+}
+
+.week-status strong .tournament-label.grade-J100 {
+  color: #7b1fa2;
+}
+
+.week-status strong .tournament-label.grade-J60 {
+  color: #ef6c00;
+}
+
+.week-status strong .tournament-label.grade-J30 {
+  color: #6d4c41;
+}
+
+.week-status strong .tournament-label.grade-OUTROS,
+.week-status strong .tournament-label.grade-outros {
+  color: var(--accent);
+}
+
+[data-theme="dark"] .week-status strong .tournament-label.grade-J500 {
+  color: #f5f7fa;
+}
+
 .week-status span,
 .empty-mark {
   color: var(--muted);
