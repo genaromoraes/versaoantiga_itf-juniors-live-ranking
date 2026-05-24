@@ -267,14 +267,44 @@ const translations = {
 translations.pt.updated = "\u00DAltima atualiza\u00E7\u00E3o";
 translations.pt.weeklyTournaments = "Torneios da semana";
 translations.pt.noWeeklyTournaments = "Nenhum torneio detectado nesta semana";
+translations.pt.newTopPrefix = "Novo top";
+translations.pt.weeklyBalance = "Saldo da semana";
+translations.pt.pointsDroppingShort = "Caindo";
+translations.pt.pointsEnteringShort = "Entrando";
+translations.pt.currentStatus = "Status atual";
+translations.pt.projections = "Projecoes";
 translations.en.weeklyTournaments = "This week's tournaments";
 translations.en.noWeeklyTournaments = "No tournaments detected this week";
+translations.en.newTopPrefix = "New top";
+translations.en.weeklyBalance = "Weekly balance";
+translations.en.pointsDroppingShort = "Dropping";
+translations.en.pointsEnteringShort = "Entering";
+translations.en.currentStatus = "Current status";
+translations.en.projections = "Projections";
 translations.es.weeklyTournaments = "Torneos de la semana";
 translations.es.noWeeklyTournaments = "No se detectaron torneos esta semana";
+translations.es.newTopPrefix = "Nuevo top";
+translations.es.weeklyBalance = "Saldo semanal";
+translations.es.pointsDroppingShort = "Caen";
+translations.es.pointsEnteringShort = "Entran";
+translations.es.currentStatus = "Estado actual";
+translations.es.projections = "Proyecciones";
 translations.it.weeklyTournaments = "Tornei della settimana";
 translations.it.noWeeklyTournaments = "Nessun torneo rilevato questa settimana";
+translations.it.newTopPrefix = "Nuovo top";
+translations.it.weeklyBalance = "Saldo settimanale";
+translations.it.pointsDroppingShort = "In uscita";
+translations.it.pointsEnteringShort = "In entrata";
+translations.it.currentStatus = "Stato attuale";
+translations.it.projections = "Proiezioni";
 translations.fr.weeklyTournaments = "Tournois de la semaine";
 translations.fr.noWeeklyTournaments = "Aucun tournoi detecte cette semaine";
+translations.fr.newTopPrefix = "Nouveau top";
+translations.fr.weeklyBalance = "Solde hebdo";
+translations.fr.pointsDroppingShort = "Sortants";
+translations.fr.pointsEnteringShort = "Entrants";
+translations.fr.currentStatus = "Statut actuel";
+translations.fr.projections = "Projections";
 
 function t(key) {
   return (translations[state.language] || translations.pt)[key] || translations.pt[key] || key;
@@ -1099,6 +1129,28 @@ function officialPoints(player) {
   return Number(player.sourceTotalCombinedPoints ?? player.basePoints ?? 0);
 }
 
+function topMilestone(player) {
+  const liveRank = Number(player.liveRank || 0);
+  const officialRank = Number(player.currentRank || 0);
+  const hasOfficialRank = Number.isFinite(officialRank) && officialRank > 0;
+
+  if (!liveRank || liveRank > LIVE_RANKING_TABLE_LIMIT) return null;
+  if (liveRank <= 100 && (!hasOfficialRank || officialRank > 100)) return 100;
+  if (liveRank <= 500 && (!hasOfficialRank || officialRank > 500)) return 500;
+  if (liveRank <= 1000 && (!hasOfficialRank || officialRank > 1000)) return 1000;
+  return null;
+}
+
+function topMilestoneLabel(player) {
+  const milestone = topMilestone(player);
+  return milestone ? `${t("newTopPrefix")} ${milestone}` : "";
+}
+
+function topMilestoneMarkup(player) {
+  const label = topMilestoneLabel(player);
+  return label ? `<span class="milestone-badge">${escapeHtml(label)}</span>` : "";
+}
+
 function phaseText(liveEvent = {}) {
   const singles = liveEvent.singlesStatus === "Eliminado"
     ? `${t("eliminated")} ${liveEvent.singlesRound || ""}`.trim()
@@ -1234,6 +1286,7 @@ function renderTable() {
           <td>
             <div class="player">
               <strong>${playerNameMarkup(player.name, player.country)}</strong>
+              ${topMilestoneMarkup(player)}
             </div>
           </td>
           <td>${player.birthYear || "-"}</td>
@@ -1253,6 +1306,7 @@ function renderTable() {
           <td>
             <div class="player">
               <strong>${playerNameMarkup(player.name, player.country)}</strong>
+              ${topMilestoneMarkup(player)}
             </div>
           </td>
           <td>${player.birthYear || "-"}</td>
@@ -1309,7 +1363,7 @@ function resultMarkup(results, label, modifier = "") {
   `;
 }
 
-function renderDetails(playerId) {
+function renderDetailsLegacy(playerId) {
   const player = state.players.map(normalizePlayer).find((item) => item.id === playerId);
   if (!player) return;
 
@@ -1344,6 +1398,106 @@ function renderDetails(playerId) {
       <strong>${playerNameMarkup(player.name, player.country)}</strong>
       <span>${t("official")} ${player.currentRank} · live ${formatNumber(player.livePoints)} · ${t("maximum")} ${formatNumber(player.maxPoints)}</span>
       <span>${player.liveEvent.event || "-"} · ${phaseText(player.liveEvent)}</span>
+    </div>
+    ${resultMarkup(singlesResults, t("singles"))}
+    ${resultMarkup(doublesResults, `${t("doubles")} (25%)`)}
+    ${defendingResults.length ? resultMarkup(defendingResults, t("pointsDefended"), "is-dropping") : ""}
+    ${liveResults.length ? resultMarkup(liveResults, t("pointsEntering"), "is-new") : ""}
+  `;
+}
+
+function renderDetails(playerId) {
+  const player = state.players.map(normalizePlayer).find((item) => item.id === playerId);
+  if (!player) return;
+
+  const movement = movementLabel(player);
+  const pointsBalance = pointsBalanceLabel(player);
+  const milestone = topMilestoneLabel(player);
+  const currentStatus = player.liveEvent.event ? `${player.liveEvent.event} Â· ${phaseText(player.liveEvent)}` : "-";
+  const nextProjection = projectionMarkup(player, "next");
+  const titleProjection = projectionMarkup(player, "max");
+
+  const liveResults = [
+    {
+      event: `${player.liveEvent.event || t("currentTournament")} Â· ${t("singles").toLowerCase()}`,
+      round: player.liveEvent.singlesRound || "-",
+      points: Number(player.liveEvent.singlesPoints || 0),
+      countedPoints: Number(player.liveEvent.singlesPoints || 0),
+      isCounting: true
+    },
+    {
+      event: `${player.liveEvent.event || t("currentTournament")} Â· ${t("doubles").toLowerCase()}`,
+      round: player.liveEvent.doublesRound || "-",
+      points: Number(player.liveEvent.doublesPoints || 0),
+      countedPoints: doublesValue(player.liveEvent.doublesPoints),
+      isCounting: true
+    }
+  ].filter((item) => item.points > 0);
+
+  const singlesResults = rankedResults(player.singles);
+  const doublesResults = rankedResults(player.doubles, 0.25);
+  const defendingResults = player.defending.map((item) => ({
+    ...item,
+    countedPoints: item.type === "doubles" ? doublesValue(item.points) : Number(item.points || 0),
+    isCounting: true
+  }));
+
+  els.playerDetails.className = "";
+  els.playerDetails.innerHTML = `
+    <div class="player detail-player">
+      <strong>${playerNameMarkup(player.name, player.country)}</strong>
+      ${milestone ? `<span class="detail-milestone">${escapeHtml(milestone)}</span>` : ""}
+    </div>
+    <div class="detail-summary-grid">
+      <div class="detail-stat">
+        <span>${t("liveRank")}</span>
+        <strong>#${player.liveRank || "-"}</strong>
+      </div>
+      <div class="detail-stat">
+        <span>${t("officialRank")}</span>
+        <strong>#${player.currentRank || "-"}</strong>
+      </div>
+      <div class="detail-stat">
+        <span>${t("officialPoints")}</span>
+        <strong>${formatNumber(officialPoints(player))}</strong>
+      </div>
+      <div class="detail-stat">
+        <span>${t("livePoints")}</span>
+        <strong>${formatNumber(player.livePoints)}</strong>
+      </div>
+      <div class="detail-stat detail-stat-balance">
+        <span>${t("weeklyBalance")}</span>
+        <strong class="${pointsBalance.type}">${pointsBalance.text}</strong>
+      </div>
+      <div class="detail-stat detail-stat-balance">
+        <span>${t("liveRank")}</span>
+        <strong class="${movement.type}">${movement.text}</strong>
+      </div>
+      <div class="detail-stat">
+        <span>${t("pointsDroppingShort")}</span>
+        <strong>${formatNumber(player.defendingPoints || 0)}</strong>
+      </div>
+      <div class="detail-stat">
+        <span>${t("pointsEnteringShort")}</span>
+        <strong>${formatNumber(player.gainedPoints || 0)}</strong>
+      </div>
+      <div class="detail-stat detail-stat-wide">
+        <span>${t("currentStatus")}</span>
+        <strong>${escapeHtml(currentStatus)}</strong>
+      </div>
+    </div>
+    <div class="detail-projections">
+      <h3>${t("projections")}</h3>
+      <div class="detail-projection-grid">
+        <div class="detail-projection-card">
+          <span>${t("nextRound")}</span>
+          ${nextProjection}
+        </div>
+        <div class="detail-projection-card">
+          <span>${t("champion")}</span>
+          ${titleProjection}
+        </div>
+      </div>
     </div>
     ${resultMarkup(singlesResults, t("singles"))}
     ${resultMarkup(doublesResults, `${t("doubles")} (25%)`)}
