@@ -356,6 +356,10 @@ label,
   font-weight: 900;
 }
 
+.tournament-label {
+  color: inherit;
+}
+
 .tournament-label-rest {
   color: inherit;
 }

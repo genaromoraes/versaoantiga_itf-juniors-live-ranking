@@ -507,8 +507,9 @@ function tournamentGradeMarkup(label = "") {
   const normalizedGrade = String(match[1] || "").trim().toUpperCase();
   const grade = normalizedGrade === "GS JR" ? "JGS" : normalizedGrade;
   const rest = text.slice(match[0].length).trim();
-  const gradeMarkup = `<span class="tournament-grade ${weeklyTournamentGradeClass(grade)}">${escapeHtml(match[1])}</span>`;
-  return rest ? `${gradeMarkup} <span class="tournament-label-rest">${escapeHtml(rest)}</span>` : gradeMarkup;
+  const gradeClass = weeklyTournamentGradeClass(grade);
+  const gradeMarkup = `<span class="tournament-grade ${gradeClass}">${escapeHtml(match[1])}</span>`;
+  return rest ? `<span class="tournament-label ${gradeClass}">${gradeMarkup} <span class="tournament-label-rest">${escapeHtml(rest)}</span></span>` : gradeMarkup;
 }
 
 function renderWeeklyTournaments() {
