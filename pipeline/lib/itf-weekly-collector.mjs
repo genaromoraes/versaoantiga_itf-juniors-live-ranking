@@ -730,6 +730,11 @@ async function readPrintDrawText(page, event) {
   return captureBodyText(page);
 }
 
+async function capturePageHtml(page) {
+  await page.waitForTimeout(1200);
+  return page.content();
+}
+
 function eventFromPrintUrl(url = "", tournament = {}) {
   try {
     const parsedUrl = new URL(url, itfBaseUrl);
@@ -784,6 +789,81 @@ async function extractPrintEventsFromDrawPage(page, tournament) {
   }
 
   return events;
+}
+
+function extractPrintEventsFromHtml(html = "", tournament = {}) {
+  const decoded = String(html || "").replace(/&amp;/g, "&");
+  const hrefMatches = decoded.match(/https?:\/\/www\.itftennis\.com\/en\/tournament\/draws-and-results\/print\/\?[^"'\\s<]+|\/en\/tournament\/draws-and-results\/print\/\?[^"'\\s<]+/gi) || [];
+  const events = [];
+  const seen = new Set();
+
+  for (const href of hrefMatches) {
+    const event = eventFromPrintUrl(href, tournament);
+    if (!event) continue;
+    const key = [
+      event.tournamentId,
+      event.playerTypeCode,
+      event.matchTypeCode,
+      event.eventClassificationCode,
+      event.drawsheetStructureCode
+    ].join("|");
+    if (seen.has(key)) continue;
+    seen.add(key);
+    events.push(event);
+  }
+
+  return events;
+}
+
+function tournamentIdFromHtml(html = "") {
+  const text = String(html || "");
+  const patterns = [
+    /"tournamentId"\s*:\s*(\d{6,})/i,
+    /tournamentId\s*[:=]\s*["']?(\d{6,})["']?/i,
+    /tournamentid=(\d{6,})/i
+  ];
+
+  for (const pattern of patterns) {
+    const match = text.match(pattern);
+    if (match?.[1]) return match[1];
+  }
+
+  return "";
+}
+
+function guessedPrintEvents(tournament = {}) {
+  const tournamentId = String(tournament.tournamentId || "").trim();
+  if (!tournamentId) return [];
+
+  const candidates = [];
+  const playerTypes = ["B", "G"];
+  const mainEvents = [
+    { matchTypeCode: "S", matchTypeDesc: "Singles", eventClassificationCode: "M", eventClassificationDesc: "Main Draw" },
+    { matchTypeCode: "D", matchTypeDesc: "Doubles", eventClassificationCode: "M", eventClassificationDesc: "Main Draw" }
+  ];
+  const qualifyingEvents = [
+    { matchTypeCode: "S", matchTypeDesc: "Singles", eventClassificationCode: "Q", eventClassificationDesc: "Qualifying Draw" }
+  ];
+
+  for (const playerTypeCode of playerTypes) {
+    for (const baseEvent of [...mainEvents, ...qualifyingEvents]) {
+      candidates.push({
+        tournamentId,
+        tourType: "",
+        circuitCode: "JT",
+        playerTypeCode,
+        playerTypeDesc: playerTypeCode === "G" ? "Girls" : "Boys",
+        matchTypeCode: baseEvent.matchTypeCode,
+        matchTypeDesc: baseEvent.matchTypeDesc,
+        eventClassificationCode: baseEvent.eventClassificationCode,
+        eventClassificationDesc: baseEvent.eventClassificationDesc,
+        drawsheetStructureCode: "KO",
+        drawsheetStructureDesc: "KO"
+      });
+    }
+  }
+
+  return candidates;
 }
 
 function splitDrawSections(lines) {
@@ -1002,7 +1082,32 @@ async function enrichTournamentWithItfData(page, tournament, indexes) {
   } catch (error) {
     tournament.itfApiWarning = error.message;
     try {
-      const printEvents = await extractPrintEventsFromDrawPage(page, tournament);
+      const html = await capturePageHtml(page);
+      if (!tournament.tournamentId) {
+        tournament.tournamentId = tournamentIdFromHtml(html) || tournament.tournamentId;
+      }
+
+      const printEvents = [
+        ...extractPrintEventsFromHtml(html, tournament),
+        ...(await extractPrintEventsFromDrawPage(page, tournament)),
+        ...guessedPrintEvents(tournament)
+      ].filter((event, index, array) => {
+        const key = [
+          event.tournamentId,
+          event.playerTypeCode,
+          event.matchTypeCode,
+          event.eventClassificationCode,
+          event.drawsheetStructureCode
+        ].join("|");
+        return array.findIndex((item) => [
+          item.tournamentId,
+          item.playerTypeCode,
+          item.matchTypeCode,
+          item.eventClassificationCode,
+          item.drawsheetStructureCode
+        ].join("|") === key) === index;
+      });
+
       if (printEvents.length) {
         tournament.events = printEvents.map((event) => ({
           playerTypeCode: event.playerTypeCode,
