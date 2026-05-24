@@ -1119,6 +1119,12 @@ async function enrichTournamentWithItfData(page, tournament, indexes) {
           )
         });
         applyDrawsheetToTournament(tournament, event, drawsheet, indexes);
+        try {
+          const printText = await readPrintDrawText(page, event);
+          applyEventPrintFallback(tournament, printText, indexes, event);
+        } catch {
+          // Keep the drawsheet result if the print endpoint is unavailable.
+        }
       } catch (eventError) {
         const currentWarning = tournament.itfApiWarning ? `${tournament.itfApiWarning} | ` : "";
         tournament.itfApiWarning = `${currentWarning}${event.playerTypeCode}-${event.matchTypeCode}-${event.eventClassificationCode}: ${eventError.message}`;
