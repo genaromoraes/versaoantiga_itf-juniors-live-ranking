@@ -79,8 +79,8 @@ const translations = {
     maximum: "máximo",
     pointsDefended: "Pontos defendidos nesta semana",
     pointsEntering: "Pontos entrando no torneio atual",
-    showDetails: "Mostrar detalhes",
-    hideDetails: "Fechar detalhes"
+    showDetails: "+ info",
+    hideDetails: "- info"
   },
   en: {
     htmlLang: "en",
@@ -124,8 +124,8 @@ const translations = {
     maximum: "maximum",
     pointsDefended: "Points defended this week",
     pointsEntering: "Points entering from current tournament",
-    showDetails: "Show details",
-    hideDetails: "Hide details"
+    showDetails: "+ info",
+    hideDetails: "- info"
   },
   es: {
     htmlLang: "es",
@@ -169,8 +169,8 @@ const translations = {
     maximum: "máximo",
     pointsDefended: "Puntos defendidos esta semana",
     pointsEntering: "Puntos que entran del torneo actual",
-    showDetails: "Mostrar detalles",
-    hideDetails: "Cerrar detalles"
+    showDetails: "+ info",
+    hideDetails: "- info"
   },
   it: {
     htmlLang: "it",
@@ -214,8 +214,8 @@ const translations = {
     maximum: "massimo",
     pointsDefended: "Punti difesi questa settimana",
     pointsEntering: "Punti in entrata dal torneo attuale",
-    showDetails: "Mostra dettagli",
-    hideDetails: "Chiudi dettagli"
+    showDetails: "+ info",
+    hideDetails: "- info"
   },
   fr: {
     htmlLang: "fr",
@@ -259,8 +259,8 @@ const translations = {
     maximum: "maximum",
     pointsDefended: "Points défendus cette semaine",
     pointsEntering: "Points entrant du tournoi actuel",
-    showDetails: "Afficher les détails",
-    hideDetails: "Fermer les détails"
+    showDetails: "+ info",
+    hideDetails: "- info"
   }
 };
 
