@@ -238,6 +238,13 @@ label,
   align-self: end;
 }
 
+.controls > label > span,
+.controls-update-group > span {
+  color: var(--muted);
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
 .controls-update-card small {
   margin-top: 0;
   font-size: 0.9rem;
@@ -427,6 +434,7 @@ td {
 th {
   color: var(--muted);
   font-size: 0.7rem;
+  font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   background: var(--surface-soft);
@@ -493,7 +501,7 @@ tbody tr.is-selected {
 .points-flow-text {
   color: var(--muted);
   min-width: 0;
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   line-height: 1.2;
 }
 
@@ -597,12 +605,12 @@ tbody tr.is-selected {
 
 .live-points {
   color: var(--accent);
-  font-size: 0.92rem;
+  font-size: 0.84rem;
   font-weight: 950;
 }
 
 table td:nth-child(3) {
-  font-size: 0.86rem;
+  font-size: 0.78rem;
 }
 
 .official-points {
@@ -661,6 +669,18 @@ table:not(.is-official-table) th:nth-child(4),
 table:not(.is-official-table) td:nth-child(4) {
   min-width: 122px;
   width: 122px;
+}
+
+table th:first-child,
+table td:first-child {
+  min-width: 62px;
+  width: 62px;
+  padding-right: 4px;
+}
+
+table th:nth-child(2),
+table td:nth-child(2) {
+  padding-left: 4px;
 }
 
 table th:nth-child(3),
