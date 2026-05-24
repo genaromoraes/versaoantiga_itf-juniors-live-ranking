@@ -460,13 +460,13 @@ tbody tr.is-selected {
   display: flex;
   align-items: center;
   gap: 6px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .points-stack {
   display: grid;
   gap: 3px;
-  min-width: 208px;
+  min-width: 268px;
 }
 
 .points-flow {
@@ -667,8 +667,8 @@ table td:nth-child(3) {
 
 table:not(.is-official-table) th:nth-child(4),
 table:not(.is-official-table) td:nth-child(4) {
-  min-width: 122px;
-  width: 122px;
+  min-width: 200px;
+  width: 200px;
 }
 
 table th:first-child,
