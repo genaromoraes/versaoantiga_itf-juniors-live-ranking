@@ -70,7 +70,7 @@ const translations = {
     singles: "Simples",
     doubles: "Duplas",
     notPlaying: "não joga",
-    eliminated: "eliminado",
+    eliminated: "❌",
     currentTournament: "Torneio atual",
     counting: "contando",
     notCounting: "não contando",
@@ -115,7 +115,7 @@ const translations = {
     singles: "Singles",
     doubles: "Doubles",
     notPlaying: "not playing",
-    eliminated: "eliminated",
+    eliminated: "❌",
     currentTournament: "Current tournament",
     counting: "counting",
     notCounting: "not counting",
@@ -160,7 +160,7 @@ const translations = {
     singles: "Individuales",
     doubles: "Dobles",
     notPlaying: "no juega",
-    eliminated: "eliminado",
+    eliminated: "❌",
     currentTournament: "Torneo actual",
     counting: "contando",
     notCounting: "no contando",
@@ -205,7 +205,7 @@ const translations = {
     singles: "Singolare",
     doubles: "Doppio",
     notPlaying: "non gioca",
-    eliminated: "eliminato",
+    eliminated: "❌",
     currentTournament: "Torneo attuale",
     counting: "valido",
     notCounting: "non valido",
@@ -250,7 +250,7 @@ const translations = {
     singles: "Simple",
     doubles: "Double",
     notPlaying: "ne joue pas",
-    eliminated: "éliminé",
+    eliminated: "❌",
     currentTournament: "Tournoi actuel",
     counting: "comptabilisé",
     notCounting: "non comptabilisé",
@@ -1151,13 +1151,19 @@ function topMilestoneMarkup(player) {
   return label ? `<span class="milestone-badge">${escapeHtml(label)}</span>` : "";
 }
 
+function displayRound(round) {
+  if (!round) return "-";
+  if (round === "Campeao" || round === "Campeão") return "🏆";
+  return round;
+}
+
 function phaseText(liveEvent = {}) {
   const singles = liveEvent.singlesStatus === "Eliminado"
-    ? `${t("eliminated")} ${liveEvent.singlesRound || ""}`.trim()
-    : `${liveEvent.singlesRound || "-"} ${t("singles").toLowerCase()}`;
+    ? `${t("eliminated")} ${displayRound(liveEvent.singlesRound)}`.trim()
+    : `${displayRound(liveEvent.singlesRound)} ${t("singles").toLowerCase()}`;
   const doubles = liveEvent.doublesStatus === "Eliminado"
-    ? `${t("eliminated")} ${liveEvent.doublesRound || ""}`.trim()
-    : `${liveEvent.doublesRound || "-"} ${t("doubles").toLowerCase()}`;
+    ? `${t("eliminated")} ${displayRound(liveEvent.doublesRound)}`.trim()
+    : `${displayRound(liveEvent.doublesRound)} ${t("doubles").toLowerCase()}`;
   return `${singles} · ${doubles}`;
 }
 
@@ -1173,8 +1179,8 @@ function weeklyStatusMarkup(liveEvent = {}) {
   return `
     <div class="week-status">
       <strong>${liveEvent.event}</strong>
-      <span>${liveEvent.singlesStatus === "Eliminado" ? `${t("singles")}: ${t("eliminated")} ${liveEvent.singlesRound || ""}` : `${t("singles")}: ${liveEvent.singlesRound || "-"}`}</span>
-      <span>${liveEvent.doublesStatus === "Nao joga" ? `${t("doubles")}: ${t("notPlaying")}` : liveEvent.doublesStatus === "Eliminado" ? `${t("doubles")}: ${t("eliminated")} ${liveEvent.doublesRound || ""}` : `${t("doubles")}: ${liveEvent.doublesRound || "-"}`}</span>
+      <span>${liveEvent.singlesStatus === "Eliminado" ? `${t("singles")}: ${t("eliminated")} ${displayRound(liveEvent.singlesRound)}` : `${t("singles")}: ${displayRound(liveEvent.singlesRound)}`}</span>
+      <span>${liveEvent.doublesStatus === "Nao joga" ? `${t("doubles")}: ${t("notPlaying")}` : liveEvent.doublesStatus === "Eliminado" ? `${t("doubles")}: ${t("eliminated")} ${displayRound(liveEvent.doublesRound)}` : `${t("doubles")}: ${displayRound(liveEvent.doublesRound)}`}</span>
     </div>
   `;
 }
