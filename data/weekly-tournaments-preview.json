@@ -36129,26 +36129,6 @@
           "notes": "Encontrado no drawsheet da ITF."
         }
       ]
-    },
-    {
-      "tournamentName": "Roland Garros Junior Championships",
-      "grade": "JGS",
-      "startDate": "2026-05-31",
-      "endDate": "2026-06-06",
-      "status": "",
-      "country": "France",
-      "surface": "Clay",
-      "key": "J-JGS-FRA-2026-001",
-      "tournamentId": "",
-      "tournamentUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/",
-      "drawsUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-      "fallbackUsed": false,
-      "itfApiWarning": "",
-      "drawWarning": "",
-      "events": [],
-      "drawsheetsSummary": [],
-      "acceptedPlayers": [],
-      "outsiderCandidates": []
     }
   ]
 }

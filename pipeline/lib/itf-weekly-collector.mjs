@@ -104,6 +104,24 @@ function calendarDate(value) {
   return value.toISOString().slice(0, 10);
 }
 
+function parseIsoDateUtc(value) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(String(value || ""))) return null;
+  const date = new Date(`${value}T00:00:00Z`);
+  return Number.isNaN(date.getTime()) ? null : date;
+}
+
+function normalizedTournamentWeekStart(startDate) {
+  const date = parseIsoDateUtc(startDate);
+  if (!date) return null;
+  // Some junior events are exposed by ITF with a Sunday start date even though
+  // they belong to the following ranking week. Treat those tournaments as part
+  // of the next Monday-start week.
+  if (date.getUTCDay() === 0) {
+    date.setUTCDate(date.getUTCDate() + 1);
+  }
+  return date;
+}
+
 export function currentWeekBounds(weekOffset = 0) {
   const today = saoPauloToday();
   const day = today.getUTCDay() || 7;
@@ -134,8 +152,9 @@ function currentWeekDateRange(weekOffset = 0) {
 function overlapsCurrentWeek(startDate, endDate, weekOffset = 0) {
   if (!startDate || !endDate) return false;
   const { start, end } = currentWeekBounds(weekOffset);
-  const tournamentStart = new Date(`${startDate}T00:00:00Z`);
+  const tournamentStart = normalizedTournamentWeekStart(startDate);
   const tournamentEnd = new Date(`${endDate}T23:59:59Z`);
+  if (!tournamentStart || Number.isNaN(tournamentEnd.getTime())) return false;
   return tournamentStart <= end && start <= tournamentEnd;
 }
 
@@ -1419,6 +1438,7 @@ export async function collectWeeklyItfSnapshot({
       const seenKeys = new Set(tournaments.map((tournament) => tournament.key).filter(Boolean));
       for (const storedTournament of storedTournaments) {
         if (!storedTournament?.key || seenKeys.has(storedTournament.key)) continue;
+        if (!overlapsCurrentWeek(storedTournament.startDate, storedTournament.endDate, weekOffset)) continue;
         tournaments.push(storedTournamentFallback(storedTournament));
       }
     }
