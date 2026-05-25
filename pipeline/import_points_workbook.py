@@ -45,6 +45,12 @@ def add_drop_date(date_value: str) -> str:
         date = datetime.strptime(date_value, "%Y-%m-%d").date()
     except ValueError:
         return ""
+    # Some junior events are stored with a Sunday start date in the source
+    # workbook even though their ranking week begins on the following Monday.
+    # Shift those cases before applying the 52-week rollover window so they
+    # drop in the correct official week.
+    if date.weekday() == 6:
+        date = date + timedelta(days=1)
     return (date + timedelta(days=364)).isoformat()
 
 

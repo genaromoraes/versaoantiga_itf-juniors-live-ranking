@@ -42,6 +42,40 @@ function csvValue(value) {
   return `"${text.replaceAll('"', '""')}"`;
 }
 
+function parseIsoDateUtc(value) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(String(value || ""))) return null;
+  const date = new Date(`${value}T00:00:00Z`);
+  return Number.isNaN(date.getTime()) ? null : date;
+}
+
+function isoDateFromUtc(date) {
+  return date.toISOString().slice(0, 10);
+}
+
+function normalizedDropDate(dateValue, dropDateValue) {
+  if (dropDateValue) {
+    const sourceDate = parseIsoDateUtc(dateValue);
+    const storedDropDate = parseIsoDateUtc(dropDateValue);
+    if (sourceDate && storedDropDate && sourceDate.getUTCDay() === 0) {
+      const expectedLegacyDropDate = new Date(sourceDate);
+      expectedLegacyDropDate.setUTCDate(expectedLegacyDropDate.getUTCDate() + 364);
+      if (isoDateFromUtc(expectedLegacyDropDate) === dropDateValue) {
+        expectedLegacyDropDate.setUTCDate(expectedLegacyDropDate.getUTCDate() + 1);
+        return isoDateFromUtc(expectedLegacyDropDate);
+      }
+    }
+    return dropDateValue;
+  }
+
+  const sourceDate = parseIsoDateUtc(dateValue);
+  if (!sourceDate) return "";
+  if (sourceDate.getUTCDay() === 0) {
+    sourceDate.setUTCDate(sourceDate.getUTCDate() + 1);
+  }
+  sourceDate.setUTCDate(sourceDate.getUTCDate() + 364);
+  return isoDateFromUtc(sourceDate);
+}
+
 async function readPointsCsvPreview() {
   try {
     const csv = await fs.readFile(pointsCsvFile, "utf8");
@@ -55,7 +89,8 @@ async function readPointsCsvPreview() {
       const columns = parseCsvLine(line);
       const row = Object.fromEntries(headers.map((header, index) => [header, columns[index] || ""]));
       if (!row.player_id || !row.result_type) continue;
-      if (!row.drop_date || row.drop_date < currentWeekStartIso) continue;
+      const dropDate = normalizedDropDate(row.date, row.drop_date);
+      if (!dropDate || dropDate < currentWeekStartIso) continue;
 
       const currentRank =
         row.current_rank === undefined || row.current_rank === null || row.current_rank === ""
@@ -77,7 +112,7 @@ async function readPointsCsvPreview() {
         event: row.event,
         grade: row.grade,
         date: row.date,
-        dropDate: row.drop_date,
+        dropDate,
         points: Number(row.points || 0),
         sourceCounting: row.source_counting !== "false"
       });
