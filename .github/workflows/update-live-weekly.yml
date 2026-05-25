@@ -28,7 +28,7 @@ jobs:
       - name: Sync latest repository state
         run: |
           git fetch origin main
-          git pull --rebase origin main
+          git pull --ff-only origin main
 
       - name: Decide whether live update is due
         id: due
@@ -41,10 +41,18 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: npm
+
+      - name: Cache Playwright browser
+        if: steps.due.outputs.should_run == 'true'
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ hashFiles('package-lock.json') }}
 
       - name: Install dependencies
         if: steps.due.outputs.should_run == 'true'
-        run: npm install
+        run: npm ci --prefer-offline --no-audit
 
       - name: Install browser
         if: steps.due.outputs.should_run == 'true'
@@ -73,8 +81,7 @@ jobs:
           git add data/latest.json data/weekly-results.csv data/weekly-results-history.csv data/weekly-tournaments-preview.json data/weekly-outsiders.csv data/weekly-outsiders-preview.json
           git diff --cached --quiet && exit 0
           git commit -m "Update live weekly data"
-          git pull --rebase origin main
-          git push
+          git push origin HEAD:main
 
       - name: Skip summary
         if: steps.due.outputs.should_run != 'true'

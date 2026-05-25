@@ -26,15 +26,22 @@ jobs:
       - name: Sync latest repository state
         run: |
           git fetch origin main
-          git pull --rebase origin main
+          git pull --ff-only origin main
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: npm
+
+      - name: Cache Playwright browser
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ hashFiles('package-lock.json') }}
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci --prefer-offline --no-audit
 
       - name: Install browser
         run: npx playwright install --with-deps chromium
@@ -63,5 +70,4 @@ jobs:
           git add pipeline/sources/players.json data/latest.json data/itf-ranking-preview.json data/weekly-results.csv data/weekly-results-history.csv data/weekly-tournaments-preview.json data/weekly-outsiders.csv data/weekly-outsiders-preview.json data/manual-weekly-results.csv data/player-points-status.csv
           git diff --cached --quiet && exit 0
           git commit -m "Update ranking data"
-          git pull --rebase origin main
-          git push
+          git push origin HEAD:main
