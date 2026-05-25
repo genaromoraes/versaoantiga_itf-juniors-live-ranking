@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "25/05/2026, 12:23",
+  "scrapedAt": "25/05/2026, 13:04",
   "calendarStartDate": "2026-05",
   "weekStartDate": "2026-05-25",
   "tournaments": [
@@ -15,7 +15,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j300-charleroi-marcinelle/bel/2026/j-j300-bel-2026-001/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j300-charleroi-marcinelle/bel/2026/j-j300-bel-2026-001/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -2770,7 +2770,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j100-calgary/can/2026/j-j100-can-2026-006/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j100-calgary/can/2026/j-j100-can-2026-006/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -3687,18 +3687,6 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800812021",
-          "playerName": "Brochton Kaveny",
-          "gender": "Boys",
-          "country": "USA",
-          "juniorRank": "",
-          "entryGroup": "MD",
-          "tournamentName": "J100 Calgary",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j100-calgary/can/2026/j-j100-can-2026-006/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j100-calgary/can/2026/j-j100-can-2026-006/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
           "playerItfId": "800869889",
           "playerName": "Carys Miles",
           "gender": "Girls",
@@ -3800,7 +3788,7 @@
           "gender": "Boys",
           "country": "CAN",
           "juniorRank": "",
-          "entryGroup": "Q",
+          "entryGroup": "MD",
           "tournamentName": "J100 Calgary",
           "sourceUrl": "https://www.itftennis.com/en/tournament/j100-calgary/can/2026/j-j100-can-2026-006/draws-and-results/",
           "drawsUrl": "https://www.itftennis.com/en/tournament/j100-calgary/can/2026/j-j100-can-2026-006/draws-and-results/",
@@ -4252,7 +4240,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j100-bucharest/rou/2026/j-j100-rou-2026-001/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j100-bucharest/rou/2026/j-j100-rou-2026-001/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -4402,9 +4390,8 @@
           "itfPlayerId": "800664341",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R32",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-bucharest/rou/2026/j-j100-rou-2026-001/draws-and-results/",
             "matchId": 1183551453
@@ -4424,9 +4411,8 @@
           "itfPlayerId": "800587914",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R32",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-bucharest/rou/2026/j-j100-rou-2026-001/draws-and-results/",
             "matchId": 1183551468
@@ -5038,9 +5024,8 @@
           "itfPlayerId": "800603275",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R32",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-bucharest/rou/2026/j-j100-rou-2026-001/draws-and-results/",
             "matchId": 1183551459
@@ -5068,9 +5053,8 @@
           "itfPlayerId": "800695711",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R32",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-bucharest/rou/2026/j-j100-rou-2026-001/draws-and-results/",
             "matchId": 1183551455
@@ -5127,9 +5111,8 @@
           "itfPlayerId": "800602862",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R32",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-bucharest/rou/2026/j-j100-rou-2026-001/draws-and-results/",
             "matchId": 1183551466
@@ -5324,9 +5307,8 @@
           "itfPlayerId": "800663533",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R32",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-bucharest/rou/2026/j-j100-rou-2026-001/draws-and-results/",
             "matchId": 1183551463
@@ -5496,10 +5478,10 @@
           "juniorRank": 683,
           "itfPlayerId": "800668431",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "2-6 6-2 6-7(0)",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-bucharest/rou/2026/j-j100-rou-2026-001/draws-and-results/",
             "matchId": 1183551495
           },
@@ -5650,10 +5632,10 @@
           "juniorRank": 794,
           "itfPlayerId": "800691229",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "3-6 4-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-bucharest/rou/2026/j-j100-rou-2026-001/draws-and-results/",
             "matchId": 1183551499
           },
@@ -5836,11 +5818,11 @@
           "itfPlayerId": "800653267",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R64",
+            "currentRound": "R32",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-bucharest/rou/2026/j-j100-rou-2026-001/draws-and-results/",
-            "matchId": 1183551474
+            "matchId": 1183551455
           },
           "drawResultDoubles": {
             "status": "Ativo",
@@ -5920,10 +5902,10 @@
           "juniorRank": 907,
           "itfPlayerId": "800699953",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "1-6 1-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-bucharest/rou/2026/j-j100-rou-2026-001/draws-and-results/",
             "matchId": 1183551482
           },
@@ -5977,11 +5959,11 @@
           "itfPlayerId": "800668664",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R64",
+            "currentRound": "R32",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-bucharest/rou/2026/j-j100-rou-2026-001/draws-and-results/",
-            "matchId": 1183551490
+            "matchId": 1183551463
           },
           "drawResultDoubles": {
             "status": "Ativo",
@@ -6468,11 +6450,11 @@
           "itfPlayerId": "800662745",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R64",
+            "currentRound": "R32",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-bucharest/rou/2026/j-j100-rou-2026-001/draws-and-results/",
-            "matchId": 1183551470
+            "matchId": 1183551453
           },
           "drawResultDoubles": {
             "status": "Ativo",
@@ -6810,10 +6792,10 @@
           "juniorRank": "",
           "itfPlayerId": "800664488",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "3-6 2-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-bucharest/rou/2026/j-j100-rou-2026-001/draws-and-results/",
             "matchId": 1183551470
           },
@@ -7831,7 +7813,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-santa-tecla/esa/2026/j-j60-esa-2026-003/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-santa-tecla/esa/2026/j-j60-esa-2026-003/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -9276,7 +9258,7 @@
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-tarija/bol/2026/j-j60-bol-2026-002/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-tarija/bol/2026/j-j60-bol-2026-002/draws-and-results/",
       "fallbackUsed": true,
-      "itfApiWarning": "",
+      "itfApiWarning": "G-D-M: Could not post ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet: Unexpected token '<', \"<html styl\"... is not valid JSON",
       "drawWarning": "",
       "events": [
         {
@@ -9380,14 +9362,6 @@
           "drawsheetStructureCode": "KO",
           "eventId": 1100701862,
           "matchesCount": 12
-        },
-        {
-          "playerTypeCode": "G",
-          "matchTypeCode": "D",
-          "eventClassificationCode": "M",
-          "drawsheetStructureCode": "KO",
-          "eventId": 1100701863,
-          "matchesCount": 15
         }
       ],
       "acceptedPlayers": [
@@ -11147,7 +11121,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-villahermosa/mex/2026/j-j60-mex-2026-007/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-villahermosa/mex/2026/j-j60-mex-2026-007/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -12880,7 +12854,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-ystad/swe/2026/j-j60-swe-2026-002/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-ystad/swe/2026/j-j60-swe-2026-002/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -13336,10 +13310,10 @@
           "juniorRank": 697,
           "itfPlayerId": "800695348",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "5-7 2-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-ystad/swe/2026/j-j60-swe-2026-002/draws-and-results/",
             "matchId": 1183551732
           },
@@ -13364,10 +13338,10 @@
           "juniorRank": 698,
           "itfPlayerId": "800599509",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "3-6 3-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-ystad/swe/2026/j-j60-swe-2026-002/draws-and-results/",
             "matchId": 1183551668
           },
@@ -14519,11 +14493,11 @@
           "itfPlayerId": "800712306",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R64",
+            "currentRound": "R32",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-ystad/swe/2026/j-j60-swe-2026-002/draws-and-results/",
-            "matchId": 1183551668
+            "matchId": 1183551656
           },
           "drawResultDoubles": {
             "status": "Ativo",
@@ -15106,7 +15080,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-limassol/cyp/2026/j-j30-cyp-2026-003/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-limassol/cyp/2026/j-j30-cyp-2026-003/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -15263,9 +15237,8 @@
           "itfPlayerId": "800660001",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R32",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-limassol/cyp/2026/j-j30-cyp-2026-003/draws-and-results/",
             "matchId": 1183551304
@@ -15427,11 +15400,11 @@
           "itfPlayerId": "800726270",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R64",
+            "currentRound": "R32",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-limassol/cyp/2026/j-j30-cyp-2026-003/draws-and-results/",
-            "matchId": 1183551310
+            "matchId": 1183551299
           },
           "drawResultDoubles": {
             "status": "Ativo",
@@ -16009,9 +15982,8 @@
           "itfPlayerId": "800645493",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R32",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-limassol/cyp/2026/j-j30-cyp-2026-003/draws-and-results/",
             "matchId": 1183551299
@@ -17314,7 +17286,7 @@
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-kampala/uga/2026/j-j30-uga-2026-001/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-kampala/uga/2026/j-j30-uga-2026-001/draws-and-results/",
       "fallbackUsed": true,
-      "itfApiWarning": "",
+      "itfApiWarning": "B-S-M: Could not post ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet: Unexpected token '<', \"<html styl\"... is not valid JSON",
       "drawWarning": "",
       "events": [
         {
@@ -17396,14 +17368,6 @@
           "drawsheetStructureCode": "KO",
           "eventId": 1100696106,
           "matchesCount": 7
-        },
-        {
-          "playerTypeCode": "B",
-          "matchTypeCode": "S",
-          "eventClassificationCode": "M",
-          "drawsheetStructureCode": "RR",
-          "eventId": 1100715190,
-          "matchesCount": 0
         },
         {
           "playerTypeCode": "B",
@@ -17806,7 +17770,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-podgorica/mne/2026/j-j30-mne-2026-003/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-podgorica/mne/2026/j-j30-mne-2026-003/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -19586,10 +19550,10 @@
       "country": "Kyrgyzstan",
       "surface": "Clay",
       "key": "J-J30-KGZ-2026-002",
-      "tournamentId": "1100203128",
+      "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-cholpon-ata/kgz/2026/j-j30-kgz-2026-002/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-cholpon-ata/kgz/2026/j-j30-kgz-2026-002/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -21781,7 +21745,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-chicago/usa/2026/j-j30-usa-2026-004/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-chicago/usa/2026/j-j30-usa-2026-004/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -22050,7 +22014,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-vadul-lui-voda/mda/2026/j-j30-mda-2026-003/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-vadul-lui-voda/mda/2026/j-j30-mda-2026-003/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -22264,11 +22228,12 @@
           "itfPlayerId": "800703669",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R64",
-            "confidence": "itf-api-pending-match",
+            "currentRound": "R16",
+            "pointsOverride": 0,
+            "confidence": "itf-api-bye",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-vadul-lui-voda/mda/2026/j-j30-mda-2026-003/draws-and-results/",
-            "matchId": 1183551183
+            "matchId": 1183551169
           },
           "drawResultDoubles": {
             "status": "Ativo",
@@ -22300,11 +22265,12 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "confidence": "itf-api-pending-match",
+            "currentRound": "SF",
+            "pointsOverride": 0,
+            "confidence": "itf-api-bye",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-vadul-lui-voda/mda/2026/j-j30-mda-2026-003/draws-and-results/",
-            "matchId": 2124506213
+            "matchId": 2124506208
           }
         },
         {
@@ -22327,10 +22293,10 @@
             "matchId": 1183551115
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R32",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "3-6 1-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-vadul-lui-voda/mda/2026/j-j30-mda-2026-003/draws-and-results/",
             "matchId": 2124506217
           }
@@ -22447,11 +22413,12 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "confidence": "itf-api-pending-match",
+            "currentRound": "SF",
+            "pointsOverride": 0,
+            "confidence": "itf-api-bye",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-vadul-lui-voda/mda/2026/j-j30-mda-2026-003/draws-and-results/",
-            "matchId": 2124506215
+            "matchId": 2124506209
           }
         },
         {
@@ -22488,11 +22455,11 @@
           "itfPlayerId": "800736979",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R64",
+            "currentRound": "R32",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-vadul-lui-voda/mda/2026/j-j30-mda-2026-003/draws-and-results/",
-            "matchId": 1183551184
+            "matchId": 1183551170
           },
           "drawResultDoubles": {
             "status": "Ativo",
@@ -22536,10 +22503,10 @@
           "juniorRank": "",
           "itfPlayerId": "800777895",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "3-6 4-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-vadul-lui-voda/mda/2026/j-j30-mda-2026-003/draws-and-results/",
             "matchId": 1183551181
           },
@@ -22823,10 +22790,10 @@
           "juniorRank": "",
           "itfPlayerId": "800679609",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "1-6 1-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-vadul-lui-voda/mda/2026/j-j30-mda-2026-003/draws-and-results/",
             "matchId": 1183551183
           },
@@ -22860,11 +22827,12 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "confidence": "itf-api-pending-match",
+            "currentRound": "SF",
+            "pointsOverride": 0,
+            "confidence": "itf-api-bye",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-vadul-lui-voda/mda/2026/j-j30-mda-2026-003/draws-and-results/",
-            "matchId": 2124506215
+            "matchId": 2124506209
           }
         },
         {
@@ -23076,11 +23044,11 @@
           "itfPlayerId": "800721370",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R64",
+            "currentRound": "R32",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-vadul-lui-voda/mda/2026/j-j30-mda-2026-003/draws-and-results/",
-            "matchId": 1183551181
+            "matchId": 1183551168
           },
           "drawResultDoubles": null
         },
@@ -23447,10 +23415,10 @@
             "matchId": 1183551121
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R32",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "1-6 6-3 8-10",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-vadul-lui-voda/mda/2026/j-j30-mda-2026-003/draws-and-results/",
             "matchId": 2124506213
           }
@@ -23496,11 +23464,11 @@
           "itfPlayerId": "800592894",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R64",
+            "currentRound": "R32",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-vadul-lui-voda/mda/2026/j-j30-mda-2026-003/draws-and-results/",
-            "matchId": 1183551180
+            "matchId": 1183551168
           },
           "drawResultDoubles": {
             "status": "Ativo",
@@ -23531,10 +23499,10 @@
             "matchId": 1183551116
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R32",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "1-6 6-3 8-10",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-vadul-lui-voda/mda/2026/j-j30-mda-2026-003/draws-and-results/",
             "matchId": 2124506213
           }
@@ -23593,10 +23561,10 @@
           "juniorRank": "",
           "itfPlayerId": "800679344",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "6-4 3-6 1-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-vadul-lui-voda/mda/2026/j-j30-mda-2026-003/draws-and-results/",
             "matchId": 1183551127
           },
@@ -23644,11 +23612,12 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R32",
-            "confidence": "itf-api-pending-match",
+            "currentRound": "SF",
+            "pointsOverride": 0,
+            "confidence": "itf-api-bye",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-vadul-lui-voda/mda/2026/j-j30-mda-2026-003/draws-and-results/",
-            "matchId": 2124506217
+            "matchId": 2124506210
           }
         },
         {
@@ -23776,10 +23745,10 @@
             "matchId": 1183551129
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R32",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "3-6 1-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-vadul-lui-voda/mda/2026/j-j30-mda-2026-003/draws-and-results/",
             "matchId": 2124506217
           }
@@ -23853,10 +23822,10 @@
             "matchId": 1183551139
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R32",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "6-7(3) 3-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-vadul-lui-voda/mda/2026/j-j30-mda-2026-003/draws-and-results/",
             "matchId": 2124506215
           }
@@ -24062,10 +24031,10 @@
           "juniorRank": "",
           "itfPlayerId": "800782574",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "6-0 4-6 5-7",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-vadul-lui-voda/mda/2026/j-j30-mda-2026-003/draws-and-results/",
             "matchId": 1183551175
           },
@@ -24475,11 +24444,11 @@
       "country": "Czechia",
       "surface": "Clay",
       "key": "J-J30-CZE-2026-002",
-      "tournamentId": "",
+      "tournamentId": "1100202567",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
       "fallbackUsed": true,
-      "itfApiWarning": "",
+      "itfApiWarning": "Could not fetch ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetEventFilters?tournamentKey=J-J30-CZE-2026-002: Unexpected token '<', \"<html styl\"... is not valid JSON",
       "drawWarning": "",
       "events": [
         {
@@ -24490,27 +24459,7 @@
           "eventClassificationCode": "M",
           "eventClassificationDesc": "Main Draw",
           "drawsheetStructureCode": "KO",
-          "drawsheetStructureDesc": "Knock-out"
-        },
-        {
-          "playerTypeCode": "B",
-          "playerTypeDesc": "Boys",
-          "matchTypeCode": "S",
-          "matchTypeDesc": "Singles",
-          "eventClassificationCode": "M",
-          "eventClassificationDesc": "Main Draw",
-          "drawsheetStructureCode": "RR",
-          "drawsheetStructureDesc": "Round Robin"
-        },
-        {
-          "playerTypeCode": "B",
-          "playerTypeDesc": "Boys",
-          "matchTypeCode": "S",
-          "matchTypeDesc": "Singles",
-          "eventClassificationCode": "Q",
-          "eventClassificationDesc": "Qualifying Draw",
-          "drawsheetStructureCode": "KO",
-          "drawsheetStructureDesc": "Knock-out"
+          "drawsheetStructureDesc": "KO"
         },
         {
           "playerTypeCode": "B",
@@ -24520,37 +24469,27 @@
           "eventClassificationCode": "M",
           "eventClassificationDesc": "Main Draw",
           "drawsheetStructureCode": "KO",
-          "drawsheetStructureDesc": "Knock-out"
+          "drawsheetStructureDesc": "KO"
         },
         {
-          "playerTypeCode": "G",
-          "playerTypeDesc": "Girls",
-          "matchTypeCode": "S",
-          "matchTypeDesc": "Singles",
-          "eventClassificationCode": "M",
-          "eventClassificationDesc": "Main Draw",
-          "drawsheetStructureCode": "KO",
-          "drawsheetStructureDesc": "Knock-out"
-        },
-        {
-          "playerTypeCode": "G",
-          "playerTypeDesc": "Girls",
-          "matchTypeCode": "S",
-          "matchTypeDesc": "Singles",
-          "eventClassificationCode": "M",
-          "eventClassificationDesc": "Main Draw",
-          "drawsheetStructureCode": "RR",
-          "drawsheetStructureDesc": "Round Robin"
-        },
-        {
-          "playerTypeCode": "G",
-          "playerTypeDesc": "Girls",
+          "playerTypeCode": "B",
+          "playerTypeDesc": "Boys",
           "matchTypeCode": "S",
           "matchTypeDesc": "Singles",
           "eventClassificationCode": "Q",
           "eventClassificationDesc": "Qualifying Draw",
           "drawsheetStructureCode": "KO",
-          "drawsheetStructureDesc": "Knock-out"
+          "drawsheetStructureDesc": "KO"
+        },
+        {
+          "playerTypeCode": "G",
+          "playerTypeDesc": "Girls",
+          "matchTypeCode": "S",
+          "matchTypeDesc": "Singles",
+          "eventClassificationCode": "M",
+          "eventClassificationDesc": "Main Draw",
+          "drawsheetStructureCode": "KO",
+          "drawsheetStructureDesc": "KO"
         },
         {
           "playerTypeCode": "G",
@@ -24560,7 +24499,17 @@
           "eventClassificationCode": "M",
           "eventClassificationDesc": "Main Draw",
           "drawsheetStructureCode": "KO",
-          "drawsheetStructureDesc": "Knock-out"
+          "drawsheetStructureDesc": "KO"
+        },
+        {
+          "playerTypeCode": "G",
+          "playerTypeDesc": "Girls",
+          "matchTypeCode": "S",
+          "matchTypeDesc": "Singles",
+          "eventClassificationCode": "Q",
+          "eventClassificationDesc": "Qualifying Draw",
+          "drawsheetStructureCode": "KO",
+          "drawsheetStructureDesc": "KO"
         }
       ],
       "drawsheetsSummary": [
@@ -24571,14 +24520,6 @@
           "drawsheetStructureCode": "KO",
           "eventId": 1100689233,
           "matchesCount": 7
-        },
-        {
-          "playerTypeCode": "B",
-          "matchTypeCode": "S",
-          "eventClassificationCode": "M",
-          "drawsheetStructureCode": "RR",
-          "eventId": 1100715206,
-          "matchesCount": 0
         },
         {
           "playerTypeCode": "B",
@@ -24603,30 +24544,6 @@
           "drawsheetStructureCode": "KO",
           "eventId": 1100689236,
           "matchesCount": 7
-        },
-        {
-          "playerTypeCode": "G",
-          "matchTypeCode": "S",
-          "eventClassificationCode": "M",
-          "drawsheetStructureCode": "RR",
-          "eventId": 1100715214,
-          "matchesCount": 0
-        },
-        {
-          "playerTypeCode": "G",
-          "matchTypeCode": "S",
-          "eventClassificationCode": "Q",
-          "drawsheetStructureCode": "KO",
-          "eventId": 1100689237,
-          "matchesCount": 24
-        },
-        {
-          "playerTypeCode": "G",
-          "matchTypeCode": "D",
-          "eventClassificationCode": "M",
-          "drawsheetStructureCode": "KO",
-          "eventId": 1100689238,
-          "matchesCount": 15
         }
       ],
       "acceptedPlayers": [],
@@ -24644,94 +24561,10 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800705735",
-          "playerName": "Adela Svoboda",
-          "gender": "Girls",
-          "country": "CZE",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Hradec Kralove",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
           "playerItfId": "800818089",
           "playerName": "Alan Molodecki",
           "gender": "Boys",
           "country": "POL",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Hradec Kralove",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800865004",
-          "playerName": "Alena Polaskova",
-          "gender": "Girls",
-          "country": "CZE",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Hradec Kralove",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800655948",
-          "playerName": "ALISA SKAMAROKH",
-          "gender": "Girls",
-          "country": "POL",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Hradec Kralove",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800713377",
-          "playerName": "Amelie Tvrzska",
-          "gender": "Girls",
-          "country": "CZE",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Hradec Kralove",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800656113",
-          "playerName": "Barbora BIDZILIA",
-          "gender": "Girls",
-          "country": "CZE",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Hradec Kralove",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800670213",
-          "playerName": "Barbora Fialova",
-          "gender": "Girls",
-          "country": "CZE",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Hradec Kralove",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800746656",
-          "playerName": "Barbora Klusackova",
-          "gender": "Girls",
-          "country": "CZE",
           "juniorRank": "",
           "entryGroup": "Q",
           "tournamentName": "J30 Hradec Kralove",
@@ -24788,57 +24621,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800792545",
-          "playerName": "Diana Duskova",
-          "gender": "Girls",
-          "country": "CZE",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Hradec Kralove",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
           "playerItfId": "800683780",
           "playerName": "Dominik Klar",
           "gender": "Boys",
-          "country": "CZE",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Hradec Kralove",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800715143",
-          "playerName": "Eliska Holubova",
-          "gender": "Girls",
-          "country": "CZE",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Hradec Kralove",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800784843",
-          "playerName": "Eliska Sejvalova",
-          "gender": "Girls",
-          "country": "CZE",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Hradec Kralove",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800602828",
-          "playerName": "Isabela Skorepova",
-          "gender": "Girls",
           "country": "CZE",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -24899,42 +24684,6 @@
           "playerItfId": "800674475",
           "playerName": "Kristian Simek",
           "gender": "Boys",
-          "country": "CZE",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Hradec Kralove",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800677172",
-          "playerName": "Lana Srejic",
-          "gender": "Girls",
-          "country": "AUT",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Hradec Kralove",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800668373",
-          "playerName": "Liliana Michalcova",
-          "gender": "Girls",
-          "country": "CZE",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Hradec Kralove",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800712062",
-          "playerName": "Lisa Michna",
-          "gender": "Girls",
           "country": "CZE",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25016,70 +24765,10 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800676808",
-          "playerName": "Nadia Ptak",
-          "gender": "Girls",
-          "country": "POL",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Hradec Kralove",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800672954",
-          "playerName": "Nathalie Charlize Miskovsky",
-          "gender": "Girls",
-          "country": "CZE",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Hradec Kralove",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800784103",
-          "playerName": "Nikita Kovarova",
-          "gender": "Girls",
-          "country": "CZE",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Hradec Kralove",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
           "playerItfId": "800664439",
           "playerName": "Nikita Sikanov",
           "gender": "Boys",
           "country": "RUS",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Hradec Kralove",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800647076",
-          "playerName": "Ruzena Karsnakova",
-          "gender": "Girls",
-          "country": "CZE",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Hradec Kralove",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800693732",
-          "playerName": "Samantha Kohoutkova",
-          "gender": "Girls",
-          "country": "CZE",
           "juniorRank": "",
           "entryGroup": "Q",
           "tournamentName": "J30 Hradec Kralove",
@@ -25124,69 +24813,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800822172",
-          "playerName": "Sofie Dvorackova",
-          "gender": "Girls",
-          "country": "CZE",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Hradec Kralove",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800766198",
-          "playerName": "Sofie Kotova",
-          "gender": "Girls",
-          "country": "CZE",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Hradec Kralove",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800792001",
-          "playerName": "Tereza Havlat",
-          "gender": "Girls",
-          "country": "USA",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Hradec Kralove",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
           "playerItfId": "800673321",
           "playerName": "Tomas Fencl",
           "gender": "Boys",
-          "country": "CZE",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Hradec Kralove",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800672203",
-          "playerName": "Viktorie Krejcikova",
-          "gender": "Girls",
-          "country": "CZE",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Hradec Kralove",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-hradec-kralove/cze/2026/j-j30-cze-2026-002/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800728114",
-          "playerName": "Viktorie Ulich",
-          "gender": "Girls",
           "country": "CZE",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25221,7 +24850,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-sukoharjo/ina/2026/j-j30-ina-2026-001/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-sukoharjo/ina/2026/j-j30-ina-2026-001/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -25808,7 +25437,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-buenos-aires/arg/2026/j-j30-arg-2026-001/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-buenos-aires/arg/2026/j-j30-arg-2026-001/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -26515,7 +26144,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-jingshan/chn/2026/j-j30-chn-2026-003/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-jingshan/chn/2026/j-j30-chn-2026-003/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -27490,7 +27119,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-colombo/sri/2026/j-j30-sri-2026-007/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-colombo/sri/2026/j-j30-sri-2026-007/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -28728,7 +28357,7 @@
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/draws-and-results/",
       "fallbackUsed": true,
-      "itfApiWarning": "",
+      "itfApiWarning": "G-S-Q: Could not post ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet: Unexpected token '<', \"<html styl\"... is not valid JSON",
       "drawWarning": "",
       "events": [
         {
@@ -28824,14 +28453,6 @@
           "drawsheetStructureCode": "KO",
           "eventId": 1100696992,
           "matchesCount": 63
-        },
-        {
-          "playerTypeCode": "G",
-          "matchTypeCode": "S",
-          "eventClassificationCode": "Q",
-          "drawsheetStructureCode": "KO",
-          "eventId": 1100696993,
-          "matchesCount": 18
         },
         {
           "playerTypeCode": "G",
@@ -30204,36 +29825,12 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800869870",
-          "playerName": "Aleksandra Rekos",
-          "gender": "Girls",
-          "country": "POL",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J100 Sobota",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
           "playerItfId": "800656529",
           "playerName": "Alicja Szweda",
           "gender": "Girls",
           "country": "POL",
           "juniorRank": "",
           "entryGroup": "MD",
-          "tournamentName": "J100 Sobota",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800656299",
-          "playerName": "Anna Bubnova",
-          "gender": "Girls",
-          "country": "BLR",
-          "juniorRank": "",
-          "entryGroup": "Q",
           "tournamentName": "J100 Sobota",
           "sourceUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/draws-and-results/",
           "drawsUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/draws-and-results/",
@@ -30432,18 +30029,6 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800656919",
-          "playerName": "Julia Jaroszewska",
-          "gender": "Girls",
-          "country": "POL",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J100 Sobota",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
           "playerItfId": "800695448",
           "playerName": "Julian Domanski",
           "gender": "Boys",
@@ -30462,18 +30047,6 @@
           "country": "POL",
           "juniorRank": "",
           "entryGroup": "MD",
-          "tournamentName": "J100 Sobota",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800791702",
-          "playerName": "Laura Caruk",
-          "gender": "Girls",
-          "country": "POL",
-          "juniorRank": "",
-          "entryGroup": "Q",
           "tournamentName": "J100 Sobota",
           "sourceUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/draws-and-results/",
           "drawsUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/draws-and-results/",
@@ -30510,18 +30083,6 @@
           "country": "POL",
           "juniorRank": "",
           "entryGroup": "MD",
-          "tournamentName": "J100 Sobota",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800656280",
-          "playerName": "Maja Nowak",
-          "gender": "Girls",
-          "country": "POL",
-          "juniorRank": "",
-          "entryGroup": "Q",
           "tournamentName": "J100 Sobota",
           "sourceUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/draws-and-results/",
           "drawsUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/draws-and-results/",
@@ -30684,36 +30245,12 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800734468",
-          "playerName": "Polina Kutuzova",
-          "gender": "Girls",
-          "country": "UKR",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J100 Sobota",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
           "playerItfId": "800659849",
           "playerName": "Sofia Rachel Kocisova",
           "gender": "Girls",
           "country": "SVK",
           "juniorRank": "",
           "entryGroup": "MD",
-          "tournamentName": "J100 Sobota",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800732435",
-          "playerName": "Tereza Paleckova",
-          "gender": "Girls",
-          "country": "CZE",
-          "juniorRank": "",
-          "entryGroup": "Q",
           "tournamentName": "J100 Sobota",
           "sourceUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/draws-and-results/",
           "drawsUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/draws-and-results/",
@@ -30750,18 +30287,6 @@
           "country": "POL",
           "juniorRank": "",
           "entryGroup": "MD",
-          "tournamentName": "J100 Sobota",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800645828",
-          "playerName": "Wiktoria Lorek",
-          "gender": "Girls",
-          "country": "POL",
-          "juniorRank": "",
-          "entryGroup": "Q",
           "tournamentName": "J100 Sobota",
           "sourceUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/draws-and-results/",
           "drawsUrl": "https://www.itftennis.com/en/tournament/j100-sobota/pol/2026/j-j100-pol-2026-001/draws-and-results/",
@@ -30817,7 +30342,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-004/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-004/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -31345,7 +30870,7 @@
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-darwin/aus/2026/j-j30-aus-2026-001/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-darwin/aus/2026/j-j30-aus-2026-001/draws-and-results/",
       "fallbackUsed": true,
-      "itfApiWarning": "",
+      "itfApiWarning": "G-S-M: Could not post ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet: Unexpected token '<', \"<html styl\"... is not valid JSON",
       "drawWarning": "",
       "events": [
         {
@@ -31461,14 +30986,6 @@
           "drawsheetStructureCode": "KO",
           "eventId": 1100673027,
           "matchesCount": 15
-        },
-        {
-          "playerTypeCode": "G",
-          "matchTypeCode": "S",
-          "eventClassificationCode": "M",
-          "drawsheetStructureCode": "KO",
-          "eventId": 1100673028,
-          "matchesCount": 7
         },
         {
           "playerTypeCode": "G",
@@ -32100,7 +31617,7 @@
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-hanko/fin/2026/j-j30-fin-2026-004/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-hanko/fin/2026/j-j30-fin-2026-004/draws-and-results/",
       "fallbackUsed": true,
-      "itfApiWarning": "",
+      "itfApiWarning": "G-S-M: Could not post ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet: Unexpected token '<', \"<html styl\"... is not valid JSON",
       "drawWarning": "",
       "events": [
         {
@@ -32224,14 +31741,6 @@
           "drawsheetStructureCode": "KO",
           "eventId": 1100687653,
           "matchesCount": 7
-        },
-        {
-          "playerTypeCode": "G",
-          "matchTypeCode": "S",
-          "eventClassificationCode": "M",
-          "drawsheetStructureCode": "RR",
-          "eventId": 1100715287,
-          "matchesCount": 0
         },
         {
           "playerTypeCode": "G",
@@ -32528,7 +32037,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-saipan-cancelled/mnp/2026/j-j30-nmi-2026-001/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-saipan-cancelled/mnp/2026/j-j30-nmi-2026-001/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [],
@@ -32548,7 +32057,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-baku/aze/2026/j-j30-aze-2026-001/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-baku/aze/2026/j-j30-aze-2026-001/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -33631,8 +33140,8 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
-      "fallbackUsed": true,
-      "itfApiWarning": "B-S-Q: Could not post ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet: Unexpected token '<', \"<html styl\"... is not valid JSON",
+      "fallbackUsed": false,
+      "itfApiWarning": "",
       "drawWarning": "",
       "events": [
         {
@@ -33707,6 +33216,14 @@
         },
         {
           "playerTypeCode": "B",
+          "matchTypeCode": "S",
+          "eventClassificationCode": "Q",
+          "drawsheetStructureCode": "KO",
+          "eventId": 1100694325,
+          "matchesCount": 24
+        },
+        {
+          "playerTypeCode": "B",
           "matchTypeCode": "D",
           "eventClassificationCode": "M",
           "drawsheetStructureCode": "KO",
@@ -33738,7 +33255,282 @@
           "matchesCount": 15
         }
       ],
-      "acceptedPlayers": [],
+      "acceptedPlayers": [
+        {
+          "id": "adam-ghalas",
+          "name": "Adam Ghalas",
+          "country": "MAR",
+          "gender": "Boys",
+          "currentRank": 0,
+          "birthYear": "",
+          "officialPoints": 0,
+          "entryGroup": "Q",
+          "juniorRank": "",
+          "itfPlayerId": "800811156",
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q2",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+            "matchId": 1183556279
+          },
+          "drawResultDoubles": null
+        },
+        {
+          "id": "debrito-borys",
+          "name": "Debrito Borys",
+          "country": "FRA",
+          "gender": "Boys",
+          "currentRank": 0,
+          "birthYear": "",
+          "officialPoints": 0,
+          "entryGroup": "Q",
+          "juniorRank": "",
+          "itfPlayerId": "800806428",
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q3",
+            "pointsOverride": 0,
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+            "matchId": 1183556284
+          },
+          "drawResultDoubles": null
+        },
+        {
+          "id": "elias-el-bouhali",
+          "name": "Elias El Bouhali",
+          "country": "GER",
+          "gender": "Boys",
+          "currentRank": 0,
+          "birthYear": "",
+          "officialPoints": 0,
+          "entryGroup": "Q",
+          "juniorRank": "",
+          "itfPlayerId": "800703070",
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q2",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+            "matchId": 1183556282
+          },
+          "drawResultDoubles": null
+        },
+        {
+          "id": "hady-grari",
+          "name": "Hady Grari",
+          "country": "MAR",
+          "gender": "Boys",
+          "currentRank": 0,
+          "birthYear": "",
+          "officialPoints": 0,
+          "entryGroup": "Q",
+          "juniorRank": "",
+          "itfPlayerId": "800784939",
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q1",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+            "matchId": 1183556298
+          },
+          "drawResultDoubles": null
+        },
+        {
+          "id": "igor-debrito",
+          "name": "Igor Debrito",
+          "country": "FRA",
+          "gender": "Boys",
+          "currentRank": 0,
+          "birthYear": "",
+          "officialPoints": 0,
+          "entryGroup": "Q",
+          "juniorRank": "",
+          "itfPlayerId": "800681948",
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q2",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+            "matchId": 1183556283
+          },
+          "drawResultDoubles": null
+        },
+        {
+          "id": "ismail-raiss",
+          "name": "Ismail Raiss",
+          "country": "MAR",
+          "gender": "Boys",
+          "currentRank": 0,
+          "birthYear": "",
+          "officialPoints": 0,
+          "entryGroup": "Q",
+          "juniorRank": "",
+          "itfPlayerId": "800808965",
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "Q1",
+            "confidence": "itf-api-loss",
+            "score": "2-6 2-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+            "matchId": 1183556300
+          },
+          "drawResultDoubles": null
+        },
+        {
+          "id": "mohammed-amir-ballouchy",
+          "name": "Mohammed amir Ballouchy",
+          "country": "MAR",
+          "gender": "Boys",
+          "currentRank": 0,
+          "birthYear": "",
+          "officialPoints": 0,
+          "entryGroup": "Q",
+          "juniorRank": "",
+          "itfPlayerId": "800697568",
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q2",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+            "matchId": 1183556280
+          },
+          "drawResultDoubles": null
+        },
+        {
+          "id": "robin-campasol",
+          "name": "Robin CAMPASOL",
+          "country": "FRA",
+          "gender": "Boys",
+          "currentRank": 0,
+          "birthYear": "",
+          "officialPoints": 0,
+          "entryGroup": "Q",
+          "juniorRank": "",
+          "itfPlayerId": "800810153",
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q2",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+            "matchId": 1183556278
+          },
+          "drawResultDoubles": null
+        },
+        {
+          "id": "salim-takhim",
+          "name": "Salim Takhim",
+          "country": "MAR",
+          "gender": "Boys",
+          "currentRank": 0,
+          "birthYear": "",
+          "officialPoints": 0,
+          "entryGroup": "Q",
+          "juniorRank": "",
+          "itfPlayerId": "800740852",
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q2",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+            "matchId": 1183556280
+          },
+          "drawResultDoubles": null
+        },
+        {
+          "id": "sammy-debbagh",
+          "name": "Sammy Debbagh",
+          "country": "MAR",
+          "gender": "Boys",
+          "currentRank": 0,
+          "birthYear": "",
+          "officialPoints": 0,
+          "entryGroup": "Q",
+          "juniorRank": "",
+          "itfPlayerId": "800780791",
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "Q1",
+            "confidence": "itf-api-loss",
+            "score": "0-6 0-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+            "matchId": 1183556299
+          },
+          "drawResultDoubles": null
+        },
+        {
+          "id": "szymon-podczaszy",
+          "name": "Szymon Podczaszy",
+          "country": "POL",
+          "gender": "Boys",
+          "currentRank": 0,
+          "birthYear": "",
+          "officialPoints": 0,
+          "entryGroup": "Q",
+          "juniorRank": "",
+          "itfPlayerId": "800644703",
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q2",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+            "matchId": 1183556285
+          },
+          "drawResultDoubles": null
+        },
+        {
+          "id": "toby-shaw",
+          "name": "Toby Shaw",
+          "country": "GBR",
+          "gender": "Boys",
+          "currentRank": 0,
+          "birthYear": "",
+          "officialPoints": 0,
+          "entryGroup": "Q",
+          "juniorRank": "",
+          "itfPlayerId": "800668568",
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "Q2",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+            "matchId": 1183556282
+          },
+          "drawResultDoubles": null
+        },
+        {
+          "id": "youssef-asso",
+          "name": "Youssef Asso",
+          "country": "MAR",
+          "gender": "Boys",
+          "currentRank": 0,
+          "birthYear": "",
+          "officialPoints": 0,
+          "entryGroup": "Q",
+          "juniorRank": "",
+          "itfPlayerId": "800737583",
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "Q1",
+            "confidence": "itf-api-loss",
+            "score": "2-6 2-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+            "matchId": 1183556287
+          },
+          "drawResultDoubles": null
+        }
+      ],
       "outsiderCandidates": [
         {
           "playerItfId": "800718000",
@@ -33757,6 +33549,18 @@
           "playerName": "Aileen Standaert",
           "gender": "Girls",
           "country": "BEL",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J30 Agadir",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800667778",
+          "playerName": "Antoine Gomez Le Gallic",
+          "gender": "Boys",
+          "country": "FRA",
           "juniorRank": "",
           "entryGroup": "Q",
           "tournamentName": "J30 Agadir",
@@ -33825,6 +33629,18 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
+          "playerItfId": "800784554",
+          "playerName": "Imran Es Sobki",
+          "gender": "Boys",
+          "country": "MAR",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J30 Agadir",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
           "playerItfId": "800729259",
           "playerName": "Izia Lalanne",
           "gender": "Girls",
@@ -33837,10 +33653,46 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
+          "playerItfId": "800866051",
+          "playerName": "Javier Gonzalez Nombela",
+          "gender": "Boys",
+          "country": "ESP",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J30 Agadir",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800808390",
+          "playerName": "Juan Benito",
+          "gender": "Boys",
+          "country": "ESP",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J30 Agadir",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
           "playerItfId": "800693886",
           "playerName": "Leila Standaert",
           "gender": "Girls",
           "country": "BEL",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J30 Agadir",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800681010",
+          "playerName": "Lucio Avila Sultana",
+          "gender": "Boys",
+          "country": "ESP",
           "juniorRank": "",
           "entryGroup": "Q",
           "tournamentName": "J30 Agadir",
@@ -33873,10 +33725,46 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
+          "playerItfId": "800724208",
+          "playerName": "Marc Toral Ocana",
+          "gender": "Boys",
+          "country": "ESP",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J30 Agadir",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
           "playerItfId": "800823775",
           "playerName": "Maria Youssoufi",
           "gender": "Girls",
           "country": "MAR",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J30 Agadir",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800727358",
+          "playerName": "Marwan BEZZAZ",
+          "gender": "Boys",
+          "country": "MAR",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J30 Agadir",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800869874",
+          "playerName": "Nael Kabbaj",
+          "gender": "Boys",
+          "country": "USA",
           "juniorRank": "",
           "entryGroup": "Q",
           "tournamentName": "J30 Agadir",
@@ -33897,6 +33785,30 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
+          "playerItfId": "800700089",
+          "playerName": "NANS MANOUKIAN",
+          "gender": "Boys",
+          "country": "FRA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J30 Agadir",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800776185",
+          "playerName": "Nasser Mouaffak",
+          "gender": "Boys",
+          "country": "MAR",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J30 Agadir",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
           "playerItfId": "800863351",
           "playerName": "Nouha Touimy",
           "gender": "Girls",
@@ -33909,10 +33821,94 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
+          "playerItfId": "800729866",
+          "playerName": "Omar Pall Jonasson",
+          "gender": "Boys",
+          "country": "ISL",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J30 Agadir",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800675123",
+          "playerName": "Omar tahiri alaoui",
+          "gender": "Boys",
+          "country": "MAR",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J30 Agadir",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800698589",
+          "playerName": "Reinis Svarans",
+          "gender": "Boys",
+          "country": "LAT",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J30 Agadir",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
           "playerItfId": "800801638",
           "playerName": "Stella Figasso",
           "gender": "Girls",
           "country": "FRA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J30 Agadir",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800818602",
+          "playerName": "Taoufik Elgorch",
+          "gender": "Boys",
+          "country": "MAR",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J30 Agadir",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800833747",
+          "playerName": "Wacil Sbitti",
+          "gender": "Boys",
+          "country": "MAR",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J30 Agadir",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800771309",
+          "playerName": "Yassine Youidadi",
+          "gender": "Boys",
+          "country": "MAR",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J30 Agadir",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-agadir/mar/2026/j-j30-mar-2026-002/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800833765",
+          "playerName": "Yassir Es Sobki",
+          "gender": "Boys",
+          "country": "MAR",
           "juniorRank": "",
           "entryGroup": "Q",
           "tournamentName": "J30 Agadir",
@@ -33935,7 +33931,7 @@
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-kaunas/ltu/2026/j-j30-ltu-2026-001/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-kaunas/ltu/2026/j-j30-ltu-2026-001/draws-and-results/",
       "fallbackUsed": true,
-      "itfApiWarning": "",
+      "itfApiWarning": "G-S-Q: Could not post ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet: Unexpected token '<', \"<html styl\"... is not valid JSON",
       "drawWarning": "",
       "events": [
         {
@@ -34031,14 +34027,6 @@
           "drawsheetStructureCode": "KO",
           "eventId": 1100700673,
           "matchesCount": 31
-        },
-        {
-          "playerTypeCode": "G",
-          "matchTypeCode": "S",
-          "eventClassificationCode": "Q",
-          "drawsheetStructureCode": "KO",
-          "eventId": 1100700674,
-          "matchesCount": 12
         },
         {
           "playerTypeCode": "G",
@@ -34671,30 +34659,6 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800712019",
-          "playerName": "Anna Nastaly",
-          "gender": "Girls",
-          "country": "POL",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Kaunas",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-kaunas/ltu/2026/j-j30-ltu-2026-001/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-kaunas/ltu/2026/j-j30-ltu-2026-001/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800781248",
-          "playerName": "Auguste Valaityte",
-          "gender": "Girls",
-          "country": "LTU",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Kaunas",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-kaunas/ltu/2026/j-j30-ltu-2026-001/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-kaunas/ltu/2026/j-j30-ltu-2026-001/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
           "playerItfId": "800691077",
           "playerName": "Benas Gustaitis",
           "gender": "Boys",
@@ -34747,18 +34711,6 @@
           "playerName": "Dovydas Gostautas",
           "gender": "Boys",
           "country": "LTU",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Kaunas",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-kaunas/ltu/2026/j-j30-ltu-2026-001/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-kaunas/ltu/2026/j-j30-ltu-2026-001/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800732277",
-          "playerName": "Erica Bjorkdahl",
-          "gender": "Girls",
-          "country": "SWE",
           "juniorRank": "",
           "entryGroup": "Q",
           "tournamentName": "J30 Kaunas",
@@ -34911,18 +34863,6 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800728137",
-          "playerName": "Kamile Monstvilaite",
-          "gender": "Girls",
-          "country": "LTU",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J30 Kaunas",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-kaunas/ltu/2026/j-j30-ltu-2026-001/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-kaunas/ltu/2026/j-j30-ltu-2026-001/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
           "playerItfId": "800628633",
           "playerName": "Kevinas Pumputis",
           "gender": "Boys",
@@ -35037,18 +34977,6 @@
           "country": "LTU",
           "juniorRank": "",
           "entryGroup": "MD",
-          "tournamentName": "J30 Kaunas",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-kaunas/ltu/2026/j-j30-ltu-2026-001/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-kaunas/ltu/2026/j-j30-ltu-2026-001/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800578751",
-          "playerName": "Marta Krukauskaite",
-          "gender": "Girls",
-          "country": "LTU",
-          "juniorRank": "",
-          "entryGroup": "Q",
           "tournamentName": "J30 Kaunas",
           "sourceUrl": "https://www.itftennis.com/en/tournament/j30-kaunas/ltu/2026/j-j30-ltu-2026-001/draws-and-results/",
           "drawsUrl": "https://www.itftennis.com/en/tournament/j30-kaunas/ltu/2026/j-j30-ltu-2026-001/draws-and-results/",
@@ -35368,7 +35296,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-001/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-001/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -36214,7 +36142,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [],

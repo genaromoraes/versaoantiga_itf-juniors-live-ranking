@@ -100,110 +100,12 @@
       "officialPoints": 1709,
       "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ryo-tabata/800583844/jpn/jt/s/itf-points-breakdown/",
       "needsProfileResolution": false
-    },
-    {
-      "id": "ksenia-efremova",
-      "name": "K. efremova",
-      "country": "FRA",
-      "gender": "Girls",
-      "currentRank": 1,
-      "officialPoints": 2818,
-      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ksenia-efremova/800591535/fra/jt/s/itf-points-breakdown/",
-      "needsProfileResolution": false
-    },
-    {
-      "id": "hannah-klugman",
-      "name": "H. klugman",
-      "country": "GBR",
-      "gender": "Girls",
-      "currentRank": 2,
-      "officialPoints": 2325.5,
-      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/hannah-klugman/800631038/gbr/jt/s/itf-points-breakdown/",
-      "needsProfileResolution": false
-    },
-    {
-      "id": "mia-pohankova",
-      "name": "M. pohankova",
-      "country": "SVK",
-      "gender": "Girls",
-      "currentRank": 3,
-      "officialPoints": 2279.25,
-      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/mia-pohankova/800627475/svk/jt/s/itf-points-breakdown/",
-      "needsProfileResolution": false
-    },
-    {
-      "id": "alena-kovackova",
-      "name": "A. kovackova",
-      "country": "CZE",
-      "gender": "Girls",
-      "currentRank": 4,
-      "officialPoints": 2237.25,
-      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/alena-kovackova/800572951/cze/jt/s/itf-points-breakdown/",
-      "needsProfileResolution": false
-    },
-    {
-      "id": "victoria-luiza-barros",
-      "name": "V. barros",
-      "country": "BRA",
-      "gender": "Girls",
-      "currentRank": 5,
-      "officialPoints": 2194,
-      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/victoria-luiza-barros/800655335/bra/jt/s/itf-points-breakdown/",
-      "needsProfileResolution": false
-    },
-    {
-      "id": "julieta-pareja",
-      "name": "J. pareja",
-      "country": "USA",
-      "gender": "Girls",
-      "currentRank": 6,
-      "officialPoints": 2084.75,
-      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/julieta-pareja/800692835/usa/jt/s/itf-points-breakdown/",
-      "needsProfileResolution": false
-    },
-    {
-      "id": "jana-kovackova",
-      "name": "J. kovackova",
-      "country": "CZE",
-      "gender": "Girls",
-      "currentRank": 7,
-      "officialPoints": 1977.25,
-      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/jana-kovackova/800661515/cze/jt/s/itf-points-breakdown/",
-      "needsProfileResolution": false
-    },
-    {
-      "id": "xinran-sun",
-      "name": "X. sun",
-      "country": "CHN",
-      "gender": "Girls",
-      "currentRank": 8,
-      "officialPoints": 1968,
-      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/xinran-sun/800677732/chn/jt/s/itf-points-breakdown/",
-      "needsProfileResolution": false
-    },
-    {
-      "id": "kristina-penickova",
-      "name": "K. penickova",
-      "country": "USA",
-      "gender": "Girls",
-      "currentRank": 9,
-      "officialPoints": 1905.5,
-      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/kristina-penickova/800719373/usa/jt/s/itf-points-breakdown/",
-      "needsProfileResolution": false
-    },
-    {
-      "id": "julia-stusek",
-      "name": "J. stusek",
-      "country": "GER",
-      "gender": "Girls",
-      "currentRank": 10,
-      "officialPoints": 1741,
-      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/julia-stusek/800579453/ger/jt/s/itf-points-breakdown/",
-      "needsProfileResolution": false
     }
   ],
   "totalPlayersInBase": 3405,
   "rankingLimit": 1000,
-  "warnings": [],
-  "scrapedAt": "25/05/2026, 08:40"
+  "warnings": [
+    "Could not scrape Girls official ranking: No Girls ranking rows found."
+  ],
+  "scrapedAt": "25/05/2026, 12:39"
 }
