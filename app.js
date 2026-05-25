@@ -828,11 +828,7 @@ function getRankedPlayers() {
       }
       return Number(b.livePoints || 0) - Number(a.livePoints || 0);
     },
-    officialRank: (a, b) => {
-      const aRank = officialRankValue(a) || Infinity;
-      const bRank = officialRankValue(b) || Infinity;
-      return aRank - bRank;
-    }
+    officialRank: (a, b) => Number(a.currentRank || Infinity) - Number(b.currentRank || Infinity)
   };
 
   return visiblePool.sort(sorters[sortBy] || sorters.liveRank);
@@ -1096,17 +1092,6 @@ function playerNameMarkup(name = "", country = "") {
 
 function movementLabel(player) {
   if (Number.isFinite(Number(player.rankDelta))) {
-    if (state.dataSource?.officialRankingProjected) {
-      const officialRank = officialRankValue(player);
-      const liveRank = Number(player.liveRank || 0);
-      if (!officialRank || !liveRank) return { text: "0", type: "neutral" };
-      const projectedDelta = officialRank - liveRank;
-      if (!projectedDelta) return { text: "0", type: "neutral" };
-      return {
-        text: projectedDelta > 0 ? `+${projectedDelta}` : `${projectedDelta}`,
-        type: projectedDelta > 0 ? "gain" : "loss"
-      };
-    }
     const delta = Number(player.rankDelta);
     if (!delta) return { text: "0", type: "neutral" };
     return {
@@ -1115,7 +1100,7 @@ function movementLabel(player) {
     };
   }
 
-  const officialRank = officialRankValue(player);
+  const officialRank = Number(player.currentRank);
   const liveRank = Number(player.liveRank || 0);
   if (!Number.isFinite(officialRank) || officialRank <= 0) {
     return { text: "0", type: "neutral" };
@@ -1162,25 +1147,12 @@ function pointsFlowLinesFromItems(items = [], kind = "entry") {
 }
 
 function officialPoints(player) {
-  if (state.dataSource?.officialRankingProjected) {
-    const projected = Number(player.projectedOfficialPoints);
-    if (Number.isFinite(projected)) return projected;
-  }
   return Number(player.sourceTotalCombinedPoints ?? player.basePoints ?? 0);
-}
-
-function officialRankValue(player) {
-  if (state.dataSource?.officialRankingProjected) {
-    const projected = Number(player.projectedOfficialRank);
-    if (Number.isFinite(projected) && projected > 0) return projected;
-  }
-  const official = Number(player.currentRank || 0);
-  return Number.isFinite(official) && official > 0 ? official : 0;
 }
 
 function topMilestone(player) {
   const liveRank = Number(player.liveRank || 0);
-  const officialRank = officialRankValue(player);
+  const officialRank = Number(player.currentRank || 0);
   const hasOfficialRank = Number.isFinite(officialRank) && officialRank > 0;
 
   if (!liveRank || liveRank > LIVE_RANKING_TABLE_LIMIT) return null;
@@ -1335,10 +1307,9 @@ function renderTable() {
       const pointsBalance = pointsBalanceLabel(player);
       const selected = state.selectedId === player.id ? " is-selected" : "";
       if (isOfficialTable) {
-        const displayOfficialRank = officialRankValue(player);
         return `
           <tr class="${selected}" data-player-id="${player.id}">
-          <td><strong class="rank">${displayOfficialRank || "-"}</strong></td>
+          <td><strong class="rank">${player.currentRank || "-"}</strong></td>
           <td>
             <div class="player">
               <strong>${playerNameMarkup(player.name, player.country)}</strong>
@@ -1512,7 +1483,7 @@ function renderDetails(playerId) {
       </div>
       <div class="detail-stat">
         <span>${t("officialRank")}</span>
-        <strong>#${officialRankValue(player) || "-"}</strong>
+        <strong>#${player.currentRank || "-"}</strong>
       </div>
       <div class="detail-stat">
         <span>${t("officialPoints")}</span>

@@ -552,54 +552,6 @@ function assignLiveRanks(players = []) {
   return players.map((player) => rankedById.get(player.id) || player);
 }
 
-function projectedOfficialPoints(player) {
-  const fallbackPoints = Number(player.sourceTotalCombinedPoints ?? player.officialPoints ?? 0);
-  const hasDetailedResults = (player.singles?.length || 0) + (player.doubles?.length || 0) > 0;
-  if (!hasDetailedResults) return Math.max(0, fallbackPoints);
-  return Math.max(0, Number(player.liveBasePoints ?? player.basePoints ?? fallbackPoints));
-}
-
-function assignProjectedOfficialRanks(players = []) {
-  const byGender = new Map();
-
-  for (const player of players) {
-    if (!byGender.has(player.gender)) byGender.set(player.gender, []);
-    byGender.get(player.gender).push(player);
-  }
-
-  const rankedById = new Map();
-
-  for (const group of byGender.values()) {
-    group
-      .map((player) => ({
-        ...player,
-        projectedOfficialPoints: projectedOfficialPoints(player)
-      }))
-      .sort((a, b) => {
-        const pointsDiff = Number(b.projectedOfficialPoints || 0) - Number(a.projectedOfficialPoints || 0);
-        if (pointsDiff !== 0) return pointsDiff;
-        return String(a.name || "").localeCompare(String(b.name || ""));
-      })
-      .forEach((player, index) => {
-        rankedById.set(player.id, {
-          ...player,
-          projectedOfficialRank: index + 1
-        });
-      });
-  }
-
-  return players.map((player) => {
-    const projected = rankedById.get(player.id);
-    return projected
-      ? {
-          ...player,
-          projectedOfficialPoints: projected.projectedOfficialPoints,
-          projectedOfficialRank: projected.projectedOfficialRank
-        }
-      : player;
-  });
-}
-
 function saoPauloToday() {
   const parts = Object.fromEntries(
     new Intl.DateTimeFormat("en-CA", {
@@ -666,31 +618,6 @@ function currentWeekBounds() {
 
 function currentWeekStartIso() {
   return currentWeekBounds().start.toISOString().slice(0, 10);
-}
-
-function parsePtBrRankingDate(value = "") {
-  const match = String(value || "").trim().toLowerCase().match(/^(\d{1,2})\s+([a-zç]{3})\s+(\d{4})$/i);
-  if (!match) return "";
-
-  const [, dayText, monthText, yearText] = match;
-  const monthMap = {
-    jan: 1,
-    fev: 2,
-    mar: 3,
-    abr: 4,
-    mai: 5,
-    jun: 6,
-    jul: 7,
-    ago: 8,
-    set: 9,
-    out: 10,
-    nov: 11,
-    dez: 12
-  };
-
-  const month = monthMap[monthText];
-  if (!month) return "";
-  return `${yearText}-${String(month).padStart(2, "0")}-${String(Number(dayText)).padStart(2, "0")}`;
 }
 
 function isPastWeeklyRow(row) {
@@ -971,18 +898,12 @@ const playersWithHistoricalWeeklyResults = mergeHistoricalWeeklyResults(
   rules
 );
 const playersWithWeeklyResults = applyWeeklyResultsPreview(playersWithHistoricalWeeklyResults, currentWeeklyRows, rules);
-const playersWithLiveData = playersWithWeeklyResults.map(normalizeComputedPlayer);
-const playersWithProjectedOfficial = assignProjectedOfficialRanks(playersWithLiveData);
-const players = assignLiveRanks(playersWithProjectedOfficial);
+const players = assignLiveRanks(playersWithWeeklyResults.map(normalizeComputedPlayer));
 const invalidPlayers = players.filter((player) => !hasPublishableRankingData(player));
-const rankingDateIso = parsePtBrRankingDate(rankingPreview.rankingDate || "");
-const officialRankingProjected = Boolean(rankingDateIso) && rankingDateIso < currentWeekStartIso();
 
 let payload = {
   dataSource: {
     rankingDate: rankingPreview.rankingDate || "",
-    rankingDateIso,
-    officialRankingProjected,
     updatedAt: new Intl.DateTimeFormat("pt-BR", {
       dateStyle: "short",
       timeStyle: "short",
