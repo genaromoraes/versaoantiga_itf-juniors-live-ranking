@@ -113,6 +113,7 @@ Ele faz:
 
 - `data/player-points.csv`: fonte historica principal.
 - `data/weekly-results.csv`: resultados da semana.
+- `data/weekly-results-history.csv`: resultados de semanas encerradas ja incorporados ao cartel local.
 - `data/manual-weekly-results.csv`: correcoes manuais, quando necessario.
 - `data/itf-ranking-preview.json`: ultima leitura do ranking oficial.
 - `data/weekly-tournaments-preview.json`: diagnostico da leitura semanal.

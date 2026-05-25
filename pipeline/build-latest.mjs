@@ -7,6 +7,7 @@ const sourcesFile = path.join(rootDir, "pipeline", "sources", "players.json");
 const rankingPreviewFile = path.join(rootDir, "data", "itf-ranking-preview.json");
 const pointsCsvFile = path.join(rootDir, "data", "player-points.csv");
 const weeklyResultsFile = path.join(rootDir, "data", "weekly-results.csv");
+const weeklyResultsHistoryFile = path.join(rootDir, "data", "weekly-results-history.csv");
 const manualWeeklyResultsFile = path.join(rootDir, "data", "manual-weekly-results.csv");
 const outputDir = path.join(rootDir, "data");
 const outputFile = path.join(outputDir, "latest.json");
@@ -34,6 +35,11 @@ function parseCsvLine(line) {
 
   values.push(current);
   return values;
+}
+
+function csvValue(value) {
+  const text = value === undefined || value === null ? "" : String(value);
+  return `"${text.replaceAll('"', '""')}"`;
 }
 
 async function readPointsCsvPreview() {
@@ -124,6 +130,14 @@ async function readCsvRows(file) {
   }
 }
 
+async function writeCsvRows(file, headers, rows) {
+  const lines = [
+    headers.join(","),
+    ...rows.map((row) => headers.map((header) => csvValue(row[header] ?? "")).join(","))
+  ];
+  await fs.writeFile(file, `${lines.join("\n")}\n`, "utf8");
+}
+
 async function readWeeklyResultsPreview() {
   try {
     const generatedRows = await readCsvRows(weeklyResultsFile);
@@ -147,6 +161,17 @@ async function readWeeklyResultsPreview() {
 
 function weeklyRowKey(row) {
   return [row.player_id, row.match_type, row.event].join("|");
+}
+
+function weeklyHistoryRowKey(row) {
+  return [
+    row.player_id || "",
+    row.match_type || "",
+    row.event || "",
+    row.start_date || "",
+    row.current_round || "",
+    row.status || ""
+  ].join("|");
 }
 
 async function readExistingLatest() {
@@ -556,6 +581,65 @@ function currentWeekBounds() {
   return { start, end };
 }
 
+function currentWeekStartIso() {
+  return currentWeekBounds().start.toISOString().slice(0, 10);
+}
+
+function isPastWeeklyRow(row) {
+  const startDate = String(row?.start_date || "").trim();
+  return /^\d{4}-\d{2}-\d{2}$/.test(startDate) && startDate < currentWeekStartIso();
+}
+
+function splitWeeklyRowsByWeek(rows = []) {
+  return {
+    currentRows: rows.filter((row) => !isPastWeeklyRow(row)),
+    pastRows: rows.filter(isPastWeeklyRow)
+  };
+}
+
+async function readWeeklyHistoryRows() {
+  return readCsvRows(weeklyResultsHistoryFile);
+}
+
+async function archivePastWeeklyRows(pastRows = []) {
+  if (!pastRows.length) return { archivedRows: await readWeeklyHistoryRows(), addedCount: 0 };
+
+  const existingRows = await readWeeklyHistoryRows();
+  const headers = [
+    "player_id",
+    "player_name",
+    "match_type",
+    "event",
+    "grade",
+    "start_date",
+    "end_date",
+    "status",
+    "current_round",
+    "points_override",
+    "source_url",
+    "notes"
+  ];
+  const rowsByKey = new Map(existingRows.map((row) => [weeklyHistoryRowKey(row), row]));
+  let addedCount = 0;
+
+  for (const row of pastRows) {
+    const key = weeklyHistoryRowKey(row);
+    if (rowsByKey.has(key)) continue;
+    rowsByKey.set(key, row);
+    addedCount += 1;
+  }
+
+  const archivedRows = [...rowsByKey.values()].sort((left, right) =>
+    (left.start_date || "").localeCompare(right.start_date || "")
+    || (left.event || "").localeCompare(right.event || "")
+    || (left.player_name || "").localeCompare(right.player_name || "")
+    || (left.match_type || "").localeCompare(right.match_type || "")
+  );
+
+  await writeCsvRows(weeklyResultsHistoryFile, headers, archivedRows);
+  return { archivedRows, addedCount };
+}
+
 function defendingFromResults(results, type) {
   const { start, end } = currentWeekBounds();
 
@@ -628,6 +712,98 @@ function weeklyTournamentFromRow(row) {
   };
 }
 
+function addDaysIso(dateText, days) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(String(dateText || "").trim())) return "";
+  const date = new Date(`${dateText}T00:00:00Z`);
+  date.setUTCDate(date.getUTCDate() + days);
+  return date.toISOString().slice(0, 10);
+}
+
+function historicalWeeklyResult(row, rules) {
+  const matchType = row.match_type === "Doubles" ? "doubles" : "singles";
+  const normalizedStatus = normalizeWeeklyStatus(row.status);
+  const currentRound = String(row.current_round || "").trim();
+  const hasPointsOverride =
+    row.points_override !== undefined
+    && row.points_override !== null
+    && String(row.points_override).trim() !== "";
+
+  let points = 0;
+  if (hasPointsOverride) {
+    points = Number(row.points_override || 0);
+  } else if (currentRound) {
+    points = pointsForRound(rules, row.grade, matchType, currentRound);
+  }
+
+  if (!Number.isFinite(points) || points < 0) return null;
+  if (!currentRound && !hasPointsOverride) return null;
+
+  return {
+    type: matchType,
+    event: row.event,
+    round: row.grade,
+    points,
+    date: row.start_date,
+    dropDate: addDaysIso(row.start_date, 364),
+    sourceCounting: true,
+    source: "data/weekly-results-history.csv",
+    sourceWeekStatus: normalizedStatus
+  };
+}
+
+function mergeHistoricalWeeklyResults(players, historyRows, rules) {
+  if (!historyRows.length) return players;
+
+  const rowsByPlayer = new Map();
+  for (const row of historyRows) {
+    if (!row.player_id) continue;
+    if (!rowsByPlayer.has(row.player_id)) rowsByPlayer.set(row.player_id, []);
+    rowsByPlayer.get(row.player_id).push(row);
+  }
+
+  return players.map((player) => {
+    const playerRows = rowsByPlayer.get(player.id) || [];
+    if (!playerRows.length) return player;
+
+    const singles = [...(Array.isArray(player.singles) ? player.singles : [])];
+    const doubles = [...(Array.isArray(player.doubles) ? player.doubles : [])];
+    const existingSinglesKeys = new Set(singles.map(resultKey));
+    const existingDoublesKeys = new Set(doubles.map(resultKey));
+    let merged = false;
+
+    for (const row of playerRows) {
+      const result = historicalWeeklyResult(row, rules);
+      if (!result) continue;
+
+      if (result.type === "singles") {
+        const key = resultKey(result);
+        if (existingSinglesKeys.has(key)) continue;
+        singles.push(result);
+        existingSinglesKeys.add(key);
+        merged = true;
+      } else {
+        const key = resultKey(result);
+        if (existingDoublesKeys.has(key)) continue;
+        doubles.push(result);
+        existingDoublesKeys.add(key);
+        merged = true;
+      }
+    }
+
+    if (!merged) return player;
+
+    const totalCombinedPoints = sumBestSix(singles) + sumBestSix(doubles, 0.25);
+
+    return {
+      ...player,
+      singles,
+      doubles,
+      sourceTotalCombinedPoints: totalCombinedPoints,
+      officialPoints: totalCombinedPoints
+    };
+  });
+}
+
 function applyWeeklyResultsPreview(players, weeklyRows, rules) {
   if (!weeklyRows.length) return players;
 
@@ -673,13 +849,20 @@ function applyWeeklyResultsPreview(players, weeklyRows, rules) {
 
 const pointsCsvPreview = await readPointsCsvPreview();
 const weeklyResultsPreview = await readWeeklyResultsPreview();
+const { currentRows: currentWeeklyRows, pastRows: pastWeeklyRows } = splitWeeklyRowsByWeek(weeklyResultsPreview.rows || []);
+const weeklyHistoryArchive = await archivePastWeeklyRows(pastWeeklyRows);
 const rankingPreview = await readRankingPreview();
 const sourcePlayers = await readSourcePlayers();
 const rules = JSON.parse(await fs.readFile(path.join(rootDir, "pipeline", "rules", "itf-juniors-2026.json"), "utf8"));
 const basePlayers = sourcePlayers.map(sourcePlayerShell);
 const playersWithOfficialFallbacks = basePlayers;
 const playersWithRealResults = applyRealPlayerPreview(playersWithOfficialFallbacks, pointsCsvPreview.players || []);
-const playersWithWeeklyResults = applyWeeklyResultsPreview(playersWithRealResults, weeklyResultsPreview.rows || [], rules);
+const playersWithHistoricalWeeklyResults = mergeHistoricalWeeklyResults(
+  playersWithRealResults,
+  weeklyHistoryArchive.archivedRows || [],
+  rules
+);
+const playersWithWeeklyResults = applyWeeklyResultsPreview(playersWithHistoricalWeeklyResults, currentWeeklyRows, rules);
 const players = assignLiveRanks(playersWithWeeklyResults.map(normalizeComputedPlayer));
 const invalidPlayers = players.filter((player) => !hasPublishableRankingData(player));
 
@@ -697,7 +880,8 @@ let payload = {
   generatedBy: "pipeline/build-latest.mjs",
   realPlayersApplied: pointsCsvPreview.players?.map((player) => player.id) || [],
   pointsSource: "data/player-points.csv",
-  weeklyResultsApplied: [...new Set((weeklyResultsPreview.rows || []).map((row) => row.player_id))]
+  weeklyResultsApplied: [...new Set(currentWeeklyRows.map((row) => row.player_id))],
+  weeklyHistoryApplied: [...new Set((weeklyHistoryArchive.archivedRows || []).map((row) => row.player_id))]
 };
 
 if (invalidPlayers.length) {
@@ -714,3 +898,6 @@ await fs.mkdir(outputDir, { recursive: true });
 await fs.writeFile(outputFile, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
 
 console.log(`Generated ${path.relative(rootDir, outputFile)} with ${payload.players.length} players.`);
+if (weeklyHistoryArchive.addedCount) {
+  console.log(`Archived ${weeklyHistoryArchive.addedCount} past weekly row(s) into ${path.relative(rootDir, weeklyResultsHistoryFile)}.`);
+}
