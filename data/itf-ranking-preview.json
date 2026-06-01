@@ -1,5 +1,5 @@
 {
-  "rankingDate": "25 mai 2026",
+  "rankingDate": "1 jun 2026",
   "scrapedPlayers": [
     {
       "id": "ivan-ivanov",
@@ -12,21 +12,11 @@
       "needsProfileResolution": false
     },
     {
-      "id": "luis-guto-miguel",
-      "name": "L. miguel",
-      "country": "BRA",
-      "gender": "Boys",
-      "currentRank": 2,
-      "officialPoints": 2514.25,
-      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/luis-guto-miguel/800680259/bra/jt/s/itf-points-breakdown/",
-      "needsProfileResolution": false
-    },
-    {
       "id": "yannick-theodor-alexandrescou",
       "name": "Y. alexandrescou",
       "country": "FRA",
       "gender": "Boys",
-      "currentRank": 3,
+      "currentRank": 2,
       "officialPoints": 2377.25,
       "pointsBreakdownUrl": "https://www.itftennis.com/en/players/yannick-theodor-alexandrescou/800564683/fra/jt/s/itf-points-breakdown/",
       "needsProfileResolution": false
@@ -36,9 +26,19 @@
       "name": "J. mackenzie",
       "country": "GER",
       "gender": "Boys",
-      "currentRank": 4,
+      "currentRank": 3,
       "officialPoints": 2357,
       "pointsBreakdownUrl": "https://www.itftennis.com/en/players/jamie-mackenzie/800570117/ger/jt/s/itf-points-breakdown/",
+      "needsProfileResolution": false
+    },
+    {
+      "id": "luis-guto-miguel",
+      "name": "L. miguel",
+      "country": "BRA",
+      "gender": "Boys",
+      "currentRank": 4,
+      "officialPoints": 2354.25,
+      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/luis-guto-miguel/800680259/bra/jt/s/itf-points-breakdown/",
       "needsProfileResolution": false
     },
     {
@@ -47,7 +47,7 @@
       "country": "SLO",
       "gender": "Boys",
       "currentRank": 5,
-      "officialPoints": 2149.75,
+      "officialPoints": 2109.75,
       "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ziga-sesko/800579895/slo/jt/s/itf-points-breakdown/",
       "needsProfileResolution": false
     },
@@ -107,7 +107,7 @@
       "country": "FRA",
       "gender": "Girls",
       "currentRank": 1,
-      "officialPoints": 2818,
+      "officialPoints": 2718,
       "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ksenia-efremova/800591535/fra/jt/s/itf-points-breakdown/",
       "needsProfileResolution": false
     },
@@ -205,5 +205,5 @@
   "totalPlayersInBase": 3405,
   "rankingLimit": 1000,
   "warnings": [],
-  "scrapedAt": "31/05/2026, 15:56"
+  "scrapedAt": "01/06/2026, 11:05"
 }

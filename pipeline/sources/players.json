@@ -12,17 +12,6 @@
   },
   {
     "currentRank": 2,
-    "name": "Luis Guto Miguel",
-    "country": "BRA",
-    "gender": "Boys",
-    "id": "luis-guto-miguel",
-    "birthYear": 2009,
-    "officialPoints": 2514.25,
-    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/luis-guto-miguel/800680259/bra/jt/s/itf-points-breakdown/",
-    "needsProfileResolution": false
-  },
-  {
-    "currentRank": 3,
     "name": "Yannick Theodor Alexandrescou",
     "country": "FRA",
     "gender": "Boys",
@@ -33,7 +22,7 @@
     "needsProfileResolution": false
   },
   {
-    "currentRank": 4,
+    "currentRank": 3,
     "name": "Jamie Mackenzie",
     "country": "GER",
     "gender": "Boys",
@@ -44,13 +33,24 @@
     "needsProfileResolution": false
   },
   {
+    "currentRank": 4,
+    "name": "Luis Guto Miguel",
+    "country": "BRA",
+    "gender": "Boys",
+    "id": "luis-guto-miguel",
+    "birthYear": 2009,
+    "officialPoints": 2354.25,
+    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/luis-guto-miguel/800680259/bra/jt/s/itf-points-breakdown/",
+    "needsProfileResolution": false
+  },
+  {
     "currentRank": 5,
     "name": "Ziga Sesko",
     "country": "SLO",
     "gender": "Boys",
     "id": "ziga-sesko",
     "birthYear": 2008,
-    "officialPoints": 2149.75,
+    "officialPoints": 2109.75,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ziga-sesko/800579895/slo/jt/s/itf-points-breakdown/",
     "needsProfileResolution": false
   },
@@ -19850,7 +19850,7 @@
     "gender": "Girls",
     "id": "ksenia-efremova",
     "birthYear": 2009,
-    "officialPoints": 2818,
+    "officialPoints": 2718,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ksenia-efremova/800591535/fra/jt/s/itf-points-breakdown/",
     "needsProfileResolution": false
   },
