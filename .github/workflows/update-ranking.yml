@@ -16,7 +16,7 @@ concurrency:
 jobs:
   update-ranking:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 120
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -51,6 +51,13 @@ jobs:
         env:
           RANKING_LIMIT: "1000"
 
+      - name: Scrape ITF player points breakdowns
+        run: xvfb-run -a npm run scrape:points
+        env:
+          POINTS_HEADLESS: "false"
+          POINTS_PAUSE_MS: "250"
+          POINTS_MIN_SUCCESS_RATE: "0.9"
+
       - name: Scrape weekly tournament results
         run: npm run scrape:weekly
 
@@ -67,7 +74,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pipeline/sources/players.json data/latest.json data/itf-ranking-preview.json data/weekly-results.csv data/weekly-results-history.csv data/weekly-tournaments-preview.json data/weekly-outsiders.csv data/weekly-outsiders-preview.json data/manual-weekly-results.csv data/player-points-status.csv
+          git add pipeline/sources/players.json data/latest.json data/itf-ranking-preview.json data/player-points.csv data/weekly-results.csv data/weekly-results-history.csv data/weekly-tournaments-preview.json data/weekly-outsiders.csv data/weekly-outsiders-preview.json data/manual-weekly-results.csv data/player-points-status.csv
           git diff --cached --quiet && exit 0
           git commit -m "Update ranking data"
           git push origin HEAD:main

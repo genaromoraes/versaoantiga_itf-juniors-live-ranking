@@ -4,7 +4,7 @@ Esta pasta contem o robo do projeto.
 
 ## Arquitetura atual
 
-O cartel historico dos atletas vem da planilha mestre importada para:
+O cartel historico dos atletas pode nascer da planilha mestre, mas no fluxo oficial ele eh atualizado pela propria ITF:
 
 - `pipeline/sources/players.json`
 - `data/player-points.csv`
@@ -18,7 +18,7 @@ Depois disso, o robo frequente nao precisa abrir o breakdown de todos os atletas
 Hoje o fluxo esta dividido assim:
 
 - workflow leve: reutiliza a lista de torneios da semana ja descoberta e atualiza apenas draws/resultados/fases;
-- workflow completo: atualiza ranking oficial, redescobre o calendario da semana e faz a manutencao mais pesada.
+- workflow completo: atualiza ranking oficial, atualiza o cartel de pontos pela API de breakdown da ITF, redescobre o calendario da semana e faz a manutencao mais pesada.
 
 O workflow leve tambem sabe antecipar a virada da semana:
 
@@ -31,6 +31,7 @@ entao ele libera uma atualizacao que ja troca o preview para a semana seguinte e
 
 ```bash
 npm run scrape:ranking
+npm run scrape:points
 npm run scrape:weekly
 npm run build:data
 npm run audit:points
@@ -50,7 +51,7 @@ O importador espera duas abas:
 
 ## Fontes de verdade
 
-- Pontos historicos: `data/player-points.csv`.
+- Pontos historicos: `data/player-points.csv`, atualizado por `npm run scrape:points` no workflow completo.
 - Atletas acompanhados: `pipeline/sources/players.json`.
 - Semana atual: `data/weekly-results.csv`, com possiveis correcoes em `data/manual-weekly-results.csv`.
 - Semanas encerradas aguardando incorporacao na base oficial: `data/weekly-results-history.csv`.
@@ -67,4 +68,4 @@ Nao existe mais necessidade de um script separado so para detectar outsiders a p
 
 ## Arquivos antigos removidos
 
-Os scrapers antigos de points breakdown e activity foram removidos do caminho principal. Eles eram uteis no prototipo, mas hoje poderiam confundir o projeto e sobrescrever a base correta da planilha.
+Os scrapers antigos de activity foram removidos do caminho principal. O breakdown de pontos voltou ao fluxo principal, mas agora centralizado em `pipeline/scrape-player-points.mjs` e usando somente a API da ITF.

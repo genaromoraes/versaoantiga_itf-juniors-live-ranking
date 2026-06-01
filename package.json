@@ -8,6 +8,7 @@
     "audit:points": "node pipeline/audit-player-points.mjs",
     "validate:data": "node pipeline/validate-latest.mjs",
     "scrape:ranking": "node pipeline/scrape-official-ranking.mjs",
+    "scrape:points": "node pipeline/scrape-player-points.mjs",
     "scrape:weekly": "node pipeline/scrape-weekly-results.mjs"
   },
   "devDependencies": {
