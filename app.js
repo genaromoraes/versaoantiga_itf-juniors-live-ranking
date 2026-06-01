@@ -1147,7 +1147,7 @@ function pointsFlowLinesFromItems(items = [], kind = "entry") {
 }
 
 function officialPoints(player) {
-  return Number(player.sourceTotalCombinedPoints ?? player.basePoints ?? 0);
+  return Number(player.officialPoints ?? player.sourceTotalCombinedPoints ?? player.basePoints ?? 0);
 }
 
 function topMilestone(player) {

@@ -857,7 +857,7 @@ function mergeHistoricalWeeklyResults(players, historyRows, rules) {
       singles,
       doubles,
       sourceTotalCombinedPoints: totalCombinedPoints,
-      officialPoints: totalCombinedPoints
+      officialPoints: Number(player.officialPoints || totalCombinedPoints)
     };
   });
 }
