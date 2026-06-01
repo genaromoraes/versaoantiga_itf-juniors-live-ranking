@@ -620,9 +620,23 @@ function currentWeekStartIso() {
   return currentWeekBounds().start.toISOString().slice(0, 10);
 }
 
+function effectiveWeeklyStartIso(startDate = "") {
+  const value = String(startDate || "").trim();
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(value)) return "";
+
+  const [year, month, day] = value.split("-").map(Number);
+  const date = new Date(Date.UTC(year, month - 1, day));
+
+  if (date.getUTCDay() === 0) {
+    date.setUTCDate(date.getUTCDate() + 1);
+  }
+
+  return date.toISOString().slice(0, 10);
+}
+
 function isPastWeeklyRow(row) {
-  const startDate = String(row?.start_date || "").trim();
-  return /^\d{4}-\d{2}-\d{2}$/.test(startDate) && startDate < currentWeekStartIso();
+  const startDate = effectiveWeeklyStartIso(row?.start_date);
+  return Boolean(startDate) && startDate < currentWeekStartIso();
 }
 
 function splitWeeklyRowsByWeek(rows = []) {
@@ -633,13 +647,11 @@ function splitWeeklyRowsByWeek(rows = []) {
 }
 
 async function readWeeklyHistoryRows() {
-  return readCsvRows(weeklyResultsHistoryFile);
+  const rows = await readCsvRows(weeklyResultsHistoryFile);
+  return rows.filter(isPastWeeklyRow);
 }
 
 async function archivePastWeeklyRows(pastRows = []) {
-  if (!pastRows.length) return { archivedRows: await readWeeklyHistoryRows(), addedCount: 0 };
-
-  const existingRows = await readWeeklyHistoryRows();
   const headers = [
     "player_id",
     "player_name",
@@ -654,6 +666,17 @@ async function archivePastWeeklyRows(pastRows = []) {
     "source_url",
     "notes"
   ];
+
+  const rawExistingRows = await readCsvRows(weeklyResultsHistoryFile);
+  const existingRows = rawExistingRows.filter(isPastWeeklyRow);
+
+  if (!pastRows.length) {
+    if (existingRows.length !== rawExistingRows.length) {
+      await writeCsvRows(weeklyResultsHistoryFile, headers, existingRows);
+    }
+    return { archivedRows: existingRows, addedCount: 0 };
+  }
+
   const rowsByKey = new Map(existingRows.map((row) => [weeklyHistoryRowKey(row), row]));
   let addedCount = 0;
 
