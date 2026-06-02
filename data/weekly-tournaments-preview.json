@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "01/06/2026, 16:29",
+  "scrapedAt": "01/06/2026, 21:23",
   "calendarStartDate": "2026-06",
   "weekStartDate": "2026-06-01",
   "tournaments": [
@@ -15,7 +15,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -4692,7 +4692,7 @@
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/draws-and-results/",
       "fallbackUsed": true,
-      "itfApiWarning": "B-D-M: Could not post ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet: Unexpected token '<', \"<html styl\"... is not valid JSON",
+      "itfApiWarning": "",
       "drawWarning": "",
       "events": [
         {
@@ -4762,6 +4762,14 @@
           "drawsheetStructureCode": "KO",
           "eventId": 1100696269,
           "matchesCount": 12
+        },
+        {
+          "playerTypeCode": "B",
+          "matchTypeCode": "D",
+          "eventClassificationCode": "M",
+          "drawsheetStructureCode": "KO",
+          "eventId": 1100696270,
+          "matchesCount": 15
         },
         {
           "playerTypeCode": "G",
@@ -6004,7 +6012,7 @@
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
       "fallbackUsed": true,
-      "itfApiWarning": "B-D-M: Could not post ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet: Unexpected token '<', \"<html styl\"... is not valid JSON",
+      "itfApiWarning": "",
       "drawWarning": "",
       "events": [
         {
@@ -6086,6 +6094,14 @@
           "matchesCount": 12
         },
         {
+          "playerTypeCode": "B",
+          "matchTypeCode": "D",
+          "eventClassificationCode": "M",
+          "drawsheetStructureCode": "KO",
+          "eventId": 1100696174,
+          "matchesCount": 15
+        },
+        {
           "playerTypeCode": "G",
           "matchTypeCode": "S",
           "eventClassificationCode": "M",
@@ -6131,7 +6147,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
             "matchId": 1183559229
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
+            "matchId": 2124509189
+          }
         },
         {
           "id": "abdurakhmon-karimov",
@@ -6153,7 +6176,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
             "matchId": 1183559236
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
+            "matchId": 2124509189
+          }
         },
         {
           "id": "darya-savina",
@@ -6204,7 +6234,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
             "matchId": 1183559234
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
+            "matchId": 2124509192
+          }
         },
         {
           "id": "sofia-lomakina",
@@ -6304,7 +6341,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
             "matchId": 1183559217
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "4-6 7-6(3) 8-10",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
+            "matchId": 2124509182
+          }
         },
         {
           "id": "david-mogilevsky",
@@ -6325,7 +6369,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
             "matchId": 1183559225
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
+            "matchId": 2124509190
+          }
         },
         {
           "id": "alexander-figurovskiy",
@@ -6445,7 +6496,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
             "matchId": 1183559235
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
+            "matchId": 2124509189
+          }
         },
         {
           "id": "ayana-shadubekova",
@@ -6494,7 +6552,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
             "matchId": 1183559225
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "5-7 7-5 7-10",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
+            "matchId": 2124509184
+          }
         },
         {
           "id": "daniial-karymbaev",
@@ -6515,7 +6580,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
             "matchId": 1183559214
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "0-6 0-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
+            "matchId": 2124509185
+          }
         },
         {
           "id": "datkaiym-urmatbekova",
@@ -6613,7 +6685,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
             "matchId": 1183559215
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
+            "matchId": 2124509191
+          }
         },
         {
           "id": "iana-kopylova",
@@ -6718,7 +6797,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
             "matchId": 1183559218
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "5-7 7-5 7-10",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
+            "matchId": 2124509184
+          }
         },
         {
           "id": "milana-podlesnaya",
@@ -6795,7 +6881,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
             "matchId": 1183559221
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
+            "matchId": 2124509189
+          }
         },
         {
           "id": "nikita-mironov",
@@ -6816,7 +6909,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
             "matchId": 1183559219
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Eliminado",
+            "currentRound": "R32",
+            "confidence": "itf-api-loss",
+            "score": "0-6 0-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
+            "matchId": 2124509185
+          }
         },
         {
           "id": "raphael-kalyuzhnov",
@@ -6858,7 +6958,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
             "matchId": 1183559223
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
+            "matchId": 2124509190
+          }
         },
         {
           "id": "saara-myzaeva",
@@ -6928,7 +7035,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
             "matchId": 1183559227
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
+            "matchId": 2124509190
+          }
         },
         {
           "id": "yegor-sorokin",
@@ -6949,7 +7063,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
             "matchId": 1183559222
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "QF",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
+            "matchId": 2124509191
+          }
         },
         {
           "id": "yelizaveta-slepchenko",
@@ -7319,7 +7440,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-bastad/swe/2026/j-j60-swe-2026-003/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-bastad/swe/2026/j-j60-swe-2026-003/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -9731,8 +9852,8 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
-      "fallbackUsed": false,
-      "itfApiWarning": "",
+      "fallbackUsed": true,
+      "itfApiWarning": "B-S-M: Could not post ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet: Unexpected token '<', \"<html styl\"... is not valid JSON",
       "drawWarning": "",
       "events": [
         {
@@ -9824,14 +9945,6 @@
           "drawsheetStructureCode": "KO",
           "eventId": 1100673031,
           "matchesCount": 7
-        },
-        {
-          "playerTypeCode": "B",
-          "matchTypeCode": "S",
-          "eventClassificationCode": "M",
-          "drawsheetStructureCode": "RR",
-          "eventId": 1100715878,
-          "matchesCount": 0
         },
         {
           "playerTypeCode": "B",
@@ -10426,7 +10539,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-edmonton/can/2026/j-j60-can-2026-007/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-edmonton/can/2026/j-j60-can-2026-007/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -10977,8 +11090,8 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
-      "fallbackUsed": false,
-      "itfApiWarning": "",
+      "fallbackUsed": true,
+      "itfApiWarning": "B-S-M: Could not post ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet: Unexpected token '<', \"<html styl\"... is not valid JSON",
       "drawWarning": "",
       "events": [
         {
@@ -11070,14 +11183,6 @@
           "drawsheetStructureCode": "KO",
           "eventId": 1100704092,
           "matchesCount": 7
-        },
-        {
-          "playerTypeCode": "B",
-          "matchTypeCode": "S",
-          "eventClassificationCode": "M",
-          "drawsheetStructureCode": "RR",
-          "eventId": 1100715894,
-          "matchesCount": 0
         },
         {
           "playerTypeCode": "B",
@@ -11775,8 +11880,8 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-      "fallbackUsed": false,
-      "itfApiWarning": "",
+      "fallbackUsed": true,
+      "itfApiWarning": "B-S-Q: Could not post ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet: Unexpected token '<', \"<html styl\"... is not valid JSON",
       "drawWarning": "",
       "events": [
         {
@@ -11851,14 +11956,6 @@
         },
         {
           "playerTypeCode": "B",
-          "matchTypeCode": "S",
-          "eventClassificationCode": "Q",
-          "drawsheetStructureCode": "KO",
-          "eventId": 1100704168,
-          "matchesCount": 18
-        },
-        {
-          "playerTypeCode": "B",
           "matchTypeCode": "D",
           "eventClassificationCode": "M",
           "drawsheetStructureCode": "KO",
@@ -11912,9 +12009,8 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509464
@@ -11962,9 +12058,8 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509458
@@ -11991,9 +12086,8 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509434
@@ -12020,9 +12114,8 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509458
@@ -12049,9 +12142,8 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509427
@@ -12078,9 +12170,8 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509427
@@ -12107,11 +12198,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R32",
+            "currentRound": "R16",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 2124509480
+            "matchId": 2124509465
           }
         },
         {
@@ -12135,9 +12226,8 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509430
@@ -12164,9 +12254,8 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509465
@@ -12193,9 +12282,8 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509465
@@ -12214,18 +12302,16 @@
           "itfPlayerId": "800715587",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R32",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 1183560316
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509463
@@ -12252,9 +12338,8 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509432
@@ -12281,9 +12366,8 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509434
@@ -12310,9 +12394,8 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509463
@@ -12339,9 +12422,8 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509459
@@ -12368,9 +12450,8 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509460
@@ -12397,9 +12478,8 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509460
@@ -12426,9 +12506,8 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509429
@@ -12455,9 +12534,8 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509433
@@ -12484,9 +12562,8 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509461
@@ -12513,9 +12590,8 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509462
@@ -12542,9 +12618,8 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509429
@@ -12571,9 +12646,8 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509462
@@ -12621,11 +12695,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R32",
+            "currentRound": "R16",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 2124509476
+            "matchId": 2124509463
           }
         },
         {
@@ -12649,11 +12723,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R32",
+            "currentRound": "R16",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 2124509444
+            "matchId": 2124509431
           }
         },
         {
@@ -12677,9 +12751,8 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509431
@@ -12706,11 +12779,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R32",
+            "currentRound": "R16",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 2124509468
+            "matchId": 2124509459
           }
         },
         {
@@ -12724,19 +12797,12 @@
           "entryGroup": "MD",
           "juniorRank": "",
           "itfPlayerId": "800727404",
-          "drawResult": {
-            "status": "Eliminado",
-            "currentRound": "Q2",
-            "confidence": "itf-api-loss",
-            "score": "3-6 4-6",
-            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 1183560370
-          },
+          "drawResult": null,
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R32",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "6-4 3-6 6-10",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509436
           }
@@ -12761,10 +12827,10 @@
             "matchId": 1183560260
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R32",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "6-3 6-7(6) 4-10",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509437
           }
@@ -12789,10 +12855,10 @@
             "matchId": 1183560252
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R32",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "2-6 5-7",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509441
           }
@@ -12817,10 +12883,10 @@
             "matchId": 1183560283
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R32",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "5-7 0-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509440
           }
@@ -12837,18 +12903,17 @@
           "juniorRank": "",
           "itfPlayerId": "800674978",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "3-6 6-4 3-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 1183560339
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509464
@@ -12875,11 +12940,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R32",
+            "currentRound": "R16",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 2124509472
+            "matchId": 2124509461
           }
         },
         {
@@ -12903,11 +12968,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R32",
+            "currentRound": "R16",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 2124509436
+            "matchId": 2124509427
           }
         },
         {
@@ -12931,11 +12996,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R32",
+            "currentRound": "R16",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 2124509449
+            "matchId": 2124509434
           }
         },
         {
@@ -12972,19 +13037,19 @@
           "itfPlayerId": "800781276",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R64",
-            "confidence": "itf-api-pending-match",
-            "score": "",
-            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 1183560339
-          },
-          "drawResultDoubles": {
-            "status": "Ativo",
             "currentRound": "R32",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 2124509479
+            "matchId": 1183560316
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
+            "matchId": 2124509464
           }
         },
         {
@@ -13007,10 +13072,10 @@
             "matchId": 1183560271
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R32",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "2-6 0-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509444
           }
@@ -13035,34 +13100,13 @@
             "matchId": 1183560288
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R32",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "2-6 4-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509449
           }
-        },
-        {
-          "id": "gabriel-daroca",
-          "name": "Gabriel Daroca",
-          "country": "BOL",
-          "gender": "Boys",
-          "currentRank": 0,
-          "birthYear": "",
-          "officialPoints": 0,
-          "entryGroup": "Q",
-          "juniorRank": "",
-          "itfPlayerId": "800768340",
-          "drawResult": {
-            "status": "Eliminado",
-            "currentRound": "Q2",
-            "confidence": "itf-api-loss",
-            "score": "3-6 1-6",
-            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 1183560372
-          },
-          "drawResultDoubles": null
         },
         {
           "id": "hiram-nicolas-gutierrez-castro",
@@ -13084,34 +13128,13 @@
             "matchId": 1183560284
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R32",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "1-6 1-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509445
           }
-        },
-        {
-          "id": "jaen-wilder-mathias-condori-nieves",
-          "name": "Jaen Wilder Mathias Condori Nieves",
-          "country": "BOL",
-          "gender": "Boys",
-          "currentRank": 0,
-          "birthYear": "",
-          "officialPoints": 0,
-          "entryGroup": "Q",
-          "juniorRank": "",
-          "itfPlayerId": "800855205",
-          "drawResult": {
-            "status": "Eliminado",
-            "currentRound": "Q1",
-            "confidence": "itf-api-loss",
-            "score": "0-6 0-6",
-            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 1183560367
-          },
-          "drawResultDoubles": null
         },
         {
           "id": "jeanine-fiorela-rojas-cuellar",
@@ -13155,9 +13178,8 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509432
@@ -13184,33 +13206,12 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R32",
+            "currentRound": "R16",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 2124509444
+            "matchId": 2124509431
           }
-        },
-        {
-          "id": "lorenzo-baessa",
-          "name": "Lorenzo Baessa",
-          "country": "BRA",
-          "gender": "Boys",
-          "currentRank": 0,
-          "birthYear": "",
-          "officialPoints": 0,
-          "entryGroup": "Q",
-          "juniorRank": "",
-          "itfPlayerId": "800776684",
-          "drawResult": {
-            "status": "Eliminado",
-            "currentRound": "Q2",
-            "confidence": "itf-api-loss",
-            "score": "1-6 2-6",
-            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 1183560369
-          },
-          "drawResultDoubles": null
         },
         {
           "id": "lucia-grinberg",
@@ -13254,11 +13255,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R32",
+            "currentRound": "R16",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 2124509475
+            "matchId": 2124509462
           }
         },
         {
@@ -13282,11 +13283,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R32",
+            "currentRound": "R16",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 2124509468
+            "matchId": 2124509459
           }
         },
         {
@@ -13309,10 +13310,10 @@
             "matchId": 1183560264
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R32",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "6-4 3-6 6-10",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509436
           }
@@ -13338,33 +13339,12 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R32",
+            "currentRound": "R16",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 2124509445
+            "matchId": 2124509432
           }
-        },
-        {
-          "id": "matheo-calvo-tababary",
-          "name": "Matheo Calvo Tababary",
-          "country": "BOL",
-          "gender": "Boys",
-          "currentRank": 0,
-          "birthYear": "",
-          "officialPoints": 0,
-          "entryGroup": "Q",
-          "juniorRank": "",
-          "itfPlayerId": "800661040",
-          "drawResult": {
-            "status": "Eliminado",
-            "currentRound": "Q1",
-            "confidence": "itf-api-loss",
-            "score": "6-3 5-7 6-10",
-            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 1183560362
-          },
-          "drawResultDoubles": null
         },
         {
           "id": "mercedes-zunino-arques",
@@ -13386,10 +13366,10 @@
             "matchId": 1183560343
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R32",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "4-6 6-4 5-10",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509467
           }
@@ -13415,11 +13395,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R32",
+            "currentRound": "R16",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 2124509437
+            "matchId": 2124509428
           }
         },
         {
@@ -13442,10 +13422,10 @@
             "matchId": 1183560327
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R32",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "7-6(5) 0-6 12-14",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509468
           }
@@ -13470,34 +13450,13 @@
             "matchId": 1183560387
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R32",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "5-7 1-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509472
           }
-        },
-        {
-          "id": "samuel-balcazar",
-          "name": "Samuel Balcazar",
-          "country": "USA",
-          "gender": "Boys",
-          "currentRank": 0,
-          "birthYear": "",
-          "officialPoints": 0,
-          "entryGroup": "Q",
-          "juniorRank": "",
-          "itfPlayerId": "800781489",
-          "drawResult": {
-            "status": "Eliminado",
-            "currentRound": "Q2",
-            "confidence": "itf-api-loss",
-            "score": "",
-            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 1183560373
-          },
-          "drawResultDoubles": null
         },
         {
           "id": "santiago-gomez-roca",
@@ -13519,10 +13478,10 @@
             "matchId": 1183560276
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R32",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "2-6 0-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509444
           }
@@ -13548,11 +13507,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R32",
+            "currentRound": "R16",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 2124509436
+            "matchId": 2124509427
           }
         },
         {
@@ -13576,9 +13535,8 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R16",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509461
@@ -13605,11 +13563,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R32",
+            "currentRound": "R16",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 2124509441
+            "matchId": 2124509430
           }
         },
         {
@@ -13633,11 +13591,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R32",
+            "currentRound": "R16",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 2124509448
+            "matchId": 2124509433
           }
         },
         {
@@ -13660,10 +13618,10 @@
             "matchId": 1183560350
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R32",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "1-6 2-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509479
           }
@@ -13731,11 +13689,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R32",
+            "currentRound": "R16",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 2124509448
+            "matchId": 2124509433
           }
         },
         {
@@ -13758,10 +13716,10 @@
             "matchId": 1183560320
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R32",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "2-6 6-4 7-10",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 2124509475
           }
@@ -13865,18 +13823,6 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800716380",
-          "playerName": "Estevao Zarur",
-          "gender": "Boys",
-          "country": "BRA",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J60 Santa Cruz de la Sierra",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
           "playerItfId": "800652386",
           "playerName": "Felipe Buritica",
           "gender": "Boys",
@@ -13931,18 +13877,6 @@
           "country": "ARG",
           "juniorRank": "",
           "entryGroup": "MD",
-          "tournamentName": "J60 Santa Cruz de la Sierra",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800761078",
-          "playerName": "Guilherme Novaes Duarte Mesquita",
-          "gender": "Boys",
-          "country": "BRA",
-          "juniorRank": "",
-          "entryGroup": "Q",
           "tournamentName": "J60 Santa Cruz de la Sierra",
           "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
           "drawsUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
@@ -14201,18 +14135,6 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800702203",
-          "playerName": "Maximo Augusto Belotti Garcia",
-          "gender": "Boys",
-          "country": "ARG",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J60 Santa Cruz de la Sierra",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
           "playerItfId": "800671191",
           "playerName": "Melissa Garzon",
           "gender": "Girls",
@@ -14261,36 +14183,12 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800845401",
-          "playerName": "Pablo Torres Lema",
-          "gender": "Boys",
-          "country": "BOL",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J60 Santa Cruz de la Sierra",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
           "playerItfId": "800672553",
           "playerName": "Rafael Elaez Miranda",
           "gender": "Boys",
           "country": "PER",
           "juniorRank": "",
           "entryGroup": "MD",
-          "tournamentName": "J60 Santa Cruz de la Sierra",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800778423",
-          "playerName": "Rodrigo Fadel Altieri",
-          "gender": "Boys",
-          "country": "BRA",
-          "juniorRank": "",
-          "entryGroup": "Q",
           "tournamentName": "J60 Santa Cruz de la Sierra",
           "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
           "drawsUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
@@ -14339,18 +14237,6 @@
           "country": "BRA",
           "juniorRank": "",
           "entryGroup": "MD",
-          "tournamentName": "J60 Santa Cruz de la Sierra",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800711726",
-          "playerName": "Thomas Amaral",
-          "gender": "Boys",
-          "country": "BRA",
-          "juniorRank": "",
-          "entryGroup": "Q",
           "tournamentName": "J60 Santa Cruz de la Sierra",
           "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
           "drawsUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
@@ -14418,7 +14304,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-champaign/usa/2026/j-j60-usa-2026-003/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-champaign/usa/2026/j-j60-usa-2026-003/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -14825,7 +14711,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -15684,7 +15570,7 @@
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-sukoharjo/ina/2026/j-j30-ina-2026-002/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-sukoharjo/ina/2026/j-j30-ina-2026-002/draws-and-results/",
       "fallbackUsed": true,
-      "itfApiWarning": "G-S-M: Could not post ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet: Unexpected token '<', \"<html styl\"... is not valid JSON",
+      "itfApiWarning": "",
       "drawWarning": "",
       "events": [
         {
@@ -15772,6 +15658,14 @@
           "drawsheetStructureCode": "KO",
           "eventId": 1100689500,
           "matchesCount": 15
+        },
+        {
+          "playerTypeCode": "G",
+          "matchTypeCode": "S",
+          "eventClassificationCode": "M",
+          "drawsheetStructureCode": "KO",
+          "eventId": 1100689501,
+          "matchesCount": 31
         },
         {
           "playerTypeCode": "G",
@@ -15909,7 +15803,14 @@
           "entryGroup": "MD",
           "juniorRank": "",
           "itfPlayerId": "800802913",
-          "drawResult": null,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "R64",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-sukoharjo/ina/2026/j-j30-ina-2026-002/draws-and-results/",
+            "matchId": 1183559200
+          },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "R32",
@@ -16294,6 +16195,18 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
+          "playerItfId": "800665221",
+          "playerName": "Jana Jelena Nicole Diaz",
+          "gender": "Girls",
+          "country": "PHI",
+          "juniorRank": "",
+          "entryGroup": "MD",
+          "tournamentName": "J30 Sukoharjo",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-sukoharjo/ina/2026/j-j30-ina-2026-002/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-sukoharjo/ina/2026/j-j30-ina-2026-002/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
           "playerItfId": "800838465",
           "playerName": "Jayden Rain Damarjaya",
           "gender": "Boys",
@@ -16323,7 +16236,7 @@
           "gender": "Girls",
           "country": "INA",
           "juniorRank": "",
-          "entryGroup": "Q",
+          "entryGroup": "MD",
           "tournamentName": "J30 Sukoharjo",
           "sourceUrl": "https://www.itftennis.com/en/tournament/j30-sukoharjo/ina/2026/j-j30-ina-2026-002/draws-and-results/",
           "drawsUrl": "https://www.itftennis.com/en/tournament/j30-sukoharjo/ina/2026/j-j30-ina-2026-002/draws-and-results/",
@@ -17028,7 +16941,7 @@
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
       "fallbackUsed": true,
-      "itfApiWarning": "B-D-M: Could not post ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet: Unexpected token '<', \"<html styl\"... is not valid JSON",
+      "itfApiWarning": "",
       "drawWarning": "",
       "events": [
         {
@@ -17110,6 +17023,14 @@
           "matchesCount": 28
         },
         {
+          "playerTypeCode": "B",
+          "matchTypeCode": "D",
+          "eventClassificationCode": "M",
+          "drawsheetStructureCode": "KO",
+          "eventId": 1100702284,
+          "matchesCount": 15
+        },
+        {
           "playerTypeCode": "G",
           "matchTypeCode": "S",
           "eventClassificationCode": "M",
@@ -17154,7 +17075,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
             "matchId": 1183559609
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
+            "matchId": 2124509349
+          }
         },
         {
           "id": "matei-crisan",
@@ -17175,7 +17103,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
             "matchId": 1183559616
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
+            "matchId": 2124509342
+          }
         },
         {
           "id": "eva-panova",
@@ -17239,7 +17174,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
             "matchId": 1183559621
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
+            "matchId": 2124509342
+          }
         },
         {
           "id": "alecos-timini",
@@ -17261,7 +17203,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
             "matchId": 1183559610
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
+            "matchId": 2124509344
+          }
         },
         {
           "id": "aleksija-strika",
@@ -17394,7 +17343,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
             "matchId": 1183559627
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
+            "matchId": 2124509346
+          }
         },
         {
           "id": "andy-wang",
@@ -17548,7 +17504,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
             "matchId": 1183559625
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
+            "matchId": 2124509347
+          }
         },
         {
           "id": "haolin-wang",
@@ -17597,7 +17560,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
             "matchId": 1183559617
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
+            "matchId": 2124509345
+          }
         },
         {
           "id": "isabella-relton",
@@ -17647,7 +17617,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
             "matchId": 1183559620
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
+            "matchId": 2124509349
+          }
         },
         {
           "id": "maksim-mikhailov",
@@ -17690,7 +17667,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
             "matchId": 1183559615
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
+            "matchId": 2124509344
+          }
         },
         {
           "id": "maria-belova",
@@ -17809,7 +17793,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
             "matchId": 1183559632
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
+            "matchId": 2124509345
+          }
         },
         {
           "id": "michael-genethliou",
@@ -17830,7 +17821,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
             "matchId": 1183559624
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
+            "matchId": 2124509346
+          }
         },
         {
           "id": "milana-vasic",
@@ -17924,7 +17922,7 @@
           "currentRank": 0,
           "birthYear": "",
           "officialPoints": 0,
-          "entryGroup": "Q",
+          "entryGroup": "MD",
           "juniorRank": "",
           "itfPlayerId": "800639836",
           "drawResult": {
@@ -17935,7 +17933,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
             "matchId": 1183559638
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
+            "matchId": 2124509346
+          }
         },
         {
           "id": "sofia-agathokleous",
@@ -18105,7 +18110,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
             "matchId": 1183559619
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
+            "matchId": 2124509343
+          }
         },
         {
           "id": "varvara-makarova",
@@ -18143,7 +18155,7 @@
           "currentRank": 0,
           "birthYear": "",
           "officialPoints": 0,
-          "entryGroup": "Q",
+          "entryGroup": "MD",
           "juniorRank": "",
           "itfPlayerId": "800659931",
           "drawResult": {
@@ -18154,7 +18166,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
             "matchId": 1183559647
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
+            "matchId": 2124509345
+          }
         },
         {
           "id": "vitalina-sokoliuk",
@@ -18224,7 +18243,14 @@
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
             "matchId": 1183559622
           },
-          "drawResultDoubles": null
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "R32",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
+            "matchId": 2124509347
+          }
         },
         {
           "id": "yuk-ying-tsang",
@@ -18262,7 +18288,7 @@
           "gender": "Boys",
           "country": "CAN",
           "juniorRank": "",
-          "entryGroup": "Q",
+          "entryGroup": "MD",
           "tournamentName": "J30 Nicosia",
           "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
           "drawsUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
@@ -18394,7 +18420,7 @@
           "gender": "Boys",
           "country": "GRE",
           "juniorRank": "",
-          "entryGroup": "Q",
+          "entryGroup": "MD",
           "tournamentName": "J30 Nicosia",
           "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
           "drawsUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
@@ -18750,7 +18776,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-colombo/sri/2026/j-j30-sri-2026-005/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-colombo/sri/2026/j-j30-sri-2026-005/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -19883,7 +19909,7 @@
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-yerevan/arm/2026/j-j30-arm-2026-004/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-yerevan/arm/2026/j-j30-arm-2026-004/draws-and-results/",
       "fallbackUsed": true,
-      "itfApiWarning": "G-S-Q: Could not post ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet: Unexpected token '<', \"<html styl\"... is not valid JSON",
+      "itfApiWarning": "",
       "drawWarning": "",
       "events": [
         {
@@ -19979,6 +20005,14 @@
           "drawsheetStructureCode": "KO",
           "eventId": 1100685077,
           "matchesCount": 31
+        },
+        {
+          "playerTypeCode": "G",
+          "matchTypeCode": "S",
+          "eventClassificationCode": "Q",
+          "drawsheetStructureCode": "KO",
+          "eventId": 1100685078,
+          "matchesCount": 4
         },
         {
           "playerTypeCode": "G",
@@ -21048,7 +21082,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-kampala/uga/2026/j-j30-uga-2026-002/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-kampala/uga/2026/j-j30-uga-2026-002/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -21858,12 +21892,595 @@
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
       "fallbackUsed": true,
-      "itfApiWarning": "Could not fetch ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetEventFilters?tournamentKey=J-J60-RSA-2026-005: Unexpected token '<', \"<html styl\"... is not valid JSON",
+      "itfApiWarning": "B-S-M: Could not post ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet: Unexpected token '<', \"<html styl\"... is not valid JSON",
       "drawWarning": "",
-      "events": [],
-      "drawsheetsSummary": [],
+      "events": [
+        {
+          "playerTypeCode": "B",
+          "playerTypeDesc": "Boys",
+          "matchTypeCode": "S",
+          "matchTypeDesc": "Singles",
+          "eventClassificationCode": "M",
+          "eventClassificationDesc": "Main Draw",
+          "drawsheetStructureCode": "KO",
+          "drawsheetStructureDesc": "Knock-out"
+        },
+        {
+          "playerTypeCode": "B",
+          "playerTypeDesc": "Boys",
+          "matchTypeCode": "S",
+          "matchTypeDesc": "Singles",
+          "eventClassificationCode": "M",
+          "eventClassificationDesc": "Main Draw",
+          "drawsheetStructureCode": "RR",
+          "drawsheetStructureDesc": "Round Robin"
+        },
+        {
+          "playerTypeCode": "B",
+          "playerTypeDesc": "Boys",
+          "matchTypeCode": "S",
+          "matchTypeDesc": "Singles",
+          "eventClassificationCode": "Q",
+          "eventClassificationDesc": "Qualifying Draw",
+          "drawsheetStructureCode": "KO",
+          "drawsheetStructureDesc": "Knock-out"
+        },
+        {
+          "playerTypeCode": "B",
+          "playerTypeDesc": "Boys",
+          "matchTypeCode": "D",
+          "matchTypeDesc": "Doubles",
+          "eventClassificationCode": "M",
+          "eventClassificationDesc": "Main Draw",
+          "drawsheetStructureCode": "KO",
+          "drawsheetStructureDesc": "Knock-out"
+        },
+        {
+          "playerTypeCode": "G",
+          "playerTypeDesc": "Girls",
+          "matchTypeCode": "S",
+          "matchTypeDesc": "Singles",
+          "eventClassificationCode": "M",
+          "eventClassificationDesc": "Main Draw",
+          "drawsheetStructureCode": "KO",
+          "drawsheetStructureDesc": "Knock-out"
+        },
+        {
+          "playerTypeCode": "G",
+          "playerTypeDesc": "Girls",
+          "matchTypeCode": "S",
+          "matchTypeDesc": "Singles",
+          "eventClassificationCode": "M",
+          "eventClassificationDesc": "Main Draw",
+          "drawsheetStructureCode": "RR",
+          "drawsheetStructureDesc": "Round Robin"
+        },
+        {
+          "playerTypeCode": "G",
+          "playerTypeDesc": "Girls",
+          "matchTypeCode": "S",
+          "matchTypeDesc": "Singles",
+          "eventClassificationCode": "Q",
+          "eventClassificationDesc": "Qualifying Draw",
+          "drawsheetStructureCode": "KO",
+          "drawsheetStructureDesc": "Knock-out"
+        },
+        {
+          "playerTypeCode": "G",
+          "playerTypeDesc": "Girls",
+          "matchTypeCode": "D",
+          "matchTypeDesc": "Doubles",
+          "eventClassificationCode": "M",
+          "eventClassificationDesc": "Main Draw",
+          "drawsheetStructureCode": "KO",
+          "drawsheetStructureDesc": "Knock-out"
+        }
+      ],
+      "drawsheetsSummary": [
+        {
+          "playerTypeCode": "B",
+          "matchTypeCode": "S",
+          "eventClassificationCode": "M",
+          "drawsheetStructureCode": "KO",
+          "eventId": 1100678574,
+          "matchesCount": 7
+        },
+        {
+          "playerTypeCode": "B",
+          "matchTypeCode": "S",
+          "eventClassificationCode": "Q",
+          "drawsheetStructureCode": "KO",
+          "eventId": 1100678575,
+          "matchesCount": 24
+        },
+        {
+          "playerTypeCode": "B",
+          "matchTypeCode": "D",
+          "eventClassificationCode": "M",
+          "drawsheetStructureCode": "KO",
+          "eventId": 1100678576,
+          "matchesCount": 15
+        },
+        {
+          "playerTypeCode": "G",
+          "matchTypeCode": "S",
+          "eventClassificationCode": "M",
+          "drawsheetStructureCode": "KO",
+          "eventId": 1100678577,
+          "matchesCount": 7
+        },
+        {
+          "playerTypeCode": "G",
+          "matchTypeCode": "S",
+          "eventClassificationCode": "M",
+          "drawsheetStructureCode": "RR",
+          "eventId": 1100715986,
+          "matchesCount": 0
+        },
+        {
+          "playerTypeCode": "G",
+          "matchTypeCode": "S",
+          "eventClassificationCode": "Q",
+          "drawsheetStructureCode": "KO",
+          "eventId": 1100678578,
+          "matchesCount": 8
+        },
+        {
+          "playerTypeCode": "G",
+          "matchTypeCode": "D",
+          "eventClassificationCode": "M",
+          "drawsheetStructureCode": "KO",
+          "eventId": 1100678579,
+          "matchesCount": 15
+        }
+      ],
       "acceptedPlayers": [],
-      "outsiderCandidates": []
+      "outsiderCandidates": [
+        {
+          "playerItfId": "800825247",
+          "playerName": "Aarya Sunker",
+          "gender": "Girls",
+          "country": "RSA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800691754",
+          "playerName": "Abhav Chanana",
+          "gender": "Boys",
+          "country": "IND",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800850117",
+          "playerName": "Alexander Lee Pieber",
+          "gender": "Boys",
+          "country": "RSA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800832175",
+          "playerName": "Alze Meyer",
+          "gender": "Girls",
+          "country": "RSA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800708594",
+          "playerName": "Anotipa Chigudu",
+          "gender": "Boys",
+          "country": "ZIM",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800725854",
+          "playerName": "Anrich Rudi Mors",
+          "gender": "Boys",
+          "country": "RSA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800844501",
+          "playerName": "Boris Rusev",
+          "gender": "Boys",
+          "country": "USA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800831221",
+          "playerName": "Chris Chris Felet",
+          "gender": "Boys",
+          "country": "RSA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800869696",
+          "playerName": "Esmae",
+          "gender": "Girls",
+          "country": "RSA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800709449",
+          "playerName": "Giacomo Coppini",
+          "gender": "Boys",
+          "country": "RSA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800826561",
+          "playerName": "Jaden Van Der Westhuizen",
+          "gender": "Boys",
+          "country": "GER",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800811558",
+          "playerName": "Janine Ramiah",
+          "gender": "Girls",
+          "country": "RSA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800822182",
+          "playerName": "Johan Nicolaas Theron",
+          "gender": "Boys",
+          "country": "NAM",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800856029",
+          "playerName": "John Van Der Walt",
+          "gender": "Boys",
+          "country": "RSA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800866806",
+          "playerName": "Kamil Parmessar",
+          "gender": "Boys",
+          "country": "RSA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800832311",
+          "playerName": "Keotshepile Moorosi",
+          "gender": "Girls",
+          "country": "RSA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800802364",
+          "playerName": "Kuhle Langa",
+          "gender": "Girls",
+          "country": "RSA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800783601",
+          "playerName": "Leticia Zandamela",
+          "gender": "Girls",
+          "country": "MOZ",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800747948",
+          "playerName": "Lorena Zandamela",
+          "gender": "Girls",
+          "country": "MOZ",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800750198",
+          "playerName": "Luka Van Niekerk",
+          "gender": "Boys",
+          "country": "RSA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800811440",
+          "playerName": "Luke Treleaven",
+          "gender": "Boys",
+          "country": "RSA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800726281",
+          "playerName": "Michael Lisbey",
+          "gender": "Boys",
+          "country": "RSA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800865578",
+          "playerName": "Mpho Bowers",
+          "gender": "Boys",
+          "country": "RSA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800870596",
+          "playerName": "Nina",
+          "gender": "Girls",
+          "country": "RSA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800740484",
+          "playerName": "Noah Parker",
+          "gender": "Boys",
+          "country": "RSA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800839245",
+          "playerName": "Panagiotis Christoforakis",
+          "gender": "Boys",
+          "country": "RSA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800753956",
+          "playerName": "Rafael Franca",
+          "gender": "Boys",
+          "country": "BRA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800649676",
+          "playerName": "Ran berger",
+          "gender": "Boys",
+          "country": "ISR",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800750176",
+          "playerName": "Robbie Smuts",
+          "gender": "Boys",
+          "country": "RSA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800695734",
+          "playerName": "Ruinclife Baraka Ominde",
+          "gender": "Boys",
+          "country": "KEN",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800866266",
+          "playerName": "Ryan Mare",
+          "gender": "Boys",
+          "country": "RSA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800838799",
+          "playerName": "Schalk Nel Pieter Schalk Nel",
+          "gender": "Boys",
+          "country": "RSA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800750206",
+          "playerName": "Sekani Vara",
+          "gender": "Boys",
+          "country": "RSA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800870368",
+          "playerName": "Taylor",
+          "gender": "Girls",
+          "country": "RSA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800830934",
+          "playerName": "Taylor Van Der Merwe",
+          "gender": "Girls",
+          "country": "RSA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800786576",
+          "playerName": "Tineka Strydom",
+          "gender": "Girls",
+          "country": "RSA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
+          "playerItfId": "800845551",
+          "playerName": "Tsebo",
+          "gender": "Girls",
+          "country": "RSA",
+          "juniorRank": "",
+          "entryGroup": "Q",
+          "tournamentName": "J60 Pretoria",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        }
+      ]
     },
     {
       "tournamentName": "J60 Baku",
@@ -21878,7 +22495,7 @@
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-baku/aze/2026/j-j60-aze-2026-001/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-baku/aze/2026/j-j60-aze-2026-001/draws-and-results/",
       "fallbackUsed": true,
-      "itfApiWarning": "G-D-M: Could not post ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet: Unexpected token '<', \"<html styl\"... is not valid JSON",
+      "itfApiWarning": "",
       "drawWarning": "",
       "events": [
         {
@@ -21982,6 +22599,14 @@
           "drawsheetStructureCode": "KO",
           "eventId": 1100692705,
           "matchesCount": 28
+        },
+        {
+          "playerTypeCode": "G",
+          "matchTypeCode": "D",
+          "eventClassificationCode": "M",
+          "drawsheetStructureCode": "KO",
+          "eventId": 1100692706,
+          "matchesCount": 15
         }
       ],
       "acceptedPlayers": [
@@ -22840,7 +23465,7 @@
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-abuja/ngr/2026/j-j30-ngr-2026-003/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-abuja/ngr/2026/j-j30-ngr-2026-003/draws-and-results/",
       "fallbackUsed": true,
-      "itfApiWarning": "G-D-M: Could not post ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet: Unexpected token '<', \"<html styl\"... is not valid JSON",
+      "itfApiWarning": "G-S-M: Could not post ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet: Unexpected token '<', \"<html styl\"... is not valid JSON",
       "drawWarning": "",
       "events": [
         {
@@ -22939,11 +23564,11 @@
         },
         {
           "playerTypeCode": "G",
-          "matchTypeCode": "S",
+          "matchTypeCode": "D",
           "eventClassificationCode": "M",
-          "drawsheetStructureCode": "RR",
-          "eventId": 1100716226,
-          "matchesCount": 0
+          "drawsheetStructureCode": "KO",
+          "eventId": 1100684033,
+          "matchesCount": 15
         }
       ],
       "acceptedPlayers": [],
@@ -22961,7 +23586,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-bizerte/tun/2026/j-j30-tun-2026-002/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-bizerte/tun/2026/j-j30-tun-2026-002/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -23459,7 +24084,7 @@
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "fallbackUsed": true,
-      "itfApiWarning": "G-S-M: Could not post ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet: Unexpected token '<', \"<html styl\"... is not valid JSON",
+      "itfApiWarning": "B-S-M: Could not post ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet: Unexpected token '<', \"<html styl\"... is not valid JSON",
       "drawWarning": "",
       "events": [
         {
@@ -23555,14 +24180,6 @@
         {
           "playerTypeCode": "B",
           "matchTypeCode": "S",
-          "eventClassificationCode": "M",
-          "drawsheetStructureCode": "RR",
-          "eventId": 1100715962,
-          "matchesCount": 0
-        },
-        {
-          "playerTypeCode": "B",
-          "matchTypeCode": "S",
           "eventClassificationCode": "Q",
           "drawsheetStructureCode": "KO",
           "eventId": 1100706338,
@@ -23583,6 +24200,14 @@
           "drawsheetStructureCode": "KO",
           "eventId": 1100706340,
           "matchesCount": 7
+        },
+        {
+          "playerTypeCode": "G",
+          "matchTypeCode": "S",
+          "eventClassificationCode": "M",
+          "drawsheetStructureCode": "RR",
+          "eventId": 1100715970,
+          "matchesCount": 0
         },
         {
           "playerTypeCode": "G",
@@ -25207,7 +25832,7 @@
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
       "fallbackUsed": true,
-      "itfApiWarning": "B-S-Q: Could not post ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet: Unexpected token '<', \"<html styl\"... is not valid JSON",
+      "itfApiWarning": "G-S-Q: Could not post ITF API https://www.itftennis.com/tennis/api/TournamentApi/GetDrawsheet: Unexpected token '<', \"<html styl\"... is not valid JSON",
       "drawWarning": "",
       "events": [
         {
@@ -25282,6 +25907,14 @@
         },
         {
           "playerTypeCode": "B",
+          "matchTypeCode": "S",
+          "eventClassificationCode": "Q",
+          "drawsheetStructureCode": "KO",
+          "eventId": 1100694611,
+          "matchesCount": 28
+        },
+        {
+          "playerTypeCode": "B",
           "matchTypeCode": "D",
           "eventClassificationCode": "M",
           "drawsheetStructureCode": "KO",
@@ -25298,14 +25931,6 @@
         },
         {
           "playerTypeCode": "G",
-          "matchTypeCode": "S",
-          "eventClassificationCode": "Q",
-          "drawsheetStructureCode": "KO",
-          "eventId": 1100694614,
-          "matchesCount": 28
-        },
-        {
-          "playerTypeCode": "G",
           "matchTypeCode": "D",
           "eventClassificationCode": "M",
           "drawsheetStructureCode": "KO",
@@ -25315,32 +25940,53 @@
       ],
       "acceptedPlayers": [
         {
-          "id": "yuumi-sueyoshi",
-          "name": "YUUMI SUEYOSHI",
+          "id": "mitsuki-ohmasa",
+          "name": "mitsuki ohmasa",
           "country": "JPN",
-          "gender": "Girls",
+          "gender": "Boys",
           "currentRank": 0,
           "birthYear": "",
           "officialPoints": 0,
           "entryGroup": "Q",
           "juniorRank": "",
-          "itfPlayerId": "800684271",
+          "itfPlayerId": "800743474",
+          "drawResult": {
+            "status": "Eliminado",
+            "currentRound": "Q1",
+            "confidence": "itf-api-loss",
+            "score": "4-6 3-6",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
+            "matchId": 1183562817
+          },
+          "drawResultDoubles": null
+        },
+        {
+          "id": "rentaro-otaka",
+          "name": "RENTARO OTAKA",
+          "country": "JPN",
+          "gender": "Boys",
+          "currentRank": 0,
+          "birthYear": "",
+          "officialPoints": 0,
+          "entryGroup": "Q",
+          "juniorRank": "",
+          "itfPlayerId": "800726121",
           "drawResult": {
             "status": "Ativo",
             "currentRound": "Q2",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
-            "matchId": 1183562860
+            "matchId": 1183562800
           },
           "drawResultDoubles": null
         }
       ],
       "outsiderCandidates": [
         {
-          "playerItfId": "800808028",
-          "playerName": "Aina Fujihara",
-          "gender": "Girls",
+          "playerItfId": "800864287",
+          "playerName": "Arata Matsuda",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25350,9 +25996,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800862948",
-          "playerName": "Akina Ishida",
-          "gender": "Girls",
+          "playerItfId": "800847832",
+          "playerName": "Daigoro Sakai",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25362,9 +26008,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800816943",
-          "playerName": "Angelina Haruko Shaw",
-          "gender": "Girls",
+          "playerItfId": "800702659",
+          "playerName": "Gota Inoue",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25374,9 +26020,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800848275",
-          "playerName": "Ayami Moriue",
-          "gender": "Girls",
+          "playerItfId": "800816757",
+          "playerName": "Haruhi Yokoyama",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25386,9 +26032,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800833906",
-          "playerName": "Azuki Tamada",
-          "gender": "Girls",
+          "playerItfId": "800848053",
+          "playerName": "Honosuke Ishibe",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25398,9 +26044,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800847298",
-          "playerName": "Honami Yu",
-          "gender": "Girls",
+          "playerItfId": "800663572",
+          "playerName": "Jun Matsumoto",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25410,9 +26056,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800810334",
-          "playerName": "Ichika Ohmori",
-          "gender": "Girls",
+          "playerItfId": "800725255",
+          "playerName": "KAISEI UKAWA",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25422,9 +26068,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800788491",
-          "playerName": "Ichina Miyashita",
-          "gender": "Girls",
+          "playerItfId": "800846199",
+          "playerName": "Konan Kawabata",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25434,9 +26080,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800842842",
-          "playerName": "Iori Mizuhara",
-          "gender": "Girls",
+          "playerItfId": "800667677",
+          "playerName": "Masamune Matsumoto",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25446,9 +26092,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800783915",
-          "playerName": "Kiko Okuyama",
-          "gender": "Girls",
+          "playerItfId": "800731404",
+          "playerName": "Masamune Umeda",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25458,9 +26104,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800832152",
-          "playerName": "Kinari Tashiro",
-          "gender": "Girls",
+          "playerItfId": "800821940",
+          "playerName": "Munehito Kawanabe",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25470,9 +26116,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800807883",
-          "playerName": "Kurumi Nakano",
-          "gender": "Girls",
+          "playerItfId": "800763140",
+          "playerName": "Rai TAKIMOTO",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25482,9 +26128,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800806666",
-          "playerName": "Miki Mori",
-          "gender": "Girls",
+          "playerItfId": "800810460",
+          "playerName": "Raku Yoshimoto",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25494,9 +26140,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800848771",
-          "playerName": "Mitsuki Goto",
-          "gender": "Girls",
+          "playerItfId": "800742071",
+          "playerName": "RYOSUKE KOBAYASHI",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25506,9 +26152,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800843980",
-          "playerName": "Miyu Kowaka",
-          "gender": "Girls",
+          "playerItfId": "800710175",
+          "playerName": "Ryusei Hashimoto",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25518,9 +26164,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800821617",
-          "playerName": "Nagisa Taniguchi",
-          "gender": "Girls",
+          "playerItfId": "800705593",
+          "playerName": "Shiyu Hashizume",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25530,9 +26176,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800745996",
-          "playerName": "Nanami Kurashima",
-          "gender": "Girls",
+          "playerItfId": "800706532",
+          "playerName": "Shunnosuke Takagi",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25542,9 +26188,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800716815",
-          "playerName": "NEON KINOSHITA",
-          "gender": "Girls",
+          "playerItfId": "800807154",
+          "playerName": "Soma Kusunoki",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25554,9 +26200,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800685123",
-          "playerName": "Nonoka Shimizu",
-          "gender": "Girls",
+          "playerItfId": "800865183",
+          "playerName": "Sora Nakada",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25566,9 +26212,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800699764",
-          "playerName": "Rino Shinden",
-          "gender": "Girls",
+          "playerItfId": "800766207",
+          "playerName": "Taishi Konishi",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25578,9 +26224,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800786144",
-          "playerName": "Ruka Miyazato",
-          "gender": "Girls",
+          "playerItfId": "800810443",
+          "playerName": "Takumi Hatsuda",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25590,9 +26236,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800836272",
-          "playerName": "Rumi Nakaegawa",
-          "gender": "Girls",
+          "playerItfId": "800827297",
+          "playerName": "Thalis Shun Shitara",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25602,9 +26248,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800832534",
-          "playerName": "Sachi Hosoi",
-          "gender": "Girls",
+          "playerItfId": "800806833",
+          "playerName": "Toki Kitamura",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25614,9 +26260,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800746904",
-          "playerName": "Sae Ito",
-          "gender": "Girls",
+          "playerItfId": "800718134",
+          "playerName": "Tomohisa Shioya",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25626,9 +26272,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800752518",
-          "playerName": "seiha niwatani",
-          "gender": "Girls",
+          "playerItfId": "800865127",
+          "playerName": "Tsukasa Nozaki",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25638,9 +26284,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800844407",
-          "playerName": "Sora Kosuga",
-          "gender": "Girls",
+          "playerItfId": "800799138",
+          "playerName": "Yoshiaki Hirose",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25650,9 +26296,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800853984",
-          "playerName": "Yuika Sekinada",
-          "gender": "Girls",
+          "playerItfId": "800867446",
+          "playerName": "Yuito Oura",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25662,9 +26308,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800829326",
-          "playerName": "Yuki Komada",
-          "gender": "Girls",
+          "playerItfId": "800784661",
+          "playerName": "Yusei Yamamoto",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25674,9 +26320,9 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800735396",
-          "playerName": "Yuno Hagishima",
-          "gender": "Girls",
+          "playerItfId": "800708454",
+          "playerName": "Yutaro Otsuka",
+          "gender": "Boys",
           "country": "JPN",
           "juniorRank": "",
           "entryGroup": "Q",
@@ -25686,22 +26332,10 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
-          "playerItfId": "800788350",
-          "playerName": "Yusa Sakaguchi",
-          "gender": "Girls",
+          "playerItfId": "800806302",
+          "playerName": "Zentaro Sunada",
+          "gender": "Boys",
           "country": "JPN",
-          "juniorRank": "",
-          "entryGroup": "Q",
-          "tournamentName": "J60 Miki City",
-          "sourceUrl": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
-          "drawsUrl": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
-          "notes": "Encontrado no drawsheet da ITF."
-        },
-        {
-          "playerItfId": "800739377",
-          "playerName": "Ziqian Zhu",
-          "gender": "Girls",
-          "country": "CHN",
           "juniorRank": "",
           "entryGroup": "Q",
           "tournamentName": "J60 Miki City",
