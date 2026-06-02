@@ -5,6 +5,7 @@ import { chromium } from "playwright";
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const playersFile = path.join(rootDir, "pipeline", "sources", "players.json");
+const weeklyResultsFile = path.join(rootDir, "data", "weekly-results.csv");
 const pointsCsvFile = process.env.POINTS_OUTPUT_FILE
   ? path.resolve(rootDir, process.env.POINTS_OUTPUT_FILE)
   : path.join(rootDir, "data", "player-points.csv");
@@ -17,9 +18,13 @@ const contextUrl =
 
 const limit = Number(process.env.POINTS_LIMIT || 0);
 const playerIdFilter = String(process.env.POINTS_PLAYER_ID || "").trim();
+const scope = String(process.env.POINTS_SCOPE || "ranked-and-weekly").trim().toLowerCase();
+const rankLimit = Number(process.env.POINTS_RANK_LIMIT || 1000);
+const maxConsecutiveErrors = Number(process.env.POINTS_MAX_CONSECUTIVE_ERRORS || 25);
 const minSuccessRate = Number(process.env.POINTS_MIN_SUCCESS_RATE || 0.9);
 const headed = process.env.POINTS_HEADLESS === "false";
 const pauseMs = Number(process.env.POINTS_PAUSE_MS || 250);
+const browserRecycleEvery = Number(process.env.POINTS_BROWSER_RECYCLE_EVERY || 10);
 
 const headers = [
   "player_id",
@@ -43,6 +48,48 @@ function csvValue(value = "") {
   const text = String(value ?? "");
   if (/[",\r\n]/.test(text)) return `"${text.replaceAll('"', '""')}"`;
   return text;
+}
+
+function parseCsvLine(line = "") {
+  const values = [];
+  let current = "";
+  let quoted = false;
+
+  for (let index = 0; index < line.length; index += 1) {
+    const char = line[index];
+    const next = line[index + 1];
+
+    if (quoted && char === '"' && next === '"') {
+      current += '"';
+      index += 1;
+    } else if (char === '"') {
+      quoted = !quoted;
+    } else if (char === "," && !quoted) {
+      values.push(current);
+      current = "";
+    } else {
+      current += char;
+    }
+  }
+
+  values.push(current);
+  return values;
+}
+
+async function readCsvRows(file) {
+  try {
+    const text = await fs.readFile(file, "utf8");
+    const [headerLine, ...lines] = text.trim().split(/\r?\n/);
+    const headers = parseCsvLine(headerLine);
+    return lines
+      .filter(Boolean)
+      .map((line) => {
+        const values = parseCsvLine(line);
+        return Object.fromEntries(headers.map((header, index) => [header, values[index] || ""]));
+      });
+  } catch {
+    return [];
+  }
 }
 
 function numericValue(value) {
@@ -195,24 +242,58 @@ async function writeCsv(file, rows) {
   await fs.writeFile(file, text, "utf8");
 }
 
+async function weeklyPlayerIds() {
+  const rows = await readCsvRows(weeklyResultsFile);
+  return new Set(rows.map((row) => row.player_id).filter(Boolean));
+}
+
+async function selectTargetPlayers(allPlayers) {
+  if (playerIdFilter) {
+    return allPlayers.filter((player) => player.id === playerIdFilter || playerNumericId(player) === playerIdFilter);
+  }
+
+  if (scope === "all") return allPlayers;
+
+  const weeklyIds = await weeklyPlayerIds();
+  return allPlayers.filter((player) => {
+    const rank = Number(player.currentRank || 0);
+    return (rank > 0 && rank <= rankLimit) || weeklyIds.has(player.id);
+  });
+}
+
 async function main() {
   const allPlayers = JSON.parse(await fs.readFile(playersFile, "utf8"));
-  const selectedPlayers = playerIdFilter
-    ? allPlayers.filter((player) => player.id === playerIdFilter || playerNumericId(player) === playerIdFilter)
-    : allPlayers;
+  const selectedPlayers = await selectTargetPlayers(allPlayers);
   const players = (limit > 0 ? selectedPlayers.slice(0, limit) : selectedPlayers).filter(playerNumericId);
   const csvRows = [headers];
   const statusRows = [["player_id", "player_name", "gender", "current_rank", "status", "rows", "error"]];
   let successCount = 0;
+  let consecutiveErrors = 0;
+  let stopReason = "";
 
-  const browser = await chromium.launch({ headless: !headed });
-  const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
+  console.log(
+    `Player points target: ${players.length}/${allPlayers.length} players (scope=${scope}, rankLimit=${rankLimit}, limit=${limit || "none"})`
+  );
 
-  try {
+  let browser;
+  let page;
+
+  async function openBrowserSession() {
+    if (browser) await browser.close().catch(() => {});
+    browser = await chromium.launch({ headless: !headed });
+    page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
     await page.goto(contextUrl, { waitUntil: "domcontentloaded", timeout: 90000 });
     await page.waitForTimeout(5000);
+  }
+
+  try {
+    await openBrowserSession();
 
     for (let index = 0; index < players.length; index += 1) {
+      if (browserRecycleEvery > 0 && index > 0 && index % browserRecycleEvery === 0) {
+        await openBrowserSession();
+      }
+
       const player = players[index];
       const numericId = playerNumericId(player);
 
@@ -222,22 +303,34 @@ async function main() {
         csvRows.push(...rows);
         statusRows.push([player.id, player.name, player.gender, player.currentRank || "", "OK", String(rows.length), ""]);
         successCount += 1;
+        consecutiveErrors = 0;
       } catch (error) {
         statusRows.push([player.id, player.name, player.gender, player.currentRank || "", "ERROR", "0", error.message]);
+        consecutiveErrors += 1;
       }
 
       if ((index + 1) % 25 === 0 || index + 1 === players.length) {
         console.log(`Player points scraped: ${index + 1}/${players.length} (${successCount} OK)`);
       }
 
+      if (maxConsecutiveErrors > 0 && consecutiveErrors >= maxConsecutiveErrors) {
+        stopReason = `Stopping early after ${consecutiveErrors} consecutive player points errors. ITF is probably blocking breakdown API calls.`;
+        console.log(stopReason);
+        break;
+      }
+
       if (pauseMs > 0) await page.waitForTimeout(pauseMs);
     }
   } finally {
-    await browser.close();
+    if (browser) await browser.close();
   }
 
   const successRate = players.length ? successCount / players.length : 0;
   await writeCsv(statusFile, statusRows);
+
+  if (stopReason) {
+    throw new Error(stopReason);
+  }
 
   if (successRate < minSuccessRate) {
     throw new Error(

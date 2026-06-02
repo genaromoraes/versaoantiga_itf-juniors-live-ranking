@@ -51,15 +51,19 @@ jobs:
         env:
           RANKING_LIMIT: "1000"
 
+      - name: Scrape weekly tournament results
+        run: npm run scrape:weekly
+
       - name: Scrape ITF player points breakdowns
         run: xvfb-run -a npm run scrape:points
         env:
           POINTS_HEADLESS: "false"
           POINTS_PAUSE_MS: "250"
           POINTS_MIN_SUCCESS_RATE: "0.9"
-
-      - name: Scrape weekly tournament results
-        run: npm run scrape:weekly
+          POINTS_SCOPE: "ranked-and-weekly"
+          POINTS_RANK_LIMIT: "1000"
+          POINTS_MAX_CONSECUTIVE_ERRORS: "25"
+          POINTS_BROWSER_RECYCLE_EVERY: "10"
 
       - name: Generate latest data
         run: npm run build:data
