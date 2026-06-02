@@ -22,6 +22,7 @@ const scope = String(process.env.POINTS_SCOPE || "ranked-and-weekly").trim().toL
 const rankLimit = Number(process.env.POINTS_RANK_LIMIT || 1000);
 const maxConsecutiveErrors = Number(process.env.POINTS_MAX_CONSECUTIVE_ERRORS || 25);
 const minSuccessRate = Number(process.env.POINTS_MIN_SUCCESS_RATE || 0.9);
+const allowPartial = process.env.POINTS_ALLOW_PARTIAL === "true";
 const headed = process.env.POINTS_HEADLESS === "false";
 const pauseMs = Number(process.env.POINTS_PAUSE_MS || 250);
 const browserRecycleEvery = Number(process.env.POINTS_BROWSER_RECYCLE_EVERY || 10);
@@ -242,6 +243,10 @@ async function writeCsv(file, rows) {
   await fs.writeFile(file, text, "utf8");
 }
 
+function csvObjectsToRows(rows = []) {
+  return rows.map((row) => headers.map((header) => row[header] || ""));
+}
+
 async function weeklyPlayerIds() {
   const rows = await readCsvRows(weeklyResultsFile);
   return new Set(rows.map((row) => row.player_id).filter(Boolean));
@@ -252,9 +257,13 @@ async function selectTargetPlayers(allPlayers) {
     return allPlayers.filter((player) => player.id === playerIdFilter || playerNumericId(player) === playerIdFilter);
   }
 
+  const weeklyIds = await weeklyPlayerIds();
+  if (scope === "weekly") {
+    return allPlayers.filter((player) => weeklyIds.has(player.id));
+  }
+
   if (scope === "all") return allPlayers;
 
-  const weeklyIds = await weeklyPlayerIds();
   return allPlayers.filter((player) => {
     const rank = Number(player.currentRank || 0);
     return (rank > 0 && rank <= rankLimit) || weeklyIds.has(player.id);
@@ -265,11 +274,12 @@ async function main() {
   const allPlayers = JSON.parse(await fs.readFile(playersFile, "utf8"));
   const selectedPlayers = await selectTargetPlayers(allPlayers);
   const players = (limit > 0 ? selectedPlayers.slice(0, limit) : selectedPlayers).filter(playerNumericId);
-  const csvRows = [headers];
+  const scrapedRows = [];
   const statusRows = [["player_id", "player_name", "gender", "current_rank", "status", "rows", "error"]];
   let successCount = 0;
   let consecutiveErrors = 0;
   let stopReason = "";
+  const refreshedIds = new Set();
 
   console.log(
     `Player points target: ${players.length}/${allPlayers.length} players (scope=${scope}, rankLimit=${rankLimit}, limit=${limit || "none"})`
@@ -300,9 +310,10 @@ async function main() {
       try {
         const payload = await fetchPlayerPoints(page, numericId);
         const rows = rowsFromPayload(player, payload);
-        csvRows.push(...rows);
+        scrapedRows.push(...rows);
         statusRows.push([player.id, player.name, player.gender, player.currentRank || "", "OK", String(rows.length), ""]);
         successCount += 1;
+        refreshedIds.add(player.id);
         consecutiveErrors = 0;
       } catch (error) {
         statusRows.push([player.id, player.name, player.gender, player.currentRank || "", "ERROR", "0", error.message]);
@@ -328,20 +339,33 @@ async function main() {
   const successRate = players.length ? successCount / players.length : 0;
   await writeCsv(statusFile, statusRows);
 
-  if (stopReason) {
-    throw new Error(stopReason);
-  }
-
-  if (successRate < minSuccessRate) {
+  if ((stopReason || successRate < minSuccessRate) && !allowPartial) {
     throw new Error(
-      `Only ${successCount}/${players.length} player point breakdowns succeeded (${(successRate * 100).toFixed(
-        1
-      )}%). Keeping previous ${path.relative(rootDir, pointsCsvFile)}.`
+      stopReason ||
+        `Only ${successCount}/${players.length} player point breakdowns succeeded (${(successRate * 100).toFixed(
+          1
+        )}%). Keeping previous ${path.relative(rootDir, pointsCsvFile)}.`
     );
   }
 
+  if (stopReason || successRate < minSuccessRate) {
+    console.log(
+      `Continuing with partial player points scrape: ${successCount}/${players.length} succeeded (${(successRate * 100).toFixed(
+        1
+      )}%).`
+    );
+  }
+
+  const shouldMergeExisting = scope !== "all" || limit > 0 || Boolean(playerIdFilter);
+  const existingRows = shouldMergeExisting
+    ? (await readCsvRows(pointsCsvFile)).filter((row) => !refreshedIds.has(row.player_id))
+    : [];
+  const csvRows = [headers, ...csvObjectsToRows(existingRows), ...scrapedRows];
+
   await writeCsv(pointsCsvFile, csvRows);
-  console.log(`Wrote ${path.relative(rootDir, pointsCsvFile)} with ${csvRows.length - 1} rows.`);
+  console.log(
+    `Wrote ${path.relative(rootDir, pointsCsvFile)} with ${csvRows.length - 1} rows (${scrapedRows.length} refreshed, ${existingRows.length} preserved).`
+  );
 }
 
 await main();

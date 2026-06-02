@@ -458,7 +458,7 @@ function normalizeComputedPlayer(player) {
     : null;
   const liveSingles = weeklySinglesResult ? [...liveBaseSingles, weeklySinglesResult] : liveBaseSingles;
   const liveDoubles = weeklyDoublesResult ? [...liveBaseDoubles, weeklyDoublesResult] : liveBaseDoubles;
-  const fallbackPoints = Number(player.sourceTotalCombinedPoints ?? player.officialPoints ?? 0);
+  const fallbackPoints = Number(player.officialPoints ?? player.sourceTotalCombinedPoints ?? 0);
   const hasDetailedResults = singles.length + doubles.length > 0;
   const liveCountedSingles = bestSixResults(liveSingles);
   const liveCountedDoubles = bestSixResults(liveDoubles, 0.25);
@@ -466,11 +466,12 @@ function normalizeComputedPlayer(player) {
     ...liveCountedSingles.filter((item) => item.isWeeklyResult),
     ...liveCountedDoubles.filter((item) => item.isWeeklyResult)
   ];
-  const livePoints = hasDetailedResults
+  const detailedLivePoints = hasDetailedResults
     ? Math.max(0, sumBestSix(liveSingles) + sumBestSix(liveDoubles, 0.25))
     : Math.max(0, fallbackPoints);
-  const enteringPoints = Math.max(0, livePoints - liveBasePoints);
-  const pointsDelta = enteringPoints - defendingPoints;
+  const enteringPoints = hasDetailedResults ? Math.max(0, detailedLivePoints - liveBasePoints) : 0;
+  const livePoints = Math.max(0, fallbackPoints + enteringPoints);
+  const pointsDelta = livePoints - fallbackPoints;
   const pointsFlow = {
     dropping: defending,
     entering: [
