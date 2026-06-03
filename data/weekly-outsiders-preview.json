@@ -1,8 +1,8 @@
 {
-  "scrapedAt": "03/06/2026, 13:30",
-  "outsidersFound": 1152,
+  "scrapedAt": "03/06/2026, 16:16",
+  "outsidersFound": 1153,
   "boysOutsiders": 614,
-  "girlsOutsiders": 538,
+  "girlsOutsiders": 539,
   "outsiders": [
     {
       "player_itf_id": "800643460",
@@ -1160,7 +1160,7 @@
       "player_itf_id": "800733134",
       "player_name": "Brice Vincent Baisa",
       "gender": "Boys",
-      "country": "PHI",
+      "country": "USA",
       "junior_rank": "",
       "entry_groups": "Q",
       "tournaments": "J60 Champaign",
@@ -9341,6 +9341,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800709933",
+      "player_name": "Giulia Luchetti",
+      "gender": "Girls",
+      "country": "ITA",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800815293",
       "player_name": "Giuliana Alvarado Solis",
       "gender": "Girls",
@@ -11614,7 +11626,7 @@
       "gender": "Girls",
       "country": "CZE",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Marianske Lazne",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",

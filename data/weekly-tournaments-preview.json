@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "03/06/2026, 13:30",
+  "scrapedAt": "03/06/2026, 16:16",
   "calendarStartDate": "2026-06",
   "weekStartDate": "2026-06-01",
   "tournaments": [
@@ -15,7 +15,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -165,19 +165,19 @@
           "itfPlayerId": "800677732",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 1183558508
+            "matchId": 1183558512
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 2124508730
+            "matchId": 2124508737
           }
         },
         {
@@ -192,10 +192,10 @@
           "juniorRank": 2,
           "itfPlayerId": "800564683",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "2-6 4-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 1183558421
           },
@@ -221,11 +221,11 @@
           "itfPlayerId": "800570117",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 1183558419
+            "matchId": 1183558424
           },
           "drawResultDoubles": {
             "status": "Ativo",
@@ -249,19 +249,19 @@
           "itfPlayerId": "800680259",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 1183558414
+            "matchId": 1183558422
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 2124508697
+            "matchId": 2124508705
           }
         },
         {
@@ -277,19 +277,19 @@
           "itfPlayerId": "800655335",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 1183558506
+            "matchId": 1183558511
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 2124508728
+            "matchId": 2124508736
           }
         },
         {
@@ -305,19 +305,19 @@
           "itfPlayerId": "800579895",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 1183558420
+            "matchId": 1183558425
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 2124508697
+            "matchId": 2124508705
           }
         },
         {
@@ -333,19 +333,19 @@
           "itfPlayerId": "800661515",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 1183558503
+            "matchId": 1183558510
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 2124508732
+            "matchId": 2124508738
           }
         },
         {
@@ -361,11 +361,11 @@
           "itfPlayerId": "800657117",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 1183558418
+            "matchId": 1183558424
           },
           "drawResultDoubles": {
             "status": "Ativo",
@@ -389,11 +389,11 @@
           "itfPlayerId": "800692786",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 1183558416
+            "matchId": 1183558423
           },
           "drawResultDoubles": {
             "status": "Ativo",
@@ -417,11 +417,11 @@
           "itfPlayerId": "800589798",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 1183558415
+            "matchId": 1183558422
           },
           "drawResultDoubles": {
             "status": "Ativo",
@@ -444,10 +444,10 @@
           "juniorRank": 8,
           "itfPlayerId": "800543488",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "6-3 6-7(3) 5-7",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 1183558417
           },
@@ -480,10 +480,10 @@
             "matchId": 1183558411
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "6-2 3-6 4-10",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 2124508703
           }
@@ -500,10 +500,10 @@
           "juniorRank": 9,
           "itfPlayerId": "800695060",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "6-2 2-6 4-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 1183558504
           },
@@ -564,10 +564,10 @@
             "matchId": 1183558370
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "4-6 5-7",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 2124508702
           }
@@ -584,18 +584,18 @@
           "juniorRank": 13,
           "itfPlayerId": "800659876",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "1-6 1-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 1183558502
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "2-6 6-7(2)",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 2124508734
           }
@@ -613,19 +613,19 @@
           "itfPlayerId": "800598140",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 1183558507
+            "matchId": 1183558512
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 2124508733
+            "matchId": 2124508738
           }
         },
         {
@@ -641,11 +641,11 @@
           "itfPlayerId": "800732018",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 1183558421
+            "matchId": 1183558425
           },
           "drawResultDoubles": {
             "status": "Eliminado",
@@ -677,11 +677,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 2124508698
+            "matchId": 2124508705
           }
         },
         {
@@ -697,11 +697,11 @@
           "itfPlayerId": "800672253",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 1183558504
+            "matchId": 1183558510
           },
           "drawResultDoubles": {
             "status": "Ativo",
@@ -829,20 +829,20 @@
           "juniorRank": 18,
           "itfPlayerId": "800656554",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "5-7 0-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 1183558507
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 2124508728
+            "matchId": 2124508736
           }
         },
         {
@@ -857,18 +857,18 @@
           "juniorRank": 19,
           "itfPlayerId": "800601474",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "6-7(6) 4-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 1183558501
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "1-6 1-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 2124508732
           }
@@ -885,20 +885,21 @@
           "juniorRank": 19,
           "itfPlayerId": "800600773",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "4-6 4-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 1183558414
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
+            "currentRound": "SF",
+            "pointsOverride": 0,
+            "confidence": "itf-api-bye",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 2124508703
+            "matchId": 2124508708
           }
         },
         {
@@ -913,10 +914,10 @@
           "juniorRank": 20,
           "itfPlayerId": "800644962",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "3-6 6-7(8)",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 1183558505
           },
@@ -950,11 +951,12 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
+            "currentRound": "SF",
+            "pointsOverride": 0,
+            "confidence": "itf-api-bye",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 2124508703
+            "matchId": 2124508708
           }
         },
         {
@@ -997,20 +999,20 @@
           "juniorRank": 21,
           "itfPlayerId": "800597355",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "0-6 6-7(2)",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 1183558415
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 2124508702
+            "matchId": 2124508707
           }
         },
         {
@@ -1025,10 +1027,10 @@
           "juniorRank": 22,
           "itfPlayerId": "800571129",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "6-4 0-6 2-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 1183558419
           },
@@ -1090,11 +1092,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 2124508731
+            "matchId": 2124508737
           }
         },
         {
@@ -1146,11 +1148,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 2124508733
+            "matchId": 2124508738
           }
         },
         {
@@ -1165,18 +1167,18 @@
           "juniorRank": 25,
           "itfPlayerId": "800573038",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "5-7 2-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 1183558416
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "3-6 3-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 2124508697
           }
@@ -1201,10 +1203,10 @@
             "matchId": 1183558492
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "2-6 6-7(5)",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 2124508733
           }
@@ -1326,20 +1328,20 @@
           "juniorRank": 28,
           "itfPlayerId": "800721825",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "6-3 4-6 4-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 1183558503
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 2124508731
+            "matchId": 2124508737
           }
         },
         {
@@ -1391,11 +1393,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 2124508729
+            "matchId": 2124508736
           }
         },
         {
@@ -1446,10 +1448,10 @@
             "matchId": 1183558490
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "1-6 1-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 2124508732
           }
@@ -1503,11 +1505,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 2124508729
+            "matchId": 2124508736
           }
         },
         {
@@ -1530,10 +1532,10 @@
             "matchId": 1183558378
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "6-2 5-7 2-10",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 2124508701
           }
@@ -1643,11 +1645,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 2124508730
+            "matchId": 2124508737
           }
         },
         {
@@ -1774,10 +1776,10 @@
           "juniorRank": 37,
           "itfPlayerId": "800638346",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "3-6 6-0 3-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 1183558506
           },
@@ -1839,11 +1841,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 2124508702
+            "matchId": 2124508707
           }
         },
         {
@@ -1858,10 +1860,10 @@
           "juniorRank": 38,
           "itfPlayerId": "800636281",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "5-7 7-6(5) 5-7",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 1183558508
           },
@@ -1978,10 +1980,10 @@
             "matchId": 1183558463
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "3-6 4-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 2124508731
           }
@@ -2062,10 +2064,10 @@
             "matchId": 1183558406
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "2-6 4-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 2124508698
           }
@@ -2139,19 +2141,20 @@
           "itfPlayerId": "800586389",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 1183558505
+            "matchId": 1183558511
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
+            "currentRound": "SF",
+            "pointsOverride": 0,
+            "confidence": "itf-api-bye",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 2124508734
+            "matchId": 2124508739
           }
         },
         {
@@ -2280,11 +2283,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 2124508698
+            "matchId": 2124508705
           }
         },
         {
@@ -2307,10 +2310,10 @@
             "matchId": 1183558468
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "2-6 6-7(2)",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 2124508734
           }
@@ -2335,10 +2338,10 @@
             "matchId": 1183558372
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "4-6 5-7",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 2124508702
           }
@@ -2363,10 +2366,10 @@
             "matchId": 1183558368
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "2-6 4-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 2124508698
           }
@@ -2392,11 +2395,12 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
+            "currentRound": "SF",
+            "pointsOverride": 0,
+            "confidence": "itf-api-bye",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 2124508734
+            "matchId": 2124508739
           }
         },
         {
@@ -2419,10 +2423,10 @@
             "matchId": 1183558457
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "2-6 6-3 8-10",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 2124508730
           }
@@ -2496,10 +2500,10 @@
             "matchId": 1183558500
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "3-6 4-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 2124508731
           }
@@ -2567,11 +2571,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 2124508701
+            "matchId": 2124508707
           }
         },
         {
@@ -2614,18 +2618,18 @@
           "juniorRank": 53,
           "itfPlayerId": "800654119",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "3-6 2-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 1183558420
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "6-2 3-6 4-10",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 2124508703
           }
@@ -2748,10 +2752,10 @@
             "matchId": 1183558439
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "3-6 3-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 2124508697
           }
@@ -2832,10 +2836,10 @@
             "matchId": 1183558383
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "6-2 5-7 2-10",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 2124508701
           }
@@ -2861,11 +2865,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 2124508701
+            "matchId": 2124508707
           }
         },
         {
@@ -2888,10 +2892,10 @@
             "matchId": 1183558486
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "4-6 3-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 2124508729
           }
@@ -3133,10 +3137,10 @@
             "matchId": 1183558530
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "2-6 6-7(5)",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 2124508733
           }
@@ -3154,11 +3158,11 @@
           "itfPlayerId": "800676504",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 1183558417
+            "matchId": 1183558423
           },
           "drawResultDoubles": {
             "status": "Ativo",
@@ -3189,10 +3193,10 @@
             "matchId": 1183558536
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "2-6 6-3 8-10",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 2124508730
           }
@@ -3315,10 +3319,10 @@
             "matchId": 1183558531
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "4-6 3-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 2124508729
           }
@@ -3449,11 +3453,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 2124508732
+            "matchId": 2124508738
           }
         },
         {
@@ -3602,17 +3606,17 @@
           "itfPlayerId": "800677532",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-            "matchId": 1183558501
+            "matchId": 1183558509
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "3-6 2-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 2124508728
           }
@@ -3714,10 +3718,10 @@
             "matchId": 1183558458
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "3-6 2-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 2124508728
           }
@@ -3804,10 +3808,10 @@
           "juniorRank": 84,
           "itfPlayerId": "800651243",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "1-6 1-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
             "matchId": 1183558418
           },
@@ -4687,7 +4691,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -6301,7 +6305,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -7725,7 +7729,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-bastad/swe/2026/j-j60-swe-2026-003/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-bastad/swe/2026/j-j60-swe-2026-003/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -10137,7 +10141,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -11504,7 +11508,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-edmonton/can/2026/j-j60-can-2026-007/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-edmonton/can/2026/j-j60-can-2026-007/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -12055,7 +12059,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -13781,7 +13785,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -13938,9 +13942,8 @@
           "itfPlayerId": "800715176",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "SF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "QF",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 1183560297
@@ -13960,9 +13963,8 @@
           "itfPlayerId": "800657148",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "SF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "QF",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 1183560300
@@ -14016,10 +14018,10 @@
           "juniorRank": 393,
           "itfPlayerId": "800655598",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "0-6 6-4 5-7",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 1183560303
           },
@@ -14044,10 +14046,10 @@
           "juniorRank": 421,
           "itfPlayerId": "800716262",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "3-6 6-4 4-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 1183560243
           },
@@ -14073,9 +14075,8 @@
           "itfPlayerId": "800642824",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "SF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "QF",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 1183560237
@@ -14158,11 +14159,11 @@
           "itfPlayerId": "800643051",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 1183560302
+            "matchId": 1183560297
           },
           "drawResultDoubles": {
             "status": "Eliminado",
@@ -14242,9 +14243,8 @@
           "itfPlayerId": "800684702",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "SF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "QF",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 1183560236
@@ -14298,10 +14298,10 @@
           "juniorRank": 584,
           "itfPlayerId": "800652888",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "4-6 6-4 4-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 1183560302
           },
@@ -14327,9 +14327,8 @@
           "itfPlayerId": "800759123",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "SF",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "QF",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 1183560298
@@ -14384,11 +14383,11 @@
           "itfPlayerId": "800655784",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 1183560307
+            "matchId": 1183560300
           },
           "drawResultDoubles": {
             "status": "Ativo",
@@ -14411,10 +14410,10 @@
           "juniorRank": 726,
           "itfPlayerId": "800720228",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "7-6(2) 2-6 1-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 1183560244
           },
@@ -14601,11 +14600,11 @@
           "itfPlayerId": "800739751",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 1183560303
+            "matchId": 1183560298
           },
           "drawResultDoubles": {
             "status": "Eliminado",
@@ -14629,11 +14628,11 @@
           "itfPlayerId": "800732694",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
+            "currentRound": "QF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-            "matchId": 1183560244
+            "matchId": 1183560237
           },
           "drawResultDoubles": {
             "status": "Ativo",
@@ -14684,10 +14683,10 @@
           "juniorRank": 997,
           "itfPlayerId": "800707780",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R16",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "6-2 1-6 3-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
             "matchId": 1183560307
           },
@@ -16402,7 +16401,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-champaign/usa/2026/j-j60-usa-2026-003/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-champaign/usa/2026/j-j60-usa-2026-003/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -16631,7 +16630,7 @@
           "playerItfId": "800733134",
           "playerName": "Brice Vincent Baisa",
           "gender": "Boys",
-          "country": "PHI",
+          "country": "USA",
           "juniorRank": "",
           "entryGroup": "Q",
           "tournamentName": "J60 Champaign",
@@ -16809,7 +16808,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -17471,6 +17470,18 @@
           "notes": "Encontrado no drawsheet da ITF."
         },
         {
+          "playerItfId": "800709933",
+          "playerName": "Giulia Luchetti",
+          "gender": "Girls",
+          "country": "ITA",
+          "juniorRank": "",
+          "entryGroup": "MD",
+          "tournamentName": "J30 Marianske Lazne",
+          "sourceUrl": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+          "drawsUrl": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+          "notes": "Encontrado no drawsheet da ITF."
+        },
+        {
           "playerItfId": "800720598",
           "playerName": "Iosef Ureche",
           "gender": "Boys",
@@ -17812,7 +17823,7 @@
           "gender": "Girls",
           "country": "CZE",
           "juniorRank": "",
-          "entryGroup": "Q",
+          "entryGroup": "MD",
           "tournamentName": "J30 Marianske Lazne",
           "sourceUrl": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
           "drawsUrl": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
@@ -18132,7 +18143,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-sukoharjo/ina/2026/j-j30-ina-2026-002/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-sukoharjo/ina/2026/j-j30-ina-2026-002/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -19501,7 +19512,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -21328,10 +21339,10 @@
       "country": "Sri Lanka",
       "surface": "Clay",
       "key": "J-J30-SRI-2026-005",
-      "tournamentId": "1100203542",
+      "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-colombo/sri/2026/j-j30-sri-2026-005/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-colombo/sri/2026/j-j30-sri-2026-005/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -22475,7 +22486,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-yerevan/arm/2026/j-j30-arm-2026-004/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-yerevan/arm/2026/j-j30-arm-2026-004/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -23636,7 +23647,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-kampala/uga/2026/j-j30-uga-2026-002/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-kampala/uga/2026/j-j30-uga-2026-002/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -24440,7 +24451,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -25051,7 +25062,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-baku/aze/2026/j-j60-aze-2026-001/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-baku/aze/2026/j-j60-aze-2026-001/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -26097,7 +26108,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-abuja/ngr/2026/j-j30-ngr-2026-003/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-abuja/ngr/2026/j-j30-ngr-2026-003/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -26227,11 +26238,11 @@
           "drawResult": null,
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
+            "currentRound": "SF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-abuja/ngr/2026/j-j30-ngr-2026-003/draws-and-results/",
-            "matchId": 2124510708
+            "matchId": 2124510704
           }
         },
         {
@@ -26248,11 +26259,11 @@
           "drawResult": null,
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "QF",
+            "currentRound": "SF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-abuja/ngr/2026/j-j30-ngr-2026-003/draws-and-results/",
-            "matchId": 2124510705
+            "matchId": 2124510703
           }
         }
       ],
@@ -26823,7 +26834,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-bizerte/tun/2026/j-j30-tun-2026-002/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-bizerte/tun/2026/j-j30-tun-2026-002/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -27320,7 +27331,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -29066,7 +29077,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-gdansk/pol/2026/j-j60-pol-2026-004/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-gdansk/pol/2026/j-j60-pol-2026-004/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -29344,11 +29355,11 @@
           "itfPlayerId": "800675149",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R64",
+            "currentRound": "R32",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-gdansk/pol/2026/j-j60-pol-2026-004/draws-and-results/",
-            "matchId": 1183563210
+            "matchId": 1183563196
           },
           "drawResultDoubles": {
             "status": "Ativo",
@@ -29372,11 +29383,11 @@
           "itfPlayerId": "800645550",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R64",
+            "currentRound": "R32",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-gdansk/pol/2026/j-j60-pol-2026-004/draws-and-results/",
-            "matchId": 1183563207
+            "matchId": 1183563195
           },
           "drawResultDoubles": {
             "status": "Ativo",
@@ -29535,11 +29546,11 @@
           "itfPlayerId": "800748367",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R64",
+            "currentRound": "R32",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-gdansk/pol/2026/j-j60-pol-2026-004/draws-and-results/",
-            "matchId": 1183563265
+            "matchId": 1183563253
           },
           "drawResultDoubles": null
         },
@@ -29727,7 +29738,7 @@
             "status": "Eliminado",
             "currentRound": "R64",
             "confidence": "itf-api-loss",
-            "score": "4-6 3-4",
+            "score": "1-6 3-4",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-gdansk/pol/2026/j-j60-pol-2026-004/draws-and-results/",
             "matchId": 1183563266
           },
@@ -29780,10 +29791,10 @@
           "juniorRank": "",
           "itfPlayerId": "800709900",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "4-6 2-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-gdansk/pol/2026/j-j60-pol-2026-004/draws-and-results/",
             "matchId": 1183563205
           },
@@ -29871,10 +29882,10 @@
           "juniorRank": "",
           "itfPlayerId": "800703513",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "R64",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "3-6 6-2 2-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-gdansk/pol/2026/j-j60-pol-2026-004/draws-and-results/",
             "matchId": 1183563265
           },
@@ -29928,9 +29939,8 @@
           "itfPlayerId": "800662745",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "R16",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "R32",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-gdansk/pol/2026/j-j60-pol-2026-004/draws-and-results/",
             "matchId": 1183563256
@@ -30911,10 +30921,10 @@
       "country": "Japan",
       "surface": "Hard",
       "key": "J-J60-JPN-2026-002",
-      "tournamentId": "1100203050",
+      "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
-      "fallbackUsed": true,
+      "fallbackUsed": false,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
