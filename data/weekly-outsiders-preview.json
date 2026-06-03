@@ -1,8 +1,8 @@
 {
-  "scrapedAt": "02/06/2026, 19:39",
-  "outsidersFound": 1033,
-  "boysOutsiders": 555,
-  "girlsOutsiders": 478,
+  "scrapedAt": "03/06/2026, 13:30",
+  "outsidersFound": 1152,
+  "boysOutsiders": 614,
+  "girlsOutsiders": 538,
   "outsiders": [
     {
       "player_itf_id": "800643460",
@@ -125,6 +125,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800715404",
+      "player_name": "Adam Stepanek",
+      "gender": "Boys",
+      "country": "CZE",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800719726",
       "player_name": "Adam Svardfeldt",
       "gender": "Boys",
@@ -134,6 +146,18 @@
       "tournaments": "J60 Bastad",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-bastad/swe/2026/j-j60-swe-2026-003/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-bastad/swe/2026/j-j60-swe-2026-003/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800647838",
+      "player_name": "Adrian Boehme",
+      "gender": "Boys",
+      "country": "GER",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -250,7 +274,7 @@
       "gender": "Boys",
       "country": "POL",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Gdansk",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-gdansk/pol/2026/j-j60-pol-2026-004/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-gdansk/pol/2026/j-j60-pol-2026-004/draws-and-results/",
@@ -377,6 +401,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800636080",
+      "player_name": "Allen Leong",
+      "gender": "Boys",
+      "country": "SGP",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800819740",
       "player_name": "Amir Mohammed",
       "gender": "Boys",
@@ -485,6 +521,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800821870",
+      "player_name": "Andy Venning",
+      "gender": "Boys",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800863912",
       "player_name": "Angus Adelaar",
       "gender": "Boys",
@@ -550,7 +598,7 @@
       "gender": "Boys",
       "country": "POL",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Gdansk",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-gdansk/pol/2026/j-j60-pol-2026-004/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-gdansk/pol/2026/j-j60-pol-2026-004/draws-and-results/",
@@ -665,6 +713,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800834383",
+      "player_name": "Arrush Gaikwad",
+      "gender": "Boys",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800762652",
       "player_name": "Arsh Kathuria",
       "gender": "Boys",
@@ -746,6 +806,18 @@
       "tournaments": "J30 Yerevan",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-yerevan/arm/2026/j-j30-arm-2026-004/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-yerevan/arm/2026/j-j30-arm-2026-004/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800785468",
+      "player_name": "Asahi Yamazaki",
+      "gender": "Boys",
+      "country": "JPN",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -886,7 +958,7 @@
       "gender": "Boys",
       "country": "GER",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Marianske Lazne",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
@@ -989,6 +1061,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800648111",
+      "player_name": "Bobbi Platenburg",
+      "gender": "Boys",
+      "country": "NED",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800844501",
       "player_name": "Boris Rusev",
       "gender": "Boys",
@@ -1054,7 +1138,7 @@
       "gender": "Boys",
       "country": "SGP",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Darwin",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
@@ -1114,10 +1198,22 @@
       "gender": "Boys",
       "country": "CZE",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Marianske Lazne",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800818445",
+      "player_name": "Brydan Mcleod",
+      "gender": "Boys",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -1145,12 +1241,24 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800717822",
+      "player_name": "Chan Myung Seo",
+      "gender": "Boys",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800692066",
       "player_name": "Chang Hyun Lee",
       "gender": "Boys",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -1162,7 +1270,7 @@
       "gender": "Boys",
       "country": "CHN",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Chengdu",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
@@ -1202,6 +1310,18 @@
       "tournaments": "J60 Pretoria",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800789672",
+      "player_name": "Christopher Manton",
+      "gender": "Boys",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -1378,7 +1498,7 @@
       "gender": "Boys",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -1394,6 +1514,18 @@
       "tournaments": "J60 Edmonton",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-edmonton/can/2026/j-j60-can-2026-007/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-edmonton/can/2026/j-j60-can-2026-007/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800674819",
+      "player_name": "Daniel Soukup",
+      "gender": "Boys",
+      "country": "CZE",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -1546,7 +1678,7 @@
       "gender": "Boys",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -1562,6 +1694,42 @@
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800652481",
+      "player_name": "dongyun kim",
+      "gender": "Boys",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800646383",
+      "player_name": "Dongyun Oh",
+      "gender": "Boys",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800798506",
+      "player_name": "Doug Sheppard",
+      "gender": "Boys",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -1586,6 +1754,18 @@
       "tournaments": "J60 Champaign",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-champaign/usa/2026/j-j60-usa-2026-003/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-champaign/usa/2026/j-j60-usa-2026-003/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800821898",
+      "player_name": "Easeo Kim",
+      "gender": "Boys",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -1798,7 +1978,7 @@
       "gender": "Boys",
       "country": "AUS",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Darwin",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
@@ -1822,7 +2002,7 @@
       "gender": "Boys",
       "country": "USA",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Chengdu",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
@@ -1834,10 +2014,22 @@
       "gender": "Boys",
       "country": "POL",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Marianske Lazne",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800687226",
+      "player_name": "Eunho Park",
+      "gender": "Boys",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -1898,6 +2090,18 @@
       "tournaments": "J30 Marianske Lazne",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800760609",
+      "player_name": "Fanyu Zhao",
+      "gender": "Boys",
+      "country": "CHN",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Chengdu",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -1970,6 +2174,18 @@
       "tournaments": "Roland Garros Junior Championships",
       "source_urls": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800699642",
+      "player_name": "Filip Sebek",
+      "gender": "Boys",
+      "country": "CZE",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -2093,6 +2309,30 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800665731",
+      "player_name": "geonha roh",
+      "gender": "Boys",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800746850",
+      "player_name": "GEONHO KIM",
+      "gender": "Boys",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800659857",
       "player_name": "George Glavas",
       "gender": "Boys",
@@ -2189,6 +2429,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800687499",
+      "player_name": "Gun Song",
+      "gender": "Boys",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800680491",
       "player_name": "Gurneil Singh",
       "gender": "Boys",
@@ -2237,12 +2489,24 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800786293",
+      "player_name": "Gwan Woo Lee",
+      "gender": "Boys",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800674700",
       "player_name": "Gwanmu Kim",
       "gender": "Boys",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -2254,7 +2518,7 @@
       "gender": "Boys",
       "country": "CHN",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Chengdu",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
@@ -2266,7 +2530,19 @@
       "gender": "Boys",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800667956",
+      "player_name": "Harang Seol",
+      "gender": "Boys",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -2345,6 +2621,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800732084",
+      "player_name": "Hengzhou Wang",
+      "gender": "Boys",
+      "country": "CHN",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Chengdu",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800714720",
       "player_name": "Henri Geiger",
       "gender": "Boys",
@@ -2369,12 +2657,24 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800778730",
+      "player_name": "Heran Zhang",
+      "gender": "Boys",
+      "country": "CHN",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Chengdu",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800848053",
       "player_name": "Honosuke Ishibe",
       "gender": "Boys",
       "country": "JPN",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Miki City",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
@@ -2482,7 +2782,7 @@
       "gender": "Boys",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -2621,6 +2921,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800858970",
+      "player_name": "Jack Smith",
+      "gender": "Boys",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800746047",
       "player_name": "Jack Zhong",
       "gender": "Boys",
@@ -2722,7 +3034,7 @@
       "gender": "Boys",
       "country": "CZE",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Marianske Lazne",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
@@ -2746,10 +3058,22 @@
       "gender": "Boys",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800704618",
+      "player_name": "Jannek Ettinger",
+      "gender": "Boys",
+      "country": "GER",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -2813,6 +3137,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800679990",
+      "player_name": "Ji Hun Ryu",
+      "gender": "Boys",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800780331",
       "player_name": "Jiawei Dai",
       "gender": "Boys",
@@ -2837,6 +3173,30 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800777389",
+      "player_name": "Jiheon Ha",
+      "gender": "Boys",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800746070",
+      "player_name": "Jingxuan Zhou",
+      "gender": "Boys",
+      "country": "CHN",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Chengdu",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800780319",
       "player_name": "Jinkang Huang",
       "gender": "Boys",
@@ -2858,6 +3218,18 @@
       "tournaments": "J30 Abuja",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-abuja/ngr/2026/j-j30-ngr-2026-003/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-abuja/ngr/2026/j-j30-ngr-2026-003/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800724777",
+      "player_name": "Jinyou Yu",
+      "gender": "Boys",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -3022,7 +3394,7 @@
       "gender": "Boys",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -3034,7 +3406,7 @@
       "gender": "Boys",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -3058,7 +3430,7 @@
       "gender": "Boys",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -3070,7 +3442,7 @@
       "gender": "Boys",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -3086,6 +3458,30 @@
       "tournaments": "J60 Miki City",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800764518",
+      "player_name": "JUYOON PARK",
+      "gender": "Boys",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800800873",
+      "player_name": "Kai Coghlan",
+      "gender": "Boys",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -3173,6 +3569,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800785989",
+      "player_name": "Kingsley ZHANG",
+      "gender": "Boys",
+      "country": "HKG",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Chengdu",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800821912",
       "player_name": "Kirill Demchenko",
       "gender": "Boys",
@@ -3191,6 +3599,18 @@
       "country": "CZE",
       "junior_rank": "",
       "entry_groups": "Q",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800637092",
+      "player_name": "Kirill Korolenko",
+      "gender": "Boys",
+      "country": "RUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
       "tournaments": "J30 Marianske Lazne",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
@@ -3238,7 +3658,7 @@
       "gender": "Boys",
       "country": "AUS",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Darwin",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
@@ -3298,7 +3718,7 @@
       "gender": "Boys",
       "country": "CZE",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Marianske Lazne",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
@@ -3538,7 +3958,7 @@
       "gender": "Boys",
       "country": "GER",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Marianske Lazne",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
@@ -3665,6 +4085,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800694397",
+      "player_name": "Maksym Ivashko",
+      "gender": "Boys",
+      "country": "SVK",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800707309",
       "player_name": "Maksymilian Puchalski",
       "gender": "Boys",
@@ -3698,6 +4130,18 @@
       "tournaments": "J30 Yerevan",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-yerevan/arm/2026/j-j30-arm-2026-004/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-yerevan/arm/2026/j-j30-arm-2026-004/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800702531",
+      "player_name": "Marc Joe Sutisna",
+      "gender": "Boys",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -3766,7 +4210,7 @@
       "gender": "Boys",
       "country": "JPN",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Miki City",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
@@ -3802,7 +4246,7 @@
       "gender": "Boys",
       "country": "POL",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Gdansk",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-gdansk/pol/2026/j-j60-pol-2026-004/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-gdansk/pol/2026/j-j60-pol-2026-004/draws-and-results/",
@@ -3881,6 +4325,30 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800696102",
+      "player_name": "Matyas Perutka",
+      "gender": "Boys",
+      "country": "CZE",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800753623",
+      "player_name": "Max Edwards",
+      "gender": "Boys",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800809606",
       "player_name": "Max Johansson",
       "gender": "Boys",
@@ -3898,7 +4366,7 @@
       "gender": "Boys",
       "country": "AUT",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Marianske Lazne",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
@@ -4018,7 +4486,7 @@
       "gender": "Boys",
       "country": "POL",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Gdansk",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-gdansk/pol/2026/j-j60-pol-2026-004/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-gdansk/pol/2026/j-j60-pol-2026-004/draws-and-results/",
@@ -4066,7 +4534,7 @@
       "gender": "Boys",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -4390,7 +4858,7 @@
       "gender": "Boys",
       "country": "NZL",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Darwin",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
@@ -4546,7 +5014,7 @@
       "gender": "Boys",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -4570,7 +5038,7 @@
       "gender": "Boys",
       "country": "AUS",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Darwin",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
@@ -4622,6 +5090,18 @@
       "tournaments": "J30 Nicosia",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800781981",
+      "player_name": "Novak Palombo",
+      "gender": "Boys",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -4694,6 +5174,18 @@
       "tournaments": "J30 Abuja",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-abuja/ngr/2026/j-j30-ngr-2026-003/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-abuja/ngr/2026/j-j30-ngr-2026-003/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800713208",
+      "player_name": "Ondrej Witos",
+      "gender": "Boys",
+      "country": "CZE",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -4834,7 +5326,7 @@
       "gender": "Boys",
       "country": "CHN",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Chengdu",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
@@ -4901,6 +5393,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800805768",
+      "player_name": "Prachanda Komarla",
+      "gender": "Boys",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800730760",
       "player_name": "Puneeth Manohar",
       "gender": "Boys",
@@ -4958,6 +5462,18 @@
       "tournaments": "J30 Sukoharjo",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-sukoharjo/ina/2026/j-j30-ina-2026-002/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-sukoharjo/ina/2026/j-j30-ina-2026-002/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800849738",
+      "player_name": "Rafael Fauster",
+      "gender": "Boys",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -5146,7 +5662,7 @@
       "gender": "Boys",
       "country": "GER",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Marianske Lazne",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
@@ -5170,7 +5686,7 @@
       "gender": "Boys",
       "country": "AUS",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Darwin",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
@@ -5334,7 +5850,7 @@
     },
     {
       "player_itf_id": "800864267",
-      "player_name": "Ryuto",
+      "player_name": "Ryuto Yanagisawa",
       "gender": "Boys",
       "country": "JPN",
       "junior_rank": "",
@@ -5366,6 +5882,30 @@
       "tournaments": "J100 Guatemala",
       "source_urls": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800783497",
+      "player_name": "Sam Mitchell",
+      "gender": "Boys",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800767216",
+      "player_name": "Samarth Patel",
+      "gender": "Boys",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -5434,7 +5974,7 @@
       "gender": "Boys",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -5513,6 +6053,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800780528",
+      "player_name": "Sebastian Lavorato",
+      "gender": "Boys",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800759543",
       "player_name": "Sebastian Scott",
       "gender": "Boys",
@@ -5578,7 +6130,7 @@
       "gender": "Boys",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -5590,7 +6142,7 @@
       "gender": "Boys",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -5609,12 +6161,24 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800703554",
+      "player_name": "seungsu kim",
+      "gender": "Boys",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800801245",
       "player_name": "Seungwoo Han",
       "gender": "Boys",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -5753,6 +6317,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800737295",
+      "player_name": "Shundu Yuan",
+      "gender": "Boys",
+      "country": "CHN",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Chengdu",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800706532",
       "player_name": "Shunnosuke Takagi",
       "gender": "Boys",
@@ -5765,6 +6341,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800670910",
+      "player_name": "Simon Janousek",
+      "gender": "Boys",
+      "country": "CZE",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800598000",
       "player_name": "Simon Jurica",
       "gender": "Boys",
@@ -5774,6 +6362,18 @@
       "tournaments": "J60 Miki City",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800761201",
+      "player_name": "siwon lee",
+      "gender": "Boys",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -5818,7 +6418,7 @@
       "gender": "Boys",
       "country": "AUS",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Darwin",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
@@ -5834,6 +6434,18 @@
       "tournaments": "J30 Colombo",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-colombo/sri/2026/j-j30-sri-2026-005/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-colombo/sri/2026/j-j30-sri-2026-005/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800667350",
+      "player_name": "tae jun heo",
+      "gender": "Boys",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -5858,6 +6470,18 @@
       "tournaments": "J60 Miki City",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800661873",
+      "player_name": "Takuto Matsuo",
+      "gender": "Boys",
+      "country": "HKG",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Chengdu",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -5914,7 +6538,7 @@
       "gender": "Boys",
       "country": "JPN",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Miki City",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
@@ -5957,6 +6581,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800661567",
+      "player_name": "Tianhao WU",
+      "gender": "Boys",
+      "country": "CHN",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Chengdu",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800697347",
       "player_name": "Timofei Malashchenko",
       "gender": "Boys",
@@ -5978,6 +6614,18 @@
       "tournaments": "J30 Yerevan",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-yerevan/arm/2026/j-j30-arm-2026-004/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-yerevan/arm/2026/j-j30-arm-2026-004/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800680379",
+      "player_name": "Tobias Zapsky",
+      "gender": "Boys",
+      "country": "CZE",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -6010,7 +6658,7 @@
       "gender": "Boys",
       "country": "CZE",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Marianske Lazne",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
@@ -6029,6 +6677,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800735673",
+      "player_name": "Tommy Camus",
+      "gender": "Boys",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800718134",
       "player_name": "Tomohisa Shioya",
       "gender": "Boys",
@@ -6038,6 +6698,18 @@
       "tournaments": "J60 Miki City",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800793054",
+      "player_name": "Tristan Summers",
+      "gender": "Boys",
+      "country": "RSA",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -6305,12 +6977,24 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800779059",
+      "player_name": "Xander Crabb",
+      "gender": "Boys",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800817246",
       "player_name": "Xavier Gowland",
       "gender": "Boys",
       "country": "AUS",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Darwin",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
@@ -6394,7 +7078,7 @@
       "gender": "Boys",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -6418,7 +7102,7 @@
       "gender": "Boys",
       "country": "CHN",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Chengdu",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
@@ -6434,6 +7118,18 @@
       "tournaments": "J60 Baku",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-baku/aze/2026/j-j60-aze-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-baku/aze/2026/j-j60-aze-2026-001/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800755377",
+      "player_name": "Yong Ze Huang",
+      "gender": "Boys",
+      "country": "CHN",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Chengdu",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -6470,6 +7166,18 @@
       "tournaments": "J30 Sukoharjo",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-sukoharjo/ina/2026/j-j30-ina-2026-002/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-sukoharjo/ina/2026/j-j30-ina-2026-002/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800764539",
+      "player_name": "Yue Yu",
+      "gender": "Boys",
+      "country": "CHN",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Chengdu",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -6550,7 +7258,7 @@
       "gender": "Boys",
       "country": "AUS",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Darwin",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
@@ -6610,7 +7318,7 @@
       "gender": "Boys",
       "country": "CHN",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Chengdu",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
@@ -6665,6 +7373,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800650447",
+      "player_name": "A Hyun Jo",
+      "gender": "Girls",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800710476",
       "player_name": "Aahida Singh",
       "gender": "Girls",
@@ -6710,6 +7430,18 @@
       "tournaments": "J30 Colombo",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-colombo/sri/2026/j-j30-sri-2026-005/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-colombo/sri/2026/j-j30-sri-2026-005/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800678001",
+      "player_name": "Adela Jelinkova",
+      "gender": "Girls",
+      "country": "CZE",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -6934,7 +7666,7 @@
       "gender": "Girls",
       "country": "AUS",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Darwin",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
@@ -7037,6 +7769,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800655948",
+      "player_name": "ALISA SKAMAROKH",
+      "gender": "Girls",
+      "country": "POL",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800675376",
       "player_name": "Alissa Korolyova",
       "gender": "Girls",
@@ -7118,6 +7862,18 @@
       "tournaments": "J60 Edmonton",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-edmonton/can/2026/j-j60-can-2026-007/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-edmonton/can/2026/j-j60-can-2026-007/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800713377",
+      "player_name": "Amelie Tvrzska",
+      "gender": "Girls",
+      "country": "CZE",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -7282,7 +8038,7 @@
       "gender": "Girls",
       "country": "CHN",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Chengdu",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
@@ -7342,7 +8098,7 @@
       "gender": "Girls",
       "country": "AUS",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Darwin",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
@@ -7445,12 +8201,24 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800670213",
+      "player_name": "Barbora Fialova",
+      "gender": "Girls",
+      "country": "CZE",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800746656",
       "player_name": "Barbora Klusackova",
       "gender": "Girls",
       "country": "CZE",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Marianske Lazne",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
@@ -7522,7 +8290,7 @@
       "gender": "Girls",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -7534,7 +8302,7 @@
       "gender": "Girls",
       "country": "AUS",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Darwin",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
@@ -7625,6 +8393,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800754838",
+      "player_name": "Cheng Luo",
+      "gender": "Girls",
+      "country": "CHN",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Chengdu",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800746655",
       "player_name": "CHENGEN ZHAO",
       "gender": "Girls",
@@ -7642,7 +8422,7 @@
       "gender": "Girls",
       "country": "CHN",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Chengdu",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
@@ -7654,7 +8434,7 @@
       "gender": "Girls",
       "country": "CHN",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Chengdu",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
@@ -7690,7 +8470,7 @@
       "gender": "Girls",
       "country": "GER",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Marianske Lazne",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
@@ -7739,6 +8519,18 @@
       "country": "AUS",
       "junior_rank": "",
       "entry_groups": "Q",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800764441",
+      "player_name": "Claudia Shearwood",
+      "gender": "Girls",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
       "tournaments": "J60 Darwin",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
@@ -7841,6 +8633,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800814032",
+      "player_name": "Dari Duskova",
+      "gender": "Girls",
+      "country": "CZE",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800805109",
       "player_name": "Daria Vasileva",
       "gender": "Girls",
@@ -7930,7 +8734,7 @@
       "gender": "Girls",
       "country": "CZE",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Marianske Lazne",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
@@ -7982,6 +8786,18 @@
       "tournaments": "J30 Nicosia",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800833719",
+      "player_name": "Eadie Biggs",
+      "gender": "Girls",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -8062,7 +8878,7 @@
       "gender": "Girls",
       "country": "AUS",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Darwin",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
@@ -8074,7 +8890,7 @@
       "gender": "Girls",
       "country": "CZE",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Marianske Lazne",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
@@ -8141,12 +8957,24 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800677093",
+      "player_name": "Ella Nantlova",
+      "gender": "Girls",
+      "country": "CZE",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800748454",
       "player_name": "Ella Stares",
       "gender": "Girls",
       "country": "AUS",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Darwin",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
@@ -8182,7 +9010,7 @@
       "gender": "Girls",
       "country": "AUS",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Darwin",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
@@ -8213,6 +9041,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800579539",
+      "player_name": "Emma Tuominen",
+      "gender": "Girls",
+      "country": "FIN",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800844450",
       "player_name": "Emmanuella Kwange",
       "gender": "Girls",
@@ -8222,6 +9062,18 @@
       "tournaments": "J30 Abuja",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-abuja/ngr/2026/j-j30-ngr-2026-003/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-abuja/ngr/2026/j-j30-ngr-2026-003/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800720467",
+      "player_name": "Escher Case-Boag",
+      "gender": "Girls",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -8258,6 +9110,18 @@
       "tournaments": "J60 Baku",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-baku/aze/2026/j-j60-aze-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-baku/aze/2026/j-j60-aze-2026-001/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800684764",
+      "player_name": "EUNSEOL CHOI",
+      "gender": "Girls",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -8441,6 +9305,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800651387",
+      "player_name": "GINA INYOUNG CHA",
+      "gender": "Girls",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800819497",
       "player_name": "Githmi Riyana Fernando",
       "gender": "Girls",
@@ -8501,6 +9377,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800667382",
+      "player_name": "Gyuri Park",
+      "gender": "Girls",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800865327",
       "player_name": "Haasini Saravanan",
       "gender": "Girls",
@@ -8510,6 +9398,18 @@
       "tournaments": "J60 Darwin",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800725714",
+      "player_name": "HAHYUN DO",
+      "gender": "Girls",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -8530,7 +9430,7 @@
       "gender": "Girls",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -8558,6 +9458,18 @@
       "tournaments": "J60 Miki City",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800678435",
+      "player_name": "heewoo choi",
+      "gender": "Girls",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -8722,7 +9634,7 @@
       "gender": "Girls",
       "country": "AUS",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Darwin",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
@@ -8825,6 +9737,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800808984",
+      "player_name": "Isabelle Chiew",
+      "gender": "Girls",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800863986",
       "player_name": "Jackelin Garcia",
       "gender": "Girls",
@@ -8909,12 +9833,24 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800707120",
+      "player_name": "Ji Yeon Park",
+      "gender": "Girls",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800722482",
       "player_name": "ji yeong Jung",
       "gender": "Girls",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -8957,12 +9893,24 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800740089",
+      "player_name": "Jiwoo Jang",
+      "gender": "Girls",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800761390",
       "player_name": "Jiyu Park",
       "gender": "Girls",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -8974,7 +9922,7 @@
       "gender": "Girls",
       "country": "AUS",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Darwin",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
@@ -8990,6 +9938,18 @@
       "tournaments": "J30 Sukoharjo",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-sukoharjo/ina/2026/j-j30-ina-2026-002/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-sukoharjo/ina/2026/j-j30-ina-2026-002/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800791264",
+      "player_name": "Joyce Sun",
+      "gender": "Girls",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -9058,7 +10018,7 @@
       "gender": "Girls",
       "country": "POL",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Gdansk",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-gdansk/pol/2026/j-j60-pol-2026-004/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-gdansk/pol/2026/j-j60-pol-2026-004/draws-and-results/",
@@ -9178,7 +10138,7 @@
       "gender": "Girls",
       "country": "JPN",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Miki City",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
@@ -9206,6 +10166,18 @@
       "tournaments": "J60 Cholpon-Ata",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800830813",
+      "player_name": "Kira Russell",
+      "gender": "Girls",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -9274,7 +10246,7 @@
       "gender": "Girls",
       "country": "JPN",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Miki City",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
@@ -9286,7 +10258,7 @@
       "gender": "Girls",
       "country": "AUS",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Darwin",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
@@ -9314,6 +10286,30 @@
       "tournaments": "J60 Santa Cruz de la Sierra",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800790035",
+      "player_name": "Lara Wu",
+      "gender": "Girls",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800809039",
+      "player_name": "Lauren Van Der Berg",
+      "gender": "Girls",
+      "country": "CAN",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -9362,6 +10358,18 @@
       "tournaments": "J60 Gdansk",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-gdansk/pol/2026/j-j60-pol-2026-004/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-gdansk/pol/2026/j-j60-pol-2026-004/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800668373",
+      "player_name": "Liliana Michalcova",
+      "gender": "Girls",
+      "country": "CZE",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -9526,7 +10534,7 @@
       "gender": "Girls",
       "country": "POL",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Gdansk",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-gdansk/pol/2026/j-j60-pol-2026-004/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-gdansk/pol/2026/j-j60-pol-2026-004/draws-and-results/",
@@ -9538,7 +10546,7 @@
       "gender": "Girls",
       "country": "AUS",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Darwin",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
@@ -9581,12 +10589,24 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800748457",
+      "player_name": "Maddison Stares",
+      "gender": "Girls",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800826905",
       "player_name": "Maiia Salbieva",
       "gender": "Girls",
       "country": "AUS",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Darwin",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
@@ -9989,6 +11009,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800724306",
+      "player_name": "Mi Na Lee",
+      "gender": "Girls",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800694191",
       "player_name": "Mia Agustina Junghanns Dietze",
       "gender": "Girls",
@@ -10090,10 +11122,22 @@
       "gender": "Girls",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800750465",
+      "player_name": "Mingxi Qu",
+      "gender": "Girls",
+      "country": "CHN",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Chengdu",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -10114,7 +11158,7 @@
       "gender": "Girls",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -10205,6 +11249,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800659939",
+      "player_name": "Nadia Jaser",
+      "gender": "Girls",
+      "country": "CYP",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Nicosia",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800675942",
       "player_name": "Nadia Jasinska",
       "gender": "Girls",
@@ -10250,6 +11306,18 @@
       "tournaments": "J60 Miki City",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800787345",
+      "player_name": "Nahla Salley",
+      "gender": "Girls",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -10361,6 +11429,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800743146",
+      "player_name": "Natalie Irahola",
+      "gender": "Girls",
+      "country": "CZE",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800862476",
       "player_name": "Natalie Tin Yan Hui",
       "gender": "Girls",
@@ -10406,6 +11486,18 @@
       "tournaments": "J60 Edmonton",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-edmonton/can/2026/j-j60-can-2026-007/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-edmonton/can/2026/j-j60-can-2026-007/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800713154",
+      "player_name": "Nayoung Lee",
+      "gender": "Girls",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -10673,6 +11765,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800817461",
+      "player_name": "Paulina Drocco",
+      "gender": "Girls",
+      "country": "GUA",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J100 Guatemala",
+      "source_urls": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800870351",
       "player_name": "Paulina Gaviria",
       "gender": "Girls",
@@ -10694,6 +11798,18 @@
       "tournaments": "J30 Kampala",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-kampala/uga/2026/j-j30-uga-2026-002/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-kampala/uga/2026/j-j30-uga-2026-002/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800788268",
+      "player_name": "Piyushi Bandara",
+      "gender": "Girls",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -10745,6 +11861,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800632075",
+      "player_name": "Qianyu Dong",
+      "gender": "Girls",
+      "country": "CHN",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Chengdu",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800671137",
       "player_name": "Quirina Trea",
       "gender": "Girls",
@@ -10781,6 +11909,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800688331",
+      "player_name": "rae youn kim",
+      "gender": "Girls",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800680696",
       "player_name": "Rafaela Mihailescu",
       "gender": "Girls",
@@ -10810,7 +11950,7 @@
       "gender": "Girls",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -10918,7 +12058,7 @@
       "gender": "Girls",
       "country": "JPN",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Miki City",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
@@ -10946,6 +12086,18 @@
       "tournaments": "J60 Chengdu",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800647076",
+      "player_name": "Ruzena Karsnakova",
+      "gender": "Girls",
+      "country": "CZE",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -11030,6 +12182,18 @@
       "tournaments": "J30 Colombo",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-colombo/sri/2026/j-j30-sri-2026-005/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-colombo/sri/2026/j-j30-sri-2026-005/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800830004",
+      "player_name": "Samantha Sun",
+      "gender": "Girls",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -11146,7 +12310,7 @@
       "gender": "Girls",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -11158,7 +12322,7 @@
       "gender": "Girls",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -11170,7 +12334,7 @@
       "gender": "Girls",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -11218,7 +12382,7 @@
       "gender": "Girls",
       "country": "CHN",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Chengdu",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
@@ -11249,6 +12413,30 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800815707",
+      "player_name": "Shumeng Zhu",
+      "gender": "Girls",
+      "country": "CHN",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Chengdu",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800683663",
+      "player_name": "si a youm",
+      "gender": "Girls",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800867901",
       "player_name": "Sifa Salsabella",
       "gender": "Girls",
@@ -11258,6 +12446,18 @@
       "tournaments": "J30 Sukoharjo",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-sukoharjo/ina/2026/j-j30-ina-2026-002/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-sukoharjo/ina/2026/j-j30-ina-2026-002/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800664726",
+      "player_name": "Silvie Kotaracova",
+      "gender": "Girls",
+      "country": "CZE",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -11297,6 +12497,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800764962",
+      "player_name": "So Min Lee",
+      "gender": "Girls",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800678740",
       "player_name": "So Yuna",
       "gender": "Girls",
@@ -11318,6 +12530,18 @@
       "tournaments": "J30 Yerevan",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-yerevan/arm/2026/j-j30-arm-2026-004/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-yerevan/arm/2026/j-j30-arm-2026-004/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800830867",
+      "player_name": "Sofia Dvortsova",
+      "gender": "Girls",
+      "country": "USA",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J100 Guatemala",
+      "source_urls": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -11398,7 +12622,7 @@
       "gender": "Girls",
       "country": "CZE",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Marianske Lazne",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
@@ -11426,6 +12650,42 @@
       "tournaments": "J60 Baku",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-baku/aze/2026/j-j60-aze-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-baku/aze/2026/j-j60-aze-2026-001/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800739129",
+      "player_name": "Sohee Choi",
+      "gender": "Girls",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800828624",
+      "player_name": "Soo-Ah Byun",
+      "gender": "Girls",
+      "country": "USA",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800729642",
+      "player_name": "Sophia Gregg",
+      "gender": "Girls",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -11530,7 +12790,7 @@
       "gender": "Girls",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -11542,7 +12802,7 @@
       "gender": "Girls",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -11578,7 +12838,7 @@
       "gender": "Girls",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -11590,7 +12850,7 @@
       "gender": "Girls",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -11602,7 +12862,7 @@
       "gender": "Girls",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -11618,6 +12878,18 @@
       "tournaments": "J30 Yerevan",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-yerevan/arm/2026/j-j30-arm-2026-004/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-yerevan/arm/2026/j-j30-arm-2026-004/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800860434",
+      "player_name": "Talia Mirzayeva",
+      "gender": "Girls",
+      "country": "AUS",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Darwin",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -11662,7 +12934,7 @@
       "gender": "Girls",
       "country": "AUS",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Darwin",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
@@ -11717,6 +12989,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800732435",
+      "player_name": "Tereza Paleckova",
+      "gender": "Girls",
+      "country": "CZE",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800664613",
       "player_name": "THELMA CHRYSAFI",
       "gender": "Girls",
@@ -11754,7 +13038,7 @@
     },
     {
       "player_itf_id": "800864333",
-      "player_name": "Toa",
+      "player_name": "Toa Amemiya",
       "gender": "Girls",
       "country": "JPN",
       "junior_rank": "",
@@ -11933,12 +13217,48 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800595956",
+      "player_name": "Veronika Knyazeva",
+      "gender": "Girls",
+      "country": "CYP",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Nicosia",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800655510",
+      "player_name": "Veronika Koutova",
+      "gender": "Girls",
+      "country": "CZE",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800671362",
+      "player_name": "Viktorie Havlikova",
+      "gender": "Girls",
+      "country": "CZE",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800672203",
       "player_name": "Viktorie Krejcikova",
       "gender": "Girls",
       "country": "CZE",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Marianske Lazne",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
@@ -11998,7 +13318,7 @@
       "gender": "Girls",
       "country": "CHN",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Chengdu",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
@@ -12017,12 +13337,24 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800786447",
+      "player_name": "Xiaofen Liu",
+      "gender": "Girls",
+      "country": "CHN",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Chengdu",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800849079",
       "player_name": "Xumo Zhang",
       "gender": "Girls",
       "country": "CHN",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Chengdu",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
@@ -12034,7 +13366,7 @@
       "gender": "Girls",
       "country": "CHN",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Chengdu",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
@@ -12089,15 +13421,63 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800755807",
+      "player_name": "ye na Park",
+      "gender": "Girls",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800749985",
+      "player_name": "YEAHONE JEONG",
+      "gender": "Girls",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800751448",
+      "player_name": "YEONKYUNG LIM",
+      "gender": "Girls",
+      "country": "KOR",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Gimcheon",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800817711",
       "player_name": "Yeseo Lee",
       "gender": "Girls",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800750817",
+      "player_name": "Yijia Wang",
+      "gender": "Girls",
+      "country": "CHN",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Chengdu",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -12118,7 +13498,7 @@
       "gender": "Girls",
       "country": "CHN",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Chengdu",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
@@ -12178,7 +13558,7 @@
       "gender": "Girls",
       "country": "JPN",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J60 Miki City",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
@@ -12214,7 +13594,7 @@
       "gender": "Girls",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -12250,7 +13630,7 @@
       "gender": "Girls",
       "country": "KOR",
       "junior_rank": "",
-      "entry_groups": "Q",
+      "entry_groups": "MD",
       "tournaments": "J30 Gimcheon",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
@@ -12329,6 +13709,18 @@
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
+      "player_itf_id": "800793916",
+      "player_name": "Zi Qi Shang",
+      "gender": "Girls",
+      "country": "CHN",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Chengdu",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
       "player_itf_id": "800739377",
       "player_name": "Ziqian Zhu",
       "gender": "Girls",
@@ -12338,6 +13730,30 @@
       "tournaments": "J60 Miki City",
       "source_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800774263",
+      "player_name": "Zishan Huang",
+      "gender": "Girls",
+      "country": "CHN",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Chengdu",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800814242",
+      "player_name": "Zixin Zhang",
+      "gender": "Girls",
+      "country": "CHN",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J60 Chengdu",
+      "source_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
@@ -12386,6 +13802,18 @@
       "tournaments": "J30 Colombo",
       "source_urls": "https://www.itftennis.com/en/tournament/j30-colombo/sri/2026/j-j30-sri-2026-005/draws-and-results/",
       "draw_urls": "https://www.itftennis.com/en/tournament/j30-colombo/sri/2026/j-j30-sri-2026-005/draws-and-results/",
+      "notes": "Encontrado no drawsheet da ITF."
+    },
+    {
+      "player_itf_id": "800825798",
+      "player_name": "Zuzana Langasova",
+      "gender": "Girls",
+      "country": "CZE",
+      "junior_rank": "",
+      "entry_groups": "MD",
+      "tournaments": "J30 Marianske Lazne",
+      "source_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
+      "draw_urls": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
       "notes": "Encontrado no drawsheet da ITF."
     },
     {
