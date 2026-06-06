@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "05/06/2026, 18:52",
+  "scrapedAt": "06/06/2026, 05:37",
   "calendarStartDate": "2026-06",
   "weekStartDate": "2026-06-01",
   "tournaments": [
@@ -15,7 +15,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/roland-garros-junior-championships/fra/2026/j-jgs-fra-2026-001/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -4687,7 +4687,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -4798,18 +4798,17 @@
           "itfPlayerId": "800725121",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "SF",
+            "currentRound": "F",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/draws-and-results/",
-            "matchId": 1183560421
+            "matchId": 1183560423
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "W",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
-            "score": "",
+            "confidence": "itf-api-win",
+            "score": "6-1 6-1",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/draws-and-results/",
             "matchId": 2124509496
           }
@@ -4827,11 +4826,11 @@
           "itfPlayerId": "800725103",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "SF",
+            "currentRound": "F",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/draws-and-results/",
-            "matchId": 1183560452
+            "matchId": 1183560454
           },
           "drawResultDoubles": {
             "status": "Eliminado",
@@ -4854,10 +4853,10 @@
           "juniorRank": 226,
           "itfPlayerId": "800718567",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "SF",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "2-6 1-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/draws-and-results/",
             "matchId": 1183560453
           },
@@ -4891,9 +4890,9 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "F",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "currentRound": "W",
+            "confidence": "itf-api-win",
+            "score": "7-5 6-1",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/draws-and-results/",
             "matchId": 2124509511
           }
@@ -4967,18 +4966,17 @@
           "itfPlayerId": "800791730",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "SF",
+            "currentRound": "F",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/draws-and-results/",
-            "matchId": 1183560422
+            "matchId": 1183560423
           },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "W",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
-            "score": "",
+            "confidence": "itf-api-win",
+            "score": "6-1 6-1",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/draws-and-results/",
             "matchId": 2124509496
           }
@@ -5003,10 +5001,10 @@
             "matchId": 1183560441
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "F",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "5-7 1-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/draws-and-results/",
             "matchId": 2124509511
           }
@@ -5087,10 +5085,10 @@
             "matchId": 1183560444
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "F",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "5-7 1-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/draws-and-results/",
             "matchId": 2124509511
           }
@@ -5163,18 +5161,18 @@
           "juniorRank": 391,
           "itfPlayerId": "800727016",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "SF",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "5-7 0-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/draws-and-results/",
             "matchId": 1183560422
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "SF",
-            "confidence": "itf-api-pending-match",
-            "score": "6-3 2-6 7-7",
+            "confidence": "itf-api-loss",
+            "score": "3-6 6-2 8-10",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/draws-and-results/",
             "matchId": 2124509495
           }
@@ -5324,18 +5322,18 @@
           "juniorRank": 520,
           "itfPlayerId": "800713070",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "SF",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "4-6 3-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/draws-and-results/",
             "matchId": 1183560452
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "F",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "currentRound": "W",
+            "confidence": "itf-api-win",
+            "score": "7-5 6-1",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/draws-and-results/",
             "matchId": 2124509511
           }
@@ -5437,11 +5435,11 @@
           "itfPlayerId": "800722835",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "SF",
+            "currentRound": "F",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/draws-and-results/",
-            "matchId": 1183560453
+            "matchId": 1183560454
           },
           "drawResultDoubles": {
             "status": "Eliminado",
@@ -5464,20 +5462,20 @@
           "juniorRank": 670,
           "itfPlayerId": "800734188",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "SF",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "3-6 6-3 3-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/draws-and-results/",
             "matchId": 1183560421
           },
           "drawResultDoubles": {
-            "status": "Ativo",
-            "currentRound": "SF",
-            "confidence": "itf-api-pending-match",
-            "score": "3-6 6-2 7-7",
+            "status": "Eliminado",
+            "currentRound": "F",
+            "confidence": "itf-api-loss",
+            "score": "1-6 1-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/draws-and-results/",
-            "matchId": 2124509495
+            "matchId": 2124509496
           }
         },
         {
@@ -5584,10 +5582,10 @@
             "matchId": 1183560413
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "SF",
-            "confidence": "itf-api-pending-match",
-            "score": "6-3 2-6 7-7",
+            "confidence": "itf-api-loss",
+            "score": "3-6 6-2 8-10",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/draws-and-results/",
             "matchId": 2124509495
           }
@@ -5724,12 +5722,12 @@
             "matchId": 1183560398
           },
           "drawResultDoubles": {
-            "status": "Ativo",
-            "currentRound": "SF",
-            "confidence": "itf-api-pending-match",
-            "score": "3-6 6-2 7-7",
+            "status": "Eliminado",
+            "currentRound": "F",
+            "confidence": "itf-api-loss",
+            "score": "1-6 1-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j100-guatemala/gua/2026/j-j100-gua-2026-001/draws-and-results/",
-            "matchId": 2124509495
+            "matchId": 2124509496
           }
         },
         {
@@ -6300,7 +6298,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-cholpon-ata/kgz/2026/j-j60-kgz-2026-001/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -7723,7 +7721,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-bastad/swe/2026/j-j60-swe-2026-003/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-bastad/swe/2026/j-j60-swe-2026-003/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -10135,7 +10133,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -10301,9 +10299,9 @@
           "drawResult": null,
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "F",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "currentRound": "W",
+            "confidence": "itf-api-win",
+            "score": "6-1 3-6 10-8",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
             "matchId": 2124509573
           }
@@ -10357,9 +10355,9 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "F",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "currentRound": "W",
+            "confidence": "itf-api-win",
+            "score": "6-3 6-3",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
             "matchId": 2124509558
           }
@@ -10377,17 +10375,17 @@
           "itfPlayerId": "800751736",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "F",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "currentRound": "W",
+            "confidence": "itf-api-win",
+            "score": "6-1 6-3",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
             "matchId": 1183561032
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "F",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "1-6 6-3 8-10",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
             "matchId": 2124509573
           }
@@ -10432,18 +10430,18 @@
           "juniorRank": 639,
           "itfPlayerId": "800753468",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "F",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "1-6 3-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
             "matchId": 1183561032
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "F",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "1-6 6-3 8-10",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
             "matchId": 2124509573
           }
@@ -10518,9 +10516,9 @@
           "drawResult": null,
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "F",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "currentRound": "W",
+            "confidence": "itf-api-win",
+            "score": "6-3 6-3",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
             "matchId": 2124509558
           }
@@ -10567,9 +10565,9 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "F",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "currentRound": "W",
+            "confidence": "itf-api-win",
+            "score": "6-1 3-6 10-8",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-darwin/aus/2026/j-j60-aus-2026-001/draws-and-results/",
             "matchId": 2124509573
           }
@@ -11502,7 +11500,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-edmonton/can/2026/j-j60-can-2026-007/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-edmonton/can/2026/j-j60-can-2026-007/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -11675,11 +11673,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "SF",
+            "currentRound": "F",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-edmonton/can/2026/j-j60-can-2026-007/draws-and-results/",
-            "matchId": 2124509988
+            "matchId": 2124509987
           }
         },
         {
@@ -11821,10 +11819,10 @@
             "matchId": 1183562623
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "SF",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "4-6 4-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-edmonton/can/2026/j-j60-can-2026-007/draws-and-results/",
             "matchId": 2124509988
           }
@@ -11871,11 +11869,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "SF",
+            "currentRound": "F",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-edmonton/can/2026/j-j60-can-2026-007/draws-and-results/",
-            "matchId": 2124509989
+            "matchId": 2124509987
           }
         },
         {
@@ -11954,10 +11952,10 @@
           "itfPlayerId": "800731211",
           "drawResult": null,
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "SF",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "3-6 3-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-edmonton/can/2026/j-j60-can-2026-007/draws-and-results/",
             "matchId": 2124509989
           }
@@ -12728,7 +12726,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -12893,17 +12891,17 @@
           "itfPlayerId": "800726991",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "F",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "currentRound": "W",
+            "confidence": "itf-api-win",
+            "score": "7-6(3) 6-1",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
             "matchId": 1183561069
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "F",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "currentRound": "W",
+            "confidence": "itf-api-win",
+            "score": "3-6 6-3 10-8",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
             "matchId": 2124509602
           }
@@ -12920,10 +12918,10 @@
           "juniorRank": 266,
           "itfPlayerId": "800778567",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "F",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "3-6 4-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
             "matchId": 1183561100
           },
@@ -12957,9 +12955,9 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "F",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "currentRound": "W",
+            "confidence": "itf-api-win",
+            "score": "3-6 6-3 10-8",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
             "matchId": 2124509602
           }
@@ -12984,10 +12982,10 @@
             "matchId": 1183561065
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "F",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "6-3 3-6 8-10",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
             "matchId": 2124509602
           }
@@ -13005,17 +13003,17 @@
           "itfPlayerId": "800795881",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "F",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "currentRound": "W",
+            "confidence": "itf-api-win",
+            "score": "6-3 6-4",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
             "matchId": 1183561100
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "F",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "currentRound": "W",
+            "confidence": "itf-api-win",
+            "score": "6-4 6-4",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
             "matchId": 2124509617
           }
@@ -13040,10 +13038,10 @@
             "matchId": 1183561067
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "F",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "6-3 3-6 8-10",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
             "matchId": 2124509602
           }
@@ -13069,9 +13067,9 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "F",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "currentRound": "W",
+            "confidence": "itf-api-win",
+            "score": "6-4 6-4",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
             "matchId": 2124509617
           }
@@ -13173,10 +13171,10 @@
             "matchId": 1183561099
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "F",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "4-6 4-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
             "matchId": 2124509617
           }
@@ -13193,10 +13191,10 @@
           "juniorRank": 609,
           "itfPlayerId": "800780744",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "F",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "6-7(3) 1-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-chengdu/chn/2026/j-j60-chn-2026-008/draws-and-results/",
             "matchId": 1183561069
           },
@@ -14454,7 +14452,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-santa-cruz-de-la-sierra/bol/2026/j-j60-bol-2026-003/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -17070,7 +17068,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-champaign/usa/2026/j-j60-usa-2026-003/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-champaign/usa/2026/j-j60-usa-2026-003/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -18072,7 +18070,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-marianske-lazne/cze/2026/j-j30-cze-2026-003/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -19402,7 +19400,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-sukoharjo/ina/2026/j-j30-ina-2026-002/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-sukoharjo/ina/2026/j-j30-ina-2026-002/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -20771,7 +20769,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -20900,9 +20898,9 @@
           "itfPlayerId": "800643778",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "F",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "currentRound": "W",
+            "confidence": "itf-api-win",
+            "score": "6-1 6-2",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-nicosia/cyp/2026/j-j30-cyp-2026-004/draws-and-results/",
             "matchId": 1183559602
           },
@@ -22601,7 +22599,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-colombo/sri/2026/j-j30-sri-2026-005/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-colombo/sri/2026/j-j30-sri-2026-005/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -22730,9 +22728,8 @@
           "itfPlayerId": "800624608",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "F",
-            "pointsOverride": 0,
-            "confidence": "itf-api-bye",
+            "currentRound": "SF",
+            "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-colombo/sri/2026/j-j30-sri-2026-005/draws-and-results/",
             "matchId": 1183559375
@@ -23746,7 +23743,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-yerevan/arm/2026/j-j30-arm-2026-004/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-yerevan/arm/2026/j-j30-arm-2026-004/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -24907,7 +24904,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-kampala/uga/2026/j-j30-uga-2026-002/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-kampala/uga/2026/j-j30-uga-2026-002/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -25711,7 +25708,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-pretoria/rsa/2026/j-j60-rsa-2026-005/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -25722,8 +25719,8 @@
           "matchTypeDesc": "Singles",
           "eventClassificationCode": "M",
           "eventClassificationDesc": "Main Draw",
-          "drawsheetStructureCode": "RR",
-          "drawsheetStructureDesc": "Round Robin"
+          "drawsheetStructureCode": "KO",
+          "drawsheetStructureDesc": "Knock-out"
         },
         {
           "playerTypeCode": "B",
@@ -25732,8 +25729,8 @@
           "matchTypeDesc": "Singles",
           "eventClassificationCode": "M",
           "eventClassificationDesc": "Main Draw",
-          "drawsheetStructureCode": "KO",
-          "drawsheetStructureDesc": "Knock-out"
+          "drawsheetStructureCode": "RR",
+          "drawsheetStructureDesc": "Round Robin"
         },
         {
           "playerTypeCode": "B",
@@ -25801,17 +25798,17 @@
           "playerTypeCode": "B",
           "matchTypeCode": "S",
           "eventClassificationCode": "M",
-          "drawsheetStructureCode": "RR",
-          "eventId": 1100715978,
-          "matchesCount": 0
+          "drawsheetStructureCode": "KO",
+          "eventId": 1100678574,
+          "matchesCount": 7
         },
         {
           "playerTypeCode": "B",
           "matchTypeCode": "S",
           "eventClassificationCode": "M",
-          "drawsheetStructureCode": "KO",
-          "eventId": 1100678574,
-          "matchesCount": 7
+          "drawsheetStructureCode": "RR",
+          "eventId": 1100715978,
+          "matchesCount": 0
         },
         {
           "playerTypeCode": "B",
@@ -27092,7 +27089,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-baku/aze/2026/j-j60-aze-2026-001/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-baku/aze/2026/j-j60-aze-2026-001/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -28138,7 +28135,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-abuja/ngr/2026/j-j30-ngr-2026-003/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-abuja/ngr/2026/j-j30-ngr-2026-003/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -28265,14 +28262,22 @@
           "entryGroup": "MD",
           "juniorRank": 523,
           "itfPlayerId": "800779000",
-          "drawResult": null,
-          "drawResultDoubles": {
+          "drawResult": {
             "status": "Ativo",
             "currentRound": "SF",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-abuja/ngr/2026/j-j30-ngr-2026-003/draws-and-results/",
-            "matchId": 2124510704
+            "matchId": 1183565032
+          },
+          "drawResultDoubles": {
+            "status": "Ativo",
+            "currentRound": "W",
+            "pointsOverride": 0,
+            "confidence": "itf-api-bye",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-abuja/ngr/2026/j-j30-ngr-2026-003/draws-and-results/",
+            "matchId": 2124510702
           }
         },
         {
@@ -28286,7 +28291,14 @@
           "entryGroup": "MD",
           "juniorRank": 778,
           "itfPlayerId": "800778506",
-          "drawResult": null,
+          "drawResult": {
+            "status": "Ativo",
+            "currentRound": "SF",
+            "confidence": "itf-api-pending-match",
+            "score": "",
+            "sourceUrl": "https://www.itftennis.com/en/tournament/j30-abuja/ngr/2026/j-j30-ngr-2026-003/draws-and-results/",
+            "matchId": 1183565033
+          },
           "drawResultDoubles": {
             "status": "Ativo",
             "currentRound": "SF",
@@ -28864,7 +28876,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-bizerte/tun/2026/j-j30-tun-2026-002/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-bizerte/tun/2026/j-j30-tun-2026-002/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -30018,7 +30030,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -30029,8 +30041,8 @@
           "matchTypeDesc": "Singles",
           "eventClassificationCode": "M",
           "eventClassificationDesc": "Main Draw",
-          "drawsheetStructureCode": "RR",
-          "drawsheetStructureDesc": "Round Robin"
+          "drawsheetStructureCode": "KO",
+          "drawsheetStructureDesc": "Knock-out"
         },
         {
           "playerTypeCode": "B",
@@ -30039,8 +30051,8 @@
           "matchTypeDesc": "Singles",
           "eventClassificationCode": "M",
           "eventClassificationDesc": "Main Draw",
-          "drawsheetStructureCode": "KO",
-          "drawsheetStructureDesc": "Knock-out"
+          "drawsheetStructureCode": "RR",
+          "drawsheetStructureDesc": "Round Robin"
         },
         {
           "playerTypeCode": "B",
@@ -30069,8 +30081,8 @@
           "matchTypeDesc": "Singles",
           "eventClassificationCode": "M",
           "eventClassificationDesc": "Main Draw",
-          "drawsheetStructureCode": "RR",
-          "drawsheetStructureDesc": "Round Robin"
+          "drawsheetStructureCode": "KO",
+          "drawsheetStructureDesc": "Knock-out"
         },
         {
           "playerTypeCode": "G",
@@ -30079,8 +30091,8 @@
           "matchTypeDesc": "Singles",
           "eventClassificationCode": "M",
           "eventClassificationDesc": "Main Draw",
-          "drawsheetStructureCode": "KO",
-          "drawsheetStructureDesc": "Knock-out"
+          "drawsheetStructureCode": "RR",
+          "drawsheetStructureDesc": "Round Robin"
         },
         {
           "playerTypeCode": "G",
@@ -30108,17 +30120,17 @@
           "playerTypeCode": "B",
           "matchTypeCode": "S",
           "eventClassificationCode": "M",
-          "drawsheetStructureCode": "RR",
-          "eventId": 1100715962,
-          "matchesCount": 0
+          "drawsheetStructureCode": "KO",
+          "eventId": 1100706337,
+          "matchesCount": 7
         },
         {
           "playerTypeCode": "B",
           "matchTypeCode": "S",
           "eventClassificationCode": "M",
-          "drawsheetStructureCode": "KO",
-          "eventId": 1100706337,
-          "matchesCount": 7
+          "drawsheetStructureCode": "RR",
+          "eventId": 1100715962,
+          "matchesCount": 0
         },
         {
           "playerTypeCode": "B",
@@ -30140,17 +30152,17 @@
           "playerTypeCode": "G",
           "matchTypeCode": "S",
           "eventClassificationCode": "M",
-          "drawsheetStructureCode": "RR",
-          "eventId": 1100715970,
-          "matchesCount": 0
+          "drawsheetStructureCode": "KO",
+          "eventId": 1100706340,
+          "matchesCount": 7
         },
         {
           "playerTypeCode": "G",
           "matchTypeCode": "S",
           "eventClassificationCode": "M",
-          "drawsheetStructureCode": "KO",
-          "eventId": 1100706340,
-          "matchesCount": 7
+          "drawsheetStructureCode": "RR",
+          "eventId": 1100715970,
+          "matchesCount": 0
         },
         {
           "playerTypeCode": "G",
@@ -30184,11 +30196,11 @@
           "drawResult": null,
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "SF",
+            "currentRound": "F",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
-            "matchId": 2124510063
+            "matchId": 2124510062
           }
         },
         {
@@ -30205,11 +30217,11 @@
           "drawResult": null,
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "SF",
+            "currentRound": "F",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
-            "matchId": 2124510064
+            "matchId": 2124510062
           }
         },
         {
@@ -30224,10 +30236,10 @@
           "juniorRank": 393,
           "itfPlayerId": "800668525",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "SF",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "3-6 6-3 1-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
             "matchId": 1183562880
           },
@@ -30253,19 +30265,19 @@
           "itfPlayerId": "800739462",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "SF",
+            "currentRound": "F",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
-            "matchId": 1183562879
+            "matchId": 1183562878
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "SF",
+            "currentRound": "F",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
-            "matchId": 2124510063
+            "matchId": 2124510062
           }
         },
         {
@@ -30309,10 +30321,10 @@
             "matchId": 1183562912
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "SF",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "2-6 4-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
             "matchId": 2124510095
           }
@@ -30407,10 +30419,10 @@
           "itfPlayerId": "800667380",
           "drawResult": null,
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "SF",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "3-6 6-7(5)",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
             "matchId": 2124510094
           }
@@ -30428,10 +30440,10 @@
           "itfPlayerId": "800646745",
           "drawResult": null,
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "SF",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "3-6 6-7(5)",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
             "matchId": 2124510094
           }
@@ -30457,11 +30469,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "SF",
+            "currentRound": "F",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j30-gimcheon/kor/2026/j-j30-kor-2026-010/draws-and-results/",
-            "matchId": 2124510095
+            "matchId": 2124510093
           }
         },
         {
@@ -31801,7 +31813,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-gdansk/pol/2026/j-j60-pol-2026-004/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-gdansk/pol/2026/j-j60-pol-2026-004/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -33642,7 +33654,7 @@
       "tournamentId": "",
       "tournamentUrl": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/",
       "drawsUrl": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
-      "fallbackUsed": false,
+      "fallbackUsed": true,
       "itfApiWarning": "",
       "drawWarning": "",
       "events": [
@@ -33770,10 +33782,10 @@
           "juniorRank": 120,
           "itfPlayerId": "800710011",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "SF",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "3-6 0-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
             "matchId": 1183562820
           },
@@ -33799,11 +33811,11 @@
           "itfPlayerId": "800739583",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "SF",
+            "currentRound": "F",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
-            "matchId": 1183562761
+            "matchId": 1183562760
           },
           "drawResultDoubles": {
             "status": "Eliminado",
@@ -33834,10 +33846,10 @@
             "matchId": 1183562849
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "SF",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "6-1 3-6 3-10",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
             "matchId": 2124510048
           }
@@ -33855,17 +33867,17 @@
           "itfPlayerId": "800708405",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "SF",
+            "currentRound": "F",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
-            "matchId": 1183562820
+            "matchId": 1183562819
           },
           "drawResultDoubles": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "SF",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "6-1 3-6 3-10",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
             "matchId": 2124510048
           }
@@ -33883,11 +33895,11 @@
           "itfPlayerId": "800719079",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "SF",
+            "currentRound": "F",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
-            "matchId": 1183562762
+            "matchId": 1183562760
           },
           "drawResultDoubles": {
             "status": "Eliminado",
@@ -33939,19 +33951,19 @@
           "itfPlayerId": "800720484",
           "drawResult": {
             "status": "Ativo",
-            "currentRound": "SF",
+            "currentRound": "F",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
-            "matchId": 1183562821
+            "matchId": 1183562819
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "SF",
+            "currentRound": "F",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
-            "matchId": 2124510048
+            "matchId": 2124510047
           }
         },
         {
@@ -34015,10 +34027,10 @@
           "juniorRank": 498,
           "itfPlayerId": "800758943",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "SF",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "2-6 6-2 4-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
             "matchId": 1183562762
           },
@@ -34052,11 +34064,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "SF",
+            "currentRound": "F",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
-            "matchId": 2124510049
+            "matchId": 2124510047
           }
         },
         {
@@ -34080,11 +34092,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "SF",
+            "currentRound": "F",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
-            "matchId": 2124510033
+            "matchId": 2124510032
           }
         },
         {
@@ -34157,11 +34169,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "SF",
+            "currentRound": "F",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
-            "matchId": 2124510033
+            "matchId": 2124510032
           }
         },
         {
@@ -34176,10 +34188,10 @@
           "juniorRank": 652,
           "itfPlayerId": "800670945",
           "drawResult": {
-            "status": "Ativo",
+            "status": "Eliminado",
             "currentRound": "SF",
-            "confidence": "itf-api-pending-match",
-            "score": "",
+            "confidence": "itf-api-loss",
+            "score": "3-6 1-6",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
             "matchId": 1183562761
           },
@@ -34353,11 +34365,11 @@
           },
           "drawResultDoubles": {
             "status": "Ativo",
-            "currentRound": "SF",
+            "currentRound": "F",
             "confidence": "itf-api-pending-match",
             "score": "",
             "sourceUrl": "https://www.itftennis.com/en/tournament/j60-miki-city/jpn/2026/j-j60-jpn-2026-002/draws-and-results/",
-            "matchId": 2124510049
+            "matchId": 2124510047
           }
         },
         {
