@@ -1,101 +1,90 @@
 [
   {
     "currentRank": 1,
-    "name": "Ivan Ivanov",
-    "country": "BUL",
-    "gender": "Boys",
-    "id": "ivan-ivanov",
-    "birthYear": 2008,
-    "officialPoints": 2686.25,
-    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ivan-ivanov/800586822/bul/jt/s/itf-points-breakdown/",
-    "needsProfileResolution": false
-  },
-  {
-    "currentRank": 2,
-    "name": "Yannick Theodor Alexandrescou",
-    "country": "FRA",
-    "gender": "Boys",
-    "id": "yannick-theodor-alexandrescou",
-    "birthYear": 2008,
-    "officialPoints": 2377.25,
-    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/yannick-theodor-alexandrescou/800564683/fra/jt/s/itf-points-breakdown/",
-    "needsProfileResolution": false
-  },
-  {
-    "currentRank": 3,
-    "name": "Jamie Mackenzie",
-    "country": "GER",
-    "gender": "Boys",
-    "id": "jamie-mackenzie",
-    "birthYear": 2008,
-    "officialPoints": 2357,
-    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/jamie-mackenzie/800570117/ger/jt/s/itf-points-breakdown/",
-    "needsProfileResolution": false
-  },
-  {
-    "currentRank": 4,
     "name": "Luis Guto Miguel",
     "country": "BRA",
     "gender": "Boys",
     "id": "luis-guto-miguel",
     "birthYear": 2009,
-    "officialPoints": 2354.25,
+    "officialPoints": 3236.75,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/luis-guto-miguel/800680259/bra/jt/s/itf-points-breakdown/",
     "needsProfileResolution": false
   },
   {
-    "currentRank": 5,
-    "name": "Ziga Sesko",
-    "country": "SLO",
+    "currentRank": 2,
+    "name": "Jamie Mackenzie",
+    "country": "GER",
     "gender": "Boys",
-    "id": "ziga-sesko",
+    "id": "jamie-mackenzie",
     "birthYear": 2008,
-    "officialPoints": 2109.75,
-    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ziga-sesko/800579895/slo/jt/s/itf-points-breakdown/",
+    "officialPoints": 2675.75,
+    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/jamie-mackenzie/800570117/ger/jt/s/itf-points-breakdown/",
     "needsProfileResolution": false
   },
   {
-    "currentRank": 6,
+    "currentRank": 3,
     "name": "Keaton Hance",
     "country": "USA",
     "gender": "Boys",
     "id": "keaton-hance",
     "birthYear": 2008,
-    "officialPoints": 1985.25,
+    "officialPoints": 2385.25,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/keaton-hance/800657117/usa/jt/s/itf-points-breakdown/",
     "needsProfileResolution": false
   },
   {
-    "currentRank": 7,
-    "name": "Jack Kennedy",
+    "currentRank": 4,
+    "name": "Ziga Sesko",
+    "country": "SLO",
+    "gender": "Boys",
+    "id": "ziga-sesko",
+    "birthYear": 2008,
+    "officialPoints": 2378,
+    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ziga-sesko/800579895/slo/jt/s/itf-points-breakdown/",
+    "needsProfileResolution": false
+  },
+  {
+    "currentRank": 5,
+    "name": "Yannick Theodor Alexandrescou",
+    "country": "FRA",
+    "gender": "Boys",
+    "id": "yannick-theodor-alexandrescou",
+    "birthYear": 2008,
+    "officialPoints": 2249.75,
+    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/yannick-theodor-alexandrescou/800564683/fra/jt/s/itf-points-breakdown/",
+    "needsProfileResolution": false
+  },
+  {
+    "currentRank": 6,
+    "name": "Michael Antonius",
     "country": "USA",
     "gender": "Boys",
-    "id": "jack-kennedy",
-    "birthYear": 2008,
-    "officialPoints": 1966.5,
-    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/jack-kennedy/800692786/usa/jt/s/itf-points-breakdown/",
+    "id": "michael-antonius",
+    "birthYear": 2010,
+    "officialPoints": 2168.75,
+    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/michael-antonius/800732018/usa/jt/s/itf-points-breakdown/",
     "needsProfileResolution": false
   },
   {
     "currentRank": 7,
+    "name": "Ivan Ivanov",
+    "country": "BUL",
+    "gender": "Boys",
+    "id": "ivan-ivanov",
+    "birthYear": 2008,
+    "officialPoints": 2140,
+    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ivan-ivanov/800586822/bul/jt/s/itf-points-breakdown/",
+    "needsProfileResolution": false
+  },
+  {
+    "currentRank": 8,
     "name": "Thilo Behrmann",
     "country": "AUT",
     "gender": "Boys",
     "id": "thilo-behrmann",
     "birthYear": 2008,
-    "officialPoints": 1977.75,
+    "officialPoints": 2097.75,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/thilo-behrmann/800589798/aut/jt/s/itf-points-breakdown/",
-    "needsProfileResolution": false
-  },
-  {
-    "currentRank": 8,
-    "name": "Zangar Nurlanuly",
-    "country": "KAZ",
-    "gender": "Boys",
-    "id": "zangar-nurlanuly",
-    "birthYear": 2008,
-    "officialPoints": 1842.5,
-    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/zangar-nurlanuly/800543488/kaz/jt/s/itf-points-breakdown/",
     "needsProfileResolution": false
   },
   {
@@ -107,6 +96,28 @@
     "birthYear": 2008,
     "officialPoints": 1696.75,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/dimitar-kisimov/800571859/bul/jt/s/itf-points-breakdown/",
+    "needsProfileResolution": false
+  },
+  {
+    "currentRank": 9,
+    "name": "Zangar Nurlanuly",
+    "country": "KAZ",
+    "gender": "Boys",
+    "id": "zangar-nurlanuly",
+    "birthYear": 2008,
+    "officialPoints": 1922.5,
+    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/zangar-nurlanuly/800543488/kaz/jt/s/itf-points-breakdown/",
+    "needsProfileResolution": false
+  },
+  {
+    "currentRank": 10,
+    "name": "Jack Kennedy",
+    "country": "USA",
+    "gender": "Boys",
+    "id": "jack-kennedy",
+    "birthYear": 2008,
+    "officialPoints": 1771,
+    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/jack-kennedy/800692786/usa/jt/s/itf-points-breakdown/",
     "needsProfileResolution": false
   },
   {
@@ -140,17 +151,6 @@
     "birthYear": 2008,
     "officialPoints": 1622.5,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/niels-mcdonald/800572931/ger/jt/s/itf-points-breakdown/",
-    "needsProfileResolution": false
-  },
-  {
-    "currentRank": 14,
-    "name": "Michael Antonius",
-    "country": "USA",
-    "gender": "Boys",
-    "id": "michael-antonius",
-    "birthYear": 2010,
-    "officialPoints": 1558.75,
-    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/michael-antonius/800732018/usa/jt/s/itf-points-breakdown/",
     "needsProfileResolution": false
   },
   {
@@ -19845,6 +19845,17 @@
   },
   {
     "currentRank": 1,
+    "name": "Xinran Sun",
+    "country": "CHN",
+    "gender": "Girls",
+    "id": "xinran-sun",
+    "birthYear": 2010,
+    "officialPoints": 2903.5,
+    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/xinran-sun/800677732/chn/jt/s/itf-points-breakdown/",
+    "needsProfileResolution": false
+  },
+  {
+    "currentRank": 2,
     "name": "Ksenia Efremova",
     "country": "FRA",
     "gender": "Girls",
@@ -19855,58 +19866,47 @@
     "needsProfileResolution": false
   },
   {
-    "currentRank": 2,
-    "name": "Xinran Sun",
-    "country": "CHN",
-    "gender": "Girls",
-    "id": "xinran-sun",
-    "birthYear": 2010,
-    "officialPoints": 2318,
-    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/xinran-sun/800677732/chn/jt/s/itf-points-breakdown/",
-    "needsProfileResolution": false
-  },
-  {
     "currentRank": 3,
-    "name": "Alena Kovackova",
-    "country": "CZE",
-    "gender": "Girls",
-    "id": "alena-kovackova",
-    "birthYear": 2008,
-    "officialPoints": 2199.75,
-    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/alena-kovackova/800572951/cze/jt/s/itf-points-breakdown/",
-    "needsProfileResolution": false
-  },
-  {
-    "currentRank": 4,
     "name": "Victoria Luiza Barros",
     "country": "BRA",
     "gender": "Girls",
     "id": "victoria-luiza-barros",
     "birthYear": 2009,
-    "officialPoints": 2194,
+    "officialPoints": 2526.5,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/victoria-luiza-barros/800655335/bra/jt/s/itf-points-breakdown/",
     "needsProfileResolution": false
   },
   {
-    "currentRank": 5,
-    "name": "Mia Pohankova",
-    "country": "SVK",
-    "gender": "Girls",
-    "id": "mia-pohankova",
-    "birthYear": 2008,
-    "officialPoints": 2189.25,
-    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/mia-pohankova/800627475/svk/jt/s/itf-points-breakdown/",
-    "needsProfileResolution": false
-  },
-  {
-    "currentRank": 6,
+    "currentRank": 4,
     "name": "Jana Kovackova",
     "country": "CZE",
     "gender": "Girls",
     "id": "jana-kovackova",
     "birthYear": 2010,
-    "officialPoints": 2099.75,
+    "officialPoints": 2506,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/jana-kovackova/800661515/cze/jt/s/itf-points-breakdown/",
+    "needsProfileResolution": false
+  },
+  {
+    "currentRank": 5,
+    "name": "Alena Kovackova",
+    "country": "CZE",
+    "gender": "Girls",
+    "id": "alena-kovackova",
+    "birthYear": 2008,
+    "officialPoints": 2034.75,
+    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/alena-kovackova/800572951/cze/jt/s/itf-points-breakdown/",
+    "needsProfileResolution": false
+  },
+  {
+    "currentRank": 6,
+    "name": "Mia Pohankova",
+    "country": "SVK",
+    "gender": "Girls",
+    "id": "mia-pohankova",
+    "birthYear": 2008,
+    "officialPoints": 1917.5,
+    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/mia-pohankova/800627475/svk/jt/s/itf-points-breakdown/",
     "needsProfileResolution": false
   },
   {
@@ -19921,25 +19921,36 @@
     "needsProfileResolution": false
   },
   {
-    "currentRank": 8,
-    "name": "Kristina Penickova",
-    "country": "USA",
-    "gender": "Girls",
-    "id": "kristina-penickova",
-    "birthYear": 2009,
-    "officialPoints": 1905.5,
-    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/kristina-penickova/800719373/usa/jt/s/itf-points-breakdown/",
-    "needsProfileResolution": false
-  },
-  {
-    "currentRank": 9,
+    "currentRank": 7,
     "name": "Nauhany Vitoria Leme Da Silva",
     "country": "BRA",
     "gender": "Girls",
     "id": "nauhany-vitoria-leme-da-silva",
     "birthYear": 2010,
-    "officialPoints": 1743,
+    "officialPoints": 1866.75,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/nauhany-vitoria-leme-da-silva/800695060/bra/jt/s/itf-points-breakdown/",
+    "needsProfileResolution": false
+  },
+  {
+    "currentRank": 8,
+    "name": "Anastasija Cvetkovic",
+    "country": "SRB",
+    "gender": "Girls",
+    "id": "anastasija-cvetkovic",
+    "birthYear": 2008,
+    "officialPoints": 1827.75,
+    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/anastasija-cvetkovic/800598140/srb/jt/s/itf-points-breakdown/",
+    "needsProfileResolution": false
+  },
+  {
+    "currentRank": 9,
+    "name": "Kristina Penickova",
+    "country": "USA",
+    "gender": "Girls",
+    "id": "kristina-penickova",
+    "birthYear": 2009,
+    "officialPoints": 1813.75,
+    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/kristina-penickova/800719373/usa/jt/s/itf-points-breakdown/",
     "needsProfileResolution": false
   },
   {
@@ -19965,6 +19976,17 @@
     "needsProfileResolution": false
   },
   {
+    "currentRank": 10,
+    "name": "Mariia Makarova",
+    "country": "RUS",
+    "gender": "Girls",
+    "id": "mariia-makarova",
+    "birthYear": 2010,
+    "officialPoints": 1760.5,
+    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/mariia-makarova/800644962/rus/jt/s/itf-points-breakdown/",
+    "needsProfileResolution": false
+  },
+  {
     "currentRank": 12,
     "name": "Lilli Tagger",
     "country": "AUT",
@@ -19984,17 +20006,6 @@
     "birthYear": 2008,
     "officialPoints": 1621,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/sol-ailin-larraya-guidi/800659876/arg/jt/s/itf-points-breakdown/",
-    "needsProfileResolution": false
-  },
-  {
-    "currentRank": 14,
-    "name": "Anastasija Cvetkovic",
-    "country": "SRB",
-    "gender": "Girls",
-    "id": "anastasija-cvetkovic",
-    "birthYear": 2008,
-    "officialPoints": 1619,
-    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/anastasija-cvetkovic/800598140/srb/jt/s/itf-points-breakdown/",
     "needsProfileResolution": false
   },
   {
@@ -20050,17 +20061,6 @@
     "birthYear": 2009,
     "officialPoints": 1383.75,
     "pointsBreakdownUrl": "https://www.itftennis.com/en/players/mariella-thamm/800601474/ger/jt/s/itf-points-breakdown/",
-    "needsProfileResolution": false
-  },
-  {
-    "currentRank": 20,
-    "name": "Mariia Makarova",
-    "country": "RUS",
-    "gender": "Girls",
-    "id": "mariia-makarova",
-    "birthYear": 2010,
-    "officialPoints": 1350.5,
-    "pointsBreakdownUrl": "https://www.itftennis.com/en/players/mariia-makarova/800644962/rus/jt/s/itf-points-breakdown/",
     "needsProfileResolution": false
   },
   {

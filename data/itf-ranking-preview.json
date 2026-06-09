@@ -1,24 +1,14 @@
 {
-  "rankingDate": "1 jun 2026",
+  "rankingDate": "8 jun 2026",
   "scrapedPlayers": [
     {
-      "id": "ivan-ivanov",
-      "name": "I. ivanov",
-      "country": "BUL",
+      "id": "luis-guto-miguel",
+      "name": "L. miguel",
+      "country": "BRA",
       "gender": "Boys",
       "currentRank": 1,
-      "officialPoints": 2686.25,
-      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ivan-ivanov/800586822/bul/jt/s/itf-points-breakdown/",
-      "needsProfileResolution": false
-    },
-    {
-      "id": "yannick-theodor-alexandrescou",
-      "name": "Y. alexandrescou",
-      "country": "FRA",
-      "gender": "Boys",
-      "currentRank": 2,
-      "officialPoints": 2377.25,
-      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/yannick-theodor-alexandrescou/800564683/fra/jt/s/itf-points-breakdown/",
+      "officialPoints": 3236.75,
+      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/luis-guto-miguel/800680259/bra/jt/s/itf-points-breakdown/",
       "needsProfileResolution": false
     },
     {
@@ -26,29 +16,9 @@
       "name": "J. mackenzie",
       "country": "GER",
       "gender": "Boys",
-      "currentRank": 3,
-      "officialPoints": 2357,
+      "currentRank": 2,
+      "officialPoints": 2675.75,
       "pointsBreakdownUrl": "https://www.itftennis.com/en/players/jamie-mackenzie/800570117/ger/jt/s/itf-points-breakdown/",
-      "needsProfileResolution": false
-    },
-    {
-      "id": "luis-guto-miguel",
-      "name": "L. miguel",
-      "country": "BRA",
-      "gender": "Boys",
-      "currentRank": 4,
-      "officialPoints": 2354.25,
-      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/luis-guto-miguel/800680259/bra/jt/s/itf-points-breakdown/",
-      "needsProfileResolution": false
-    },
-    {
-      "id": "ziga-sesko",
-      "name": "Z. sesko",
-      "country": "SLO",
-      "gender": "Boys",
-      "currentRank": 5,
-      "officialPoints": 2109.75,
-      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ziga-sesko/800579895/slo/jt/s/itf-points-breakdown/",
       "needsProfileResolution": false
     },
     {
@@ -56,9 +26,49 @@
       "name": "K. hance",
       "country": "USA",
       "gender": "Boys",
-      "currentRank": 6,
-      "officialPoints": 1985.25,
+      "currentRank": 3,
+      "officialPoints": 2385.25,
       "pointsBreakdownUrl": "https://www.itftennis.com/en/players/keaton-hance/800657117/usa/jt/s/itf-points-breakdown/",
+      "needsProfileResolution": false
+    },
+    {
+      "id": "ziga-sesko",
+      "name": "Z. sesko",
+      "country": "SLO",
+      "gender": "Boys",
+      "currentRank": 4,
+      "officialPoints": 2378,
+      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ziga-sesko/800579895/slo/jt/s/itf-points-breakdown/",
+      "needsProfileResolution": false
+    },
+    {
+      "id": "yannick-theodor-alexandrescou",
+      "name": "Y. alexandrescou",
+      "country": "FRA",
+      "gender": "Boys",
+      "currentRank": 5,
+      "officialPoints": 2249.75,
+      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/yannick-theodor-alexandrescou/800564683/fra/jt/s/itf-points-breakdown/",
+      "needsProfileResolution": false
+    },
+    {
+      "id": "michael-antonius",
+      "name": "M. antonius",
+      "country": "USA",
+      "gender": "Boys",
+      "currentRank": 6,
+      "officialPoints": 2168.75,
+      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/michael-antonius/800732018/usa/jt/s/itf-points-breakdown/",
+      "needsProfileResolution": false
+    },
+    {
+      "id": "ivan-ivanov",
+      "name": "I. ivanov",
+      "country": "BUL",
+      "gender": "Boys",
+      "currentRank": 7,
+      "officialPoints": 2140,
+      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ivan-ivanov/800586822/bul/jt/s/itf-points-breakdown/",
       "needsProfileResolution": false
     },
     {
@@ -66,8 +76,8 @@
       "name": "T. behrmann",
       "country": "AUT",
       "gender": "Boys",
-      "currentRank": 7,
-      "officialPoints": 1977.75,
+      "currentRank": 8,
+      "officialPoints": 2097.75,
       "pointsBreakdownUrl": "https://www.itftennis.com/en/players/thilo-behrmann/800589798/aut/jt/s/itf-points-breakdown/",
       "needsProfileResolution": false
     },
@@ -76,39 +86,19 @@
       "name": "Z. nurlanuly",
       "country": "KAZ",
       "gender": "Boys",
-      "currentRank": 8,
-      "officialPoints": 1842.5,
+      "currentRank": 9,
+      "officialPoints": 1922.5,
       "pointsBreakdownUrl": "https://www.itftennis.com/en/players/zangar-nurlanuly/800543488/kaz/jt/s/itf-points-breakdown/",
       "needsProfileResolution": false
     },
     {
-      "id": "dimitar-kisimov",
-      "name": "D. kisimov",
-      "country": "BUL",
-      "gender": "Boys",
-      "currentRank": 9,
-      "officialPoints": 1696.75,
-      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/dimitar-kisimov/800571859/bul/jt/s/itf-points-breakdown/",
-      "needsProfileResolution": false
-    },
-    {
-      "id": "ryo-tabata",
-      "name": "R. tabata",
-      "country": "JPN",
+      "id": "jack-kennedy",
+      "name": "J. kennedy",
+      "country": "USA",
       "gender": "Boys",
       "currentRank": 10,
-      "officialPoints": 1692.25,
-      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ryo-tabata/800583844/jpn/jt/s/itf-points-breakdown/",
-      "needsProfileResolution": false
-    },
-    {
-      "id": "ksenia-efremova",
-      "name": "K. efremova",
-      "country": "FRA",
-      "gender": "Girls",
-      "currentRank": 1,
-      "officialPoints": 2718,
-      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ksenia-efremova/800591535/fra/jt/s/itf-points-breakdown/",
+      "officialPoints": 1771,
+      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/jack-kennedy/800692786/usa/jt/s/itf-points-breakdown/",
       "needsProfileResolution": false
     },
     {
@@ -116,19 +106,19 @@
       "name": "X. sun",
       "country": "CHN",
       "gender": "Girls",
-      "currentRank": 2,
-      "officialPoints": 2318,
+      "currentRank": 1,
+      "officialPoints": 2903.5,
       "pointsBreakdownUrl": "https://www.itftennis.com/en/players/xinran-sun/800677732/chn/jt/s/itf-points-breakdown/",
       "needsProfileResolution": false
     },
     {
-      "id": "alena-kovackova",
-      "name": "A. kovackova",
-      "country": "CZE",
+      "id": "ksenia-efremova",
+      "name": "K. efremova",
+      "country": "FRA",
       "gender": "Girls",
-      "currentRank": 3,
-      "officialPoints": 2199.75,
-      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/alena-kovackova/800572951/cze/jt/s/itf-points-breakdown/",
+      "currentRank": 2,
+      "officialPoints": 2718,
+      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ksenia-efremova/800591535/fra/jt/s/itf-points-breakdown/",
       "needsProfileResolution": false
     },
     {
@@ -136,19 +126,9 @@
       "name": "V. barros",
       "country": "BRA",
       "gender": "Girls",
-      "currentRank": 4,
-      "officialPoints": 2194,
+      "currentRank": 3,
+      "officialPoints": 2526.5,
       "pointsBreakdownUrl": "https://www.itftennis.com/en/players/victoria-luiza-barros/800655335/bra/jt/s/itf-points-breakdown/",
-      "needsProfileResolution": false
-    },
-    {
-      "id": "mia-pohankova",
-      "name": "M. pohankova",
-      "country": "SVK",
-      "gender": "Girls",
-      "currentRank": 5,
-      "officialPoints": 2189.25,
-      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/mia-pohankova/800627475/svk/jt/s/itf-points-breakdown/",
       "needsProfileResolution": false
     },
     {
@@ -156,29 +136,29 @@
       "name": "J. kovackova",
       "country": "CZE",
       "gender": "Girls",
-      "currentRank": 6,
-      "officialPoints": 2099.75,
+      "currentRank": 4,
+      "officialPoints": 2506,
       "pointsBreakdownUrl": "https://www.itftennis.com/en/players/jana-kovackova/800661515/cze/jt/s/itf-points-breakdown/",
       "needsProfileResolution": false
     },
     {
-      "id": "hannah-klugman",
-      "name": "H. klugman",
-      "country": "GBR",
+      "id": "alena-kovackova",
+      "name": "A. kovackova",
+      "country": "CZE",
       "gender": "Girls",
-      "currentRank": 7,
-      "officialPoints": 2047.5,
-      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/hannah-klugman/800631038/gbr/jt/s/itf-points-breakdown/",
+      "currentRank": 5,
+      "officialPoints": 2034.75,
+      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/alena-kovackova/800572951/cze/jt/s/itf-points-breakdown/",
       "needsProfileResolution": false
     },
     {
-      "id": "kristina-penickova",
-      "name": "K. penickova",
-      "country": "USA",
+      "id": "mia-pohankova",
+      "name": "M. pohankova",
+      "country": "SVK",
       "gender": "Girls",
-      "currentRank": 8,
-      "officialPoints": 1905.5,
-      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/kristina-penickova/800719373/usa/jt/s/itf-points-breakdown/",
+      "currentRank": 6,
+      "officialPoints": 1917.5,
+      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/mia-pohankova/800627475/svk/jt/s/itf-points-breakdown/",
       "needsProfileResolution": false
     },
     {
@@ -186,24 +166,44 @@
       "name": "N. leme da silva",
       "country": "BRA",
       "gender": "Girls",
-      "currentRank": 9,
-      "officialPoints": 1743,
+      "currentRank": 7,
+      "officialPoints": 1866.75,
       "pointsBreakdownUrl": "https://www.itftennis.com/en/players/nauhany-vitoria-leme-da-silva/800695060/bra/jt/s/itf-points-breakdown/",
       "needsProfileResolution": false
     },
     {
-      "id": "julieta-pareja",
-      "name": "J. pareja",
+      "id": "anastasija-cvetkovic",
+      "name": "A. cvetkovic",
+      "country": "SRB",
+      "gender": "Girls",
+      "currentRank": 8,
+      "officialPoints": 1827.75,
+      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/anastasija-cvetkovic/800598140/srb/jt/s/itf-points-breakdown/",
+      "needsProfileResolution": false
+    },
+    {
+      "id": "kristina-penickova",
+      "name": "K. penickova",
       "country": "USA",
       "gender": "Girls",
+      "currentRank": 9,
+      "officialPoints": 1813.75,
+      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/kristina-penickova/800719373/usa/jt/s/itf-points-breakdown/",
+      "needsProfileResolution": false
+    },
+    {
+      "id": "mariia-makarova",
+      "name": "M. makarova",
+      "country": "RUS",
+      "gender": "Girls",
       "currentRank": 10,
-      "officialPoints": 1706.75,
-      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/julieta-pareja/800692835/usa/jt/s/itf-points-breakdown/",
+      "officialPoints": 1760.5,
+      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/mariia-makarova/800644962/rus/jt/s/itf-points-breakdown/",
       "needsProfileResolution": false
     }
   ],
   "totalPlayersInBase": 3405,
   "rankingLimit": 1000,
   "warnings": [],
-  "scrapedAt": "07/06/2026, 12:13"
+  "scrapedAt": "09/06/2026, 10:34"
 }
