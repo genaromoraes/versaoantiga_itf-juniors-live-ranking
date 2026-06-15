@@ -1,5 +1,5 @@
 {
-  "rankingDate": "8 jun 2026",
+  "rankingDate": "15 jun 2026",
   "scrapedPlayers": [
     {
       "id": "luis-guto-miguel",
@@ -17,7 +17,7 @@
       "country": "GER",
       "gender": "Boys",
       "currentRank": 2,
-      "officialPoints": 2675.75,
+      "officialPoints": 2525.75,
       "pointsBreakdownUrl": "https://www.itftennis.com/en/players/jamie-mackenzie/800570117/ger/jt/s/itf-points-breakdown/",
       "needsProfileResolution": false
     },
@@ -37,7 +37,7 @@
       "country": "SLO",
       "gender": "Boys",
       "currentRank": 4,
-      "officialPoints": 2378,
+      "officialPoints": 2298,
       "pointsBreakdownUrl": "https://www.itftennis.com/en/players/ziga-sesko/800579895/slo/jt/s/itf-points-breakdown/",
       "needsProfileResolution": false
     },
@@ -122,23 +122,23 @@
       "needsProfileResolution": false
     },
     {
-      "id": "victoria-luiza-barros",
-      "name": "V. barros",
-      "country": "BRA",
-      "gender": "Girls",
-      "currentRank": 3,
-      "officialPoints": 2526.5,
-      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/victoria-luiza-barros/800655335/bra/jt/s/itf-points-breakdown/",
-      "needsProfileResolution": false
-    },
-    {
       "id": "jana-kovackova",
       "name": "J. kovackova",
       "country": "CZE",
       "gender": "Girls",
-      "currentRank": 4,
+      "currentRank": 3,
       "officialPoints": 2506,
       "pointsBreakdownUrl": "https://www.itftennis.com/en/players/jana-kovackova/800661515/cze/jt/s/itf-points-breakdown/",
+      "needsProfileResolution": false
+    },
+    {
+      "id": "victoria-luiza-barros",
+      "name": "V. barros",
+      "country": "BRA",
+      "gender": "Girls",
+      "currentRank": 4,
+      "officialPoints": 2376.5,
+      "pointsBreakdownUrl": "https://www.itftennis.com/en/players/victoria-luiza-barros/800655335/bra/jt/s/itf-points-breakdown/",
       "needsProfileResolution": false
     },
     {
@@ -205,5 +205,5 @@
   "totalPlayersInBase": 3405,
   "rankingLimit": 1000,
   "warnings": [],
-  "scrapedAt": "14/06/2026, 12:29"
+  "scrapedAt": "15/06/2026, 13:26"
 }
